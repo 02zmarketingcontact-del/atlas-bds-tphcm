@@ -13,6 +13,7 @@ ru:{pageTitle:"Карта квартир Хошимина",subtitle:"Реаль�
 let lang="vi",map=null,projects=[],markers=[],selected=null,metro=null,planning=null,styleMode="vector",fallbackCount=0,errorCount=0,lastStyleTimer=null,interactive=false;
 let metroCatalog={lines:[]}, planningCatalog={sources:[]}, developerCatalog={projects:[]};
 let projectUniverse={records:[],counts:{}};
+let candidateLocationPins=[];
 let priceSyncState=undefined;
 let dossierById=new Map();
 let developerOfficialRegistry={projects:[]},developerMonitorState={projects:{}},developerCandidateStaging={candidates:[]};
@@ -54,6 +55,17 @@ function renderList(items){const el=$("projectList");el.replaceChildren();if(!it
 function clearMarkers(){markers.forEach(m=>m.remove());markers=[]}
 function renderMarkers(items){
  if(!map||!interactive)return;clearMarkers();
+ // GIS research preview: no verified claims, no prices, no map base count inflation.
+ if(!$("verifiedOnly").checked && !$("minPrice").value && !$("maxPrice").value && $("zone").value==="all" && $("status").value==="all")for(const p of candidateLocationPins){
+   const q=$("search").value.toLocaleLowerCase().trim();
+   if(q&&![p.name,p.address,p.developer].join(" ").toLocaleLowerCase().includes(q))continue;
+   if(!Number.isFinite(+p.lat)||!Number.isFinite(+p.lng)||p.coordVerified!==false)continue;
+   const b=node("button","projectMarker estimate compact");b.type="button";
+   b.title=p.name+" · Vị trí tham khảo — chờ kiểm duyệt";b.setAttribute("aria-label",b.title);
+   b.append(node("b","",p.name),node("span","","Vị trí tham khảo"));
+   b.onclick=e=>{e.stopPropagation();openCandidateLocation(p)};
+   markers.push(new maplibregl.Marker({element:b,anchor:"center"}).setLngLat([+p.lng,+p.lat]).addTo(map));
+ }
  const compact=!$("labelsEnabled").checked;
  const lowZoom=map.getZoom()<12.3&&$("labelsEnabled").checked;
  const addProjectMarker=(p,small)=>{
@@ -98,6 +110,15 @@ platform_directory_candidate_only:"Danh mục nền tảng — chờ kiểm ch�
 platform_reports_handed_over_unverified:"Tin bên thứ ba báo bàn giao",
 map_existing_unverified_status:"Có trong bản đồ"
 })[code]||"Đang đối chiếu nguồn"}
+function openCandidateLocation(p){
+ const el=$("detail");if(!el)return;selected=null;el.replaceChildren();el.hidden=false;
+ const close=node("button","close","×");close.type="button";close.onclick=()=>{el.hidden=true};el.append(close);
+ el.append(node("span","eyebrow","QiMap / GIS RESEARCH · CHỜ DUYỆT"),node("h2","",p.name),node("p","",p.address||""));
+ el.append(node("div","caution","Ghim tham khảo từ tọa độ thứ cấp, chưa xác minh bằng địa chính. Không phải vị trí pháp lý. Chưa có giá, suất mua người nước ngoài hay pháp lý được duyệt."));
+ detailRow(el,"Trạng thái","Chưa xác minh GIS");detailRow(el,"Kiểm tra ngày",p.checked_at||"—");
+ for(const url of [p.official_address_source?.url,...(p.coordinate_sources||[]).map(x=>x.url)]){const safe=validUrl(url);if(safe){const a=node("a","dossierSource","Xem chứng cứ ↗");a.href=safe;a.target="_blank";a.rel="noopener noreferrer";el.append(a)}}
+ const more=node("a","dossierSource","Xem hồ sơ ↗");more.href="./secondary-catalog.html?q="+encodeURIComponent(p.name);el.append(more);
+}
 function openArchiveProfile(p){
  const el=$("detail");if(!el)return;
  selected=null;el.replaceChildren();el.hidden=false;
@@ -290,6 +311,7 @@ metroCatalog=other[0].status==="fulfilled"?other[0].value:{lines:[]};planningCat
 metroStops=asGeoCollection(other[3].status==="fulfilled"?other[3].value:null);busStops=asGeoCollection(other[4].status==="fulfilled"?other[4].value:null);
 developerOfficialRegistry=other[5].status==="fulfilled"?other[5].value:{projects:[]};developerMonitorState=other[6].status==="fulfilled"?other[6].value:{projects:{}};developerCandidateStaging=other[7].status==="fulfilled"?other[7].value:{candidates:[]};
 projectUniverse=other[8].status==="fulfilled"&&Array.isArray(other[8].value?.records)?other[8].value:{records:[],counts:{}};
+try{const x=await getJson("data/location_crosscheck_pins_20261010.json");candidateLocationPins=Array.isArray(x.pins)?x.pins.filter(v=>v.coordVerified===false):[]}catch(e){candidateLocationPins=[];console.warn("Optional research pins unavailable",e?.message||e)}
 priceSyncState=other[9].status==="fulfilled"?other[9].value:null;renderMapPriceStatus();
 dossierById=new Map((other[10].status==="fulfilled"&&Array.isArray(other[10].value?.records)?other[10].value.records:[]).map(x=>[x.id,x]));
 renderMetroCatalog();renderPlanningCatalog();updateTransitLayers();const selectedId=new URLSearchParams(location.search).get("p");if(selectedId){const project=projects.find(x=>x.id===selectedId);if(project)setTimeout(()=>openProject(project),500)}render()}
