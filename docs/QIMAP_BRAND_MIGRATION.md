@@ -23,7 +23,7 @@ SVG `assets/qiluvi-logo-primary.svg` và `assets/qiluvi-logo-reversed.svg` đư�
 
 ## Đã áp dụng
 
-- `index.html`: legacy map V3.2 đổi bộ logo và tiêu đề, giữ nguyên engine cũ.
+- `index.html`: định tuyến khách vào homepage QiMap mới (`review.html`); `?p=` / tọa độ chuyển đến `map-v4.html`; `?legacy=1` chuyển sang bản V3.2.\n- `legacy.html`: sao lưu toàn bộ ứng dụng V3.2 với các asset, ID và luồng cũ, không loại bỏ chức năng.
 - `review.html`: homepage QiMap by QILUVI.
 - `map-v4.html`: full-screen map và hồ sơ dự án QiMap.
 - `history.html`: dữ liệu thị trường 2006–2026.
