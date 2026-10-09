@@ -35,6 +35,18 @@ async function run(){
    await desktop.screenshot({path:dir+"/v1-desktop.png",fullPage:true});
    log("V1 overview","PASS","Projects "+kpi+" · market bars "+bars+" · cards "+cards);
   }catch(e){failures.push("V1 overview: "+e.message);log("V1 overview","FAIL",e.message)}
+  // Public / landing must use current QiMap; legacy and map deep links remain valid.
+  try{
+   await goto(desktop,"");
+   await desktop.waitForURL(/\/review\.html(?:[?#]|$)/,{timeout:15000});
+   await desktop.waitForFunction(()=>document.querySelector("#kpiProjects")?.textContent.trim()==="32",{timeout:15000});
+   await goto(desktop,"?legacy=1");
+   await desktop.waitForURL(/\/legacy\.html(?:[?#]|$)/,{timeout:15000});
+   assert((await desktop.title()).startsWith("QiMap"),"Legacy app lost its QiMap-branded title");
+   await goto(desktop,"?p=prive");
+   await desktop.waitForURL(/\/map-v4\.html\?p=prive(?:[&#]|$)/,{timeout:15000});
+   log("QiMap root routing","PASS","Home, legacy V3.2, project deep links");
+  }catch(e){failures.push("QiMap public routes: "+e.message);log("QiMap root routing","FAIL",e.message)}
   // QiMap branding: all public pages must use QILUVI logo and QiMap naming.
   try{
    for(const path of ["review.html","map-v4.html","history.html","index.html"]){
