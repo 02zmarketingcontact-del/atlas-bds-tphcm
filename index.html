@@ -295,8 +295,28 @@ function drawTiles(){
  else document.querySelectorAll('.wmsTile').forEach(e=>e.remove());
  mapAttribution();
 }
-function drawWMSTiles({left,top,x0,x1,y0,y1,lim,z}){const used=new Set(),wms=STATE.wms;for(let y=y0;y<=y1;y++){if(y<0||y>=lim)continue;for(let xx=x0;xx<=x1;xx++){let x=(xx%lim+lim)%lim,key=`wms:${z}:${x}:${y}:${xx}`;used.add(key);let el=document.getElementById('tile-'+key.replace(/:/g,'-'));if(!el){el=document.createElement('img');el.alt='Lớp WMS quy hoạch';el.className='wmsTile';el.id='tile-'+key.replace(/:/g,'-');tileLayer.appendChild(el);const worldMeters=20037508.342789244,span=2*worldMeters/lim,minx=-worldMeters+x*span,maxx=minx+span,maxy=worldMeters-y*span,miny=maxy-span;let u=new URL(wms.url);for(let[k,v]of Object.entries({service:'WMS',version:'1.1.1',request:'GetMap',layers:wms.layer,styles:'',format:'image/png',transparent:'true',srs:'EPSG:3857',bbox:[minx,miny,maxx,maxy].join(','),width:'256',height:'256'}))u.searchParams.set(k,v);el.onerror=()=>{$('wmsStatus').textContent='WMS bị từ chối hoặc địa chỉ không hợp lệ; kiểm tra dịch vụ, lớp và quyền truy cập.'};el.src=u.href;}
- el.style.left=`${Math.round(xx*256-left)}px`;el.style.top=`${Math.round(y*256-top)}px`;el.style.opacity=String(wms.opacity/100)}}for(const el of document.querySelectorAll('.wmsTile')){if(!used.has(el.id.replace('tile-','').replace(/-/g,':')))el.remove()}}
+function drawWMSTiles({left,top,x0,x1,y0,y1,lim,z}){
+ const used=new Set(),wms=STATE.wms;if(!wms)return;
+ for(let y=y0;y<=y1;y++){
+  if(y<0||y>=lim)continue;
+  for(let xx=x0;xx<=x1;xx++){
+   const x=(xx%lim+lim)%lim,key='wms:'+wms.requestId+':'+z+':'+x+':'+y+':'+xx,id='tile-'+key.replace(/:/g,'-');
+   used.add(id);let el=document.getElementById(id);
+   if(!el){
+    el=document.createElement('img');el.alt='Lớp quy hoạch WMS';el.className='wmsTile';el.id=id;
+    const R=20037508.342789244,span=2*R/lim,minx=-R+x*span,maxx=minx+span,maxy=R-y*span,miny=maxy-span;
+    const u=new URL(wms.url);
+    for(const [k,v] of Object.entries({service:'WMS',version:'1.1.1',request:'GetMap',layers:wms.layer,styles:'',format:'image/png',transparent:'true',srs:'EPSG:3857',bbox:[minx,miny,maxx,maxy].join(','),width:'256',height:'256'}))u.searchParams.set(k,v);
+    el.onerror=()=>{if(STATE.wms===wms){wms.errorCount++;$('wmsStatus').textContent='WMS không trả ảnh hợp lệ ('+wms.errorCount+' ô lỗi). Kiểm tra tên lớp, HTTPS, GetMap, EPSG:3857 và quyền truy cập.'}};
+    el.onload=()=>{if(STATE.wms===wms){wms.successCount++;if(!wms.errorCount)$('wmsStatus').textContent='Đã nhận '+wms.successCount+' ảnh WMS. Nếu lớp trống, có thể nguồn không phủ vùng bản đồ đang xem. Không dùng làm xác nhận pháp lý.'}};
+    el.src=u.href;tileLayer.appendChild(el);
+   }
+   el.style.left=Math.round(xx*256-left)+'px';el.style.top=Math.round(y*256-top)+'px';el.style.opacity=String(wms.opacity/100);
+  }
+ }
+ for(const el of document.querySelectorAll('.wmsTile'))if(!used.has(el.id))el.remove();
+}
+
 function schedule(){if(renderQueued)return;renderQueued=true;requestAnimationFrame(()=>{renderQueued=false;renderAll()})}
 function renderAll(){if(STATE.engine==='native')drawTiles();drawGeography();drawHeat();drawDotsAndLabels();updateCounts()}
 function inBounds(pt,pad=50){const{w,h}=dims();return pt.x>=-pad&&pt.x<=w+pad&&pt.y>=-pad&&pt.y<=h+pad}
@@ -334,7 +354,41 @@ function drawGeography(){let h='';if(STATE.metro){h+=svgLine(METRO,'#ffffff',8,'
  if(STATE.boundaryNew&&STATE.borderGeo.new){let feats=STATE.borderGeo.new.features.filter(f=>filterBorder(f,'hcm'));h+=drawGeoData({features:feats},'#385f9d',3,'',false)}
  if(STATE.planningVisible&&STATE.planning.length){for(const f of STATE.planning.slice(0,2500)){const g=f.geometry;if(!g)continue;let c=String(f.properties?.color||'#8a55af');if(!/^#[0-9a-fA-F]{3,8}$/.test(c))c='#8a55af';for(const ring of geoRings(g)){let pts=ring.points.map(p=>[p[1],p[0]]);h+=svgLine(pts,c,ring.closed?2.7:3.5,ring.closed?'3 3':'',ring.closed?'.9':'.95')}if(g.type==='Point'&&g.coordinates?.length>=2){let [x,y]=g.coordinates;let p=pixel(y,x);h+=`<circle cx="${p.x}" cy="${p.y}" r="5" fill="#835db3" stroke="white" stroke-width="2"/>`}}}
  $('geoSvg').innerHTML=h}
-async function toggleBorder(which){const enabled=which==='old'?STATE.boundaryOld:STATE.boundaryNew;if(!enabled){drawGeography();return}if(STATE.borderGeo[which]){drawGeography();return}const label=which==='old'?'trước sáp nhập':'sau sáp nhập';$('boundaryStatus').textContent='Đang tải dữ liệu GIS '+label+'…';try{let abort=new AbortController();let timer=setTimeout(()=>abort.abort(),13000);let res=await fetch(ROUTES[which],{signal:abort.signal,cache:'force-cache'});clearTimeout(timer);if(!res.ok)throw Error('HTTP '+res.status);let geo=await res.json();if(!Array.isArray(geo.features))throw Error('Không phải GeoJSON FeatureCollection');STATE.borderGeo[which]=geo;$('boundaryStatus').textContent='Đã nạp ranh giới '+label+' (nguồn dữ liệu mở, cần đối chiếu pháp lý).';drawGeography()}catch(err){$('boundaryStatus').textContent='Không thể tải GIS '+label+': '+String(err.message).slice(0,90)+'. Có thể nhập file GeoJSON qua mục quy hoạch.'}}
+function slimRingForDisplay(ring,maxPoints=1400){
+ if(!Array.isArray(ring)||ring.length<=maxPoints)return ring;
+ const step=Math.ceil(ring.length/maxPoints),result=ring.filter((_,i)=>i%step===0);
+ if(result[result.length-1]!==ring[ring.length-1])result.push(ring[ring.length-1]);return result;
+}
+function slimBoundaryFeature(feature){
+ const g=feature.geometry;if(!g)return feature;let coordinates=g.coordinates;
+ if(g.type==='Polygon')coordinates=coordinates.map(r=>slimRingForDisplay(r));
+ else if(g.type==='MultiPolygon')coordinates=coordinates.map(p=>p.map(r=>slimRingForDisplay(r)));
+ return {...feature,geometry:{...g,coordinates}};
+}
+async function toggleBorder(which){
+ const enabled=which==='old'?STATE.boundaryOld:STATE.boundaryNew;
+ if(!enabled){drawGeography();return}
+ if(STATE.borderGeo[which]){drawGeography();return}
+ const label=which==='old'?'trước sáp nhập':'sau sáp nhập',ctl=$(which==='old'?'oldBoundary':'newBoundary');
+ $('boundaryStatus').textContent='Đang tải ranh giới GIS cộng đồng '+label+'; dữ liệu nguồn có dung lượng lớn…';
+ const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),20000);
+ try{
+   const res=await fetch(ROUTES[which],{signal:controller.signal,cache:'force-cache'});
+   if(!res.ok)throw Error('HTTP '+res.status);
+   const geo=await res.json();if(!Array.isArray(geo.features))throw Error('Không phải GeoJSON hợp lệ');
+   const features=geo.features.filter(f=>which==='old'?(filterBorder(f,'hcm')||filterBorder(f,'bd')||filterBorder(f,'brvt')):filterBorder(f,'hcm'));
+   if(!features.length)throw Error('Không tìm được vùng TP.HCM theo mã/tên từ dữ liệu nguồn');
+   STATE.borderGeo[which]={type:'FeatureCollection',features:features.map(slimBoundaryFeature)};
+   $('boundaryStatus').textContent='Đã nạp '+features.length+' vùng '+label+' (đơn giản hóa để vẽ; không phải ranh giới pháp lý). Nguồn Free-GIS-Data.';
+   drawGeography();
+ }catch(err){
+   ctl.checked=false;if(which==='old')STATE.boundaryOld=false;else STATE.boundaryNew=false;
+   const reason=err.name==='AbortError'?'hết thời gian tải':String(err.message).slice(0,95);
+   $('boundaryStatus').textContent='Không thể tải ranh giới '+label+': '+reason+'. Hãy thử lại hoặc dùng cổng quy hoạch chính thức.';
+   drawGeography();
+ }finally{clearTimeout(timer)}
+}
+
 function haversine(a,b){const r=6371,d1=(b.lat-a.lat)*Math.PI/180,d2=(b.lng-a.lng)*Math.PI/180,q=Math.sin(d1/2)**2+Math.cos(a.lat*Math.PI/180)*Math.cos(b.lat*Math.PI/180)*Math.sin(d2/2)**2;return r*2*Math.atan2(Math.sqrt(q),Math.sqrt(1-q))}
 function near(p){return STATE.projects.filter(q=>q.id!==p.id).map(q=>({...q,km:haversine(p,q)})).sort((a,b)=>a.km-b.km).slice(0,4)}
 function detailRow(k,v){return`<div class="detailRow"><span>${esc(k)}</span><b>${esc(v??'Chưa xác minh')}</b></div>`}
@@ -367,7 +421,18 @@ function kmlToGeo(doc){let xml=new DOMParser().parseFromString(doc,'text/xml');i
 function validGeodata(geo){if(geo.type==='FeatureCollection'&&Array.isArray(geo.features))return geo.features.filter(f=>f&&f.type==='Feature'&&f.geometry);if(geo.type==='Feature')return[geo];if(geo.type&&geo.coordinates)return[{type:'Feature',geometry:geo,properties:{}}];throw Error('Không phải FeatureCollection/Feature/Geometry GeoJSON')}
 function loadGeoJSON(geo){let arr=validGeodata(geo);if(arr.length>5000)throw Error('Tối đa 5.000 features');STATE.planning=arr;$('planningStatus').textContent=`Đã nạp ${arr.length} đối tượng GIS (dữ liệu người dùng cung cấp, chưa xác minh pháp lý).`;STATE.planningVisible=true;$('planningToggle').checked=true;drawGeography()}
 async function importPlanning(file){try{if(file.size>25_000_000)throw Error('File GIS vượt 25MB');let content=await file.text(),geo=file.name.toLowerCase().endsWith('.kml')?kmlToGeo(content):JSON.parse(content);loadGeoJSON(geo);toast('Đã nạp lớp GIS, nhớ kiểm tra tọa độ WGS84.')}catch(err){$('planningStatus').textContent='Không nạp được: '+err.message}}
-function enableWMS(){try{const url=validURL($('wmsUrl').value.trim()),layer=$('wmsName').value.trim();if(url==='#'||!layer||!/^[-\w:.]+$/.test(layer))throw Error('URL WMS hoặc tên lớp không hợp lệ');STATE.wms={url,layer,opacity:Number($('wmsOpacity').value)};clearWMSImgs();drawTiles();$('wmsStatus').textContent='Đang yêu cầu lớp WMS; muốn sử dụng cần dịch vụ công khai và quyền truy cập hợp lệ.'}catch(err){$('wmsStatus').textContent=err.message}}
+function enableWMS(){
+ try{
+  const url=validURL($('wmsUrl').value.trim()),layer=$('wmsName').value.trim();
+  if(url==='#'||!url.startsWith('https://')||!layer||!/^[-\w:.]+$/.test(layer))
+    throw Error('Cần URL WMS HTTPS và tên lớp hợp lệ (ví dụ workspace:layer).');
+  if(STATE.engine==='google')disableGoogleEngine();
+  clearWMSImgs();STATE.wms={url,layer,opacity:Number($('wmsOpacity').value),requestId:Date.now(),successCount:0,errorCount:0};
+  $('wmsStatus').textContent='Đang tải ảnh WMS trên nền bản đồ mở. Nguồn cần hỗ trợ GetMap PNG, EPSG:3857 và truy cập từ trình duyệt.';
+  drawTiles();
+ }catch(err){$('wmsStatus').textContent=String(err.message)}
+}
+
 function clearWMSImgs(){document.querySelectorAll('.wmsTile').forEach(n=>n.remove())}
 async function loadGoogle(){const key=$('googleKey').value.trim();if(!key){toast('Nhập Google Maps API key trước khi bật');return}if(!window.location.protocol.startsWith('http')){toast('Google Maps key giới hạn HTTP referrer nên dùng trang HTTPS đã triển khai.');return}if(window.google?.maps){enableGoogleEngine();return}
  $('googleStatus').textContent='Đang tải Google Maps JavaScript API…';window.__atlasGoogleReady=()=>{clearTimeout(window.googleTimeout);enableGoogleEngine()};let script=document.createElement('script');script.async=true;script.src='https://maps.googleapis.com/maps/api/js?key='+encodeURIComponent(key)+'&v=weekly&callback=__atlasGoogleReady';script.onerror=()=>{$('googleStatus').textContent='Google Maps không tải được: xem cấu hình key, hạn mức, Billing và referrer.'};document.head.appendChild(script);window.googleTimeout=setTimeout(()=>{if(!STATE.googleMap)$('googleStatus').textContent='Google Maps quá thời gian phản hồi. Kiểm tra Billing/API key/HTTP referrer.'},13500)}
