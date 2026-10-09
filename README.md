@@ -1,3 +1,16 @@
+# ATLAS V1 Review — 09/10/2026
+
+**Bắt đầu review tại:** https://02zmarketingcontact-del.github.io/atlas-bds-tphcm/review.html
+
+- [Bản đồ thực V4](https://02zmarketingcontact-del.github.io/atlas-bds-tphcm/map-v4.html)
+- [Lịch sử căn hộ 2006–2026](https://02zmarketingcontact-del.github.io/atlas-bds-tphcm/history.html)
+- [Checklist nghiệm thu V1](docs/V1_REVIEW_2026_10_09.md)
+- [ATLAS Progress Desk](https://github.com/02zmarketingcontact-del/atlas-bds-tphcm/issues/23)
+
+**Giới hạn hiện tại:** hồ sơ mẫu, giá chào chưa xác minh độc lập, quy hoạch GIS chính thức chưa kết nối, chưa có chuỗi thống kê trọn 20 năm. Nền móng đã có nhưng V1 không phải cổng giao dịch hay bảng giá được xác minh.
+
+---
+
 # ATLAS BĐS TP.HCM — Interactive Apartment Price Map (V3.2)
 
 Bản đồ tương tác căn hộ khu vực TP.HCM mở rộng và vùng lân cận: **Tiếng Việt / English / 中文**. Hiển thị ô giá trực tiếp, hồ sơ dự án, so sánh, bộ lọc và lớp GIS quy hoạch tùy chọn.
