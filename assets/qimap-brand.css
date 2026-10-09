@@ -1,0 +1,65 @@
+/* QiMap by QILUVI. Source: supplied QILUVI Brand Guidelines concept v1.
+   Palette: ivory/graphite/champagne/platinum/white. Preserve map tile behavior. */
+:root {
+ --qiluvi-ivory:#F6F3EC;
+ --qiluvi-graphite:#223139;
+ --qiluvi-champagne:#B49B77;
+ --qiluvi-platinum:#C9CDCC;
+ --qiluvi-white:#FFFFFF;
+ --navy:#223139;
+ --ink:#223139;
+ --muted:#647276;
+ --line:#C9CDCC;
+ --cream:#F6F3EC;
+ --paper:#F6F3EC;
+ --canvas:#F6F3EC;
+ --sand:#B49B77;
+ --highlight:#B49B77;
+ --light:#F6F3EC;
+}
+html {color-scheme:light}
+body{background:var(--qiluvi-ivory);color:var(--qiluvi-graphite);font-family:"Inter", "Noto Sans", "Segoe UI",system-ui,sans-serif}
+.nav,.topbar,#topbar{background:rgba(246,243,236,.97)!important;border-color:var(--qiluvi-platinum)!important}
+.qimap-brand-lockup{display:flex;align-items:center;gap:8px;min-width:0;flex-shrink:0;text-decoration:none}
+.qimap-brand-logo{display:block;width:143px;height:44px;object-fit:contain;object-position:left center;flex-shrink:0}
+.qimap-product{display:flex;flex-direction:column;justify-content:center;min-width:0;gap:2px;border-left:1px solid #C9CDCC;padding-left:11px;color:#223139}
+.qimap-product b{display:block;font-weight:780;font-size:18px;line-height:1.1;letter-spacing:-.05em;white-space:nowrap}
+.qimap-product small{display:block;font-size:8px;font-weight:700;line-height:1.3;color:#75807f;letter-spacing:.065em;white-space:nowrap;text-transform:uppercase}
+.nav .wordmark.qimap-brand-lockup,.topbar .logo.qimap-brand-lockup{min-width:226px;gap:8px}
+.nav .wordmark.qimap-brand-lockup .qimap-product b,.topbar .logo.qimap-brand-lockup .qimap-product b{font-size:17px;letter-spacing:-.04em}
+.nav .mainnav a.selected,.topbar nav a.active{border-color:var(--qiluvi-champagne)!important;color:var(--qiluvi-graphite)!important}
+.nav .version,.topbar .beta{color:#846d4c;border-color:#dfd0b7;background:#f3ece1}
+.intro{background:var(--qiluvi-ivory)}
+.intro h1 em,.intro .overline,.section .overline,.principles .overline,.eyebrow{color:#9C825E}
+.introGraphic{background-color:#e9e5dc!important;background-image:url('./qiluvi-connection-network.svg')!important;background-repeat:no-repeat!important;background-position:center!important;background-size:cover!important;border-color:var(--qiluvi-platinum)!important}
+.introGraphic .mapTile.one{background:#FFFFFFE8;border-color:#C9CDCC;color:#223139}
+.introGraphic .mapTile.two{background:#223139;border-color:#5d6c70;color:#F6F3EC}
+.introGraphic .mapTile .pulse{background:#B49B77}
+.introGraphic .rings{opacity:.55}
+.cta,.button,.cardsBottom button:hover{background:#223139;color:#F6F3EC}
+.cta:hover,.button:hover{background:#344954}
+.cta span,.plainlink,.underlineLink{color:#B49B77}
+.number,.statsHistory strong{color:#223139}
+.numbers>div,.projectCard,.panel,.chartPanel,.methodPanel,.segmentSummary,.segmentList,.rentalCard,.riskCard{border-color:#D8DCDA!important}
+.projectCard:hover{border-color:#B49B77!important}
+.mapShell{border-color:var(--qiluvi-platinum)!important}
+.sidebar{background:#F6F3EC!important;border-color:#C9CDCC!important}
+.sidebar .stats,.stats{background:#eeebe4!important;border-color:#dedad2!important}
+.sidebar .sideIntro{background-image:url('./qiluvi-connection-network.svg');background-repeat:no-repeat;background-size:240px auto;background-position:right -55px top -78px}
+.sideIntro h1{color:#223139}
+.mapTools{background:#F6F3ECF2;color:#223139}
+.mapTools .check{border-color:#d9d9d3}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline-color:#B49B77;outline-offset:2px}
+#topbar .brand{display:flex;align-items:center}
+#topbar .brand .qimap-brand-lockup .qimap-brand-logo{width:137px;height:41px}
+#topbar .brand .qimap-brand-lockup .qimap-product b{font-size:18px}
+#topbar .brand .qimap-brand-lockup .qimap-product small{font-size:7.5px}
+header a.qimap-brand-lockup:hover{opacity:.85}
+footer{background:#223139!important;color:#F6F3EC}
+footer .qimap-footer-brand{color:#F6F3EC;font-size:13px;letter-spacing:.09em}
+footer .qimap-footer-brand span{color:#B49B77;font-weight:500}
+.qimap-byline{color:#826c4b;font-size:11px;font-weight:800;letter-spacing:.06em}
+@media(max-width:1150px){.topbar .logo.qimap-brand-lockup{min-width:200px}.qimap-brand-logo{width:122px;height:39px}.qimap-product{padding-left:8px}.topbar nav{gap:13px}}
+@media(max-width:790px){.nav .wordmark.qimap-brand-lockup{min-width:0}.qimap-brand-logo{width:116px;height:39px}.nav .wordmark.qimap-brand-lockup .qimap-product b{font-size:16px}.qimap-product small{font-size:7px}.topbar .logo.qimap-brand-lockup{min-width:0}.topbar{gap:9px}.topbar nav{gap:9px}}
+@media(max-width:520px){.qimap-brand-logo{width:101px;height:36px}.qimap-product{padding-left:7px;gap:1px}.nav .wordmark.qimap-brand-lockup .qimap-product b,.topbar .logo.qimap-brand-lockup .qimap-product b{font-size:14px}.qimap-product small{font-size:6px;letter-spacing:.025em}.nav .wordmark.qimap-brand-lockup{gap:5px}.topbar .logo.qimap-brand-lockup{gap:5px}#topbar .brand .qimap-brand-lockup .qimap-brand-logo{width:103px;height:35px}#topbar .brand .qimap-brand-lockup .qimap-product b{font-size:15px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
