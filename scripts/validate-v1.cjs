@@ -29,7 +29,12 @@ test(mapCss.includes("html.embedded .sidebar"),"Map embedding styles missing");
 test(map.includes('maplibre-gl@6.13.0'),"MapLibre CDN version unpinned/missing");
 test(map.includes("import("),"MapLibre module import missing");
 test(script.includes("data/market_history_2006_2026.json"),"Review uses wrong historical file");
-test(history.includes("data/market_history_2006_2026.json"),"Historical page uses wrong file");
+test(history.includes("assets/atlas-history.js") || history.includes("data/market_history_2006_2026.json"),"Historical page must load the 20-year client");
+if(history.includes("assets/atlas-history.js")){
+ const historyScript=read("assets/atlas-history.js");
+ test(historyScript.includes("data/market_history_2006_2026.json"),"History JavaScript missing 20-year dataset");
+ try{new vm.Script(historyScript,{filename:"atlas-history.js"})}catch(e){errors.push("History data client syntax: "+e.message)}
+}
 test(css.length>1000,"review CSS unexpectedly empty");
 test(market.temporal_coverage.baseline_year===2006&&market.temporal_coverage.end_year===2026,"wrong history study interval");
 test(projects.length>=20,"project sample set unexpectedly small");

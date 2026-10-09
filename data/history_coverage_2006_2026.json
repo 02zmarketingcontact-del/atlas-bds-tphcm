@@ -1,0 +1,253 @@
+{
+  "schema_version": "1.0",
+  "period": {
+    "baseline_year": 2006,
+    "current_year": 2026,
+    "year_2026_partial": true
+  },
+  "scope": "HCMC apartment primary/resale/rent analysis, old/new boundaries tracked separately",
+  "priority_tiers": [
+    {
+      "years": [
+        2006,
+        2009
+      ],
+      "kind": "archive_reconstruction",
+      "goal": "market formation, launch history, historic indices, legal and macro context"
+    },
+    {
+      "years": [
+        2010,
+        2014
+      ],
+      "kind": "early_research",
+      "goal": "archives Savills/CBRE and public disclosures; quarter series if available"
+    },
+    {
+      "years": [
+        2015,
+        2021
+      ],
+      "kind": "modern_reports",
+      "goal": "market supply, launches, absorption, primary index, secondary and rent"
+    },
+    {
+      "years": [
+        2022,
+        2026
+      ],
+      "kind": "recent_period",
+      "goal": "quarterly price bands, supply, market mix, rental and CPI adjustments; post-2025 geography boundary"
+    }
+  ],
+  "essential_metrics": [
+    "launched_units_primary",
+    "primary_asking_vnd_per_m2",
+    "secondary_asking_vnd_per_m2",
+    "rental_asking_vnd_per_m2_per_month",
+    "sold_units_reported",
+    "absorption_rate",
+    "project_launch_event",
+    "price_index",
+    "consumer_price_index",
+    "bank_mortgage_rate"
+  ],
+  "candidate_source_pools": [
+    "Bộ Xây dựng market reports",
+    "Savills quarterly and SPPI archives",
+    "CBRE HCMC market reports",
+    "developer official launches/news",
+    "GSO CPI and household statistics",
+    "archived project brochures with publication dates"
+  ],
+  "years": [
+    {
+      "year": 2006,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 0,
+      "available_metrics": [],
+      "manual_review_required": true
+    },
+    {
+      "year": 2007,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 0,
+      "available_metrics": [],
+      "manual_review_required": true
+    },
+    {
+      "year": 2008,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 0,
+      "available_metrics": [],
+      "manual_review_required": true
+    },
+    {
+      "year": 2009,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 0,
+      "available_metrics": [],
+      "manual_review_required": true
+    },
+    {
+      "year": 2010,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 0,
+      "available_metrics": [],
+      "manual_review_required": true
+    },
+    {
+      "year": 2011,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 0,
+      "available_metrics": [],
+      "manual_review_required": true
+    },
+    {
+      "year": 2012,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 0,
+      "available_metrics": [],
+      "manual_review_required": true
+    },
+    {
+      "year": 2013,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 1,
+      "available_metrics": [
+        "residential_price_index"
+      ],
+      "manual_review_required": true
+    },
+    {
+      "year": 2014,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 4,
+      "available_metrics": [
+        "reported_units_sold"
+      ],
+      "manual_review_required": true
+    },
+    {
+      "year": 2015,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 4,
+      "available_metrics": [
+        "reported_units_sold"
+      ],
+      "manual_review_required": true
+    },
+    {
+      "year": 2016,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 6,
+      "available_metrics": [
+        "reported_units_sold",
+        "residential_price_index"
+      ],
+      "manual_review_required": true
+    },
+    {
+      "year": 2017,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 5,
+      "available_metrics": [
+        "reported_units_sold",
+        "residential_price_index"
+      ],
+      "manual_review_required": true
+    },
+    {
+      "year": 2018,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 5,
+      "available_metrics": [
+        "reported_units_sold",
+        "average_selling_price"
+      ],
+      "manual_review_required": true
+    },
+    {
+      "year": 2019,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 2,
+      "available_metrics": [
+        "reported_units_sold",
+        "new_apartment_units_entered"
+      ],
+      "manual_review_required": true
+    },
+    {
+      "year": 2020,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 0,
+      "available_metrics": [],
+      "manual_review_required": true
+    },
+    {
+      "year": 2021,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 0,
+      "available_metrics": [],
+      "manual_review_required": true
+    },
+    {
+      "year": 2022,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 0,
+      "available_metrics": [],
+      "manual_review_required": true
+    },
+    {
+      "year": 2023,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 0,
+      "available_metrics": [],
+      "manual_review_required": true
+    },
+    {
+      "year": 2024,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 0,
+      "available_metrics": [],
+      "manual_review_required": true
+    },
+    {
+      "year": 2025,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 0,
+      "available_metrics": [],
+      "manual_review_required": true
+    },
+    {
+      "year": 2026,
+      "review_status": "source_collection",
+      "complete": false,
+      "observations_approved": 0,
+      "available_metrics": [],
+      "manual_review_required": true
+    }
+  ],
+  "sources_priority": "authority > developer corporate > established research > permitted secondary public facts",
+  "publication_rule": "No extrapolation into unsupported year/source; never combine secondary prices with primary or changed geography."
+}

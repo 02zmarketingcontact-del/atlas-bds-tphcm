@@ -1,0 +1,31 @@
+name: ATLAS developer-first research watch
+on:
+  pull_request:
+    paths:
+      - 'scripts/check-developer-sources.cjs'
+      - 'data/project_developer_sources.json'
+      - '.github/workflows/atlas-developer-research.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '43 2 * * 1'
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Review owner/developer website status and research queue
+        run: node scripts/check-developer-sources.cjs
+      - name: Archive developer evidence review queue
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-developer-source-audit
+          path: artifacts/developer-source-audit.json
+          if-no-files-found: warn
+          retention-days: 7

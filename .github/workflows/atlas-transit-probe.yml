@@ -1,0 +1,24 @@
+name: ATLAS OSM transit candidate probe
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Query bounded OpenStreetMap transit data once
+        run: node scripts/fetch-transit-osm.cjs
+      - name: Upload candidate GIS snapshots for review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-transit-candidates
+          path: artifacts/
+          if-no-files-found: warn
+          retention-days: 5

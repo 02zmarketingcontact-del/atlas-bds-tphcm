@@ -1,0 +1,331 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Metro/subway stations in sampled OSM area",
+    "source": "OpenStreetMap contributors via Overpass",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "endpoint": "https://overpass.kumi.systems/api/interpreter",
+    "attribution": "© OpenStreetMap contributors",
+    "license": "ODbL",
+    "bbox": [
+      10.69,
+      106.62,
+      10.93,
+      106.88
+    ],
+    "reviewed": false,
+    "observed_at": "2026-10-09T07:49:40.289Z",
+    "commercial_use_note": "Respect attribution and ODbL requirements. Check actual timetable with official operator.",
+    "record_count": 14
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/11586280298",
+      "properties": {
+        "name": "Công viên Văn Thánh",
+        "category": "metro_station",
+        "osm_id": "node/11586280298",
+        "operator": "Ban Quản lý Đường sắt đô thị Thành phố Hồ Chí Minh",
+        "osm_url": "https://www.openstreetmap.org/node/11586280298",
+        "data_source": "openstreetmap",
+        "verified_official": false,
+        "position_type": "osm_recorded",
+        "last_checked": "2026-10-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7155056,
+          10.7960548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11586280299",
+      "properties": {
+        "name": "Tân Cảng",
+        "category": "metro_station",
+        "osm_id": "node/11586280299",
+        "operator": "Ban Quản lý Đường sắt đô thị Thành phố Hồ Chí Minh",
+        "osm_url": "https://www.openstreetmap.org/node/11586280299",
+        "data_source": "openstreetmap",
+        "verified_official": false,
+        "position_type": "osm_recorded",
+        "last_checked": "2026-10-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7232392,
+          10.7985879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11586280300",
+      "properties": {
+        "name": "Thảo Điền",
+        "category": "metro_station",
+        "osm_id": "node/11586280300",
+        "operator": "Ban Quản lý Đường sắt đô thị Thành phố Hồ Chí Minh",
+        "osm_url": "https://www.openstreetmap.org/node/11586280300",
+        "data_source": "openstreetmap",
+        "verified_official": false,
+        "position_type": "osm_recorded",
+        "last_checked": "2026-10-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7336512,
+          10.8004871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11586280301",
+      "properties": {
+        "name": "An Phú",
+        "category": "metro_station",
+        "osm_id": "node/11586280301",
+        "operator": "Ban Quản lý Đường sắt đô thị Thành phố Hồ Chí Minh",
+        "osm_url": "https://www.openstreetmap.org/node/11586280301",
+        "data_source": "openstreetmap",
+        "verified_official": false,
+        "position_type": "osm_recorded",
+        "last_checked": "2026-10-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7422498,
+          10.8021337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11586280302",
+      "properties": {
+        "name": "Rạch Chiếc",
+        "category": "metro_station",
+        "osm_id": "node/11586280302",
+        "operator": "Ban Quản lý Đường sắt đô thị Thành phố Hồ Chí Minh",
+        "osm_url": "https://www.openstreetmap.org/node/11586280302",
+        "data_source": "openstreetmap",
+        "verified_official": false,
+        "position_type": "osm_recorded",
+        "last_checked": "2026-10-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.755277,
+          10.8085535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11586280303",
+      "properties": {
+        "name": "Phước Long",
+        "category": "metro_station",
+        "osm_id": "node/11586280303",
+        "operator": "Ban Quản lý Đường sắt đô thị Thành phố Hồ Chí Minh",
+        "osm_url": "https://www.openstreetmap.org/node/11586280303",
+        "data_source": "openstreetmap",
+        "verified_official": false,
+        "position_type": "osm_recorded",
+        "last_checked": "2026-10-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.758185,
+          10.821435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11586280304",
+      "properties": {
+        "name": "Bình Thái",
+        "category": "metro_station",
+        "osm_id": "node/11586280304",
+        "operator": "Ban Quản lý Đường sắt đô thị Thành phố Hồ Chí Minh",
+        "osm_url": "https://www.openstreetmap.org/node/11586280304",
+        "data_source": "openstreetmap",
+        "verified_official": false,
+        "position_type": "osm_recorded",
+        "last_checked": "2026-10-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7638944,
+          10.832652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11586280305",
+      "properties": {
+        "name": "Khu Công Nghệ Cao",
+        "category": "metro_station",
+        "osm_id": "node/11586280305",
+        "operator": "Ban Quản lý Đường sắt đô thị Thành phố Hồ Chí Minh",
+        "osm_url": "https://www.openstreetmap.org/node/11586280305",
+        "data_source": "openstreetmap",
+        "verified_official": false,
+        "position_type": "osm_recorded",
+        "last_checked": "2026-10-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7888364,
+          10.8589894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11586280306",
+      "properties": {
+        "name": "Đại học Quốc gia",
+        "category": "metro_station",
+        "osm_id": "node/11586280306",
+        "operator": "Ban Quản lý Đường sắt đô thị Thành phố Hồ Chí Minh",
+        "osm_url": "https://www.openstreetmap.org/node/11586280306",
+        "data_source": "openstreetmap",
+        "verified_official": false,
+        "position_type": "osm_recorded",
+        "last_checked": "2026-10-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8012008,
+          10.8662985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11586280307",
+      "properties": {
+        "name": "Bến xe Suối Tiên",
+        "category": "metro_station",
+        "osm_id": "node/11586280307",
+        "operator": "Ban Quản lý Đường sắt đô thị Thành phố Hồ Chí Minh",
+        "osm_url": "https://www.openstreetmap.org/node/11586280307",
+        "data_source": "openstreetmap",
+        "verified_official": false,
+        "position_type": "osm_recorded",
+        "last_checked": "2026-10-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8140929,
+          10.8795447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11586280327",
+      "properties": {
+        "name": "Thủ Đức",
+        "category": "metro_station",
+        "osm_id": "node/11586280327",
+        "operator": "Ban Quản lý Đường sắt đô thị Thành phố Hồ Chí Minh",
+        "osm_url": "https://www.openstreetmap.org/node/11586280327",
+        "data_source": "openstreetmap",
+        "verified_official": false,
+        "position_type": "osm_recorded",
+        "last_checked": "2026-10-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7716521,
+          10.8464061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1162981728",
+      "properties": {
+        "name": "Ga Bến Thành",
+        "category": "metro_station",
+        "osm_id": "way/1162981728",
+        "operator": "Ban Quản lý Đường sắt đô thị Thành phố Hồ Chí Minh",
+        "osm_url": "https://www.openstreetmap.org/way/1162981728",
+        "data_source": "openstreetmap",
+        "verified_official": false,
+        "position_type": "osm_recorded",
+        "last_checked": "2026-10-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.697883,
+          10.7709487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1162989826",
+      "properties": {
+        "name": "Ga Nhà Hát Thành Phố",
+        "category": "metro_station",
+        "osm_id": "way/1162989826",
+        "operator": "Ban Quản lý Đường sắt đô thị Thành phố Hồ Chí Minh",
+        "osm_url": "https://www.openstreetmap.org/way/1162989826",
+        "data_source": "openstreetmap",
+        "verified_official": false,
+        "position_type": "osm_recorded",
+        "last_checked": "2026-10-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7020679,
+          10.775303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1163010587",
+      "properties": {
+        "name": "Ga Ba Son",
+        "category": "metro_station",
+        "osm_id": "way/1163010587",
+        "operator": "Ban Quản lý Đường sắt đô thị Thành phố Hồ Chí Minh",
+        "osm_url": "https://www.openstreetmap.org/way/1163010587",
+        "data_source": "openstreetmap",
+        "verified_official": false,
+        "position_type": "osm_recorded",
+        "last_checked": "2026-10-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7083401,
+          10.7817906
+        ]
+      }
+    }
+  ]
+}

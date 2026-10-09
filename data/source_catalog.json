@@ -94,6 +94,40 @@
       ],
       "rights_status": "ODbL/data attribution; raster tile usage policy applies",
       "bulk_copy": false
+    },
+    {
+      "id": "savills-sppi-2013q4",
+      "name": "Savills HCMC Property Price Index Q4/2013",
+      "organization": "Savills Research",
+      "url": "https://www.savills.com.vn/insight-and-opinion/savills-news/124883/savills-property-price-index-%28sppi%29---hcmc",
+      "rights_status": "citation_short_factual_figures",
+      "data_scope": [
+        "Residential price index Q4/2013"
+      ],
+      "bulk_copy": false
+    },
+    {
+      "id": "savills-sppi-2016q1",
+      "name": "Savills HCMC SPPI Q1/2016",
+      "organization": "Savills Research",
+      "url": "https://www.savills.com.vn/insight-and-opinion/savills-news/144024/savills-property-price-index-in-hcmc-and-hn---q1-2016",
+      "rights_status": "citation_short_factual_figures",
+      "data_scope": [
+        "Residential index Q1/2016",
+        "Q1/2016 reported apartment sales"
+      ],
+      "bulk_copy": false
+    },
+    {
+      "id": "savills-sppi-2017q1",
+      "name": "Savills HCMC SPPI Q1/2017",
+      "organization": "Savills Research",
+      "url": "https://www.savills.com.vn/insight-and-opinion/savills-news/153530/savills-property-price-index-%28sppi%29-in-hcmc-and-hanoi-q1-2017",
+      "rights_status": "citation_short_factual_figures",
+      "data_scope": [
+        "Residential index Q1/2017"
+      ],
+      "bulk_copy": false
     }
   ]
 }
