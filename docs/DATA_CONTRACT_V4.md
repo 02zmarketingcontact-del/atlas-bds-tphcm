@@ -14,7 +14,7 @@ Scope: HCMC and neighbouring apartments: primary resale, secondary resale, renta
 - source_rights: owner, URL, permission_scope, attribution, accepted_use, last_checked
 - job_logs: source_id, started_at, fetched, changed, approved, rejected, errors.
 
-## Historical foundation (2011-2026)
+## Historical foundation (2006-2026)
 For each historical period record the number of launched apartments, project announcements, primary and secondary pricing separately, rentals, absorption, macro affordability and important planning developments. Never infer unobserved years. Never merge different report definitions into one series without a defined adjustment. Retain historical geography boundaries and reconcile the post-2025 boundaries explicitly.
 
 ## Publication gates
@@ -22,3 +22,13 @@ Every published claim gets source, scope, period, method, permission, verified_a
 
 ## GIS
 GeoJSON WGS84 only, EPSG:4326. Maplibre and OpenFreeMap vector baseline; user-supplied GeoJSON is temporary and unverified. Sample Metro 1 is schematic from legacy ATLAS coordinates, not official geometry. Official planning layers remain empty until a usable legally attributable GIS source is inspected.
+
+## Twenty-year study convention (approved decision)
+- Time horizon: 2006-2026 (20 elapsed years, 21 labelled calendar years). 2006 is a baseline, 2026 is incomplete/YTD, not a completed annual observation.
+- If a chart promises exactly 20 annual observations, show 2007-2026 inclusive, tagging 2026 as YTD. Provide 2006 as context/baseline and explain the selection.
+- 20-year lookback is an analytical window, NOT evidence of a universal 20-year property cycle. Detect actual regimes/change points from evidence.
+- Prioritize archive reconstruction in evidence-quality tiers: 2006-2009 coarse annual/source summaries; 2010-2014 quarterly where available; 2015-2026 more complete series if sources permit. This is an input-coverage plan, not a claim about available data.
+- Distinguish composition effects (new luxury project launches) from like-for-like appreciation; neither median asking prices nor a changed price mix prove realized capital gains.
+- Compare nominal and CPI-adjusted apartment prices; preserve VND and any historical USD exchange rate source. For foreign audiences show FX-adjusted return only with explicit transaction-fee and rate assumptions.
+- Build project-launch cohorts (launch year), handover cohorts and district-by-geography series to reveal the difference between market average and returns to a single buyer.
+- Source links, observation period, rights, method, sample size, confidence and null handling remain mandatory for historical entries.
