@@ -38,6 +38,14 @@ if(history.includes("assets/atlas-history.js")){
 test(css.length>1000,"review CSS unexpectedly empty");
 test(market.temporal_coverage.baseline_year===2006&&market.temporal_coverage.end_year===2026,"wrong history study interval");
 test(projects.length>=20,"project sample set unexpectedly small");
+const issuerRegistry=json("data/developer_official_registry.json");
+const issuerCandidates=json("data/developer_fact_candidates.json");
+test(issuerRegistry.projects.length===projects.length,"Official source registry must cover exactly the project catalog");
+test(issuerCandidates.auto_published_project_facts===0,"Unverified issuer candidates must not auto-publish");
+test(Array.isArray(issuerCandidates.candidates),"Daily issuer candidate file must exist with array field");
+const projectIds=new Set(projects.map(p=>p.id));
+test(issuerRegistry.projects.every(p=>projectIds.has(p.project_id)),"Unknown ID in official source registry");
+test(issuerCandidates.candidates.every(p=>p.status==="UNVERIFIED_REVIEW_REQUIRED"&&projectIds.has(p.project_id)&&typeof p.source_url==="string"),"Issuer candidate provenance/status invalid");
 test(source.records?.length>=5,"source rights registry incomplete");
 test(market.observations.every(o=>o.source_url&&o.approved_for_public_display===true),"historical display has unsourced/unapproved item");
 const historical=market.observations.filter(x=>x.series_id==="savills_hcmc_apartment_sales_2014_2018");
