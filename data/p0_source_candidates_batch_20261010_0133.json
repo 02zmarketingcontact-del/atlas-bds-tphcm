@@ -1,0 +1,455 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "qimap-p0-research-2026-10-10-0133-ict",
+  "submitted_as": "DRAFT_PR_REVIEW_CANDIDATES_ONLY",
+  "target_pull_request": 67,
+  "branch": "feat/p0-apartment-evidence-20261009",
+  "reviewed_project_count": 5,
+  "priority_selection": "P1 dossiers lacking evidence; after seven P0 dossiers already staged in PR #67",
+  "base_index_count_unchanged": 150,
+  "publication_approved": false,
+  "automatic_price_ingestion_licensed": false,
+  "new_gis_points": 0,
+  "price_transaction_verified": 0,
+  "foreign_buyer_eligibility_verified": 0,
+  "publication_gate": "No candidate may be promoted to investor-facing verified price, legal/SPA quota, or GIS without expert review and relevant authoritative documents.",
+  "documents": [
+    {
+      "project_id": "map-masterithaodien",
+      "project_name": "Masteri Thao Dien",
+      "identity_note": "4 apartment towers T1-T4 plus a separate apartment-commercial-service tower; no apartment count asserted.",
+      "sources": [
+        {
+          "source_id": "masteri_2016_newsletter",
+          "publisher": "Masteri / Thao Dien Investment",
+          "url": "https://masterisehomes.com/storage/media/AsBU8V1jn0hwj95u6qJp3ZJEeB5Om0anXrwnxQkR.pdf",
+          "published_at": "2016-09",
+          "checked_at": "2026-10-10",
+          "access": "public_official_company_page",
+          "reuse_rights": "short_attributed_fact_candidate_only; no full-text/photo/listing replication"
+        },
+        {
+          "source_id": "masteri_events",
+          "publisher": "Masterise Homes / Masteri Thao Dien",
+          "url": "https://masterisehomes.com/masteri-thao-dien/tin-tuc/hinh-anh-su-kien-masteri-thao-dien",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "access": "public_official_company_page",
+          "reuse_rights": "short_attributed_fact_candidate_only; no full-text/photo/listing replication"
+        }
+      ],
+      "claims": [
+        {
+          "field": "first_apartment_handover_actual",
+          "value": "2016-06-30",
+          "source_id": "masteri_2016_newsletter",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "event_type": "first_handover_completed",
+          "scope": "first apartments, NOT all apartments/towers"
+        },
+        {
+          "field": "tower_identifiers",
+          "value": [
+            "T1",
+            "T2",
+            "T3",
+            "T4"
+          ],
+          "source_id": "masteri_2016_newsletter",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "scope": "four apartment towers, excluding separate apartment-commercial-service tower"
+        },
+        {
+          "field": "base_finished_apartment_handover_schedule",
+          "value": "2016-06 to 2016-09",
+          "source_id": "masteri_2016_newsletter",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "event_type": "scheduled_not_actual",
+          "scope": "T1-T4"
+        },
+        {
+          "field": "semi_finished_apartment_handover_schedule",
+          "value": "2016-09 to 2016-12",
+          "source_id": "masteri_2016_newsletter",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "event_type": "scheduled_not_actual",
+          "scope": "T1-T4"
+        },
+        {
+          "field": "commercial_service_tower_topping_out",
+          "value": "2016-06-10",
+          "source_id": "masteri_2016_newsletter",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "event_type": "topping_out_actual",
+          "scope": "distinct mixed-use tower"
+        }
+      ],
+      "missing": [
+        "actual per-tower handover letters",
+        "signed SPA/HĐMB dates",
+        "legal project owner checked against authorization",
+        "verified parcel coordinates",
+        "foreign-buyer quota",
+        "sale and rental observations"
+      ]
+    },
+    {
+      "project_id": "map-akari",
+      "project_name": "Akari City",
+      "identity_note": "Phase 2 (AK7, AK8, AK9, NEO) must be modeled separately; total products are not equivalent to apartments.",
+      "sources": [
+        {
+          "source_id": "namlong_akari_group",
+          "publisher": "Nam Long Group",
+          "url": "https://www.namlongvn.com/khu-do-thi-nha-o/akari-city/",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "access": "public_official_company_page",
+          "reuse_rights": "short_attributed_fact_candidate_only; no full-text/photo/listing replication"
+        },
+        {
+          "source_id": "namlong_akari_2025",
+          "publisher": "Nam Long Group",
+          "url": "https://www.namlongvn.com/tin-tuc/4114-nam-long-ket-qua-quy-4-bung-no-giup-lai-nam-2024-hoan-thanh-dung-ke-hoach-doanh-so-dat-5200-ty-tang-140/",
+          "published_at": "2025-01-08",
+          "checked_at": "2026-10-10",
+          "access": "public_official_company_page",
+          "reuse_rights": "short_attributed_fact_candidate_only; no full-text/photo/listing replication"
+        }
+      ],
+      "claims": [
+        {
+          "field": "masterplan_site_area_hectares",
+          "value": 8.5,
+          "source_id": "namlong_akari_group",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "unit": "ha",
+          "scope": "whole Akari City, NOT phase 2"
+        },
+        {
+          "field": "phase_2_towers",
+          "value": [
+            "AK7",
+            "AK8",
+            "AK9",
+            "NEO"
+          ],
+          "source_id": "namlong_akari_2025",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "scope": "Phase 2"
+        },
+        {
+          "field": "phase_2_residential_apartments",
+          "value": 1690,
+          "source_id": "namlong_akari_2025",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "unit": "apartments",
+          "scope": "Phase 2 only"
+        },
+        {
+          "field": "phase_2_commercial_service_units",
+          "value": 17,
+          "source_id": "namlong_akari_2025",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "unit": "units",
+          "scope": "Phase 2 non-residential"
+        },
+        {
+          "field": "phase_2_total_products",
+          "value": 1707,
+          "source_id": "namlong_akari_2025",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "unit": "mixed products",
+          "scope": "Phase 2, not 1707 apartments"
+        },
+        {
+          "field": "phase_2_started",
+          "value": "2022-06-late",
+          "source_id": "namlong_akari_2025",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "event_type": "groundbreaking_source_reported"
+        },
+        {
+          "field": "phase_2_delivered_2024_lower_bound",
+          "value": 1400,
+          "source_id": "namlong_akari_2025",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "comparator": ">",
+          "unit": "units",
+          "scope": "Q4 2024 reported units, not independently verified unit handovers"
+        }
+      ],
+      "missing": [
+        "signed SPA/HĐMB dates",
+        "phase 1 exact legal unit count",
+        "phase 2 occupancy documentation",
+        "legal project owner",
+        "foreign quota",
+        "price and GIS"
+      ]
+    },
+    {
+      "project_id": "map-mizuki",
+      "project_name": "Mizuki Park – residential apartment components",
+      "identity_note": "Mizuki Park is a 26ha integrated township; Flora Mizuki MP9-MPX and Flora Panorama are subprojects. Do not sum villa or townhouse products into apartments.",
+      "sources": [
+        {
+          "source_id": "namlong_mp9_2023",
+          "publisher": "Nam Long Group",
+          "url": "https://www.namlongvn.com/tin-tuc/3815-nam-long-chinh-thuc-ban-giao-hai-block-flora-mizuki-mp9-mpx/",
+          "published_at": "2023-06-07",
+          "checked_at": "2026-10-10",
+          "access": "public_official_company_page",
+          "reuse_rights": "short_attributed_fact_candidate_only; no full-text/photo/listing replication"
+        },
+        {
+          "source_id": "namlong_panorama_2023",
+          "publisher": "Nam Long Group",
+          "url": "https://www.namlongvn.com/tin-tuc/3832-nam-long-chinh-thuc-ban-giao-flora-panorama/",
+          "published_at": "2023-07-27",
+          "checked_at": "2026-10-10",
+          "access": "public_official_company_page",
+          "reuse_rights": "short_attributed_fact_candidate_only; no full-text/photo/listing replication"
+        }
+      ],
+      "claims": [
+        {
+          "field": "flora_mizuki_mp9_mpx_tower_count",
+          "value": 2,
+          "source_id": "namlong_mp9_2023",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "scope": "MP9-MPX component only",
+          "unit": "blocks"
+        },
+        {
+          "field": "flora_mizuki_mp9_mpx_handover_units",
+          "value": 166,
+          "source_id": "namlong_mp9_2023",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "scope": "MP9-MPX component only",
+          "unit": "products in apartment blocks"
+        },
+        {
+          "field": "flora_mizuki_mp9_mpx_first_handover",
+          "value": "2023-06-06",
+          "source_id": "namlong_mp9_2023",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "event_type": "handover_start_actual",
+          "scope": "MP9-MPX"
+        },
+        {
+          "field": "flora_panorama_tower_count",
+          "value": 3,
+          "source_id": "namlong_panorama_2023",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "scope": "Flora Panorama component",
+          "unit": "blocks"
+        },
+        {
+          "field": "flora_panorama_first_handover",
+          "value": "2023-07-26",
+          "source_id": "namlong_panorama_2023",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "event_type": "handover_start_actual",
+          "scope": "Flora Panorama"
+        },
+        {
+          "field": "flora_panorama_handover_units_lower_bound",
+          "value": 300,
+          "source_id": "namlong_panorama_2023",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "comparator": ">",
+          "unit": "apartments",
+          "scope": "Flora Panorama"
+        }
+      ],
+      "conflicts_or_checks": [
+        "Nam Long uses MP9-MPX in June 2023 article and MP9-MP10 in broader handover narrative; verify whether labels refer to identical building phases before consolidation."
+      ],
+      "missing": [
+        "phase/tower identifier reconciliation",
+        "signed SPA/HĐMB dates",
+        "total residential units across township without duplicate counts",
+        "legal owner",
+        "foreign quota",
+        "GIS verified",
+        "price and rent"
+      ]
+    },
+    {
+      "project_id": "hist-theestella",
+      "project_name": "The Estella",
+      "identity_note": "Distinct from Estella Heights. Preserve 2009 historic launch-source evidence without inventing intermediate years.",
+      "sources": [
+        {
+          "source_id": "keppel_estella_profile",
+          "publisher": "Keppel Real Estate",
+          "url": "https://www.keppel.com/realestate/vn/en/Live/The-Estella",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "access": "public_official_company_page",
+          "reuse_rights": "short_attributed_fact_candidate_only; no full-text/photo/listing replication"
+        },
+        {
+          "source_id": "keppel_estella_2009",
+          "publisher": "Keppel Real Estate",
+          "url": "https://www.keppel.com/realestate/vn/en/Media-Releases/The-Estella-garners-strong-interest-ahead-of-new-release",
+          "published_at": "2009-09-24",
+          "checked_at": "2026-10-10",
+          "access": "public_official_company_page",
+          "reuse_rights": "short_attributed_fact_candidate_only; no full-text/photo/listing replication"
+        },
+        {
+          "source_id": "keppel_estella_2012",
+          "publisher": "Keppel Real Estate",
+          "url": "https://www.keppel.com/realestate/vn/en/News-Library/The-Estella-welcomes-happy-homebuyers",
+          "published_at": "2012-09",
+          "checked_at": "2026-10-10",
+          "access": "public_official_company_page",
+          "reuse_rights": "short_attributed_fact_candidate_only; no full-text/photo/listing replication"
+        }
+      ],
+      "claims": [
+        {
+          "field": "phase_1_residential_units",
+          "value": 719,
+          "source_id": "keppel_estella_profile",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "unit": "apartments",
+          "scope": "The Estella Phase 1"
+        },
+        {
+          "field": "phase_1_completed_year",
+          "value": 2012,
+          "source_id": "keppel_estella_profile",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "event_type": "completion_reported",
+          "scope": "Phase 1"
+        },
+        {
+          "field": "phase_1_handover_completed_by",
+          "value": "2012-09",
+          "source_id": "keppel_estella_2012",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "event_type": "handover_reported",
+          "scope": "Phase 1; no per-unit date"
+        },
+        {
+          "field": "units_released_to_sale_as_of_2009_09_24",
+          "value": 518,
+          "source_id": "keppel_estella_2009",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "unit": "released apartments",
+          "scope": "developer-reported at 2009-09-24; NOT independent 518 transaction evidence"
+        },
+        {
+          "field": "historical_publisher_price_band_usd_per_m2",
+          "value": {
+            "lower": 2000,
+            "upper": 2200,
+            "currency": "USD",
+            "unit": "USD/m2"
+          },
+          "source_id": "keppel_estella_2009",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "effective_at": "2009-09-24",
+          "basis": "developer-reported average achieved price range; transaction proof unavailable",
+          "price_state": "HISTORICAL_ISSUER_REPORTED_RESEARCH_ONLY",
+          "do_not_publish": true
+        },
+        {
+          "field": "development_partners",
+          "value": [
+            "Keppel Land Estate Pte Ltd",
+            "Tien Phuoc Co Ltd"
+          ],
+          "source_id": "keppel_estella_2009",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "scope": "development partners as publisher reported, NOT verified legal owner"
+        }
+      ],
+      "missing": [
+        "2009 specific contract proof",
+        "per-unit transactions",
+        "2006-2008 and 2010-2011 historic observations",
+        "legal project entity",
+        "foreign quota",
+        "GIS",
+        "current sale/rent price samples"
+      ]
+    },
+    {
+      "project_id": "hist-estellaheights",
+      "project_name": "Estella Heights",
+      "identity_note": "Separate development from The Estella; do not merge phase totals between the two projects.",
+      "sources": [
+        {
+          "source_id": "keppel_estellaheights_profile",
+          "publisher": "Keppel Real Estate",
+          "url": "https://www.keppel.com/realestate/vn/en/Live/Estella-Heights",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "access": "public_official_company_page",
+          "reuse_rights": "short_attributed_fact_candidate_only; no full-text/photo/listing replication"
+        }
+      ],
+      "claims": [
+        {
+          "field": "phase_1_residential_units",
+          "value": 496,
+          "source_id": "keppel_estellaheights_profile",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "unit": "apartments",
+          "scope": "Phase 1"
+        },
+        {
+          "field": "phase_2_residential_units",
+          "value": 376,
+          "source_id": "keppel_estellaheights_profile",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "unit": "apartments",
+          "scope": "Phase 2"
+        },
+        {
+          "field": "phase_1_completion_year",
+          "value": 2017,
+          "source_id": "keppel_estellaheights_profile",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "event_type": "issuer_reported_completed",
+          "scope": "Phase 1"
+        },
+        {
+          "field": "phase_2_completion_year",
+          "value": 2018,
+          "source_id": "keppel_estellaheights_profile",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "event_type": "issuer_reported_completed",
+          "scope": "Phase 2"
+        },
+        {
+          "field": "sales_status",
+          "value": "100% sold",
+          "source_id": "keppel_estellaheights_profile",
+          "status": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "scope": "issuer current page; NOT proof of a 2026 resale trade or available rental offers"
+        }
+      ],
+      "missing": [
+        "historical launch and HĐMB evidence",
+        "phase tower names",
+        "legal owner documents",
+        "foreign quota document",
+        "per-unit handover dates",
+        "verified GIS",
+        "licensed sale/rent observations"
+      ]
+    }
+  ],
+  "data_rights_note": "No portal scrape performed. data/market_source_registry_v1.json has six listed sources with zero licensed automatic price feeds and max automated checks/day 0. All factual summaries here are short, attributed, manual research candidates from company websites; no media copied. A commercial publisher statement about 50-year foreigners' tenure is never proof of apartment-specific eligibility or quota.",
+  "audit_notes": [
+    "Five P1 dossiers were all absent specifications except Mizuki township land area as of PR #67 snapshot.",
+    "The Estella 2009 USD 2000–2200/m² is NOT an independently verified transaction series; preserve as a single historical developer-reported observation only.",
+    "No evidence of original signed HĐMB date on any of five projects; neither launch date nor first handover establishes HĐMB signature date.",
+    "No new project GIS marker, legal/SPA verification, verified price or rental supply."
+  ]
+}
