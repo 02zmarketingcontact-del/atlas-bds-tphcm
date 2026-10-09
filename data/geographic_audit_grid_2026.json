@@ -1,0 +1,570 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-10-09",
+  "audit_cells": [
+    {
+      "historic_district": "Quận 1",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Quận 2",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Quận 3",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Quận 4",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Quận 5",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Quận 6",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Quận 7",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Quận 8",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Quận 9",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Quận 10",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Quận 11",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Quận 12",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Bình Thạnh",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Phú Nhuận",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Tân Bình",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Tân Phú",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Gò Vấp",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Thủ Đức",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Bình Tân",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Bình Chánh",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Nhà Bè",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Hóc Môn",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Củ Chi",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Cần Giờ",
+      "region_version": "HCMC_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Dĩ An",
+      "region_version": "Binh_Duong_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Thuận An",
+      "region_version": "Binh_Duong_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Thủ Dầu Một",
+      "region_version": "Binh_Duong_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Tân Uyên",
+      "region_version": "Binh_Duong_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Bến Cát",
+      "region_version": "Binh_Duong_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Bàu Bàng",
+      "region_version": "Binh_Duong_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Bắc Tân Uyên",
+      "region_version": "Binh_Duong_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Phú Giáo",
+      "region_version": "Binh_Duong_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Dầu Tiếng",
+      "region_version": "Binh_Duong_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Bến Lức",
+      "region_version": "Long_An_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Đức Hòa",
+      "region_version": "Long_An_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Cần Giuộc",
+      "region_version": "Long_An_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Tân An",
+      "region_version": "Long_An_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Thủ Thừa",
+      "region_version": "Long_An_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Cần Đước",
+      "region_version": "Long_An_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Biên Hòa",
+      "region_version": "Dong_Nai_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Long Thành",
+      "region_version": "Dong_Nai_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Nhơn Trạch",
+      "region_version": "Dong_Nai_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Trảng Bom",
+      "region_version": "Dong_Nai_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Vũng Tàu",
+      "region_version": "Ba_Ria_Vung_Tau_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Bà Rịa",
+      "region_version": "Ba_Ria_Vung_Tau_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Phú Mỹ",
+      "region_version": "Ba_Ria_Vung_Tau_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    },
+    {
+      "historic_district": "Long Điền",
+      "region_version": "Ba_Ria_Vung_Tau_pre_2025",
+      "coverage_status": "not_exhaustively_checked",
+      "periods": [
+        "pre_2006",
+        "2006_2010",
+        "2011_2015",
+        "2016_2020",
+        "2021_2026"
+      ]
+    }
+  ]
+}
