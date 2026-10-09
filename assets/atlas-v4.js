@@ -339,6 +339,9 @@ projectUniverse=other[8].status==="fulfilled"&&Array.isArray(other[8].value?.rec
   const gis=await getJson("data/qimap_public_geo_review_20261010.json");
   researchPins=(gis.pins||[]).filter(x=>x.coord_verified===false&&Number.isFinite(x.lat)&&Number.isFinite(x.lng)&&!projects.some(p=>p.name.toLowerCase()===x.name.toLowerCase()));
   discoveryCandidates=(gis.discovery_candidates||[]).map(x=>({id:x.id,name:x.name,aliases:x.aliases||[],developer:x.developer,region_scope:x.region_scope,project_group:x.project_group,source_url:x.source_url,lifecycle_status:"platform_directory_candidate_only",year_handover:null}));
+  try{const extra=await getJson("data/qimap_additional_discovery_20261010.json");
+  for(const x of extra.records||[])discoveryCandidates.push({id:x.id,name:x.name,aliases:x.aliases||[],developer:x.developer,region_scope:x.region_scope,project_group:x.project_group,source_url:x.source_url,lifecycle_status:"platform_directory_candidate_only",year_handover:null,address_hint:x.address_hint||null});}
+  catch(e){console.warn("Optional six candidate index unavailable",e?.message||e)}
  }catch(e){console.warn("QiMap GIS preview unavailable",e);researchPins=[]}
  if(map&&interactive)renderMarkers(filtered());
 priceSyncState=other[9].status==="fulfilled"?other[9].value:null;renderMapPriceStatus();
