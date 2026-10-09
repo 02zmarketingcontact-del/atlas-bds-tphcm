@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-09",
+  "scope": "QiMap HCMC apartments; research/source references, not licensed data feeds",
+  "automated_price_feeds_active": 0,
+  "terms_and_license_note": "A publicly accessible page does NOT authorize scraping, republication, retention of media, or automated bulk collection. Each source requires explicit legal/contract review.",
+  "sources": [
+    {
+      "source_id": "market_batdongsan",
+      "name": "Batdongsan.com.vn",
+      "website_url": "https://batdongsan.com.vn",
+      "source_category": "market_listing_or_platform",
+      "candidate_market_types": [
+        "PRIMARY_AGENT_ASKING",
+        "SECONDARY_ASKING",
+        "RENTAL_ASKING"
+      ],
+      "public_reference_access": "MANUAL",
+      "automated_access_status": "LICENSE_REQUIRED",
+      "partner_api_status": "NOT_CONFIRMED",
+      "content_storage_permission": "NOT_CLEARED",
+      "photo_republication_permission": "NOT_CLEARED",
+      "individual_listing_republication_permission": "NOT_CLEARED",
+      "robots_terms_review": "PENDING",
+      "price_data_approval": "NOT_APPROVED",
+      "allowed_current_workflow": "human_readable_link_and_short_attributed_fact_candidates_for_rights_review",
+      "max_automated_checks_per_day": 0,
+      "last_checked_at": "2026-10-09",
+      "description": "Provider project pages show aggregate asking bands, timestamp and count; NOT deduplicated independent units. Commercial rights not cleared."
+    },
+    {
+      "source_id": "market_nhatot",
+      "name": "Nhà Tốt",
+      "website_url": "https://www.nhatot.com",
+      "source_category": "market_listing_or_platform",
+      "candidate_market_types": [
+        "SECONDARY_ASKING",
+        "RENTAL_ASKING"
+      ],
+      "public_reference_access": "MANUAL",
+      "automated_access_status": "LICENSE_REQUIRED",
+      "partner_api_status": "NOT_CONFIRMED",
+      "content_storage_permission": "NOT_CLEARED",
+      "photo_republication_permission": "NOT_CLEARED",
+      "individual_listing_republication_permission": "NOT_CLEARED",
+      "robots_terms_review": "PENDING",
+      "price_data_approval": "NOT_APPROVED",
+      "allowed_current_workflow": "human_readable_link_and_short_attributed_fact_candidates_for_rights_review",
+      "max_automated_checks_per_day": 0,
+      "last_checked_at": "2026-10-09",
+      "description": "Public listing search appears available; official partnership/feed permission not established."
+    },
+    {
+      "source_id": "market_muaban",
+      "name": "Mua Bán",
+      "website_url": "https://muaban.net",
+      "source_category": "market_listing_or_platform",
+      "candidate_market_types": [
+        "SECONDARY_ASKING",
+        "RENTAL_ASKING"
+      ],
+      "public_reference_access": "ACCESS_UNCONFIRMED",
+      "automated_access_status": "LICENSE_REQUIRED",
+      "partner_api_status": "NOT_CONFIRMED",
+      "content_storage_permission": "NOT_CLEARED",
+      "photo_republication_permission": "NOT_CLEARED",
+      "individual_listing_republication_permission": "NOT_CLEARED",
+      "robots_terms_review": "PENDING",
+      "price_data_approval": "NOT_APPROVED",
+      "allowed_current_workflow": "human_readable_link_and_short_attributed_fact_candidates_for_rights_review",
+      "max_automated_checks_per_day": 0,
+      "last_checked_at": "2026-10-09",
+      "description": "Page was not reliably readable using the available public browsing tool; do not equate that to permanent blocking."
+    },
+    {
+      "source_id": "market_homedy",
+      "name": "Homedy",
+      "website_url": "https://homedy.com",
+      "source_category": "market_listing_or_platform",
+      "candidate_market_types": [
+        "PRIMARY_AGENT_ASKING",
+        "SECONDARY_ASKING",
+        "RENTAL_ASKING"
+      ],
+      "public_reference_access": "MANUAL",
+      "automated_access_status": "LICENSE_REQUIRED",
+      "partner_api_status": "NOT_CONFIRMED",
+      "content_storage_permission": "NOT_CLEARED",
+      "photo_republication_permission": "NOT_CLEARED",
+      "individual_listing_republication_permission": "NOT_CLEARED",
+      "robots_terms_review": "PENDING",
+      "price_data_approval": "NOT_APPROVED",
+      "allowed_current_workflow": "human_readable_link_and_short_attributed_fact_candidates_for_rights_review",
+      "max_automated_checks_per_day": 0,
+      "last_checked_at": "2026-10-09",
+      "description": "Project and listing search; automated permissions not established."
+    },
+    {
+      "source_id": "market_rever",
+      "name": "Rever",
+      "website_url": "https://rever.vn",
+      "source_category": "market_listing_or_platform",
+      "candidate_market_types": [
+        "PRIMARY_AGENT_ASKING",
+        "SECONDARY_ASKING",
+        "RENTAL_ASKING"
+      ],
+      "public_reference_access": "MANUAL",
+      "automated_access_status": "LICENSE_REQUIRED",
+      "partner_api_status": "NOT_CONFIRMED",
+      "content_storage_permission": "NOT_CLEARED",
+      "photo_republication_permission": "NOT_CLEARED",
+      "individual_listing_republication_permission": "NOT_CLEARED",
+      "robots_terms_review": "PENDING",
+      "price_data_approval": "NOT_APPROVED",
+      "allowed_current_workflow": "human_readable_link_and_short_attributed_fact_candidates_for_rights_review",
+      "max_automated_checks_per_day": 0,
+      "last_checked_at": "2026-10-09",
+      "description": "Brokerage listings and project content; separate their own inventory from independently verified market data."
+    },
+    {
+      "source_id": "market_onehousing",
+      "name": "OneHousing",
+      "website_url": "https://onehousing.vn",
+      "source_category": "market_listing_or_platform",
+      "candidate_market_types": [
+        "SECONDARY_ASKING",
+        "MARKET_RESEARCH_REPORTED"
+      ],
+      "public_reference_access": "MANUAL",
+      "automated_access_status": "LICENSE_REQUIRED",
+      "partner_api_status": "NOT_CONFIRMED",
+      "content_storage_permission": "NOT_CLEARED",
+      "photo_republication_permission": "NOT_CLEARED",
+      "individual_listing_republication_permission": "NOT_CLEARED",
+      "robots_terms_review": "PENDING",
+      "price_data_approval": "NOT_APPROVED",
+      "allowed_current_workflow": "human_readable_link_and_short_attributed_fact_candidates_for_rights_review",
+      "max_automated_checks_per_day": 0,
+      "last_checked_at": "2026-10-09",
+      "description": "Property marketplace and estimates are not verified closed transactions by default."
+    }
+  ],
+  "social_sources": {
+    "facebook_login_connected": false,
+    "join_permission_granted": false,
+    "groups": [],
+    "status": "JOIN_BLOCKED",
+    "note": "No verified group, consent, API or admin permission has been established; do not scrape or auto-join."
+  }
+}
