@@ -64,11 +64,11 @@ async function run(){
   // QiMap discovery index is separate from map pins: 150 records, only 32 with legacy coordinates.
   try{
    await goto(desktop,"review.html");
-   await desktop.waitForFunction(()=>document.querySelector("#universeCombinedCount")?.textContent.trim()==="150",{timeout:25000});
+   await desktop.waitForFunction(()=>document.querySelector("#universeCombinedCount")?.textContent.trim()==="159",{timeout:25000});
    assert((await desktop.locator("#universeArchiveCount").textContent()).trim()==="118","Historic projects count mismatch");
    assert((await desktop.locator("#universeIssuerCount").textContent()).trim()==="55","Issuer handover references mismatch");
    await goto(desktop,"map-v4.html");
-   await desktop.waitForFunction(()=>document.querySelector("#universeMapTotal")?.textContent.trim()==="150",{timeout:25000});
+   await desktop.waitForFunction(()=>document.querySelector("#universeMapTotal")?.textContent.trim()==="159",{timeout:25000});
    await desktop.locator("#search").fill("The Vista");
    const historicCard=desktop.locator("#universeSearchResults .archiveResearchCard").first();
    await historicCard.waitFor({timeout:7000});
@@ -83,7 +83,7 @@ async function run(){
    await desktop.waitForFunction(()=>document.querySelector("#query")?.value==="The Vista",{timeout:25000});
    const cards=await desktop.locator("#cards .card").count();
    assert(cards>=1,"Secondary catalogue deep link returned no projects");
-   log("Unified apartment discovery","PASS","150 linked records · 118 archive-only · search and permalink work");
+   log("Unified apartment discovery","PASS","159 linked records · 118 archive-only · search and permalink work");
   }catch(e){failures.push("Unified apartment discovery: "+e.message);log("Unified apartment discovery","FAIL",e.message)}
   // 2) Search UX; don't break if preceding section failed.
   try{
@@ -97,7 +97,7 @@ async function run(){
   // 3) Full map - page loaded, map engine and project model initialized.
   try{
    await goto(desktop,"map-v4.html");
-   await desktop.waitForFunction(()=>document.querySelector("#projectCount")?.textContent?.trim()==="32",{timeout:30000});
+   await desktop.waitForFunction(()=>document.querySelector("#projectCount")?.textContent?.trim()==="39",{timeout:30000});
    await desktop.waitForSelector(".projectMarker,.projectCluster",{timeout:30000});
    const markerCount=await desktop.locator(".projectMarker,.projectCluster").count();
    const canvasCount=await desktop.locator("#map canvas").count();
@@ -115,7 +115,7 @@ async function run(){
     try{
       await degraded.route(/https:\/\/(unpkg\.com|cdn\.jsdelivr\.net)\/.*maplibre-gl/i,route=>route.abort("failed"));
       await goto(degraded,"map-v4.html");
-      await degraded.waitForFunction(()=>document.querySelector("#projectCount")?.textContent.trim()==="32",{timeout:20000});
+      await degraded.waitForFunction(()=>document.querySelector("#projectCount")?.textContent.trim()==="39",{timeout:20000});
       await degraded.waitForSelector("#mapNotice:not([hidden])",{timeout:15000});
       await degraded.locator("#search").fill("The Prive");
       await degraded.waitForFunction(()=>document.querySelectorAll("#projectList .projectCard").length===1,{timeout:5000});

@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-10",
+  "classification": "ADDITIONAL_SOURCE_LINKED_DISCOVERY_CANDIDATES",
+  "records": [
+    {
+      "id": "discover-20261010-lumiereriverside",
+      "name": "LUMIÈRE Riverside",
+      "aliases": [
+        "Lumiere Riverside"
+      ],
+      "developer": "Masterise Homes",
+      "region_scope": "HCMC_old_boundary",
+      "project_group": null,
+      "address_hint": "259 Xa Lộ Hà Nội, Thảo Điền, TP. Thủ Đức cũ (địa chỉ công bố lịch sử)",
+      "source_url": "https://masterisehomes.com/lumiere-riverside/",
+      "source_role": "developer_project_site",
+      "location_status": "ADDRESS_PUBLISHED_GPS_PENDING",
+      "risk": "Address nomenclature has changed since publication; no independently verified lat/lng.",
+      "source_checked_at": "2026-10-10",
+      "source_published_at": null,
+      "coordinate_lat": null,
+      "coordinate_lng": null,
+      "coordinate_verified": false,
+      "source_reported_only": true,
+      "approved_price": false,
+      "foreign_buyer_eligibility_verified": false
+    },
+    {
+      "id": "discover-20261010-thaodiengreen",
+      "name": "Thảo Điền Green",
+      "aliases": [
+        "Thao Dien Green"
+      ],
+      "developer": "SIC (theo tài liệu dự án)",
+      "region_scope": "HCMC_old_boundary",
+      "project_group": null,
+      "address_hint": "192 Nguyễn Văn Hưởng, Thảo Điền, TP. Thủ Đức cũ",
+      "source_url": "https://www.thaodiengreen-sic.vn/",
+      "source_role": "project_marketing_site_not_legal_title",
+      "location_status": "ADDRESS_CLAIMED_GPS_PENDING",
+      "risk": "Publisher/website operation may differ from verified legal owner; location pending GIS corroboration.",
+      "source_checked_at": "2026-10-10",
+      "source_published_at": null,
+      "coordinate_lat": null,
+      "coordinate_lng": null,
+      "coordinate_verified": false,
+      "source_reported_only": true,
+      "approved_price": false,
+      "foreign_buyer_eligibility_verified": false
+    },
+    {
+      "id": "discover-20261010-diamondisland",
+      "name": "Diamond Island (Đảo Kim Cương)",
+      "aliases": [
+        "Đảo Kim Cương",
+        "Diamond Island"
+      ],
+      "developer": "Kusto Home",
+      "region_scope": "HCMC_old_boundary",
+      "project_group": null,
+      "address_hint": "Đảo Kim Cương, Bình Trưng Tây, Quận 2 cũ, TP.HCM",
+      "source_url": "https://kustohome.com.vn/vn/developments/diamond-island-vn/",
+      "source_role": "developer_portfolio",
+      "location_status": "AREA_PUBLISHED_GPS_PENDING",
+      "risk": "Island and residential building sites differ; do not pin approximate center of island as the tower.",
+      "source_checked_at": "2026-10-10",
+      "source_published_at": null,
+      "coordinate_lat": null,
+      "coordinate_lng": null,
+      "coordinate_verified": false,
+      "source_reported_only": true,
+      "approved_price": false,
+      "foreign_buyer_eligibility_verified": false
+    },
+    {
+      "id": "discover-20261010-grandmarinasaigon",
+      "name": "Grand Marina, Saigon",
+      "aliases": [
+        "Grand Marina Saigon",
+        "Grand Marina Sài Gòn"
+      ],
+      "developer": "Masterise Homes",
+      "region_scope": "HCMC_old_boundary",
+      "project_group": null,
+      "address_hint": "2 Tôn Đức Thắng, khu Ba Son, Quận 1 cũ, TP.HCM",
+      "source_url": "https://masterisehomes.com/grand-marina-saigon/doi-tac",
+      "source_role": "developer_project_site",
+      "location_status": "ADDRESS_PUBLISHED_GPS_PENDING",
+      "risk": "Shares an advertised street address number with Vinhomes Golden River; verify correct block and entrance separately.",
+      "source_checked_at": "2026-10-10",
+      "source_published_at": null,
+      "coordinate_lat": null,
+      "coordinate_lng": null,
+      "coordinate_verified": false,
+      "source_reported_only": true,
+      "approved_price": false,
+      "foreign_buyer_eligibility_verified": false
+    },
+    {
+      "id": "discover-20261010-vinhomesgoldenriver",
+      "name": "Vinhomes Golden River",
+      "aliases": [
+        "Vinhomes Golden River Ba Son"
+      ],
+      "developer": "Vinhomes",
+      "region_scope": "HCMC_old_boundary",
+      "project_group": null,
+      "address_hint": "2 Tôn Đức Thắng, Quận 1 cũ, TP.HCM",
+      "source_url": "https://vinhomes.vn/vi/vinhomes-golden-river",
+      "source_role": "developer_portfolio",
+      "location_status": "ADDRESS_PUBLISHED_GPS_PENDING",
+      "risk": "Shares advertised address number with Grand Marina, Saigon; independently identify each project/tower, no duplicate pin.",
+      "source_checked_at": "2026-10-10",
+      "source_published_at": null,
+      "coordinate_lat": null,
+      "coordinate_lng": null,
+      "coordinate_verified": false,
+      "source_reported_only": true,
+      "approved_price": false,
+      "foreign_buyer_eligibility_verified": false
+    },
+    {
+      "id": "discover-20261010-picityhighpark",
+      "name": "Picity High Park",
+      "aliases": [
+        "PiCity High Park"
+      ],
+      "developer": "Pi Group",
+      "region_scope": "HCMC_old_boundary",
+      "project_group": null,
+      "address_hint": "Quận 12 cũ, TP.HCM",
+      "source_url": "https://www.pigroup.vn/",
+      "source_role": "developer_portfolio",
+      "location_status": "DISTRICT_ONLY_GPS_PENDING",
+      "risk": "Publisher overview mentions project but does not verify precise street/plot location.",
+      "source_checked_at": "2026-10-10",
+      "source_published_at": null,
+      "coordinate_lat": null,
+      "coordinate_lng": null,
+      "coordinate_verified": false,
+      "source_reported_only": true,
+      "approved_price": false,
+      "foreign_buyer_eligibility_verified": false
+    }
+  ],
+  "parent_index_count": 150,
+  "existing_discovery_count": 3,
+  "new_dossiers": 6,
+  "display_searchable_count": 159,
+  "geometry_note": "No coordinates invented from address; Google Maps search link allowed as a navigational action only, not location evidence.",
+  "policy": "150 indexed project/phase records + 3 existing research candidates + these 6 independent candidate names. Not a claim of 159 distinct legally recognized projects. Candidates remain non-GIS until verified."
+}
