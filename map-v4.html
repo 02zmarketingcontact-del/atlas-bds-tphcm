@@ -7,8 +7,29 @@
 <title>ATLAS V4 | Bản đồ căn hộ TP.HCM</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.13.0/dist/maplibre-gl.css">
 <link rel="stylesheet" href="./assets/atlas-v4.css">
-<script defer src="https://unpkg.com/maplibre-gl@6.13.0/dist/maplibre-gl.js"></script>
-<script defer src="./assets/atlas-v4.js"></script>
+<script type="module">
+(async () => {
+  try {
+    const library = await import("https://unpkg.com/maplibre-gl@6.13.0/dist/maplibre-gl.mjs");
+    window.maplibregl = library;
+    await import("./assets/atlas-v4.js");
+  } catch (error) {
+    console.error("ATLAS V4 dependencies failed:", error);
+    window.addEventListener("DOMContentLoaded", () => {
+      const box = document.getElementById("mapNotice");
+      if (box) box.hidden = false;
+      const heading = document.getElementById("noticeHeading");
+      if (heading) heading.textContent = "Không tải được thư viện bản đồ";
+      const body = document.getElementById("noticeBody");
+      if (body) body.textContent = "Thử tải lại trang hoặc mở OpenStreetMap bằng liên kết bên dưới.";
+    });
+    if (document.readyState !== "loading") {
+      const box = document.getElementById("mapNotice");
+      if (box) box.hidden = false;
+    }
+  }
+})();
+</script>
 </head>
 <body>
 <header class="topbar">
