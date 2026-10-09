@@ -1,0 +1,199 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-09",
+  "purpose": "Review list for 7 P0 legacy map points. These are NOT newly validated coordinates. Existing legacy markers persist unchanged until GIS review.",
+  "records": [
+    {
+      "entity_id": "map-prive",
+      "canonical_project_id": "prive",
+      "name": "The Prive",
+      "administrative_legacy": "Đường Song Hành, An Phú, TP Thủ Đức (cũ), TP.HCM",
+      "administrative_current_candidate": "Đường Song Hành, phường Bình Trưng, TP.HCM",
+      "legacy_region_code": "HCMC_PRE_2025",
+      "legacy_map_coordinates_WGS84": {
+        "latitude": 10.7907,
+        "longitude": 106.769
+      },
+      "new_coordinates_verified": false,
+      "legacy_coordinates_verified": false,
+      "spatial_precision": "UNVERIFIED_LEGACY_POINT",
+      "location_source": "data/projects.json legacy import",
+      "gis_source_document": null,
+      "pin_policy": "REVIEW_REQUIRED_NO_ADDITIONAL_PIN",
+      "existing_map_marker_visible": true,
+      "cross_source_parcel_review": "PENDING",
+      "review_status": "WAITING_REVIEW",
+      "quality_flags": [
+        "ADDRESS_ADMIN_TIME_RECONCILIATION_REQUIRED",
+        "LEGAL_PARCEL_UNVERIFIED",
+        "UNVERIFIED_COORDINATE"
+      ],
+      "notes": "Khu Nam Rạch Chiếc; must match correct plot/CC1 vs CC5."
+    },
+    {
+      "entity_id": "map-eaton",
+      "canonical_project_id": "eaton",
+      "name": "Eaton Park",
+      "administrative_legacy": "63 Mai Chí Thọ, An Phú, Quận 2/TP Thủ Đức (cũ)",
+      "administrative_current_candidate": "Khu Mai Chí Thọ, phường Bình Trưng, TP.HCM (precise address not confirmed)",
+      "legacy_region_code": "HCMC_PRE_2025",
+      "legacy_map_coordinates_WGS84": {
+        "latitude": 10.7958,
+        "longitude": 106.7724
+      },
+      "new_coordinates_verified": false,
+      "legacy_coordinates_verified": false,
+      "spatial_precision": "UNVERIFIED_LEGACY_POINT",
+      "location_source": "data/projects.json legacy import",
+      "gis_source_document": null,
+      "pin_policy": "REVIEW_REQUIRED_NO_ADDITIONAL_PIN",
+      "existing_map_marker_visible": true,
+      "cross_source_parcel_review": "PENDING",
+      "review_status": "WAITING_REVIEW",
+      "quality_flags": [
+        "ADDRESS_ADMIN_TIME_RECONCILIATION_REQUIRED",
+        "LEGAL_PARCEL_UNVERIFIED",
+        "UNVERIFIED_COORDINATE"
+      ],
+      "notes": "Multiple towers; official cadastral parcel required."
+    },
+    {
+      "entity_id": "map-felix",
+      "canonical_project_id": "felix",
+      "name": "The Felix",
+      "administrative_legacy": "Đường Nguyễn Du - Bùi Hữu Nghĩa, phường Bình Hòa, Thuận An, Bình Dương",
+      "administrative_current_candidate": "Phường Bình Hòa, TP.HCM",
+      "legacy_region_code": "BINH_DUONG_PRE_2025",
+      "legacy_map_coordinates_WGS84": {
+        "latitude": 10.876,
+        "longitude": 106.7102
+      },
+      "new_coordinates_verified": false,
+      "legacy_coordinates_verified": false,
+      "spatial_precision": "UNVERIFIED_LEGACY_POINT",
+      "location_source": "data/projects.json legacy import",
+      "gis_source_document": null,
+      "pin_policy": "REVIEW_REQUIRED_NO_ADDITIONAL_PIN",
+      "existing_map_marker_visible": true,
+      "cross_source_parcel_review": "PENDING",
+      "review_status": "WAITING_REVIEW",
+      "quality_flags": [
+        "ADDRESS_ADMIN_TIME_RECONCILIATION_REQUIRED",
+        "LEGAL_PARCEL_UNVERIFIED",
+        "UNVERIFIED_COORDINATE"
+      ],
+      "notes": "Verify spelling road Bùi Hữu Nghĩa/Hiếu Nghĩa with official parcel."
+    },
+    {
+      "entity_id": "map-norton",
+      "canonical_project_id": "norton",
+      "name": "Norton Park",
+      "administrative_legacy": "Khu Thuận Giao, Thuận An, Bình Dương",
+      "administrative_current_candidate": "Khu Thuận Giao, TP.HCM; exact phường/parcel pending",
+      "legacy_region_code": "BINH_DUONG_PRE_2025",
+      "legacy_map_coordinates_WGS84": {
+        "latitude": 10.9223,
+        "longitude": 106.7069
+      },
+      "new_coordinates_verified": false,
+      "legacy_coordinates_verified": false,
+      "spatial_precision": "UNVERIFIED_LEGACY_POINT",
+      "location_source": "data/projects.json legacy import",
+      "gis_source_document": null,
+      "pin_policy": "REVIEW_REQUIRED_NO_ADDITIONAL_PIN",
+      "existing_map_marker_visible": true,
+      "cross_source_parcel_review": "PENDING",
+      "review_status": "WAITING_REVIEW",
+      "quality_flags": [
+        "ADDRESS_ADMIN_TIME_RECONCILIATION_REQUIRED",
+        "LEGAL_PARCEL_UNVERIFIED",
+        "UNVERIFIED_COORDINATE"
+      ],
+      "notes": "Corporate English text inconsistent on province (Dong Nai), while Viet edition states FDI Thuan Giao; research site plan."
+    },
+    {
+      "entity_id": "map-sycamore",
+      "canonical_project_id": "sycamore",
+      "name": "Sycamore - can ho",
+      "administrative_legacy": "Đường Hùng Vương, Hòa Phú, Thủ Dầu Một, Bình Dương",
+      "administrative_current_candidate": "TP.HCM hiện hành; phường hiện tại cần văn bản địa giới",
+      "legacy_region_code": "BINH_DUONG_PRE_2025",
+      "legacy_map_coordinates_WGS84": {
+        "latitude": 11.0602,
+        "longitude": 106.677
+      },
+      "new_coordinates_verified": false,
+      "legacy_coordinates_verified": false,
+      "spatial_precision": "UNVERIFIED_LEGACY_POINT",
+      "location_source": "data/projects.json legacy import",
+      "gis_source_document": null,
+      "pin_policy": "REVIEW_REQUIRED_NO_ADDITIONAL_PIN",
+      "existing_map_marker_visible": true,
+      "cross_source_parcel_review": "PENDING",
+      "review_status": "WAITING_REVIEW",
+      "quality_flags": [
+        "ADDRESS_ADMIN_TIME_RECONCILIATION_REQUIRED",
+        "LEGAL_PARCEL_UNVERIFIED",
+        "UNVERIFIED_COORDINATE"
+      ],
+      "notes": "Many distinct low/mid/high-rise phases, verify each building coordinate independently."
+    },
+    {
+      "entity_id": "map-win",
+      "canonical_project_id": "win",
+      "name": "The Win City",
+      "administrative_legacy": "Đức Hòa Hạ, huyện Đức Hòa, Long An",
+      "administrative_current_candidate": "Địa bàn Tây Ninh (Long An cũ), KHÔNG thuộc TP.HCM",
+      "legacy_region_code": "LONG_AN_PRE_2025",
+      "legacy_map_coordinates_WGS84": {
+        "latitude": 10.8264,
+        "longitude": 106.5521
+      },
+      "new_coordinates_verified": false,
+      "legacy_coordinates_verified": false,
+      "spatial_precision": "UNVERIFIED_LEGACY_POINT",
+      "location_source": "data/projects.json legacy import",
+      "gis_source_document": null,
+      "pin_policy": "REVIEW_REQUIRED_NO_ADDITIONAL_PIN",
+      "existing_map_marker_visible": true,
+      "cross_source_parcel_review": "PENDING",
+      "review_status": "WAITING_REVIEW",
+      "quality_flags": [
+        "ADDRESS_ADMIN_TIME_RECONCILIATION_REQUIRED",
+        "LEGAL_PARCEL_UNVERIFIED",
+        "UNVERIFIED_COORDINATE"
+      ],
+      "notes": "Exclude from HCMC merged-area analytics; keep as neighboring benchmark only."
+    },
+    {
+      "entity_id": "map-elysian",
+      "canonical_project_id": "elysian",
+      "name": "Elysian",
+      "administrative_legacy": "170 Lò Lu, phường Trường Thạnh, TP Thủ Đức (cũ)",
+      "administrative_current_candidate": "Phường Long Phước, TP.HCM (source reported; verify official legal lot)",
+      "legacy_region_code": "HCMC_PRE_2025",
+      "legacy_map_coordinates_WGS84": {
+        "latitude": 10.8283,
+        "longitude": 106.8101
+      },
+      "new_coordinates_verified": false,
+      "legacy_coordinates_verified": false,
+      "spatial_precision": "UNVERIFIED_LEGACY_POINT",
+      "location_source": "data/projects.json legacy import",
+      "gis_source_document": null,
+      "pin_policy": "REVIEW_REQUIRED_NO_ADDITIONAL_PIN",
+      "existing_map_marker_visible": true,
+      "cross_source_parcel_review": "PENDING",
+      "review_status": "WAITING_REVIEW",
+      "quality_flags": [
+        "ADDRESS_ADMIN_TIME_RECONCILIATION_REQUIRED",
+        "LEGAL_PARCEL_UNVERIFIED",
+        "UNVERIFIED_COORDINATE"
+      ],
+      "notes": "Trường Thạnh old and Long Phước new are different admin time descriptions; not proof of different location."
+    }
+  ],
+  "location_new_verified_count": 0,
+  "changes_to_live_pins": 0,
+  "publication_gate": "Do not infer geolocation from district center or mark VERIFIED without independent lot/plan evidence."
+}
