@@ -1,0 +1,68 @@
+{
+  "type": "evidence_extension",
+  "parent_batch": "data/p0_source_candidates_batch_20261010_0431.json",
+  "checked_at": "2026-10-10T04:31:09+07:00",
+  "publisher": "Novaland",
+  "publication_gate": "internal_source_reported_only",
+  "reviewed": [
+    [
+      "hist-rivergateresidence",
+      "conflicted",
+      {
+        "land_m2_web": 9600,
+        "land_m2_bond_2017_p51": 7069,
+        "products_mixed_2017": 976,
+        "handover_target": "2017-Q4"
+      }
+    ],
+    [
+      "hist-sunrisecity",
+      "researched",
+      {
+        "towers_parent": 12,
+        "south_first_handover": "2012-07",
+        "central_topped_out": "2014-05-08",
+        "central_target": "2014-12"
+      }
+    ],
+    [
+      "hist-lexingtonresidence",
+      "researched",
+      {
+        "site_m2_website": 21356,
+        "apartments_approx": 1310,
+        "basement_started": "2014-04-21",
+        "handover_target": "2015-12"
+      }
+    ],
+    [
+      "hist-tropicgarden",
+      "researched",
+      {
+        "C1_first_handover": "2014-03-17",
+        "A1_A2_groundbreaking": "2014-07-21",
+        "C2_target": "2015-06"
+      }
+    ],
+    [
+      "hist-theprinceresidence",
+      "researched",
+      {
+        "site_m2": 4647,
+        "apartments_gt": 280,
+        "area_1_floors": 22,
+        "area_2_floors": 8,
+        "planned_handover": "2015-Q4",
+        "resident_conference": "2018-07-08"
+      }
+    ]
+  ],
+  "price_data": "No verified resale or rental contracts, no price interpolation.",
+  "common_missing": [
+    "legal-owner documents",
+    "actual handover by tower",
+    "HĐMB",
+    "SPA/foreign buyer eligibility",
+    "approved GIS"
+  ]
+}
