@@ -162,7 +162,10 @@
     {
       "id": "map-prive",
       "name": "The Prive",
-      "aliases": [],
+      "aliases": [
+        "The Privé",
+        "Gem Riverside"
+      ],
       "map_project_id": "prive",
       "project_group": null,
       "region_scope": "HCMC_old_boundary",
@@ -201,6 +204,78 @@
           "source_role": "developer_or_project_site_reported",
           "review_status": "publisher_claim_requires_document_review",
           "note": null
+        },
+        {
+          "field": "reported_development_brand_2026",
+          "value": "BLUEMARQ GROUP",
+          "unit": "publisher_name",
+          "source_url": "https://theprive.vn/gioi-thieu/",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Keep separate from verified legal owner."
+        },
+        {
+          "field": "building_area_m2",
+          "value": 16910,
+          "unit": "m2",
+          "source_url": "https://theprive.vn/gioi-thieu/",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "gross_floor_area_m2",
+          "value": 336647,
+          "unit": "m2",
+          "source_url": "https://theprive.vn/gioi-thieu/",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "basement_floor_area_m2",
+          "value": 42626,
+          "unit": "m2",
+          "source_url": "https://theprive.vn/gioi-thieu/",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "min_tower_floors",
+          "value": 33,
+          "unit": "floors",
+          "source_url": "https://theprive.vn/gioi-thieu/",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "max_tower_floors",
+          "value": 35,
+          "unit": "floors",
+          "source_url": "https://theprive.vn/gioi-thieu/",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "planned_first_handover",
+          "value": "2027-06",
+          "unit": "year_month",
+          "source_url": "https://theprive.vn/the-prive-chuan-muc-ban-giao-dinh-hinh-trai-nghiem-song-tinh-te/",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Target only; not actual handover."
+        },
+        {
+          "field": "planned_full_project_completion",
+          "value": 2028,
+          "unit": "year",
+          "source_url": "https://theprive.vn/the-prive-chuan-muc-ban-giao-dinh-hinh-trai-nghiem-song-tinh-te/",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Target only."
         }
       ],
       "source_references": [
@@ -215,6 +290,18 @@
           "role": "initial_map_listing_unverified",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://theprive.vn/gioi-thieu/",
+          "role": "developer_project_information",
+          "status": "attributed_publisher",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "url": "https://theprive.vn/the-prive-chuan-muc-ban-giao-dinh-hinh-trai-nghiem-song-tinh-te/",
+          "role": "dated_developer_publication",
+          "status": "attributed_publisher",
+          "checked_at": "2026-10-09"
         }
       ],
       "coverage": {
@@ -232,7 +319,8 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P0",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "p0_evidence_review_as_of": "2026-10-09"
     },
     {
       "id": "map-eaton",
@@ -249,7 +337,62 @@
       "foreign_capital": "not_verified_separately",
       "position_status": "not_independently_verified",
       "pricing_status": "unverified_asking_or_missing",
-      "specifications": [],
+      "specifications": [
+        {
+          "field": "land_area_ha",
+          "value": 3.7,
+          "unit": "ha",
+          "source_url": "https://www.gamudaland.com.vn/vn/news/gamuda-land-cat-noc-hai-toa-thap-cuoi-cung-eaton-park-chinh-thuc-hoan-thanh-ket-cau",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "tower_count",
+          "value": 6,
+          "unit": "towers",
+          "source_url": "https://www.gamudaland.com.vn/vn/news/gamuda-land-cat-noc-hai-toa-thap-cuoi-cung-eaton-park-chinh-thuc-hoan-thanh-ket-cau",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "total_project_products",
+          "value": 2052,
+          "unit": "all_real_estate_products",
+          "source_url": "https://www.gamudaland.com.vn/vn/news/gamuda-land-cat-noc-hai-toa-thap-cuoi-cung-eaton-park-chinh-thuc-hoan-thanh-ket-cau",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Not guaranteed to equal the count of residential apartments."
+        },
+        {
+          "field": "min_tower_floors",
+          "value": 29,
+          "unit": "floors",
+          "source_url": "https://www.gamudaland.com.vn/vn/news/gamuda-land-cat-noc-hai-toa-thap-cuoi-cung-eaton-park-chinh-thuc-hoan-thanh-ket-cau",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "max_tower_floors",
+          "value": 39,
+          "unit": "floors",
+          "source_url": "https://www.gamudaland.com.vn/vn/news/gamuda-land-cat-noc-hai-toa-thap-cuoi-cung-eaton-park-chinh-thuc-hoan-thanh-ket-cau",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "planned_handover_quarter",
+          "value": "2027-Q3",
+          "unit": "calendar_quarter",
+          "source_url": "https://www.gamudaland.com.vn/vn/news/gamuda-land-cat-noc-hai-toa-thap-cuoi-cung-eaton-park-chinh-thuc-hoan-thanh-ket-cau",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Developer forecast, not completed handover."
+        }
+      ],
       "source_references": [
         {
           "url": "https://www.gamudaland.com.vn/vn/developments/township/eaton-park",
@@ -262,15 +405,21 @@
           "role": "initial_map_listing_unverified",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://www.gamudaland.com.vn/vn/news/gamuda-land-cat-noc-hai-toa-thap-cuoi-cung-eaton-park-chinh-thuc-hoan-thanh-ket-cau",
+          "role": "dated_developer_publication",
+          "status": "attributed_publisher",
+          "checked_at": "2026-10-09"
         }
       ],
       "coverage": {
         "project_identity": "evidence_or_claim_recorded",
         "developer_brand": "evidence_or_claim_recorded",
         "source_reference": "evidence_or_claim_recorded",
-        "site_area": "missing_or_unverified",
+        "site_area": "evidence_or_claim_recorded",
         "residential_units": "missing_or_unverified",
-        "tower_count": "missing_or_unverified",
+        "tower_count": "evidence_or_claim_recorded",
         "handover_year": "missing_or_unverified",
         "legal_owner": "missing_or_unverified",
         "foreign_buyer_eligibility": "missing_or_unverified",
@@ -279,7 +428,8 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P0",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "p0_evidence_review_as_of": "2026-10-09"
     },
     {
       "id": "map-sunavenue",
@@ -1093,6 +1243,60 @@
           "source_role": "developer_corporate_reported",
           "review_status": "publisher_claim_requires_document_review",
           "note": null
+        },
+        {
+          "field": "residential_building_floors",
+          "value": 40,
+          "unit": "floors",
+          "source_url": "https://c-holdings.vn/thong-tin-du-an-the-felix/tong-quan",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "basement_floors",
+          "value": 1,
+          "unit": "floors",
+          "source_url": "https://c-holdings.vn/thong-tin-du-an-the-felix/tong-quan",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "long_stay_units",
+          "value": 59,
+          "unit": "units",
+          "source_url": "https://c-holdings.vn/thong-tin-du-an-the-felix/tong-quan",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "commercial_units",
+          "value": 10,
+          "unit": "units",
+          "source_url": "https://c-holdings.vn/thong-tin-du-an-the-felix/tong-quan",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "apartment_area_min_m2",
+          "value": 45,
+          "unit": "m2",
+          "source_url": "https://c-holdings.vn/thong-tin-du-an-the-felix/tong-quan",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "apartment_area_max_m2",
+          "value": 85,
+          "unit": "m2",
+          "source_url": "https://c-holdings.vn/thong-tin-du-an-the-felix/tong-quan",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
         }
       ],
       "source_references": [
@@ -1136,7 +1340,8 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P0",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "p0_evidence_review_as_of": "2026-10-09"
     },
     {
       "id": "map-lapura",
@@ -1254,6 +1459,12 @@
           "role": "initial_map_listing_unverified",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://gamudaland.com.vn/vn/news/news-and-story-37",
+          "role": "developer_corporate_news",
+          "status": "attributed_publisher",
+          "checked_at": "2026-10-09"
         }
       ],
       "coverage": {
@@ -1271,7 +1482,9 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P0",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "p0_evidence_review_as_of": "2026-10-09",
+      "p0_research_note": "Official Gamuda news names Norton Park among intended late-2026 launches; 1,286-vs-5,000 products marketing-source conflict unresolved."
     },
     {
       "id": "map-sungio",
@@ -1335,7 +1548,35 @@
       "foreign_capital": "not_verified_separately",
       "position_status": "not_independently_verified",
       "pricing_status": "unverified_asking_or_missing",
-      "specifications": [],
+      "specifications": [
+        {
+          "field": "project_land_area_ha",
+          "value": 18.9,
+          "unit": "ha",
+          "source_url": "https://www.capitaland.com/vn/en/stay/residential-development-listing/sycamore.html",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "all_development_residences_approx",
+          "value": 3500,
+          "unit": "approx_total_residences",
+          "source_url": "https://www.capitaland.com/vn/en/stay/residential-development-listing/sycamore.html",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Includes low/mid/high-rise; DO NOT enter as apartment-only count."
+        },
+        {
+          "field": "joint_development_partner_reported",
+          "value": "UOA Group",
+          "unit": "organisation",
+          "source_url": "https://www.capitaland.com/vn/en/stay/residential-development-listing/sycamore.html",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Legacy source says Becamex; legal relationship needs review."
+        }
+      ],
       "source_references": [
         {
           "url": "https://www.capitaland.com/vn/en/stay/residential-development-listing/sycamore.html",
@@ -1348,13 +1589,19 @@
           "role": "initial_map_listing_unverified",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://www.capitaland.com/en/about-capitaland/newsroom/news-releases/international/2024/march/cld-aims-grow-residential-Vietnam-27000-units-by-2028.html",
+          "role": "dated_developer_publication",
+          "status": "attributed_publisher",
+          "checked_at": "2026-10-09"
         }
       ],
       "coverage": {
         "project_identity": "evidence_or_claim_recorded",
         "developer_brand": "evidence_or_claim_recorded",
         "source_reference": "evidence_or_claim_recorded",
-        "site_area": "missing_or_unverified",
+        "site_area": "evidence_or_claim_recorded",
         "residential_units": "missing_or_unverified",
         "tower_count": "missing_or_unverified",
         "handover_year": "missing_or_unverified",
@@ -1365,7 +1612,8 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P0",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "p0_evidence_review_as_of": "2026-10-09"
     },
     {
       "id": "map-happyone",
@@ -1544,6 +1792,42 @@
           "source_role": "developer_reported",
           "review_status": "publisher_claim_requires_document_review",
           "note": "Không phải chính xác tổng số căn hộ"
+        },
+        {
+          "field": "reported_phase_count",
+          "value": 3,
+          "unit": "phases",
+          "source_url": "https://thewincity.vn/tin-tuc/giai-ma-5-ly-do-tao-suc-hut-cho-dai-do-thi-the-win-city/",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "phase_a_marketing_name",
+          "value": "Prime Majestic",
+          "unit": "phase_name",
+          "source_url": "https://thewincity.vn/tin-tuc/giai-ma-5-ly-do-tao-suc-hut-cho-dai-do-thi-the-win-city/",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "phase_b_marketing_name",
+          "value": "Glory Sky",
+          "unit": "phase_name",
+          "source_url": "https://thewincity.vn/tin-tuc/giai-ma-5-ly-do-tao-suc-hut-cho-dai-do-thi-the-win-city/",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "phase_c_marketing_name",
+          "value": "Victory Heights",
+          "unit": "phase_name",
+          "source_url": "https://thewincity.vn/tin-tuc/giai-ma-5-ly-do-tao-suc-hut-cho-dai-do-thi-the-win-city/",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
         }
       ],
       "source_references": [
@@ -1558,6 +1842,12 @@
           "role": "initial_map_listing_unverified",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://thewincity.vn/tin-tuc/giai-ma-5-ly-do-tao-suc-hut-cho-dai-do-thi-the-win-city/",
+          "role": "dated_developer_publication",
+          "status": "attributed_publisher",
+          "checked_at": "2026-10-09"
         }
       ],
       "coverage": {
@@ -1575,7 +1865,9 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P0",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "p0_evidence_review_as_of": "2026-10-09",
+      "p0_research_note": "The Win City is in Tay Ninh (former Long An) and must be excluded from current HCMC-only aggregate statistics."
     },
     {
       "id": "map-elysian",
@@ -1592,7 +1884,26 @@
       "foreign_capital": "not_verified_separately",
       "position_status": "not_independently_verified",
       "pricing_status": "unverified_asking_or_missing",
-      "specifications": [],
+      "specifications": [
+        {
+          "field": "unit_area_range_min_m2",
+          "value": 36.88,
+          "unit": "m2",
+          "source_url": "https://www.gamudaland.com.vn/vn/developments/township/elysian",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "unit_area_range_max_m2",
+          "value": 291.7,
+          "unit": "m2",
+          "source_url": "https://www.gamudaland.com.vn/vn/developments/township/elysian",
+          "source_role": "project_developer_or_corporate_reported",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        }
+      ],
       "source_references": [
         {
           "url": "https://www.gamudaland.com.vn/vn/developments/township/elysian",
@@ -1622,7 +1933,9 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P0",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "p0_evidence_review_as_of": "2026-10-09",
+      "p0_research_note": "Gamuda official project location currently says Long Phuoc, while legacy map says Truong Thanh; verify before changing geolocation."
     },
     {
       "id": "hist-sunrisecityview",
@@ -6470,5 +6783,6 @@
       "review_priority": "P2",
       "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
     }
-  ]
+  ],
+  "p0_research_as_of": "2026-10-09"
 }
