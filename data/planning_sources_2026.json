@@ -28,7 +28,36 @@
       "type": "gis_portal",
       "status": "url_to_verify",
       "note": "Không giả định API/WMS được cấp phép"
+    },
+    {
+      "name": "Cổng công khai quy hoạch đô thị và nông thôn TP.HCM (hướng dẫn)",
+      "url": "https://qhkt.hochiminhcity.gov.vn/tai-lieu-hop/huong-dan-gisxaydung-3627.html",
+      "type": "official_access_instructions",
+      "status": "official_reference",
+      "note": "Hướng dẫn công khai từ Sở QHKT ngày 14/05/2026"
+    },
+    {
+      "name": "Ứng dụng Thông tin Quy hoạch TP.HCM",
+      "url": "https://thongtinquyhoach.hochiminhcity.gov.vn/",
+      "type": "official_web_app",
+      "status": "might_be_temporarily_unavailable",
+      "note": "Tra cứu online, có thể cần vào từ cổng Sở QHKT"
+    },
+    {
+      "name": "HCMC Geoportal Sở TNMT",
+      "url": "https://geoportal-stnmt.tphcm.gov.vn/",
+      "type": "official_geoportal",
+      "status": "metadata_catalog",
+      "note": "Có mục công bố WMS/WMTS, cần kiểm tra lớp cụ thể, CRS và giấy phép"
+    },
+    {
+      "name": "GIS API TP.HCM (hướng dẫn đăng ký)",
+      "url": "https://gisapi.tphcm.gov.vn/Home/Help",
+      "type": "official_api_docs",
+      "status": "registration_key_required",
+      "note": "Đăng ký và lấy RegisterKey theo hướng dẫn trước khi tích hợp API vào website; không đưa secret lên GitHub"
     }
   ],
-  "eligibility": "External links only. A legal zoning polygon overlay requires valid source file/API rights, georeferencing, approval number and effective date."
+  "eligibility": "External links only. A legal zoning polygon overlay requires valid source file/API rights, georeferencing, approval number and effective date.",
+  "note": "Không có lớp quy hoạch chính thức trên ATLAS vì chưa được cung cấp public GIS/WMS đủ điều kiện tái sử dụng. Cổng tra cứu chính thức có dữ liệu, nhưng API có thể yêu cầu đăng ký."
 }
