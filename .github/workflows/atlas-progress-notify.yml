@@ -1,5 +1,7 @@
 name: ATLAS progress notifications
 on:
+  push:
+    branches: [main]
   issues:
     types: [closed, reopened]
   pull_request_target:

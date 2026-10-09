@@ -22,3 +22,5 @@ jobs:
         run: node scripts/validate-data.cjs
       - name: Verify browser JavaScript syntax
         run: node --check assets/atlas-v4.js
+      - name: ATLAS V1 release smoke checks
+        run: node scripts/validate-v1.cjs

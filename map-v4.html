@@ -30,12 +30,13 @@
   }
 })();
 </script>
+<script>if(new URLSearchParams(location.search).get("embed")==="1")document.documentElement.classList.add("embedded");</script>
 </head>
 <body>
 <header class="topbar">
   <a class="logo" href="./map-v4.html" aria-label="Atlas V4"><span class="mark">A<span>.</span></span><span><b>ATLAS</b><small>Vietnam Apartment Intelligence</small></span></a>
   <nav aria-label="Điều hướng">
-    <a class="active" href="./map-v4.html" id="navMap">Bản đồ</a>
+    <a href="./review.html" id="navReview">Tổng quan V1</a><a class="active" href="./map-v4.html" id="navMap">Bản đồ</a>
     <a href="./history.html" id="navHistory">Dữ liệu 15 năm</a>
     <a href="./index.html" id="navLegacy">Phiên bản V3.2</a>
   </nav>

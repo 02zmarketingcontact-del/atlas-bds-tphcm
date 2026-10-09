@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#112b40">
+  <meta name="description" content="ATLAS V1 — nghiên cứu căn hộ TP.HCM: bản đồ thực, danh mục dự án, giá chào tham khảo, dữ liệu lịch sử có nguồn và lớp GIS metro/quy hoạch.">
+  <title>ATLAS V1 Review — Dữ liệu căn hộ TP.HCM</title>
+  <link rel="stylesheet" href="./assets/atlas-review.css">
+  <script defer src="./assets/atlas-review.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Đến nội dung chính</a>
+  <header class="nav">
+    <a class="wordmark" href="./review.html" aria-label="ATLAS, về trang tổng quan"><span class="monogram">A<span>.</span></span><span class="brandcopy"><strong>ATLAS</strong><small>VIETNAM PROPERTY INTELLIGENCE</small></span></a>
+    <nav class="mainnav" aria-label="Chuyển trang">
+      <a href="#overview" id="menuOverview" class="selected">Tổng quan</a>
+      <a href="#projects" id="menuProjects">Dự án</a>
+      <a href="#market" id="menuHistory">20 năm thị trường</a>
+      <a href="./map-v4.html" id="menuMap">Bản đồ toàn màn hình ↗</a>
+    </nav>
+    <div class="navend"><span class="version">V1 · REVIEW</span><select id="language" aria-label="Chọn ngôn ngữ"><option value="vi">VI</option><option value="en">EN</option><option value="zh-CN">简体</option><option value="zh-TW">繁體</option></select></div>
+  </header>
+  <main id="main">
+    <section class="intro" id="overview">
+      <div class="introCopy">
+        <p class="overline" id="eyebrow">BẤT ĐỘNG SẢN TP.HCM • DỮ LIỆU ĐỘC LẬP</p>
+        <h1 id="heroTitle">Hiểu thị trường.<br><em>Trước khi quyết định.</em></h1>
+        <p id="heroSummary" class="lead">Khám phá bản đồ dự án căn hộ, so sánh giá chào và dữ liệu lịch sử qua các chu kỳ. Mọi thông tin được tách theo nguồn, thời điểm và mức xác minh.</p>
+        <div class="heroLinks"><a class="cta" href="./map-v4.html" id="actionMap">Khám phá bản đồ <span>↗</span></a><a class="plainlink" href="./history.html" id="actionHistory">Lịch sử thị trường 2006–2026 →</a></div>
+        <p class="dateline" id="dateline">Bản thử nghiệm · Dữ liệu chưa kiểm chứng không phải lời khuyên đầu tư</p>
+      </div>
+      <div class="introGraphic" aria-hidden="true">
+        <div class="rings"><i></i><i></i><i></i><div class="line-v"></div><div class="line-h"></div></div>
+        <div class="mapTile one"><small>QUẬN 2 CŨ</small><strong>THỦ THIÊM</strong><span>10.77° N 106.72° E</span></div>
+        <div class="mapTile two"><span class="pulse"></span><strong>HỒ CHÍ MINH</strong><small>APARTMENT MARKET</small></div>
+        <span class="coordinate">10°49′N&nbsp; 106°40′E</span>
+      </div>
+    </section>
+    <section class="numbers" aria-label="Số liệu minh bạch">
+      <div><span id="kpiProjects" class="number">—</span><span id="kpiProjectsLabel" class="numLabel">Dự án có trong danh mục</span></div>
+      <div><span id="kpiVerified" class="number">—</span><span id="kpiVerifiedLabel" class="numLabel">Tọa độ được đánh dấu đã đối chiếu</span></div>
+      <div><span id="kpiPrice" class="number">—</span><span id="kpiPriceLabel" class="numLabel">Giá được xác minh độc lập</span></div>
+      <div><span id="kpiHistory" class="number">—</span><span id="kpiHistoryLabel" class="numLabel">Quan sát lịch sử có nguồn</span></div>
+    </section>
+    <section class="section split" id="mapSection">
+      <div class="sectionHead"><div><p class="overline" id="mapEyebrow">01 / BẢN ĐỒ THỰC</p><h2 id="mapTitle">Mỗi dự án, một vị trí cụ thể.</h2><p id="mapDesc">Khám phá bản đồ đường phố, tọa độ dự án, khoảng giá chào và tuyến Metro số 1 ở mức sơ đồ tham khảo.</p></div><a href="./map-v4.html" class="underlineLink" id="mapFull">Mở bản đồ chi tiết ↗</a></div>
+      <div class="mapShell"><iframe title="ATLAS interactive apartment map" loading="lazy" src="./map-v4.html?embed=1" id="mapPreview"></iframe><div class="mapChrome"><span class="liveDot"></span><span id="mapOverlay">Bản đồ tương tác • 32 dự án mẫu</span></div></div>
+      <div class="disclaimer" id="mapWarning"><span class="warnSymbol">!</span> Phần lớn tọa độ trong bản beta còn ước lượng; lớp quy hoạch pháp lý chính thức chưa được tích hợp. Không dùng tọa độ sơ đồ để xác định ranh đất.</div>
+    </section>
+    <section class="section" id="market">
+      <div class="sectionHead"><div><p class="overline" id="marketEyebrow">02 / MARKET INTELLIGENCE</p><h2 id="marketTitle">20 năm để hiểu một thị trường.</h2><p id="marketDesc">Khung nghiên cứu từ năm 2006 đến 2026. Chỉ những kỳ có số liệu đối chiếu nguồn mới được hiển thị.</p></div><a href="./history.html" class="underlineLink" id="marketFull">Mở bộ lọc theo năm ↗</a></div>
+      <div class="marketGrid">
+        <div class="chartPanel"><div class="chartTop"><div><span id="chartSmall" class="overline">ĐIỂM DỮ LIỆU ĐÃ CÔNG BỐ</span><h3 id="chartTitle">Căn hộ bán theo Savills, 2014–2018</h3></div><span class="seriesTag" id="chartMetric">Số căn, hạng A+B+C</span></div><div id="salesChart" class="bars" role="img" aria-label="Biểu đồ số căn hộ được báo cáo bán tại TP.HCM từ 2014 đến 2018"></div><div id="chartEmpty" hidden>Chưa có chuỗi đủ nguồn để hiển thị.</div><p id="chartNote" class="sourceNote">Phạm vi TP.HCM cũ; số căn được báo cáo bán, không phải tổng giao dịch thứ cấp. Nguồn: Savills Research.</p><a id="chartSource" href="https://pdf.savills.asia/asia-pacific-research/asia-pacific-research/acr---vn-res-1h-2019.pdf" target="_blank" rel="noopener noreferrer">Đọc nguồn báo cáo ↗</a></div>
+        <div class="methodPanel"><p class="overline" id="methodEyebrow">CHUẨN PHÂN TÍCH</p><h3 id="methodTitle">Không đánh đổi độ tin cậy lấy số lượng.</h3><div class="methodItem"><span>01</span><p id="method1">Tách giá sơ cấp, thứ cấp, thuê, giá chào và giá giao dịch.</p></div><div class="methodItem"><span>02</span><p id="method2">Không nối chuỗi giá khác địa giới hoặc phương pháp để tạo tăng trưởng giả.</p></div><div class="methodItem"><span>03</span><p id="method3">Giữ nguyên khoảng trống dữ liệu 2006–2026 nếu chưa tìm được nguồn đạt chuẩn.</p></div><div class="methodItem"><span>04</span><p id="method4">Phân biệt vốn/đối tác nước ngoài với điều kiện khách nước ngoài được sở hữu.</p></div></div>
+      </div>
+    </section>
+    <section class="section" id="projects">
+      <div class="sectionHead"><div><p class="overline" id="projectEyebrow">03 / DANH MỤC DỰ ÁN</p><h2 id="projectTitle">Dự án căn hộ đang theo dõi.</h2><p id="projectDesc">Thông tin danh mục nhập ban đầu. Khoảng giá là giá chào tham khảo, chưa có giá giao dịch được xác minh.</p></div><span class="countTag" id="projectResultCount">—</span></div>
+      <div class="filters"><input id="search" type="search" placeholder="Tìm dự án, chủ đầu tư hoặc địa điểm…" aria-label="Tìm dự án"><select id="filterZone" aria-label="Lọc khu vực"><option value="">Tất cả khu vực</option></select><select id="filterStatus" aria-label="Lọc tình trạng"><option value="">Mọi trạng thái</option><option value="sale">Đang mở bán</option><option value="handover">Đã bàn giao</option></select><select id="filterVerify" aria-label="Độ tin cậy tọa độ"><option value="">Mọi tọa độ</option><option value="yes">Đã đối chiếu</option></select></div>
+      <div id="projectCards" class="projectCards"><p>Đang tải dữ liệu...</p></div>
+      <div class="cardsBottom"><button id="showMore" type="button">Xem thêm dự án ↓</button><span id="cardsSummary"></span></div>
+    </section>
+    <section class="principles" id="transparency"><div><p class="overline" id="trustEyebrow">PHƯƠNG PHÁP & TÍNH MINH BẠCH</p><h2 id="trustTitle">Dữ liệu tốt cần biết cả những gì chưa biết.</h2></div><p id="trustText">Giá tham khảo không phải giá giao dịch. Dự án có nhà phát triển hoặc đối tác quốc tế không tự động có suất sở hữu dành cho người nước ngoài. Từng hồ sơ cần ngày quan sát, liên kết nguồn và trạng thái xác minh.</p><a href="https://github.com/02zmarketingcontact-del/atlas-bds-tphcm/issues" target="_blank" rel="noopener noreferrer" id="taskLink">Theo dõi tiến độ phát triển ↗</a></section>
+  </main>
+  <footer><div><b>ATLAS <span>PROPERTY INTELLIGENCE</span></b><small>Prototype V1 · © 2026</small></div><div><a href="./map-v4.html">Map</a><a href="./history.html">Research</a><a href="./index.html">Legacy V3.2</a><a href="https://github.com/02zmarketingcontact-del/atlas-bds-tphcm">GitHub ↗</a></div></footer>
+</body>
+</html>
