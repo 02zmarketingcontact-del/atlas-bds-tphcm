@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#10221e" />
+  <meta name="description" content="Atlas BĐS TP.HCM: bản đồ dự án, giá chào bán có nguồn, hạ tầng, so sánh và dữ liệu thị trường cho khách hàng quốc tế." />
+  <title>ATLAS BĐS · Greater Ho Chi Minh City</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Atlas BDS home">
+        <span class="brand-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="brand-name">ATLAS<span class="brand-dot">.</span><small>BẤT ĐỘNG SẢN</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation" id="top-nav">
+        <button type="button" class="nav-link active" data-view="discover" data-i18n="navDiscover">Khám phá</button>
+        <button type="button" class="nav-link" data-view="infrastructure" data-i18n="navInfra">Hạ tầng</button>
+        <button type="button" class="nav-link" data-view="listings" data-i18n="navListings">Tin đăng</button>
+        <button type="button" class="nav-link" data-view="industry" data-i18n="navIndustry">Khu công nghiệp</button>
+        <button type="button" class="nav-link" data-view="banking" data-i18n="navBanks">Ngân hàng</button>
+      </nav>
+      <div class="top-actions">
+        <label class="sr-only" for="language">Language</label>
+        <select id="language" class="language-select" aria-label="Choose language">
+          <option value="vi">🇻🇳 Tiếng Việt</option>
+          <option value="en">🇬🇧 English</option>
+          <option value="zh-Hans">🇨🇳 简体中文</option>
+          <option value="zh-Hant">🇹🇼 繁體中文</option>
+          <option value="ko">🇰🇷 한국어</option>
+          <option value="ru">🇷🇺 Русский</option>
+        </select>
+        <button type="button" class="outline-button about-button" data-view="about" data-i18n="about">Về dữ liệu ↗</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <div class="eyebrow"><span class="live-dot"></span><span data-i18n="eyebrow">TRUNG TÂM DỮ LIỆU BĐS TP.HCM MỞ RỘNG</span></div>
+          <h1 id="hero-title" data-i18n="heroTitle">Hiểu thị trường.<br />Chọn đúng vị trí.</h1>
+          <p class="hero-subtitle" data-i18n="heroText">Khám phá dự án, tham khảo giá, theo dõi hạ tầng và so sánh bất động sản trên một bản đồ minh bạch nguồn dữ liệu.</p>
+          <div class="hero-actions">
+            <button type="button" class="hero-primary" data-view="discover"><span data-i18n="explore">Khám phá dự án</span><span aria-hidden="true">↗</span></button>
+            <button type="button" class="hero-secondary" data-view="infrastructure"><span data-i18n="seeInfra">Xem quy hoạch hạ tầng</span><span aria-hidden="true">→</span></button>
+          </div>
+          <div class="hero-metrics">
+            <div><b id="stat-projects">04</b><span data-i18n="metricProjects">Dự án mẫu có nguồn</span></div>
+            <div><b id="stat-infra">05</b><span data-i18n="metricInfra">Công trình hạ tầng</span></div>
+            <div><b>06</b><span data-i18n="metricLangs">Ngôn ngữ giao diện</span></div>
+          </div>
+        </div>
+        <div class="hero-decoration" aria-hidden="true">
+          <div class="deco-grid"></div>
+          <div class="deco-circle c1"></div><div class="deco-circle c2"></div>
+          <div class="deco-card card-a"><span>↗</span><b>ATLAS</b><small>10°49'N · 106°40'E</small></div>
+          <div class="deco-pin pin-1"></div><div class="deco-pin pin-2"></div><div class="deco-pin pin-3"></div>
+          <div class="deco-coordinates">MAP / 01 <span>✳</span> HO CHI MINH CITY</div>
+        </div>
+      </section>
+
+      <section class="workspace-wrap" id="content">
+        <div class="section-heading">
+          <div><span class="section-kicker" data-i18n="intelligence">MARKET INTELLIGENCE / 2026</span><h2 id="section-title" data-i18n="sectionDiscover">Khám phá dự án</h2></div>
+          <p class="section-note"><span class="status-indicator"></span><span id="updated-label">Đối chiếu 09/10/2026 · Giá rao tham khảo</span></p>
+        </div>
+
+        <section class="view active" id="view-discover" aria-label="Explore projects">
+          <div class="filterbar">
+            <div class="search-wrap">
+              <span aria-hidden="true">⌕</span>
+              <label class="sr-only" for="project-search">Search properties</label>
+              <input id="project-search" type="search" autocomplete="off" placeholder="Tìm dự án, khu vực, chủ đầu tư..." />
+            </div>
+            <label class="sr-only" for="region-filter">Region</label>
+            <select id="region-filter" class="filter-select"><option value="all">Tất cả khu vực</option><option value="east">Khu Đông</option><option value="north">Khu Bắc</option><option value="west">Khu Tây</option></select>
+            <label class="sr-only" for="budget-filter">Price</label>
+            <select id="budget-filter" class="filter-select"><option value="all">Mọi mức giá</option><option value="0-40">Dưới 40 tr/m²</option><option value="40-80">40–80 tr/m²</option><option value="80-999">Trên 80 tr/m²</option></select>
+            <label class="sr-only" for="sort-filter">Sort</label>
+            <select id="sort-filter" class="filter-select"><option value="name">A → Z</option><option value="price-asc">Giá thấp → cao</option><option value="price-desc">Giá cao → thấp</option></select>
+            <button type="button" id="reset-filters" class="filter-reset" aria-label="Reset filters">↺</button>
+          </div>
+          <div class="map-workspace">
+            <div class="results-panel">
+              <div class="results-header"><span id="result-count">4 dự án</span><span class="minor-label" data-i18n="curated">DỮ LIỆU ĐÃ BIÊN TẬP</span></div>
+              <div class="results-scroll" id="project-list" aria-live="polite"></div>
+            </div>
+            <div class="map-panel">
+              <div id="map" role="region" aria-label="Approximate project locations on map"></div>
+              <div class="map-top-tag"><span class="dot"></span><span data-i18n="mapTag">Bản đồ khu vực · vị trí xấp xỉ</span></div>
+              <div class="map-bottom-tag"><span>◎</span><span data-i18n="mapDisclaimer">Vị trí hiển thị theo khu vực, không phải ranh thửa đất.</span></div>
+              <div id="map-fallback" hidden><div class="fallback-symbol">⌖</div><h3 data-i18n="mapOffline">Không tải được bản đồ</h3><p data-i18n="mapOfflineText">Danh sách dự án vẫn hoạt động. Vui lòng kiểm tra kết nối mạng.</p></div>
+            </div>
+          </div>
+          <div class="discover-foot">
+            <div><strong data-i18n="priceExplain">Giá tham khảo không phải giá giao dịch.</strong> <span data-i18n="priceExplainMore">Mỗi dự án ghi nguồn và ngày cập nhật; hãy kiểm tra bảng hàng trước khi đặt cọc.</span></div>
+            <button type="button" id="open-compare-foot" class="text-action" data-i18n="compareNow">So sánh đã chọn ↗</button>
+          </div>
+        </section>
+
+        <section class="view" id="view-infrastructure" aria-label="Infrastructure">
+          <div class="view-intro"><p data-i18n="infraIntro">Phân biệt công trình đang khai thác, đang thi công và mới trong quy hoạch. Năm hoàn thành là mục tiêu công bố, có thể thay đổi.</p></div>
+          <div class="infra-grid" id="infrastructure-list"></div>
+        </section>
+
+        <section class="view" id="view-listings" aria-label="Listings">
+          <div class="view-intro"><p data-i18n="listingsIntro">Kênh theo dõi tin rao bán, cho thuê và nhu cầu thuê. Chưa đồng bộ tự động với các sàn bên thứ ba; không hiển thị tin hoặc giá không được kiểm chứng.</p></div>
+          <div class="source-grid" id="listing-sources"></div>
+          <div class="empty-state"><span class="empty-icon">▤</span><h3 data-i18n="noListings">Chưa có giỏ hàng đã xác minh</h3><p data-i18n="noListingsDesc">Nguồn dữ liệu được chuẩn bị để nhập CSV/API theo quyền truy cập và điều khoản của nhà cung cấp.</p></div>
+        </section>
+
+        <section class="view" id="view-industry" aria-label="Industrial parks">
+          <div class="view-intro"><p data-i18n="industryIntro">Mảng khu công nghiệp sẽ sử dụng chung chuẩn dự án, bản đồ, giá thuê đất, mức lương vùng và hạ tầng logistics.</p></div>
+          <div class="feature-row">
+            <div class="feature-tile"><span>01</span><h3 data-i18n="industryAreas">KCN & CCN</h3><p data-i18n="industryAreasDesc">Quy mô, tỷ lệ lấp đầy, ngành nghề và trạng thái pháp lý.</p></div>
+            <div class="feature-tile"><span>02</span><h3 data-i18n="industryCost">Giá thuê & chi phí</h3><p data-i18n="industryCostDesc">Giá đất, phí vận hành, điện nước và mức lương tối thiểu vùng.</p></div>
+            <div class="feature-tile"><span>03</span><h3 data-i18n="industryConnect">Cảng & logistics</h3><p data-i18n="industryConnectDesc">Đường, cảng, sân bay, cầu và dự án kết nối tương lai.</p></div>
+          </div>
+          <div class="empty-state"><span class="empty-icon">▦</span><h3 data-i18n="industryPending">Đang chuẩn hóa nguồn KCN</h3><p data-i18n="industryPendingDesc">Chưa công bố dự án KCN chưa có giá và hồ sơ nguồn đối chiếu.</p></div>
+        </section>
+
+        <section class="view" id="view-banking" aria-label="Banking information">
+          <div class="view-intro"><p data-i18n="banksIntro">Lãi suất và điều kiện vay biến động theo thời gian, loại khách hàng và hồ sơ; không công bố số liệu ước đoán.</p></div>
+          <div class="source-grid" id="bank-sources"></div>
+          <div class="empty-state"><span class="empty-icon">◈</span><h3 data-i18n="banksPending">Bảng lãi suất đang được xác minh</h3><p data-i18n="banksPendingDesc">Để so sánh chính xác cần lãi suất ưu đãi, thời hạn cố định, biên độ thả nổi, phí và điều kiện vay.</p></div>
+        </section>
+
+        <section class="view" id="view-about" aria-label="Data and methodology">
+          <div class="view-intro"><p data-i18n="aboutIntro">Atlas hướng đến một cơ sở dữ liệu bất động sản minh bạch, ưu tiên nhu cầu thực của khách hàng trong và ngoài nước.</p></div>
+          <div class="about-grid">
+            <div class="info-card"><span>01</span><h3 data-i18n="trustSources">Nguồn gốc rõ ràng</h3><p data-i18n="trustSourcesDesc">Mỗi mức giá hoặc mốc tiến độ đều dẫn đến nguồn công khai. Không coi tin rao là giá giao dịch.</p></div>
+            <div class="info-card"><span>02</span><h3 data-i18n="trustLegal">Pháp lý có phân loại</h3><p data-i18n="trustLegalDesc">Đủ điều kiện bán, được phép bán cho người nước ngoài và suất SPA còn lại là những khái niệm khác nhau.</p></div>
+            <div class="info-card"><span>03</span><h3 data-i18n="trustUpdates">Cập nhật có kiểm soát</h3><p data-i18n="trustUpdatesDesc">Dữ liệu mẫu kiểm chứng thủ công. Cập nhật tự động chỉ kích hoạt khi có nguồn cấp dữ liệu hợp lệ.</p></div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div><span class="footer-brand">ATLAS<span>.</span></span><p data-i18n="footerText">Thông tin phục vụ tham khảo, không phải lời mời chào giao dịch hay tư vấn đầu tư cá nhân.</p></div>
+      <div class="footer-right"><span>GREATER HO CHI MINH CITY</span><span>© <span id="copyright-year">2026</span> ATLAS BĐS</span></div>
+    </footer>
+  </div>
+
+  <div id="compare-tray" class="compare-tray" hidden>
+    <div class="compare-tray-inner"><div><strong id="compare-count">0</strong><span data-i18n="selectedForCompare"> dự án đã chọn</span></div><div><button type="button" id="clear-compare" class="tray-clear" data-i18n="clear">Xóa</button><button type="button" id="launch-compare" class="tray-open" data-i18n="compare">So sánh ↗</button></div></div>
+  </div>
+
+  <div class="modal-backdrop" id="modal-backdrop" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button type="button" class="modal-close" id="close-modal" aria-label="Close">×</button>
+      <div id="modal-body"></div>
+    </section>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script type="module" src="./assets/app.js"></script>
+</body>
+</html>
