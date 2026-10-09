@@ -63,3 +63,9 @@ footer .qimap-footer-brand span{color:#B49B77;font-weight:500}
 @media(max-width:790px){.nav .wordmark.qimap-brand-lockup{min-width:0}.qimap-brand-logo{width:116px;height:39px}.nav .wordmark.qimap-brand-lockup .qimap-product b{font-size:16px}.qimap-product small{font-size:7px}.topbar .logo.qimap-brand-lockup{min-width:0}.topbar{gap:9px}.topbar nav{gap:9px}}
 @media(max-width:520px){.qimap-brand-logo{width:101px;height:36px}.qimap-product{padding-left:7px;gap:1px}.nav .wordmark.qimap-brand-lockup .qimap-product b,.topbar .logo.qimap-brand-lockup .qimap-product b{font-size:14px}.qimap-product small{font-size:6px;letter-spacing:.025em}.nav .wordmark.qimap-brand-lockup{gap:5px}.topbar .logo.qimap-brand-lockup{gap:5px}#topbar .brand .qimap-brand-lockup .qimap-brand-logo{width:103px;height:35px}#topbar .brand .qimap-brand-lockup .qimap-product b{font-size:15px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Legacy V3 header was dark: keep the actual graphite QILUVI logo visible. */
+#topbar .brand{background:#F6F3EC!important;color:#223139!important;border:1px solid #C9CDCC!important;box-shadow:0 5px 18px #22313916!important}
+#topbar .brand .qimap-brand-lockup{color:#223139}
+@media(max-width:690px){#topbar .brand{min-width:0!important;padding:4px 7px!important;width:auto!important;height:46px!important}#topbar .brand .qimap-brand-lockup .qimap-brand-logo{width:91px!important;height:32px!important}#topbar .brand .qimap-brand-lockup .qimap-product b{font-size:13px!important}#topbar .brand .qimap-product small{display:none}}
+@media(max-width:520px){.qimap-map-page .topbar nav{display:none}.qimap-map-page .topbar .logo.qimap-brand-lockup{flex:1;min-width:0}.qimap-map-page .topbar .top-actions{margin-left:auto}}
