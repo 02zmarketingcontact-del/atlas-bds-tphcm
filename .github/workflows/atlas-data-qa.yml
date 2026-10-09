@@ -26,3 +26,5 @@ jobs:
         run: node scripts/validate-v1.cjs
       - name: QiMap and QILUVI brand identity contract
         run: node scripts/validate-qimap-brand.cjs
+      - name: Verify 126 historic entries merge into one sourced QiMap index
+        run: node scripts/build-project-index.cjs --check
