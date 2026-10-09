@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="ATLAS: bản đồ thực, dự án căn hộ, giá chào và lớp metro TP.HCM; mọi nguồn và mức xác minh được hiển thị rõ ràng.">
-<title>ATLAS V4 | Bản đồ căn hộ TP.HCM</title>
+<meta name="description" content="QiMap: bản đồ thực, dự án căn hộ, giá chào và lớp metro TP.HCM; mọi nguồn và mức xác minh được hiển thị rõ ràng.">
+<title>QiMap V4 | Bản đồ căn hộ TP.HCM</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.13.0/dist/maplibre-gl.css">
 <link rel="stylesheet" href="./assets/atlas-v4.css">
 <script type="module">
@@ -14,7 +14,7 @@
     window.maplibregl = library;
     await import("./assets/atlas-v4.js");
   } catch (error) {
-    console.error("ATLAS V4 dependencies failed:", error);
+    console.error("QiMap V4 dependencies failed:", error);
     window.addEventListener("DOMContentLoaded", () => {
       const box = document.getElementById("mapNotice");
       if (box) box.hidden = false;
@@ -31,20 +31,24 @@
 })();
 </script>
 <script>if(new URLSearchParams(location.search).get("embed")==="1")document.documentElement.classList.add("embedded");</script>
+<meta name="theme-color" content="#223139">
+<link rel="icon" type="image/svg+xml" href="./assets/qiluvi-icon.svg">
+<link rel="stylesheet" href="./assets/qimap-brand.css">
+<meta property="og:site_name" content="QiMap by QILUVI">
 </head>
 <body>
 <header class="topbar">
-  <a class="logo" href="./map-v4.html" aria-label="Atlas V4"><span class="mark">A<span>.</span></span><span><b>ATLAS</b><small>Vietnam Apartment Intelligence</small></span></a>
+  <a class="logo qimap-brand-lockup" href="./review.html" aria-label="QiMap — nền tảng dữ liệu thuộc QILUVI"><img class="qimap-brand-logo" src="./assets/qiluvi-logo-primary.svg" alt="QILUVI" width="144" height="42"><span class="qimap-product"><b>QiMap</b><small>Market Intelligence</small></span></a>
   <nav aria-label="Điều hướng">
     <a href="./review.html" id="navReview">Tổng quan V1</a><a class="active" href="./map-v4.html" id="navMap">Bản đồ</a>
-    <a href="./history.html" id="navHistory">Dữ liệu 15 năm</a>
+    <a href="./history.html" id="navHistory">Dữ liệu 20 năm</a>
     <a href="./index.html" id="navLegacy">Phiên bản V3.2</a>
   </nav>
-  <div class="top-actions"><span class="beta">V4 PREVIEW</span><select id="language" aria-label="Ngôn ngữ"><option value="vi">Tiếng Việt</option><option value="en">English</option><option value="zh-CN">简体中文</option><option value="zh-TW">繁體中文</option><option value="ko">한국어</option><option value="ru">Русский</option></select><button id="mobileSidebar" class="mobileOnly" aria-label="Mở bộ lọc">☰</button></div>
+  <div class="top-actions"><span class="beta">QiMap BETA</span><select id="language" aria-label="Ngôn ngữ"><option value="vi">Tiếng Việt</option><option value="en">English</option><option value="zh-CN">简体中文</option><option value="zh-TW">繁體中文</option><option value="ko">한국어</option><option value="ru">Русский</option></select><button id="mobileSidebar" class="mobileOnly" aria-label="Mở bộ lọc">☰</button></div>
 </header>
 <div class="workspace">
   <aside class="sidebar" id="sidebar">
-    <div class="sideIntro"><span class="eyebrow">ATLAS / APARTMENT DATA</span><h1 id="pageTitle">Bản đồ căn hộ TP.HCM</h1><p id="subtitle">Vị trí, khoảng giá tham khảo, phân tích theo nguồn và lớp kết nối giao thông.</p></div>
+    <div class="sideIntro"><span class="eyebrow">QiMap / APARTMENT DATA</span><h1 id="pageTitle">Bản đồ căn hộ TP.HCM</h1><p id="subtitle">Vị trí, khoảng giá tham khảo, phân tích theo nguồn và lớp kết nối giao thông.</p></div>
     <div class="stats"><div><strong id="projectCount">—</strong><span id="projectCountLabel">Dự án có dữ liệu</span></div><div><strong id="verifiedCount">—</strong><span id="verifiedCountLabel">Tọa độ đã đối chiếu</span></div></div>
     <label for="search" class="inputLabel" id="searchLabel">Tìm tên dự án, chủ đầu tư, khu vực</label>
     <input id="search" type="search" placeholder="VD: The Privé, Thu Thiem" autocomplete="off">
