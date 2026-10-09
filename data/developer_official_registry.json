@@ -1,0 +1,620 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-10-09",
+  "policy": {
+    "priority": [
+      "issuer_project_page",
+      "issuer_project_microsite",
+      "issuer_portfolio",
+      "government",
+      "market_research",
+      "broker_last_resort"
+    ],
+    "claims": "Only developer brand domain verified. Legal project owner and foreign-buyer eligibility require separate evidence.",
+    "robots": true,
+    "no_scraping_protected_data": true,
+    "external_facts_auto_publish": false
+  },
+  "projects": [
+    {
+      "project_id": "metropole",
+      "name": "The Metropole Thu Thiem",
+      "developer_brand_from_legacy": "SonKim Land",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://sonkimland.vn/residential",
+        "role": "developer_portfolio",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "The Metropole"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "empire",
+      "name": "Empire City Thu Thiem",
+      "developer_brand_from_legacy": "Keppel Land / Tien Phuoc",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://www.keppel.com/realestate/About-Us/Our-Projects/Vietnam",
+        "role": "developer_portfolio",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "Empire City"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "river",
+      "name": "The River Thu Thiem",
+      "developer_brand_from_legacy": "Refico",
+      "source_status": "official_site_discovery_pending",
+      "legal_project_owner_verified": false,
+      "source": null,
+      "match_terms": [
+        "The River Thu Thiem"
+      ],
+      "priority": "P0",
+      "review_state": "find_official_publisher",
+      "notes": null
+    },
+    {
+      "project_id": "prive",
+      "name": "The Prive",
+      "developer_brand_from_legacy": "Dat Xanh Group",
+      "source_status": "official_site_discovery_pending",
+      "legal_project_owner_verified": false,
+      "source": null,
+      "match_terms": [
+        "The Prive"
+      ],
+      "priority": "P0",
+      "review_state": "find_official_publisher",
+      "notes": null
+    },
+    {
+      "project_id": "eaton",
+      "name": "Eaton Park",
+      "developer_brand_from_legacy": "Gamuda Land",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://www.gamudaland.com.vn/vn/developments/township/eaton-park",
+        "role": "developer_project",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "Eaton Park"
+      ],
+      "priority": "P0",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "sunavenue",
+      "name": "The Sun Avenue",
+      "developer_brand_from_legacy": "Novaland",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://www.novaland.com.vn/the-sun-avenue",
+        "role": "developer_project",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "The Sun Avenue"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "masterithaodien",
+      "name": "Masteri Thao Dien",
+      "developer_brand_from_legacy": "Masterise Homes",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://masterisehomes.com/",
+        "role": "developer_portfolio",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "Masteri Thao Dien"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "gatewaythaodien",
+      "name": "Gateway Thao Dien",
+      "developer_brand_from_legacy": "SonKim Land",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://sonkimland.vn/residential",
+        "role": "developer_portfolio",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "Gateway Thao Dien"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "vcp",
+      "name": "Vinhomes Central Park",
+      "developer_brand_from_legacy": "Vinhomes",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://vinhomes.vn/",
+        "role": "developer_portfolio",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "Vinhomes Central Park"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "mcp",
+      "name": "Masteri Centre Point",
+      "developer_brand_from_legacy": "Masterise Homes",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://masterisehomes.com/",
+        "role": "developer_portfolio",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "Masteri Centre Point"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "lumiere",
+      "name": "Lumiere Boulevard",
+      "developer_brand_from_legacy": "Masterise Homes",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://masterisehomes.com/",
+        "role": "developer_portfolio",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "Lumiere Boulevard",
+        "LUMIÈRE Boulevard"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "vingrand",
+      "name": "Vinhomes Grand Park (tong the)",
+      "developer_brand_from_legacy": "Vinhomes",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://vinhomes.vn/vi/vinhomes-grand-park",
+        "role": "developer_project",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "Vinhomes Grand Park"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "midtown",
+      "name": "Midtown Phu My Hung",
+      "developer_brand_from_legacy": "Phu My Hung",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://phumyhung.vn/",
+        "role": "developer_portfolio",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "Midtown"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "celesta",
+      "name": "Celesta Rise",
+      "developer_brand_from_legacy": "Keppel Land",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://www.keppel.com/realestate/About-Us/Our-Projects/Vietnam",
+        "role": "developer_portfolio",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "Celesta Rise"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "mizuki",
+      "name": "Mizuki Park - can ho",
+      "developer_brand_from_legacy": "Nam Long",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://mizuki.vn/",
+        "role": "developer_project_microsite",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "Mizuki Park"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "akari",
+      "name": "Akari City",
+      "developer_brand_from_legacy": "Nam Long",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://akari.vn/",
+        "role": "developer_project_microsite",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "Akari City"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "vista",
+      "name": "Vista Verde",
+      "developer_brand_from_legacy": "CapitaLand",
+      "source_status": "official_site_discovery_pending",
+      "legal_project_owner_verified": false,
+      "source": null,
+      "match_terms": [
+        "Vista Verde"
+      ],
+      "priority": "P0",
+      "review_state": "find_official_publisher",
+      "notes": null
+    },
+    {
+      "project_id": "palmheights",
+      "name": "Palm Heights",
+      "developer_brand_from_legacy": "Keppel Land",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://www.keppel.com/realestate/About-Us/Our-Projects/Vietnam",
+        "role": "developer_portfolio",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "Palm Heights"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "origami",
+      "name": "The Origami - Grand Park",
+      "developer_brand_from_legacy": "Vinhomes",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://theorigami.vinhomes.vn/the-origami-park/",
+        "role": "developer_project_microsite",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "The Origami"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "glory",
+      "name": "Glory Heights - Grand Park",
+      "developer_brand_from_legacy": "Vinhomes",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://market.vinhomes.vn/phan-khu/glory-heights-vinhomes-grand-park",
+        "role": "developer_project",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "Glory Heights"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "bcons",
+      "name": "Bcons City",
+      "developer_brand_from_legacy": "Bcons Group",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://bcons.com.vn/",
+        "role": "developer_portfolio",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "Bcons City"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "felix",
+      "name": "The Felix",
+      "developer_brand_from_legacy": "C-Holdings",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://c-holdings.vn/the-felix",
+        "role": "developer_project",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "The Felix"
+      ],
+      "priority": "P0",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "lapura",
+      "name": "La Pura",
+      "developer_brand_from_legacy": "Phat Dat",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://phatdat.com.vn/",
+        "role": "developer_portfolio",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "La Pura"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": "Developer corporate site; find and verify La Pura project-specific URL."
+    },
+    {
+      "project_id": "emerald",
+      "name": "The Emerald 68",
+      "developer_brand_from_legacy": "Le Phong / Coteccons",
+      "source_status": "official_site_discovery_pending",
+      "legal_project_owner_verified": false,
+      "source": null,
+      "match_terms": [
+        "The Emerald 68"
+      ],
+      "priority": "P0",
+      "review_state": "find_official_publisher",
+      "notes": null
+    },
+    {
+      "project_id": "norton",
+      "name": "Norton Park",
+      "developer_brand_from_legacy": "Gamuda Land",
+      "source_status": "official_site_discovery_pending",
+      "legal_project_owner_verified": false,
+      "source": null,
+      "match_terms": [
+        "Norton Park"
+      ],
+      "priority": "P0",
+      "review_state": "find_official_publisher",
+      "notes": "Do not treat marketing microsites as the official Gamuda publisher without corporate cross-link."
+    },
+    {
+      "project_id": "sungio",
+      "name": "The Gio Riverside",
+      "developer_brand_from_legacy": "An Gia Group",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://www.angia.com.vn/vi/du-an/du-an-dang-trien-khai/the-gio-riverside.html",
+        "role": "developer_project",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "The Gió Riverside",
+        "The Gio Riverside"
+      ],
+      "priority": "P0",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "sycamore",
+      "name": "Sycamore - can ho",
+      "developer_brand_from_legacy": "CapitaLand / Becamex",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://www.capitaland.com/vn/en/stay/residential-development-listing/sycamore.html",
+        "role": "developer_project",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "Sycamore"
+      ],
+      "priority": "P0",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "happyone",
+      "name": "Happy One Central",
+      "developer_brand_from_legacy": "Van Xuan Group",
+      "source_status": "official_site_discovery_pending",
+      "legal_project_owner_verified": false,
+      "source": null,
+      "match_terms": [
+        "Happy One Central"
+      ],
+      "priority": "P0",
+      "review_state": "find_official_publisher",
+      "notes": null
+    },
+    {
+      "project_id": "melody",
+      "name": "Vung Tau Melody",
+      "developer_brand_from_legacy": "Hung Thinh",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://www.hungthinhcorp.com.vn/",
+        "role": "developer_portfolio",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "Vung Tau Melody"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "phoenix",
+      "name": "DIC Phoenix",
+      "developer_brand_from_legacy": "DIC Corp",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://www.dic.vn/du-an-dic-phoenix",
+        "role": "developer_project",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "DIC Phoenix"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    },
+    {
+      "project_id": "win",
+      "name": "The Win City",
+      "developer_brand_from_legacy": "Thang Loi Homes",
+      "source_status": "official_site_discovery_pending",
+      "legal_project_owner_verified": false,
+      "source": null,
+      "match_terms": [
+        "The Win City"
+      ],
+      "priority": "P0",
+      "review_state": "find_official_publisher",
+      "notes": null
+    },
+    {
+      "project_id": "elysian",
+      "name": "Elysian",
+      "developer_brand_from_legacy": "Gamuda Land",
+      "source_status": "developer_brand_domain_verified",
+      "legal_project_owner_verified": false,
+      "source": {
+        "url": "https://www.gamudaland.com.vn/vn/developments/township/elysian",
+        "role": "developer_project",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
+      "match_terms": [
+        "Elysian"
+      ],
+      "priority": "P1",
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": null
+    }
+  ]
+}

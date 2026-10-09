@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "last_run_at": null,
+  "status": "not_run",
+  "sources": {},
+  "projects": {},
+  "summary": {
+    "tracked_projects": 25,
+    "unverified_official_source": 7
+  },
+  "notes": "Updated by daily GitHub Actions. Facts are reviewed, never automatically inserted into approved project prices."
+}
