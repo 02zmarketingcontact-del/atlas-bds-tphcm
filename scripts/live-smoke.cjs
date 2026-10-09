@@ -75,7 +75,8 @@ async function run(){
    const detail=await desktop.locator("#detail").innerText();
    assert(detail.includes("1.147")||detail.includes("1147"),"Developer corporate-source fact not shown on Felix card");
    assert(detail.includes("Nguồn doanh nghiệp phát triển"),"Daily developer source status not shown in project details");
-   assert(detail.includes("c-holdings.vn"),"Official C-Holdings link not shown for The Felix");
+   const officialLink=await desktop.locator("#detail a.officialSourceLink").first().getAttribute("href");
+   assert(officialLink?.includes("c-holdings.vn"),"Official C-Holdings link not shown for The Felix");
    const sourceRegistry=await desktop.evaluate(async()=>{const [registry,state,candidates]=await Promise.all([
     fetch("./data/developer_official_registry.json").then(r=>r.json()),
     fetch("./data/developer_source_monitor_state.json").then(r=>r.json()),
