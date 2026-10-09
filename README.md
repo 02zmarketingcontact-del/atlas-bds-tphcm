@@ -1,3 +1,8 @@
+## Danh mục căn hộ thứ cấp đã mở rộng
+
+- [QiMap — Kho 126 tên dự án và phân kỳ chung cư cũ](https://02zmarketingcontact-del.github.io/atlas-bds-tphcm/secondary-catalog.html). Dữ liệu đã đối chiếu trực tiếp với 32 dự án gắn ghim; mức khử trùng lặp chỉ dựa vào tên/bí danh.
+- Giá thứ cấp/giá thuê từng căn hiện chưa xác minh và không được tự tạo; tọa độ từ kho nghiên cứu không tự động thêm vào bản đồ.
+
 **Thương hiệu công khai:** QiMap là sản phẩm bản đồ và phân tích thuộc QILUVI. Các tệp kỹ thuật atlas-* và đường dẫn GitHub hiện tại được giữ để tương thích ngược, không phải tên sản phẩm hiển thị.
 
 # QiMap by QILUVI — Nền tảng dữ liệu bất động sản
