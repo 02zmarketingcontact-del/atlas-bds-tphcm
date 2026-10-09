@@ -17,7 +17,9 @@
 
 # QiMap by QILUVI — Nền tảng dữ liệu bất động sản
 
-**Trang chủ QiMap:** https://02zmarketingcontact-del.github.io/atlas-bds-tphcm/ (tự chuyển đến `review.html`). **Ứng dụng V3.2 cũ** vẫn xem được tại `legacy.html` hoặc truy cập root với `?legacy=1`.\n\n**Bắt đầu review tại:** https://02zmarketingcontact-del.github.io/atlas-bds-tphcm/review.html
+**Trang chủ QiMap:** https://02zmarketingcontact-del.github.io/atlas-bds-tphcm/ (tự chuyển đến `review.html`). **Ứng dụng V3.2 cũ** vẫn xem được tại `legacy.html` hoặc truy cập root với `?legacy=1`.
+
+**Bắt đầu review tại:** https://02zmarketingcontact-del.github.io/atlas-bds-tphcm/review.html
 
 - [Bản đồ thực V4](https://02zmarketingcontact-del.github.io/atlas-bds-tphcm/map-v4.html)
 - [Lịch sử căn hộ 2006–2026](https://02zmarketingcontact-del.github.io/atlas-bds-tphcm/history.html)
