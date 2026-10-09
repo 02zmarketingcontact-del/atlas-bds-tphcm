@@ -24,6 +24,17 @@ assert.equal(completed,55,"Issuer completed/handover claims must remain 55");
 const current=new Set(legacy.map(x=>norm(x.name)));
 const matches=universe.projects.filter(p=>[p.name,...(p.aliases||[])].some(name=>current.has(norm(name))));
 assert(matches.length>=8,"Missing exact/alias reconciliation with mapped projects");
+const dossiers=load("data/project_dossiers_v1.json");
+assert.equal(dossiers.record_count,150,"Project dossier data must cover 150 names or phases");
+assert.equal(dossiers.records.length,150,"Each indexed record requires a dossier");
+const searchIndex=load("data/project_search_index.json");
+assert.deepEqual(new Set(dossiers.records.map(x=>x.id)),new Set(searchIndex.records.map(x=>x.id)),"Dossier IDs and search universe must align");
+for(const d of dossiers.records){
+ assert(d.name&&d.source_references.length>0,"Missing source provenance "+d.id);
+ assert(Object.keys(d.coverage).length===12,"Coverage fields missing "+d.id);
+ assert(d.foreign_buyer_eligibility==="not_verified","Cannot infer foreign buyer quota "+d.id);
+ for(const fact of d.specifications)assert(fact.source_url?.startsWith("https://")&&fact.review_status==="publisher_claim_requires_document_review","Published data claim lacks evidence state "+d.id);
+}
 const html=read("secondary-catalog.html"),script=read("assets/qimap-secondary.js");
 new vm.Script(script,{filename:"assets/qimap-secondary.js"});
 for(const match of script.matchAll(/\$\("([A-Za-z0-9_-]+)"\)/g))assert(html.includes('id="'+match[1]+'"'),"Missing #"+match[1]);
