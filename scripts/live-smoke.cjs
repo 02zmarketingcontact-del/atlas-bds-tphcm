@@ -42,6 +42,7 @@ async function run(){
   try{
    await goto(desktop,"map-v4.html");
    await desktop.waitForFunction(()=>document.querySelector("#projectCount")?.textContent?.trim()==="32",{timeout:30000});
+   await desktop.waitForSelector(".projectMarker",{timeout:30000});
    const markerCount=await desktop.locator(".projectMarker").count();
    const canvasCount=await desktop.locator("#map canvas").count();
    assert(canvasCount>=1,"MapLibre canvas not present");
