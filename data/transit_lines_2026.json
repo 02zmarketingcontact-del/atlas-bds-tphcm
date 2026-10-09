@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "observed_as_of": "2026-10-09",
+  "publication_policy": "Only show approved/status-sourced milestones. No future track drawn without verified GIS geometry.",
+  "lines": [
+    {
+      "id": "m1",
+      "name": "Metro số 1: Bến Thành – Suối Tiên",
+      "status": "operating",
+      "status_label_vi": "Đang vận hành",
+      "opened_on": "2024-12-22",
+      "target_year": null,
+      "geometry_status": "schematic_legacy_only",
+      "station_geometry_status": "osm_candidate_pending",
+      "source_url": "https://tphcm.baochinhphu.vn/chinh-thuc-van-hanh-metro-so-1-101241222121342133.htm",
+      "source_date": "2024-12-22",
+      "confidence": "official_event"
+    },
+    {
+      "id": "m2-bt-tl",
+      "name": "Metro số 2: Bến Thành – Tham Lương",
+      "status": "under_construction",
+      "status_label_vi": "Đã khởi công / đang thi công",
+      "construction_start": "2026-01-15",
+      "target_year": 2030,
+      "target_label": "Dự kiến Q4/2030, không bảo đảm",
+      "geometry_status": "no_verified_gis",
+      "source_url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/ban-kinh-te-ngan-sach/khao-sat-tuyen-metro-so-2-day-nhanh-tien-do-bao-dam-tinh-dong-bo-he-thong",
+      "target_source_url": "https://ttbc-hcm.gov.vn/tp-hcm-chinh-thuc-khoi-cong-metro-so-2-du-an-tien-phong-trong-giai-doan-moi-1020455.html",
+      "source_date": "2026-04-03",
+      "confidence": "official"
+    },
+    {
+      "id": "m2-bt-tt",
+      "name": "Metro số 2: Bến Thành – Thủ Thiêm",
+      "status": "under_construction",
+      "status_label_vi": "Đã khởi công",
+      "construction_start": "2026-04-29",
+      "target_year": null,
+      "target_label": "Chưa xác nhận ngày vận hành",
+      "geometry_status": "no_verified_gis",
+      "source_url": "https://ttbc-hcm.gov.vn/tp-hcm-khoi-cong-loat-du-an-trong-diem-dinh-hinh-sieu-do-thi-tam-voc-khu-vuc-va-quoc-te-1021218.html",
+      "source_date": "2026-04-29",
+      "confidence": "official"
+    },
+    {
+      "id": "m-bd-st",
+      "name": "Metro TP mới Bình Dương – Suối Tiên",
+      "status": "preparation",
+      "status_label_vi": "Đang khảo sát / chuẩn bị đầu tư",
+      "target_year": 2030,
+      "target_label": "Mục tiêu giai đoạn ưu tiên 2026–2030",
+      "geometry_status": "no_verified_gis",
+      "source_url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/ban-do-thi/tuyen-metro-tp-hcm-binh-duong-khoan-khao-sat-muc-tieu-khoi-cong-cuoi-nam-2026",
+      "source_date": "2026-08-01",
+      "confidence": "official"
+    },
+    {
+      "id": "m2-tdm-hcm",
+      "name": "Metro số 2: Thủ Dầu Một – TP.HCM",
+      "status": "alignment_approved",
+      "status_label_vi": "Đã chấp thuận phương án hướng tuyến",
+      "target_year": 2030,
+      "target_label": "Mục tiêu đầu tư 2026–2030",
+      "geometry_status": "no_verified_gis",
+      "source_url": "https://ttbc-hcm.gov.vn/tp-hcm-duyet-huong-tuyen-metro-so-2-thu-dau-mot-tp-hcm-dai-33km-1022325.html",
+      "source_date": "2026-10-06",
+      "confidence": "official"
+    },
+    {
+      "id": "m6-1",
+      "name": "Metro số 6 giai đoạn 1: Tân Sơn Nhất – Phú Hữu",
+      "status": "priority_planning",
+      "status_label_vi": "Ưu tiên, dự kiến chuẩn bị khởi công Q4/2026",
+      "target_year": 2030,
+      "target_label": "Mục tiêu danh mục đầu tư 2026–2030",
+      "geometry_status": "no_verified_gis",
+      "source_url": "https://ttbc-hcm.gov.vn/tp-ho-chi-minh-bo-sung-2-tuyen-metro-uu-tien-hoan-thanh-giai-doan-2026-2030-1021961.html",
+      "source_date": "2026-08-12",
+      "confidence": "official"
+    },
+    {
+      "id": "m2-tl-ah",
+      "name": "Metro số 2: Tham Lương – An Hạ – Tây Bắc",
+      "status": "priority_planning",
+      "status_label_vi": "Ưu tiên, chuẩn bị đầu tư",
+      "target_year": 2030,
+      "target_label": "Mục tiêu danh mục đầu tư 2026–2030",
+      "geometry_status": "no_verified_gis",
+      "source_url": "https://ttbc-hcm.gov.vn/tp-ho-chi-minh-bo-sung-2-tuyen-metro-uu-tien-hoan-thanh-giai-doan-2026-2030-1021961.html",
+      "source_date": "2026-08-12",
+      "confidence": "official"
+    },
+    {
+      "id": "m-tt-lt",
+      "name": "Đường sắt đô thị Thủ Thiêm – Long Thành",
+      "status": "preparation",
+      "status_label_vi": "Đang chuẩn bị đầu tư",
+      "target_year": 2030,
+      "target_label": "Mốc định hướng, chưa phải lịch vận hành chắc chắn",
+      "geometry_status": "no_verified_gis",
+      "source_url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/nang-dong-tam-nhin-sieu-do-thi/tp-ho-chi-minh-se-co-tuyen-metro-lien-vung",
+      "source_date": "2026-08-30",
+      "confidence": "official"
+    },
+    {
+      "id": "m-bt-cg",
+      "name": "Đường sắt Bến Thành – Cần Giờ",
+      "status": "preparation",
+      "status_label_vi": "Đã động thổ / đang triển khai thủ tục",
+      "target_year": null,
+      "target_label": "Chưa xác nhận ngày vận hành",
+      "geometry_status": "no_verified_gis",
+      "source_url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/tin-tong-hop/loat-tuyen-metro-o-tp-ho-chi-minh-khoi-cong-cuoi-nam-2026",
+      "source_date": "2026-10-04",
+      "confidence": "official"
+    }
+  ]
+}

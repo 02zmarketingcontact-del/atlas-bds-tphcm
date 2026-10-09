@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-09",
+  "state": "official_external_lookup_no_authorized_gis_layers",
+  "sources": [
+    {
+      "name": "Sở Quy hoạch - Kiến trúc TP.HCM",
+      "url": "https://qhkt.hochiminhcity.gov.vn/",
+      "type": "official_registry",
+      "status": "official_reference"
+    },
+    {
+      "name": "Danh mục bản đồ quy hoạch TP.HCM",
+      "url": "https://qhkt.hochiminhcity.gov.vn/ban-do-quy-hoach.html",
+      "type": "map_index_and_legal_plans",
+      "status": "official_reference"
+    },
+    {
+      "name": "Tra cứu thông tin quy hoạch TP.HCM",
+      "url": "https://qhkt.hochiminhcity.gov.vn/",
+      "type": "online_search_access",
+      "status": "official_reference",
+      "note": "Chọn mục Tra cứu thông tin quy hoạch trên cổng sở"
+    },
+    {
+      "name": "Cổng dữ liệu quy hoạch xây dựng GIS",
+      "url": "https://gisxaydung.tphcm.gov.vn/",
+      "type": "gis_portal",
+      "status": "url_to_verify",
+      "note": "Không giả định API/WMS được cấp phép"
+    }
+  ],
+  "eligibility": "External links only. A legal zoning polygon overlay requires valid source file/API rights, georeferencing, approval number and effective date."
+}

@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-09",
+  "priority_order": "corporate developer -> developer verified project microsite -> government -> distributor -> user-contributed",
+  "projects": [
+    {
+      "project_id": "prive",
+      "name": "The Privé",
+      "corporate_domain_confirmed": false,
+      "source_role": "project_official_style_site_need_corporate_crosscheck",
+      "sources": [
+        {
+          "url": "https://theprive.vn/",
+          "role": "project_information_website",
+          "verified_as_corporate": false
+        }
+      ],
+      "claims": [
+        {
+          "field": "land_area_ha",
+          "value": 6.7,
+          "unit": "ha",
+          "source_url": "https://theprive.vn/",
+          "evidence": "developer_or_project_site_reported"
+        },
+        {
+          "field": "tower_count",
+          "value": 12,
+          "unit": "towers",
+          "source_url": "https://theprive.vn/",
+          "evidence": "developer_or_project_site_reported"
+        },
+        {
+          "field": "total_units",
+          "value": 3175,
+          "unit": "units",
+          "source_url": "https://theprive.vn/",
+          "evidence": "developer_or_project_site_reported"
+        }
+      ],
+      "foreign_capital_status": "unverified",
+      "foreign_buyer_eligibility_status": "unverified"
+    },
+    {
+      "project_id": "win",
+      "name": "The Win City",
+      "corporate_domain_confirmed": false,
+      "source_role": "project_website_with_joint_venture_disclosure",
+      "sources": [
+        {
+          "url": "https://thewincity.vn/gioi-thieu/",
+          "role": "project_site"
+        }
+      ],
+      "claims": [
+        {
+          "field": "land_area_ha",
+          "value": 13.18,
+          "unit": "ha",
+          "source_url": "https://thewincity.vn/gioi-thieu/",
+          "evidence": "developer_reported"
+        },
+        {
+          "field": "tower_count",
+          "value": 18,
+          "unit": "towers",
+          "source_url": "https://thewincity.vn/gioi-thieu/",
+          "evidence": "developer_reported"
+        },
+        {
+          "field": "product_total_approx",
+          "value": 6000,
+          "unit": "approx_all_products",
+          "source_url": "https://thewincity.vn/gioi-thieu/",
+          "evidence": "developer_reported",
+          "note": "Không phải chính xác tổng số căn hộ"
+        }
+      ],
+      "developer_partners": [
+        "Thắng Lợi Homes",
+        "An Cường",
+        "Central"
+      ],
+      "foreign_capital_status": "unverified",
+      "foreign_buyer_eligibility_status": "unverified"
+    },
+    {
+      "project_id": "felix",
+      "name": "The Felix",
+      "corporate_domain_confirmed": true,
+      "source_role": "developer_corporate_site",
+      "sources": [
+        {
+          "url": "https://c-holdings.vn/thong-tin-du-an-the-felix/tong-quan",
+          "role": "developer_corporate"
+        },
+        {
+          "url": "https://c-holdings.vn/phap-ly-the-felix",
+          "role": "developer_published_legal_register"
+        }
+      ],
+      "claims": [
+        {
+          "field": "land_area_m2",
+          "value": 9465,
+          "unit": "m2",
+          "source_url": "https://c-holdings.vn/thong-tin-du-an-the-felix/tong-quan",
+          "evidence": "developer_corporate_reported"
+        },
+        {
+          "field": "residential_units",
+          "value": 1147,
+          "unit": "residential_units",
+          "source_url": "https://c-holdings.vn/thong-tin-du-an-the-felix/tong-quan",
+          "evidence": "developer_corporate_reported"
+        },
+        {
+          "field": "total_products",
+          "value": 1216,
+          "unit": "all_products",
+          "source_url": "https://c-holdings.vn/the-felix-du-an-can-ho-cao-cap-phap-ly-minh-bach-an-tam-chon-lua",
+          "evidence": "developer_corporate_reported"
+        }
+      ],
+      "foreign_capital_status": "unverified",
+      "foreign_buyer_eligibility_status": "unverified",
+      "note": "Không được suy luận pháp lý đủ điều kiện bán cho người nước ngoài từ quảng bá đủ điều kiện bán hàng nói chung."
+    },
+    {
+      "project_id": "mizuki",
+      "name": "Mizuki Park",
+      "corporate_domain_confirmed": true,
+      "source_role": "developer_corporate_site",
+      "sources": [
+        {
+          "url": "https://www.namlongvn.com/khu-do-thi-nha-o/mizuki-park/",
+          "role": "developer_corporate"
+        }
+      ],
+      "claims": [
+        {
+          "field": "land_area_ha",
+          "value": 26,
+          "unit": "ha",
+          "source_url": "https://www.namlongvn.com/khu-do-thi-nha-o/mizuki-park/",
+          "evidence": "developer_corporate_reported"
+        }
+      ],
+      "foreign_partners_reported": [
+        "Hankyu Hanshin Properties",
+        "Nishi Nippon Railroad"
+      ],
+      "foreign_partner_participation_verified": true,
+      "legal_entity_equity_foreign_share": "unverified",
+      "foreign_buyer_eligibility_status": "unverified"
+    }
+  ]
+}
