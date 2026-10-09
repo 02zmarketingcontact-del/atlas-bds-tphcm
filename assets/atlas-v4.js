@@ -113,16 +113,16 @@ function initTransitInteractions(){
   map.on("mouseleave",id,()=>{map.getCanvas().style.cursor=""});
  }
 }
-function layerData(obj){return obj?.type==="FeatureCollection"&&Array.isArray(obj.features)?obj:{type:"FeatureCollection",features:[]}}
+function asGeoCollection(obj){return obj?.type==="FeatureCollection"&&Array.isArray(obj.features)?obj:{type:"FeatureCollection",features:[]}}
 function updateTransitLayers(){
- if(!map||!map.isStyleLoaded())return;
+ if(!map||!map.getStyle())return;
  const specs=[
   {source:"atlasMetroStops",layer:"atlasMetroStations",data:metroStops,color:"#236caa",radius:6,stroke:2,minZoom:10},
   {source:"atlasBusStopsSource",layer:"atlasBusStops",data:busStops,color:"#328b68",radius:4,stroke:1.3,minZoom:12.6}
  ];
  for(const x of specs){
-  if(!map.getSource(x.source))map.addSource(x.source,{type:"geojson",data:layerData(x.data),attribution:"© OpenStreetMap contributors · ODbL"});
-  else map.getSource(x.source).setData(layerData(x.data));
+  if(!map.getSource(x.source))map.addSource(x.source,{type:"geojson",data:asGeoCollection(x.data),attribution:"© OpenStreetMap contributors · ODbL"});
+  else map.getSource(x.source).setData(asGeoCollection(x.data));
   if(!map.getLayer(x.layer))map.addLayer({id:x.layer,type:"circle",source:x.source,minzoom:x.minZoom,paint:{"circle-radius":x.radius,"circle-color":x.color,"circle-stroke-width":x.stroke,"circle-stroke-color":"#ffffff","circle-opacity":0.92}});
   const enabled=x.layer==="atlasMetroStations"?$("metroStationsToggle")?.checked:$("busStopsToggle")?.checked;
   map.setLayoutProperty(x.layer,"visibility",enabled?"visible":"none");
@@ -159,7 +159,7 @@ function initMap(){if(typeof maplibregl==="undefined"){showFailure();return}cons
 async function getJson(path){const r=await fetch(new URL(path,document.baseURI),{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status);return r.json()}
 async function loadData(){try{const p=await getJson("data/projects.json");if(!Array.isArray(p))throw Error("invalid projects");projects=p.filter(validProject)}catch(err){setText("projectList",tr("loadError")+" "+err.message);projects=[]}const layerData=await Promise.allSettled([getJson("data/metro_1_schematic.geojson"),getJson("data/planning_layers.geojson")]);metro=layerData[0].status==="fulfilled"?layerData[0].value:null;planning=layerData[1].status==="fulfilled"?layerData[1].value:null;if(!planning)planning={type:"FeatureCollection",features:[]};if(map&&map.isStyleLoaded())addLayers();const other=await Promise.allSettled([getJson("data/transit_lines_2026.json"),getJson("data/planning_sources_2026.json"),getJson("data/project_developer_sources.json"),getJson("data/metro_stations_osm.geojson"),getJson("data/bus_stops_osm.geojson")]);
 metroCatalog=other[0].status==="fulfilled"?other[0].value:{lines:[]};planningCatalog=other[1].status==="fulfilled"?other[1].value:{sources:[]};developerCatalog=other[2].status==="fulfilled"?other[2].value:{projects:[]};
-metroStops=layerData(other[3].status==="fulfilled"?other[3].value:null);busStops=layerData(other[4].status==="fulfilled"?other[4].value:null);
+metroStops=asGeoCollection(other[3].status==="fulfilled"?other[3].value:null);busStops=asGeoCollection(other[4].status==="fulfilled"?other[4].value:null);
 renderMetroCatalog();renderPlanningCatalog();updateTransitLayers();const selectedId=new URLSearchParams(location.search).get("p");if(selectedId){const project=projects.find(x=>x.id===selectedId);if(project)setTimeout(()=>openProject(project),500)}render()}
 function setup(){try{lang=localStorage.getItem("atlas.language")||"vi"}catch(_){}if(!["vi","en","zh-CN","zh-TW","ko","ru"].includes(lang))lang="vi";$("language").value=lang;const controls=["search","zone","status","minPrice","maxPrice","verifiedOnly","labelsEnabled"];controls.forEach(id=>$(id).addEventListener("input",render));$("language").addEventListener("change",e=>{lang=e.target.value;try{localStorage.setItem("atlas.language",lang)}catch(_){}applyLanguage()});$("fitResults").onclick=fitProjects;$("mobileSidebar").onclick=()=>$("sidebar").classList.toggle("open");$("baseMap").onchange=e=>setBase(e.target.value,false);$("metroToggle").onchange=()=>{if(!metro)console.warn("Metro data missing");changeLayers()};$("metroStationsToggle").onchange=updateTransitLayers;$("busStopsToggle").onchange=updateTransitLayers;$("metroStatusFilter").onchange=renderMetroCatalog;$("planningToggle").onchange=()=>{if(!planning?.features?.length){alert(tr("planningEmpty"));$("planningToggle").checked=false}changeLayers()};$("planningUpload").onchange=async e=>{const f=e.target.files?.[0];if(!f)return;if(f.size>5e6){alert(tr("planningInvalid"));return}try{const g=JSON.parse(await f.text());if(g.type!=="FeatureCollection"||!Array.isArray(g.features)||g.features.length>2000)throw Error("Invalid GeoJSON");planning=g;$("planningToggle").checked=true;changeLayers();alert(tr("planningLoaded"))}catch(err){alert(tr("planningInvalid"))}e.target.value=""};$("retryMap").onclick=()=>setBase("vector",false);$("map").addEventListener("click",()=>{if(window.innerWidth<820)$("sidebar").classList.remove("open")});applyLanguage()}
 setup();initMap();loadData();
