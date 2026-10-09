@@ -1,0 +1,14 @@
+{
+  "status": "not_configured",
+  "last_run_at": null,
+  "last_success_at": null,
+  "last_price_change_at": null,
+  "sources_configured": 0,
+  "sources_successful": 0,
+  "projects_checked": 0,
+  "new_proposals": 0,
+  "pending_count": 0,
+  "published_changes": 0,
+  "source_results": [],
+  "disclaimer": "Nguon gia tu dong chua duoc cau hinh; du lieu gia hien tai la tham khao tu V2."
+}
