@@ -103,6 +103,31 @@ async function run(){
    await desktop.screenshot({path:dir+"/v1-map-transit.png"});
    log("Transit & developer research","PASS",routes+" metro corridors · "+stationData.metro+" OSM stations · "+stationData.bus+" bus stops · "+portals+" planning portals");
   }catch(e){failures.push("Transit & developer research: "+e.message);log("Transit & developer research","FAIL",e.message)}
+  // QiMap 20-year historic / secondary universe — must not stop at 32 research names.
+  try{
+   await goto(desktop,"secondary-catalog.html");
+   await desktop.waitForFunction(()=>document.querySelector("#countSeed")?.textContent==="126",{timeout:25000});
+   assert((await desktop.locator("#countMapped").textContent()).trim()==="32","32 map references mismatch");
+   const combined=Number((await desktop.locator("#countCombined").textContent()).trim());
+   assert(combined>=145&&combined<=155,"Unexpected merged research count "+combined);
+   assert((await desktop.locator("#countIssuer").textContent()).trim()==="55","Issuer-reported completed count mismatch");
+   await desktop.locator("#query").fill("Sky Garden");
+   assert((await desktop.locator("#cards .card").count())>=1,"Sky Garden is missing from historic research search");
+   await desktop.locator("#query").fill("");
+   await desktop.locator("#life").selectOption("issuer");
+   assert((await desktop.locator("#cards .card").count())>=10,"Issuer-completed filter did not work");
+   await desktop.locator("#life").selectOption("all");
+   await desktop.screenshot({path:dir+"/qimap-secondary-desktop.png",fullPage:false});
+   const small=await browser.newPage({viewport:{width:390,height:844},deviceScaleFactor:1,locale:"vi-VN",isMobile:true,hasTouch:true});
+   try{
+    await goto(small,"secondary-catalog.html");
+    await small.waitForFunction(()=>document.querySelector("#countCombined")?.textContent?.trim().length>=3,{timeout:25000});
+    const layout=await small.evaluate(()=>({width:window.innerWidth,bodyWidth:document.body.scrollWidth}));
+    assert(layout.bodyWidth<=layout.width+18,"Secondary mobile catalogue overflow "+JSON.stringify(layout));
+    await small.screenshot({path:dir+"/qimap-secondary-mobile.png",fullPage:true});
+   }finally{await small.close()}
+   log("QiMap secondary archive","PASS","126 researched names, "+combined+" distinct direct names, 55 issuer finished, desktop/mobile search");
+  }catch(e){failures.push("QiMap secondary archive: "+e.message);log("QiMap secondary archive","FAIL",e.message)}
   // 4) Historic sources and years.
   try{
    await goto(desktop,"history.html");

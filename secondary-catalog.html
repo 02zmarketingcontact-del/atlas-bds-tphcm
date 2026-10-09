@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#223139"><meta name="description" content="QiMap by QILUVI — danh mục căn hộ thứ cấp, chung cư đã bàn giao và lịch sử phát triển dự án TP.HCM từ 2006 đến 2026.">
+<title>QiMap | Kho căn hộ cũ và thị trường thứ cấp</title>
+<link rel="icon" href="./assets/qiluvi-icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./assets/qimap-secondary.css">
+<link rel="stylesheet" href="./assets/qimap-brand.css">
+<script defer src="./assets/qimap-secondary.js"></script>
+</head><body class="qimap-secondary">
+<a class="skip" href="#browse">Đến danh mục</a>
+<header class="topbar">
+<a class="logo qimap-brand-lockup" href="./review.html" aria-label="QiMap by QILUVI — trang chủ"><img class="qimap-brand-logo" src="./assets/qiluvi-logo-primary.svg" width="144" height="42" alt="QILUVI"><span class="qimap-product"><b>QiMap</b><small>Market Intelligence</small></span></a>
+<nav aria-label="Điều hướng QiMap"><a href="./review.html">Tổng quan</a><a href="./map-v4.html">Bản đồ</a><a href="./history.html">Lịch sử 20 năm</a><a href="./secondary-catalog.html" class="active" aria-current="page">Kho dự án</a></nav>
+<span class="edition">ARCHIVE · 2006—2026</span>
+</header>
+<main>
+<section class="hero">
+<div class="hero-main"><span class="eyebrow">QILUVI / QIMAP / RESEARCH ARCHIVE</span>
+<h1>Không chỉ dự án mới.<br><em>20 năm chung cư đã hình thành.</em></h1>
+<p>Kho tra cứu bổ sung chung cư đã bàn giao, dự án cũ và phân kỳ nhà ở — kể cả nơi đã chuyển sang thị trường thứ cấp từ nhiều năm trước. Ưu tiên nguồn doanh nghiệp; lịch sử bàn giao, tọa độ và giá giao dịch chỉ được công bố khi có chứng cứ tương ứng.</p>
+<div class="hero-actions"><a class="action" href="#browse">Tra cứu dự án ↓</a><a class="textlink" href="./map-v4.html">Xem 32 dự án đã có tọa độ trên bản đồ ↗</a></div></div>
+<div class="hero-aside"><span class="eyebrow">PHẠM VI NGHIÊN CỨU</span><strong>2006<span>—</span>2026</strong><p>Dự án · Phân kỳ · Nguồn doanh nghiệp · Dữ liệu thứ cấp</p>
+<small>Không coi dự án đã bàn giao là đang có căn bán lại hoặc cho thuê; không tạo ghim từ tọa độ ước lượng.</small><div class="seam"></div><span class="eyebrow">SOURCE FIRST. LOCATION VERIFIED.</span></div>
+</section>
+<section class="metrics" aria-label="Độ bao phủ dữ liệu">
+<div><strong id="countSeed">—</strong><span>Mục dự án/phân kỳ nghiên cứu bổ sung</span></div>
+<div><strong id="countMapped">—</strong><span>Dự án có trên bản đồ hiện tại</span></div>
+<div><strong id="countCombined">—</strong><span>Tên dự án sau khử trùng lặp trực tiếp</span></div>
+<div><strong id="countIssuer">—</strong><span>Mục doanh nghiệp ghi nhận hoàn thành/bàn giao</span></div>
+</section>
+<p class="warning">Danh mục mở rộng <strong>chưa phải danh sách đầy đủ tất cả chung cư</strong> hay số dự án được pháp lý xác minh. Các phân kỳ có thể thuộc cùng một dự án mẹ. Dữ liệu lịch sử, giá chào sơ cấp, giá chuyển nhượng và giá thuê phải được đo riêng.</p>
+<section class="module" id="browse">
+<div class="heading"><span class="eyebrow">01 / TÌM KIẾM VÀ PHÂN LOẠI</span><h2>Tra cứu chung cư cũ và dự án thứ cấp</h2><p>Lọc theo nhà phát triển, tình trạng ghi nhận và địa giới lịch sử. Chọn một hồ sơ để xem nguồn gốc. Mỗi ghim bản đồ chỉ được tạo sau khi có tọa độ đáng tin cậy.</p></div>
+<div class="filters">
+<label>Tên dự án hoặc nhà phát triển <input id="query" type="search" placeholder="VD: Sunrise City, Sky Garden, EHome..." autocomplete="off"></label>
+<label>Trạng thái <select id="life"><option value="all">Tất cả tình trạng</option><option value="issuer">Doanh nghiệp ghi nhận bàn giao/hoàn thành</option><option value="historical">Hồ sơ lịch sử và nguồn thị trường</option><option value="candidate">Đầu mối cần xác minh</option></select></label>
+<label>Địa giới lịch sử <select id="region"><option value="all">TP.HCM và vùng phụ cận</option><option value="HCMC_old_boundary">TP.HCM cũ</option><option value="Binh_Duong_pre_2025">Bình Dương cũ</option><option value="Long_An_pre_2025">Long An cũ</option><option value="Ba_Ria_Vung_Tau_pre_2025">Bà Rịa–Vũng Tàu cũ</option></select></label>
+<label>Nhà phát triển <select id="developer"><option value="all">Tất cả nhà phát triển</option></select></label>
+</div>
+<div class="toolbar"><span id="shownCount" aria-live="polite">Đang tải dữ liệu...</span><div><label class="check"><input type="checkbox" id="mappedOnly"> Chỉ hiện dự án có ghim bản đồ</label><button type="button" id="downloadCsv">Xuất CSV</button></div></div>
+<div id="cards" class="cards"><p>Đang nạp danh mục dự án...</p></div>
+<div class="moreline"><button id="more" type="button" hidden>Xem thêm dự án ↓</button></div>
+</section>
+<section class="module region-module"><div class="heading"><span class="eyebrow">02 / CHỐNG BỎ SÓT ĐỊA BÀN</span><h2>47 địa bàn còn phải rà soát theo từng giai đoạn</h2><p>Danh sách này là kế hoạch tìm nguồn, không phải kết luận đã thu thập đầy đủ dự án tại mỗi địa phương.</p></div><div class="region-head"><label>Phạm vi <select id="auditRegion"><option value="all">Tất cả địa bàn</option></select></label><span><b id="auditCount">—</b> địa bàn nghiên cứu</span></div><div class="area-grid" id="areaGrid"></div></section>
+<section class="module methodology"><div><span class="eyebrow">03 / QUY TẮC DỮ LIỆU</span><h2>Một dữ kiện, một nguồn.</h2></div><div><p>Không gộp dự án mẹ với số căn từng phân kỳ. Không suy đoán năm bàn giao từ tên tòa nhà, không giả lập giá chuyển nhượng hoặc giá thuê, không biến nguồn tin đăng thành xác nhận pháp lý.</p><p>Hệ thống đang giữ riêng 32 dự án được thể hiện trên bản đồ và 126 tên dự án/phân kỳ trong nghiên cứu mở rộng. Số danh mục hợp nhất chỉ là kết quả khử trùng lặp tên/bí danh, chưa đồng nghĩa tất cả đã có tọa độ hoặc pháp lý.</p><a class="textlink" href="https://github.com/02zmarketingcontact-del/atlas-bds-tphcm/issues" target="_blank" rel="noopener noreferrer">Xem hàng đợi nghiên cứu GitHub ↗</a></div></section>
+</main><footer><strong>QiMap <span>by QILUVI</span></strong><span>Research candidates · Data not investment advice</span><a href="./review.html">Tổng quan ↗</a></footer>
+</body></html>
