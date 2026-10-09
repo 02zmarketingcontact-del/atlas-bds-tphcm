@@ -3,7 +3,7 @@
   "as_of": "2026-10-10",
   "publication_classification": "PROVISIONAL_GIS_PREVIEW_ONLY",
   "source": "QiMap P0 draft evidence and OSM named residential features, manually filtered",
-  "policy": "Seven reference markers for basic map navigation only. None are officially verified, none are legal site boundaries, none represent pricing/legal/foreign quota. Three new discovery candidates are shown only as names until identity/geo is verified. Never conflate map preview count with legally verified GIS.",
+  "policy": "Seven reference markers for basic map navigation only. None are officially verified, none are legal site boundaries, none represent pricing/legal/foreign quota. Three new discovery candidates are shown only as names until identity/geo is verified. Never conflate map preview count with legally verified GIS. Two additional OSM named places with matched published project addresses, GPS research only.",
   "osm_license": "OpenStreetMap contributors © ODbL; source reference on every OSM marker",
   "pins": [
     {
@@ -116,6 +116,38 @@
       "address": null,
       "coord_verified": false,
       "review_state": "RESEARCH_PREVIEW_ONLY",
+      "osm_attribution": "© OpenStreetMap contributors / ODbL"
+    },
+    {
+      "id": "hist-monesaigonsouth",
+      "name": "M-One Saigon South",
+      "lat": 10.74984,
+      "lng": 106.71135,
+      "source_url": "https://www.openstreetmap.org/way/846920747",
+      "osm_url": "https://www.openstreetmap.org/way/846920747",
+      "official_address_url": "https://masterisehomes.com/m-one-nam-sai-gon/tin-tuc/tin-tuc-su-kien-m-one-nam-saigon/masteri-cong-bo-du-an-khu-dan-cu-m-one-nam-sai-gon",
+      "checked_at": "2026-10-10",
+      "address": "35/12 Bế Văn Cấm, Tân Kiểng, Quận 7 cũ",
+      "coord_verified": false,
+      "review_state": "RESEARCH_PREVIEW_ONLY",
+      "gis_status": "OSM_NAMED_APARTMENT_WITH_PUBLISHER_ADDRESS",
+      "confidence": "CORROBORATED_NOT_SURVEYED",
+      "osm_attribution": "© OpenStreetMap contributors / ODbL"
+    },
+    {
+      "id": "hist-felizenvista",
+      "name": "Feliz en Vista",
+      "lat": 10.77782,
+      "lng": 106.7557,
+      "source_url": "https://www.openstreetmap.org/way/711567157",
+      "osm_url": "https://www.openstreetmap.org/way/711567157",
+      "official_address_url": "https://www.capitaland.com/vn/en/stay/residential-development-listing/feliz-en-vista.html",
+      "checked_at": "2026-10-10",
+      "address": "01 Phan Văn Đáng, Thạnh Mỹ Lợi, Quận 2 cũ",
+      "coord_verified": false,
+      "review_state": "RESEARCH_PREVIEW_ONLY",
+      "gis_status": "OSM_NAMED_RESIDENTIAL_WITH_PUBLISHER_ADDRESS",
+      "confidence": "CORROBORATED_NOT_SURVEYED",
       "osm_attribution": "© OpenStreetMap contributors / ODbL"
     }
   ],
