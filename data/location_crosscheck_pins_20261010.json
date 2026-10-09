@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-10-10",
+  "scope": "QiMap early location crosschecks; proposed map pin positions, not cadastral geolocation",
+  "review_policy": "Draft PR #67 only. Human source/geometry review before merging to main. Locations crosschecked against original publisher address and two public geolocation observations. Not parcel geometry or an official cadastral coordinate. No price, SPA or legal owner validation.",
+  "baseline_mapped_projects": 32,
+  "indexed_project_or_phase_records": 150,
+  "pins": [
+    {
+      "id": "pin-icon56",
+      "dossier_id": "hist-icon56",
+      "name": "Icon 56",
+      "zone": "hcm",
+      "zoneNew": "TP.HCM",
+      "status": "handover",
+      "developer": "Novaland (đơn vị công bố)",
+      "address": "56 Bến Vân Đồn, P.12, Q.4, TP.HCM (địa chỉ trước sáp nhập)",
+      "lat": 10.76641523,
+      "lng": 106.70296655,
+      "coordVerified": false,
+      "priceVerified": false,
+      "min": null,
+      "max": null,
+      "source": "https://www.novaland.com.vn/icon-56/tong-quan-16",
+      "locationEvidenceStatus": "crosschecked_secondary_points_pending_geometry_review",
+      "researchStatus": "SOURCE-CROSSCHECKED/CHỜ DUYỆT",
+      "checked_at": "2026-10-10",
+      "source_date": "undated_corporate_website",
+      "coordinate_claim_type": "building-associated hospitality property coordinates; not project land boundary",
+      "official_address_source": {
+        "url": "https://www.novaland.com.vn/icon-56/tong-quan-16",
+        "publisher": "Novaland",
+        "published_at": null,
+        "checked_at": "2026-10-10",
+        "claim": "Icon 56, 56 Bến Vân Đồn, P.12, Quận 4"
+      },
+      "coordinate_sources": [
+        {
+          "url": "https://www.travos.ro/ho-chi-minh-24487/hotel-star-glory-icon-56-saigon-h1875280.html",
+          "publisher": "Travos travel directory",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "lat": 10.76641523,
+          "lng": 106.70296655,
+          "status": "SECONDARY_COORDINATE_REPORTED",
+          "caveat": "Provider labels its GPS coordinates automatically generated and unverified"
+        },
+        {
+          "url": "https://mytriv.com/en/hotel/ho-chi-minh-city-icon-56-apart-80m2-2-bedrooms-2-wc-district-4",
+          "publisher": "MyTriv hotel directory",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "lat": 10.7662,
+          "lng": 106.7029,
+          "status": "SECONDARY_COORDINATE_REPORTED",
+          "caveat": "Hotel unit-associated reference, not survey of whole project"
+        }
+      ],
+      "location_confidence": "MEDIUM_LOW",
+      "legal_geometry_verified": false,
+      "rights_note": "Only short attributed public geolocation facts; don't reproduce maps/media; licensing review pending"
+    },
+    {
+      "id": "pin-thetresor",
+      "dossier_id": "hist-thetresor",
+      "name": "The Tresor",
+      "zone": "hcm",
+      "zoneNew": "TP.HCM",
+      "status": "handover",
+      "developer": "Novaland (đơn vị công bố)",
+      "address": "39 Bến Vân Đồn, Q.4, TP.HCM (địa chỉ trước sáp nhập)",
+      "lat": 10.766464,
+      "lng": 106.703312,
+      "coordVerified": false,
+      "priceVerified": false,
+      "min": null,
+      "max": null,
+      "source": "https://www.novaland.com.vn/the-tresor",
+      "locationEvidenceStatus": "crosschecked_secondary_points_pending_geometry_review",
+      "researchStatus": "SOURCE-CROSSCHECKED/CHỜ DUYỆT",
+      "checked_at": "2026-10-10",
+      "source_date": "undated_corporate_website",
+      "coordinate_claim_type": "building-associated geocoder and lodging coordinates; not project land boundary",
+      "official_address_source": {
+        "url": "https://www.novaland.com.vn/the-tresor",
+        "publisher": "Novaland",
+        "published_at": null,
+        "checked_at": "2026-10-10",
+        "claim": "The Tresor, 39 Bến Vân Đồn, Quận 4"
+      },
+      "coordinate_sources": [
+        {
+          "url": "https://www.findlatitudeandlongitude.com/l/The%2BTresor%2C%2B39%2C%2BBen%2BVan%2BDon%2BStreet%2C%2BWard%2B13%2C%2BDistrict%2B4%2C%2BHo%2BChi%2BMinh%2BCity%2C%2B72806%2C%2BVietnam/7415638/",
+          "publisher": "FindLatitudeAndLongitude geocoding directory",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "lat": 10.766464,
+          "lng": 106.703312,
+          "status": "SECONDARY_COORDINATE_REPORTED",
+          "caveat": "Provider-selected location is not official site survey"
+        },
+        {
+          "url": "https://www.ehotelsreviews.com/the-tresor-hana-apart-14455659-en",
+          "publisher": "eHotelsReviews accommodation directory",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "lat": 10.76655,
+          "lng": 106.703424,
+          "status": "SECONDARY_COORDINATE_REPORTED",
+          "caveat": "Lodging sub-unit address, not developer site plan"
+        }
+      ],
+      "location_confidence": "MEDIUM_LOW",
+      "legal_geometry_verified": false,
+      "rights_note": "Only short attributed public geolocation facts; don't reproduce maps/media; licensing review pending"
+    }
+  ],
+  "hold_for_review": [
+    {
+      "dossier_id": "hist-orchardgarden",
+      "name": "Orchard Garden",
+      "official_url": "https://www.novaland.com.vn/orchard-garden/tong-quan-20",
+      "address": "128 Hồng Hà",
+      "reason": "Two independent location references diverge beyond 100 m: MyTriv 10.8095,106.6718 vs Infini geosearch 10.80978,106.6706; not eligible for current pin proposal",
+      "source_urls": [
+        "https://mytriv.com/en/hotel/ho-chi-minh-city-andy-studio-orchard-garden-airport-gym-pool",
+        "https://developer.infini-hostlink.com/topics_detail7/infini_hostlink_advance/specification/utility/json/geosearch"
+      ]
+    },
+    {
+      "dossier_id": "hist-luckypalace",
+      "name": "Lucky Palace",
+      "official_url": "https://www.novaland.com.vn/lucky-palace/tong-quan-5",
+      "address": "50 Phan Văn Khỏe",
+      "reason": "Two nearby reported GPS coordinates originate from same aggregator (WorldPlaces), not independent cross-source validation",
+      "source_urls": [
+        "https://vietnam.worldplaces.me/vi/review/98760802-du-an-lucky-palace-novaland.html",
+        "https://vietnam.worldplaces.me/vi/review/95257009-can-ho-lucky-palace-50-phan-van-khoe.html"
+      ]
+    },
+    {
+      "dossier_id": "hist-gardengate",
+      "name": "Garden Gate",
+      "official_url": "https://www.novaland.com.vn/garden-gate/tong-quan-3",
+      "address": "08 Hoàng Minh Giám",
+      "reason": "Official project address found, precise coordinate still unsupported by independently sourced geolocation",
+      "source_urls": []
+    }
+  ]
+}
