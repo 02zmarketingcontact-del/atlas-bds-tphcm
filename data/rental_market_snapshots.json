@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-09",
+  "metric_policy": "provider-specific advertised rents only; not actual signed lease; no cross-provider comparable price series",
+  "site_entries": [
+    {
+      "site": "Batdongsan.com.vn",
+      "period": "2025-03",
+      "stat": "site-reported mean asking rent",
+      "value": 12,
+      "unit": "million_VND_per_unit_per_month",
+      "geography": "HCMC old website-defined scope",
+      "source_url": "https://wiki.batdongsan.com.vn/tin-tuc/chung-cu-phia-tay-tp-hcm-tang-suc-hut-giua-luc-khan-hiem-nguon-cung-833420",
+      "source_type": "platform_report",
+      "comparability": "DO NOT compare with Nha Tot Sept 2026 due to mix / geography / denominator",
+      "data_rights": "brief facts attribution, no automated listings extraction"
+    },
+    {
+      "site": "Nhà Tốt / Chợ Tốt Nhà",
+      "period": "2026-09",
+      "stat": "site-reported asking rent average",
+      "value": 6.7,
+      "unit": "million_VND_per_unit_per_month",
+      "source_url": "https://www.nhatot.com/thue-can-ho-chung-cu-tp-ho-chi-minh?project_oid=19501217",
+      "source_type": "site_reported_market_summary",
+      "comparability": "site categories include mini/other apartment types; not same sample as Batdongsan",
+      "data_rights": "brief facts attribution; no mirroring listings"
+    },
+    {
+      "site": "Batdongsan.com.vn",
+      "period": "2026-05",
+      "stat": "site-reported rental search interest YoY",
+      "value": 24,
+      "unit": "percent",
+      "geography": "HCMC old",
+      "source_url": "https://wiki.batdongsan.com.vn/tin-tuc/thi-truong-chung-cu-giam-gia-rao-ban-tang-nhu-cau-thue-855446",
+      "source_type": "platform_demand_indicator",
+      "comparability": "relative search interest is NOT closed tenant demand",
+      "data_rights": "brief facts attribution"
+    }
+  ],
+  "portals": [
+    {
+      "site": "Batdongsan.com.vn",
+      "url": "https://batdongsan.com.vn/cho-thue-can-ho-chung-cu-tp-ho-chi-minh",
+      "kind": "public_listing_navigation",
+      "update_status": "external live site; Atlas cannot verify every unit",
+      "rights": "link_only_no_scraping"
+    },
+    {
+      "site": "Nhà Tốt / Chợ Tốt",
+      "url": "https://www.nhatot.com/thue-can-ho-chung-cu-tp-ho-chi-minh",
+      "kind": "public_listing_navigation",
+      "update_status": "external live site; Atlas cannot verify every unit",
+      "rights": "link_only_no_scraping"
+    }
+  ],
+  "unit_level_rents": [],
+  "unit_sample_status": "no_licensed_project_unit_rental_feed",
+  "quality_filters": [
+    "project_id",
+    "beds",
+    "net_area_m2",
+    "furnishing",
+    "deposit_months",
+    "listing_date",
+    "asking_vnd_per_month",
+    "listing_live_verified_at",
+    "source_url",
+    "duplicate_group_id",
+    "price_per_m2_month",
+    "lease_contract_verified"
+  ],
+  "risk_note": "Public advertisements may include duplicated agent posts, stale units, inclusive/exclusive maintenance fees, misleading category mix and fake listings; any yield must disclose vacancy and fees."
+}

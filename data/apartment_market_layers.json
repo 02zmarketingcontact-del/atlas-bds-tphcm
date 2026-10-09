@@ -1,0 +1,655 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-09",
+  "counts": {
+    "total": 32,
+    "legacy_sale_flag": 10,
+    "legacy_handover_flag": 22,
+    "verified_primary_unit_offers": 0,
+    "verified_secondary_unit_offers": 0,
+    "verified_rental_unit_offers": 0
+  },
+  "market_types": [
+    {
+      "id": "primary",
+      "name_vi": "Sơ cấp",
+      "definition": "Căn bán lần đầu bởi chủ đầu tư, theo dự án/đợt/tháp; cần giỏ hàng/chính sách chủ đầu tư có thời điểm",
+      "not_equivalent_to": "Chỉ đang mở bán theo tin quảng cáo"
+    },
+    {
+      "id": "secondary",
+      "name_vi": "Thứ cấp",
+      "definition": "Căn chuyển nhượng bởi người sở hữu trước đó; cần sản phẩm, giá chào, điều kiện pháp lý cụ thể",
+      "not_equivalent_to": "Dự án đã bàn giao tự động còn căn bán"
+    },
+    {
+      "id": "rental",
+      "name_vi": "Cho thuê",
+      "definition": "Tin chào thuê theo từng căn, phòng ngủ/nội thất/phí/thời hạn",
+      "not_equivalent_to": "Giá thuê đã ký hoặc căn đang trống thật"
+    }
+  ],
+  "projects": [
+    {
+      "project_id": "metropole",
+      "project_name": "The Metropole Thu Thiem",
+      "location_confidence": "legacy_flagged_checked",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "empire",
+      "project_name": "Empire City Thu Thiem",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "river",
+      "project_name": "The River Thu Thiem",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "prive",
+      "project_name": "The Prive",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "candidate_developer_sale_flag_not_live_inventory",
+        "secondary": "not_established",
+        "rental": "not_established"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "eaton",
+      "project_name": "Eaton Park",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "candidate_developer_sale_flag_not_live_inventory",
+        "secondary": "not_established",
+        "rental": "not_established"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "sunavenue",
+      "project_name": "The Sun Avenue",
+      "location_confidence": "legacy_flagged_checked",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "masterithaodien",
+      "project_name": "Masteri Thao Dien",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "gatewaythaodien",
+      "project_name": "Gateway Thao Dien",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "vcp",
+      "project_name": "Vinhomes Central Park",
+      "location_confidence": "legacy_flagged_checked",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "mcp",
+      "project_name": "Masteri Centre Point",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "lumiere",
+      "project_name": "Lumiere Boulevard",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "vingrand",
+      "project_name": "Vinhomes Grand Park (tong the)",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "midtown",
+      "project_name": "Midtown Phu My Hung",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "celesta",
+      "project_name": "Celesta Rise",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "mizuki",
+      "project_name": "Mizuki Park - can ho",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "akari",
+      "project_name": "Akari City",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "vista",
+      "project_name": "Vista Verde",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "palmheights",
+      "project_name": "Palm Heights",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "origami",
+      "project_name": "The Origami - Grand Park",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "glory",
+      "project_name": "Glory Heights - Grand Park",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "bcons",
+      "project_name": "Bcons City",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "felix",
+      "project_name": "The Felix",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "candidate_developer_sale_flag_not_live_inventory",
+        "secondary": "not_established",
+        "rental": "not_established"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "lapura",
+      "project_name": "La Pura",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "candidate_developer_sale_flag_not_live_inventory",
+        "secondary": "not_established",
+        "rental": "not_established"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "emerald",
+      "project_name": "The Emerald 68",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "candidate_developer_sale_flag_not_live_inventory",
+        "secondary": "not_established",
+        "rental": "not_established"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "norton",
+      "project_name": "Norton Park",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "candidate_developer_sale_flag_not_live_inventory",
+        "secondary": "not_established",
+        "rental": "not_established"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "sungio",
+      "project_name": "The Gio Riverside",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "candidate_developer_sale_flag_not_live_inventory",
+        "secondary": "not_established",
+        "rental": "not_established"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "sycamore",
+      "project_name": "Sycamore - can ho",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "candidate_developer_sale_flag_not_live_inventory",
+        "secondary": "not_established",
+        "rental": "not_established"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "happyone",
+      "project_name": "Happy One Central",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "melody",
+      "project_name": "Vung Tau Melody",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "phoenix",
+      "project_name": "DIC Phoenix",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "not_established",
+        "secondary": "candidate_completed_project_not_live_inventory",
+        "rental": "candidate_completed_project_not_live_inventory"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "win",
+      "project_name": "The Win City",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "candidate_developer_sale_flag_not_live_inventory",
+        "secondary": "not_established",
+        "rental": "not_established"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    },
+    {
+      "project_id": "elysian",
+      "project_name": "Elysian",
+      "location_confidence": "legacy_approximate_needs_verification",
+      "availability": {
+        "primary": "candidate_developer_sale_flag_not_live_inventory",
+        "secondary": "not_established",
+        "rental": "not_established"
+      },
+      "prices": {
+        "primary": null,
+        "secondary": null,
+        "rental": null
+      },
+      "source_claim": "legacy_project_status_only",
+      "unit_feed_verified": false,
+      "as_of": "2026-10-09",
+      "disclaimer": "No project-specific offers independently confirmed. Legacy min/max price is MIXED reference and cannot be assigned to a segment."
+    }
+  ],
+  "platforms": {
+    "primary": [
+      "developer website"
+    ],
+    "secondary": [
+      "https://batdongsan.com.vn/ban-can-ho-chung-cu-tp-ho-chi-minh"
+    ],
+    "rental": [
+      "https://batdongsan.com.vn/cho-thue-can-ho-chung-cu-tp-ho-chi-minh",
+      "https://www.nhatot.com/thue-can-ho-chung-cu-tp-ho-chi-minh"
+    ]
+  },
+  "display_rules": "Map must show source-specific market types and whether inventory is unverified; legacy min/max mixed reference cannot be displayed as verified primary/resale/rent asking price."
+}

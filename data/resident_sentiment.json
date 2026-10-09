@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-09",
+  "scope": "apartment resident/tenant experiences and generalized buyer-platform research",
+  "objective_protocol": {
+    "categories": [
+      {
+        "id": "management",
+        "vi": "Vận hành / quản lý",
+        "weight": 0.2
+      },
+      {
+        "id": "build_quality",
+        "vi": "Chất lượng công trình",
+        "weight": 0.17
+      },
+      {
+        "id": "water_drainage",
+        "vi": "Ngập và thoát nước",
+        "weight": 0.17
+      },
+      {
+        "id": "traffic",
+        "vi": "Giao thông giờ cao điểm",
+        "weight": 0.17
+      },
+      {
+        "id": "security",
+        "vi": "An ninh và PCCC",
+        "weight": 0.17
+      },
+      {
+        "id": "noise",
+        "vi": "Tiếng ồn, tiện ích và môi trường",
+        "weight": 0.12
+      }
+    ],
+    "minimum_unique_independent_responses": 15,
+    "staleness_months": 24,
+    "dedupe_rule": "one household/tenant, one time-window signal per topic; no identifiable account details",
+    "fraud_moderation": "exclude incentivized reviews, conflict disclosed, no anonymous unverifiable mass scores",
+    "confidence_levels": [
+      "insufficient",
+      "limited",
+      "moderate",
+      "high"
+    ],
+    "publication_rule": "no aggregated score until sample threshold and source-mix documented",
+    "flags": [
+      "developer-sponsored",
+      "distributor",
+      "verified-tenant",
+      "public-report",
+      "unknown"
+    ]
+  },
+  "project_scores": [],
+  "observations": [],
+  "editorial_market_signals": [
+    {
+      "id": "BDS-2026-H1-CONDO-SEARCH-INTEREST",
+      "subject": "HCMC new platform-wide apartment search share",
+      "metric": "platform_property_search_share_range",
+      "min": 34,
+      "max": 36,
+      "unit": "percent",
+      "period": "2026-H1",
+      "source_url": "https://wiki.batdongsan.com.vn/tin-tuc/quy-hoach-ha-tang-va-du-lieu-dang-dinh-hinh-lai-thi-truong-bat-dong-san-2026-856129",
+      "source_publisher": "Batdongsan.com.vn",
+      "source_kind": "reported-platform-interest",
+      "qualifier": "Demand/search share, NOT positive resident feedback, NOT satisfaction, and no score for any particular project."
+    }
+  ],
+  "disclaimer": "Zero project user ratings is the accurate result until properly deduplicated, consent/privacy-safe and independently verified input is available. No fabricated 4.5-star condo reviews."
+}

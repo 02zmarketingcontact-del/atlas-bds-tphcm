@@ -140,6 +140,54 @@
       ],
       "bulk_copy": false,
       "notes": "Secondary contemporaneous press account of Savills; direct original issuer PDF is preferred if available."
+    },
+    {
+      "id": "savills-apartment-2023q4",
+      "name": "Savills Vietnam apartment HCMC Q4/2023",
+      "organization": "Savills Research",
+      "url": "https://www.savills.com.vn/research_articles/226576/214560-0",
+      "rights_status": "brief factual reporting and source links only",
+      "bulk_copy": false
+    },
+    {
+      "id": "savills-apartment-2024q4",
+      "name": "Savills HCMC apartment 2024 report",
+      "organization": "Savills Research",
+      "url": "https://www.savills.com.vn/pdf-folder/hcmc-mrq42024-en.pdf",
+      "rights_status": "brief factual reporting and source links only",
+      "bulk_copy": false
+    },
+    {
+      "id": "savills-apartment-2025",
+      "name": "Savills HCMC 2025 overview",
+      "organization": "Savills Research",
+      "url": "https://www.savills.com.vn/blog/article/234705/vietnam-eng/hcmc-real-estate-q4-2025.aspx",
+      "rights_status": "brief factual reporting and source links only",
+      "bulk_copy": false
+    },
+    {
+      "id": "batdongsan-2025-ask",
+      "name": "Batdongsan 2025 asking price, rent and yield",
+      "organization": "Batdongsan.com.vn",
+      "url": "https://wiki.batdongsan.com.vn/tin-tuc/chung-cu-phia-tay-tp-hcm-tang-suc-hut-giua-luc-khan-hiem-nguon-cung-833420",
+      "rights_status": "brief factual reporting and source links only; no scraping",
+      "bulk_copy": false
+    },
+    {
+      "id": "batdongsan-2026-lease-interest",
+      "name": "Batdongsan May 2026 listing/search interest",
+      "organization": "Batdongsan.com.vn",
+      "url": "https://wiki.batdongsan.com.vn/tin-tuc/thi-truong-chung-cu-giam-gia-rao-ban-tang-nhu-cau-thue-855446",
+      "rights_status": "brief factual reporting and source links only; no scraping",
+      "bulk_copy": false
+    },
+    {
+      "id": "nhatot-2026-lease",
+      "name": "Nha Tot September 2026 rental listing snapshot",
+      "organization": "Chotot / Nha Tot",
+      "url": "https://www.nhatot.com/thue-can-ho-chung-cu-tp-ho-chi-minh?project_oid=19501217",
+      "rights_status": "brief factual reporting and source links only; no scraping",
+      "bulk_copy": false
     }
   ]
 }
