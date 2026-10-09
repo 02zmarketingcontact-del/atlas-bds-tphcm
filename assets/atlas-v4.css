@@ -40,3 +40,8 @@ html.embedded .topbar,html.embedded .sidebar,html.embedded .mapTools{display:non
 
 /* Honest price-sync disclosure in the sidebar; price source monitoring is distinct from corporate-site monitoring. */
 .sideFoot .priceFeedStatus{border-top:1px solid #e5e9eb;margin:8px 0 0;padding-top:8px;color:#5b6670;font-size:10px;line-height:1.55}
+
+.projectDossier{border-top:1px solid #e2e8e8;margin-top:15px;padding-top:12px}
+.projectDossier h3{font-size:13px;margin:4px 0 10px}
+.projectDossier .dossierSource{display:block;font-size:10px;margin:2px 0 8px}
+.projectDossier .muted{color:#718087;font-size:10px;line-height:1.6}
