@@ -56,12 +56,35 @@ async function run(){
    await desktop.screenshot({path:dir+"/v1-map.png",fullPage:false});
    log("Interactive map","PASS",markerCount+" project markers on visible map; canvas "+canvasCount);
   }catch(e){failures.push("Interactive map: "+e.message);log("Interactive map","FAIL",e.message)}
+  // 3B) Transit network, official planning sources, OSM station/bus layers and developer evidence.
+  try{
+   await goto(desktop,"map-v4.html");
+   await desktop.waitForFunction(()=>document.querySelectorAll("#transitList .transitItem").length>=9,{timeout:25000});
+   const routes=await desktop.locator("#transitList .transitItem").count();
+   const portals=await desktop.locator("#planningSources a").count();
+   const stationData=await desktop.evaluate(async()=>{const [m,b]=await Promise.all([fetch("data/metro_stations_osm.geojson").then(r=>r.json()),fetch("data/bus_stops_osm.geojson").then(r=>r.json())]);return{metro:m.features.length,bus:b.features.length,licensed:m.metadata.license==="ODbL"&&b.metadata.license==="ODbL"}});
+   assert(routes>=9,"Transit route catalog incomplete "+routes);
+   assert(portals>=6,"Official planning lookup catalog incomplete "+portals);
+   assert(stationData.metro>=10,"Metro station OSM candidates missing "+stationData.metro);
+   assert(stationData.bus>=50,"Bus stop OSM candidates missing "+stationData.bus);
+   assert(stationData.licensed,"Transit OSM attribution/licence missing");
+   await desktop.locator("#busStopsToggle").check();
+   assert(await desktop.locator("#busStopsToggle").isChecked(),"Bus stop toggle not functional");
+   await desktop.locator("#search").fill("The Felix");
+   await desktop.locator("#projectList .projectCard").first().click();
+   const detail=await desktop.locator("#detail").innerText();
+   assert(detail.includes("1.147")||detail.includes("1147"),"Developer corporate-source fact not shown on Felix card");
+   await desktop.screenshot({path:dir+"/v1-map-transit.png"});
+   log("Transit & developer research","PASS",routes+" metro corridors · "+stationData.metro+" OSM stations · "+stationData.bus+" bus stops · "+portals+" planning portals");
+  }catch(e){failures.push("Transit & developer research: "+e.message);log("Transit & developer research","FAIL",e.message)}
   // 4) Historic sources and years.
   try{
    await goto(desktop,"history.html");
    await desktop.waitForFunction(()=>document.querySelectorAll("#marketChart .bar").length===5,{timeout:25000});
    await desktop.locator("#years button").filter({hasText:"2014"}).click();
    const year=await desktop.locator("#heading").textContent();
+   const idx=await desktop.locator("#indexObservations .indexCard").count();
+   assert(idx>=3,"SPPI historical observations missing");
    assert(year?.includes("2014"),"history year filter not applied");
    await desktop.screenshot({path:dir+"/v1-history.png",fullPage:false});
    log("History research","PASS","Source-backed bars 5 and year selection 2014");
