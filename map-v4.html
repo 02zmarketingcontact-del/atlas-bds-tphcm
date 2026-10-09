@@ -5,27 +5,53 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="description" content="QiMap: bản đồ thực, dự án căn hộ, giá chào và lớp metro TP.HCM; mọi nguồn và mức xác minh được hiển thị rõ ràng.">
 <title>QiMap V4 | Bản đồ căn hộ TP.HCM</title>
-<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.13.0/dist/maplibre-gl.css">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.13.0/dist/maplibre-gl.css" onerror="this.onerror=null;this.href='https://cdn.jsdelivr.net/npm/maplibre-gl@6.13.0/dist/maplibre-gl.css'">
 <link rel="stylesheet" href="./assets/atlas-v4.css">
 <script type="module">
 (async () => {
-  try {
-    const library = await import("https://unpkg.com/maplibre-gl@6.13.0/dist/maplibre-gl.mjs");
-    window.maplibregl = library;
-    await import("./assets/atlas-v4.js");
-  } catch (error) {
-    console.error("QiMap V4 dependencies failed:", error);
-    window.addEventListener("DOMContentLoaded", () => {
-      const box = document.getElementById("mapNotice");
-      if (box) box.hidden = false;
-      const heading = document.getElementById("noticeHeading");
-      if (heading) heading.textContent = "Không tải được thư viện bản đồ";
-      const body = document.getElementById("noticeBody");
-      if (body) body.textContent = "Thử tải lại trang hoặc mở OpenStreetMap bằng liên kết bên dưới.";
+  // Keep the research catalogue usable even when map dependencies are blocked.
+  const providers = [
+    "https://unpkg.com/maplibre-gl@6.13.0/dist/maplibre-gl.mjs",
+    "https://cdn.jsdelivr.net/npm/maplibre-gl@6.13.0/dist/maplibre-gl.mjs"
+  ];
+  // Start project search immediately. Basemap libraries can load in parallel or fail.
+  const researchPromise = import("./assets/atlas-v4.js")
+    .then(() => true)
+    .catch(error => {
+      console.error("QiMap research interface unavailable:", error);
+      return false;
     });
-    if (document.readyState !== "loading") {
-      const box = document.getElementById("mapNotice");
-      if (box) box.hidden = false;
+  let mapReady = false;
+  for (const url of providers) {
+    try {
+      window.maplibregl = await import(url);
+      mapReady = true;
+      break;
+    } catch (error) {
+      console.warn("QiMap map library provider unavailable:", new URL(url).host, error);
+    }
+  }
+  const researchReady = await researchPromise;
+  if (mapReady && researchReady) {
+    mapReady = window.QiMapMapBootstrap?.start?.() === true;
+  }
+  if (!mapReady || !researchReady) {
+    const showGracefulFailure = () => {
+      const notice = document.getElementById("mapNotice");
+      if (notice) notice.hidden = false;
+      const heading = document.getElementById("noticeHeading");
+      if (heading) heading.textContent = mapReady ? "Không tải được dữ liệu ứng dụng" : "Không tải được thư viện bản đồ";
+      const body = document.getElementById("noticeBody");
+      if (body) body.textContent = researchReady
+        ? "Bản đồ đang gián đoạn. Bạn vẫn có thể tìm và mở hồ sơ căn hộ trong danh sách bên trái."
+        : "Bạn vẫn có thể mở kho căn hộ cũ từ thanh điều hướng hoặc thử tải lại trang.";
+      const retry = document.getElementById("retryMap");
+      if (retry) retry.onclick = () => window.location.reload();
+    };
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", showGracefulFailure, {once:true});
+    } else {
+      showGracefulFailure();
     }
   }
 })();

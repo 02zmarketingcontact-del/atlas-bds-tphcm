@@ -94,6 +94,27 @@ async function run(){
    await desktop.screenshot({path:dir+"/v1-map.png",fullPage:false});
    log("Interactive map","PASS",markerCount+" project markers on visible map; canvas "+canvasCount);
   }catch(e){failures.push("Interactive map: "+e.message);log("Interactive map","FAIL",e.message)}
+  // MapLibre CDN outage must not block project lookup, filters, or archive research.
+  try{
+    const degraded=await browser.newPage({viewport:{width:1366,height:820},locale:"vi-VN"});
+    try{
+      await degraded.route(/https:\/\/(unpkg\.com|cdn\.jsdelivr\.net)\/.*maplibre-gl/i,route=>route.abort("failed"));
+      await goto(degraded,"map-v4.html");
+      await degraded.waitForFunction(()=>document.querySelector("#projectCount")?.textContent.trim()==="32",{timeout:20000});
+      await degraded.waitForSelector("#mapNotice:not([hidden])",{timeout:15000});
+      await degraded.locator("#search").fill("The Prive");
+      await degraded.waitForFunction(()=>document.querySelectorAll("#projectList .projectCard").length===1,{timeout:5000});
+      const actual=await degraded.locator("#projectList .projectCard").first().innerText();
+      assert(actual.toLowerCase().includes("prive"),"Offline map catalogue search was lost");
+      await degraded.locator("#projectList .projectCard").first().click();
+      assert((await degraded.locator("#detail").innerText()).includes("The Prive"),"Offline map project profile cannot open");
+      await degraded.locator("#search").fill("The Vista");
+      await degraded.waitForSelector("#universeSearchResults .archiveResearchCard",{timeout:8000});
+      assert((await degraded.locator("#universeSearchResults .archiveResearchCard").first().innerText()).includes("The Vista"),"Offline map archive search is unavailable");
+      await degraded.screenshot({path:dir+"/qimap-maplibre-outage-fallback.png",fullPage:false});
+      log("Map CDN outage fallback","PASS","Blocked both CDN providers; project and historical search still work");
+    }finally{await degraded.close()}
+  }catch(e){failures.push("Map CDN fallback: "+e.message);log("Map CDN outage fallback","FAIL",e.message)}
   // 3B) Transit network, official planning sources, OSM station/bus layers and developer evidence.
   try{
    await goto(desktop,"map-v4.html");
