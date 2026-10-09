@@ -64,10 +64,25 @@
       <select id="baseMap"><option value="vector">Đường phố · OpenFreeMap</option><option value="osm">Đường phố · OSM</option><option value="sat">Vệ tinh · Esri</option></select>
       <div class="separator"></div>
       <label class="check"><input id="metroToggle" type="checkbox"><span id="metroLabel">Metro số 1 · sơ đồ tham khảo</span></label>
+      <label class="check"><input id="metroStationsToggle" type="checkbox" checked><span id="metroStationsLabel">🚇 Ga Metro (bản ghi OSM)</span></label>
+      <label class="check"><input id="busStopsToggle" type="checkbox"><span id="busStopsLabel">🚌 Trạm xe buýt (OSM)</span></label>
+      <details class="transitCatalog" open>
+        <summary id="transitSummary">Mạng lưới Metro và tiến độ 2026–2035</summary>
+        <select id="metroStatusFilter" aria-label="Lọc tình trạng tuyến">
+          <option value="all">Tất cả tuyến</option>
+          <option value="operating">Đang vận hành</option>
+          <option value="under_construction">Đang thi công</option>
+          <option value="other">Chưa vận hành</option>
+        </select>
+        <div class="transitList" id="transitList" aria-live="polite"><small>Đang tải nguồn giao thông...</small></div>
+      </details>
       <label class="check"><input id="planningToggle" type="checkbox"><span id="planningLabel">Quy hoạch GIS</span></label>
       <label class="upload"><input id="planningUpload" type="file" accept=".geojson,.json,application/geo+json,application/json"><span id="uploadPlanningLabel">+ Nạp lớp GeoJSON của bạn</span></label>
       <small id="layerNote">Metro: tuyến mô phỏng tham khảo; lớp quy hoạch cần nguồn GIS có quyền sử dụng, không thay bản đồ pháp lý.</small>
-      <a href="https://gisxaydung.tphcm.gov.vn/" target="_blank" rel="noopener noreferrer" id="planningOfficial">Tra cứu quy hoạch tại cổng TP.HCM ↗</a>
+      <a href="https://qhkt.hochiminhcity.gov.vn/ban-do-quy-hoach.html" target="_blank" rel="noopener noreferrer" id="planningOfficial">Bản đồ quy hoạch gốc · Sở QHKT TP.HCM ↗</a>
+      <div id="planningSources" class="planningSources"><small>Đang tải danh mục cổng quy hoạch...</small></div>
+      <p class="sourceCaution" id="planningCaution">Chưa có lớp quy hoạch pháp lý tích hợp trực tiếp — không tự tạo ranh giới.</p>
+      <a class="transitAttribution" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer" id="osmAttribution">Dữ liệu trạm: © OpenStreetMap contributors (ODbL)</a>
     </div>
     <div id="mapNotice" class="mapNotice" hidden><strong id="noticeHeading">Không tải được bản đồ nền</strong><p id="noticeBody">Kiểm tra kết nối hoặc chuyển sang nguồn khác.</p><div class="noticeActions"><button id="retryMap">Thử tải lại</button><a id="openOsmlink" href="https://www.openstreetmap.org/#map=11/10.82/106.72" target="_blank" rel="noopener noreferrer">Mở OpenStreetMap ↗</a></div></div>
     <div class="mapLegend"><span class="dot confirmed"></span><span id="confirmedLegend">Tọa độ đã đối chiếu</span><span class="dot approximate"></span><span id="approxLegend">Vị trí ước lượng</span></div>
