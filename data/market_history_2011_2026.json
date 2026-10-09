@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "note": "Historical macro and project-level series. Source-checked observations only, no interpolated missing years. Not equivalent to data/price_history.json.",
+  "years": [
+    2011,
+    2026
+  ],
+  "observations": []
+}
