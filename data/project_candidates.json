@@ -1,0 +1,225 @@
+{
+  "purpose": "Research queue only. Not validated market listings.",
+  "candidates": [
+    {
+      "name": "Estella Heights",
+      "area": "Thảo Điền / An Phú",
+      "region": "east",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "Lumière Riverside",
+      "area": "Thảo Điền / An Phú",
+      "region": "east",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "Thao Dien Green",
+      "area": "Thảo Điền / An Phú",
+      "region": "east",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "Diamond Island",
+      "area": "Bình Trưng / Quận 2 cũ",
+      "region": "east",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "Grand Marina Saigon",
+      "area": "Trung tâm",
+      "region": "central",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "The Opera Residence",
+      "area": "Thủ Thiêm",
+      "region": "east",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "Sunwah Pearl",
+      "area": "Bình Thạnh cũ",
+      "region": "central",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "Vinhomes Golden River",
+      "area": "Trung tâm",
+      "region": "central",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "The Antonia",
+      "area": "Phú Mỹ Hưng",
+      "region": "south",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "Scenic Valley",
+      "area": "Phú Mỹ Hưng",
+      "region": "south",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "Sunrise Riverside",
+      "area": "Nhà Bè cũ",
+      "region": "south",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "The Infiniti Riviera Point",
+      "area": "Khu Nam",
+      "region": "south",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "Celadon City",
+      "area": "Tân Phú cũ",
+      "region": "west",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "The Privia",
+      "area": "Bình Tân cũ",
+      "region": "west",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "Picity High Park",
+      "area": "Quận 12 cũ",
+      "region": "west",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "Westgate",
+      "area": "Bình Chánh cũ",
+      "region": "west",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "Astral City",
+      "area": "Thuận An cũ",
+      "region": "bd",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "The Rivana",
+      "area": "Thuận An cũ",
+      "region": "bd",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "A&T Saigon Riverside",
+      "area": "Thuận An cũ",
+      "region": "bd",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    },
+    {
+      "name": "The Emerald Golf View",
+      "area": "Thuận An cũ",
+      "region": "bd",
+      "market": "sale_and_rent",
+      "stage": "candidate_unverified",
+      "locationVerified": false,
+      "priceVerified": false,
+      "sourceUrl": null,
+      "doNotPublishAsVerified": true
+    }
+  ]
+}

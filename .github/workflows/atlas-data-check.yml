@@ -1,0 +1,21 @@
+name: Atlas daily data integrity
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2 * * *'
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'scripts/validate-data.mjs'
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/validate-data.mjs
+      - run: echo "Read-only QA; no external price feed and no auto publication"

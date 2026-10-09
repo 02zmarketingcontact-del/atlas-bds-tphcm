@@ -40,7 +40,7 @@
 #tileWarning .tileActions button+button{background:#f0f5f8;color:#2e5875;border:1px solid #cedde7}
 #externalOSM{display:inline-block;margin-top:13px;color:#315b7f;font-weight:800;font-size:11px}
 @media(max-width:690px){#quickBasemap{right:8px;top:121px}#zoomInfo{max-width:48vw;font-size:8px;padding:6px 5px}#zoomInfo a{white-space:normal}}
-</style></head>
+</style><link rel="stylesheet" href="./assets/atlas-customer.css"></head>
 <body>
 <div id="mapStage" aria-label="Bản đồ tương tác">
   <div id="nativeTiles" aria-hidden="true"></div><div id="googleMap" aria-label="Bản đồ Google"></div>
@@ -427,4 +427,4 @@ function init(){setupEvents();window.AtlasI18N?.init();window.addEventListener('
 init();
 })();
 </script>
-</body></html>
+<script src="./assets/atlas-customer.js" defer></script></body></html>
