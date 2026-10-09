@@ -1,0 +1,675 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "qimap-p0-p1-round-20261010-0323-ict",
+  "target_pull_request": 67,
+  "branch": "feat/p0-apartment-evidence-20261009",
+  "checked_at": "2026-10-10",
+  "status": "DRAFT_REVIEW_CANDIDATES_ONLY",
+  "record_source": "Published corporate project pages, official issuer prospectuses and dated financial/news documents only",
+  "disclaimer": "No source-reported apartment counts, land areas, completed building periods, legal entity roles, historical prices or planned legal documents may be promoted to reviewed/published project facts without reconciling primary underlying documents. Mixed products are not residential apartments. No licensed automatic market-price observation, verified transaction, foreign-buyer quota/SPA or verified new GIS pin is claimed.",
+  "sources": [
+    {
+      "source_id": "icon_page",
+      "url": "https://www.novaland.com.vn/icon-56/tong-quan-16",
+      "publisher": "Novaland",
+      "type": "developer_project_page",
+      "year": null,
+      "checked_at": "2026-10-10",
+      "data_access": "human-readable public issuer reference; minimal attributed facts only, source rights not established"
+    },
+    {
+      "source_id": "garden_page",
+      "url": "https://www.novaland.com.vn/garden-gate/tong-quan-3",
+      "publisher": "Novaland",
+      "type": "developer_project_page",
+      "year": null,
+      "checked_at": "2026-10-10",
+      "data_access": "human-readable public issuer reference; minimal attributed facts only, source rights not established"
+    },
+    {
+      "source_id": "lucky_page",
+      "url": "https://www.novaland.com.vn/lucky-palace/tong-quan-5",
+      "publisher": "Novaland",
+      "type": "developer_project_page",
+      "year": null,
+      "checked_at": "2026-10-10",
+      "data_access": "human-readable public issuer reference; minimal attributed facts only, source rights not established"
+    },
+    {
+      "source_id": "orchard_page",
+      "url": "https://www.novaland.com.vn/orchard-garden/tong-quan-20",
+      "publisher": "Novaland",
+      "type": "developer_project_page",
+      "year": null,
+      "checked_at": "2026-10-10",
+      "data_access": "human-readable public issuer reference; minimal attributed facts only, source rights not established"
+    },
+    {
+      "source_id": "tresor_page",
+      "url": "https://www.novaland.com.vn/the-tresor/tong-quan-9",
+      "publisher": "Novaland",
+      "type": "developer_project_page",
+      "year": null,
+      "checked_at": "2026-10-10",
+      "data_access": "human-readable public issuer reference; minimal attributed facts only, source rights not established"
+    },
+    {
+      "source_id": "prospectus_2020",
+      "url": "https://www.novaland.com.vn/Data/Sites/1/media/quan-h%E1%BB%87-%C4%91%E1%BA%A7u-t%C6%B0/Th%C3%B4ng-b%C3%A1o/2021/20210108_BCB%20phat%20hanh%202020_Final.pdf",
+      "publisher": "Novaland",
+      "type": "issuer_prospectus",
+      "year": 2020,
+      "publication_date": "unknown (file path indicates Jan 2021)",
+      "pages": "Icon 56 around pp. 84-86; Garden Gate p. 96; Lucky Palace p. 94; Orchard Garden p. 96; The Tresor p. 86",
+      "checked_at": "2026-10-10",
+      "data_access": "human-readable public issuer reference; minimal attributed facts only, source rights not established"
+    },
+    {
+      "source_id": "prospectus_2022",
+      "url": "https://www.novaland.com.vn/Data/Sites/1/media/quan-h%E1%BB%87-%C4%91%E1%BA%A7u-t%C6%B0/2022/20220523/1.-bcb-niem-yet-tp---reduce1.pdf",
+      "publisher": "Novaland",
+      "type": "issuer_prospectus",
+      "year": 2022,
+      "pages": "Icon 56, printed p. 18",
+      "checked_at": "2026-10-10",
+      "data_access": "human-readable public issuer reference; minimal attributed facts only, source rights not established"
+    },
+    {
+      "source_id": "prospectus_2017",
+      "url": "https://www.novaland.com.vn/Data/Sites/1/media/quan-h%E1%BB%87-%C4%91%E1%BA%A7u-t%C6%B0/Tr%C3%A1i%20phi%E1%BA%BFu/20171101-Ban-cao-bach-NVLG082019.pdf",
+      "publisher": "Novaland",
+      "type": "issuer_bond_prospectus",
+      "year": 2017,
+      "pages": "Orchard Garden printed p. 37; The Tresor printed p. 52",
+      "checked_at": "2026-10-10",
+      "data_access": "human-readable public issuer reference; minimal attributed facts only, source rights not established"
+    },
+    {
+      "source_id": "financial_q3_2017",
+      "url": "https://www.novaland.com.vn/Data/Sites/1/media/quan-h%E1%BB%87-%C4%91%E1%BA%A7u-t%C6%B0/BCTC/Vn/20171030-Dien-giai-BCTC-Quy-III-nam-2017.pdf",
+      "publisher": "Novaland",
+      "type": "issuer_financial_explanation",
+      "year": 2017,
+      "period": "2017 Q3",
+      "checked_at": "2026-10-10",
+      "data_access": "human-readable public issuer reference; minimal attributed facts only, source rights not established"
+    },
+    {
+      "source_id": "orchard_news_2017",
+      "url": "https://www.novaland.com.vn/trai-nghiem-khong-gian-song-chat-tai-orchard-garden",
+      "publisher": "Novaland",
+      "type": "issuer_corporate_news",
+      "year": 2017,
+      "publication_date": "2017-05-26",
+      "checked_at": "2026-10-10",
+      "data_access": "human-readable public issuer reference; minimal attributed facts only, source rights not established"
+    },
+    {
+      "source_id": "tresor_news_2017",
+      "url": "https://www.novaland.com.vn/du-an-the-tresor-tien-hanh-cat-noc-hoan-thanh-phan-ket-cau",
+      "publisher": "Novaland",
+      "type": "issuer_corporate_news",
+      "year": 2017,
+      "publication_date": "2017-05-24",
+      "checked_at": "2026-10-10",
+      "data_access": "human-readable public issuer reference; minimal attributed facts only, source rights not established"
+    },
+    {
+      "source_id": "agm_draft_2026",
+      "url": "https://www.novaland.com.vn/Data/Sites/1/media/quan-h%E1%BB%87-%C4%91%E1%BA%A7u-t%C6%B0/AGM/2026/NVLG_TT15_Ke_hoach_kinh_doanh2026.pdf",
+      "publisher": "Novaland",
+      "type": "issuer_agm_draft_unratified",
+      "year": 2026,
+      "publication_date": "not_verified",
+      "checked_at": "2026-10-10",
+      "data_access": "human-readable public issuer reference; minimal attributed facts only, source rights not established"
+    }
+  ],
+  "dossiers": [
+    {
+      "index": 41,
+      "project_id": "hist-icon56",
+      "name": "Icon 56",
+      "priority": "P1",
+      "observations": [
+        {
+          "field": "site_area",
+          "value": 2994,
+          "unit": "m2",
+          "scope": "developer_project_page",
+          "source_id": "icon_page",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "site_area",
+          "value": 2904,
+          "unit": "m2",
+          "scope": "issuer_prospectus_2020_project_area",
+          "source_id": "prospectus_2020",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "site_area",
+          "value": 2994,
+          "unit": "m2",
+          "scope": "issuer_prospectus_2022_project_area",
+          "source_id": "prospectus_2022",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "tower_floor_count",
+          "value": 25,
+          "unit": "floors",
+          "scope": "building_summary",
+          "source_id": "icon_page",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "residential_units",
+          "value": 312,
+          "unit": "apartments",
+          "scope": "residential_only_count",
+          "source_id": "prospectus_2022",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "all_property_products",
+          "value": 313,
+          "unit": "products",
+          "scope": "mixed_apartment_and_commercial_not_residential_count",
+          "source_id": "prospectus_2020",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "claimed_handover_year",
+          "value": 2015,
+          "unit": "year",
+          "scope": "issuer_retrospective_handover_statement_unverified",
+          "source_id": "prospectus_2022",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        }
+      ],
+      "conflicts": [
+        {
+          "field": "site_area",
+          "values_m2": [
+            2904,
+            2994
+          ],
+          "resolution": "CONFLICTED_REQUIRES_APPROVED_SITE_PLAN_OR_OFFICIAL_ORIGINAL"
+        }
+      ],
+      "review_notes": [
+        "312 residential apartments and 313 mixed products have distinct denominators; do not combine or infer 1 missing unit.",
+        "2015 retrospective handover date must not be taken as permit, SPA date, or independent confirmation."
+      ]
+    },
+    {
+      "index": 42,
+      "project_id": "hist-gardengate",
+      "name": "Garden Gate",
+      "priority": "P1",
+      "observations": [
+        {
+          "field": "site_area",
+          "value": 4600,
+          "unit": "m2",
+          "scope": "developer_project_page",
+          "source_id": "garden_page",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "site_area",
+          "value": 4887,
+          "unit": "m2",
+          "scope": "issuer_prospectus_project_area",
+          "source_id": "prospectus_2020",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "tower_floor_count",
+          "value": 21,
+          "unit": "floors",
+          "scope": "issuer_page",
+          "source_id": "garden_page",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "all_property_products",
+          "value": 420,
+          "unit": "products",
+          "scope": "mixed_apartment_officetel_retail",
+          "source_id": "prospectus_2020",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "corporate_development_entity",
+          "value": "Công ty CP No Va Festival",
+          "unit": "entity_name",
+          "scope": "issuer_reported_development_entity_NOT_legal_title",
+          "source_id": "prospectus_2020",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "handover_progress",
+          "value": "continued in 2017 Q3",
+          "unit": "period",
+          "scope": "issuer_reports_continued_handover_not_first_handover",
+          "source_id": "financial_q3_2017",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        }
+      ],
+      "conflicts": [
+        {
+          "field": "site_area",
+          "values_m2": [
+            4600,
+            4887
+          ],
+          "resolution": "CONFLICTED_VERIFY_1_500_ORIGINAL_SITE_PLAN"
+        }
+      ],
+      "review_notes": [
+        "420 is a mixed-unit product total, not a verified count of residential apartments.",
+        "Development entity statement does not establish current land title, legal project owner, or foreign buyer rights."
+      ]
+    },
+    {
+      "index": 43,
+      "project_id": "hist-luckypalace",
+      "name": "Lucky Palace",
+      "priority": "P1",
+      "observations": [
+        {
+          "field": "site_area",
+          "value": 5421,
+          "unit": "m2",
+          "scope": "developer_project_page",
+          "source_id": "lucky_page",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "site_area",
+          "value": 3876,
+          "unit": "m2",
+          "scope": "issuer_prospectus_project_area",
+          "source_id": "prospectus_2020",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "residential_units",
+          "value": 356,
+          "unit": "apartments",
+          "scope": "developer_residential_count",
+          "source_id": "lucky_page",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "all_property_products",
+          "value": 564,
+          "unit": "products",
+          "scope": "issuer_total_mixed_apartment_commercial",
+          "source_id": "prospectus_2020",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "tower_floor_count",
+          "value": 33,
+          "unit": "floors",
+          "scope": "developer_page",
+          "source_id": "lucky_page",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "corporate_development_entity",
+          "value": "Công ty TNHH Nova Lucky Palace",
+          "unit": "entity_name",
+          "scope": "issuer_reported_development_entity_NOT_legal_title",
+          "source_id": "prospectus_2020",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "handover_progress",
+          "value": "continued in 2017 Q3",
+          "unit": "period",
+          "scope": "issuer_reports_continued_handover_not_first_handover",
+          "source_id": "financial_q3_2017",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        }
+      ],
+      "conflicts": [
+        {
+          "field": "site_area",
+          "values_m2": [
+            3876,
+            5421
+          ],
+          "resolution": "CONFLICTED_VERIFY_SITE_BOUNDARY_AND_PHASE_DEFINITIONS"
+        }
+      ],
+      "review_notes": [
+        "356 apartments and 564 mixed products have different scopes. Do not report the larger total as residential units.",
+        "Legal owner, permits and foreign-buyer eligibility remain unverified."
+      ]
+    },
+    {
+      "index": 44,
+      "project_id": "hist-orchardgarden",
+      "name": "Orchard Garden",
+      "priority": "P1",
+      "observations": [
+        {
+          "field": "site_area",
+          "value": 4300,
+          "unit": "m2",
+          "scope": "developer_rounded_project_area",
+          "source_id": "orchard_page",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED",
+          "precision": "rounded"
+        },
+        {
+          "field": "site_area",
+          "value": 4303,
+          "unit": "m2",
+          "scope": "issuer_prospectus_precise_project_area",
+          "source_id": "prospectus_2020",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "site_area",
+          "value": 4303,
+          "unit": "m2",
+          "scope": "issuer_2017_project_area",
+          "source_id": "prospectus_2017",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "tower_floor_count",
+          "value": 18,
+          "unit": "floors",
+          "scope": "developer_page",
+          "source_id": "orchard_page",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "all_property_products",
+          "value": 427,
+          "unit": "products",
+          "scope": "mixed_apartment_officetel_2017",
+          "source_id": "prospectus_2017",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "all_property_products",
+          "value": 428,
+          "unit": "products",
+          "scope": "mixed_apartment_officetel_2020",
+          "source_id": "prospectus_2020",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "completed_and_in_use_claim",
+          "value": "by 2017-05-26",
+          "unit": "date",
+          "scope": "issuer_news_reports_residents_in_use",
+          "source_id": "orchard_news_2017",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "handover_progress",
+          "value": "continued in 2017 Q3",
+          "unit": "period",
+          "scope": "issuer_reports_continued_handover_not_first_handover",
+          "source_id": "financial_q3_2017",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        }
+      ],
+      "conflicts": [
+        {
+          "field": "all_property_products",
+          "values": [
+            427,
+            428
+          ],
+          "resolution": "CONFLICTED_DATED_2017_VS_2020_PRODUCT_SCOPE"
+        }
+      ],
+      "review_notes": [
+        "4,300 vs 4,303 m2 may be rounding and is not treated as a material conflict.",
+        "Do not label 427/428 as apartments: source product counts include officetel.",
+        "Presence of residents by May 2017 is not itself an SPA or legal-completion certificate."
+      ]
+    },
+    {
+      "index": 45,
+      "project_id": "hist-thetresor",
+      "name": "The Tresor",
+      "priority": "P1",
+      "observations": [
+        {
+          "field": "site_area",
+          "value": 6201,
+          "unit": "m2",
+          "scope": "developer_project_page",
+          "source_id": "tresor_page",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "site_area",
+          "value": 6202,
+          "unit": "m2",
+          "scope": "issuer_2017_prospectus_area",
+          "source_id": "prospectus_2017",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "site_area",
+          "value": 5780,
+          "unit": "m2",
+          "scope": "issuer_2020_prospectus_area",
+          "source_id": "prospectus_2020",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "all_property_products",
+          "value": 723,
+          "unit": "products",
+          "scope": "issuer_2017_apartments_officetel_retail",
+          "source_id": "prospectus_2017",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "all_property_products",
+          "value": 718,
+          "unit": "products",
+          "scope": "issuer_2020_apartments_officetel_retail",
+          "source_id": "prospectus_2020",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "block_1_floor_count",
+          "value": 33,
+          "unit": "floors",
+          "scope": "issuer_reported_block_level",
+          "source_id": "prospectus_2017",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "block_2_floor_count",
+          "value": 18,
+          "unit": "floors",
+          "scope": "issuer_reported_block_level",
+          "source_id": "prospectus_2017",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "developer_brand",
+          "value": "Novaland",
+          "unit": "brand",
+          "scope": "corporate_project_page",
+          "source_id": "tresor_page",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "issuer_named_2017_legal_owner",
+          "value": "Công ty TNHH Phú Việt Tín",
+          "unit": "entity_name",
+          "scope": "2017_issuer_label_CHU_DAU_TU_NOT_GOVT_VERIFIED",
+          "source_id": "prospectus_2017",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "issuer_named_2020_development_entity",
+          "value": "Công ty TNHH Đầu tư và Phát triển BĐS Nova Phúc Nguyên",
+          "unit": "entity_name",
+          "scope": "2020_issuer_label_DON_VI_PHAT_TRIEN_NOT_PROOF_OWNER_TRANSFER",
+          "source_id": "prospectus_2020",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "structural_topping_out",
+          "value": "2017-05-24",
+          "unit": "date",
+          "scope": "dated_corporate_topping_out_announcement",
+          "source_id": "tresor_news_2017",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        },
+        {
+          "field": "handover_first_started_claim",
+          "value": "2017 Q3",
+          "unit": "period",
+          "scope": "issuer_reports_started_handover_versus_prior_target",
+          "source_id": "financial_q3_2017",
+          "checked_at": "2026-10-10",
+          "authority": "Novaland issuer/developer reported; not independent legal verification",
+          "confidence": "SOURCE_REPORTED_REVIEW_REQUIRED"
+        }
+      ],
+      "conflicts": [
+        {
+          "field": "site_area",
+          "values_m2": [
+            6201,
+            6202,
+            5780
+          ],
+          "resolution": "CONFLICTED_PRECISE_BOUNDARY_AND_SCOPE"
+        },
+        {
+          "field": "all_property_products",
+          "values": [
+            723,
+            718
+          ],
+          "resolution": "CONFLICTED_REVISION_PRODUCT_TYPES_PHASE"
+        },
+        {
+          "field": "project_owner_vs_developer",
+          "resolution": "DO_NOT_CONFLATE_2017_OWNER_AND_2020_DEVELOPMENT_ENTITY"
+        }
+      ],
+      "review_notes": [
+        "2017 issuer-named 'chủ đầu tư' is not a verified current legal-title statement; cross-check official land/approval documents.",
+        "33- and 18-floor blocks are distinct; do not report one 33-floor tower as the whole scheme.",
+        "Topping-out, planned handover, actual claimed start of handover and SPA dates are distinct events; SPA not confirmed."
+      ]
+    }
+  ],
+  "watch_only_excluded_from_publish": [
+    {
+      "source_id": "agm_draft_2026",
+      "watch_scope": "Unratified draft AGM 2026 mentions planned home-title issuance for several projects; do NOT claim any individual title was issued, any legality resolved or that owners are eligible for foreign buyer SPA."
+    }
+  ],
+  "governance": {
+    "candidate_dossiers": 5,
+    "published_dossiers": 0,
+    "verified_new_gis_points": 0,
+    "verified_price_transactions": 0,
+    "licensed_market_observations": 0,
+    "foreign_buyer_eligibility_confirmed": 0,
+    "legal_owner_independently_verified": 0,
+    "new_sources_from_official_issuers_only": true,
+    "next_index_in_catalog": 46,
+    "no_main_modification": true,
+    "approval_state": "PENDING_EXPERT_REVIEW"
+  }
+}

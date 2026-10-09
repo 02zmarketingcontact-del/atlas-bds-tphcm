@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-09",
+  "purpose": "New apartment candidates not found by exact/alias name in the 150-index QiMap before this research round; independent issuer sources; never auto-add coordinates, apartments or legal-project IDs.",
+  "candidate_count": 3,
+  "records": [
+    {
+      "candidate_id": "discover-20261009-lumiere-midtown",
+      "official_name": "LUMIÈRE Midtown",
+      "aliases": [
+        "Lumiere Midtown"
+      ],
+      "proposed_parent_group_name": "The Global City",
+      "region_scope": "HCMC_old_boundary",
+      "old_location_description": "Đường Đỗ Xuân Hợp, phường An Phú, TP Thủ Đức (cũ), TP.HCM",
+      "new_location_description": "Đường Đỗ Xuân Hợp, phường Bình Trưng, TP.HCM",
+      "publisher_development_brand": "Masterise Homes",
+      "publisher_facts": [
+        {
+          "field": "residential_apartments",
+          "value": 808,
+          "unit": "apartments"
+        },
+        {
+          "field": "tower_count",
+          "value": 2,
+          "unit": "towers"
+        },
+        {
+          "field": "planned_handover_year",
+          "value": 2027,
+          "unit": "year"
+        }
+      ],
+      "official_publisher_url": "https://masterisehomes.com/the-global-city/lumiere-midtown/",
+      "risk": "The website claims foreign purchaser ownership duration; legal permission/quota must not be inferred. Parent is marketing masterplan.",
+      "project_identity_status": "DISCOVERY_CANDIDATE",
+      "legal_parent_relationship": "NOT_VERIFIED",
+      "geo_verified": false,
+      "legal_entity_verified": false,
+      "foreign_quota_verified": false,
+      "price_verified": false,
+      "source_status": "PUBLISHER_REPORTED",
+      "rights_status": "REFERENCE_ONLY",
+      "approved_for_project_master": false,
+      "research_checked_at": "2026-10-09"
+    },
+    {
+      "candidate_id": "discover-20261009-masteri-grand-view",
+      "official_name": "Masteri Grand View",
+      "aliases": [],
+      "proposed_parent_group_name": "The Global City",
+      "region_scope": "HCMC_old_boundary",
+      "old_location_description": "Khu The Global City, đường Đỗ Xuân Hợp, TP Thủ Đức (cũ)",
+      "new_location_description": "Khu The Global City, phường Bình Trưng, TP.HCM (to verify exact parcel)",
+      "publisher_development_brand": "Masterise Homes",
+      "publisher_facts": [
+        {
+          "field": "marketing_highrise_pair",
+          "value": 2,
+          "unit": "towers",
+          "note": "Official description states two high-rises; verify before classing as construction count."
+        }
+      ],
+      "official_publisher_url": "https://masterisehomes.com/the-global-city/vi/masteri-grand-view",
+      "risk": "No reliable apartment count, individual building location, or legal status identified.",
+      "project_identity_status": "DISCOVERY_CANDIDATE",
+      "legal_parent_relationship": "NOT_VERIFIED",
+      "geo_verified": false,
+      "legal_entity_verified": false,
+      "foreign_quota_verified": false,
+      "price_verified": false,
+      "source_status": "PUBLISHER_REPORTED",
+      "rights_status": "REFERENCE_ONLY",
+      "approved_for_project_master": false,
+      "research_checked_at": "2026-10-09"
+    },
+    {
+      "candidate_id": "discover-20261009-anesta",
+      "official_name": "ANesta",
+      "aliases": [
+        "eNesta",
+        "Enesta"
+      ],
+      "proposed_parent_group_name": null,
+      "region_scope": "Binh_Duong_pre_2025",
+      "old_location_description": "Khu vực nút giao Tân Vạn, Dĩ An (Bình Dương cũ)",
+      "new_location_description": "Khu vực nút giao Tân Vạn, phường Đông Hòa, TP.HCM — exact plot pending GIS",
+      "publisher_development_brand": "Gamuda Land",
+      "publisher_facts": [
+        {
+          "field": "residential_apartments_reported",
+          "value": 761,
+          "unit": "apartments",
+          "note": "Corporate-hosted press description. Nonofficial microsites conflict about 761 vs 769."
+        },
+        {
+          "field": "expected_public_introduction",
+          "value": "2026-Q4",
+          "unit": "quarter",
+          "note": "Forecast in Jun 2026, not confirmed completed launch."
+        }
+      ],
+      "official_publisher_url": "https://gamudaland.com.vn/vn/news/news-and-story-37",
+      "risk": "Location/plot not verified, commercial sites conflict on land area and apartment count.",
+      "project_identity_status": "DISCOVERY_CANDIDATE",
+      "legal_parent_relationship": "NOT_VERIFIED",
+      "geo_verified": false,
+      "legal_entity_verified": false,
+      "foreign_quota_verified": false,
+      "price_verified": false,
+      "source_status": "PUBLISHER_REPORTED",
+      "rights_status": "REFERENCE_ONLY",
+      "approved_for_project_master": false,
+      "research_checked_at": "2026-10-09"
+    }
+  ],
+  "coverage_plan": [
+    {
+      "priority": "P0",
+      "region": "HCMC_old_boundary",
+      "method": "for each historic district/ward, cross-check projects in existing index against issuer portfolios, construction permits, handover news and commercial directories; retain aliases"
+    },
+    {
+      "priority": "P1",
+      "region": "Binh_Duong_pre_2025",
+      "method": "district/ward and developer-portfolio discovery, exact plot confirmation with GIS evidence"
+    },
+    {
+      "priority": "P2",
+      "region": "Ba_Ria_Vung_Tau_pre_2025",
+      "method": "municipal handover and apartment source discovery; exclude resorts/condotels without residential eligibility evidence"
+    }
+  ],
+  "discovery_gate": "Candidate admission requires separate project/phase identity review, source permissions and geographic verification; approved candidate can enter no-pin searchable inventory before GIS verification."
+}

@@ -1,0 +1,2506 @@
+{
+  "type": "FeatureCollection",
+  "name": "QiMap 153 dossier locations — 34 representative positions",
+  "description": "Null geometry = no verified GIS pin. Other points are legacy checked flag, legacy approximate, or secondary crosschecked candidates, not cadastral accuracy.",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "map-metropole",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.71333,
+          10.77816
+        ]
+      },
+      "properties": {
+        "name": "The Metropole Thu Thiem",
+        "developer": "SonKim Land",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_FLAGGED_CHECKED",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-the-metropole-thu-thiem",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-empire",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7138,
+          10.7698
+        ]
+      },
+      "properties": {
+        "name": "Empire City Thu Thiem",
+        "developer": "Keppel Land / Tien Phuoc",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://khudothithuthiem.com/empire-city/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-river",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7156,
+          10.783
+        ]
+      },
+      "properties": {
+        "name": "The River Thu Thiem",
+        "developer": "Refico",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://www.nhatot.com/kinh-nghiem/so-sanh-chung-cu-the-river-thu-thiem-va-the-metropole-thu-thiem.html",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-prive",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.769,
+          10.7907
+        ]
+      },
+      "properties": {
+        "name": "The Prive",
+        "developer": "Dat Xanh Group",
+        "priority": "P0",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-the-prive",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-eaton",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7724,
+          10.7958
+        ]
+      },
+      "properties": {
+        "name": "Eaton Park",
+        "developer": "Gamuda Land",
+        "priority": "P0",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-eaton-park",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-sunavenue",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.74618,
+          10.78417
+        ]
+      },
+      "properties": {
+        "name": "The Sun Avenue",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_FLAGGED_CHECKED",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-masterithaodien",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7413,
+          10.8017
+        ]
+      },
+      "properties": {
+        "name": "Masteri Thao Dien",
+        "developer": "Masterise/Masteri",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://masterisehomes.com/storage/media/iNt507h0e8CjtVoMbCMvZggZX5LgJmcoPnx3EkHp.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-gatewaythaodien",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.733,
+          10.8026
+        ]
+      },
+      "properties": {
+        "name": "Gateway Thao Dien",
+        "developer": "SonKim Land",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-gateway-thao-dien",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-vcp",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7227,
+          10.79349
+        ]
+      },
+      "properties": {
+        "name": "Vinhomes Central Park",
+        "developer": "Vinhomes",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_FLAGGED_CHECKED",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-vinhomes-central-park",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-mcp",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8315,
+          10.8445
+        ]
+      },
+      "properties": {
+        "name": "Masteri Centre Point",
+        "developer": "Masterise Homes",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-masteri-centre-point",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-lumiere",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8375,
+          10.8407
+        ]
+      },
+      "properties": {
+        "name": "Lumiere Boulevard",
+        "developer": "Masterise Homes",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/du-an-can-ho-chung-cu-quan-9/lumiere-boulevard-pj5598",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-vingrand",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8347,
+          10.8422
+        ]
+      },
+      "properties": {
+        "name": "Vinhomes Grand Park (tong the)",
+        "developer": "Vinhomes",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-vinhomes-grand-park",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-midtown",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7346,
+          10.7248
+        ]
+      },
+      "properties": {
+        "name": "Midtown Phu My Hung",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://phumyhung.vn/du-an/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-celesta",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.709,
+          10.7159
+        ]
+      },
+      "properties": {
+        "name": "Celesta Rise",
+        "developer": "Keppel",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://www.keppel.com/realestate/About-Us/Our-Projects/Vietnam",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-mizuki",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6801,
+          10.7172
+        ]
+      },
+      "properties": {
+        "name": "Mizuki Park - can ho",
+        "developer": "Nam Long",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://www.namlongvn.com/en/news/the-evolving-landscape-of-integrated-townships-co-created-by-nam-long-and-japanese-partners/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-akari",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6087,
+          10.7463
+        ]
+      },
+      "properties": {
+        "name": "Akari City",
+        "developer": "Nam Long",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://www.namlongvn.com/en/news/the-evolving-landscape-of-integrated-townships-co-created-by-nam-long-and-japanese-partners/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-vista",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7573,
+          10.7777
+        ]
+      },
+      "properties": {
+        "name": "Vista Verde",
+        "developer": "CapitaLand",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://investor.capitaland.com/newsroom/20181114_063121_C31_OUHFY70QVS8SUCH9.3.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-palmheights",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7557,
+          10.7927
+        ]
+      },
+      "properties": {
+        "name": "Palm Heights",
+        "developer": "Keppel",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://www.keppel.com/realestate/vn/Live",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-origami",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8328,
+          10.8484
+        ]
+      },
+      "properties": {
+        "name": "The Origami - Grand Park",
+        "developer": "Vinhomes",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-the-origami-vinhomes-grand-park",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-glory",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8397,
+          10.8428
+        ]
+      },
+      "properties": {
+        "name": "Glory Heights - Grand Park",
+        "developer": "Vinhomes",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-glory-heights-vinhomes-grand-park",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-bcons",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7875,
+          10.8888
+        ]
+      },
+      "properties": {
+        "name": "Bcons City",
+        "developer": "Bcons Group",
+        "priority": "P2",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-bcons-city",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-felix",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7102,
+          10.876
+        ]
+      },
+      "properties": {
+        "name": "The Felix",
+        "developer": "C-Holdings",
+        "priority": "P0",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-the-felix-thuan-an",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-lapura",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7047,
+          10.8873
+        ]
+      },
+      "properties": {
+        "name": "La Pura",
+        "developer": "Phat Dat",
+        "priority": "P2",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-la-pura",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-emerald",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7088,
+          10.8691
+        ]
+      },
+      "properties": {
+        "name": "The Emerald 68",
+        "developer": "Le Phong / Coteccons",
+        "priority": "P2",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-the-emerald-68",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-norton",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7069,
+          10.9223
+        ]
+      },
+      "properties": {
+        "name": "Norton Park",
+        "developer": "Gamuda Land",
+        "priority": "P0",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://norton.com.vn/gia-ban-norton-park-66-trieu-m2-va-3-phuong-an-thanh-toan/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-sungio",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.811,
+          10.8689
+        ]
+      },
+      "properties": {
+        "name": "The Gio Riverside",
+        "developer": "An Gia Group",
+        "priority": "P2",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-the-gio-riverside",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-sycamore",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.677,
+          11.0602
+        ]
+      },
+      "properties": {
+        "name": "Sycamore - can ho",
+        "developer": "CapitaLand / Becamex",
+        "priority": "P0",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-sycamore-binh-duong",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-happyone",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6681,
+          10.9787
+        ]
+      },
+      "properties": {
+        "name": "Happy One Central",
+        "developer": "Van Xuan Group",
+        "priority": "P2",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-happy-one-central",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-melody",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0903,
+          10.3343
+        ]
+      },
+      "properties": {
+        "name": "Vung Tau Melody",
+        "developer": "Hung Thinh",
+        "priority": "P2",
+        "region": "Ba_Ria_Vung_Tau_pre_2025",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-vung-tau-melody",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-phoenix",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.1074,
+          10.3719
+        ]
+      },
+      "properties": {
+        "name": "DIC Phoenix",
+        "developer": "DIC Corp",
+        "priority": "P2",
+        "region": "Ba_Ria_Vung_Tau_pre_2025",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-dic-phoenix",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-win",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.5521,
+          10.8264
+        ]
+      },
+      "properties": {
+        "name": "The Win City",
+        "developer": "Thang Loi Homes",
+        "priority": "P0",
+        "region": "Long_An_pre_2025",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-the-win-city",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-elysian",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8101,
+          10.8283
+        ]
+      },
+      "properties": {
+        "name": "Elysian",
+        "developer": "Gamuda Land",
+        "priority": "P0",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "LEGACY_APPROXIMATE",
+        "source_url": "https://batdongsan.com.vn/du-an-can-ho-chung-cu-quan-9/chung-cu-elysian-pj4221",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-sunrisecityview",
+      "geometry": null,
+      "properties": {
+        "name": "Sunrise Cityview",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-richstar",
+      "geometry": null,
+      "properties": {
+        "name": "RichStar",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-saigonroyal",
+      "geometry": null,
+      "properties": {
+        "name": "Saigon Royal",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-newtonresidence",
+      "geometry": null,
+      "properties": {
+        "name": "Newton Residence",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-orchardparkview",
+      "geometry": null,
+      "properties": {
+        "name": "Orchard Parkview",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-botanicapremier",
+      "geometry": null,
+      "properties": {
+        "name": "Botanica Premier",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-goldenmansion",
+      "geometry": null,
+      "properties": {
+        "name": "Golden Mansion",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-kingstonresidence",
+      "geometry": null,
+      "properties": {
+        "name": "Kingston Residence",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-thebotanica",
+      "geometry": null,
+      "properties": {
+        "name": "The Botanica",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-icon56",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70296655,
+          10.76641523
+        ]
+      },
+      "properties": {
+        "name": "Icon 56",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "SECONDARY_CROSSCHECK_PENDING",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-gardengate",
+      "geometry": null,
+      "properties": {
+        "name": "Garden Gate",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-luckypalace",
+      "geometry": null,
+      "properties": {
+        "name": "Lucky Palace",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-orchardgarden",
+      "geometry": null,
+      "properties": {
+        "name": "Orchard Garden",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-thetresor",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.703312,
+          10.766464
+        ]
+      },
+      "properties": {
+        "name": "The Tresor",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "SECONDARY_CROSSCHECK_PENDING",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-rivergateresidence",
+      "geometry": null,
+      "properties": {
+        "name": "RiverGate Residence",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-sunrisecity",
+      "geometry": null,
+      "properties": {
+        "name": "Sunrise City",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-lexingtonresidence",
+      "geometry": null,
+      "properties": {
+        "name": "Lexington Residence",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-tropicgarden",
+      "geometry": null,
+      "properties": {
+        "name": "Tropic Garden",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-theprinceresidence",
+      "geometry": null,
+      "properties": {
+        "name": "The Prince Residence",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-sunriseriverside",
+      "geometry": null,
+      "properties": {
+        "name": "Sunrise Riverside",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-wiltontower",
+      "geometry": null,
+      "properties": {
+        "name": "Wilton Tower",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-galaxy9",
+      "geometry": null,
+      "properties": {
+        "name": "Galaxy 9",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-luckydragonresidence",
+      "geometry": null,
+      "properties": {
+        "name": "Lucky Dragon Residence",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-golfparkresidence",
+      "geometry": null,
+      "properties": {
+        "name": "Golf Park Residence",
+        "developer": "Novaland",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-monesaigonsouth",
+      "geometry": null,
+      "properties": {
+        "name": "M-One Saigon South",
+        "developer": "Masterise/Masteri",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://masterisehomes.com/storage/media/iNt507h0e8CjtVoMbCMvZggZX5LgJmcoPnx3EkHp.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-millennium",
+      "geometry": null,
+      "properties": {
+        "name": "Millennium",
+        "developer": "Masterise/Masteri",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://masterisehomes.com/storage/media/iNt507h0e8CjtVoMbCMvZggZX5LgJmcoPnx3EkHp.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-masterianphu",
+      "geometry": null,
+      "properties": {
+        "name": "Masteri An Phu",
+        "developer": "Masterise/Masteri",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://masterisehomes.com/storage/media/iNt507h0e8CjtVoMbCMvZggZX5LgJmcoPnx3EkHp.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-monegiadinh",
+      "geometry": null,
+      "properties": {
+        "name": "M-One Gia Dinh",
+        "developer": "Masterise/Masteri",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://masterisehomes.com/storage/media/iNt507h0e8CjtVoMbCMvZggZX5LgJmcoPnx3EkHp.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-thevista",
+      "geometry": null,
+      "properties": {
+        "name": "The Vista",
+        "developer": "CapitaLand",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://investor.capitaland.com/newsroom/20181114_063121_C31_OUHFY70QVS8SUCH9.3.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-parcspring",
+      "geometry": null,
+      "properties": {
+        "name": "ParcSpring",
+        "developer": "CapitaLand",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://investor.capitaland.com/newsroom/20181114_063121_C31_OUHFY70QVS8SUCH9.3.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-thekrista",
+      "geometry": null,
+      "properties": {
+        "name": "The Krista",
+        "developer": "CapitaLand",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://investor.capitaland.com/newsroom/20181114_063121_C31_OUHFY70QVS8SUCH9.3.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-krisvue",
+      "geometry": null,
+      "properties": {
+        "name": "Kris Vue",
+        "developer": "CapitaLand",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://investor.capitaland.com/newsroom/20181114_063121_C31_OUHFY70QVS8SUCH9.3.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-d1mension",
+      "geometry": null,
+      "properties": {
+        "name": "D1MENSION",
+        "developer": "CapitaLand",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://investor.capitaland.com/newsroom/20181114_063121_C31_OUHFY70QVS8SUCH9.3.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-dedgethaodien",
+      "geometry": null,
+      "properties": {
+        "name": "d’Edge Thao Dien",
+        "developer": "CapitaLand",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://investor.capitaland.com/newsroom/20181114_063121_C31_OUHFY70QVS8SUCH9.3.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-d2eight",
+      "geometry": null,
+      "properties": {
+        "name": "D2eight",
+        "developer": "CapitaLand",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://investor.capitaland.com/newsroom/20181114_063121_C31_OUHFY70QVS8SUCH9.3.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-felizenvista",
+      "geometry": null,
+      "properties": {
+        "name": "Feliz en Vista",
+        "developer": "CapitaLand",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://investor.capitaland.com/newsroom/20181114_063121_C31_OUHFY70QVS8SUCH9.3.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-delasol",
+      "geometry": null,
+      "properties": {
+        "name": "De La Sol",
+        "developer": "CapitaLand",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://investor.capitaland.com/newsroom/20181114_063121_C31_OUHFY70QVS8SUCH9.3.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-define",
+      "geometry": null,
+      "properties": {
+        "name": "DEFINE",
+        "developer": "CapitaLand",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.capitaland.com/sites/define/vn/point-of-Interests.html",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-zenity",
+      "geometry": null,
+      "properties": {
+        "name": "ZENITY",
+        "developer": "CapitaLand",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.capitaland.com/sites/define/vn/point-of-Interests.html",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-theestella",
+      "geometry": null,
+      "properties": {
+        "name": "The Estella",
+        "developer": "Keppel",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.keppel.com/realestate/vn/Live",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-estellaheights",
+      "geometry": null,
+      "properties": {
+        "name": "Estella Heights",
+        "developer": "Keppel",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.keppel.com/realestate/vn/Live",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-rivierapoint",
+      "geometry": null,
+      "properties": {
+        "name": "Riviera Point",
+        "developer": "Keppel",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.keppel.com/realestate/vn/Live",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-theviewatrivierapoint",
+      "geometry": null,
+      "properties": {
+        "name": "The View at Riviera Point",
+        "developer": "Keppel",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": "hist-rivierapoint",
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.keppel.com/realestate/vn/Live",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-theinfinitiatrivierapoint",
+      "geometry": null,
+      "properties": {
+        "name": "The Infiniti at Riviera Point",
+        "developer": "Keppel",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.keppel.com/realestate/About-Us/Our-Projects/Vietnam",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-celestaheights",
+      "geometry": null,
+      "properties": {
+        "name": "Celesta Heights",
+        "developer": "Keppel",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.keppel.com/realestate/About-Us/Our-Projects/Vietnam",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-celestaavenue",
+      "geometry": null,
+      "properties": {
+        "name": "Celesta Avenue",
+        "developer": "Keppel",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.keppel.com/realestate/About-Us/Our-Projects/Vietnam",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-thehorizon",
+      "geometry": null,
+      "properties": {
+        "name": "The Horizon",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/du-an-da-ban-giao",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-theantonia",
+      "geometry": null,
+      "properties": {
+        "name": "The Antonia",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/du-an-da-ban-giao",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-theascentia",
+      "geometry": null,
+      "properties": {
+        "name": "The Ascentia",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/du-an-da-ban-giao",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-cardinalcourt",
+      "geometry": null,
+      "properties": {
+        "name": "Cardinal Court",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/du-an-da-ban-giao",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-hungphucpremier",
+      "geometry": null,
+      "properties": {
+        "name": "Hưng Phúc Premier",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/du-an-da-ban-giao",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-riverparkresidence",
+      "geometry": null,
+      "properties": {
+        "name": "Riverpark Residence",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/du-an-da-ban-giao",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-saigonsouthresidences",
+      "geometry": null,
+      "properties": {
+        "name": "Saigon South Residences",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/du-an-da-ban-giao",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-greenvalley",
+      "geometry": null,
+      "properties": {
+        "name": "Green Valley",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/du-an-da-ban-giao",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-gardenplaza",
+      "geometry": null,
+      "properties": {
+        "name": "Garden Plaza",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/du-an-da-ban-giao",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-thepanorama",
+      "geometry": null,
+      "properties": {
+        "name": "The Panorama",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/du-an-da-ban-giao",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-starhill",
+      "geometry": null,
+      "properties": {
+        "name": "Star Hill",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/du-an-da-ban-giao",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-myanmycanh",
+      "geometry": null,
+      "properties": {
+        "name": "Mỹ An – Mỹ Cảnh",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/gioi-thieu/tong-quan-thi-phu-hung",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-hungvuong1",
+      "geometry": null,
+      "properties": {
+        "name": "Hưng Vượng 1",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/gioi-thieu/tong-quan-thi-phu-hung",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-myphuoc",
+      "geometry": null,
+      "properties": {
+        "name": "Mỹ Phước",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/gioi-thieu/tong-quan-thi-phu-hung",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-skygarden",
+      "geometry": null,
+      "properties": {
+        "name": "Sky Garden",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/gioi-thieu/tong-quan-thi-phu-hung",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-mykhanh",
+      "geometry": null,
+      "properties": {
+        "name": "Mỹ Khánh",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/gioi-thieu/tong-quan-thi-phu-hung",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-parkview",
+      "geometry": null,
+      "properties": {
+        "name": "Parkview",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/gioi-thieu/tong-quan-thi-phu-hung",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-thegrandview",
+      "geometry": null,
+      "properties": {
+        "name": "The Grandview",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/gioi-thieu/tong-quan-thi-phu-hung",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-scenicvalley",
+      "geometry": null,
+      "properties": {
+        "name": "Scenic Valley",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/du-an/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-scenicvalley2",
+      "geometry": null,
+      "properties": {
+        "name": "Scenic Valley 2",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/du-an/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-riversideresidence",
+      "geometry": null,
+      "properties": {
+        "name": "Riverside Residence",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/du-an/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-thepeakmidtown",
+      "geometry": null,
+      "properties": {
+        "name": "The Peak (Midtown)",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": "hist-phumyhungmidtown",
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/midtown/trai-nghiem-khu-can-ho-nghi-duong-dang-cap-tai-khu-nam-sai-gon/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-thesignaturemidtown",
+      "geometry": null,
+      "properties": {
+        "name": "The Signature (Midtown)",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": "hist-phumyhungmidtown",
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/midtown/trai-nghiem-khu-can-ho-nghi-duong-dang-cap-tai-khu-nam-sai-gon/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-thesymphonymidtown",
+      "geometry": null,
+      "properties": {
+        "name": "The Symphony (Midtown)",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": "hist-phumyhungmidtown",
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/midtown/trai-nghiem-khu-can-ho-nghi-duong-dang-cap-tai-khu-nam-sai-gon/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-thegrandemidtown",
+      "geometry": null,
+      "properties": {
+        "name": "The Grande (Midtown)",
+        "developer": "Phú Mỹ Hưng",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": "hist-phumyhungmidtown",
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://phumyhung.vn/midtown/trai-nghiem-khu-can-ho-nghi-duong-dang-cap-tai-khu-nam-sai-gon/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-thebridgeview",
+      "geometry": null,
+      "properties": {
+        "name": "The Bridgeview",
+        "developer": "Nam Long",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.namlongvn.com/uploads/assets/files/NLG/2022/20220408%20-%20nlg%20-%20cbtt%20bao%20cao%20thuong%20nien%20nam%202021%20-%20en.pdf/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-floraanhdao",
+      "geometry": null,
+      "properties": {
+        "name": "Flora Anh Dao",
+        "developer": "Nam Long",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.namlongvn.com/uploads/assets/files/NLG/2022/20220408%20-%20nlg%20-%20cbtt%20bao%20cao%20thuong%20nien%20nam%202021%20-%20en.pdf/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-florafuji",
+      "geometry": null,
+      "properties": {
+        "name": "Flora Fuji",
+        "developer": "Nam Long",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.namlongvn.com/uploads/assets/files/NLG/2022/20220408%20-%20nlg%20-%20cbtt%20bao%20cao%20thuong%20nien%20nam%202021%20-%20en.pdf/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-ehome1",
+      "geometry": null,
+      "properties": {
+        "name": "EHome 1",
+        "developer": "Nam Long",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.namlongvn.com/uploads/assets/files/NLG/2022/20220408%20-%20nlg%20-%20cbtt%20bao%20cao%20thuong%20nien%20nam%202021%20-%20en.pdf/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-ehome2",
+      "geometry": null,
+      "properties": {
+        "name": "EHome 2",
+        "developer": "Nam Long",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.namlongvn.com/uploads/assets/files/NLG/2022/20220408%20-%20nlg%20-%20cbtt%20bao%20cao%20thuong%20nien%20nam%202021%20-%20en.pdf/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-ehome3",
+      "geometry": null,
+      "properties": {
+        "name": "EHome 3",
+        "developer": "Nam Long",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.namlongvn.com/uploads/assets/files/NLG/2022/20220408%20-%20nlg%20-%20cbtt%20bao%20cao%20thuong%20nien%20nam%202021%20-%20en.pdf/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-ehome4",
+      "geometry": null,
+      "properties": {
+        "name": "EHome 4",
+        "developer": "Nam Long",
+        "priority": "P2",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.namlongvn.com/uploads/assets/files/NLG/2022/20220408%20-%20nlg%20-%20cbtt%20bao%20cao%20thuong%20nien%20nam%202021%20-%20en.pdf/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-ehomesphuhuu",
+      "geometry": null,
+      "properties": {
+        "name": "EHomeS Phu Huu",
+        "developer": "Nam Long",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.namlongvn.com/uploads/assets/files/NLG/2022/20220408%20-%20nlg%20-%20cbtt%20bao%20cao%20thuong%20nien%20nam%202021%20-%20en.pdf/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-ehomesnamsaigon",
+      "geometry": null,
+      "properties": {
+        "name": "EHomeS Nam Sai Gon",
+        "developer": "Nam Long",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.namlongvn.com/uploads/assets/files/NLG/2022/20220408%20-%20nlg%20-%20cbtt%20bao%20cao%20thuong%20nien%20nam%202021%20-%20en.pdf/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-florakikyo",
+      "geometry": null,
+      "properties": {
+        "name": "Flora Kikyo",
+        "developer": "Nam Long",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.namlongvn.com/uploads/assets/files/NLG/2022/20220408%20-%20nlg%20-%20cbtt%20bao%20cao%20thuong%20nien%20nam%202021%20-%20en.pdf/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-floramizukimp15",
+      "geometry": null,
+      "properties": {
+        "name": "Flora Mizuki MP1–5",
+        "developer": "Nam Long",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": "hist-mizukipark",
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.namlongvn.com/uploads/assets/files/NLG/2022/20220408%20-%20nlg%20-%20cbtt%20bao%20cao%20thuong%20nien%20nam%202021%20-%20en.pdf/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-floranovia",
+      "geometry": null,
+      "properties": {
+        "name": "Flora Novia",
+        "developer": "Nam Long",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.namlongvn.com/uploads/assets/files/NLG/2022/20220408%20-%20nlg%20-%20cbtt%20bao%20cao%20thuong%20nien%20nam%202021%20-%20en.pdf/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-opalriverside",
+      "geometry": null,
+      "properties": {
+        "name": "Opal Riverside",
+        "developer": "Đất Xanh",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-opalgarden",
+      "geometry": null,
+      "properties": {
+        "name": "Opal Garden",
+        "developer": "Đất Xanh",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-luxgarden",
+      "geometry": null,
+      "properties": {
+        "name": "LuxGarden",
+        "developer": "Đất Xanh",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-sunview12",
+      "geometry": null,
+      "properties": {
+        "name": "Sunview 1-2",
+        "developer": "Đất Xanh",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-phugiahung",
+      "geometry": null,
+      "properties": {
+        "name": "Phú Gia Hưng",
+        "developer": "Đất Xanh",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-sunviewtown",
+      "geometry": null,
+      "properties": {
+        "name": "Sunview Town",
+        "developer": "Đất Xanh",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-jamila",
+      "geometry": null,
+      "properties": {
+        "name": "Jamila",
+        "developer": "Khang Điền",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.khangdien.com.vn/tap-doan-khang-dien-to-chuc-le-cat-noc-2-thap-b-cua-du-an-the-privia",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-safira",
+      "geometry": null,
+      "properties": {
+        "name": "Safira",
+        "developer": "Khang Điền",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.khangdien.com.vn/tap-doan-khang-dien-to-chuc-le-cat-noc-2-thap-b-cua-du-an-the-privia",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-loveravista",
+      "geometry": null,
+      "properties": {
+        "name": "Lovera Vista",
+        "developer": "Khang Điền",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.khangdien.com.vn/tap-doan-khang-dien-to-chuc-le-cat-noc-2-thap-b-cua-du-an-the-privia",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-theprivia",
+      "geometry": null,
+      "properties": {
+        "name": "The Privia",
+        "developer": "Khang Điền",
+        "priority": "P1",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.khangdien.com.vn/tap-doan-khang-dien-to-chuc-le-cat-noc-2-thap-b-cua-du-an-the-privia",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-saigonpearl",
+      "geometry": null,
+      "properties": {
+        "name": "Saigon Pearl",
+        "developer": "Nguồn thị trường (cần xác minh)",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://wiki.batdongsan.com.vn/tin-tuc/can-ho-cho-thue-tai-tp-hcm-dong-loat-tang-gia-67647",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-themanor",
+      "geometry": null,
+      "properties": {
+        "name": "The Manor",
+        "developer": "Nguồn thị trường (cần xác minh)",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://wiki.batdongsan.com.vn/tin-tuc/can-ho-cho-thue-tai-tp-hcm-dong-loat-tang-gia-67647",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-thaodienpearl",
+      "geometry": null,
+      "properties": {
+        "name": "Thảo Điền Pearl",
+        "developer": "Nguồn thị trường (cần xác minh)",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://wiki.batdongsan.com.vn/tin-tuc/can-ho-cho-thue-tai-tp-hcm-dong-loat-tang-gia-67647",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-xiriverviewpalace",
+      "geometry": null,
+      "properties": {
+        "name": "XI Riverview Palace",
+        "developer": "Nguồn thị trường (cần xác minh)",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://wiki.batdongsan.com.vn/tin-tuc/can-ho-cho-thue-tai-tp-hcm-dong-loat-tang-gia-67647",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-citygarden",
+      "geometry": null,
+      "properties": {
+        "name": "City Garden",
+        "developer": "Nguồn thị trường (cần xác minh)",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://batdongsan.com.vn/ban-do-ban-nha-biet-thu-lien-ke-saigon-pearl",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-pearlplaza",
+      "geometry": null,
+      "properties": {
+        "name": "Pearl Plaza",
+        "developer": "Nguồn thị trường (cần xác minh)",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://batdongsan.com.vn/ban-do-ban-nha-biet-thu-lien-ke-saigon-pearl",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-cantavilhoancau",
+      "geometry": null,
+      "properties": {
+        "name": "Cantavil Hoàn Cầu",
+        "developer": "Nguồn thị trường (cần xác minh)",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://batdongsan.com.vn/ban-can-ho-chung-cu-cantavil-hoan-cau/gia-thuong-luong",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-saigonresplaza",
+      "geometry": null,
+      "properties": {
+        "name": "Saigonres Plaza",
+        "developer": "Nguồn thị trường (cần xác minh)",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://batdongsan.com.vn/ban-do-ban-nha-biet-thu-lien-ke-saigon-pearl",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-chungcumyduc",
+      "geometry": null,
+      "properties": {
+        "name": "Chung cư Mỹ Đức",
+        "developer": "Nguồn thị trường (cần xác minh)",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://batdongsan.com.vn/ban-do-ban-nha-biet-thu-lien-ke-saigon-pearl",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-chungcuphamvietchanh",
+      "geometry": null,
+      "properties": {
+        "name": "Chung cư Phạm Viết Chánh",
+        "developer": "Nguồn thị trường (cần xác minh)",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://batdongsan.com.vn/ban-do-ban-nha-biet-thu-lien-ke-saigon-pearl",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-hoanganhgialai3",
+      "geometry": null,
+      "properties": {
+        "name": "Hoàng Anh Gia Lai 3",
+        "developer": "Nguồn thị trường (cần xác minh)",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://batdongsan.com.vn/du-an-can-ho-chung-cu-nha-be/new-saigon-hoang-anh-gia-lai-3-pj110",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-richmondcity",
+      "geometry": null,
+      "properties": {
+        "name": "Richmond City",
+        "developer": "Nguồn thị trường (cần xác minh)",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://batdongsan.com.vn/ban-do-ban-nha-biet-thu-lien-ke-saigon-pearl",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-sunwahpearl",
+      "geometry": null,
+      "properties": {
+        "name": "Sunwah Pearl",
+        "developer": "Nguồn thị trường (cần xác minh)",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://batdongsan.com.vn/ban-do-ban-nha-biet-thu-lien-ke-saigon-pearl",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-thanhdaview",
+      "geometry": null,
+      "properties": {
+        "name": "Thanh Đa View",
+        "developer": "Nguồn thị trường (cần xác minh)",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://batdongsan.com.vn/ban-do-ban-nha-biet-thu-lien-ke-saigon-pearl",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-chungcunguyenngocphuong",
+      "geometry": null,
+      "properties": {
+        "name": "Chung cư Nguyễn Ngọc Phương",
+        "developer": "Nguồn thị trường (cần xác minh)",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://batdongsan.com.vn/ban-do-ban-nha-biet-thu-lien-ke-saigon-pearl",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-chungcu1050chuvanan",
+      "geometry": null,
+      "properties": {
+        "name": "Chung cư 1050 Chu Văn An",
+        "developer": "Nguồn thị trường (cần xác minh)",
+        "priority": "P2",
+        "region": "HCMC_old_boundary",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://batdongsan.com.vn/ban-do-ban-nha-biet-thu-lien-ke-saigon-pearl",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-soragardensi",
+      "geometry": null,
+      "properties": {
+        "name": "SORA gardens I",
+        "developer": "BECAMEX TOKYU",
+        "priority": "P1",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.tokyugardencity.com/en/area/sora/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-soragardensii",
+      "geometry": null,
+      "properties": {
+        "name": "SORA gardens II",
+        "developer": "BECAMEX TOKYU",
+        "priority": "P1",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://www.tokyugardencity.com/en/area/sora/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-midoriparktheview",
+      "geometry": null,
+      "properties": {
+        "name": "MIDORI PARK The VIEW",
+        "developer": "BECAMEX TOKYU",
+        "priority": "P2",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://becamextokyuhome.com/gioi-thieu",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-midoriparktheglory",
+      "geometry": null,
+      "properties": {
+        "name": "MIDORI PARK The GLORY",
+        "developer": "BECAMEX TOKYU",
+        "priority": "P2",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://becamextokyuhome.com/gioi-thieu",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-midoriparkthenest",
+      "geometry": null,
+      "properties": {
+        "name": "MIDORI PARK The NEST",
+        "developer": "BECAMEX TOKYU",
+        "priority": "P2",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://becamextokyuhome.com/gioi-thieu",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-midoriparktheten",
+      "geometry": null,
+      "properties": {
+        "name": "MIDORI PARK The TEN",
+        "developer": "BECAMEX TOKYU",
+        "priority": "P2",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://becamextokyuhome.com/gioi-thieu",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-thehabitatbinhduonggiaidoani",
+      "geometry": null,
+      "properties": {
+        "name": "The Habitat Bình Dương Giai đoạn I",
+        "developer": "VSIP-Sembcorp/The Habitat",
+        "priority": "P1",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://thehabitatbinhduong.vn/en/project-new/giai-doan-1-2/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-thehabitatbinhduonggiaidoanii",
+      "geometry": null,
+      "properties": {
+        "name": "The Habitat Bình Dương Giai đoạn II",
+        "developer": "VSIP-Sembcorp/The Habitat",
+        "priority": "P2",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://thehabitatbinhduong.vn/about/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hist-thehabitatbinhduonggiaidoaniii",
+      "geometry": null,
+      "properties": {
+        "name": "The Habitat Bình Dương Giai đoạn III",
+        "developer": "VSIP-Sembcorp/The Habitat",
+        "priority": "P2",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://thehabitatbinhduong.vn/about/",
+        "record_type": "CATALOGUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "discover-20261009-lumiere-midtown",
+      "geometry": null,
+      "properties": {
+        "name": "LUMIÈRE Midtown",
+        "developer": "Masterise Homes",
+        "priority": "DISCOVERY",
+        "region": "HCMC_old_boundary",
+        "parent": "The Global City",
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://masterisehomes.com/the-global-city/lumiere-midtown/",
+        "record_type": "DISCOVERY_PENDING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "discover-20261009-masteri-grand-view",
+      "geometry": null,
+      "properties": {
+        "name": "Masteri Grand View",
+        "developer": "Masterise Homes",
+        "priority": "DISCOVERY",
+        "region": "HCMC_old_boundary",
+        "parent": "The Global City",
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://masterisehomes.com/the-global-city/vi/masteri-grand-view",
+        "record_type": "DISCOVERY_PENDING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "discover-20261009-anesta",
+      "geometry": null,
+      "properties": {
+        "name": "ANesta",
+        "developer": "Gamuda Land",
+        "priority": "DISCOVERY",
+        "region": "Binh_Duong_pre_2025",
+        "parent": null,
+        "position_type": "NO_COORDINATES",
+        "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-37",
+        "record_type": "DISCOVERY_PENDING"
+      }
+    }
+  ]
+}

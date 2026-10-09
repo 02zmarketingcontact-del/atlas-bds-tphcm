@@ -500,15 +500,21 @@
       "project_id": "norton",
       "name": "Norton Park",
       "developer_brand_from_legacy": "Gamuda Land",
-      "source_status": "official_site_discovery_pending",
+      "source_status": "developer_brand_domain_verified",
       "legal_project_owner_verified": false,
-      "source": null,
+      "source": {
+        "url": "https://gamudaland.com.vn/vn/news/news-and-story-37",
+        "role": "developer_corporate_news",
+        "authority": "developer-hosted press reference identifies Norton Park, not legal owner nor stand-alone project rights",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only"
+      },
       "match_terms": [
         "Norton Park"
       ],
       "priority": "P0",
-      "review_state": "find_official_publisher",
-      "notes": "Do not treat marketing microsites as the official Gamuda publisher without corporate cross-link."
+      "review_state": "daily_monitoring_with_evidence_review",
+      "notes": "Corporate-hosted June 2026 Norton reference (7.9ha, 6 towers, >1,200 apartments, 30 commercial units). Launch date and price not yet verified; old broker listing is not official."
     },
     {
       "project_id": "sungio",

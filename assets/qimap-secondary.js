@@ -46,6 +46,8 @@ function projectCard(p){
  if(allowedURL(p.evidence_source?.url)){const a=node("a","Xem nguồn ↗");a.href=p.evidence_source.url;a.target="_blank";a.rel="noopener noreferrer";links.append(a)}
  if(p.map_project_id){const a=node("a","Mở bản đồ ↗");a.href="./map-v4.html?p="+encodeURIComponent(p.map_project_id);links.append(a)}
  else links.append(node("span","Chưa có tọa độ dự án đã kiểm chứng","disabled"));
+  const query=[p.name,p.regional_scope==="Long_An_pre_2025"?"Long An, Tây Ninh, Việt Nam":"TP Hồ Chí Minh, Việt Nam"].join(", ");
+  const g=node("a","Tìm trên Google Maps ↗");g.href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(query);g.target="_blank";g.rel="noopener noreferrer";links.append(g);
  card.append(links);
  const lookup=p.map_project_id?"map-"+p.map_project_id:p.research_id;
  const d=dossierById.get(lookup);

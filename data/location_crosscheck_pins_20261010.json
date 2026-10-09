@@ -1,0 +1,413 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-10-10",
+  "scope": "QiMap early location crosschecks; proposed map pin positions, not cadastral geolocation",
+  "review_policy": "Draft PR #67 only. Human source/geometry review before merging to main. Locations crosschecked against original publisher address and two public geolocation observations. Not parcel geometry or an official cadastral coordinate. No price, SPA or legal owner validation.",
+  "baseline_mapped_projects": 32,
+  "indexed_project_or_phase_records": 150,
+  "pins": [
+    {
+      "id": "pin-icon56",
+      "dossier_id": "hist-icon56",
+      "name": "Icon 56",
+      "zone": "hcm",
+      "zoneNew": "TP.HCM",
+      "status": "handover",
+      "developer": "Novaland (đơn vị công bố)",
+      "address": "56 Bến Vân Đồn, P.12, Q.4, TP.HCM (địa chỉ trước sáp nhập)",
+      "lat": 10.76641523,
+      "lng": 106.70296655,
+      "coordVerified": false,
+      "priceVerified": false,
+      "min": null,
+      "max": null,
+      "source": "https://www.novaland.com.vn/icon-56/tong-quan-16",
+      "locationEvidenceStatus": "crosschecked_secondary_points_pending_geometry_review",
+      "researchStatus": "SOURCE-CROSSCHECKED/CHỜ DUYỆT",
+      "checked_at": "2026-10-10",
+      "source_date": "undated_corporate_website",
+      "coordinate_claim_type": "building-associated hospitality property coordinates; not project land boundary",
+      "official_address_source": {
+        "url": "https://www.novaland.com.vn/icon-56/tong-quan-16",
+        "publisher": "Novaland",
+        "published_at": null,
+        "checked_at": "2026-10-10",
+        "claim": "Icon 56, 56 Bến Vân Đồn, P.12, Quận 4"
+      },
+      "coordinate_sources": [
+        {
+          "url": "https://www.travos.ro/ho-chi-minh-24487/hotel-star-glory-icon-56-saigon-h1875280.html",
+          "publisher": "Travos travel directory",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "lat": 10.76641523,
+          "lng": 106.70296655,
+          "status": "SECONDARY_COORDINATE_REPORTED",
+          "caveat": "Provider labels its GPS coordinates automatically generated and unverified"
+        },
+        {
+          "url": "https://mytriv.com/en/hotel/ho-chi-minh-city-icon-56-apart-80m2-2-bedrooms-2-wc-district-4",
+          "publisher": "MyTriv hotel directory",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "lat": 10.7662,
+          "lng": 106.7029,
+          "status": "SECONDARY_COORDINATE_REPORTED",
+          "caveat": "Hotel unit-associated reference, not survey of whole project"
+        }
+      ],
+      "location_confidence": "MEDIUM_LOW",
+      "legal_geometry_verified": false,
+      "rights_note": "Only short attributed public geolocation facts; don't reproduce maps/media; licensing review pending"
+    },
+    {
+      "id": "pin-thetresor",
+      "dossier_id": "hist-thetresor",
+      "name": "The Tresor",
+      "zone": "hcm",
+      "zoneNew": "TP.HCM",
+      "status": "handover",
+      "developer": "Novaland (đơn vị công bố)",
+      "address": "39 Bến Vân Đồn, Q.4, TP.HCM (địa chỉ trước sáp nhập)",
+      "lat": 10.766464,
+      "lng": 106.703312,
+      "coordVerified": false,
+      "priceVerified": false,
+      "min": null,
+      "max": null,
+      "source": "https://www.novaland.com.vn/the-tresor",
+      "locationEvidenceStatus": "crosschecked_secondary_points_pending_geometry_review",
+      "researchStatus": "SOURCE-CROSSCHECKED/CHỜ DUYỆT",
+      "checked_at": "2026-10-10",
+      "source_date": "undated_corporate_website",
+      "coordinate_claim_type": "building-associated geocoder and lodging coordinates; not project land boundary",
+      "official_address_source": {
+        "url": "https://www.novaland.com.vn/the-tresor",
+        "publisher": "Novaland",
+        "published_at": null,
+        "checked_at": "2026-10-10",
+        "claim": "The Tresor, 39 Bến Vân Đồn, Quận 4"
+      },
+      "coordinate_sources": [
+        {
+          "url": "https://www.findlatitudeandlongitude.com/l/The%2BTresor%2C%2B39%2C%2BBen%2BVan%2BDon%2BStreet%2C%2BWard%2B13%2C%2BDistrict%2B4%2C%2BHo%2BChi%2BMinh%2BCity%2C%2B72806%2C%2BVietnam/7415638/",
+          "publisher": "FindLatitudeAndLongitude geocoding directory",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "lat": 10.766464,
+          "lng": 106.703312,
+          "status": "SECONDARY_COORDINATE_REPORTED",
+          "caveat": "Provider-selected location is not official site survey"
+        },
+        {
+          "url": "https://www.ehotelsreviews.com/the-tresor-hana-apart-14455659-en",
+          "publisher": "eHotelsReviews accommodation directory",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "lat": 10.76655,
+          "lng": 106.703424,
+          "status": "SECONDARY_COORDINATE_REPORTED",
+          "caveat": "Lodging sub-unit address, not developer site plan"
+        }
+      ],
+      "location_confidence": "MEDIUM_LOW",
+      "legal_geometry_verified": false,
+      "rights_note": "Only short attributed public geolocation facts; don't reproduce maps/media; licensing review pending"
+    },
+    {
+      "id": "osm-hist-lexingtonresidence",
+      "dossier_id": "hist-lexingtonresidence",
+      "name": "Lexington Residence",
+      "zone": "hcm",
+      "zoneNew": "TP.HCM",
+      "status": "research",
+      "developer": "Theo hồ sơ nghiên cứu (cần đối chiếu pháp nhân)",
+      "address": "Đối tượng bản đồ OSM được đặt tên Chung Cư Lexington Residence, địa chỉ chính xác chưa kiểm chứng",
+      "lat": 10.79841,
+      "lng": 106.75182,
+      "coordVerified": false,
+      "priceVerified": false,
+      "min": null,
+      "max": null,
+      "source": "https://mapcarta.com/W807423421",
+      "locationEvidenceStatus": "OSM_NAMED_PLACE_GEOGRAPHY_PENDING_SECONDARY_CHECK",
+      "researchStatus": "OSM-PLACE-MATCH/CHỜ DUYỆT",
+      "checked_at": "2026-10-10",
+      "source_date": "OSM_MAP_OBJECT_UNDATED",
+      "coordinate_claim_type": "representative centre of OSM named residential landuse; NOT entrance, cadastral survey, or parcel precision",
+      "official_address_source": null,
+      "coordinate_sources": [
+        {
+          "url": "https://mapcarta.com/W807423421",
+          "publisher": "Mapcarta / OpenStreetMap contributors",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "lat": 10.79841,
+          "lng": 106.75182,
+          "status": "OSM_NAMED_FEATURE_REPORTED",
+          "caveat": "OSM feature 807423421; needs official address/developer crosscheck before approving location"
+        },
+        {
+          "url": "https://www.openstreetmap.org/way/807423421",
+          "publisher": "OpenStreetMap contributors",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "status": "UNDERLYING_OSM_ELEMENT_NOT_INDEPENDENT",
+          "caveat": "Same OSM dataset, not second independent source"
+        }
+      ],
+      "osm_element": {
+        "type": "way",
+        "id": "807423421",
+        "mapped_name": "Chung Cư Lexington Residence",
+        "osm_tag": "landuse=residential"
+      },
+      "location_confidence": "OSM_NAMED_FEATURE_PENDING_OFFICIAL_CONFIRMATION",
+      "legal_geometry_verified": false,
+      "rights_note": "Small ODbL-licensed OSM-derived point references, maintain attribution © OpenStreetMap contributors and ODbL; do not reuse Mapcarta textual descriptions or imagery"
+    },
+    {
+      "id": "osm-hist-theestella",
+      "dossier_id": "hist-theestella",
+      "name": "The Estella",
+      "zone": "hcm",
+      "zoneNew": "TP.HCM",
+      "status": "research",
+      "developer": "Theo hồ sơ nghiên cứu (cần đối chiếu pháp nhân)",
+      "address": "Đối tượng bản đồ OSM được đặt tên The Estella, địa chỉ chính xác chưa kiểm chứng",
+      "lat": 10.80017,
+      "lng": 106.74887,
+      "coordVerified": false,
+      "priceVerified": false,
+      "min": null,
+      "max": null,
+      "source": "https://mapcarta.com/W733162716",
+      "locationEvidenceStatus": "OSM_NAMED_PLACE_GEOGRAPHY_PENDING_SECONDARY_CHECK",
+      "researchStatus": "OSM-PLACE-MATCH/CHỜ DUYỆT",
+      "checked_at": "2026-10-10",
+      "source_date": "OSM_MAP_OBJECT_UNDATED",
+      "coordinate_claim_type": "representative centre of OSM named residential landuse; NOT entrance, cadastral survey, or parcel precision",
+      "official_address_source": null,
+      "coordinate_sources": [
+        {
+          "url": "https://mapcarta.com/W733162716",
+          "publisher": "Mapcarta / OpenStreetMap contributors",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "lat": 10.80017,
+          "lng": 106.74887,
+          "status": "OSM_NAMED_FEATURE_REPORTED",
+          "caveat": "OSM feature 733162716; needs official address/developer crosscheck before approving location"
+        },
+        {
+          "url": "https://www.openstreetmap.org/way/733162716",
+          "publisher": "OpenStreetMap contributors",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "status": "UNDERLYING_OSM_ELEMENT_NOT_INDEPENDENT",
+          "caveat": "Same OSM dataset, not second independent source"
+        }
+      ],
+      "osm_element": {
+        "type": "way",
+        "id": "733162716",
+        "mapped_name": "The Estella",
+        "osm_tag": "landuse=residential"
+      },
+      "location_confidence": "OSM_NAMED_FEATURE_PENDING_OFFICIAL_CONFIRMATION",
+      "legal_geometry_verified": false,
+      "rights_note": "Small ODbL-licensed OSM-derived point references, maintain attribution © OpenStreetMap contributors and ODbL; do not reuse Mapcarta textual descriptions or imagery"
+    },
+    {
+      "id": "osm-hist-scenicvalley",
+      "dossier_id": "hist-scenicvalley",
+      "name": "Scenic Valley",
+      "zone": "hcm",
+      "zoneNew": "TP.HCM",
+      "status": "research",
+      "developer": "Theo hồ sơ nghiên cứu (cần đối chiếu pháp nhân)",
+      "address": "Đối tượng bản đồ OSM được đặt tên Scenic Valley 1, địa chỉ chính xác chưa kiểm chứng",
+      "lat": 10.73113,
+      "lng": 106.71667,
+      "coordVerified": false,
+      "priceVerified": false,
+      "min": null,
+      "max": null,
+      "source": "https://mapcarta.com/W557002375",
+      "locationEvidenceStatus": "OSM_NAMED_PLACE_GEOGRAPHY_PENDING_SECONDARY_CHECK",
+      "researchStatus": "OSM-PLACE-MATCH/CHỜ DUYỆT",
+      "checked_at": "2026-10-10",
+      "source_date": "OSM_MAP_OBJECT_UNDATED",
+      "coordinate_claim_type": "representative centre of OSM named residential landuse; NOT entrance, cadastral survey, or parcel precision",
+      "official_address_source": null,
+      "coordinate_sources": [
+        {
+          "url": "https://mapcarta.com/W557002375",
+          "publisher": "Mapcarta / OpenStreetMap contributors",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "lat": 10.73113,
+          "lng": 106.71667,
+          "status": "OSM_NAMED_FEATURE_REPORTED",
+          "caveat": "OSM feature 557002375; needs official address/developer crosscheck before approving location"
+        },
+        {
+          "url": "https://www.openstreetmap.org/way/557002375",
+          "publisher": "OpenStreetMap contributors",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "status": "UNDERLYING_OSM_ELEMENT_NOT_INDEPENDENT",
+          "caveat": "Same OSM dataset, not second independent source"
+        }
+      ],
+      "osm_element": {
+        "type": "way",
+        "id": "557002375",
+        "mapped_name": "Scenic Valley 1",
+        "osm_tag": "landuse=residential"
+      },
+      "location_confidence": "OSM_NAMED_FEATURE_PENDING_OFFICIAL_CONFIRMATION",
+      "legal_geometry_verified": false,
+      "rights_note": "Small ODbL-licensed OSM-derived point references, maintain attribution © OpenStreetMap contributors and ODbL; do not reuse Mapcarta textual descriptions or imagery"
+    },
+    {
+      "id": "osm-hist-scenicvalley2",
+      "dossier_id": "hist-scenicvalley2",
+      "name": "Scenic Valley 2",
+      "zone": "hcm",
+      "zoneNew": "TP.HCM",
+      "status": "research",
+      "developer": "Theo hồ sơ nghiên cứu (cần đối chiếu pháp nhân)",
+      "address": "Đối tượng bản đồ OSM được đặt tên Scenic Valley 2, địa chỉ chính xác chưa kiểm chứng",
+      "lat": 10.73153,
+      "lng": 106.71818,
+      "coordVerified": false,
+      "priceVerified": false,
+      "min": null,
+      "max": null,
+      "source": "https://mapcarta.com/W780088730",
+      "locationEvidenceStatus": "OSM_NAMED_PLACE_GEOGRAPHY_PENDING_SECONDARY_CHECK",
+      "researchStatus": "OSM-PLACE-MATCH/CHỜ DUYỆT",
+      "checked_at": "2026-10-10",
+      "source_date": "OSM_MAP_OBJECT_UNDATED",
+      "coordinate_claim_type": "representative centre of OSM named residential landuse; NOT entrance, cadastral survey, or parcel precision",
+      "official_address_source": null,
+      "coordinate_sources": [
+        {
+          "url": "https://mapcarta.com/W780088730",
+          "publisher": "Mapcarta / OpenStreetMap contributors",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "lat": 10.73153,
+          "lng": 106.71818,
+          "status": "OSM_NAMED_FEATURE_REPORTED",
+          "caveat": "OSM feature 780088730; needs official address/developer crosscheck before approving location"
+        },
+        {
+          "url": "https://www.openstreetmap.org/way/780088730",
+          "publisher": "OpenStreetMap contributors",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "status": "UNDERLYING_OSM_ELEMENT_NOT_INDEPENDENT",
+          "caveat": "Same OSM dataset, not second independent source"
+        }
+      ],
+      "osm_element": {
+        "type": "way",
+        "id": "780088730",
+        "mapped_name": "Scenic Valley 2",
+        "osm_tag": "landuse=residential"
+      },
+      "location_confidence": "OSM_NAMED_FEATURE_PENDING_OFFICIAL_CONFIRMATION",
+      "legal_geometry_verified": false,
+      "rights_note": "Small ODbL-licensed OSM-derived point references, maintain attribution © OpenStreetMap contributors and ODbL; do not reuse Mapcarta textual descriptions or imagery"
+    },
+    {
+      "id": "osm-hist-sunviewtown",
+      "dossier_id": "hist-sunviewtown",
+      "name": "Sunview Town",
+      "zone": "hcm",
+      "zoneNew": "TP.HCM",
+      "status": "research",
+      "developer": "Theo hồ sơ nghiên cứu (cần đối chiếu pháp nhân)",
+      "address": "Đối tượng bản đồ OSM được đặt tên Chung Cư Sunview Town, địa chỉ chính xác chưa kiểm chứng",
+      "lat": 10.86541,
+      "lng": 106.72777,
+      "coordVerified": false,
+      "priceVerified": false,
+      "min": null,
+      "max": null,
+      "source": "https://mapcarta.com/W1024454564",
+      "locationEvidenceStatus": "OSM_NAMED_PLACE_GEOGRAPHY_PENDING_SECONDARY_CHECK",
+      "researchStatus": "OSM-PLACE-MATCH/CHỜ DUYỆT",
+      "checked_at": "2026-10-10",
+      "source_date": "OSM_MAP_OBJECT_UNDATED",
+      "coordinate_claim_type": "representative centre of OSM named residential landuse; NOT entrance, cadastral survey, or parcel precision",
+      "official_address_source": null,
+      "coordinate_sources": [
+        {
+          "url": "https://mapcarta.com/W1024454564",
+          "publisher": "Mapcarta / OpenStreetMap contributors",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "lat": 10.86541,
+          "lng": 106.72777,
+          "status": "OSM_NAMED_FEATURE_REPORTED",
+          "caveat": "OSM feature 1024454564; needs official address/developer crosscheck before approving location"
+        },
+        {
+          "url": "https://www.openstreetmap.org/way/1024454564",
+          "publisher": "OpenStreetMap contributors",
+          "published_at": null,
+          "checked_at": "2026-10-10",
+          "status": "UNDERLYING_OSM_ELEMENT_NOT_INDEPENDENT",
+          "caveat": "Same OSM dataset, not second independent source"
+        }
+      ],
+      "osm_element": {
+        "type": "way",
+        "id": "1024454564",
+        "mapped_name": "Chung Cư Sunview Town",
+        "osm_tag": "landuse=residential"
+      },
+      "location_confidence": "OSM_NAMED_FEATURE_PENDING_OFFICIAL_CONFIRMATION",
+      "legal_geometry_verified": false,
+      "rights_note": "Small ODbL-licensed OSM-derived point references, maintain attribution © OpenStreetMap contributors and ODbL; do not reuse Mapcarta textual descriptions or imagery"
+    }
+  ],
+  "hold_for_review": [
+    {
+      "dossier_id": "hist-orchardgarden",
+      "name": "Orchard Garden",
+      "official_url": "https://www.novaland.com.vn/orchard-garden/tong-quan-20",
+      "address": "128 Hồng Hà",
+      "reason": "Two independent location references diverge beyond 100 m: MyTriv 10.8095,106.6718 vs Infini geosearch 10.80978,106.6706; not eligible for current pin proposal",
+      "source_urls": [
+        "https://mytriv.com/en/hotel/ho-chi-minh-city-andy-studio-orchard-garden-airport-gym-pool",
+        "https://developer.infini-hostlink.com/topics_detail7/infini_hostlink_advance/specification/utility/json/geosearch"
+      ]
+    },
+    {
+      "dossier_id": "hist-luckypalace",
+      "name": "Lucky Palace",
+      "official_url": "https://www.novaland.com.vn/lucky-palace/tong-quan-5",
+      "address": "50 Phan Văn Khỏe",
+      "reason": "Two nearby reported GPS coordinates originate from same aggregator (WorldPlaces), not independent cross-source validation",
+      "source_urls": [
+        "https://vietnam.worldplaces.me/vi/review/98760802-du-an-lucky-palace-novaland.html",
+        "https://vietnam.worldplaces.me/vi/review/95257009-can-ho-lucky-palace-50-phan-van-khoe.html"
+      ]
+    },
+    {
+      "dossier_id": "hist-gardengate",
+      "name": "Garden Gate",
+      "official_url": "https://www.novaland.com.vn/garden-gate/tong-quan-3",
+      "address": "08 Hoàng Minh Giám",
+      "reason": "Official project address found, precise coordinate still unsupported by independently sourced geolocation",
+      "source_urls": []
+    }
+  ],
+  "last_reviewed_at": "2026-10-10",
+  "location_pins_count": 7,
+  "osm_named_place_policy": "OSM points are research-only centres; official address and boundary must be verified independently before coordVerified is ever set true. No public Nominatim systematic extraction."
+}
