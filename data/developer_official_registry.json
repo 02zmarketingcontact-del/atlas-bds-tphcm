@@ -13,7 +13,9 @@
     "claims": "Only developer brand domain verified. Legal project owner and foreign-buyer eligibility require separate evidence.",
     "robots": true,
     "no_scraping_protected_data": true,
-    "external_facts_auto_publish": false
+    "external_facts_auto_publish": false,
+    "latest_source_reconciliation": "Added REFICO The River, CapitaLand Vista Verde and Le Phong The Emerald 68 from company-owned domains on Oct 9 2026.",
+    "publisher_page_upgrade_at": "2026-10-09"
   },
   "projects": [
     {
@@ -60,14 +62,21 @@
       "project_id": "river",
       "name": "The River Thu Thiem",
       "developer_brand_from_legacy": "Refico",
-      "source_status": "official_site_discovery_pending",
+      "source_status": "developer_brand_domain_verified",
       "legal_project_owner_verified": false,
-      "source": null,
+      "source": {
+        "url": "https://refico.com.vn/vi/specialities/the-river/",
+        "role": "developer_project",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only",
+        "verification_note": "REFICO first-party The River Thu Thiem detailed project page; explicit project name and 525 units"
+      },
       "match_terms": [
         "The River Thu Thiem"
       ],
       "priority": "P0",
-      "review_state": "find_official_publisher",
+      "review_state": "daily_monitoring_project_specific_issuer_page",
       "notes": null
     },
     {
@@ -329,14 +338,21 @@
       "project_id": "vista",
       "name": "Vista Verde",
       "developer_brand_from_legacy": "CapitaLand",
-      "source_status": "official_site_discovery_pending",
+      "source_status": "developer_brand_domain_verified",
       "legal_project_owner_verified": false,
-      "source": null,
+      "source": {
+        "url": "https://www.capitaland.com/vn/en/stay/residential-development-listing/vista-verde.html",
+        "role": "developer_project",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only",
+        "verification_note": "CapitaLand Development official Vista Verde record; 1152 residential units and completed status"
+      },
       "match_terms": [
         "Vista Verde"
       ],
       "priority": "P0",
-      "review_state": "find_official_publisher",
+      "review_state": "daily_monitoring_project_specific_issuer_page",
       "notes": null
     },
     {
@@ -463,14 +479,21 @@
       "project_id": "emerald",
       "name": "The Emerald 68",
       "developer_brand_from_legacy": "Le Phong / Coteccons",
-      "source_status": "official_site_discovery_pending",
+      "source_status": "developer_brand_domain_verified",
       "legal_project_owner_verified": false,
-      "source": null,
+      "source": {
+        "url": "https://lephong.vn/vi-the-chu-dau-tu-nang-tam-du-an-the-emerald-68/",
+        "role": "developer_project",
+        "authority": "developer_brand_domain_not_necessarily_legal_project_owner",
+        "verified_on": "2026-10-09",
+        "permission": "minimal_public_metadata_only",
+        "verification_note": "Le Phong first-party article about The Emerald 68 project; corporate published, figures still to be reviewed"
+      },
       "match_terms": [
         "The Emerald 68"
       ],
       "priority": "P0",
-      "review_state": "find_official_publisher",
+      "review_state": "daily_monitoring_project_specific_issuer_page",
       "notes": null
     },
     {

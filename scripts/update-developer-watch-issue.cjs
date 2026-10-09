@@ -24,6 +24,7 @@ module.exports=async function({github,context,core}){
  "| Trang nguồn duy nhất được theo dõi | "+s.unique_source_pages+" |",
  "| Trang có nội dung dự án đọc được | "+s.pages_with_project_text+" |",
  "| Trang có thay đổi cần đối chiếu | "+s.changed_pages+" |",
+ "| Gợi ý thông số từ nguồn gốc cần duyệt | "+(s.fact_candidates_staged||0)+" |",
  "| Bị giới hạn / lỗi truy cập | "+s.errors_or_robots+" |",
  "",
  "**Chưa tìm được nguồn doanh nghiệp:** "+(pending.join(", ")||"Không"),
