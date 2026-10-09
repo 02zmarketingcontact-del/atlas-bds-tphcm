@@ -157,7 +157,7 @@ function renderUniverseSidebar(){
  }
  if(matches.length>10){const more=node("a","archiveMore","Xem đủ "+matches.length+" hồ sơ ↗");more.href="./secondary-catalog.html?q="+encodeURIComponent($("search").value.trim());root.append(more)}
 }
-function render(){if(!projects.length)return;const items=filtered();setText("projectCount",String(items.length));setText("verifiedCount",String(items.filter(x=>x.coordVerified).length));renderList(items);renderMarkers(items);renderUniverseSidebar()}
+function render(){if(!projects.length)return;const items=filtered();setText("projectCount",String(items.length + ((!$("verifiedOnly").checked && !$("minPrice").value && !$("maxPrice").value && $("zone").value==="all" && $("status").value==="all") ? candidateLocationPins.filter(p=>!$("search").value.trim()||[p.name,p.address,p.developer].join(" ").toLocaleLowerCase().includes($("search").value.toLocaleLowerCase().trim())).length : 0)));setText("verifiedCount",String(items.filter(x=>x.coordVerified).length));renderList(items);renderMarkers(items);renderUniverseSidebar()}
 function detailRow(parent,key,value){const row=node("div","detailRow");row.append(node("span","",key),node("span","",value));parent.append(row)}
 function appendProjectDossier(el,p){
  const d=dossierById.get("map-"+p.id);if(!d)return;
