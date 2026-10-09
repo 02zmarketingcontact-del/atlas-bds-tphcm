@@ -37,7 +37,7 @@
   <a class="logo" href="./map-v4.html" aria-label="Atlas V4"><span class="mark">A<span>.</span></span><span><b>ATLAS</b><small>Vietnam Apartment Intelligence</small></span></a>
   <nav aria-label="Điều hướng">
     <a href="./review.html" id="navReview">Tổng quan V1</a><a class="active" href="./map-v4.html" id="navMap">Bản đồ</a>
-    <a href="./history.html" id="navHistory">Dữ liệu 15 năm</a>
+    <a href="./history.html" id="navHistory">Dữ liệu 20 năm</a><a href="./market.html" id="navResearch">Nghiên cứu ↗</a>
     <a href="./index.html" id="navLegacy">Phiên bản V3.2</a>
   </nav>
   <div class="top-actions"><span class="beta">V4 PREVIEW</span><select id="language" aria-label="Ngôn ngữ"><option value="vi">Tiếng Việt</option><option value="en">English</option><option value="zh-CN">简体中文</option><option value="zh-TW">繁體中文</option><option value="ko">한국어</option><option value="ru">Русский</option></select><button id="mobileSidebar" class="mobileOnly" aria-label="Mở bộ lọc">☰</button></div>
@@ -52,7 +52,14 @@
     <div class="filterGrid"><div><label for="minPrice" id="minPriceLabel">Giá từ (triệu/m²)</label><input id="minPrice" type="number" min="0" step="1" placeholder="0"></div><div><label for="maxPrice" id="maxPriceLabel">Đến (triệu/m²)</label><input id="maxPrice" type="number" min="0" step="1" placeholder="Không giới hạn"></div></div>
     <label class="check"><input type="checkbox" id="verifiedOnly"><span id="verifiedOnlyLabel">Chỉ vị trí đã đối chiếu</span></label>
     <label class="check"><input type="checkbox" id="labelsEnabled" checked><span id="labelsEnabledLabel">Hiển thị ô giá trên bản đồ</span></label>
-    <div class="modeRow"><span class="active" id="sellMode">Mua bán</span><span class="inactive" id="rentMode" title="Chưa có feed giá thuê đã kiểm chứng">Cho thuê · Đang xây dữ liệu</span></div>
+    <label class="inputLabel marketLabel">Phân loại thị trường · dữ liệu tham khảo</label>
+    <div class="marketSwitch" role="group" aria-label="Chọn phân khúc sơ cấp thứ cấp hoặc cho thuê">
+      <button id="modeAll" class="active" type="button" data-market="all">Tất cả</button>
+      <button id="modePrimary" type="button" data-market="primary">Sơ cấp</button>
+      <button id="modeSecondary" type="button" data-market="secondary">Thứ cấp</button>
+      <button id="modeRental" type="button" data-market="rental">Cho thuê</button>
+    </div>
+    <p id="marketNote" class="marketNote">Giá trên bản đồ là giá chào tổng hợp chưa được phân nguồn.</p>
     <div class="listTitle"><b id="resultsTitle">Dự án phù hợp</b><button type="button" id="fitResults">Xem tất cả trên bản đồ ↗</button></div>
     <div class="projectList" id="projectList"><p class="muted">Đang tải dữ liệu...</p></div>
     <div class="sideFoot"><a href="https://www.openstreetmap.org" target="_blank" rel="noopener noreferrer" id="externalMap">Mở bản đồ OpenStreetMap ↗</a><p id="dataCaution">Giá hiển thị là giá chào tham khảo, KHÔNG phải giá giao dịch.</p></div>
@@ -75,6 +82,15 @@
           <option value="other">Chưa vận hành</option>
         </select>
         <div class="transitList" id="transitList" aria-live="polite"><small>Đang tải nguồn giao thông...</small></div>
+      </details>
+      <details class="urbanRisks" id="rainyRiskPanel">
+        <summary>🌧 Ngập nước · kẹt xe mùa mưa</summary>
+        <label class="check"><input type="checkbox" id="floodRiskToggle"><span>Bật lớp ngập có GIS (nếu có)</span></label>
+        <label class="check"><input type="checkbox" id="trafficRiskToggle"><span>Bật lớp sự cố giao thông có GIS (nếu có)</span></label>
+        <div id="rainRiskSources" class="rainRiskSources">Đang tải nguồn ngập/giao thông...</div>
+        <label class="upload"><input id="floodRiskUpload" type="file" accept=".json,.geojson,application/json,application/geo+json"><span>+ Nạp GeoJSON ngập tham khảo</span></label>
+        <label class="upload"><input id="trafficRiskUpload" type="file" accept=".json,.geojson,application/json,application/geo+json"><span>+ Nạp GeoJSON giao thông tham khảo</span></label>
+        <small id="riskNote">Chưa có vùng ngập hoặc tốc độ kẹt xe chính thức tích hợp. File tự nạp chỉ hiện trong trình duyệt, chưa xác minh.</small>
       </details>
       <label class="check"><input id="planningToggle" type="checkbox"><span id="planningLabel">Quy hoạch GIS</span></label>
       <label class="upload"><input id="planningUpload" type="file" accept=".geojson,.json,application/geo+json,application/json"><span id="uploadPlanningLabel">+ Nạp lớp GeoJSON của bạn</span></label>
