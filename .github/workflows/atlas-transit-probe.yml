@@ -1,9 +1,5 @@
 name: ATLAS OSM transit candidate probe
 on:
-  pull_request:
-    paths:
-      - 'scripts/fetch-transit-osm.cjs'
-      - '.github/workflows/atlas-transit-probe.yml'
   workflow_dispatch:
 permissions:
   contents: read
