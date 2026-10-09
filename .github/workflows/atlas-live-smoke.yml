@@ -17,7 +17,7 @@ jobs:
           node-version: '22'
       - name: Install headless Chromium smoke runner
         run: |
-          npm install --no-save playwright@1.56.1
+          npm install --no-save playwright@1.56.0
           npx playwright install --with-deps chromium
       - name: Validate live V1 Pages site
         env:
