@@ -14,6 +14,13 @@
     "https://unpkg.com/maplibre-gl@6.13.0/dist/maplibre-gl.mjs",
     "https://cdn.jsdelivr.net/npm/maplibre-gl@6.13.0/dist/maplibre-gl.mjs"
   ];
+  // Start project search immediately. Basemap libraries can load in parallel or fail.
+  const researchPromise = import("./assets/atlas-v4.js")
+    .then(() => true)
+    .catch(error => {
+      console.error("QiMap research interface unavailable:", error);
+      return false;
+    });
   let mapReady = false;
   for (const url of providers) {
     try {
@@ -24,16 +31,10 @@
       console.warn("QiMap map library provider unavailable:", new URL(url).host, error);
     }
   }
-
-  let researchReady = false;
-  try {
-    // This script handles project search independently of MapLibre.
-    await import("./assets/atlas-v4.js");
-    researchReady = true;
-  } catch (error) {
-    console.error("QiMap research interface unavailable:", error);
+  const researchReady = await researchPromise;
+  if (mapReady && researchReady) {
+    mapReady = window.QiMapMapBootstrap?.start?.() === true;
   }
-
   if (!mapReady || !researchReady) {
     const showGracefulFailure = () => {
       const notice = document.getElementById("mapNotice");
