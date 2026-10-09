@@ -9,6 +9,8 @@ async function run(){
  const browser=await chromium.launch({headless:true,args:["--no-sandbox","--disable-dev-shm-usage","--use-angle=swiftshader-webgl","--enable-unsafe-swiftshader"]});
  try{
   const desktop=await browser.newPage({viewport:{width:1440,height:900},deviceScaleFactor:1,locale:"vi-VN"});
+  let tileResponses=0;
+  desktop.on("response",r=>{try{const h=new URL(r.url()).hostname;if(/openfreemap|openstreetmap|arcgisonline/i.test(h)&&r.status()===200)tileResponses++}catch{}});
   desktop.on("pageerror",err=>{console.warn("BROWSER PAGE ERROR:",err.message)});
   async function goto(page,path){
    const res=await page.goto(site+path,{waitUntil:"domcontentloaded",timeout:45000});
@@ -26,6 +28,8 @@ async function run(){
    assert(cards===8,"Initial project cards expected 8, saw "+cards);
    assert((await desktop.locator("#kpiVerified").textContent()).trim()==="3","coord verification flag KPI");
    assert((await desktop.locator("#kpiPrice").textContent()).trim()==="0","price verification flag KPI");
+   await desktop.frameLocator("#mapPreview").locator(".projectMarker,.projectCluster").first().waitFor({timeout:30000});
+   await desktop.waitForTimeout(2700);
    await desktop.screenshot({path:dir+"/v1-desktop.png",fullPage:true});
    log("V1 overview","PASS","Projects "+kpi+" · market bars "+bars+" · cards "+cards);
   }catch(e){failures.push("V1 overview: "+e.message);log("V1 overview","FAIL",e.message)}
@@ -42,11 +46,13 @@ async function run(){
   try{
    await goto(desktop,"map-v4.html");
    await desktop.waitForFunction(()=>document.querySelector("#projectCount")?.textContent?.trim()==="32",{timeout:30000});
-   await desktop.waitForSelector(".projectMarker",{timeout:30000});
-   const markerCount=await desktop.locator(".projectMarker").count();
+   await desktop.waitForSelector(".projectMarker,.projectCluster",{timeout:30000});
+   const markerCount=await desktop.locator(".projectMarker,.projectCluster").count();
    const canvasCount=await desktop.locator("#map canvas").count();
    assert(canvasCount>=1,"MapLibre canvas not present");
    assert(markerCount>=1,"Project markers absent (map style may not load)");
+   await desktop.waitForTimeout(3200);
+   assert(tileResponses>=1,"No successful map-tile HTTP response was observed");
    await desktop.screenshot({path:dir+"/v1-map.png",fullPage:false});
    log("Interactive map","PASS",markerCount+" project markers on visible map; canvas "+canvasCount);
   }catch(e){failures.push("Interactive map: "+e.message);log("Interactive map","FAIL",e.message)}
