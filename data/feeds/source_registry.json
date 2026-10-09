@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-09",
+  "publicDataset": "none",
+  "policy": "Only ingest provider-authorized feeds. This registry is intentionally empty until permission is documented.",
+  "feeds": [],
+  "supportedMarkets": [
+    "sale",
+    "rent"
+  ],
+  "priceHistoryRequired": true,
+  "automaticPublishing": false
+}
