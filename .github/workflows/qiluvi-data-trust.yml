@@ -24,7 +24,9 @@ jobs:
       - name: Script syntax
         run: node --check scripts/audit-qiluvi-data.cjs
       - name: Audit legacy data (read only)
-        run: node scripts/audit-qiluvi-data.cjs --check --json | tee qiluvi-data-audit.json
+        run: |
+          set -o pipefail
+          node scripts/audit-qiluvi-data.cjs --check --json | tee qiluvi-data-audit.json
       - name: Archive audit report
         if: always()
         uses: actions/upload-artifact@v4
