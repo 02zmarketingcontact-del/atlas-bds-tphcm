@@ -1,0 +1,32 @@
+name: QiMap secondary housing catalogue QA
+on:
+  pull_request:
+    paths:
+      - 'secondary-catalog.html'
+      - 'data/apartment_project_expansion_2006_2026.json'
+      - 'data/geographic_audit_grid_2026.json'
+      - 'assets/qimap-secondary.js'
+      - 'scripts/validate-qimap-secondary.cjs'
+      - '.github/workflows/qimap-secondary-qa.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'secondary-catalog.html'
+      - 'data/apartment_project_expansion_2006_2026.json'
+      - 'data/geographic_audit_grid_2026.json'
+      - 'scripts/validate-qimap-secondary.cjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify sourced 2006-2026 apartment research candidates
+        run: node scripts/validate-qimap-secondary.cjs
+      - name: Verify QiMap archive client syntax
+        run: node --check assets/qimap-secondary.js
