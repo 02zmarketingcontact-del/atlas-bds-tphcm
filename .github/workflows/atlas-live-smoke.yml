@@ -1,0 +1,33 @@
+name: ATLAS live browser smoke
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install headless Chromium smoke runner
+        run: |
+          npm install --no-save playwright@1.56.0
+          npx playwright install --with-deps chromium
+      - name: Validate live V1 Pages site
+        env:
+          ATLAS_SITE: https://02zmarketingcontact-del.github.io/atlas-bds-tphcm/
+        run: node scripts/live-smoke.cjs
+      - name: Upload screenshots and failure report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-v1-browser-review
+          path: artifacts/
+          if-no-files-found: warn
+          retention-days: 3
