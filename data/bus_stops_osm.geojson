@@ -1,0 +1,14 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "bus_stops_osm.geojson",
+    "source": "OpenStreetMap contributors",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "license": "ODbL",
+    "attribution": "© OpenStreetMap contributors",
+    "status": "awaiting_osm_snapshot_review",
+    "approved_for_public_display": false,
+    "record_count": 0
+  },
+  "features": []
+}
