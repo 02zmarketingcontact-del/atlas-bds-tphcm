@@ -164,7 +164,8 @@
       "name": "The Prive",
       "aliases": [
         "The Privé",
-        "Gem Riverside"
+        "Gem Riverside",
+        "Datxanhhomes Riverside"
       ],
       "map_project_id": "prive",
       "project_group": null,
@@ -391,6 +392,42 @@
           "source_role": "project_developer_or_corporate_reported",
           "review_status": "publisher_claim_requires_document_review",
           "note": "Developer forecast, not completed handover."
+        },
+        {
+          "field": "regular_residential_apartments",
+          "value": 1968,
+          "unit": "apartments",
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-64",
+          "source_role": "developer_hosted_publication",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "penthouses",
+          "value": 12,
+          "unit": "penthouses",
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-64",
+          "source_role": "developer_hosted_publication",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "commercial_shop_units",
+          "value": 52,
+          "unit": "shops",
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-64",
+          "source_role": "developer_hosted_publication",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "commercial_shophouses",
+          "value": 20,
+          "unit": "shophouses",
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-64",
+          "source_role": "developer_hosted_publication",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
         }
       ],
       "source_references": [
@@ -411,6 +448,12 @@
           "role": "dated_developer_publication",
           "status": "attributed_publisher",
           "checked_at": "2026-10-09"
+        },
+        {
+          "url": "https://gamudaland.com.vn/vn/news/news-and-story-64",
+          "role": "developer_hosted_press_report",
+          "status": "attributed_publisher",
+          "checked_at": "2026-10-09"
         }
       ],
       "coverage": {
@@ -418,7 +461,7 @@
         "developer_brand": "evidence_or_claim_recorded",
         "source_reference": "evidence_or_claim_recorded",
         "site_area": "evidence_or_claim_recorded",
-        "residential_units": "missing_or_unverified",
+        "residential_units": "evidence_or_claim_recorded",
         "tower_count": "evidence_or_claim_recorded",
         "handover_year": "missing_or_unverified",
         "legal_owner": "missing_or_unverified",
@@ -1452,7 +1495,53 @@
       "foreign_capital": "not_verified_separately",
       "position_status": "not_independently_verified",
       "pricing_status": "unverified_asking_or_missing",
-      "specifications": [],
+      "specifications": [
+        {
+          "field": "project_land_area_ha",
+          "value": 7.9,
+          "unit": "ha",
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-37",
+          "source_role": "developer_hosted_publication",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "reported_tower_count",
+          "value": 6,
+          "unit": "towers",
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-37",
+          "source_role": "developer_hosted_publication",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "residential_apartments_exceed",
+          "value": 1200,
+          "unit": "apartments_lower_bound_exclusive",
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-37",
+          "source_role": "developer_hosted_publication",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Publisher says over 1,200; this is not an exact count."
+        },
+        {
+          "field": "commercial_units",
+          "value": 30,
+          "unit": "units",
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-37",
+          "source_role": "developer_hosted_publication",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "planned_project_introduction_window",
+          "value": "2026-Q4",
+          "unit": "quarter",
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-37",
+          "source_role": "developer_hosted_publication",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Publisher forecast as of 2026-06-08; not confirmation of a completed launch."
+        }
+      ],
       "source_references": [
         {
           "url": "https://norton.com.vn/gia-ban-norton-park-66-trieu-m2-va-3-phuong-an-thanh-toan/",
@@ -1473,7 +1562,7 @@
         "source_reference": "evidence_or_claim_recorded",
         "site_area": "missing_or_unverified",
         "residential_units": "missing_or_unverified",
-        "tower_count": "missing_or_unverified",
+        "tower_count": "evidence_or_claim_recorded",
         "handover_year": "missing_or_unverified",
         "legal_owner": "missing_or_unverified",
         "foreign_buyer_eligibility": "missing_or_unverified",
@@ -1902,6 +1991,69 @@
           "source_role": "project_developer_or_corporate_reported",
           "review_status": "publisher_claim_requires_document_review",
           "note": null
+        },
+        {
+          "field": "development_land_area_ha",
+          "value": 2.8,
+          "unit": "ha",
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-34",
+          "source_role": "developer_hosted_publication",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "tower_count",
+          "value": 4,
+          "unit": "towers",
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-34",
+          "source_role": "developer_hosted_publication",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "reported_tower_storeys",
+          "value": 21,
+          "unit": "floors",
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-34",
+          "source_role": "developer_hosted_publication",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Storey convention can vary between brochures; review before merging with floor plans."
+        },
+        {
+          "field": "residential_apartments",
+          "value": 1398,
+          "unit": "apartments",
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-34",
+          "source_role": "developer_hosted_publication",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "shophouses",
+          "value": 8,
+          "unit": "shophouses",
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-34",
+          "source_role": "developer_hosted_publication",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "sales_launch_date_reported",
+          "value": "2025-07-27",
+          "unit": "ISO_date",
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-34",
+          "source_role": "developer_hosted_publication",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Developer-hosted republication of press dated 2025-07-30; distinct from initial HĐMB date."
+        },
+        {
+          "field": "handover_year_planned",
+          "value": 2027,
+          "unit": "year",
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-28",
+          "source_role": "developer_hosted_publication",
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Planning forecast, NOT actual handover."
         }
       ],
       "source_references": [
@@ -1916,6 +2068,18 @@
           "role": "initial_map_listing_unverified",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://gamudaland.com.vn/vn/news/news-and-story-34",
+          "role": "developer_hosted_press_report",
+          "status": "attributed_publisher",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "url": "https://gamudaland.com.vn/vn/news/news-and-story-28",
+          "role": "developer_hosted_press_report",
+          "status": "attributed_publisher",
+          "checked_at": "2026-10-09"
         }
       ],
       "coverage": {
@@ -1923,8 +2087,8 @@
         "developer_brand": "evidence_or_claim_recorded",
         "source_reference": "evidence_or_claim_recorded",
         "site_area": "missing_or_unverified",
-        "residential_units": "missing_or_unverified",
-        "tower_count": "missing_or_unverified",
+        "residential_units": "evidence_or_claim_recorded",
+        "tower_count": "evidence_or_claim_recorded",
         "handover_year": "missing_or_unverified",
         "legal_owner": "missing_or_unverified",
         "foreign_buyer_eligibility": "missing_or_unverified",
