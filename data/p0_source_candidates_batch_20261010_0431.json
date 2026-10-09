@@ -1,0 +1,38 @@
+{
+  "batch_id": "qimap-20261010-0431",
+  "checked_at": "2026-10-10T04:31:09+07:00",
+  "review_only": true,
+  "dossiers": [
+    {
+      "id": "hist-rivergateresidence",
+      "state": "conflicted",
+      "note": "Official issuer page states 9600 m2, 2017 bond disclosure p51 states 7069 m2. Preserve both; no resolved site area.",
+      "url": "https://www.novaland.com.vn/tong-quan-19"
+    },
+    {
+      "id": "hist-sunrisecity",
+      "state": "researched",
+      "note": "South Towers first handover July 2012; Central topping out May 2014 and December 2014 target were phase-specific.",
+      "url": "https://www.novaland.com.vn/sunrise-city-du-an-gan-lien-voi-chu-tin"
+    },
+    {
+      "id": "hist-lexingtonresidence",
+      "state": "researched",
+      "note": "Official website 21356 m2 and about 1310 apartments; basement started 21 April 2014.",
+      "url": "https://www.novaland.com.vn/lexington-residence/tong-quan-31"
+    },
+    {
+      "id": "hist-tropicgarden",
+      "state": "researched",
+      "note": "First C1 unit handed over 17 March 2014. A1 A2 groundbreaking 21 July 2014, C2 June 2015 only a forecast.",
+      "url": "https://www.novaland.com.vn/du-an-tropic-garden-thao-dien-q2-giao-nha-som-cho-khach-hang"
+    },
+    {
+      "id": "hist-theprinceresidence",
+      "state": "researched",
+      "note": "Official page records over 280 apartments; Jul 2018 residents meeting is not first handover.",
+      "url": "https://www.novaland.com.vn/the-prince-residence/tong-quan-15"
+    }
+  ],
+  "next_index": 51
+}
