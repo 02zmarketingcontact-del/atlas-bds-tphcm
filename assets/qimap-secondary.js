@@ -91,6 +91,7 @@ async function init(){
   for(const d of developers){const opt=node("option",d);opt.value=d;$("developer").append(opt)}
   for(const name of ["query","life","region","developer","mappedOnly"])$(name).addEventListener(name==="query"?"input":"change",()=>draw());
   $("more").onclick=()=>draw(false);$("downloadCsv").onclick=csv;
+  const requested=new URLSearchParams(location.search).get("q");if(requested)$("query").value=requested.slice(0,160);
   areas(audit.audit_cells||[]);draw();
  }catch(err){console.error("QiMap Secondary Catalogue:",err);$("shownCount").textContent="Lỗi tải danh mục";$("cards").replaceChildren(node("p","Không tải được kho dự án: "+err.message))}
 }
