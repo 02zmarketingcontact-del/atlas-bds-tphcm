@@ -128,6 +128,18 @@
         "Residential index Q1/2017"
       ],
       "bulk_copy": false
+    },
+    {
+      "id": "savills-sppi-2012q4-press",
+      "name": "Savills SPPI HCMC Q4/2012, reported by VietnamPlus 26 Feb 2013",
+      "organization": "Savills Vietnam (quoted in VietnamPlus)",
+      "url": "https://www.vietnamplus.vn/chi-so-gia-bat-dong-san-o-2-thanh-pho-lon-deu-giam-post188920.vnp",
+      "rights_status": "citation_short_factual_figures",
+      "data_scope": [
+        "Residential SPPI Q4/2012 89.6 index points"
+      ],
+      "bulk_copy": false,
+      "notes": "Secondary contemporaneous press account of Savills; direct original issuer PDF is preferred if available."
     }
   ]
 }

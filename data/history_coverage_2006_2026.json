@@ -111,10 +111,12 @@
     },
     {
       "year": 2012,
-      "review_status": "source_collection",
+      "review_status": "partial_source_observations",
       "complete": false,
-      "observations_approved": 0,
-      "available_metrics": [],
+      "observations_approved": 1,
+      "available_metrics": [
+        "residential_price_index"
+      ],
       "manual_review_required": true
     },
     {
