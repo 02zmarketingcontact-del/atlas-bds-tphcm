@@ -11,7 +11,7 @@ operating_referenced_by_historic_rental_market:{label:"Báo cáo thị trường
 platform_directory_candidate_only:{label:"Đầu mối tra cứu, chưa xác minh",className:"",group:"candidate"},
 platform_reports_handed_over_unverified:{label:"Tin bên thứ ba báo bàn giao",className:"",group:"candidate"},
 map_existing_unverified_status:{label:"Bản đồ hiện có",className:"",group:"historical"}};
-let full=[],filtered=[],count=0,sourceCount=0,locations=47;
+let full=[],filtered=[],count=0,sourceCount=0,locations=47,dossierById=new Map();
 function base(p){return{research_id:"map-"+p.id,name:p.name,aliases:[],regional_scope:p.zone==="bd"?"Binh_Duong_pre_2025":p.zone==="brvt"?"Ba_Ria_Vung_Tau_pre_2025":p.zone==="edge"?"Long_An_pre_2025":"HCMC_old_boundary",developer_or_publication_group:p.developer||"Chưa xác minh",lifecycle_status:"map_existing_unverified_status",handover_year:null,parent_project_id:null,evidence_source:{url:p.source||null},map_project_id:p.id,source_origin:"existing_map",historical_secondary_priority:"P1"}}
 function combine(seed,mapped){
 const list=[],index=new Map();
@@ -47,6 +47,22 @@ function projectCard(p){
  if(p.map_project_id){const a=node("a","Mở bản đồ ↗");a.href="./map-v4.html?p="+encodeURIComponent(p.map_project_id);links.append(a)}
  else links.append(node("span","Chưa có tọa độ dự án đã kiểm chứng","disabled"));
  card.append(links);
+ const lookup=p.map_project_id?"map-"+p.map_project_id:p.research_id;
+ const d=dossierById.get(lookup);
+ if(d){
+  const section=node("details",undefined,"dossierMini");
+  const n=Object.values(d.coverage||{}).filter(s=>s==="evidence_or_claim_recorded").length;
+  section.append(node("summary","Hồ sơ thông tin · "+n+"/12 nhóm có ghi nhận"));
+  if(d.specifications?.length){
+   for(const fact of d.specifications){
+    const line=node("p",fact.field.replaceAll("_"," ")+": "+fact.value+" "+(fact.unit||""),"fact");
+    section.append(line);
+    if(allowedURL(fact.source_url)){const link=node("a","Đối chiếu nguồn ↗");link.href=fact.source_url;link.target="_blank";link.rel="noopener noreferrer";section.append(link)}
+   }
+  }else section.append(node("p","Các thông số quy mô, pháp lý, giá và tiến độ đang được đối chiếu nguồn.","fact"));
+  section.append(node("p","Điều kiện mua dành cho người nước ngoài chưa xác minh độc lập.","fact"));
+  card.append(section);
+ }
  return card;
 }
 function draw(reset=true){
@@ -80,7 +96,8 @@ function csv(){
 async function load(path){const r=await fetch(new URL(path,document.baseURI),{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status+" "+path);return r.json()}
 async function init(){
  try{
-  const [newData,existing,audit]=await Promise.all([load("data/apartment_project_expansion_2006_2026.json"),load("data/projects.json"),load("data/geographic_audit_grid_2026.json")]);
+  const [newData,existing,audit,dossiers]=await Promise.all([load("data/apartment_project_expansion_2006_2026.json"),load("data/projects.json"),load("data/geographic_audit_grid_2026.json"),load("data/project_dossiers_v1.json")]);
+  dossierById=new Map(dossiers.records.map(x=>[x.id,x]));
   if(!Array.isArray(newData.projects)||!Array.isArray(existing))throw Error("Cấu trúc dữ liệu chưa hợp lệ.");
   full=combine(newData.projects,existing);
   $("countSeed").textContent=String(newData.projects.length);
