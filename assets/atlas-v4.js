@@ -79,7 +79,7 @@ function renderList(items){const el=$("projectList");el.replaceChildren();
  b.append(node("div","name",p.name),node("div","sub","Tọa độ nghiên cứu · chưa xác minh"),node("div","price","Giá chưa xác minh"));
  b.onclick=()=>openResearchPin(p);el.append(b)
  }
- }if(!items.length){el.append(node("p","muted",tr("noResults")));return}for(const p of items){const b=node("button","projectCard");b.type="button";b.append(node("div","name",p.name),node("div","sub",(zones[p.zone]||p.zoneNew||"TP.HCM")+" · "+(p.coordVerified?tr("locationVerified"):tr("locationEstimated"))),node("div","price",band(p)));b.append(node("span","tag"+(p.coordVerified?" verified":""),p.priceVerified?"Đã xác minh giá":tr("priceRef")));b.addEventListener("click",()=>openProject(p));el.append(b)}}
+ }if(!items.length){if(!el.childElementCount)el.append(node("p","muted",tr("noResults")));return}for(const p of items){const b=node("button","projectCard");b.type="button";b.append(node("div","name",p.name),node("div","sub",(zones[p.zone]||p.zoneNew||"TP.HCM")+" · "+(p.coordVerified?tr("locationVerified"):tr("locationEstimated"))),node("div","price",band(p)));b.append(node("span","tag"+(p.coordVerified?" verified":""),p.priceVerified?"Đã xác minh giá":tr("priceRef")));b.addEventListener("click",()=>openProject(p));el.append(b)}}
 function clearMarkers(){markers.forEach(m=>m.remove());markers=[]}
 function renderMarkers(items){
  if(!map||!interactive)return;clearMarkers();
