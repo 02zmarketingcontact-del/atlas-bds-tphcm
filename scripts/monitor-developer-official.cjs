@@ -22,26 +22,31 @@ function inspect(html,entries){
 }
 
 function stageFactCandidates(html,entries,url){
- // These are source-reported candidates, not verified project facts.
- // Only project-specific publisher pages qualify; generic corporate homepages do not.
+ // Unverified candidates only: a developer page can discuss unrelated or historic quantities.
+ // Keep original figures and explicit units; never publish as an approved project claim.
  const body=toText(html),out=[];
  const specs=[
-  ["land_area_hectare",/(?:tong dien tich|dien tich khu dat|dien tich dat|quy mo)[^0-9]{0,44}(\d{1,4}(?:[.,]\d{1,4})?)\s*(ha|hecta)\b/g],
-  ["land_area_m2",/(?:tong dien tich|dien tich khu dat|quy mo)[^0-9]{0,44}(\d{1,3}(?:[.,]\d{3})*|\d{4,7})\s*(m2|m²)\b/g],
-  ["tower_count",/(\d{1,2})\s*(toa thap|toa nha|block)\b/g],
-  ["apartment_count",/(\d{1,3}(?:[.,]\d{3})+|\d{4,6})\s*can ho\b/g],
-  ["handover_year",/(?:du kien ban giao|ban giao)[^0-9]{0,50}(20\d{2})\b/g]
+  {field:"land_area_hectare",unit:"ha",pattern:/(?:tong dien tich|dien tich khu dat|dien tich dat|quy mo)[^0-9]{0,44}(\d{1,4}(?:[.,]\d{1,4})?)\s*(?:ha|hecta)\b/g},
+  {field:"land_area_m2",unit:"m²",pattern:/(?:tong dien tich|dien tich khu dat|quy mo)[^0-9]{0,44}(\d{1,3}(?:[.,]\d{3})*|\d{4,7})\s*(?:m2|m²)\b/g},
+  {field:"tower_count",unit:"tháp",pattern:/(\d{1,2})\s*(?:toa thap|toa nha|block)\b/g},
+  {field:"apartment_count",unit:"căn hộ",pattern:/(\d{1,3}(?:[.,]\d{3})+|\d{4,6})\s*can ho\b/g},
+  {field:"handover_year",unit:"năm",pattern:/(?:du kien ban giao|ban giao)[^0-9]{0,50}(20\d{2})\b/g}
  ];
  for(const project of entries){
   if(project.source.role==="developer_portfolio")continue;
   const term=project.match_terms.map(normalize).filter(x=>x.length>4).find(x=>body.includes(x));
   if(!term)continue;
   const at=body.indexOf(term),focus=body.slice(Math.max(0,at-80),Math.min(body.length,at+9000));
-  for(const [field,pattern] of specs){
-   pattern.lastIndex=0;let match,count=0;
-   while((match=pattern.exec(focus))!==null&&count<2){
-    out.push({project_id:project.project_id,field,raw_candidate:String(match[1]).slice(0,24),reported_unit:String(match[2]||"year").slice(0,12),source_url:url,status:"UNVERIFIED_REVIEW_REQUIRED",evidence_method:"limited_public_official_page_regex",observed_at:now()});count++;
+  for(const {field,unit,pattern} of specs){
+   pattern.lastIndex=0;let match;const distinct=new Set();
+   while((match=pattern.exec(focus))!==null&&distinct.size<2){
+    const raw=String(match[1]).slice(0,24);
+    const key=raw.replace(/\s/g,"");
+    if(distinct.has(key))continue;
+    distinct.add(key);
+    out.push({project_id:project.project_id,field,raw_candidate:raw,reported_unit:unit,source_url:url,status:"UNVERIFIED_REVIEW_REQUIRED",evidence_method:"limited_public_official_page_regex",observed_at:now()});
    }
+   if(distinct.size>1)for(const row of out.filter(x=>x.project_id===project.project_id&&x.field===field))row.possible_multiple_values_on_page=true;
   }
  }
  return out.slice(0,25);
@@ -93,7 +98,11 @@ function selfTest(){
  assert.equal(robotsAllowed("User-agent: *\nDisallow: /private\nAllow: /private/public\n","/private/public/doc"),true);
  const p=[{project_id:"eaton",match_terms:["Eaton Park"],source:{role:"developer_project"}}];
  const a=inspect("<h1>Eaton Park</h1><div>Diện tích 3.7 hecta, 1968 căn hộ</div>",p),b=inspect("<h1>Eaton Park</h1><div>Diện tích 4.2 hecta, 1968 căn hộ</div>",p);
- assert(a.digest&&a.digest!==b.digest);const staged=stageFactCandidates("<h1>Eaton Park</h1><p>Tong dien tich 3.7 ha. 6 toa thap. 1980 can ho.</p>",p,"https://www.gamudaland.com.vn/vn/developments/township/eaton-park");assert(staged.length>=2,"Expected factual candidate stage");assert.equal(allowedURL("https://evil.example.org"),null);assert.equal(allowedURL("http://vinhomes.vn"),null);
+ assert(a.digest&&a.digest!==b.digest);const staged=stageFactCandidates("<h1>Eaton Park</h1><p>Tong dien tich 3.7 ha. 6 toa thap. 1980 can ho.</p>",p,"https://www.gamudaland.com.vn/vn/developments/township/eaton-park");assert(staged.length>=2,"Expected factual candidate stage");
+ assert(staged.find(x=>x.field==="apartment_count")?.reported_unit==="căn hộ","Apartment counts require explicit correct unit");
+ assert(staged.find(x=>x.field==="tower_count")?.reported_unit==="tháp","Tower count unit missing");
+ const repeated=stageFactCandidates("<h1>Eaton Park</h1><p>6 toa thap, 6 toa thap, 6 toa thap</p>",p,"https://www.gamudaland.com.vn/vn/developments/township/eaton-park");
+ assert(repeated.filter(x=>x.field==="tower_count").length===1,"Duplicate values on publisher page must be deduped");assert.equal(allowedURL("https://evil.example.org"),null);assert.equal(allowedURL("http://vinhomes.vn"),null);
  console.log("ATLAS WATCH SELF-TEST PASS: 32 projects; verified-source filtering, robots rules and change hashing");
 }
 async function run(){
