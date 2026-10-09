@@ -36,3 +36,7 @@ html.embedded .topbar,html.embedded .sidebar,html.embedded .mapTools{display:non
 /* Developer-first evidence status and source audit in project detail */
 .officialSourceLink{display:block;font-size:11px;font-weight:800;color:#2f7093;padding:5px 0;overflow-wrap:anywhere}
 .officialSourceWarning{font-size:11px;line-height:1.6;background:#fff4e5;color:#86612c;padding:10px 12px;border-radius:7px;margin:8px 0}
+
+
+/* Honest price-sync disclosure in the sidebar; price source monitoring is distinct from corporate-site monitoring. */
+.sideFoot .priceFeedStatus{border-top:1px solid #e5e9eb;margin:8px 0 0;padding-top:8px;color:#5b6670;font-size:10px;line-height:1.55}

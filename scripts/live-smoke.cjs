@@ -28,6 +28,8 @@ async function run(){
    assert(cards===8,"Initial project cards expected 8, saw "+cards);
    assert((await desktop.locator("#kpiVerified").textContent()).trim()==="3","coord verification flag KPI");
    assert((await desktop.locator("#kpiPrice").textContent()).trim()==="0","price verification flag KPI");
+   await desktop.waitForFunction(()=>document.querySelector("#priceFeedStatus")?.textContent.includes("Chưa kết nối nguồn giá"),{timeout:25000});
+   assert((await desktop.locator("#priceFeedChange").textContent()).includes("Chưa có"),"Home page must not fabricate last price update date");
    await desktop.frameLocator("#mapPreview").locator(".projectMarker,.projectCluster").first().waitFor({timeout:30000});
    await desktop.waitForTimeout(2700);
    await desktop.screenshot({path:dir+"/v1-desktop.png",fullPage:true});
@@ -91,6 +93,7 @@ async function run(){
    assert(markerCount>=1,"Project markers absent (map style may not load)");
    await desktop.waitForTimeout(3200);
    assert(tileResponses>=1,"No successful map-tile HTTP response was observed");
+   await desktop.waitForFunction(()=>document.querySelector("#priceFeedStatus")?.textContent.includes("chưa kết nối"),{timeout:25000});
    await desktop.screenshot({path:dir+"/v1-map.png",fullPage:false});
    log("Interactive map","PASS",markerCount+" project markers on visible map; canvas "+canvasCount);
   }catch(e){failures.push("Interactive map: "+e.message);log("Interactive map","FAIL",e.message)}

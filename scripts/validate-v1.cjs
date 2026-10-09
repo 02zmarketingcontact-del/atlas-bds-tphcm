@@ -32,6 +32,12 @@ test(map.includes("cdn.jsdelivr.net/npm/maplibre-gl@6.13.0"),"Missing independen
 test(map.includes("researchPromise = import(\"./assets/atlas-v4.js\")"),"Project search must bootstrap independently of CDN map");
 test(mapScript.includes("window.QiMapMapBootstrap"),"Delayed map start and no-map lookup fallback missing");
 test(mapScript.includes("function initializeMapSafely()"),"Map initialization exception must not break project search");
+test(review.includes('id="priceFeedStatus"')&&review.includes('id="priceFeedChange"'),"Review page must disclose source-check and price-change date separately");
+test(map.includes('id="priceFeedStatus"'),"Map sidebar lacks price source status");
+test(script.includes('fetchJSON("data/update_status.json")'),"Review must load live, source-scoped feed status");
+test(mapScript.includes('getJson("data/update_status.json")'),"Map must load live, source-scoped feed status");
+test(script.includes('priceFeedState.status==="not_configured"'),"Unknown price feed cannot appear as synced");
+test(mapScript.includes('state.status==="not_configured"'),"Map must disclose missing licensed price feed");
 test(script.includes("data/market_history_2006_2026.json"),"Review uses wrong historical file");
 test(history.includes("assets/atlas-history.js") || history.includes("data/market_history_2006_2026.json"),"Historical page must load the 20-year client");
 if(history.includes("assets/atlas-history.js")){
