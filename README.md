@@ -1,4 +1,6 @@
-# ATLAS V1 Review — 09/10/2026
+**Thương hiệu công khai:** QiMap là sản phẩm bản đồ và phân tích thuộc QILUVI. Các tệp kỹ thuật atlas-* và đường dẫn GitHub hiện tại được giữ để tương thích ngược, không phải tên sản phẩm hiển thị.
+
+# QiMap by QILUVI — Nền tảng dữ liệu bất động sản
 
 **Bắt đầu review tại:** https://02zmarketingcontact-del.github.io/atlas-bds-tphcm/review.html
 
