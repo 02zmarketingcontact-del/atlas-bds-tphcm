@@ -1,0 +1,88 @@
+name: ATLAS daily official developer source review
+on:
+  schedule:
+    - cron: '0 1 * * *' # ~08:00 Asia/Ho_Chi_Minh; GitHub schedule may be delayed
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/developer_official_registry.json'
+      - 'scripts/monitor-developer-official.cjs'
+      - '.github/workflows/atlas-developer-daily.yml'
+      - 'scripts/update-developer-watch-issue.cjs'
+  pull_request:
+    paths:
+      - 'data/developer_official_registry.json'
+      - 'scripts/monitor-developer-official.cjs'
+      - '.github/workflows/atlas-developer-daily.yml'
+      - 'scripts/update-developer-watch-issue.cjs'
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: atlas-official-developer-monitor
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check code syntax
+        run: |
+          node --check scripts/monitor-developer-official.cjs
+          node --check scripts/update-developer-watch-issue.cjs
+      - name: Verify 32 IDs, publisher allow-list, robots, data change tests
+        run: node scripts/monitor-developer-official.cjs --self-test
+  audit:
+    needs: validate
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Audit developer publisher pages, obey robots, stage evidence only
+        id: audit
+        continue-on-error: true
+        run: node scripts/monitor-developer-official.cjs
+      - name: Upload evidence and review queue
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-official-developer-daily-report
+          path: |
+            artifacts/developer-daily-audit.json
+            artifacts/developer-daily-audit.md
+          if-no-files-found: warn
+          retention-days: 21
+      - name: Persist source check timestamps and fingerprints (no material project fields)
+        if: steps.audit.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/developer_source_monitor_state.json
+          if git diff --cached --quiet; then
+            echo "Nothing to persist"
+          else
+            git commit -m "chore(data): update daily official developer source health and fingerprints [skip ci]"
+            git push origin HEAD:main
+          fi
+      - name: Refresh GitHub Daily Watch and notify on meaningful source changes
+        if: always()
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const refresh = require('./scripts/update-developer-watch-issue.cjs');
+            await refresh({ github, context, core });
+      - name: Report remote-audit failures after preserving artifacts
+        if: steps.audit.outcome != 'success'
+        run: |
+          echo "Source monitoring encountered a publisher/network or audit failure; view its artifact and issue."
+          exit 1
