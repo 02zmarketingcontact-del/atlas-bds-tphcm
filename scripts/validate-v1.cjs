@@ -28,6 +28,10 @@ test(map.includes('classList.add("embedded")'),"Map embedding mode script missin
 test(mapCss.includes("html.embedded .sidebar"),"Map embedding styles missing");
 test(map.includes('maplibre-gl@6.13.0'),"MapLibre CDN version unpinned/missing");
 test(map.includes("import("),"MapLibre module import missing");
+test(map.includes("cdn.jsdelivr.net/npm/maplibre-gl@6.13.0"),"Missing independent CDN fallback");
+test(map.includes("researchPromise = import(\"./assets/atlas-v4.js\")"),"Project search must bootstrap independently of CDN map");
+test(mapScript.includes("window.QiMapMapBootstrap"),"Delayed map start and no-map lookup fallback missing");
+test(mapScript.includes("function initializeMapSafely()"),"Map initialization exception must not break project search");
 test(script.includes("data/market_history_2006_2026.json"),"Review uses wrong historical file");
 test(history.includes("assets/atlas-history.js") || history.includes("data/market_history_2006_2026.json"),"Historical page must load the 20-year client");
 if(history.includes("assets/atlas-history.js")){
