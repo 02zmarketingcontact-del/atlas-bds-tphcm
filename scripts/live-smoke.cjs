@@ -47,6 +47,30 @@ async function run(){
    await desktop.screenshot({path:dir+"/qimap-brand-desktop.png",fullPage:false});
    log("QiMap / QILUVI identity","PASS","4 pages use brand logo, title and shared palette");
   }catch(e){failures.push("QiMap brand: "+e.message);log("QiMap / QILUVI identity","FAIL",e.message)}
+  // QiMap discovery index is separate from map pins: 150 records, only 32 with legacy coordinates.
+  try{
+   await goto(desktop,"review.html");
+   await desktop.waitForFunction(()=>document.querySelector("#universeCombinedCount")?.textContent.trim()==="150",{timeout:25000});
+   assert((await desktop.locator("#universeArchiveCount").textContent()).trim()==="118","Historic projects count mismatch");
+   assert((await desktop.locator("#universeIssuerCount").textContent()).trim()==="55","Issuer handover references mismatch");
+   await goto(desktop,"map-v4.html");
+   await desktop.waitForFunction(()=>document.querySelector("#universeMapTotal")?.textContent.trim()==="150",{timeout:25000});
+   await desktop.locator("#search").fill("The Vista");
+   const historicCard=desktop.locator("#universeSearchResults .archiveResearchCard").first();
+   await historicCard.waitFor({timeout:7000});
+   assert((await historicCard.innerText()).includes("The Vista"),"The Vista archive entry not findable from map");
+   await historicCard.click();
+   const detail=await desktop.locator("#detail").innerText();
+   assert(detail.includes("The Vista")&&detail.includes("Chưa xác minh tọa độ"),"Non-geolocated project detail falsely claims a pin");
+   const notAPin=await desktop.locator("#detail").locator('a[href*="openstreetmap"]').count();
+   assert(notAPin===0,"Archive-only project must not offer an invented OSM coordinate");
+   await desktop.screenshot({path:dir+"/qimap-unified-search.png",fullPage:false});
+   await goto(desktop,"secondary-catalog.html?q=The%20Vista");
+   await desktop.waitForFunction(()=>document.querySelector("#query")?.value==="The Vista",{timeout:25000});
+   const cards=await desktop.locator("#cards .card").count();
+   assert(cards>=1,"Secondary catalogue deep link returned no projects");
+   log("Unified apartment discovery","PASS","150 linked records · 118 archive-only · search and permalink work");
+  }catch(e){failures.push("Unified apartment discovery: "+e.message);log("Unified apartment discovery","FAIL",e.message)}
   // 2) Search UX; don't break if preceding section failed.
   try{
    await goto(desktop,"review.html");await desktop.waitForFunction(()=>document.querySelectorAll("#projectCards .projectCard").length>0,{timeout:25000});

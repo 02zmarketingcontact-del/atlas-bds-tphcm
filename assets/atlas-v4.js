@@ -12,6 +12,7 @@ ko:{pageTitle:"호찌민 아파트 지도",subtitle:"실제 지도, 매물 호�
 ru:{pageTitle:"Карта квартир Хошимина",subtitle:"Реальная карта, ориентировочные цены предложений и транспорт",navMap:"Карта",navHistory:"Данные за 15 лет",projectCountLabel:"Проекты",verifiedCountLabel:"Проверенные координаты",searchLabel:"Поиск проекта, застройщика или района",zoneLabel:"Район",statusLabel:"Статус",verifiedOnlyLabel:"Только проверенные координаты",labelsEnabledLabel:"Показывать цены",sellMode:"Продажа",rentMode:"Аренда · В разработке",resultsTitle:"Результаты",fitResults:"Показать все ↗",dataCaution:"Цены объявлений, не подтверждённые цены сделок.",metroLabel:"Метро 1 · схема",planningLabel:"Градостроительный GIS",foreignInvestment:"Иностранные инвестиции",foreignBuyer:"Покупка иностранцами",unverified:"Не проверено"}};
 let lang="vi",map=null,projects=[],markers=[],selected=null,metro=null,planning=null,styleMode="vector",fallbackCount=0,errorCount=0,lastStyleTimer=null,interactive=false;
 let metroCatalog={lines:[]}, planningCatalog={sources:[]}, developerCatalog={projects:[]};
+let projectUniverse={records:[],counts:{}};
 let developerOfficialRegistry={projects:[]},developerMonitorState={projects:{}},developerCandidateStaging={candidates:[]};
 let metroStops={type:"FeatureCollection",features:[]},busStops={type:"FeatureCollection",features:[]};
 let transitPopupsRegistered=false;
@@ -65,7 +66,56 @@ function renderMarkers(items){
  }
  for(const p of items)addProjectMarker(p,compact);
 }
-function render(){if(!projects.length)return;const items=filtered();setText("projectCount",String(items.length));setText("verifiedCount",String(items.filter(x=>x.coordVerified).length));renderList(items);renderMarkers(items)}
+
+function foldUniverse(v){return String(v||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[đĐ]/g,"d").toLowerCase().replace(/[^a-z0-9]+/g,"")}
+function archiveStatusLabel(code){return ({
+issuer_says_completed:"Nguồn doanh nghiệp: hoàn thành",
+issuer_says_handed_over:"Nguồn doanh nghiệp: đã bàn giao",
+historical_portfolio_presence:"Có trong hồ sơ lịch sử doanh nghiệp",
+operating_referenced_by_historic_rental_market:"Có trong báo cáo thị trường thuê cũ",
+platform_directory_candidate_only:"Danh mục nền tảng — chờ kiểm chứng",
+platform_reports_handed_over_unverified:"Tin bên thứ ba báo bàn giao",
+map_existing_unverified_status:"Có trong bản đồ"
+})[code]||"Đang đối chiếu nguồn"}
+function openArchiveProfile(p){
+ const el=$("detail");if(!el)return;
+ selected=null;el.replaceChildren();el.hidden=false;
+ const close=node("button","close","×");close.type="button";close.ariaLabel="Đóng hồ sơ";close.onclick=()=>{el.hidden=true};el.append(close);
+ el.append(node("span","eyebrow","QiMap / HỒ SƠ THỊ TRƯỜNG THỨ CẤP"),node("h2","",p.name));
+ el.append(node("p","",archiveStatusLabel(p.lifecycle_status)));
+ el.append(node("div","caution","Chưa xác minh tọa độ để gắn ghim. Chưa có giá chuyển nhượng/giá thuê từng căn được duyệt. Đây là hồ sơ nghiên cứu, không phải giỏ hàng đang giao dịch."));
+ detailRow(el,"Nhà phát triển/nhóm nguồn",p.developer||"Chưa xác minh");
+ detailRow(el,"Địa bàn lịch sử",p.region_scope||"Chưa đối chiếu địa giới");
+ detailRow(el,"Năm bàn giao nguồn ghi nhận",p.year_handover||"Chưa xác minh");
+ if(p.project_group)detailRow(el,"Dự án mẹ / phân kỳ",p.project_group+" · không cộng số căn hai lần");
+ detailRow(el,"Phân loại thị trường","Thứ cấp: đang nghiên cứu · Cho thuê: đang nghiên cứu");
+ const url=validUrl(p.source_url);
+ if(url){const a=node("a","","Xem tài liệu dẫn nguồn ↗");a.href=url;a.rel="noopener noreferrer";a.target="_blank";el.append(a)}
+ const link=node("a","","Mở hồ sơ trong kho căn hộ cũ ↗");
+ link.href="./secondary-catalog.html?q="+encodeURIComponent(p.name);el.append(link);
+}
+function renderUniverseSidebar(){
+ const root=$("universeSearchResults");if(!root)return;root.replaceChildren();
+ const counts=projectUniverse?.counts||{};
+ setText("universeMapTotal",counts.combined_project_and_phase_records?String(counts.combined_project_and_phase_records):"—");
+ setText("universeMapExtra",counts.archive_only_records?String(counts.archive_only_records):"—");
+ const q=foldUniverse($("search")?.value.trim());
+ if(!q||q.length<2){
+  root.append(node("p","universeMessage","Nhập tên dự án cũ, ví dụ “Sunrise City” hoặc “The Vista”."));
+  return;
+ }
+ const matches=(projectUniverse.records||[]).filter(p=>!p.has_existing_map_marker&&[p.name,p.developer,...(p.aliases||[])].some(v=>foldUniverse(v).includes(q)));
+ const count=node("p","universeSearchCount",matches.length+" hồ sơ lịch sử phù hợp — không có ghim tọa độ");
+ root.append(count);
+ if(!matches.length){root.append(node("p","universeMessage","Chưa tìm thấy trong kho nghiên cứu. Mở kho đầy đủ để xem theo nhà phát triển."));return}
+ for(const p of matches.slice(0,10)){
+  const card=node("button","archiveResearchCard");card.type="button";
+  card.append(node("strong","",p.name),node("span","",archiveStatusLabel(p.lifecycle_status)),node("small","","Chưa xác minh tọa độ / giá thứ cấp"));
+  card.onclick=()=>openArchiveProfile(p);root.append(card);
+ }
+ if(matches.length>10){const more=node("a","archiveMore","Xem đủ "+matches.length+" hồ sơ ↗");more.href="./secondary-catalog.html?q="+encodeURIComponent($("search").value.trim());root.append(more)}
+}
+function render(){if(!projects.length)return;const items=filtered();setText("projectCount",String(items.length));setText("verifiedCount",String(items.filter(x=>x.coordVerified).length));renderList(items);renderMarkers(items);renderUniverseSidebar()}
 function detailRow(parent,key,value){const row=node("div","detailRow");row.append(node("span","",key),node("span","",value));parent.append(row)}
 function openProject(p){selected=p.id;renderMarkers(filtered());const el=$("detail");el.replaceChildren();el.hidden=false;const close=node("button","close","×");close.type="button";close.ariaLabel="Close";close.addEventListener("click",()=>{selected=null;el.hidden=true;renderMarkers(filtered())});el.append(close,node("span","eyebrow","QiMap / PROJECT PROFILE"),node("h2","",p.name),node("p","",p.address||p.zoneNew||""));el.append(node("strong","",band(p)));el.append(node("div","caution",tr("dataWarning")));detailRow(el,tr("projectStatus"),tr(p.status)||p.status||"—");detailRow(el,tr("developer"),p.developer||"—");detailRow(el,tr("locationVerified"),p.coordVerified?tr("locationVerified"):tr("locationEstimated"));detailRow(el,tr("foreignInvestment"),tr("unverified"));detailRow(el,tr("foreignBuyer"),tr("unverified"));detailRow(el,tr("history"),tr("historyMissing"));detailRow(el,tr("review"),tr("reviewMissing"));appendTransportProfile(el,p);appendDeveloperProfile(el,p);appendOfficialSourceStatus(el,p);detailRow(el,"Ngày dữ liệu nhập",p.updated?safeDate(p.updated):"—");const url=validUrl(p.source);if(url){const a=node("a","",tr("source"));a.href=url;a.rel="noopener noreferrer";a.target="_blank";el.append(a)}const route=node("a","","Xem hồ sơ vị trí trên OpenStreetMap ↗");route.target="_blank";route.rel="noopener noreferrer";route.href="https://www.openstreetmap.org/?mlat="+encodeURIComponent(p.lat)+"&mlon="+encodeURIComponent(p.lng)+"#map=16/"+encodeURIComponent(p.lat)+"/"+encodeURIComponent(p.lng);el.append(route);if(map)map.easeTo({center:[+p.lng,+p.lat],zoom:Math.max(12,map.getZoom()),duration:500})}
 function fitProjects(){if(!map)return;const list=filtered();if(!list.length)return;const bounds=new maplibregl.LngLatBounds();list.forEach(p=>bounds.extend([+p.lng,+p.lat]));if(list.length===1)map.easeTo({center:[+list[0].lng,+list[0].lat],zoom:14});else map.fitBounds(bounds,{padding:{top:80,bottom:90,left:80,right:window.innerWidth>800?300:80},maxZoom:14,duration:600})}
@@ -195,10 +245,11 @@ function changeLayers(){if(!map||!map.isStyleLoaded())return;const metroOn=$("me
 function addLayers(){if(!map||!map.isStyleLoaded())return;try{if(!map.getSource("metro"))map.addSource("metro",{type:"geojson",data:metro||{type:"FeatureCollection",features:[]}});if(!map.getLayer("metroLine"))map.addLayer({id:"metroLine",type:"line",source:"metro",layout:{"line-join":"round","line-cap":"round",visibility:"none"},paint:{"line-color":"#cf5d3e","line-width":4,"line-opacity":0.86,"line-dasharray":[2,2]}});if(!map.getSource("planning"))map.addSource("planning",{type:"geojson",data:planning||{type:"FeatureCollection",features:[]}});if(!map.getLayer("planningFill"))map.addLayer({id:"planningFill",type:"fill",source:"planning",layout:{visibility:"none"},paint:{"fill-color":"#b58e54","fill-opacity":0.23}});if(!map.getLayer("planningOutline"))map.addLayer({id:"planningOutline",type:"line",source:"planning",layout:{visibility:"none"},paint:{"line-color":"#9d6e3f","line-width":2}});changeLayers();updateTransitLayers()}catch(err){console.warn("ATLAS GIS:",err)}}
 function initMap(){if(typeof maplibregl==="undefined"){showFailure();return}const p=new URLSearchParams(location.search);let lat=Number(p.get("lat")),lng=Number(p.get("lng")),z=Number(p.get("z"));const validCoord=p.has("lat")&&p.has("lng")&&lat>9&&lat<12&&lng>105&&lng<109;map=new maplibregl.Map({container:"map",style:"https://tiles.openfreemap.org/styles/liberty",center:validCoord?[lng,lat]:[106.73,10.82],zoom:p.has("z")&&z>=8&&z<=18?z:11,attributionControl:true});map.addControl(new maplibregl.NavigationControl({showCompass:false}),"bottom-right");map.on("style.load",()=>{interactive=true;addLayers();renderMarkers(filtered())});map.on("moveend",()=>renderMarkers(filtered()));map.on("idle",()=>{clearTimeout(lastStyleTimer);$("mapNotice").hidden=true});map.on("error",err=>{errorCount++;console.warn("ATLAS map:",err?.error?.message||"tile error");if(errorCount>=8){if(styleMode==="vector")setBase("osm",true);else if(styleMode==="osm")setBase("sat",true);else showFailure()}});lastStyleTimer=setTimeout(()=>{if(styleMode==="vector")setBase("osm",true)},12000)}
 async function getJson(path){const r=await fetch(new URL(path,document.baseURI),{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status);return r.json()}
-async function loadData(){try{const p=await getJson("data/projects.json");if(!Array.isArray(p))throw Error("invalid projects");projects=p.filter(validProject)}catch(err){setText("projectList",tr("loadError")+" "+err.message);projects=[]}const layerData=await Promise.allSettled([getJson("data/metro_1_schematic.geojson"),getJson("data/planning_layers.geojson")]);metro=layerData[0].status==="fulfilled"?layerData[0].value:null;planning=layerData[1].status==="fulfilled"?layerData[1].value:null;if(!planning)planning={type:"FeatureCollection",features:[]};if(map&&map.isStyleLoaded())addLayers();const other=await Promise.allSettled([getJson("data/transit_lines_2026.json"),getJson("data/planning_sources_2026.json"),getJson("data/project_developer_sources.json"),getJson("data/metro_stations_osm.geojson"),getJson("data/bus_stops_osm.geojson"),getJson("data/developer_official_registry.json"),getJson("data/developer_source_monitor_state.json"),getJson("data/developer_fact_candidates.json")]);
+async function loadData(){try{const p=await getJson("data/projects.json");if(!Array.isArray(p))throw Error("invalid projects");projects=p.filter(validProject)}catch(err){setText("projectList",tr("loadError")+" "+err.message);projects=[]}const layerData=await Promise.allSettled([getJson("data/metro_1_schematic.geojson"),getJson("data/planning_layers.geojson")]);metro=layerData[0].status==="fulfilled"?layerData[0].value:null;planning=layerData[1].status==="fulfilled"?layerData[1].value:null;if(!planning)planning={type:"FeatureCollection",features:[]};if(map&&map.isStyleLoaded())addLayers();const other=await Promise.allSettled([getJson("data/transit_lines_2026.json"),getJson("data/planning_sources_2026.json"),getJson("data/project_developer_sources.json"),getJson("data/metro_stations_osm.geojson"),getJson("data/bus_stops_osm.geojson"),getJson("data/developer_official_registry.json"),getJson("data/developer_source_monitor_state.json"),getJson("data/developer_fact_candidates.json"),getJson("data/project_search_index.json")]);
 metroCatalog=other[0].status==="fulfilled"?other[0].value:{lines:[]};planningCatalog=other[1].status==="fulfilled"?other[1].value:{sources:[]};developerCatalog=other[2].status==="fulfilled"?other[2].value:{projects:[]};
 metroStops=asGeoCollection(other[3].status==="fulfilled"?other[3].value:null);busStops=asGeoCollection(other[4].status==="fulfilled"?other[4].value:null);
 developerOfficialRegistry=other[5].status==="fulfilled"?other[5].value:{projects:[]};developerMonitorState=other[6].status==="fulfilled"?other[6].value:{projects:{}};developerCandidateStaging=other[7].status==="fulfilled"?other[7].value:{candidates:[]};
+projectUniverse=other[8].status==="fulfilled"&&Array.isArray(other[8].value?.records)?other[8].value:{records:[],counts:{}};
 renderMetroCatalog();renderPlanningCatalog();updateTransitLayers();const selectedId=new URLSearchParams(location.search).get("p");if(selectedId){const project=projects.find(x=>x.id===selectedId);if(project)setTimeout(()=>openProject(project),500)}render()}
 function setup(){try{lang=localStorage.getItem("atlas.language")||"vi"}catch(_){}if(!["vi","en","zh-CN","zh-TW","ko","ru"].includes(lang))lang="vi";$("language").value=lang;const controls=["search","zone","status","minPrice","maxPrice","verifiedOnly","labelsEnabled"];controls.forEach(id=>$(id).addEventListener("input",render));$("language").addEventListener("change",e=>{lang=e.target.value;try{localStorage.setItem("atlas.language",lang)}catch(_){}applyLanguage()});$("fitResults").onclick=fitProjects;$("mobileSidebar").onclick=()=>$("sidebar").classList.toggle("open");$("baseMap").onchange=e=>setBase(e.target.value,false);$("metroToggle").onchange=()=>{if(!metro)console.warn("Metro data missing");changeLayers()};$("metroStationsToggle").onchange=updateTransitLayers;$("busStopsToggle").onchange=updateTransitLayers;$("metroStatusFilter").onchange=renderMetroCatalog;$("planningToggle").onchange=()=>{if(!planning?.features?.length){alert(tr("planningEmpty"));$("planningToggle").checked=false}changeLayers()};$("planningUpload").onchange=async e=>{const f=e.target.files?.[0];if(!f)return;if(f.size>5e6){alert(tr("planningInvalid"));return}try{const g=JSON.parse(await f.text());if(g.type!=="FeatureCollection"||!Array.isArray(g.features)||g.features.length>2000)throw Error("Invalid GeoJSON");planning=g;$("planningToggle").checked=true;changeLayers();alert(tr("planningLoaded"))}catch(err){alert(tr("planningInvalid"))}e.target.value=""};$("retryMap").onclick=()=>setBase("vector",false);$("map").addEventListener("click",()=>{if(window.innerWidth<820)$("sidebar").classList.remove("open")});applyLanguage()}
 setup();initMap();loadData();

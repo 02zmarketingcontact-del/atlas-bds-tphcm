@@ -35,6 +35,7 @@
 <link rel="icon" type="image/svg+xml" href="./assets/qiluvi-icon.svg">
 <link rel="stylesheet" href="./assets/qimap-brand.css">
 <meta property="og:site_name" content="QiMap by QILUVI">
+<link rel="stylesheet" href="./assets/qimap-universe.css">
 </head>
 <body class="qimap-map-page">
 <header class="topbar">
@@ -58,7 +59,15 @@
     <label class="check"><input type="checkbox" id="labelsEnabled" checked><span id="labelsEnabledLabel">Hiển thị ô giá trên bản đồ</span></label>
     <div class="modeRow"><span class="active" id="sellMode">Mua bán</span><span class="inactive" id="rentMode" title="Chưa có feed giá thuê đã kiểm chứng">Cho thuê · Đang xây dữ liệu</span></div>
     <div class="listTitle"><b id="resultsTitle">Dự án phù hợp</b><button type="button" id="fitResults">Xem tất cả trên bản đồ ↗</button></div>
+    <div class="scrollListings" id="scrollListings">
     <div class="projectList" id="projectList"><p class="muted">Đang tải dữ liệu...</p></div>
+    <section class="universeDiscovery" id="universeDiscovery" aria-label="Tìm kiếm cả danh mục căn hộ cũ">
+      <div class="universeDiscoveryHeader"><strong><span id="universeMapTotal">—</span> hồ sơ trong QiMap</strong><a href="./secondary-catalog.html">Xem toàn bộ ↗</a></div>
+      <p><span id="universeMapExtra">—</span> tên dự án/phân kỳ chưa có ghim. Nhập tên dự án ở ô tìm kiếm phía trên để xem hồ sơ lịch sử.</p>
+      <div id="universeSearchResults" class="universeSearchResults" aria-live="polite"></div>
+      <small class="universeMapCaution">Kho nghiên cứu chỉ tra cứu tên, không được áp giá hay tọa độ chưa xác minh lên bản đồ.</small>
+    </section>
+    </div>
     <div class="sideFoot"><a href="https://www.openstreetmap.org" target="_blank" rel="noopener noreferrer" id="externalMap">Mở bản đồ OpenStreetMap ↗</a><p id="dataCaution">Giá hiển thị là giá chào tham khảo, KHÔNG phải giá giao dịch.</p></div>
   </aside>
   <main class="mapArea">

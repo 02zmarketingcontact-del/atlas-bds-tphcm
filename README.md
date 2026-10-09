@@ -1,3 +1,13 @@
+## QiMap — Kho chung cư đã bàn giao và thị trường thứ cấp (2006–2026)
+
+- [Tra cứu toàn bộ tên dự án/phân kỳ](https://02zmarketingcontact-del.github.io/atlas-bds-tphcm/secondary-catalog.html): **150 hồ sơ tên/phân kỳ** sau khi ghép 126 mục lịch sử với 32 dự án đang có ghim.
+- **32** hồ sơ có vị trí trên bản đồ (chỉ **3** vị trí có cờ đã đối chiếu), **118** hồ sơ nghiên cứu chỉ tìm kiếm theo tên/nguồn, chưa đặt ghim.
+- **8** mục khớp tên/bí danh được gộp, **55** mục có báo cáo doanh nghiệp về bàn giao/hoàn thành. Một số phân kỳ cùng dự án mẹ: không coi 150 là số dự án pháp lý độc lập.
+- [Chỉ mục tra cứu](data/project_search_index.json) được tạo bằng `node scripts/build-project-index.cjs`, kiểm tra định dạng với `--check`; không tự tạo giá, tọa độ hoặc nguồn hàng thứ cấp.
+- Trên [bản đồ QiMap](https://02zmarketingcontact-del.github.io/atlas-bds-tphcm/map-v4.html), nhập tên chung cư cũ để thấy hồ sơ nghiên cứu và mở liên kết nguồn; không chấm ghim nếu chưa có tọa độ đã đối chiếu.
+
+---
+
 ## Danh mục căn hộ thứ cấp đã mở rộng
 
 - [QiMap — Kho 126 tên dự án và phân kỳ chung cư cũ](https://02zmarketingcontact-del.github.io/atlas-bds-tphcm/secondary-catalog.html). Dữ liệu đã đối chiếu trực tiếp với 32 dự án gắn ghim; mức khử trùng lặp chỉ dựa vào tên/bí danh.
