@@ -166,7 +166,7 @@ function renderUniverseSidebar(){
  setText("universeMapExtra",counts.archive_only_records?String(counts.archive_only_records-researchPins.length+discoveryCandidates.length):"—");
  const q=foldUniverse($("search")?.value.trim());
  if(!q||q.length<2){
-  root.append(node("p","universeMessage","Danh mục có 153 hồ sơ và ứng viên. Tìm tên dự án để xem nguồn và vị trí trên Google Maps."));
+  root.append(node("p","universeMessage","Danh mục có 159 hồ sơ và ứng viên. Tìm tên dự án để xem nguồn và vị trí trên Google Maps."));
   return;
  }
  const matches=[...(projectUniverse.records||[]).filter(p=>!p.has_existing_map_marker&&[p.name,p.developer,...(p.aliases||[])].some(v=>foldUniverse(v).includes(q))),
