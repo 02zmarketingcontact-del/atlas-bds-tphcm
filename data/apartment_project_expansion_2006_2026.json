@@ -1811,7 +1811,10 @@
     {
       "research_id": "hist-phumyhungmidtown",
       "name": "Phú Mỹ Hưng Midtown",
-      "aliases": [],
+      "aliases": [
+        "Midtown Phu My Hung",
+        "Midtown Phú Mỹ Hưng"
+      ],
       "regional_scope": "HCMC_old_boundary",
       "developer_or_publication_group": "Phú Mỹ Hưng",
       "lifecycle_status": "historical_portfolio_presence",
@@ -2361,7 +2364,10 @@
     {
       "research_id": "hist-mizukipark",
       "name": "Mizuki Park",
-      "aliases": [],
+      "aliases": [
+        "Mizuki Park - can ho",
+        "Mizuki Park – căn hộ"
+      ],
       "regional_scope": "HCMC_old_boundary",
       "developer_or_publication_group": "Nam Long",
       "lifecycle_status": "issuer_says_completed",
