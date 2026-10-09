@@ -32,3 +32,7 @@ html.embedded .topbar,html.embedded .sidebar,html.embedded .mapTools{display:non
 .atlasStopPopup p{font-size:11px;color:#697d88;margin:7px 0}
 .atlasStopPopup a{font-size:11px;color:#226891;font-weight:800}
 @media(max-width:820px){.mapTools{top:8px;max-height:calc(100dvh - 92px)}.transitList{max-height:150px}}
+
+/* Developer-first evidence status and source audit in project detail */
+.officialSourceLink{display:block;font-size:11px;font-weight:800;color:#2f7093;padding:5px 0;overflow-wrap:anywhere}
+.officialSourceWarning{font-size:11px;line-height:1.6;background:#fff4e5;color:#86612c;padding:10px 12px;border-radius:7px;margin:8px 0}

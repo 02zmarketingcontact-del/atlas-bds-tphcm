@@ -7,7 +7,7 @@
 4. Nguồn nghiên cứu thị trường và các trang rao để đối chiếu **giá chào tham khảo**, không thay thế tài liệu chủ đầu tư.
 5. Website môi giới không chứng minh quyền đại diện: `official_site_discovery_pending`, không tự nâng thành chính thức.
 
-ATLAS đã lập registry cho toàn bộ 32 mã dự án trong `data/developer_official_registry.json`. Có 25 dự án liên kết đến tên miền của đơn vị phát triển đã nhận diện và 7 dự án đang chờ xác minh. **Đây là xác minh tên miền thương hiệu phát triển, chưa phải xác minh pháp nhân sở hữu đất/đủ điều kiện mở bán.**
+ATLAS đã lập registry cho toàn bộ 32 mã dự án trong `data/developer_official_registry.json`. Có 28 dự án liên kết đến tên miền của đơn vị phát triển đã nhận diện và 4 dự án đang chờ xác minh. **Đây là xác minh tên miền thương hiệu phát triển, chưa phải xác minh pháp nhân sở hữu đất/đủ điều kiện mở bán.**
 
 ## Lịch hằng ngày
 - GitHub Actions: `.github/workflows/atlas-developer-daily.yml`
@@ -28,6 +28,7 @@ ATLAS đã lập registry cho toàn bộ 32 mã dự án trong `data/developer_o
 2. Kiểm tra robots.txt trước khi đọc trang. Không vượt CAPTCHA, đăng nhập, rate limit hoặc crawl hàng loạt.
 3. Trích fingerprint dấu vết nội dung dự án và nhóm chủ đề (quy mô, căn hộ, tiến độ, giá, pháp lý, vị trí); **không tự chép nguyên trang**.
 4. Ghi `data/developer_source_monitor_state.json`: ngày kiểm tra, HTTP status, fingerprint, trạng thái; không bao gồm dữ liệu khách hàng.
+   - Lưu các gợi ý số liệu chưa duyệt từ trang dự án của doanh nghiệp vào `data/developer_fact_candidates.json`. Mỗi mục có mã dự án, trường, giá trị thô, URL gốc, ngày rà soát và cờ `UNVERIFIED_REVIEW_REQUIRED`. **Không dùng file này làm dữ liệu đã xác minh trên website.**
 5. Upload artifact `developer-daily-audit.json` và báo cáo Markdown của ngày, giữ 21 ngày.
 6. Cập nhật [ATLAS Developer Source Watch](https://github.com/02zmarketingcontact-del/atlas-bds-tphcm/issues/44); bình luận và gửi mention nếu có thay đổi quan trọng.
 7. Khi có thay đổi, **con người phải kiểm tra giá, quy mô, pháp lý, ngày bán, quỹ căn và quota sở hữu ngoại quốc** trước khi đưa vào hồ sơ công khai.

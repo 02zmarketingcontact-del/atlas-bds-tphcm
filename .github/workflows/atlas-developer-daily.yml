@@ -60,14 +60,15 @@ jobs:
           path: |
             artifacts/developer-daily-audit.json
             artifacts/developer-daily-audit.md
+            artifacts/developer-field-candidates.json
           if-no-files-found: warn
           retention-days: 21
-      - name: Persist source check timestamps and fingerprints (no material project fields)
+      - name: Persist timestamps, fingerprints and UNVERIFIED candidate hints
         if: steps.audit.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/developer_source_monitor_state.json
+          git add data/developer_source_monitor_state.json data/developer_fact_candidates.json
           if git diff --cached --quiet; then
             echo "Nothing to persist"
           else
