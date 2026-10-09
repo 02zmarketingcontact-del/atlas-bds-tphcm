@@ -70,7 +70,16 @@ function openResearchPin(p){
 }
 function validProject(p){return p&&typeof p.id==="string"&&typeof p.name==="string"&&Number.isFinite(+p.lat)&&Number.isFinite(+p.lng)&&p.lat>9&&p.lat<12&&p.lng>105&&p.lng<109}
 function filtered(){const q=$("search").value.toLocaleLowerCase().trim(),zone=$("zone").value,status=$("status").value,min=Number($("minPrice").value)||0,max=$("maxPrice").value?Number($("maxPrice").value):Infinity;return projects.filter(p=>{const content=[p.name,p.address,p.developer,p.zoneNew].join(" ").toLocaleLowerCase();return (!q||content.includes(q))&&(zone==="all"||p.zone===zone)&&(status==="all"||p.status===status)&&(!$("verifiedOnly").checked||p.coordVerified)&&(+p.max>=min&&+p.min<=max)})}
-function renderList(items){const el=$("projectList");el.replaceChildren();if(!items.length){el.append(node("p","muted",tr("noResults")));return}for(const p of items){const b=node("button","projectCard");b.type="button";b.append(node("div","name",p.name),node("div","sub",(zones[p.zone]||p.zoneNew||"TP.HCM")+" · "+(p.coordVerified?tr("locationVerified"):tr("locationEstimated"))),node("div","price",band(p)));b.append(node("span","tag"+(p.coordVerified?" verified":""),p.priceVerified?"Đã xác minh giá":tr("priceRef")));b.addEventListener("click",()=>openProject(p));el.append(b)}}
+function renderList(items){const el=$("projectList");el.replaceChildren();
+ // Keep all coordinate-backed discoveries selectable directly in the sidebar.
+ if(!$("verifiedOnly").checked&&!$("minPrice").value&&!$("maxPrice").value&&$("zone").value==="all"&&$("status").value==="all"){
+ const q=foldUniverse($("search").value);
+ for(const p of researchPins){if(q&&!foldUniverse([p.name,p.address||""].join(" ")).includes(q))continue;
+ const b=node("button","projectCard researchCard");b.type="button";
+ b.append(node("div","name",p.name),node("div","sub","Tọa độ nghiên cứu · chưa xác minh"),node("div","price","Giá chưa xác minh"));
+ b.onclick=()=>openResearchPin(p);el.append(b)
+ }
+ }if(!items.length){el.append(node("p","muted",tr("noResults")));return}for(const p of items){const b=node("button","projectCard");b.type="button";b.append(node("div","name",p.name),node("div","sub",(zones[p.zone]||p.zoneNew||"TP.HCM")+" · "+(p.coordVerified?tr("locationVerified"):tr("locationEstimated"))),node("div","price",band(p)));b.append(node("span","tag"+(p.coordVerified?" verified":""),p.priceVerified?"Đã xác minh giá":tr("priceRef")));b.addEventListener("click",()=>openProject(p));el.append(b)}}
 function clearMarkers(){markers.forEach(m=>m.remove());markers=[]}
 function renderMarkers(items){
  if(!map||!interactive)return;clearMarkers();
@@ -157,7 +166,7 @@ function renderUniverseSidebar(){
  setText("universeMapExtra",counts.archive_only_records?String(counts.archive_only_records-researchPins.length+discoveryCandidates.length):"—");
  const q=foldUniverse($("search")?.value.trim());
  if(!q||q.length<2){
-  root.append(node("p","universeMessage","153 hồ sơ/ứng viên tra cứu. Nhập tên như “Sunrise City”, “The Vista”, “ANesta” để xem nguồn và tìm Google Maps."));
+  root.append(node("p","universeMessage","Danh mục có 153 hồ sơ và ứng viên. Tìm tên dự án để xem nguồn và vị trí trên Google Maps."));
   return;
  }
  const matches=[...(projectUniverse.records||[]).filter(p=>!p.has_existing_map_marker&&[p.name,p.developer,...(p.aliases||[])].some(v=>foldUniverse(v).includes(q))),
@@ -172,7 +181,7 @@ function renderUniverseSidebar(){
  }
  if(matches.length>10){const more=node("a","archiveMore","Xem đủ "+matches.length+" hồ sơ ↗");more.href="./secondary-catalog.html?q="+encodeURIComponent($("search").value.trim());root.append(more)}
 }
-function render(){if(!projects.length)return;const items=filtered();setText("projectCount",String(items.length));setText("verifiedCount",String(items.filter(x=>x.coordVerified).length));renderList(items);renderMarkers(items);renderUniverseSidebar()}
+function render(){if(!projects.length)return;const items=filtered();setText("projectCount",String(items.length+(!$("verifiedOnly").checked&&!$("minPrice").value&&!$("maxPrice").value&&$("zone").value==="all"&&$("status").value==="all"?researchPins.filter(p=>!foldUniverse($("search").value)||foldUniverse([p.name,p.address||""].join(" ")).includes(foldUniverse($("search").value))).length:0)));setText("verifiedCount",String(items.filter(x=>x.coordVerified).length));renderList(items);renderMarkers(items);renderUniverseSidebar()}
 function detailRow(parent,key,value){const row=node("div","detailRow");row.append(node("span","",key),node("span","",value));parent.append(row)}
 function appendProjectDossier(el,p){
  const d=dossierById.get("map-"+p.id);if(!d)return;
