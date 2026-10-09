@@ -33,6 +33,20 @@ async function run(){
    await desktop.screenshot({path:dir+"/v1-desktop.png",fullPage:true});
    log("V1 overview","PASS","Projects "+kpi+" · market bars "+bars+" · cards "+cards);
   }catch(e){failures.push("V1 overview: "+e.message);log("V1 overview","FAIL",e.message)}
+  // QiMap branding: all public pages must use QILUVI logo and QiMap naming.
+  try{
+   for(const path of ["review.html","map-v4.html","history.html","index.html"]){
+    await goto(desktop,path);
+    const identity=desktop.locator(".qimap-brand-logo").first();
+    await identity.waitFor({timeout:12000});
+    const valid=await identity.evaluate(im=>im.complete&&im.naturalWidth>0);
+    assert(valid,"QILUVI logo did not render: "+path);
+    assert((await desktop.title()).startsWith("QiMap"),"Page title still displays former brand: "+path);
+   }
+   await goto(desktop,"review.html");
+   await desktop.screenshot({path:dir+"/qimap-brand-desktop.png",fullPage:false});
+   log("QiMap / QILUVI identity","PASS","4 pages use brand logo, title and shared palette");
+  }catch(e){failures.push("QiMap brand: "+e.message);log("QiMap / QILUVI identity","FAIL",e.message)}
   // 2) Search UX; don't break if preceding section failed.
   try{
    await goto(desktop,"review.html");await desktop.waitForFunction(()=>document.querySelectorAll("#projectCards .projectCard").length>0,{timeout:25000});
@@ -106,6 +120,13 @@ async function run(){
    const mobile=await browser.newPage({viewport:{width:390,height:844},deviceScaleFactor:1,locale:"vi-VN",isMobile:true,hasTouch:true});
    await goto(mobile,"review.html");
    await mobile.waitForFunction(()=>document.querySelector("#kpiProjects")?.textContent?.trim()==="32",{timeout:25000});
+   // Verify the mobile masthead survives two-part QILUVI / QiMap branding.
+   const brandViewport=await mobile.evaluate(()=>{
+      const logo=document.querySelector(".qimap-brand-lockup")?.getBoundingClientRect();
+      return {width:innerWidth,logoRight:logo?.right||0,logoLeft:logo?.left||0,logoHeight:logo?.height||0};
+   });
+   assert(brandViewport.logoRight<=brandViewport.width+8&&brandViewport.logoHeight>20,
+      "QiMap mobile masthead clipped: "+JSON.stringify(brandViewport));
    const widths=await mobile.evaluate(()=>({inner:window.innerWidth,body:document.body.scrollWidth}));
    await mobile.screenshot({path:dir+"/v1-mobile.png",fullPage:true});
    assert(widths.body<=widths.inner+16,"Mobile horizontally overflows "+JSON.stringify(widths));

@@ -24,3 +24,5 @@ jobs:
         run: node --check assets/atlas-v4.js
       - name: ATLAS V1 release smoke checks
         run: node scripts/validate-v1.cjs
+      - name: QiMap and QILUVI brand identity contract
+        run: node scripts/validate-qimap-brand.cjs
