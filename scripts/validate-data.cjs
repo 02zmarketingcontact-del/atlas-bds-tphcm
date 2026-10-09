@@ -9,10 +9,10 @@ const obsIds=new Set();for(const o of history.observations){check(!obsIds.has(o.
 for(const g of [metro,planning]){check(g.type==="FeatureCollection"&&Array.isArray(g.features),"GIS file not FeatureCollection");for(const f of g.features){check(f.type==="Feature"&&!!f.geometry,"invalid GIS feature");}}
 check(history.temporal_coverage.baseline_year===2006&&history.temporal_coverage.end_year===2026,"wrong 20-year temporal scope");
 const path=require("node:path");const html=fs.readFileSync("history.html","utf8"),map=fs.readFileSync("map-v4.html","utf8");check((html.includes("market_history_2006_2026.json")||html.includes("assets/atlas-history.js")),"history page must link the 20-year data client");check(map.includes('id="map"')&&map.includes("maplibre"),"map missing");
-if(failures.length){console.error("ATLAS DATA QA FAILED\n"+failures.map(x=>"- "+x).join("\n"));process.exit(1)}
-console.log("ATLAS DATA QA PASS: "+projects.length+" projects, "+history.observations.length+" observations, "+sourceIds.size+" source records, "+metro.features.length+" schematic metro line(s).");
 
 const historyJs=fs.readFileSync("assets/atlas-history.js","utf8");
 check(historyJs.includes("market_history_2006_2026.json"),"history JS missing 20-year dataset");
 const metroCatalog=JSON.parse(fs.readFileSync("data/transit_lines_2026.json","utf8"));
 check(Array.isArray(metroCatalog.lines)&&metroCatalog.lines.length>=7,"metro catalog has inadequate coverage");
+if(failures.length){console.error("ATLAS DATA QA FAILED\n"+failures.map(x=>"- "+x).join("\n"));process.exit(1)}
+console.log("ATLAS DATA QA PASS: "+projects.length+" projects, "+history.observations.length+" observations, "+sourceIds.size+" source records, "+metro.features.length+" schematic metro line(s).");
