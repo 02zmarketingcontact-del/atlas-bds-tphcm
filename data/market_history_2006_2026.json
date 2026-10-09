@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.1",
+  "name": "ATLAS apartment historical market observations",
+  "temporal_coverage": {
+    "baseline_year": 2006,
+    "end_year": 2026,
+    "elapsed_years": 20,
+    "annual_labels_inclusive": 21,
+    "end_year_partial": true,
+    "note": "2006-2026 is an elapsed twenty-year horizon; a chart of exactly 20 annual year labels runs 2007-2026, with 2026 YTD."
+  },
+  "observation_rules": {
+    "source_required": true,
+    "period_required": true,
+    "market_type_required": true,
+    "price_basis_required": true,
+    "methodology_required": true,
+    "sample_size_if_available": true,
+    "rights_required": true,
+    "geography_scope_required": true,
+    "missing_values": null,
+    "price_types": [
+      "primary_asking",
+      "secondary_asking",
+      "rent_asking",
+      "verified_transaction",
+      "model_estimate"
+    ],
+    "series_comparability": "Never stitch inconsistent indexes, geography definitions or price bases into a single growth figure."
+  },
+  "data_status": "awaiting_source_verified_research",
+  "observations": []
+}
