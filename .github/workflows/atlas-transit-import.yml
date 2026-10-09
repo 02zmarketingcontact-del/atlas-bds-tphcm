@@ -8,6 +8,7 @@ on:
       - 'scripts/fetch-transit-osm.cjs'
 permissions:
   contents: write
+  actions: read
 jobs:
   snapshot:
     if: github.repository == '02zmarketingcontact-del/atlas-bds-tphcm'
@@ -21,8 +22,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Fetch bounded OpenStreetMap stops once, without API keys
-        run: node scripts/fetch-transit-osm.cjs
+      - name: Reuse successfully captured OSM artifact (avoid repeat rate-limited queries)
+        uses: actions/download-artifact@v4
+        with:
+          name: atlas-transit-candidates
+          path: artifacts/
+          run-id: 37901242808
+          github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Require candidate data and preserve source metadata
         run: |
           node -e "const fs=require('fs');const a=JSON.parse(fs.readFileSync('artifacts/metro_stations_osm.geojson')),b=JSON.parse(fs.readFileSync('artifacts/bus_stops_osm.geojson'));if(a.features.length<8||b.features.length<50)process.exit(1);console.log('Candidates',a.features.length,b.features.length);"
