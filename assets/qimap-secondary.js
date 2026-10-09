@@ -12,7 +12,7 @@ platform_directory_candidate_only:{label:"Đầu mối tra cứu, chưa xác min
 platform_reports_handed_over_unverified:{label:"Tin bên thứ ba báo bàn giao",className:"",group:"candidate"},
 map_existing_unverified_status:{label:"Bản đồ hiện có",className:"",group:"historical"}};
 let full=[],filtered=[],count=0,sourceCount=0,locations=47;
-function base(p){return{research_id:"map-"+p.id,name:p.name,aliases:[],regional_scope:"HCMC_old_boundary",developer_or_publication_group:p.developer||"Chưa xác minh",lifecycle_status:"map_existing_unverified_status",handover_year:null,parent_project_id:null,evidence_source:{url:p.source||null},map_project_id:p.id,source_origin:"existing_map",historical_secondary_priority:"P1"}}
+function base(p){return{research_id:"map-"+p.id,name:p.name,aliases:[],regional_scope:p.zone==="bd"?"Binh_Duong_pre_2025":p.zone==="brvt"?"Ba_Ria_Vung_Tau_pre_2025":p.zone==="edge"?"Long_An_pre_2025":"HCMC_old_boundary",developer_or_publication_group:p.developer||"Chưa xác minh",lifecycle_status:"map_existing_unverified_status",handover_year:null,parent_project_id:null,evidence_source:{url:p.source||null},map_project_id:p.id,source_origin:"existing_map",historical_secondary_priority:"P1"}}
 function combine(seed,mapped){
 const list=[],index=new Map();
 function add(p){
@@ -36,7 +36,7 @@ function projectCard(p){
  head.append(node("span",x.label,"flag "+x.className),node("span",p.developer_or_publication_group,"developer"));card.append(head,node("h3",p.name));
  card.append(node("p",p.handover_year?"Năm bàn giao nguồn ghi nhận: "+p.handover_year:"Mốc bàn giao: chưa xác minh", "detail"));
  const tags=node("div",undefined,"meta");
- tags.append(node("span",p.regional_scope==="Binh_Duong_pre_2025"?"Bình Dương cũ":"TP.HCM cũ"));
+ const areaNames={"HCMC_old_boundary":"TP.HCM cũ","Binh_Duong_pre_2025":"Bình Dương cũ","Ba_Ria_Vung_Tau_pre_2025":"Bà Rịa–Vũng Tàu cũ","Long_An_pre_2025":"Long An cũ"};tags.append(node("span",areaNames[p.regional_scope]||"Vùng đang rà soát"));
  tags.append(node("span","Sơ cấp / thứ cấp tách riêng"));
  if(p.map_project_id)tags.append(node("span","Đã có ghim bản đồ"));
  if(p.parent_project_id)tags.append(node("span","Phân kỳ thuộc dự án mẹ"));
