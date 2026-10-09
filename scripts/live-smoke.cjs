@@ -74,6 +74,17 @@ async function run(){
    await desktop.locator("#projectList .projectCard").first().click();
    const detail=await desktop.locator("#detail").innerText();
    assert(detail.includes("1.147")||detail.includes("1147"),"Developer corporate-source fact not shown on Felix card");
+   assert(detail.includes("Nguồn doanh nghiệp phát triển"),"Daily developer source status not shown in project details");
+   assert(detail.includes("c-holdings.vn"),"Official C-Holdings link not shown for The Felix");
+   const sourceRegistry=await desktop.evaluate(async()=>{const [registry,state,candidates]=await Promise.all([
+    fetch("./data/developer_official_registry.json").then(r=>r.json()),
+    fetch("./data/developer_source_monitor_state.json").then(r=>r.json()),
+    fetch("./data/developer_fact_candidates.json").then(r=>r.json())
+   ]);return{projects:registry.projects.length,monitored:registry.projects.filter(x=>x.source).length,pending:registry.projects.filter(x=>!x.source).length,candidatesApproved:candidates.auto_published_project_facts||0,state:!!state.projects}});
+   assert(sourceRegistry.projects===32,"Official developer registry must include all 32 projects");
+   assert(sourceRegistry.monitored>=28,"Official source coverage regression");
+   assert(sourceRegistry.candidatesApproved===0,"Unverified numerical claims must not be published");
+   assert(sourceRegistry.state,"Developer monitor state must be available");
    await desktop.screenshot({path:dir+"/v1-map-transit.png"});
    log("Transit & developer research","PASS",routes+" metro corridors · "+stationData.metro+" OSM stations · "+stationData.bus+" bus stops · "+portals+" planning portals");
   }catch(e){failures.push("Transit & developer research: "+e.message);log("Transit & developer research","FAIL",e.message)}
