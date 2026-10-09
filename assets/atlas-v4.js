@@ -14,6 +14,7 @@ let lang="vi",map=null,projects=[],markers=[],selected=null,metro=null,planning=
 let metroCatalog={lines:[]}, planningCatalog={sources:[]}, developerCatalog={projects:[]};
 let projectUniverse={records:[],counts:{}};
 let candidateLocationPins=[];
+let googleMapsPlaces=new Map();
 let priceSyncState=undefined;
 let dossierById=new Map();
 let developerOfficialRegistry={projects:[]},developerMonitorState={projects:{}},developerCandidateStaging={candidates:[]};
@@ -110,12 +111,23 @@ platform_directory_candidate_only:"Danh mục nền tảng — chờ kiểm ch�
 platform_reports_handed_over_unverified:"Tin bên thứ ba báo bàn giao",
 map_existing_unverified_status:"Có trong bản đồ"
 })[code]||"Đang đối chiếu nguồn"}
+function googleMapsLink(projectId,name,address,region){
+ const item=googleMapsPlaces.get(projectId);
+ if(item?.google_maps_url)return item.google_maps_url;
+ const query=[name,address,region||"TP Hồ Chí Minh, Việt Nam"].filter(Boolean).join(", ");
+ return "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(query);
+}
+function addGoogleMapsLink(parent,id,name,address,region){
+ const a=node("a","dossierSource","📍 Mở Google Maps · tìm vị trí ↗");
+ a.href=googleMapsLink(id,name,address,region);a.target="_blank";a.rel="noopener noreferrer";
+ parent.append(a);
+}
 function openCandidateLocation(p){
  const el=$("detail");if(!el)return;selected=null;el.replaceChildren();el.hidden=false;
  const close=node("button","close","×");close.type="button";close.onclick=()=>{el.hidden=true};el.append(close);
  el.append(node("span","eyebrow","QiMap / GIS RESEARCH · CHỜ DUYỆT"),node("h2","",p.name),node("p","",p.address||""));
  el.append(node("div","caution","Ghim tham khảo từ tọa độ thứ cấp, chưa xác minh bằng địa chính. Không phải vị trí pháp lý. Chưa có giá, suất mua người nước ngoài hay pháp lý được duyệt."));
- detailRow(el,"Trạng thái","Chưa xác minh GIS");detailRow(el,"Kiểm tra ngày",p.checked_at||"—");
+ detailRow(el,"Trạng thái","Chưa xác minh GIS");addGoogleMapsLink(el,p.dossier_id,p.name,p.address,p.zoneNew);detailRow(el,"Kiểm tra ngày",p.checked_at||"—");
  for(const url of [p.official_address_source?.url,...(p.coordinate_sources||[]).map(x=>x.url)]){const safe=validUrl(url);if(safe){const a=node("a","dossierSource","Xem chứng cứ ↗");a.href=safe;a.target="_blank";a.rel="noopener noreferrer";el.append(a)}}
  const more=node("a","dossierSource","Xem hồ sơ ↗");more.href="./secondary-catalog.html?q="+encodeURIComponent(p.name);el.append(more);
 }
@@ -130,6 +142,7 @@ function openArchiveProfile(p){
  detailRow(el,"Địa bàn lịch sử",p.region_scope||"Chưa đối chiếu địa giới");
  detailRow(el,"Năm bàn giao nguồn ghi nhận",p.year_handover||"Chưa xác minh");
  if(p.project_group)detailRow(el,"Dự án mẹ / phân kỳ",p.project_group+" · không cộng số căn hai lần");
+  addGoogleMapsLink(el,p.id,p.name,null,p.region_scope);
  detailRow(el,"Phân loại thị trường","Thứ cấp: đang nghiên cứu · Cho thuê: đang nghiên cứu");
  const url=validUrl(p.source_url);
  if(url){const a=node("a","","Xem tài liệu dẫn nguồn ↗");a.href=url;a.rel="noopener noreferrer";a.target="_blank";el.append(a)}
@@ -178,7 +191,7 @@ function appendProjectDossier(el,p){
  box.append(node("p","muted","Chủ sở hữu pháp lý / quota người nước ngoài / giá giao dịch: chưa xác minh."));
  el.append(box);
 }
-function openProject(p){selected=p.id;renderMarkers(filtered());const el=$("detail");el.replaceChildren();el.hidden=false;const close=node("button","close","×");close.type="button";close.ariaLabel="Close";close.addEventListener("click",()=>{selected=null;el.hidden=true;renderMarkers(filtered())});el.append(close,node("span","eyebrow","QiMap / PROJECT PROFILE"),node("h2","",p.name),node("p","",p.address||p.zoneNew||""));el.append(node("strong","",band(p)));el.append(node("div","caution",tr("dataWarning")));detailRow(el,tr("projectStatus"),tr(p.status)||p.status||"—");detailRow(el,tr("developer"),p.developer||"—");detailRow(el,tr("locationVerified"),p.coordVerified?tr("locationVerified"):tr("locationEstimated"));detailRow(el,tr("foreignInvestment"),tr("unverified"));detailRow(el,tr("foreignBuyer"),tr("unverified"));detailRow(el,tr("history"),tr("historyMissing"));detailRow(el,tr("review"),tr("reviewMissing"));appendProjectDossier(el,p);appendTransportProfile(el,p);appendDeveloperProfile(el,p);appendOfficialSourceStatus(el,p);detailRow(el,"Ngày dữ liệu nhập",p.updated?safeDate(p.updated):"—");const url=validUrl(p.source);if(url){const a=node("a","",tr("source"));a.href=url;a.rel="noopener noreferrer";a.target="_blank";el.append(a)}const route=node("a","","Xem hồ sơ vị trí trên OpenStreetMap ↗");route.target="_blank";route.rel="noopener noreferrer";route.href="https://www.openstreetmap.org/?mlat="+encodeURIComponent(p.lat)+"&mlon="+encodeURIComponent(p.lng)+"#map=16/"+encodeURIComponent(p.lat)+"/"+encodeURIComponent(p.lng);el.append(route);if(map)map.easeTo({center:[+p.lng,+p.lat],zoom:Math.max(12,map.getZoom()),duration:500})}
+function openProject(p){selected=p.id;renderMarkers(filtered());const el=$("detail");el.replaceChildren();el.hidden=false;const close=node("button","close","×");close.type="button";close.ariaLabel="Close";close.addEventListener("click",()=>{selected=null;el.hidden=true;renderMarkers(filtered())});el.append(close,node("span","eyebrow","QiMap / PROJECT PROFILE"),node("h2","",p.name),node("p","",p.address||p.zoneNew||""));el.append(node("strong","",band(p)));el.append(node("div","caution",tr("dataWarning")));detailRow(el,tr("projectStatus"),tr(p.status)||p.status||"—");detailRow(el,tr("developer"),p.developer||"—");detailRow(el,tr("locationVerified"),p.coordVerified?tr("locationVerified"):tr("locationEstimated"));detailRow(el,tr("foreignInvestment"),tr("unverified"));detailRow(el,tr("foreignBuyer"),tr("unverified"));detailRow(el,tr("history"),tr("historyMissing"));detailRow(el,tr("review"),tr("reviewMissing"));appendProjectDossier(el,p);addGoogleMapsLink(el,"map-"+p.id,p.name,p.address,p.zoneNew);appendTransportProfile(el,p);appendDeveloperProfile(el,p);appendOfficialSourceStatus(el,p);detailRow(el,"Ngày dữ liệu nhập",p.updated?safeDate(p.updated):"—");const url=validUrl(p.source);if(url){const a=node("a","",tr("source"));a.href=url;a.rel="noopener noreferrer";a.target="_blank";el.append(a)}const route=node("a","","Xem hồ sơ vị trí trên OpenStreetMap ↗");route.target="_blank";route.rel="noopener noreferrer";route.href="https://www.openstreetmap.org/?mlat="+encodeURIComponent(p.lat)+"&mlon="+encodeURIComponent(p.lng)+"#map=16/"+encodeURIComponent(p.lat)+"/"+encodeURIComponent(p.lng);el.append(route);if(map)map.easeTo({center:[+p.lng,+p.lat],zoom:Math.max(12,map.getZoom()),duration:500})}
 function fitProjects(){if(!map){showFailure();setText("noticeBody","Chưa khởi tạo được bản đồ. Bạn vẫn có thể chọn dự án trong danh sách hoặc mở kho 150 hồ sơ.");$("projectList")?.scrollIntoView({behavior:"smooth",block:"start"});return}const list=filtered();if(!list.length)return;const bounds=new maplibregl.LngLatBounds();list.forEach(p=>bounds.extend([+p.lng,+p.lat]));if(list.length===1)map.easeTo({center:[+list[0].lng,+list[0].lat],zoom:14});else map.fitBounds(bounds,{padding:{top:80,bottom:90,left:80,right:window.innerWidth>800?300:80},maxZoom:14,duration:600})}
 function rasterStyle(mode){const url=mode==="sat"?"https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}":"https://tile.openstreetmap.org/{z}/{x}/{y}.png";const att=mode==="sat"?"Tiles © Esri, Maxar, Earthstar Geographics":"© OpenStreetMap contributors";return {version:8,sources:{base:{type:"raster",tiles:[url],tileSize:256,attribution:att}},layers:[{id:"base",type:"raster",source:"base"}]}}
 function setBase(mode,automatic){if(!map)return;clearTimeout(lastStyleTimer);styleMode=mode;$("baseMap").value=mode;errorCount=0;const style=mode==="vector"?"https://tiles.openfreemap.org/styles/liberty":rasterStyle(mode);setText("noticeBody",automatic?"Nguồn nền trước đó không phản hồi; đang thử "+mode+"...":tr("noticeBody"));map.setStyle(style);lastStyleTimer=setTimeout(()=>{if(styleMode==="vector")setBase("osm",true);else if(styleMode==="osm")setBase("sat",true);else showFailure()},12000)}
@@ -311,6 +324,7 @@ metroCatalog=other[0].status==="fulfilled"?other[0].value:{lines:[]};planningCat
 metroStops=asGeoCollection(other[3].status==="fulfilled"?other[3].value:null);busStops=asGeoCollection(other[4].status==="fulfilled"?other[4].value:null);
 developerOfficialRegistry=other[5].status==="fulfilled"?other[5].value:{projects:[]};developerMonitorState=other[6].status==="fulfilled"?other[6].value:{projects:{}};developerCandidateStaging=other[7].status==="fulfilled"?other[7].value:{candidates:[]};
 projectUniverse=other[8].status==="fulfilled"&&Array.isArray(other[8].value?.records)?other[8].value:{records:[],counts:{}};
+try{const g=await getJson("data/google_maps_place_registry_20261010.json");googleMapsPlaces=new Map((g.records||[]).map(x=>[x.dossier_id,x]))}catch(e){console.warn("Google Maps place registry unavailable",e?.message||e);googleMapsPlaces=new Map()}
 try{const x=await getJson("data/location_crosscheck_pins_20261010.json");candidateLocationPins=Array.isArray(x.pins)?x.pins.filter(v=>v.coordVerified===false):[]}catch(e){candidateLocationPins=[];console.warn("Optional research pins unavailable",e?.message||e)}
 priceSyncState=other[9].status==="fulfilled"?other[9].value:null;renderMapPriceStatus();
 dossierById=new Map((other[10].status==="fulfilled"&&Array.isArray(other[10].value?.records)?other[10].value.records:[]).map(x=>[x.id,x]));
