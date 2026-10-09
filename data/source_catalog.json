@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "last_reviewed_at": "2026-10-09",
+  "records": [
+    {
+      "id": "savills-acr-2019",
+      "name": "Savills Asia Cities Report - Vietnam Residential 1H 2019",
+      "organization": "Savills Research",
+      "url": "https://pdf.savills.asia/asia-pacific-research/asia-pacific-research/acr---vn-res-1h-2019.pdf",
+      "data_scope": [
+        "2014-2018 sales Grade A B C",
+        "2018 reported average selling price"
+      ],
+      "rights_status": "reference_short_facts_with_attribution",
+      "allowed_display": "short factual extracted figures with direct citation only",
+      "bulk_copy": false,
+      "notes": "Do not reproduce original report charts/tables in full."
+    },
+    {
+      "id": "savills-vietnam-brief-h2-2019",
+      "name": "Savills Vietnam Brief H2 2019",
+      "organization": "Savills Research",
+      "url": "https://pdf.savills.asia/asia-pacific-research/vietnam-research/quarterly-market-reports---english/vietnam-brief-2019h2e.pdf",
+      "data_scope": [
+        "2019 estimated sales and supply"
+      ],
+      "rights_status": "reference_short_facts_with_attribution",
+      "allowed_display": "brief factual figures with source",
+      "bulk_copy": false
+    },
+    {
+      "id": "hcmc-qhkt-2026",
+      "name": "Sở Quy hoạch - Kiến trúc TP.HCM",
+      "organization": "Official city authority",
+      "url": "https://qhkt.hochiminhcity.gov.vn/",
+      "data_scope": [
+        "planning news and official portal links"
+      ],
+      "rights_status": "link_only_until_gis_permission_cleared",
+      "bulk_copy": false
+    },
+    {
+      "id": "hcmc-gis-2026",
+      "name": "Cổng dữ liệu quy hoạch GIS TP.HCM",
+      "organization": "Official city portal",
+      "url": "https://gisxaydung.tphcm.gov.vn/quy-hoach-xd-pk/",
+      "data_scope": [
+        "planning layer user lookup"
+      ],
+      "rights_status": "link_only",
+      "bulk_copy": false,
+      "notes": "Do not claim direct GIS shape access or download rights."
+    },
+    {
+      "id": "maur-metro-1",
+      "name": "HCMC Urban Railway Management Authority",
+      "organization": "MAUR",
+      "url": "https://maur.hochiminhcity.gov.vn/",
+      "data_scope": [
+        "Metro line 1 official route and station lists"
+      ],
+      "rights_status": "facts_and_link_only",
+      "bulk_copy": false
+    },
+    {
+      "id": "hcmc-metro-operating",
+      "name": "HCMC Metro operator HURC",
+      "organization": "HURC",
+      "url": "https://hurc.metrohcm.ttgt.vn/",
+      "data_scope": [
+        "Metro 1 station names and operating status"
+      ],
+      "rights_status": "facts_and_link_only",
+      "bulk_copy": false
+    },
+    {
+      "id": "openfreemap",
+      "name": "OpenFreeMap vector tiles",
+      "organization": "OpenFreeMap",
+      "url": "https://openfreemap.org/quick_start/",
+      "data_scope": [
+        "base map"
+      ],
+      "rights_status": "public_usage_per_provider_terms",
+      "bulk_copy": false
+    },
+    {
+      "id": "osm",
+      "name": "OpenStreetMap",
+      "organization": "OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org/copyright",
+      "data_scope": [
+        "map features and street map tiles"
+      ],
+      "rights_status": "ODbL/data attribution; raster tile usage policy applies",
+      "bulk_copy": false
+    }
+  ]
+}

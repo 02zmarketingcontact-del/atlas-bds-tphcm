@@ -1,0 +1,79 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "source": "ATLAS V3 manually drawn alignment",
+    "verified": false,
+    "note": "Approximate schematic; not engineering geometry"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Metro 1 - Bến Thành - Suối Tiên",
+        "status": "operational",
+        "source_verified": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.69762,
+            10.77075
+          ],
+          [
+            106.702,
+            10.77547
+          ],
+          [
+            106.709,
+            10.7803
+          ],
+          [
+            106.7224,
+            10.7978
+          ],
+          [
+            106.735,
+            10.8017
+          ],
+          [
+            106.7425,
+            10.8025
+          ],
+          [
+            106.752,
+            10.8038
+          ],
+          [
+            106.764,
+            10.813
+          ],
+          [
+            106.767,
+            10.8213
+          ],
+          [
+            106.7635,
+            10.8328
+          ],
+          [
+            106.775,
+            10.844
+          ],
+          [
+            106.792,
+            10.8575
+          ],
+          [
+            106.807,
+            10.8713
+          ],
+          [
+            106.81406,
+            10.87953
+          ]
+        ]
+      }
+    }
+  ]
+}

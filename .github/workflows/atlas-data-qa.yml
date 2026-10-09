@@ -1,0 +1,24 @@
+name: Atlas data integrity and static validation
+on:
+  push:
+    branches: [main, feat/atlas-v4-map-data-foundation]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2 * * *'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify JSON, provenance and GIS schemas
+        run: node scripts/validate-data.cjs
+      - name: Verify browser JavaScript syntax
+        run: node --check assets/atlas-v4.js
