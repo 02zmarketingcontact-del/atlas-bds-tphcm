@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "last_run_at": "2026-10-09T08:51:36.614Z",
+  "review_state": "unverified_research_candidates_only",
+  "source_preference": "issuer project-specific official pages first",
+  "auto_published_project_facts": 0,
+  "format": "number and unit extraction from public pages; no page excerpts republished",
+  "candidates": [
+    {
+      "project_id": "akari",
+      "field": "land_area_hectare",
+      "raw_candidate": "8,5",
+      "reported_unit": "hecta",
+      "source_url": "https://akari.vn/",
+      "status": "UNVERIFIED_REVIEW_REQUIRED",
+      "evidence_method": "limited_public_official_page_regex",
+      "observed_at": "2026-10-09T08:51:24.988Z"
+    },
+    {
+      "project_id": "glory",
+      "field": "land_area_hectare",
+      "raw_candidate": "3,3",
+      "reported_unit": "ha",
+      "source_url": "https://market.vinhomes.vn/phan-khu/glory-heights-vinhomes-grand-park",
+      "status": "UNVERIFIED_REVIEW_REQUIRED",
+      "evidence_method": "limited_public_official_page_regex",
+      "observed_at": "2026-10-09T08:51:28.078Z"
+    },
+    {
+      "project_id": "glory",
+      "field": "tower_count",
+      "raw_candidate": "5",
+      "reported_unit": "toa nha",
+      "source_url": "https://market.vinhomes.vn/phan-khu/glory-heights-vinhomes-grand-park",
+      "status": "UNVERIFIED_REVIEW_REQUIRED",
+      "evidence_method": "limited_public_official_page_regex",
+      "observed_at": "2026-10-09T08:51:28.078Z"
+    },
+    {
+      "project_id": "glory",
+      "field": "tower_count",
+      "raw_candidate": "5",
+      "reported_unit": "toa nha",
+      "source_url": "https://market.vinhomes.vn/phan-khu/glory-heights-vinhomes-grand-park",
+      "status": "UNVERIFIED_REVIEW_REQUIRED",
+      "evidence_method": "limited_public_official_page_regex",
+      "observed_at": "2026-10-09T08:51:28.078Z"
+    },
+    {
+      "project_id": "origami",
+      "field": "apartment_count",
+      "raw_candidate": "2.400",
+      "reported_unit": "year",
+      "source_url": "https://theorigami.vinhomes.vn/the-origami-park/",
+      "status": "UNVERIFIED_REVIEW_REQUIRED",
+      "evidence_method": "limited_public_official_page_regex",
+      "observed_at": "2026-10-09T08:51:27.931Z"
+    },
+    {
+      "project_id": "phoenix",
+      "field": "apartment_count",
+      "raw_candidate": "1.226",
+      "reported_unit": "year",
+      "source_url": "https://www.dic.vn/du-an-dic-phoenix",
+      "status": "UNVERIFIED_REVIEW_REQUIRED",
+      "evidence_method": "limited_public_official_page_regex",
+      "observed_at": "2026-10-09T08:51:36.199Z"
+    }
+  ],
+  "caveats": [
+    "Do not treat number snippets as audited project facts",
+    "Project-specific facts need legal publisher cross-check and human verification",
+    "No numbers from generic portfolio pages are used"
+  ],
+  "workflow": "ATLAS daily official developer source review"
+}
