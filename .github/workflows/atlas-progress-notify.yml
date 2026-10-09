@@ -1,0 +1,87 @@
+name: ATLAS progress notifications
+on:
+  issues:
+    types: [closed, reopened]
+  pull_request_target:
+    types: [closed]
+  workflow_dispatch:
+  schedule:
+    - cron: '37 1 * * *'
+permissions:
+  contents: read
+  issues: write
+  pull-requests: read
+concurrency:
+  group: atlas-progress-desk
+  cancel-in-progress: false
+jobs:
+  notify:
+    if: github.event_name != 'pull_request_target' || github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update progress issue and notify when a task completes
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const issueNumber = 23;
+            const taskPattern = /^\[(?:GIS|HIST|PROJECT|APP|EVAL|DATAOPS|QA|OPS)-[0-9]+\]/;
+            const all = await github.paginate(github.rest.issues.listForRepo, {
+              owner, repo, state: "all", per_page: 100
+            });
+            const tasks = all.filter(item => !item.pull_request && taskPattern.test(item.title));
+            const completed = tasks.filter(item => item.state === "closed" && item.state_reason !== "not_planned");
+            const cancelled = tasks.filter(item => item.state === "closed" && item.state_reason === "not_planned");
+            const open = tasks.filter(item => item.state === "open");
+            const rate = tasks.length ? Math.round(100 * completed.length / tasks.length) : 0;
+            const stamp = new Date().toISOString().replace("T", " ").slice(0,16) + " UTC";
+            const newest = completed.slice().sort((a,b) => String(b.closed_at).localeCompare(String(a.closed_at))).slice(0,8);
+            const pending = open.slice().sort((a,b)=>a.number-b.number).slice(0,8);
+            const fmtItem = item => "- [#" + item.number + " " + item.title.replace(/@/g,"＠") + "](" + item.html_url + ")";
+            const panel = [
+              "**Tiến độ thực tế:** **" + completed.length + "/" + tasks.length + " task đã đóng** · " + rate + "% · " + open.length + " đang mở · " + cancelled.length + " dừng/không thực hiện",
+              "",
+              "**Cập nhật gần nhất:** " + stamp,
+              "",
+              "**Task vừa hoàn thành:**",
+              newest.length ? newest.map(fmtItem).join("\n") : "_Chưa có task được đóng hoàn thành._",
+              "",
+              "**Task chưa hoàn thành (tối đa 8):**",
+              pending.length ? pending.map(fmtItem).join("\n") : "_Không còn task đang mở._",
+              "",
+              "> Chỉ có dữ liệu trạng thái Issues mới quyết định tiến độ. Merge PR hoặc CI pass **không** tự đóng task.",
+            ].join("\n");
+            const {data: desk} = await github.rest.issues.get({owner,repo,issue_number:issueNumber});
+            const original=String(desk.body||"");
+            const begin="<!-- ATLAS_PROGRESS_START -->",end="<!-- ATLAS_PROGRESS_END -->";
+            const left=original.indexOf(begin),right=original.indexOf(end);
+            if (left<0 || right<left) throw new Error("Missing dashboard markers");
+            const updated = original.slice(0,left+begin.length)+"\n"+panel+"\n"+original.slice(right);
+            if(updated!==original)await github.rest.issues.update({owner,repo,issue_number:issueNumber,body:updated});
+            core.info("ATLAS board refreshed: "+completed.length+"/"+tasks.length+" completed");
+            
+            const event=context.eventName;
+            const action=context.payload.action;
+            const entity=context.payload.issue || context.payload.pull_request;
+            let message=null;
+            if(event==="issues" && entity && taskPattern.test(entity.title)){
+              const title=String(entity.title).replace(/@/g,"＠").replace(/[\r\n]/g," ");
+              const link=entity.html_url;
+              const mention="@"+owner;
+              if(action==="reopened")message=mention+" · ♻️ **TASK MỞ LẠI:** ["+title+"]("+link+")\n\nTiến độ còn "+completed.length+"/"+tasks.length+" task hoàn thành.";
+              else if(action==="closed" && entity.state_reason==="not_planned")message=mention+" · ⏸️ **TASK DỪNG / KHÔNG THỰC HIỆN:** ["+title+"]("+link+")\n\nKhông tính vào số đã hoàn thành.";
+              else if(action==="closed")message=mention+" · ✅ **TASK HOÀN THÀNH:** ["+title+"]("+link+")\n\nLý do đóng: "+(entity.state_reason||"không rõ — cần kiểm tra")+" · Tiến độ: "+completed.length+"/"+tasks.length+" task. Bằng chứng nghiệm thu xem trong issue.";
+            }
+            if(event==="pull_request_target" && context.payload.pull_request?.merged===true){
+              const pr=context.payload.pull_request;
+              const title=String(pr.title).replace(/@/g,"＠").replace(/[\r\n]/g," ");
+              message="@"+owner+" · 🔀 **ĐÃ MERGE MÃ NGUỒN:** [PR #"+pr.number+" — "+title+"]("+pr.html_url+")\n\nĐây là sự kiện hợp nhất mã nguồn, **chưa đồng nghĩa** website đã được triển khai hoặc task đã nghiệm thu.";
+            }
+            if(!message){core.info("Status synchronized, no completion notification to publish.");return}
+            const stampEvent=String(entity?.closed_at||entity?.merged_at||entity?.updated_at||"unknown");
+            const eventKey="<!-- atlas-event:" + event + ":" + action + ":" + (entity?.id||"none") + ":" + stampEvent + " -->";
+            const comments=await github.rest.issues.listComments({owner,repo,issue_number:issueNumber,per_page:100,page:1});
+            if(comments.data.some(c=>String(c.body||"").includes(eventKey))){core.info("Already notified: "+eventKey);return}
+            await github.rest.issues.createComment({owner,repo,issue_number:issueNumber,body:message+"\n\n"+eventKey});
+            core.info("GitHub completion notification published to Progress Desk");
