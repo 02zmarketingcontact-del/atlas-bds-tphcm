@@ -1,0 +1,30 @@
+name: ATLAS historical coverage review
+on:
+  pull_request:
+    paths:
+      - 'data/market_history_2006_2026.json'
+      - 'data/history_coverage_2006_2026.json'
+      - 'scripts/history-gap-report.cjs'
+      - '.github/workflows/atlas-history-gaps.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '19 3 * * 3'
+permissions:
+  contents: read
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Generate historic observation source-coverage matrix
+        run: node scripts/history-gap-report.cjs
+      - name: Archive historical gap report
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-history-coverage
+          path: artifacts/history-gap-report.md
+          if-no-files-found: error
+          retention-days: 7
