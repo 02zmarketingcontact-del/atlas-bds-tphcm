@@ -17,4 +17,16 @@ ck(p.wgs84.crs==="EPSG:4326"&&p.wgs84.x===p.wgs84.lng&&p.wgs84.y===p.wgs84.lat,"
 ck(p.wgs84.lat>9&&p.wgs84.lat<12&&p.wgs84.lng>105&&p.wgs84.lng<109,"out of region "+p.dossier_id);
 ck(p.osm_element_urls.length>0&&p.osm_element_urls.every(x=>x.startsWith("https://www.openstreetmap.org/")),"missing OSM citation "+p.dossier_id);
 }
+
+const publisher=get("data/qimap_remaining48_publisher_address_evidence_batch_20261010.json");
+ck(publisher.records.length===31,"31 issuer address research records required");
+const names=new Set();
+for(const p of publisher.records){
+ ck(core.has(p.dossier_id),"publisher evidence unknown dossier "+p.dossier_id);
+ ck(!names.has(p.dossier_id),"duplicate publisher evidence "+p.dossier_id);names.add(p.dossier_id);
+ ck(p.source_url.startsWith("https://")&&p.source_issuer==="OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT","missing project publisher ref "+p.dossier_id);
+ ck(p.site_point_verified===false&&p.developer_address_correlated_to_osm===false&&p.document_review_status==="NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW","address wrongly published as survey-grade "+p.dossier_id);
+}
+ck(publisher.counts.osm_reference_added===0&&publisher.counts.geo_verified===0,"new coordinates must never be fabricated");
+
 console.log("QIMAP GIS REVIEW PASS: 105 public GPS, 7 additional OSM-only cluster candidates under draft review, 41 other core dossiers without candidate, 0 new VERIFIED.");
