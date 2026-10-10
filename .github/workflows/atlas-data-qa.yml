@@ -24,6 +24,8 @@ jobs:
         run: node scripts/validate-qimap-gis-reference.cjs
       - name: Verify browser JavaScript syntax
         run: node --check assets/atlas-v4.js
+      - name: Validate QiMap sourced project profile
+        run: node scripts/validate-qimap-project-profile.cjs && node --check assets/qimap-project-profile.js
       - name: ATLAS V1 release smoke checks
         run: node scripts/validate-v1.cjs
       - name: QiMap and QILUVI brand identity contract
