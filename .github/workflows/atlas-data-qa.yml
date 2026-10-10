@@ -22,6 +22,8 @@ jobs:
         run: node scripts/validate-data.cjs
       - name: Validate 105 QiMap GIS references and provenance
         run: node scripts/validate-qimap-gis-reference.cjs
+      - name: Validate supplementary GIS source and publication gates
+        run: node scripts/validate-qimap-supplementary-gis.cjs
       - name: Verify browser JavaScript syntax
         run: node --check assets/atlas-v4.js
       - name: ATLAS V1 release smoke checks
