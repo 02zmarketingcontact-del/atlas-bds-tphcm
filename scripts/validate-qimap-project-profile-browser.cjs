@@ -2,10 +2,11 @@
 const {chromium}=require("playwright");
 (async()=>{
  const b=await chromium.launch({headless:true,args:["--no-sandbox","--disable-dev-shm-usage"]});
- const site=(process.env.ATLAS_SITE||"http://127.0.0.1:4173/").replace(/\\/?$/,"/");
+ const site=(process.env.ATLAS_SITE||"http://127.0.0.1:4173/");
+ const base=site.endsWith("/")?site:site+"/";
  try{
   const page=await b.newPage({viewport:{width:1440,height:900}});
-  await page.goto(site+"map-v4.html?p=norton",{waitUntil:"domcontentloaded",timeout:45000});
+  await page.goto(base+"map-v4.html?p=norton",{waitUntil:"domcontentloaded",timeout:45000});
   await page.locator("#detail.qimap-profile-pane").waitFor({timeout:50000});
   if(!(await page.locator("#detail").innerText()).includes("8 ha"))throw Error("Missing Norton area fact");
   if(!(await page.locator("#detail").innerText()).includes("CĐT"))throw Error("Missing developer verification label");
@@ -17,11 +18,11 @@ const {chromium}=require("playwright");
   await page.getByRole("button",{name:"Pháp lý & SPA"}).click();
   if(!(await page.locator("#detail .qmp-body").innerText()).includes("SPA"))throw Error("SPA caution missing");
   if(await page.locator("#detail .qmp-actions button").count()!==2)throw Error("Export and PDF actions missing");
-  await page.goto(site+"map-v4.html?p=empire",{waitUntil:"domcontentloaded",timeout:45000});
+  await page.goto(base+"map-v4.html?p=empire",{waitUntil:"domcontentloaded",timeout:45000});
   await page.locator("#detail.qimap-profile-pane").waitFor({timeout:50000});
   if(!(await page.locator("#detail").innerText()).includes("CĐT"))throw Error("Generic project lacks pending verification");
   const mobile=await b.newPage({viewport:{width:390,height:844},isMobile:true});
-  await mobile.goto(site+"map-v4.html?p=norton",{waitUntil:"domcontentloaded",timeout:45000});
+  await mobile.goto(base+"map-v4.html?p=norton",{waitUntil:"domcontentloaded",timeout:45000});
   await mobile.locator("#detail.qimap-profile-pane").waitFor({timeout:50000});
   const rect=await mobile.locator("#detail").boundingBox();
   if(rect.width>400||rect.x<0)throw Error("Mobile detail overflows viewport");
