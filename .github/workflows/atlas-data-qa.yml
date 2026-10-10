@@ -20,6 +20,8 @@ jobs:
           node-version: '22'
       - name: Verify JSON, provenance and GIS schemas
         run: node scripts/validate-data.cjs
+      - name: Validate 105 QiMap GIS references and provenance
+        run: node scripts/validate-qimap-gis-reference.cjs
       - name: Verify browser JavaScript syntax
         run: node --check assets/atlas-v4.js
       - name: ATLAS V1 release smoke checks

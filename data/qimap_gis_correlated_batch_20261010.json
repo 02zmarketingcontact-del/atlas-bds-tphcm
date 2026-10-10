@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-10-10",
+  "status": "RESEARCH_ONLY",
+  "license": "OpenStreetMap contributors / ODbL",
+  "data_rights": "OSM geographic named object matched to publisher-address; not a cadastral site survey",
+  "candidates": [
+    {
+      "dossier_id": "hist-monesaigonsouth",
+      "name": "M-One Saigon South",
+      "x": 106.71135,
+      "y": 10.74984,
+      "longitude": 106.71135,
+      "latitude": 10.74984,
+      "epsg": "EPSG:4326",
+      "osm_url": "https://www.openstreetmap.org/way/846920747",
+      "osm_reference": "https://mapcarta.com/W846920747",
+      "developer_address": "35/12 Bế Văn Cấm, Tân Kiểng, Quận 7 cũ, TP.HCM",
+      "publisher_url": "https://masterisehomes.com/m-one-nam-sai-gon/tin-tuc/tin-tuc-su-kien-m-one-nam-saigon/masteri-cong-bo-du-an-khu-dan-cu-m-one-nam-sai-gon",
+      "publisher_date": "2016-01-11",
+      "status": "SOURCE_CORROBORATED_PENDING_GIS_QA",
+      "coordVerified": false,
+      "caution": "OSM named apartment center, not surveyed entrance or legal parcel"
+    },
+    {
+      "dossier_id": "hist-felizenvista",
+      "name": "Feliz en Vista",
+      "x": 106.7557,
+      "y": 10.77782,
+      "longitude": 106.7557,
+      "latitude": 10.77782,
+      "epsg": "EPSG:4326",
+      "osm_url": "https://www.openstreetmap.org/way/711567157",
+      "osm_reference": "https://mapcarta.com/W711567157",
+      "developer_address": "01 Phan Văn Đáng, Thạnh Mỹ Lợi, Quận 2 cũ, TP.HCM",
+      "publisher_url": "https://www.capitaland.com/vn/en/stay/residential-development-listing/feliz-en-vista.html",
+      "publisher_date": null,
+      "status": "SOURCE_CORROBORATED_PENDING_GIS_QA",
+      "coordVerified": false,
+      "caution": "OSM named residential complex center, not individual tower location"
+    }
+  ]
+}

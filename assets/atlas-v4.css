@@ -45,3 +45,6 @@ html.embedded .topbar,html.embedded .sidebar,html.embedded .mapTools{display:non
 .projectDossier h3{font-size:13px;margin:4px 0 10px}
 .projectDossier .dossierSource{display:block;font-size:10px;margin:2px 0 8px}
 .projectDossier .muted{color:#718087;font-size:10px;line-height:1.6}
+
+/* Research geolocation tiers: distinct from existing price markers, no VERIFIED claim. */
+.projectMarker.researchPin{border:2px dashed #a97743;background:#fff9ef}.projectMarker.researchPin:after{background:#ad8152}.projectMarker.corroboratedPin{border-color:#448a86;background:#f5fbf9}.projectMarker.corroboratedPin:after{background:#448a86}.projectCluster.researchCluster{background:#665d4e;border:2px dashed #d9c297}.mapLegend .dot.corroborated{background:#448a86;margin-left:9px}.mapLegend .dot.osmReference{background:#ad8152;margin-left:9px}.mapLegend small{flex-basis:100%;font-size:9px;color:#6b777e;line-height:1.4}

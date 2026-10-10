@@ -97,7 +97,7 @@ async function run(){
   // 3) Full map - page loaded, map engine and project model initialized.
   try{
    await goto(desktop,"map-v4.html");
-   await desktop.waitForFunction(()=>document.querySelector("#projectCount")?.textContent?.trim()==="41",{timeout:30000});
+   await desktop.waitForFunction(()=>document.querySelector("#projectCount")?.textContent?.trim()==="105",{timeout:30000});
    await desktop.waitForSelector(".projectMarker,.projectCluster",{timeout:30000});
    const markerCount=await desktop.locator(".projectMarker,.projectCluster").count();
    const canvasCount=await desktop.locator("#map canvas").count();
@@ -115,7 +115,7 @@ async function run(){
     try{
       await degraded.route(/https:\/\/(unpkg\.com|cdn\.jsdelivr\.net)\/.*maplibre-gl/i,route=>route.abort("failed"));
       await goto(degraded,"map-v4.html");
-      await degraded.waitForFunction(()=>document.querySelector("#projectCount")?.textContent.trim()==="41",{timeout:20000});
+      await degraded.waitForFunction(()=>document.querySelector("#projectCount")?.textContent.trim()==="105",{timeout:20000});
       await degraded.waitForSelector("#mapNotice:not([hidden])",{timeout:15000});
       await degraded.locator("#search").fill("The Prive");
       await degraded.waitForFunction(()=>document.querySelectorAll("#projectList .projectCard").length===1,{timeout:5000});
