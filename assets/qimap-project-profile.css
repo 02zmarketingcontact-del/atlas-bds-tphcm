@@ -1,0 +1,70 @@
+/* QiMap sourced project dossier. Compatible with the existing V4 map. */
+#detail.detail.qimap-profile-pane{right:284px;width:min(770px,calc(100vw - 670px));max-width:none;min-width:370px;padding:0;background:#fafaf7;border-color:#dfe8e3;color:#173e3a;overflow:auto;scrollbar-color:#cad7cf transparent}
+.qimap-profile-pane *{box-sizing:border-box}
+.qimap-profile-pane .qmp-top{display:flex;align-items:flex-start;justify-content:space-between;padding:22px 25px 16px;gap:12px;background:white}
+.qmp-kicker{display:block;font-size:10px;font-weight:800;letter-spacing:.17em;color:#907750}
+.qimap-profile-pane .qmp-top h2{font-size:28px;letter-spacing:-.045em;margin:7px 0 5px;font-weight:850;color:#153a36;line-height:1.12}
+.qimap-profile-pane .qmp-top p{font-size:12px;margin:4px 0;color:#637f78}
+.qimap-profile-pane button.qmp-close{flex:none;display:grid;place-items:center;width:36px;height:36px;color:#28554b;background:#f1f5ef;border:1px solid #d9e7df;border-radius:9px;font-size:22px;padding:0;line-height:1;cursor:pointer}
+.qmp-hero{margin:0 21px;border-radius:13px;min-height:170px;background:radial-gradient(circle at 74% 30%,#c6dace,transparent 46%),linear-gradient(150deg,#e6eee5,#a9c4b1 68%,#7ca294);position:relative;overflow:hidden;display:flex;align-items:end}
+.qmp-hero:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,#163f37dd 0%,transparent 62%)}
+.qmp-cityscape{position:absolute;left:36%;right:3%;bottom:0;height:86%;display:flex;align-items:end;gap:4.5%}
+.qmp-bldg{display:block;flex:1;min-width:12px;height:55%;border:1px solid #eff8f3b0;background:repeating-linear-gradient(to bottom,#e9f3ec89 0 6px,#74948b70 6px 9px);box-shadow:inset 2px 0 0 #e9f7f0aa}
+.qmp-bldg-0{height:54%}.qmp-bldg-1{height:88%}.qmp-bldg-2{height:63%}.qmp-bldg-3{height:76%}.qmp-bldg-4{height:97%}.qmp-bldg-5{height:64%}.qmp-bldg-6{height:79%}
+.qmp-hero-text{position:relative;z-index:1;padding:20px 24px;color:white;display:flex;gap:5px;flex-direction:column;max-width:100%}
+.qmp-hero-text b{font-size:25px;letter-spacing:-.02em}.qmp-hero-text small{font-size:11px;line-height:1.45;max-width:450px;color:#f5faf8}
+.qmp-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:14px 24px 5px}
+.qmp-pill{color:#9b5f25;background:#fcf0dd;border:1px solid #f0dec2;border-radius:40px;padding:5px 8px;font-size:10px;font-weight:800;display:inline-block;line-height:1.2;white-space:normal}
+.qmp-subtle{font-size:12px;color:#6d857c;font-weight:700}
+.qmp-warning{margin:10px 23px 13px;background:#fff9ec;border:1px solid #f4e4bd;border-radius:10px;color:#846132;font-size:11px;line-height:1.6;padding:12px 14px}
+.qmp-tabs{padding:2px 23px 0;display:flex;gap:8px;overflow-x:auto;scrollbar-width:thin;border-bottom:1px solid #d8e4df;position:sticky;top:0;z-index:5;background:#fafaf7}
+.qmp-tab{border:0;border-bottom:3px solid transparent;background:transparent;padding:12px 5px 10px;color:#768a7f;font-size:12px;font-weight:800;white-space:nowrap;cursor:pointer}
+.qmp-tab.active{color:#095849;border-bottom-color:#b89c69}
+.qmp-body{padding:15px 23px 25px;min-height:215px}
+.qmp-section-title{font-weight:850;font-size:17px;margin:7px 0 7px;color:#123c34}
+.qmp-section-note{font-size:11px;color:#84938d;line-height:1.55;margin:6px 0 12px}
+.qmp-field-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:13px 0 15px}
+.qmp-fact{background:white;border:1px solid #e2eae4;border-radius:10px;padding:12px;display:flex;flex-direction:column;min-height:92px;gap:4px}
+.qmp-fact-head{display:flex;flex-direction:column;gap:7px}
+.qmp-key{font-size:11px;color:#678076;font-weight:600}
+.qmp-value{font-size:18px;font-weight:850;line-height:1.2;color:#205449;overflow-wrap:anywhere}
+.qmp-status{font-size:10px;color:#ae742b;font-weight:800}
+.qmp-status.qmp-verified{color:#2e8b63}
+.qmp-source,.qmp-note{font-size:10px;color:#829089;line-height:1.5}
+.qmp-field{padding:12px 14px;border:1px solid #e0e9e3;background:#fff;margin:10px 0;border-radius:11px}
+.qmp-field-top{display:flex;align-items:center;gap:10px;justify-content:space-between;flex-wrap:wrap}
+.qmp-field-top b{font-size:12px;color:#174437}
+.qmp-field-value{font-weight:750;font-size:15px;padding:10px 0 5px;line-height:1.5}
+.qmp-field-note{font-size:11px;line-height:1.65;margin:4px 0;color:#667d71}
+.qimap-profile-pane .qmp-inline-link{font-size:11px;color:#216754;text-decoration:underline;margin:6px 0 0;font-weight:750}
+.qmp-mapbox{border-radius:12px;border:1px solid #dce8e1;background:linear-gradient(120deg,#e6efe8,#f5faf6);padding:16px;display:flex;flex-direction:column;gap:11px}
+.qmp-mapbox b{font-size:22px;word-break:break-word}
+.qmp-mapbox small{font-size:11px;color:#81643b}
+.qimap-profile-pane .qmp-maplink{font-weight:850;font-size:12px;color:#1a6a57;text-decoration:underline}
+.qmp-price{background:#e7f2ec;border:1px solid #d0e7d8;border-radius:10px;padding:18px;display:flex;gap:10px;flex-direction:column;color:#1b5142}
+.qmp-price small{font-size:11px;line-height:1.5}
+.qmp-price strong{font-size:24px;font-weight:850;color:#095a49;line-height:1.4;margin:0}
+.qmp-legal-box{display:grid;gap:7px;background:white;border:1px solid #dce9e1;border-radius:10px;padding:16px}
+.qmp-legal-box b{font-size:12px;color:#174d3e}.qmp-legal-box p{font-size:11px;line-height:1.6;margin:0 0 8px;color:#6d8376}
+.qmp-source-list{display:flex;flex-direction:column;gap:10px}
+.qmp-source-item{background:white;border-radius:9px;padding:12px;border:1px solid #dce7e0;display:flex;flex-direction:column;gap:7px}
+.qimap-profile-pane .qmp-source-link{font-size:12px;word-break:break-word;font-weight:750;color:#165c49;margin:0}
+.qmp-source-item small{font-size:10px;color:#789187}
+.qmp-legacy-evidence{margin:0 23px 20px;padding:14px 15px;border:1px solid #d8e6db;border-radius:11px;background:#fff;overflow-wrap:anywhere}
+.qmp-legacy-evidence .qmp-section-title{font-size:14px;border-bottom:1px solid #e5ece5;padding-bottom:9px;margin:3px 0 8px}
+.qmp-legacy-evidence .detailRow{padding:10px 0}
+.qmp-legacy-evidence .projectDossier{margin:12px 0}
+.qmp-legacy-evidence .caution{font-size:11px;line-height:1.5}
+.qmp-legacy-evidence .officialSourceLink{font-weight:800}
+.qmp-legacy-evidence a{overflow-wrap:anywhere}
+.qmp-conflict{background:#fff7e8;border-left:4px solid #d8a656;border-radius:6px;padding:12px;margin:11px 0;color:#705629;font-size:11px}
+.qmp-conflict b{font-size:11px}.qmp-conflict p{line-height:1.65}
+.qmp-actions{padding:15px 22px;background:white;position:sticky;bottom:0;display:flex;gap:10px;border-top:1px solid #e0e8e2;flex-wrap:wrap}
+.qmp-btn{padding:12px 14px;border-radius:8px;border:1px solid #c3d9ce;background:#fff;color:#145a4d;font-size:12px;font-weight:850;cursor:pointer;flex:1}
+.qmp-btn.qmp-primary{background:#125844;color:#fff;border-color:#125844}
+.qmp-btn:disabled{opacity:.6;cursor:wait}
+@media(max-width:1340px){#detail.detail.qimap-profile-pane{width:min(620px,calc(100vw - 630px));min-width:360px;right:254px}}
+@media(max-width:1100px){#detail.detail.qimap-profile-pane{width:calc(100vw - 520px);min-width:340px;right:215px}.qmp-hero{min-height:142px}}
+@media(max-width:820px){#detail.detail.qimap-profile-pane{position:absolute;z-index:16;left:auto;right:0;top:0;bottom:0;height:100%;width:min(520px,100vw);min-width:0;border:0;border-radius:0;box-shadow:-6px 0 25px #123b3940}.qmap-profile-pane .qmp-hero{min-height:150px}.qmp-field-grid{grid-template-columns:1fr 1fr}.qmp-tab{font-size:11px;padding:10px 4px}}
+@media(max-width:510px){#detail.detail.qimap-profile-pane{width:100vw}.qmp-top{padding:17px!important}.qimap-profile-pane .qmp-top h2{font-size:23px}.qmp-hero{margin:0 12px;min-height:132px}.qmp-body{padding:13px}.qmp-tabs{padding-left:12px;padding-right:12px}.qmp-meta{padding-left:14px}.qmp-warning{margin-left:12px;margin-right:12px}.qmp-field-grid{gap:7px}.qmp-fact{padding:10px}.qmp-value{font-size:15px}.qmp-hero-text b{font-size:20px}.qmp-actions{padding:12px}}
+@media print{body{height:auto!important;overflow:visible!important;background:white!important}body>.topbar,.sidebar,.mapTools,.mapLegend,#map,#mapNotice{display:none!important}.workspace,.mapArea{height:auto!important;overflow:visible!important;display:block!important}.detail.qimap-profile-pane,#detail.detail.qimap-profile-pane{position:static!important;width:100%!important;max-width:none!important;height:auto!important;min-width:0!important;overflow:visible!important;border:0!important;box-shadow:none!important;padding:0!important}.qmp-top{padding:10px 0!important}.qmp-tabs,.qmp-actions,.qmp-close{display:none!important}.qmp-warning,.qmp-field,.qmp-fact{break-inside:avoid} .qmp-body{padding:10px!important}.qmp-hero{min-height:130px!important}}

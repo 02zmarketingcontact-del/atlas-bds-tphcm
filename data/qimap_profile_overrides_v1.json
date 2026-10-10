@@ -1,0 +1,328 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-10",
+  "policy": {
+    "public_label_unverified": "Cần CĐT xác thực / Chưa xác minh độc lập",
+    "source_priority": [
+      "Văn bản pháp lý cơ quan nhà nước",
+      "Tài liệu chính thức của CĐT",
+      "Văn bản nhà phân phối được CĐT ủy quyền",
+      "Nguồn thị trường độc lập có thời điểm",
+      "Bản tham khảo người dùng cung cấp"
+    ],
+    "verification_rules": "Một thông tin trong tài liệu tham khảo không tự động được coi là CĐT công bố. Không công bố giá như giao dịch, quota người nước ngoài hay ga metro được phê duyệt nếu thiếu nguồn.",
+    "publication": "Nhãn theo CĐT phải chỉ sử dụng sau khi kiểm tra tài liệu thực sự do CĐT phát hành. Mỗi fact cần nguồn, thời điểm, phạm vi và trạng thái xác minh."
+  },
+  "projects": {
+    "map-norton": {
+      "notice": "Tài liệu mẫu Norton Park do người dùng cung cấp có nhiều số liệu chưa kiểm chứng. TẤT CẢ thông số dưới đây chỉ là thông tin tham khảo cần CĐT xác thực, không phải xác nhận chính thức của Gamuda Land.",
+      "document_reference": "Infographic Norton Park.pdf (2 trang), cung cấp 10/10/2026; tài liệu riêng tư không đăng lại công khai.",
+      "facts": [
+        {
+          "key": "land_area",
+          "group": "overview",
+          "label": "Diện tích khu đất",
+          "value": "8 ha",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 1 · thông số tổng quan"
+        },
+        {
+          "key": "construction_density",
+          "group": "overview",
+          "label": "Mật độ xây dựng",
+          "value": "20%",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 1 · thông số tổng quan"
+        },
+        {
+          "key": "tower_height",
+          "group": "overview",
+          "label": "Chiều cao khối tháp",
+          "value": "35 tầng mỗi tháp",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 1 · thông số tổng quan"
+        },
+        {
+          "key": "total_units",
+          "group": "overview",
+          "label": "Quy mô sản phẩm",
+          "value": "Khoảng 5.000 sản phẩm",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 1 · số liệu cần đối chiếu phê duyệt quy hoạch"
+        },
+        {
+          "key": "product_types",
+          "group": "overview",
+          "label": "Loại sản phẩm",
+          "value": "Studio, căn hộ 1–3 phòng ngủ, shophouse, penthouse, officetel",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 1 · loại hình và chức năng sử dụng cần đối chiếu hồ sơ được phê duyệt"
+        },
+        {
+          "key": "apartment_sizes",
+          "group": "overview",
+          "label": "Diện tích căn hộ",
+          "value": "35–110 m²; penthouse khoảng 180 m²",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 1 · diện tích tham khảo"
+        },
+        {
+          "key": "landscape",
+          "group": "overview",
+          "label": "Cảnh quan và tiện ích",
+          "value": "Theo tài liệu: khoảng 2,5 ha cảnh quan và tiện ích",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 1 · cần kiểm tra tỷ lệ đất cây xanh trên hồ sơ quy hoạch"
+        },
+        {
+          "key": "frontage",
+          "group": "location",
+          "label": "Vị trí theo tài liệu",
+          "value": "Mặt tiền Quốc lộ 13, phường Thuận Giao, Thuận An (địa giới cũ)",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 1 · cần xác minh vị trí cổng, ranh đất, địa chỉ hành chính mới"
+        },
+        {
+          "key": "surroundings",
+          "group": "location",
+          "label": "Điểm đến xung quanh",
+          "value": "Gần AEON Mall Bình Dương; đối diện sân golf Sông Bé",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 1 · cần đo khoảng cách thực tế"
+        },
+        {
+          "key": "industrial",
+          "group": "location",
+          "label": "Kết nối KCN",
+          "value": "Tài liệu ghi gần VSIP 1 và KCN Việt Hương",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 1 · thời gian di chuyển chưa được xác thực"
+        },
+        {
+          "key": "metro",
+          "group": "location",
+          "label": "Metro / ga C8",
+          "value": "Tài liệu mô tả ga C8 cách 0 km; chưa có tọa độ ga đã phê duyệt để kiểm chứng",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 1 · CHƯA được phép hiển thị như một cam kết hạ tầng"
+        },
+        {
+          "key": "road",
+          "group": "location",
+          "label": "Mở rộng Quốc lộ 13",
+          "value": "Tài liệu tham khảo nêu lộ giới 60 m, 10 làn và mốc 2027–2028",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 1 · phải kiểm tra phạm vi gói thi công/tiến độ pháp lý"
+        },
+        {
+          "key": "skybridge",
+          "group": "amenity",
+          "label": "SkyBridge",
+          "value": "Cầu nối trên không giữa các tòa tháp",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 2 · chỉ là tiện ích tài liệu tham khảo"
+        },
+        {
+          "key": "pool",
+          "group": "amenity",
+          "label": "Infinity Pool",
+          "value": "Hồ bơi vô cực, tầm nhìn sân golf theo tài liệu",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 2 · cần kiểm tra thiết kế được phê duyệt"
+        },
+        {
+          "key": "sky_dining",
+          "group": "amenity",
+          "label": "Dining in the Sky",
+          "value": "Sky Bar và nhà hàng trên cao",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 2 · cần kiểm tra công năng, quyền tiếp cận"
+        },
+        {
+          "key": "sky_gym",
+          "group": "amenity",
+          "label": "Sky Gym / Yoga",
+          "value": "Không gian tập luyện trên cao",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 2 · cần kiểm tra sơ đồ tiện ích"
+        },
+        {
+          "key": "ecopark",
+          "group": "amenity",
+          "label": "Công viên và vườn treo",
+          "value": "Cảnh quan sinh thái, đường dạo bộ, khu BBQ, khu vui chơi trẻ em",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 2 · theo hình dung marketing"
+        },
+        {
+          "key": "coworking",
+          "group": "amenity",
+          "label": "Không gian cộng đồng",
+          "value": "Thư viện, co-working space",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 2 · cần kiểm chứng số lượng/diện tích"
+        },
+        {
+          "key": "parking",
+          "group": "amenity",
+          "label": "Vận hành và đỗ xe",
+          "value": "Smart Parking, an ninh camera, kiểm soát thẻ tầng",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 2 · chưa có hồ sơ kỹ thuật"
+        },
+        {
+          "key": "external",
+          "group": "amenity",
+          "label": "Tiện ích ngoại khu",
+          "value": "Tài liệu nêu các cơ sở y tế, giáo dục và thương mại lân cận",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 2 · cần xác minh khoảng cách và hiện trạng"
+        },
+        {
+          "key": "reference_price",
+          "group": "market",
+          "label": "Khung giá trong tài liệu",
+          "value": "55–65 triệu đồng/m² (mang tính dự kiến)",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 2 · chưa có bảng giá CĐT, VAT, phí bảo trì hay thời điểm ghi nhận"
+        },
+        {
+          "key": "reference_comps",
+          "group": "market",
+          "label": "So sánh tham khảo",
+          "value": "A&T Saigon Riverside ~52; Emerald Golf View 45–48; Astral City ~45 triệu đồng/m²",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 2 · chưa đồng nhất loại căn, diện tích, điều kiện giá, thời điểm, tính pháp lý"
+        },
+        {
+          "key": "legal_owner",
+          "group": "legal",
+          "label": "Chủ thể pháp lý của dự án",
+          "value": "Cần CĐT cung cấp tên pháp nhân, giấy tờ đất, quy hoạch 1/500 và điều kiện bán",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Chưa có tài liệu pháp lý được tải lên"
+        },
+        {
+          "key": "foreign_quota",
+          "group": "legal",
+          "label": "SPA / suất mua của người nước ngoài",
+          "value": "Chưa có văn bản chứng minh dự án đủ điều kiện bán cho người nước ngoài và hạn mức còn lại",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Không được suy luận từ việc CĐT có vốn nước ngoài"
+        },
+        {
+          "key": "construction",
+          "group": "timeline",
+          "label": "Khởi công",
+          "value": "Tài liệu tham khảo ghi năm 2026",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 2 · mốc kế hoạch cần chứng thực"
+        },
+        {
+          "key": "handover",
+          "group": "timeline",
+          "label": "Bàn giao",
+          "value": "Tài liệu tham khảo ghi 2027–2028",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 2 · chưa có hợp đồng/bảng tiến độ CĐT"
+        },
+        {
+          "key": "metro_finish",
+          "group": "timeline",
+          "label": "Metro vận hành",
+          "value": "Tài liệu tham khảo ghi năm 2030",
+          "status": "needs_developer_confirmation",
+          "source_tier": "user_supplied_reference",
+          "source_label": "Tài liệu mẫu Norton Park (PDF, 2 trang) do người dùng cung cấp · chưa có xác nhận chính thức từ CĐT",
+          "checked_at": null,
+          "note": "Trang 2 · chỉ là kỳ vọng kế hoạch, không phải cam kết"
+        }
+      ],
+      "conflicts": [
+        "Giá: kho QiMap ban đầu ghi 66 triệu/m² (trước VAT); bản mẫu ghi 55–65 triệu/m². Cần CĐT xác minh loại căn, thời điểm, VAT, chiết khấu và đơn vị giá.",
+        "Quy mô: bản mẫu ghi 8 ha, 35 tầng, khoảng 5.000 sản phẩm. Cần bản 1/500 hoặc thông số quy hoạch/phát hành chính thức để xác nhận.",
+        "Hạ tầng: bản mẫu ghi ga C8 cách 0 km và metro vận hành 2030. Cần quy hoạch vị trí ga, tuyến/pha đầu tư và công bố cơ quan có thẩm quyền.",
+        "Bàn giao 2027–2028 chỉ là nội dung bản mẫu; cần chính sách bán hàng/HĐMB và kế hoạch tiến độ cập nhật từ CĐT."
+      ],
+      "sources": []
+    }
+  }
+}

@@ -1,0 +1,18 @@
+"use strict";
+const fs = require("node:fs");
+const assert = require("node:assert/strict");
+const read = p => fs.readFileSync(p,"utf8");
+const data = JSON.parse(read("data/qimap_profile_overrides_v1.json"));
+const index = JSON.parse(read("data/project_search_index.json"));
+const app = read("assets/atlas-v4.js");
+const page = read("map-v4.html");
+const profile = read("assets/qimap-project-profile.js");
+assert(index.records.length>=150);
+assert(data.projects["map-norton"].facts.length>=20);
+assert(data.projects["map-norton"].facts.every(f=>f.status==="needs_developer_confirmation"));
+assert(data.projects["map-norton"].facts.every(f=>f.source_label));
+assert(page.includes("qimap-project-profile.js"));
+assert(page.includes("qimap-project-profile.css"));
+assert((app.match(/QiMapProfiles\?\.enhance/g)||[]).length===3);
+assert(profile.includes("Cần đối chiếu CĐT"));
+console.log("QIMAP PROFILE QA PASS",index.records.length,data.projects["map-norton"].facts.length);
