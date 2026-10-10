@@ -1,0 +1,562 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-10-10",
+  "scope": "Publisher-location text evidence intake for 41 still-missing + 7 existing draft OSM candidates; NO Google Maps coordinate scraping",
+  "publication_gate": "RESEARCH_ONLY",
+  "publisher_address_claims_are_cadastral_verified": false,
+  "source_quality": "Developer or developer-owned official page/notice; individual claim still requires project-specific identity reconciliation",
+  "cohort_total": 153,
+  "records": [
+    {
+      "dossier_id": "hist-richstar",
+      "location_text_publisher": "241 and 278 Hòa Bình, Hiệp Tân, Tân Phú old",
+      "street_hint": "Hòa Bình",
+      "house_number_hint": "241;278",
+      "location_precision": "EXACT_BUILDING_ADDRESS",
+      "quality_group": "NUMBERED_PUBLISHER_ADDRESS",
+      "identity_flags": [
+        "TWO_SEPARATE_STREET_FRONTS"
+      ],
+      "source_url": "https://www.novaland.com.vn/richstar/tong-quan-8",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "RichStar has address 241 and 278, verify which subcomplex/phase matches candidate GPS."
+    },
+    {
+      "dossier_id": "hist-thebotanica",
+      "location_text_publisher": "104 Phổ Quang, Phường 2, Tân Bình old",
+      "street_hint": "Phổ Quang",
+      "house_number_hint": "104",
+      "location_precision": "EXACT_BUILDING_ADDRESS",
+      "quality_group": "NUMBERED_PUBLISHER_ADDRESS",
+      "identity_flags": [],
+      "source_url": "https://www.novaland.com.vn/the-botanica-2/tong-quan-22",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Publisher states condo + shophouses; not Botanica Premier."
+    },
+    {
+      "dossier_id": "hist-rivergateresidence",
+      "location_text_publisher": "151-155 Bến Vân Đồn, Phường 6, Quận 4 old",
+      "street_hint": "Bến Vân Đồn",
+      "house_number_hint": "151-155",
+      "location_precision": "EXACT_BUILDING_ADDRESS",
+      "quality_group": "NUMBERED_PUBLISHER_ADDRESS",
+      "identity_flags": [],
+      "source_url": "https://www.novaland.com.vn/tong-quan-19",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Publisher records 9,600m2 land; previous issuer data conflicts with some third-party 7,069m2."
+    },
+    {
+      "dossier_id": "hist-theprinceresidence",
+      "location_text_publisher": "17-19-21 Nguyễn Văn Trỗi, Phú Nhuận old",
+      "street_hint": "Nguyễn Văn Trỗi",
+      "house_number_hint": "17-19-21",
+      "location_precision": "EXACT_BUILDING_ADDRESS",
+      "quality_group": "NUMBERED_PUBLISHER_ADDRESS",
+      "identity_flags": [],
+      "source_url": "https://www.novaland.com.vn/the-prince-residence/tong-quan-15",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Condo and office blocks must not be conflated."
+    },
+    {
+      "dossier_id": "hist-galaxy9",
+      "location_text_publisher": "Nguyễn Khoái, Quận 4 old",
+      "street_hint": "Nguyễn Khoái",
+      "house_number_hint": null,
+      "location_precision": "STREET_ONLY",
+      "quality_group": "STREET_NOT_SITE",
+      "identity_flags": [],
+      "source_url": "https://www.novaland.com.vn/galaxy-9",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "No number on cited first-party page; street not sufficient for GPS point."
+    },
+    {
+      "dossier_id": "hist-luckydragonresidence",
+      "location_text_publisher": "359 Đỗ Xuân Hợp, Phước Long B, Quận 9 old (brochure); 41A on 2015 leaflet",
+      "street_hint": "Đỗ Xuân Hợp",
+      "house_number_hint": "359;41A",
+      "location_precision": "CONFLICTED_HOUSE_NUMBERS",
+      "quality_group": "NEEDS_GEOMETRY_REVIEW",
+      "identity_flags": [
+        "LEGAL_ADDRESS_REVIEW"
+      ],
+      "source_url": "https://www.novaland.com.vn/Data/Sites/1/media/NVL_Brochure.pdf",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Issuer publications disagree: 359 versus older 41A, do not use exact house number before reconciliation."
+    },
+    {
+      "dossier_id": "hist-golfparkresidence",
+      "location_text_publisher": "Golf Park fronting Vietnam Golf Club, Long Thạnh Mỹ, Quận 9 old",
+      "street_hint": null,
+      "house_number_hint": null,
+      "location_precision": "AREA_ONLY",
+      "quality_group": "NEEDS_GEOMETRY_REVIEW",
+      "identity_flags": [
+        "NON_APARTMENT_TOWNHOUSES"
+      ],
+      "source_url": "https://www.novaland.com.vn/golf-park",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Critical catalog classification: Novaland calls it townhouse/compound, not a pure apartment condominium."
+    },
+    {
+      "dossier_id": "hist-monegiadinh",
+      "location_text_publisher": "12 Nguyễn Bỉnh Khiêm, Phường 1, Gò Vấp old",
+      "street_hint": "Nguyễn Bỉnh Khiêm",
+      "house_number_hint": "12",
+      "location_precision": "EXACT_BUILDING_ADDRESS",
+      "quality_group": "NUMBERED_PUBLISHER_ADDRESS",
+      "identity_flags": [],
+      "source_url": "https://masterisehomes.com/m-one-gia-dinh/lien-he-m-one-gia-dinh",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Publisher project-specific contact page."
+    },
+    {
+      "dossier_id": "hist-d1mension",
+      "location_text_publisher": "608 Võ Văn Kiệt, Cầu Kho, Quận 1 old — Block A",
+      "street_hint": "Võ Văn Kiệt",
+      "house_number_hint": "608",
+      "location_precision": "EXACT_BUILDING_ADDRESS",
+      "quality_group": "NUMBERED_PUBLISHER_ADDRESS",
+      "identity_flags": [
+        "SHARED_SITE_BLOCK_A"
+      ],
+      "source_url": "https://www.capitaland.com/content/dam/sites/d1mension/tong-quan-du-anf6e5.html?lag=vi",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "D1MENSION is Block A of a shared-site two-block project; separate from ZENITY Block B."
+    },
+    {
+      "dossier_id": "hist-define",
+      "location_text_publisher": "No. 2, Đường 60-TML, Thạnh Mỹ Lợi, TP Thủ Đức old",
+      "street_hint": "60-TML",
+      "house_number_hint": "2",
+      "location_precision": "EXACT_BUILDING_ADDRESS",
+      "quality_group": "NUMBERED_PUBLISHER_ADDRESS",
+      "identity_flags": [],
+      "source_url": "https://www.capitaland.com/vn/vi/stay/residential-development-listing/define.html",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Do not confuse corporate registered address 02 Phan Văn Đáng with DEFINE project site at No.2 60-TML."
+    },
+    {
+      "dossier_id": "hist-zenity",
+      "location_text_publisher": "608 Võ Văn Kiệt, Cầu Kho, Quận 1 old — Block B",
+      "street_hint": "Võ Văn Kiệt",
+      "house_number_hint": "608",
+      "location_precision": "EXACT_BUILDING_ADDRESS",
+      "quality_group": "NUMBERED_PUBLISHER_ADDRESS",
+      "identity_flags": [
+        "SHARED_SITE_BLOCK_B"
+      ],
+      "source_url": "https://www.capitaland.com/sites/zenity/data/ZENITY-Notice-on-new-SPA-template.pdf",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Official SCT notification identifies ZENITY Block B at 608 Võ Văn Kiệt; cannot reuse D1MENSION Block A marker."
+    },
+    {
+      "dossier_id": "hist-theviewatrivierapoint",
+      "location_text_publisher": "Riviera Point, Quận 7, TP.HCM old",
+      "street_hint": null,
+      "house_number_hint": null,
+      "location_precision": "PROJECT_PARENT_AREA_ONLY",
+      "quality_group": "NEEDS_GEOMETRY_REVIEW",
+      "identity_flags": [
+        "PARENT_PHASE_NESTING"
+      ],
+      "source_url": "https://www.keppel.com/realestate/vn/Live/The-View",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "The View is 2019-completed phase of Riviera Point, locate its own towers before placing precise coordinates."
+    },
+    {
+      "dossier_id": "hist-celestaheights",
+      "location_text_publisher": "Nguyễn Hữu Thọ, Nhà Bè old",
+      "street_hint": "Nguyễn Hữu Thọ",
+      "house_number_hint": null,
+      "location_precision": "STREET_ONLY",
+      "quality_group": "STREET_NOT_SITE",
+      "identity_flags": [
+        "CELESTA_PHASE_2"
+      ],
+      "source_url": "https://www.keppel.com/realestate/vn/News-Library/Keppel-Land-and-Shopee-join-hands-to-collaborate-on-Celesta-Heights-project",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Celesta Heights phase 2, not Celesta Avenue/Rise; no numbered entrance in cited release."
+    },
+    {
+      "dossier_id": "hist-starhill",
+      "location_text_publisher": "Đường số 10, lô C14B + C15B, khu Star Hill, Phú Mỹ Hưng, Quận 7 old",
+      "street_hint": "Đường số 10",
+      "house_number_hint": null,
+      "location_precision": "TWO_LOT_COMPLEX",
+      "quality_group": "NEEDS_GEOMETRY_REVIEW",
+      "identity_flags": [
+        "MULTI_BUILDING_PARENT"
+      ],
+      "source_url": "https://phumyhung.vn/du-an/star-hill/",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Official developer identifies separate land blocks C14B and C15B, not one building."
+    },
+    {
+      "dossier_id": "hist-thepeakmidtown",
+      "location_text_publisher": "Lô M8A/M8B, Phú Mỹ Hưng Midtown, Đường số 16, Quận 7 old",
+      "street_hint": "Đường số 16",
+      "house_number_hint": null,
+      "location_precision": "MASTERPLAN_LOT",
+      "quality_group": "NEEDS_GEOMETRY_REVIEW",
+      "identity_flags": [
+        "PHASE_SUBBLOCKS"
+      ],
+      "source_url": "https://phumyhung.vn/midtown/phu-my-hung-kien-tao-loi-xanh-da-lop-ben-trong-du-an-the-peak/",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "The Peak Phase 4 of Midtown with two buildings M8A and M8B; avoid parent index as building centroid."
+    },
+    {
+      "dossier_id": "hist-thesymphonymidtown",
+      "location_text_publisher": "Phú Mỹ Hưng Midtown, lô M5-8, Đường số 16, Quận 7 old",
+      "street_hint": "Đường số 16",
+      "house_number_hint": null,
+      "location_precision": "MASTERPLAN_AREA_ONLY",
+      "quality_group": "PARENT_ONLY",
+      "identity_flags": [
+        "PHASE_SUBBLOCKS"
+      ],
+      "source_url": "https://phumyhung.vn/du-an/phu-my-hung-midtown/",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "The Symphony is a separate phase of Midtown; publisher page places overall complex M5-8 but does not attribute exact lot here."
+    },
+    {
+      "dossier_id": "hist-ehome1",
+      "location_text_publisher": "Khu đô thị Nam Long, Phước Long B / Phước Long, Thủ Đức old",
+      "street_hint": null,
+      "house_number_hint": null,
+      "location_precision": "TOWNSHIP_ONLY",
+      "quality_group": "TOWNSHIP_ONLY",
+      "identity_flags": [],
+      "source_url": "https://www.namlongvn.com/khu-do-thi-nha-o/ehome-1/",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Official page names project and district but not entrance/parcel."
+    },
+    {
+      "dossier_id": "hist-ehomesnamsaigon",
+      "location_text_publisher": "Nguyễn Văn Linh, Bình Hưng, Bình Chánh old, adjacent Mizuki Park",
+      "street_hint": "Nguyễn Văn Linh",
+      "house_number_hint": null,
+      "location_precision": "STREET_ONLY",
+      "quality_group": "STREET_NOT_SITE",
+      "identity_flags": [
+        "PARENT_ADJACENCY"
+      ],
+      "source_url": "https://www.namlongvn.com/khu-do-thi-nha-o/ehomes-nam-sai-gon/",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Public issuer page positions 7-block EHomeS adjacent to Mizuki; do not pin at Mizuki center."
+    },
+    {
+      "dossier_id": "hist-jamila",
+      "location_text_publisher": "Đường Song Hành Cao tốc Long Thành-Dầu Giây, nút Đỗ Xuân Hợp, Quận 9 old",
+      "street_hint": "Đỗ Xuân Hợp",
+      "house_number_hint": null,
+      "location_precision": "INTERSECTION_AREA_ONLY",
+      "quality_group": "NEEDS_GEOMETRY_REVIEW",
+      "identity_flags": [
+        "APPROXIMATE_LOCATION"
+      ],
+      "source_url": "https://www.khangdien.com.vn/jamila",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Developer identifies highway frontage at interchange, not cadastral point."
+    },
+    {
+      "dossier_id": "hist-safira",
+      "location_text_publisher": "Đường N6 nối N5, giáp Võ Chí Công, Quận 9 old",
+      "street_hint": "N6",
+      "house_number_hint": null,
+      "location_precision": "STREET_ONLY",
+      "quality_group": "STREET_NOT_SITE",
+      "identity_flags": [
+        "APPROXIMATE_LOCATION"
+      ],
+      "source_url": "https://www.khangdien.com.vn/safira",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Project 4 apartment blocks; site matches N6-N5 roads near Vo Chi Cong."
+    },
+    {
+      "dossier_id": "hist-soragardensi",
+      "location_text_publisher": "Đường Hùng Vương, Bình Dương New City old",
+      "street_hint": "Hùng Vương",
+      "house_number_hint": null,
+      "location_precision": "STREET_ONLY",
+      "quality_group": "STREET_NOT_SITE",
+      "identity_flags": [
+        "TOWER_PHASE_I"
+      ],
+      "source_url": "https://www.tokyugardencity.com/en/area/sora/",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Named shops on developer page confirm SORA I at Hung Vuong; SORA II is separate."
+    },
+    {
+      "dossier_id": "hist-soragardensii",
+      "location_text_publisher": "Lô C17, Đại lộ Hùng Vương, Bình Dương New City old",
+      "street_hint": "Hùng Vương",
+      "house_number_hint": null,
+      "location_precision": "LOT_REFERENCE",
+      "quality_group": "NEEDS_GEOMETRY_REVIEW",
+      "identity_flags": [
+        "TOWER_PHASE_II"
+      ],
+      "source_url": "https://tokyugardencity.com/en/discover/nha-sach-fabico-hung-vuong/",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Official store article names floor at SORA II Block C17; still not cadastral GPS."
+    },
+    {
+      "dossier_id": "hist-midoriparktheview",
+      "location_text_publisher": "Đường Võ Nguyên Giáp, khu MIDORI PARK, Bình Dương New City old",
+      "street_hint": "Võ Nguyên Giáp",
+      "house_number_hint": null,
+      "location_precision": "STREET_ONLY",
+      "quality_group": "STREET_NOT_SITE",
+      "identity_flags": [
+        "SEPARATE_MIDORI_PHASE"
+      ],
+      "source_url": "https://www.tokyugardencity.com/en/area/midori/",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Publisher lists shops at ground floor The VIEW on Võ Nguyên Giáp."
+    },
+    {
+      "dossier_id": "hist-midoriparkthenest",
+      "location_text_publisher": "Khu MIDORI PARK, Bình Dương New City old",
+      "street_hint": null,
+      "house_number_hint": null,
+      "location_precision": "TOWNSHIP_ONLY",
+      "quality_group": "TOWNSHIP_ONLY",
+      "identity_flags": [
+        "SEPARATE_MIDORI_PHASE"
+      ],
+      "source_url": "https://www.tokyugardencity.com/en/area/midori/",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Publisher lists The NEST as distinct building slated for 2027, do not confuse with The VIEW/GLORY/TEN."
+    },
+    {
+      "dossier_id": "hist-thehabitatbinhduonggiaidoani",
+      "location_text_publisher": "8 Đại lộ Hữu Nghị, VSIP I, Bình Hòa, Thuận An old",
+      "street_hint": "Hữu Nghị",
+      "house_number_hint": "8",
+      "location_precision": "EXACT_PARENT_ADDRESS",
+      "quality_group": "NUMBERED_SHARED_SITE",
+      "identity_flags": [
+        "PHASE_I_SUBSITE"
+      ],
+      "source_url": "https://thehabitatbinhduong.vn/new/the-habitat-binh-duong-ban-giao-so-hong-giai-doan-1/",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Same street address shared by three phases; phase 1 contains 2 towers, must resolve own geometry."
+    },
+    {
+      "dossier_id": "hist-thehabitatbinhduonggiaidoanii",
+      "location_text_publisher": "8 Đại lộ Hữu Nghị, VSIP I, Bình Hòa, Thuận An old",
+      "street_hint": "Hữu Nghị",
+      "house_number_hint": "8",
+      "location_precision": "EXACT_PARENT_ADDRESS",
+      "quality_group": "NUMBERED_SHARED_SITE",
+      "identity_flags": [
+        "PHASE_II_SUBSITE"
+      ],
+      "source_url": "https://thehabitatbinhduong.vn/project-new/2019-the-habitat-binh-duong-dat-chung-nhan-quoc-te-edge-ve-cong-trinh-xanh-2/",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Phase II 3 towers; shared address is not an individual phase coordinate."
+    },
+    {
+      "dossier_id": "hist-thehabitatbinhduonggiaidoaniii",
+      "location_text_publisher": "8 Đại lộ Hữu Nghị, VSIP I, Bình Hòa, Thuận An old",
+      "street_hint": "Hữu Nghị",
+      "house_number_hint": "8",
+      "location_precision": "EXACT_PARENT_ADDRESS",
+      "quality_group": "NUMBERED_SHARED_SITE",
+      "identity_flags": [
+        "PHASE_III_SUBSITE"
+      ],
+      "source_url": "https://thehabitatbinhduong.vn/wp-content/uploads/2025/04/42_Thong-bao-nghiem-thu-hoan-thanh_BW.pdf",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Issuer-hosted civil construction completion notice explicitly names phase 3 and 8 Hữu Nghị; 6 towers, different from phases I/II."
+    },
+    {
+      "dossier_id": "discover-20261009-lumiere-midtown",
+      "location_text_publisher": "Mặt tiền Liên Phường thuộc The Global City, Đỗ Xuân Hợp, Bình Trưng, TP.HCM",
+      "street_hint": "Liên Phường",
+      "house_number_hint": null,
+      "location_precision": "MASTERPLAN_PHASE",
+      "quality_group": "PARENT_ONLY",
+      "identity_flags": [
+        "GLOBAL_CITY_OWN_PHASE"
+      ],
+      "source_url": "https://masterisehomes.com/the-global-city/vi/lumiere-midtown",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Separate 2-tower project from Masteri Grand View; do not pin Global City parent center."
+    },
+    {
+      "dossier_id": "discover-20261009-masteri-grand-view",
+      "location_text_publisher": "The Global City, Đỗ Xuân Hợp, Bình Trưng, TP.HCM; cửa ngõ Liên Phường",
+      "street_hint": "Đỗ Xuân Hợp",
+      "house_number_hint": null,
+      "location_precision": "MASTERPLAN_PHASE",
+      "quality_group": "PARENT_ONLY",
+      "identity_flags": [
+        "GLOBAL_CITY_OWN_PHASE"
+      ],
+      "source_url": "https://masterisehomes.com/the-global-city/vi/masteri-grand-view",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Masteri Grand View is 2-tower separate phase at Global City. Project-specific exact entry remains unknown."
+    },
+    {
+      "dossier_id": "hist-gardenplaza",
+      "location_text_publisher": "Tôn Dật Tiên, Khu Kênh Đào, Quận 7 old",
+      "street_hint": "Tôn Dật Tiên",
+      "house_number_hint": null,
+      "location_precision": "STREET_ONLY",
+      "quality_group": "STREET_NOT_SITE",
+      "identity_flags": [
+        "TWO_SUBCOMPLEXES"
+      ],
+      "source_url": "https://phumyhung.vn/du-an/garden-plaza/",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Existing PR#72 OSM candidates Garden Plaza I/II; publisher first party page discusses Garden Plaza I."
+    },
+    {
+      "dossier_id": "hist-loveravista",
+      "location_text_publisher": "Đường số 19, KDC Phong Phú 4, Bình Chánh old",
+      "street_hint": "Đường số 19",
+      "house_number_hint": null,
+      "location_precision": "STREET_ONLY",
+      "quality_group": "STREET_NOT_SITE",
+      "identity_flags": [
+        "MULTI_TOWER_COMPLEX"
+      ],
+      "source_url": "https://www.khangdien.com.vn/lovera-vista",
+      "source_issuer": "OFFICIAL_DEVELOPER_OR_ISSUER_DOCUMENT",
+      "extraction_checked_at": "2026-10-10",
+      "developer_address_correlated_to_osm": false,
+      "site_point_verified": false,
+      "document_review_status": "NEEDS_FULL_DOCUMENT_AND_SITE_GEOMETRY_REVIEW",
+      "note": "Existing PR#72 OSM named point+way; issuer project site confirms street and neighborhood, but not exact OSM building polygon."
+    }
+  ],
+  "counts": {
+    "total": 31,
+    "numbered": 12,
+    "conflicted": 2,
+    "osm_reference_added": 0,
+    "geo_verified": 0
+  }
+}
