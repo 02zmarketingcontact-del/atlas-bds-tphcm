@@ -1,0 +1,74 @@
+name: QiMap offline Vietnam OSM GIS batch
+on:
+  push:
+    branches: [feat/qimap-osm-coordinate-batch-20261010]
+    paths:
+      - scripts/geocode-qimap-osm-pbf.py
+      - .github/workflows/qimap-osm-offline-pbf.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: qimap-osm-offline-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  batch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Read latest main dossier baseline without modifying main
+        run: |
+          git fetch --no-tags origin main
+          for f in data/project_search_index.json data/projects.json data/qimap_public_geo_review_20261010.json data/qimap_additional_discovery_20261010.json; do
+            git show "origin/main:$f" > "$f"
+          done
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install offline OSM PBF parser
+        run: pip install osmium==4.1.1
+      - name: Download the licensed Geofabrik Vietnam extract (no public Nominatim)
+        run: |
+          curl --fail --location --retry 3 --retry-delay 5 --speed-time 180 --speed-limit 10000 --output /tmp/vietnam-latest.osm.pbf https://download.geofabrik.de/asia/vietnam-latest.osm.pbf
+          ls -lh /tmp/vietnam-latest.osm.pbf
+      - name: Stage unique named WGS84 positions as UNVERIFIED (never publish)
+        run: |
+          QIMAP_PBF_SHA256="$(sha256sum /tmp/vietnam-latest.osm.pbf | cut -d ' ' -f 1)" python scripts/geocode-qimap-osm-pbf.py --pbf /tmp/vietnam-latest.osm.pbf
+      - name: Validate permissions, dedup, WGS84, source URLs and strict 153 cohort
+        run: |
+          python - <<'PY'
+          import json,math
+          p=json.load(open("data/qimap_osm_pbf_candidates_20261010.json"))
+          c=p["candidates"]; n=p["counts"]
+          assert n["core_cohort_153"]==153
+          assert len(c)==n["named_candidates"] and len({x["id"] for x in c})==len(c)
+          assert n["core_with_staged_osm_or_existing_reference"]+n["core_missing_even_research_osm"]==153
+          assert n["new_verified_coordinates"]==0
+          assert p["source_pbf_sha256"] and len(p["source_pbf_sha256"])==64
+          assert all(x["verification_level"]=="REFERENCE_UNVERIFIED" and x["coordVerified"] is False for x in c)
+          assert all(x["crs"]=="EPSG:4326" and math.isfinite(x["lat"]) and math.isfinite(x["lng"]) and 9<x["lat"]<12 and 105<x["lng"]<109 and x["source_url"].startswith("https://www.openstreetmap.org/") for x in c)
+          print("GIS QA PASS",n)
+          PY
+      - name: Upload named candidate coordinates and unresolved conflicts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qimap-osm-offline-xy-review
+          path: data/qimap_osm_pbf_candidates_20261010.json
+          if-no-files-found: warn
+          retention-days: 14
+      - name: Commit research evidence on existing PR #70 branch only
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/qimap_osm_pbf_candidates_20261010.json
+          if git diff --cached --quiet; then
+            echo "No GPS candidate differences"
+          else
+            git commit -m "data(qimap): stage source-linked offline OSM GPS candidates for human review"
+            git push origin HEAD:feat/qimap-osm-coordinate-batch-20261010
+          fi

@@ -1,0 +1,13 @@
+name: QiMap remote Overpass geocoder (manual legacy)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  replaced:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Use supported offline Geofabrik PBF workflow instead
+        run: |
+          echo "Public Overpass instances returned HTTP 429/406. Automated remote multi-project queries are disabled."
+          echo "Run QiMap offline Vietnam OSM GIS batch to produce licensed WGS84 candidates for review."
