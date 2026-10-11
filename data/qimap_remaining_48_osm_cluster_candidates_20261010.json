@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-10",
+  "repo": "02zmarketingcontact-del/atlas-bds-tphcm",
+  "branch": "feat/qimap-gis-remaining-48-20261010",
+  "base_main_sha": "5811915fdadadd52e374ff5e104708053641ef3d",
+  "baseline": {
+    "cohort": 153,
+    "existing_gps": 105,
+    "missing": 48
+  },
+  "licence": "ODbL © OpenStreetMap contributors",
+  "policy": "DRAFT GIS RESEARCH ONLY. One named OSM dataset does not constitute independent corroboration. NO VERIFIED status, no cadastral/tower accuracy, no price/legal/quota. Public pin needs review.",
+  "count": 7,
+  "records": [
+    {
+      "dossier_id": "hist-floranovia",
+      "name": "Flora Novia",
+      "wgs84": {
+        "lat": 10.86533,
+        "lng": 106.75966,
+        "crs": "EPSG:4326",
+        "x": 106.75966,
+        "y": 10.86533
+      },
+      "osm_element_urls": [
+        "https://www.openstreetmap.org/way/915115701",
+        "https://www.openstreetmap.org/way/915115702"
+      ],
+      "source_name": "OpenStreetMap contributors via Geofabrik licensed extract",
+      "developer_portfolio_reference_url": "https://www.namlongvn.com/",
+      "developer_specific_address_verified": false,
+      "checked_at": "2026-10-10",
+      "level": "REFERENCE_UNVERIFIED",
+      "accuracy": "MULTI_TOWER_REFERENCE",
+      "review_state": "PENDING_HUMAN_SITE_REVIEW",
+      "place_scope": "PROJECT_OR_PHASE_CLUSTER_ONLY",
+      "notes": "Two named OSM blocks A/B; center is approximate and does not represent an entrance.",
+      "publication_approved": false
+    },
+    {
+      "dossier_id": "hist-gardenplaza",
+      "name": "Garden Plaza",
+      "wgs84": {
+        "lat": 10.72312,
+        "lng": 106.71414,
+        "crs": "EPSG:4326",
+        "x": 106.71414,
+        "y": 10.72312
+      },
+      "osm_element_urls": [
+        "https://www.openstreetmap.org/way/289862522",
+        "https://www.openstreetmap.org/way/289862523"
+      ],
+      "source_name": "OpenStreetMap contributors via Geofabrik licensed extract",
+      "developer_portfolio_reference_url": "https://phumyhung.vn/du-an-da-ban-giao",
+      "developer_specific_address_verified": false,
+      "checked_at": "2026-10-10",
+      "level": "REFERENCE_UNVERIFIED",
+      "accuracy": "PARENT_COMPLEX_REFERENCE",
+      "review_state": "PENDING_HUMAN_SITE_REVIEW",
+      "place_scope": "PROJECT_OR_PHASE_CLUSTER_ONLY",
+      "notes": "Two OSM named complexes Garden Plaza I / II; single dossier represents parent group.",
+      "publication_approved": false
+    },
+    {
+      "dossier_id": "hist-loveravista",
+      "name": "Lovera Vista",
+      "wgs84": {
+        "lat": 10.69177,
+        "lng": 106.64234,
+        "crs": "EPSG:4326",
+        "x": 106.64234,
+        "y": 10.69177
+      },
+      "osm_element_urls": [
+        "https://www.openstreetmap.org/node/9593358304",
+        "https://www.openstreetmap.org/way/1308470653"
+      ],
+      "source_name": "OpenStreetMap contributors via Geofabrik licensed extract",
+      "developer_portfolio_reference_url": "https://www.khangdien.com.vn/",
+      "developer_specific_address_verified": false,
+      "checked_at": "2026-10-10",
+      "level": "REFERENCE_UNVERIFIED",
+      "accuracy": "OSM_NAMED_NODE_AND_WAY",
+      "review_state": "PENDING_HUMAN_SITE_REVIEW",
+      "place_scope": "PROJECT_OR_PHASE_CLUSTER_ONLY",
+      "notes": "OSM node and building/complex way closely co-located; issuer precise address not yet sourced.",
+      "publication_approved": false
+    },
+    {
+      "dossier_id": "hist-myphuoc",
+      "name": "Mỹ Phước (Phú Mỹ Hưng)",
+      "wgs84": {
+        "lat": 10.72804,
+        "lng": 106.71163,
+        "crs": "EPSG:4326",
+        "x": 106.71163,
+        "y": 10.72804
+      },
+      "osm_element_urls": [
+        "https://www.openstreetmap.org/way/289862500"
+      ],
+      "source_name": "OpenStreetMap contributors via Geofabrik licensed extract",
+      "developer_portfolio_reference_url": "https://phumyhung.vn/gioi-thieu/tong-quan-thi-phu-hung",
+      "developer_specific_address_verified": false,
+      "checked_at": "2026-10-10",
+      "level": "REFERENCE_UNVERIFIED",
+      "accuracy": "AMBIGUOUS_SAME_NAME_RESOLVED_REGION_ONLY",
+      "review_state": "PENDING_HUMAN_SITE_REVIEW",
+      "place_scope": "PROJECT_OR_PHASE_CLUSTER_ONLY",
+      "notes": "OSM has unrelated Mỹ Phước sites in Bình Thạnh; choose OSM way in Phú Mỹ Hưng region, still needs issuer address.",
+      "publication_approved": false
+    },
+    {
+      "dossier_id": "hist-skygarden",
+      "name": "Sky Garden (Phú Mỹ Hưng)",
+      "wgs84": {
+        "lat": 10.73197,
+        "lng": 106.70547,
+        "crs": "EPSG:4326",
+        "x": 106.70547,
+        "y": 10.73197
+      },
+      "osm_element_urls": [
+        "https://www.openstreetmap.org/way/221049530",
+        "https://www.openstreetmap.org/way/221049270"
+      ],
+      "source_name": "OpenStreetMap contributors via Geofabrik licensed extract",
+      "developer_portfolio_reference_url": "https://phumyhung.vn/gioi-thieu/tong-quan-thi-phu-hung",
+      "developer_specific_address_verified": false,
+      "checked_at": "2026-10-10",
+      "level": "REFERENCE_UNVERIFIED",
+      "accuracy": "PARENT_COMPLEX_REFERENCE",
+      "review_state": "PENDING_HUMAN_SITE_REVIEW",
+      "place_scope": "PROJECT_OR_PHASE_CLUSTER_ONLY",
+      "notes": "Two distant subcomplexes Sky Garden 1&2 and Sky Garden 3 (ca. 420m), combined reference is NOT a tower location. Other 'Sky Garden' names excluded.",
+      "publication_approved": false
+    },
+    {
+      "dossier_id": "hist-sunriseriverside",
+      "name": "Sunrise Riverside",
+      "wgs84": {
+        "lat": 10.722509,
+        "lng": 106.704407,
+        "crs": "EPSG:4326",
+        "x": 106.704407,
+        "y": 10.722509
+      },
+      "osm_element_urls": [
+        "https://www.openstreetmap.org/way/1157432555",
+        "https://www.openstreetmap.org/way/1157438656"
+      ],
+      "source_name": "OpenStreetMap contributors via Geofabrik licensed extract",
+      "developer_portfolio_reference_url": "https://www.novaland.com.vn/du-an/bat-dong-san-do-thi/du-an-dang-phat-trien/du-an-da-hoan-thanh-1",
+      "developer_specific_address_verified": false,
+      "checked_at": "2026-10-10",
+      "level": "REFERENCE_UNVERIFIED",
+      "accuracy": "PARENT_COMPLEX_REFERENCE",
+      "review_state": "PENDING_HUMAN_SITE_REVIEW",
+      "place_scope": "PROJECT_OR_PHASE_CLUSTER_ONLY",
+      "notes": "Two named OSM zones E/G separated by ~230m; center represents complex only. Verify actual issuer parcel and phases.",
+      "publication_approved": false
+    },
+    {
+      "dossier_id": "hist-sunwahpearl",
+      "name": "Sunwah Pearl",
+      "wgs84": {
+        "lat": 10.788208,
+        "lng": 106.718006,
+        "crs": "EPSG:4326",
+        "x": 106.718006,
+        "y": 10.788208
+      },
+      "osm_element_urls": [
+        "https://www.openstreetmap.org/way/875450341",
+        "https://www.openstreetmap.org/way/875450342",
+        "https://www.openstreetmap.org/way/1047550718"
+      ],
+      "source_name": "OpenStreetMap contributors via Geofabrik licensed extract",
+      "developer_portfolio_reference_url": "https://www.sunwahgroup.com/",
+      "developer_specific_address_verified": false,
+      "checked_at": "2026-10-10",
+      "level": "REFERENCE_UNVERIFIED",
+      "accuracy": "MULTI_TOWER_REFERENCE",
+      "review_state": "PENDING_HUMAN_SITE_REVIEW",
+      "place_scope": "PROJECT_OR_PHASE_CLUSTER_ONLY",
+      "notes": "Three named OSM towers; tower-center mean represents the cluster, not legal boundary, may be non-convex.",
+      "publication_approved": false
+    }
+  ]
+}
