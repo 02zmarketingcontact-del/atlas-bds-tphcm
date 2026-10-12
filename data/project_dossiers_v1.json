@@ -33,7 +33,386 @@
       "foreign_capital": "not_verified_separately",
       "position_status": "flagged_checked_in_legacy",
       "pricing_status": "unverified_asking_or_missing",
-      "specifications": [],
+      "specifications": [
+        {
+          "field": "historic_location",
+          "value": "Thu Thiem New Urban Area, functional zone 1, Q2/Thu Duc (cu)",
+          "unit": "text",
+          "scope": "project",
+          "claim_id": "map-metropole|project|historic_location|1",
+          "source_url": "https://sonkimland.vn/residential/the-metropole-thu-thiem",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/residential/the-metropole-thu-thiem"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "planned_phases",
+          "value": 4,
+          "unit": "phases",
+          "scope": "project",
+          "claim_id": "map-metropole|project|planned_phases|2",
+          "source_url": "https://sonkimland.vn/residential/the-metropole-thu-thiem",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/residential/the-metropole-thu-thiem"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Phase 4 unconfirmed; no complete project-unit sum"
+        },
+        {
+          "field": "issuer_claimed_legal_owner",
+          "value": "Cong ty Co phan Quoc Loc Phat",
+          "unit": "issuer_claim",
+          "scope": "project",
+          "claim_id": "map-metropole|project|issuer_claimed_legal_owner|3",
+          "source_url": "https://sonkimland.vn/vi/media/news/sonkim-land-gioi-thieu-kiet-tac-the-galleria-residences-ra-mat-giai-doan-1-du-an-the-metropole-thu-thiem",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": "2018-12-17",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/vi/media/news/sonkim-land-gioi-thieu-kiet-tac-the-galleria-residences-ra-mat-giai-doan-1-du-an-the-metropole-thu-thiem"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Developer press release only"
+        },
+        {
+          "field": "galleria_launch",
+          "value": "2018-12-17",
+          "unit": "date",
+          "scope": "phase:galleria",
+          "claim_id": "map-metropole|phase:galleria|galleria_launch|4",
+          "source_url": "https://sonkimland.vn/vi/media/news/sonkim-land-gioi-thieu-kiet-tac-the-galleria-residences-ra-mat-giai-doan-1-du-an-the-metropole-thu-thiem",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": "2018-12-17",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/vi/media/news/sonkim-land-gioi-thieu-kiet-tac-the-galleria-residences-ra-mat-giai-doan-1-du-an-the-metropole-thu-thiem"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Phase/tower scoped only; do not infer a parent-project total"
+        },
+        {
+          "field": "galleria_residential_units",
+          "value": 456,
+          "unit": "apartments",
+          "scope": "phase:galleria",
+          "claim_id": "map-metropole|phase:galleria|galleria_residential_units|5",
+          "source_url": "https://sonkimland.vn/vi/media/news/sonkim-land-gioi-thieu-kiet-tac-the-galleria-residences-ra-mat-giai-doan-1-du-an-the-metropole-thu-thiem",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": "2018-12-17",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/vi/media/news/sonkim-land-gioi-thieu-kiet-tac-the-galleria-residences-ra-mat-giai-doan-1-du-an-the-metropole-thu-thiem"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Phase/tower scoped only; do not infer a parent-project total"
+        },
+        {
+          "field": "galleria_commercial_office",
+          "value": 30,
+          "unit": "units",
+          "scope": "phase:galleria",
+          "claim_id": "map-metropole|phase:galleria|galleria_commercial_office|6",
+          "source_url": "https://sonkimland.vn/vi/media/news/sonkim-land-gioi-thieu-kiet-tac-the-galleria-residences-ra-mat-giai-doan-1-du-an-the-metropole-thu-thiem",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": "2018-12-17",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/vi/media/news/sonkim-land-gioi-thieu-kiet-tac-the-galleria-residences-ra-mat-giai-doan-1-du-an-the-metropole-thu-thiem"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Phase/tower scoped only; do not infer a parent-project total"
+        },
+        {
+          "field": "galleria_towers",
+          "value": 3,
+          "unit": "towers",
+          "scope": "phase:galleria",
+          "claim_id": "map-metropole|phase:galleria|galleria_towers|7",
+          "source_url": "https://sonkimland.vn/vi/media/news/sonkim-land-gioi-thieu-kiet-tac-the-galleria-residences-ra-mat-giai-doan-1-du-an-the-metropole-thu-thiem",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": "2018-12-17",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/vi/media/news/sonkim-land-gioi-thieu-kiet-tac-the-galleria-residences-ra-mat-giai-doan-1-du-an-the-metropole-thu-thiem"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Phase/tower scoped only; do not infer a parent-project total"
+        },
+        {
+          "field": "galleria_storeys",
+          "value": 12,
+          "unit": "storeys",
+          "scope": "phase:galleria",
+          "claim_id": "map-metropole|phase:galleria|galleria_storeys|8",
+          "source_url": "https://sonkimland.vn/vi/media/news/sonkim-land-gioi-thieu-kiet-tac-the-galleria-residences-ra-mat-giai-doan-1-du-an-the-metropole-thu-thiem",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": "2018-12-17",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/vi/media/news/sonkim-land-gioi-thieu-kiet-tac-the-galleria-residences-ra-mat-giai-doan-1-du-an-the-metropole-thu-thiem"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Phase/tower scoped only; do not infer a parent-project total"
+        },
+        {
+          "field": "galleria_land_area",
+          "value": 14987,
+          "unit": "m2",
+          "scope": "phase:galleria",
+          "claim_id": "map-metropole|phase:galleria|galleria_land_area|9",
+          "source_url": "https://sonkimland.vn/residential/the-galleria-residence",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/residential/the-galleria-residence"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Phase/tower scoped only; do not infer a parent-project total"
+        },
+        {
+          "field": "galleria_handover",
+          "value": 2021,
+          "unit": "year",
+          "scope": "phase:galleria",
+          "claim_id": "map-metropole|phase:galleria|galleria_handover|10",
+          "source_url": "https://sonkimland.vn/brand-story",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/brand-story"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Phase/tower scoped only; do not infer a parent-project total"
+        },
+        {
+          "field": "crest_launch",
+          "value": 2019,
+          "unit": "year",
+          "scope": "phase:crest",
+          "claim_id": "map-metropole|phase:crest|crest_launch|11",
+          "source_url": "https://sonkimland.vn/residential/the-crest-residence",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/residential/the-crest-residence"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Phase/tower scoped only; do not infer a parent-project total"
+        },
+        {
+          "field": "crest_units",
+          "value": 240,
+          "unit": "units",
+          "scope": "phase:crest",
+          "claim_id": "map-metropole|phase:crest|crest_units|12",
+          "source_url": "https://sonkimland.vn/residential/the-crest-residence",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/residential/the-crest-residence"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Phase/tower scoped only; do not infer a parent-project total"
+        },
+        {
+          "field": "crest_land_area",
+          "value": 13168,
+          "unit": "m2",
+          "scope": "phase:crest",
+          "claim_id": "map-metropole|phase:crest|crest_land_area|13",
+          "source_url": "https://sonkimland.vn/residential/the-crest-residence",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/residential/the-crest-residence"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Phase/tower scoped only; do not infer a parent-project total"
+        },
+        {
+          "field": "crest_handover",
+          "value": 2023,
+          "unit": "year",
+          "scope": "phase:crest",
+          "claim_id": "map-metropole|phase:crest|crest_handover|14",
+          "source_url": "https://sonkimland.vn/brand-story",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/brand-story"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Phase/tower scoped only; do not infer a parent-project total"
+        },
+        {
+          "field": "opera_launch",
+          "value": 2020,
+          "unit": "year",
+          "scope": "phase:opera",
+          "claim_id": "map-metropole|phase:opera|opera_launch|15",
+          "source_url": "https://sonkimland.vn/residential/the-opera-residence",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/residential/the-opera-residence"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Phase/tower scoped only; do not infer a parent-project total"
+        },
+        {
+          "field": "opera_units",
+          "value": 646,
+          "unit": "units",
+          "scope": "phase:opera",
+          "claim_id": "map-metropole|phase:opera|opera_units|16",
+          "source_url": "https://sonkimland.vn/residential/the-opera-residence",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/residential/the-opera-residence"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Phase/tower scoped only; do not infer a parent-project total"
+        },
+        {
+          "field": "opera_land_area",
+          "value": 11370,
+          "unit": "m2",
+          "scope": "phase:opera",
+          "claim_id": "map-metropole|phase:opera|opera_land_area|17",
+          "source_url": "https://sonkimland.vn/residential/the-opera-residence",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/residential/the-opera-residence"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Phase/tower scoped only; do not infer a parent-project total"
+        },
+        {
+          "field": "opera_towers",
+          "value": 2,
+          "unit": "towers",
+          "scope": "phase:opera",
+          "claim_id": "map-metropole|phase:opera|opera_towers|18",
+          "source_url": "https://sonkimland.vn/vi/tin-tuc/quoc-loc-phat-lam-le-cat-noc-khu-can-ho-the-opera-residence-1",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": "2023-02-02",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/vi/tin-tuc/quoc-loc-phat-lam-le-cat-noc-khu-can-ho-the-opera-residence-1"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Phase/tower scoped only; do not infer a parent-project total"
+        },
+        {
+          "field": "opera_initial_handover",
+          "value": "2024-03",
+          "unit": "month",
+          "scope": "phase:opera",
+          "claim_id": "map-metropole|phase:opera|opera_initial_handover|19",
+          "source_url": "https://sonkimland.vn/media/news/sunset-melody-a-private-musical-party-amidst-a-vibrant-sunset-over-the-cityscape-reserved-for-residents-of-the-opera-residence",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": "2024-08-05",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/media/news/sunset-melody-a-private-musical-party-amidst-a-vibrant-sunset-over-the-cityscape-reserved-for-residents-of-the-opera-residence"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Developer confirms ongoing handover from March 2024"
+        },
+        {
+          "field": "fourth_phase_identity",
+          "value": "The OpusK",
+          "unit": "phase_name",
+          "scope": "phase:opusk",
+          "claim_id": "map-metropole|phase:opusk|fourth_phase_identity|20",
+          "source_url": "https://sonkimland.vn/news/the-opusk-presents-the-real-estate-market-a-year-end-boost",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": "2024-12-17",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/news/the-opusk-presents-the-real-estate-market-a-year-end-boost"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "More recent dated announcement identifies final phase; static portfolio page still says Phase 4 updating."
+        },
+        {
+          "field": "opusk_unveiling_event",
+          "value": "2024-12-15",
+          "unit": "date",
+          "scope": "phase:opusk",
+          "claim_id": "map-metropole|phase:opusk|opusk_unveiling_event|21",
+          "source_url": "https://sonkimland.vn/news/the-opusk-presents-the-real-estate-market-a-year-end-boost",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": "2024-12-17",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/news/the-opusk-presents-the-real-estate-market-a-year-end-boost"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Event date, not handover or the first ever launch; 2022 milestone may refer to different marketing stage."
+        }
+      ],
       "source_references": [
         {
           "url": "https://sonkimland.vn/residential",
@@ -46,6 +425,96 @@
           "role": "initial_map_listing_unverified",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://sonkimland.vn/residential/the-metropole-thu-thiem",
+          "role": "developer_project_page_or_undated_history",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "SonKim Land",
+          "published_at": null,
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://sonkimland.vn/vi/media/news/sonkim-land-gioi-thieu-kiet-tac-the-galleria-residences-ra-mat-giai-doan-1-du-an-the-metropole-thu-thiem",
+          "role": "developer_dated_release",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "SonKim Land",
+          "published_at": "2018-12-17",
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://sonkimland.vn/residential/the-galleria-residence",
+          "role": "developer_project_page_or_undated_history",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "SonKim Land",
+          "published_at": null,
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://sonkimland.vn/brand-story",
+          "role": "developer_project_page_or_undated_history",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "SonKim Land",
+          "published_at": null,
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://sonkimland.vn/residential/the-crest-residence",
+          "role": "developer_project_page_or_undated_history",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "SonKim Land",
+          "published_at": null,
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://sonkimland.vn/residential/the-opera-residence",
+          "role": "developer_project_page_or_undated_history",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "SonKim Land",
+          "published_at": null,
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://sonkimland.vn/vi/tin-tuc/quoc-loc-phat-lam-le-cat-noc-khu-can-ho-the-opera-residence-1",
+          "role": "developer_dated_release",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "SonKim Land",
+          "published_at": "2023-02-02",
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://sonkimland.vn/media/news/sunset-melody-a-private-musical-party-amidst-a-vibrant-sunset-over-the-cityscape-reserved-for-residents-of-the-opera-residence",
+          "role": "developer_dated_release",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "SonKim Land",
+          "published_at": "2024-08-05",
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://sonkimland.vn/news/the-opusk-presents-the-real-estate-market-a-year-end-boost",
+          "role": "developer_dated_release",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "SonKim Land",
+          "published_at": "2024-12-17",
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
         }
       ],
       "coverage": {
@@ -63,7 +532,17 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P2",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "candidate_review": {
+        "pending": true,
+        "last_intake_at": "2026-10-12",
+        "source_batch_file": "data/qimap_p0_developer_dossier_candidates_20261012_batch01.json",
+        "total_claims_with_provenance": 21,
+        "conflicts": [
+          "METROPOLE_PHASE4_UNKNOWN"
+        ],
+        "publication": "not_approved; candidate only"
+      }
     },
     {
       "id": "map-empire",
@@ -392,7 +871,188 @@
       "foreign_capital": "not_verified_separately",
       "position_status": "not_independently_verified",
       "pricing_status": "unverified_asking_or_missing",
-      "specifications": [],
+      "specifications": [
+        {
+          "field": "historic_location",
+          "value": "177 Xa lo Ha Noi, Thao Dien, Q2 (cu), HCMC",
+          "unit": "text",
+          "scope": "project",
+          "claim_id": "map-gatewaythaodien|project|historic_location|1",
+          "source_url": "https://sonkimland.vn/residential/gateway-thao-dien",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/residential/gateway-thao-dien"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "units_portfolio_current",
+          "value": 436,
+          "unit": "units_type_unspecified",
+          "scope": "project",
+          "claim_id": "map-gatewaythaodien|project|units_portfolio_current|2",
+          "source_url": "https://sonkimland.vn/residential/gateway-thao-dien",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/residential/gateway-thao-dien"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "completion",
+          "value": 2018,
+          "unit": "year",
+          "scope": "project",
+          "claim_id": "map-gatewaythaodien|project|completion|3",
+          "source_url": "https://sonkimland.vn/residential/gateway-thao-dien",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/residential/gateway-thao-dien"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "handover",
+          "value": "2018-05",
+          "unit": "month",
+          "scope": "project",
+          "claim_id": "map-gatewaythaodien|project|handover|4",
+          "source_url": "https://sonkimland.vn/brand-story",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/brand-story"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "launched",
+          "value": 2015,
+          "unit": "year",
+          "scope": "project",
+          "claim_id": "map-gatewaythaodien|project|launched|5",
+          "source_url": "https://sonkimland.vn/brand-story",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/brand-story"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "historic_apartments_claim",
+          "value": 439,
+          "unit": "apartments",
+          "scope": "project",
+          "claim_id": "map-gatewaythaodien|project|historic_apartments_claim|6",
+          "source_url": "https://sonkimland.vn/vi/media/news/cat-noc-toa-thap-dau-tien-du-an-gateway-thao-dien",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": "2017-05-08",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/vi/media/news/cat-noc-toa-thap-dau-tien-du-an-gateway-thao-dien"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Conflicts with current portfolio 436; DO NOT override"
+        },
+        {
+          "field": "historic_serviced_apartments",
+          "value": 85,
+          "unit": "serviced_apartments",
+          "scope": "project",
+          "claim_id": "map-gatewaythaodien|project|historic_serviced_apartments|7",
+          "source_url": "https://sonkimland.vn/vi/media/news/cat-noc-toa-thap-dau-tien-du-an-gateway-thao-dien",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": "2017-05-08",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/vi/media/news/cat-noc-toa-thap-dau-tien-du-an-gateway-thao-dien"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "historic_special_units",
+          "value": 22,
+          "unit": "special_luxury_apartments",
+          "scope": "project",
+          "claim_id": "map-gatewaythaodien|project|historic_special_units|8",
+          "source_url": "https://sonkimland.vn/vi/media/news/cat-noc-toa-thap-dau-tien-du-an-gateway-thao-dien",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": "2017-05-08",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/vi/media/news/cat-noc-toa-thap-dau-tien-du-an-gateway-thao-dien"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Possible overlap; no aggregation"
+        },
+        {
+          "field": "madison_storeys",
+          "value": 36,
+          "unit": "storeys",
+          "scope": "tower:madison",
+          "claim_id": "map-gatewaythaodien|tower:madison|madison_storeys|9",
+          "source_url": "https://sonkimland.vn/vi/media/news/cat-noc-toa-thap-dau-tien-du-an-gateway-thao-dien",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": "2017-05-08",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/vi/media/news/cat-noc-toa-thap-dau-tien-du-an-gateway-thao-dien"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Phase/tower scoped only; do not infer a parent-project total"
+        },
+        {
+          "field": "aspen_storeys",
+          "value": 42,
+          "unit": "storeys",
+          "scope": "tower:aspen",
+          "claim_id": "map-gatewaythaodien|tower:aspen|aspen_storeys|10",
+          "source_url": "https://sonkimland.vn/vi/media/news/cat-noc-toa-thap-dau-tien-du-an-gateway-thao-dien",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "SonKim Land",
+          "source_published_at": "2017-05-08",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://sonkimland.vn/vi/media/news/cat-noc-toa-thap-dau-tien-du-an-gateway-thao-dien"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Phase/tower scoped only; do not infer a parent-project total"
+        }
+      ],
       "source_references": [
         {
           "url": "https://sonkimland.vn/residential",
@@ -405,6 +1065,36 @@
           "role": "initial_map_listing_unverified",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://sonkimland.vn/residential/gateway-thao-dien",
+          "role": "developer_project_page_or_undated_history",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "SonKim Land",
+          "published_at": null,
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://sonkimland.vn/brand-story",
+          "role": "developer_project_page_or_undated_history",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "SonKim Land",
+          "published_at": null,
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://sonkimland.vn/vi/media/news/cat-noc-toa-thap-dau-tien-du-an-gateway-thao-dien",
+          "role": "developer_dated_release",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "SonKim Land",
+          "published_at": "2017-05-08",
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
         }
       ],
       "coverage": {
@@ -412,9 +1102,9 @@
         "developer_brand": "evidence_or_claim_recorded",
         "source_reference": "evidence_or_claim_recorded",
         "site_area": "missing_or_unverified",
-        "residential_units": "missing_or_unverified",
+        "residential_units": "evidence_or_claim_recorded",
         "tower_count": "missing_or_unverified",
-        "handover_year": "missing_or_unverified",
+        "handover_year": "evidence_or_claim_recorded",
         "legal_owner": "missing_or_unverified",
         "foreign_buyer_eligibility": "missing_or_unverified",
         "verified_location": "missing_or_unverified",
@@ -422,7 +1112,17 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P2",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "candidate_review": {
+        "pending": true,
+        "last_intake_at": "2026-10-12",
+        "source_batch_file": "data/qimap_p0_developer_dossier_candidates_20261012_batch01.json",
+        "total_claims_with_provenance": 10,
+        "conflicts": [
+          "GATEWAY_436_VS_439"
+        ],
+        "publication": "not_approved; candidate only"
+      }
     },
     {
       "id": "map-vcp",
@@ -5296,23 +5996,216 @@
       "foreign_capital": "not_verified_separately",
       "position_status": "not_independently_verified",
       "pricing_status": "unverified_asking_or_missing",
-      "specifications": [],
+      "specifications": [
+        {
+          "field": "land_area",
+          "value": 1.7,
+          "unit": "ha",
+          "scope": "project",
+          "claim_id": "hist-jamila|project|land_area|1",
+          "source_url": "https://www.khangdien.com.vn/jamila",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/jamila"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "residential_units",
+          "value": 867,
+          "unit": "apartments",
+          "scope": "project",
+          "claim_id": "hist-jamila|project|residential_units|2",
+          "source_url": "https://www.khangdien.com.vn/jamila",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/jamila"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "commercial_units",
+          "value": 16,
+          "unit": "units",
+          "scope": "project",
+          "claim_id": "hist-jamila|project|commercial_units|3",
+          "source_url": "https://www.khangdien.com.vn/jamila",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/jamila"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "blocks",
+          "value": 4,
+          "unit": "blocks",
+          "scope": "project",
+          "claim_id": "hist-jamila|project|blocks|4",
+          "source_url": "https://www.khangdien.com.vn/jamila",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/jamila"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "tower_height",
+          "value": 25,
+          "unit": "storeys",
+          "scope": "project",
+          "claim_id": "hist-jamila|project|tower_height|5",
+          "source_url": "https://www.khangdien.com.vn/jamila",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/jamila"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "historic_location",
+          "value": "Song Hanh Cao toc HCMC-Long Thanh-Dau Giay, nut giao Do Xuan Hop, Quan 9 (cu)",
+          "unit": "text",
+          "scope": "project",
+          "claim_id": "hist-jamila|project|historic_location|6",
+          "source_url": "https://www.khangdien.com.vn/jamila",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/jamila"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "construction_started",
+          "value": "2017-05",
+          "unit": "month",
+          "scope": "project",
+          "claim_id": "hist-jamila|project|construction_started|7",
+          "source_url": "https://www.khangdien.com.vn/khang-dien-ban-giao-so-hong-cho-cu-dan-jamila-mo-ban-dot-2-du-an-lovera-vista",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": "2019-11-25",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/khang-dien-ban-giao-so-hong-cho-cu-dan-jamila-mo-ban-dot-2-du-an-lovera-vista"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "apartments_handed_over_in",
+          "value": 2018,
+          "unit": "year",
+          "scope": "project",
+          "claim_id": "hist-jamila|project|apartments_handed_over_in|8",
+          "source_url": "https://www.khangdien.com.vn/dai-hoi-dong-co-dong-cong-ty-khang-dien-2019",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": "2019-04-12",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/dai-hoi-dong-co-dong-cong-ty-khang-dien-2019"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Developer reports handover 2018 without specific tower-level records"
+        },
+        {
+          "field": "initial_pink_books_delivered",
+          "value": "2019-11-23",
+          "unit": "date",
+          "scope": "project",
+          "claim_id": "hist-jamila|project|initial_pink_books_delivered|9",
+          "source_url": "https://www.khangdien.com.vn/khang-dien-ban-giao-so-hong-cho-cu-dan-jamila-mo-ban-dot-2-du-an-lovera-vista",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": "2019-11-25",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/khang-dien-ban-giao-so-hong-cho-cu-dan-jamila-mo-ban-dot-2-du-an-lovera-vista"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Pink book handover is NOT first apartment handover."
+        }
+      ],
       "source_references": [
         {
           "url": "https://www.khangdien.com.vn/tap-doan-khang-dien-to-chuc-le-cat-noc-2-thap-b-cua-du-an-the-privia",
           "role": "issuer_reported",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://www.khangdien.com.vn/jamila",
+          "role": "developer_project_page_or_undated_history",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "Khang Dien Group",
+          "published_at": null,
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://www.khangdien.com.vn/khang-dien-ban-giao-so-hong-cho-cu-dan-jamila-mo-ban-dot-2-du-an-lovera-vista",
+          "role": "developer_dated_release",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "Khang Dien Group",
+          "published_at": "2019-11-25",
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://www.khangdien.com.vn/dai-hoi-dong-co-dong-cong-ty-khang-dien-2019",
+          "role": "developer_dated_release",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "Khang Dien Group",
+          "published_at": "2019-04-12",
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
         }
       ],
       "coverage": {
         "project_identity": "evidence_or_claim_recorded",
         "developer_brand": "evidence_or_claim_recorded",
         "source_reference": "evidence_or_claim_recorded",
-        "site_area": "missing_or_unverified",
-        "residential_units": "missing_or_unverified",
-        "tower_count": "missing_or_unverified",
-        "handover_year": "missing_or_unverified",
+        "site_area": "evidence_or_claim_recorded",
+        "residential_units": "evidence_or_claim_recorded",
+        "tower_count": "evidence_or_claim_recorded",
+        "handover_year": "evidence_or_claim_recorded",
         "legal_owner": "missing_or_unverified",
         "foreign_buyer_eligibility": "missing_or_unverified",
         "verified_location": "missing_or_unverified",
@@ -5320,7 +6213,15 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P1",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "candidate_review": {
+        "pending": true,
+        "last_intake_at": "2026-10-12",
+        "source_batch_file": "data/qimap_p0_developer_dossier_candidates_20261012_batch01.json",
+        "total_claims_with_provenance": 9,
+        "conflicts": [],
+        "publication": "not_approved; candidate only"
+      }
     },
     {
       "id": "hist-safira",
@@ -5337,23 +6238,216 @@
       "foreign_capital": "not_verified_separately",
       "position_status": "not_independently_verified",
       "pricing_status": "unverified_asking_or_missing",
-      "specifications": [],
+      "specifications": [
+        {
+          "field": "land_area",
+          "value": 2.7,
+          "unit": "ha",
+          "scope": "project",
+          "claim_id": "hist-safira|project|land_area|1",
+          "source_url": "https://www.khangdien.com.vn/safira",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/safira"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "residential_units",
+          "value": 1570,
+          "unit": "apartments",
+          "scope": "project",
+          "claim_id": "hist-safira|project|residential_units|2",
+          "source_url": "https://www.khangdien.com.vn/safira",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/safira"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "commercial_units",
+          "value": 23,
+          "unit": "units",
+          "scope": "project",
+          "claim_id": "hist-safira|project|commercial_units|3",
+          "source_url": "https://www.khangdien.com.vn/safira",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/safira"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "blocks",
+          "value": 4,
+          "unit": "blocks",
+          "scope": "project",
+          "claim_id": "hist-safira|project|blocks|4",
+          "source_url": "https://www.khangdien.com.vn/safira",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/safira"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "tower_height",
+          "value": 22,
+          "unit": "storeys",
+          "scope": "project",
+          "claim_id": "hist-safira|project|tower_height|5",
+          "source_url": "https://www.khangdien.com.vn/safira",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/safira"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "historic_location",
+          "value": "Mat tien duong N6 ket noi N5, Vo Chi Cong, HCMC-Long Thanh-Dau Giay",
+          "unit": "text",
+          "scope": "project",
+          "claim_id": "hist-safira|project|historic_location|6",
+          "source_url": "https://www.khangdien.com.vn/safira",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/safira"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "initial_primary_launch",
+          "value": "2018-11",
+          "unit": "month",
+          "scope": "project",
+          "claim_id": "hist-safira|project|initial_primary_launch|7",
+          "source_url": "https://www.khangdien.com.vn/dai-hoi-dong-co-dong-cong-ty-khang-dien-2019",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": "2019-04-12",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/dai-hoi-dong-co-dong-cong-ty-khang-dien-2019"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "physical_handover",
+          "value": 2020,
+          "unit": "year",
+          "scope": "project",
+          "claim_id": "hist-safira|project|physical_handover|8",
+          "source_url": "https://www.khangdien.com.vn/en/khang-dien-kdh-organized-annual-general-shareholders-meeting-2021",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": "2021-04-29",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/en/khang-dien-kdh-organized-annual-general-shareholders-meeting-2021"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "3 months early, exact date unverified"
+        },
+        {
+          "field": "historical_count_conflict",
+          "value": 1593,
+          "unit": "units_called_apartments",
+          "scope": "project",
+          "claim_id": "hist-safira|project|historical_count_conflict|9",
+          "source_url": "https://www.khangdien.com.vn/dai-hoi-dong-co-dong-cong-ty-khang-dien-2019",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": "2019-04-12",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/dai-hoi-dong-co-dong-cong-ty-khang-dien-2019"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "2019 report calls 1,593 apartments; current source says 1,570 apartments plus 23 commercial. DO NOT adopt 1593 apartments."
+        }
+      ],
       "source_references": [
         {
           "url": "https://www.khangdien.com.vn/tap-doan-khang-dien-to-chuc-le-cat-noc-2-thap-b-cua-du-an-the-privia",
           "role": "issuer_reported",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://www.khangdien.com.vn/safira",
+          "role": "developer_project_page_or_undated_history",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "Khang Dien Group",
+          "published_at": null,
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://www.khangdien.com.vn/dai-hoi-dong-co-dong-cong-ty-khang-dien-2019",
+          "role": "developer_dated_release",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "Khang Dien Group",
+          "published_at": "2019-04-12",
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://www.khangdien.com.vn/en/khang-dien-kdh-organized-annual-general-shareholders-meeting-2021",
+          "role": "developer_dated_release",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "Khang Dien Group",
+          "published_at": "2021-04-29",
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
         }
       ],
       "coverage": {
         "project_identity": "evidence_or_claim_recorded",
         "developer_brand": "evidence_or_claim_recorded",
         "source_reference": "evidence_or_claim_recorded",
-        "site_area": "missing_or_unverified",
-        "residential_units": "missing_or_unverified",
-        "tower_count": "missing_or_unverified",
-        "handover_year": "missing_or_unverified",
+        "site_area": "evidence_or_claim_recorded",
+        "residential_units": "evidence_or_claim_recorded",
+        "tower_count": "evidence_or_claim_recorded",
+        "handover_year": "evidence_or_claim_recorded",
         "legal_owner": "missing_or_unverified",
         "foreign_buyer_eligibility": "missing_or_unverified",
         "verified_location": "missing_or_unverified",
@@ -5361,7 +6455,17 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P1",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "candidate_review": {
+        "pending": true,
+        "last_intake_at": "2026-10-12",
+        "source_batch_file": "data/qimap_p0_developer_dossier_candidates_20261012_batch01.json",
+        "total_claims_with_provenance": 9,
+        "conflicts": [
+          "SAFIRA_1593_VS_1570_PLUS_23"
+        ],
+        "publication": "not_approved; candidate only"
+      }
     },
     {
       "id": "hist-loveravista",
@@ -5378,23 +6482,198 @@
       "foreign_capital": "not_verified_separately",
       "position_status": "not_independently_verified",
       "pricing_status": "unverified_asking_or_missing",
-      "specifications": [],
+      "specifications": [
+        {
+          "field": "land_area",
+          "value": 1.8,
+          "unit": "ha",
+          "scope": "project",
+          "claim_id": "hist-loveravista|project|land_area|1",
+          "source_url": "https://www.khangdien.com.vn/lovera-vista",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/lovera-vista"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "residential_units",
+          "value": 1310,
+          "unit": "apartments",
+          "scope": "project",
+          "claim_id": "hist-loveravista|project|residential_units|2",
+          "source_url": "https://www.khangdien.com.vn/lovera-vista",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/lovera-vista"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "blocks",
+          "value": 5,
+          "unit": "blocks",
+          "scope": "project",
+          "claim_id": "hist-loveravista|project|blocks|3",
+          "source_url": "https://www.khangdien.com.vn/lovera-vista",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/lovera-vista"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "historic_location",
+          "value": "Duong so 19, KDC Phong Phu 4, Binh Chanh (cu)",
+          "unit": "text",
+          "scope": "project",
+          "claim_id": "hist-loveravista|project|historic_location|4",
+          "source_url": "https://www.khangdien.com.vn/lovera-vista",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/lovera-vista"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "unit_types",
+          "value": "1+1PN, 2PN, 3PN, duplex",
+          "unit": "text",
+          "scope": "project",
+          "claim_id": "hist-loveravista|project|unit_types|5",
+          "source_url": "https://www.khangdien.com.vn/lovera-vista",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/lovera-vista"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "primary_launch_year",
+          "value": 2019,
+          "unit": "year",
+          "scope": "project",
+          "claim_id": "hist-loveravista|project|primary_launch_year|6",
+          "source_url": "https://www.khangdien.com.vn/khang-dien-ban-giao-lovera-vista-vuot-tien-do-tiep-tuc-khang-dinh-uy-tin-thuong-hieu",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": "2021-05-18",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/khang-dien-ban-giao-lovera-vista-vuot-tien-do-tiep-tuc-khang-dinh-uy-tin-thuong-hieu"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "initial_handover",
+          "value": "2021-05-15",
+          "unit": "date",
+          "scope": "project",
+          "claim_id": "hist-loveravista|project|initial_handover|7",
+          "source_url": "https://www.khangdien.com.vn/khang-dien-ban-giao-lovera-vista-vuot-tien-do-tiep-tuc-khang-dinh-uy-tin-thuong-hieu",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": "2021-05-18",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/khang-dien-ban-giao-lovera-vista-vuot-tien-do-tiep-tuc-khang-dinh-uy-tin-thuong-hieu"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "First handover started, not every unit."
+        },
+        {
+          "field": "initial_pink_books",
+          "value": "2021-11",
+          "unit": "month",
+          "scope": "project",
+          "claim_id": "hist-loveravista|project|initial_pink_books|8",
+          "source_url": "https://www.khangdien.com.vn/khang-dien-bat-dau-ban-giao-so-hong-cho-cu-dan-lovera-vista",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": "2021-12-02",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/khang-dien-bat-dau-ban-giao-so-hong-cho-cu-dan-lovera-vista"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Not apartment handover."
+        }
+      ],
       "source_references": [
         {
           "url": "https://www.khangdien.com.vn/tap-doan-khang-dien-to-chuc-le-cat-noc-2-thap-b-cua-du-an-the-privia",
           "role": "issuer_reported",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://www.khangdien.com.vn/lovera-vista",
+          "role": "developer_project_page_or_undated_history",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "Khang Dien Group",
+          "published_at": null,
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://www.khangdien.com.vn/khang-dien-ban-giao-lovera-vista-vuot-tien-do-tiep-tuc-khang-dinh-uy-tin-thuong-hieu",
+          "role": "developer_dated_release",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "Khang Dien Group",
+          "published_at": "2021-05-18",
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://www.khangdien.com.vn/khang-dien-bat-dau-ban-giao-so-hong-cho-cu-dan-lovera-vista",
+          "role": "developer_dated_release",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "Khang Dien Group",
+          "published_at": "2021-12-02",
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
         }
       ],
       "coverage": {
         "project_identity": "evidence_or_claim_recorded",
         "developer_brand": "evidence_or_claim_recorded",
         "source_reference": "evidence_or_claim_recorded",
-        "site_area": "missing_or_unverified",
-        "residential_units": "missing_or_unverified",
-        "tower_count": "missing_or_unverified",
-        "handover_year": "missing_or_unverified",
+        "site_area": "evidence_or_claim_recorded",
+        "residential_units": "evidence_or_claim_recorded",
+        "tower_count": "evidence_or_claim_recorded",
+        "handover_year": "evidence_or_claim_recorded",
         "legal_owner": "missing_or_unverified",
         "foreign_buyer_eligibility": "missing_or_unverified",
         "verified_location": "missing_or_unverified",
@@ -5402,7 +6681,15 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P1",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "candidate_review": {
+        "pending": true,
+        "last_intake_at": "2026-10-12",
+        "source_batch_file": "data/qimap_p0_developer_dossier_candidates_20261012_batch01.json",
+        "total_claims_with_provenance": 8,
+        "conflicts": [],
+        "publication": "not_approved; candidate only"
+      }
     },
     {
       "id": "hist-theprivia",
@@ -5419,23 +6706,208 @@
       "foreign_capital": "not_verified_separately",
       "position_status": "not_independently_verified",
       "pricing_status": "unverified_asking_or_missing",
-      "specifications": [],
+      "specifications": [
+        {
+          "field": "land_area",
+          "value": 1.8,
+          "unit": "ha",
+          "scope": "project",
+          "claim_id": "hist-theprivia|project|land_area|1",
+          "source_url": "https://www.khangdien.com.vn/the-privia",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/the-privia"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "residential_units",
+          "value": 1043,
+          "unit": "apartments",
+          "scope": "project",
+          "claim_id": "hist-theprivia|project|residential_units|2",
+          "source_url": "https://www.khangdien.com.vn/the-privia",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/the-privia"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "towers",
+          "value": 3,
+          "unit": "towers",
+          "scope": "project",
+          "claim_id": "hist-theprivia|project|towers|3",
+          "source_url": "https://www.khangdien.com.vn/the-privia",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/the-privia"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "historic_location",
+          "value": "An Duong Vuong, An Lac, Binh Tan (cu), TP.HCM",
+          "unit": "text",
+          "scope": "project",
+          "claim_id": "hist-theprivia|project|historic_location|4",
+          "source_url": "https://www.khangdien.com.vn/the-privia",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/the-privia"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "issuer_claimed_legal_owner",
+          "value": "Cong ty TNHH MTV Dau tu Kinh doanh nha Khang Phuc",
+          "unit": "issuer_claim",
+          "scope": "project",
+          "claim_id": "hist-theprivia|project|issuer_claimed_legal_owner|5",
+          "source_url": "https://www.khangdien.com.vn/thong-bao-v-v-sap-ra-mat-du-an-the-privia",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": "2023-08-10",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/thong-bao-v-v-sap-ra-mat-du-an-the-privia"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Pending independent government registry verification"
+        },
+        {
+          "field": "official_launch_date",
+          "value": "2023-11-25",
+          "unit": "date",
+          "scope": "project",
+          "claim_id": "hist-theprivia|project|official_launch_date|6",
+          "source_url": "https://www.khangdien.com.vn/tap-doan-khang-dien-chinh-thuc-mo-ban-du-an-the-privia-thu-hut-hang-ngan-khach-hang-tham-du",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": "2023-11-27",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/tap-doan-khang-dien-chinh-thuc-mo-ban-du-an-the-privia-thu-hut-hang-ngan-khach-hang-tham-du"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "initial_handover",
+          "value": "2024-10-15",
+          "unit": "date",
+          "scope": "project",
+          "claim_id": "hist-theprivia|project|initial_handover|7",
+          "source_url": "https://www.khangdien.com.vn/the-privia-ban-giao-vuot-tien-do-khang-dinh-uy-tin-chu-dau-tu",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": "2024-10-15",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/the-privia-ban-giao-vuot-tien-do-khang-dinh-uy-tin-chu-dau-tu"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "legal_document_references",
+          "value": "Construction permit 34/GPXD dated 2022-06-28; eligible-sales document 16746/SXD-PTN&TTBDS dated 2023-10-26",
+          "unit": "issuer_claim",
+          "scope": "project",
+          "claim_id": "hist-theprivia|project|legal_document_references|8",
+          "source_url": "https://www.khangdien.com.vn/the-privia",
+          "source_role": "developer_issuer_claim_unverified",
+          "source_issuer": "Khang Dien Group",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_factual_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.khangdien.com.vn/the-privia"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Do not publish as government-verified legal status."
+        }
+      ],
       "source_references": [
         {
           "url": "https://www.khangdien.com.vn/tap-doan-khang-dien-to-chuc-le-cat-noc-2-thap-b-cua-du-an-the-privia",
           "role": "issuer_reported",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://www.khangdien.com.vn/the-privia",
+          "role": "developer_project_page_or_undated_history",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "Khang Dien Group",
+          "published_at": null,
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://www.khangdien.com.vn/thong-bao-v-v-sap-ra-mat-du-an-the-privia",
+          "role": "developer_dated_release",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "Khang Dien Group",
+          "published_at": "2023-08-10",
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://www.khangdien.com.vn/tap-doan-khang-dien-chinh-thuc-mo-ban-du-an-the-privia-thu-hut-hang-ngan-khach-hang-tham-du",
+          "role": "developer_dated_release",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "Khang Dien Group",
+          "published_at": "2023-11-27",
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
+        },
+        {
+          "url": "https://www.khangdien.com.vn/the-privia-ban-giao-vuot-tien-do-khang-dinh-uy-tin-chu-dau-tu",
+          "role": "developer_dated_release",
+          "status": "developer_issuer_reference_review_pending",
+          "checked_at": "2026-10-12",
+          "publisher": "Khang Dien Group",
+          "published_at": "2024-10-15",
+          "source_rights": "unverified_not_granted",
+          "evidence_batch": "qimap-p0-developer-dossier-integration-20261012-batch01"
         }
       ],
       "coverage": {
         "project_identity": "evidence_or_claim_recorded",
         "developer_brand": "evidence_or_claim_recorded",
         "source_reference": "evidence_or_claim_recorded",
-        "site_area": "missing_or_unverified",
-        "residential_units": "missing_or_unverified",
-        "tower_count": "missing_or_unverified",
-        "handover_year": "missing_or_unverified",
+        "site_area": "evidence_or_claim_recorded",
+        "residential_units": "evidence_or_claim_recorded",
+        "tower_count": "evidence_or_claim_recorded",
+        "handover_year": "evidence_or_claim_recorded",
         "legal_owner": "missing_or_unverified",
         "foreign_buyer_eligibility": "missing_or_unverified",
         "verified_location": "missing_or_unverified",
@@ -5443,7 +6915,15 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P1",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "candidate_review": {
+        "pending": true,
+        "last_intake_at": "2026-10-12",
+        "source_batch_file": "data/qimap_p0_developer_dossier_candidates_20261012_batch01.json",
+        "total_claims_with_provenance": 8,
+        "conflicts": [],
+        "publication": "not_approved; candidate only"
+      }
     },
     {
       "id": "hist-saigonpearl",
