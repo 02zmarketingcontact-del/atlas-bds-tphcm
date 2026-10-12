@@ -1501,7 +1501,7 @@
     "coordinates_crosschecked": 0,
     "conflicts": 6,
     "feed_authorized": 0,
-    "github_commit_this_run": 0,
+    "github_commit_this_run": 1,
     "price_observation_candidates": 3,
     "new_project_sources_vs_local_batch06": 0,
     "new_date_specific_price_observations_vs_local_batch06": 1,
@@ -1524,9 +1524,10 @@
     "git_status": "Create-file operation attempted on Draft PR #77 branch but refused by GitHub connector safety gate; local result only.",
     "feed_status": "Main data/update_status.json not_configured, sources_configured=0, last_run_at=null.",
     "scope": "The Felix distinct from Felix Homes; The Win City is outside current HCMC; Norton Park remains contested and unapproved.",
-    "github_status": "Candidate branch upload attempted; main and public map unchanged.",
+    "github_status": "Candidate dataset committed to existing research branch under Draft PR #77; canonical/public datasets and legal/price/geocoding approvals unchanged.",
     "latest_source_verification": "3 dated The Origami source URLs opened on 2026-10-13; syndicated provenance differentiated.",
     "quality_gate": "Six known canonical project IDs only; three observation kinds (2 PRICE_ASKING, 1 REPORT_ESTIMATE); no TRANSACTION_VERIFIED, no RENT_ASKING or GPS.",
-    "reported_registrations_guard": "2,400 registered interest entries in original article are not notarized transactions, signed contracts or prices."
+    "reported_registrations_guard": "2,400 registered interest entries in original article are not notarized transactions, signed contracts or prices.",
+    "source_access_note": "Three newly added dated The Origami portal pages successfully opened in web research; some preexisting profile pages remain search-index-only or 403 and are NOT treated as directly verified."
   }
 }
