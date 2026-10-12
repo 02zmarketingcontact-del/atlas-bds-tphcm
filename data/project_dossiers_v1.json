@@ -559,7 +559,224 @@
       "foreign_capital": "not_verified_separately",
       "position_status": "not_independently_verified",
       "pricing_status": "unverified_asking_or_missing",
-      "specifications": [],
+      "specifications": [
+        {
+          "field": "land_area_ha",
+          "value": 14.6,
+          "unit": "ha",
+          "scope": "project",
+          "claim_id": "map-empire|project|land_area_ha|1",
+          "source_url": "https://www.keppel.com/realestate/About-Us/Our-Projects/Empire-City",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/realestate/About-Us/Our-Projects/Empire-City"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Mixed-use overall site, not pure residential tower land"
+        },
+        {
+          "field": "residential_units_planned_approx",
+          "value": 3000,
+          "unit": "approx_units",
+          "scope": "project",
+          "claim_id": "map-empire|project|residential_units_planned_approx|1",
+          "source_url": "https://www.keppel.com/realestate/About-Us/Our-Projects/Empire-City",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/realestate/About-Us/Our-Projects/Empire-City"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Forecast; not approved completed homes"
+        },
+        {
+          "field": "mixed_use_landmark_floors",
+          "value": 86,
+          "unit": "floors",
+          "scope": "mixed_use:landmark",
+          "claim_id": "map-empire|mixed_use:landmark|mixed_use_landmark_floors|1",
+          "source_url": "https://www.keppel.com/realestate/About-Us/Our-Projects/Empire-City",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/realestate/About-Us/Our-Projects/Empire-City"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Mixed-use structure, not residential tower count"
+        },
+        {
+          "field": "developer_location",
+          "value": "Thu Thiem New Urban Area, HCMC",
+          "unit": "broad_location",
+          "scope": "project",
+          "claim_id": "map-empire|project|developer_location|1",
+          "source_url": "https://www.keppel.com/realestate/About-Us/Our-Projects/Empire-City",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/realestate/About-Us/Our-Projects/Empire-City"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "No street-number/site coordinate verified"
+        },
+        {
+          "field": "phase_units",
+          "value": 510,
+          "unit": "units",
+          "scope": "phase:linden",
+          "claim_id": "map-empire|phase:linden|phase_units|1",
+          "source_url": "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel Land",
+          "source_published_at": "2019-09-26",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "2019 corporate briefing page 16"
+        },
+        {
+          "field": "phase_planned_completion_asof_2019",
+          "value": "2020",
+          "unit": "year",
+          "scope": "phase:linden",
+          "claim_id": "map-empire|phase:linden|phase_planned_completion_asof_2019|1",
+          "source_url": "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel Land",
+          "source_published_at": "2019-09-26",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Historical 2019 plan, NOT actual handover"
+        },
+        {
+          "field": "phase_units",
+          "value": 472,
+          "unit": "units",
+          "scope": "phase:tilia",
+          "claim_id": "map-empire|phase:tilia|phase_units|1",
+          "source_url": "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel Land",
+          "source_published_at": "2019-09-26",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "phase_planned_completion_asof_2019",
+          "value": "2021-H1",
+          "unit": "half_year",
+          "scope": "phase:tilia",
+          "claim_id": "map-empire|phase:tilia|phase_planned_completion_asof_2019|1",
+          "source_url": "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel Land",
+          "source_published_at": "2019-09-26",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Historical forecast"
+        },
+        {
+          "field": "phase_units",
+          "value": 136,
+          "unit": "units",
+          "scope": "phase:cove",
+          "claim_id": "map-empire|phase:cove|phase_units|1",
+          "source_url": "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel Land",
+          "source_published_at": "2019-09-26",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "phase_planned_completion_asof_2019",
+          "value": "2021-H2",
+          "unit": "half_year",
+          "scope": "phase:cove",
+          "claim_id": "map-empire|phase:cove|phase_planned_completion_asof_2019|1",
+          "source_url": "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel Land",
+          "source_published_at": "2019-09-26",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Historical forecast"
+        },
+        {
+          "field": "phase_units_2019_plan",
+          "value": 278,
+          "unit": "planned_units",
+          "scope": "phase:narra",
+          "claim_id": "map-empire|phase:narra|phase_units_2019_plan|1",
+          "source_url": "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel Land",
+          "source_published_at": "2019-09-26",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Plan at 2019-09-26, not as-built"
+        },
+        {
+          "field": "phase_planned_completion_asof_2019",
+          "value": "2022-H2",
+          "unit": "half_year",
+          "scope": "phase:narra",
+          "claim_id": "map-empire|phase:narra|phase_planned_completion_asof_2019|1",
+          "source_url": "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel Land",
+          "source_published_at": "2019-09-26",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Forecast only"
+        }
+      ],
       "source_references": [
         {
           "url": "https://www.keppel.com/realestate/About-Us/Our-Projects/Vietnam",
@@ -572,14 +789,34 @@
           "role": "initial_map_listing_unverified",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://www.keppel.com/realestate/About-Us/Our-Projects/Empire-City",
+          "role": "issuer_public_page",
+          "status": "issuer_or_media_reference_pending_review",
+          "checked_at": "2026-10-12",
+          "publisher": "Keppel",
+          "published_at": null,
+          "source_rights": "not_granted_or_unverified",
+          "evidence_batch": "qimap-p0-official-dossier-batch02-20261012"
+        },
+        {
+          "url": "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf",
+          "role": "corporate_investor_pdf",
+          "status": "issuer_or_media_reference_pending_review",
+          "checked_at": "2026-10-12",
+          "publisher": "Keppel Land",
+          "published_at": "2019-09-26",
+          "source_rights": "not_granted_or_unverified",
+          "evidence_batch": "qimap-p0-official-dossier-batch02-20261012"
         }
       ],
       "coverage": {
         "project_identity": "evidence_or_claim_recorded",
         "developer_brand": "evidence_or_claim_recorded",
         "source_reference": "evidence_or_claim_recorded",
-        "site_area": "missing_or_unverified",
-        "residential_units": "missing_or_unverified",
+        "site_area": "evidence_or_claim_recorded",
+        "residential_units": "evidence_or_claim_recorded",
         "tower_count": "missing_or_unverified",
         "handover_year": "missing_or_unverified",
         "legal_owner": "missing_or_unverified",
@@ -589,7 +826,22 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P2",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "candidate_review": {
+        "pending": true,
+        "last_intake_at": "2026-10-12",
+        "source_batch_file": "data/qimap_p0_official_dossier_candidates_20261012_batch02.json",
+        "total_claims_with_provenance": 12,
+        "conflicts": [
+          {
+            "project_id": "map-empire",
+            "action": "Differentiate 2019 forward-looking projected phase completion dates from actual handovers"
+          }
+        ],
+        "publication": "not_approved; issuer or media candidate only",
+        "price_status": "REPORT_ESTIMATE values stored separately; not a transaction or listing",
+        "coordinates_newly_verified": 0
+      }
     },
     {
       "id": "map-river",
@@ -606,7 +858,98 @@
       "foreign_capital": "not_verified_separately",
       "position_status": "not_independently_verified",
       "pricing_status": "unverified_asking_or_missing",
-      "specifications": [],
+      "specifications": [
+        {
+          "field": "phase_units",
+          "value": 525,
+          "unit": "apartments",
+          "scope": "phase:river1",
+          "claim_id": "map-river|phase:river1|phase_units|1",
+          "source_url": "https://refico.com.vn/specialities/the-river/",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Refico",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://refico.com.vn/specialities/the-river/"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Developer calls first phase; do not treat as full masterplan"
+        },
+        {
+          "field": "phase_towers",
+          "value": 3,
+          "unit": "towers",
+          "scope": "phase:river1",
+          "claim_id": "map-river|phase:river1|phase_towers|1",
+          "source_url": "https://refico.com.vn/specialities/the-river/",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Refico",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://refico.com.vn/specialities/the-river/"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "phase_gross_floor_area_m2",
+          "value": 104606,
+          "unit": "m2_GFA",
+          "scope": "phase:river1",
+          "claim_id": "map-river|phase:river1|phase_gross_floor_area_m2|1",
+          "source_url": "https://refico.com.vn/specialities/the-river/",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Refico",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://refico.com.vn/specialities/the-river/"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Gross floor area is NOT plot land area"
+        },
+        {
+          "field": "phase_location",
+          "value": "Thu Thiem, HCMC",
+          "unit": "broad_location",
+          "scope": "phase:river1",
+          "claim_id": "map-river|phase:river1|phase_location|1",
+          "source_url": "https://refico.com.vn/specialities/the-river/",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Refico",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://refico.com.vn/specialities/the-river/"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "No exact street address in cited page"
+        },
+        {
+          "field": "development_description",
+          "value": "low_density_multi_asset_boutique",
+          "unit": "classification",
+          "scope": "phase:river1",
+          "claim_id": "map-river|phase:river1|development_description|1",
+          "source_url": "https://refico.com.vn/specialities/the-river/",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Refico",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://refico.com.vn/specialities/the-river/"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Developer marketing category only"
+        }
+      ],
       "source_references": [
         {
           "url": "https://refico.com.vn/vi/specialities/the-river/",
@@ -619,6 +962,16 @@
           "role": "initial_map_listing_unverified",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://refico.com.vn/specialities/the-river/",
+          "role": "issuer_public_page",
+          "status": "issuer_or_media_reference_pending_review",
+          "checked_at": "2026-10-12",
+          "publisher": "Refico",
+          "published_at": null,
+          "source_rights": "not_granted_or_unverified",
+          "evidence_batch": "qimap-p0-official-dossier-batch02-20261012"
         }
       ],
       "coverage": {
@@ -636,7 +989,17 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P2",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "candidate_review": {
+        "pending": true,
+        "last_intake_at": "2026-10-12",
+        "source_batch_file": "data/qimap_p0_official_dossier_candidates_20261012_batch02.json",
+        "total_claims_with_provenance": 5,
+        "conflicts": [],
+        "publication": "not_approved; issuer or media candidate only",
+        "price_status": "REPORT_ESTIMATE values stored separately; not a transaction or listing",
+        "coordinates_newly_verified": 0
+      }
     },
     {
       "id": "map-prive",
@@ -824,7 +1187,173 @@
       "foreign_capital": "not_verified_separately",
       "position_status": "not_independently_verified",
       "pricing_status": "unverified_asking_or_missing",
-      "specifications": [],
+      "specifications": [
+        {
+          "field": "site_area_m2",
+          "value": 79839,
+          "unit": "m2",
+          "scope": "project",
+          "claim_id": "map-masterithaodien|project|site_area_m2|1",
+          "source_url": "https://masterisehomes.com/masteri-thao-dien/gioi-thieu/thong-tin-du-an",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/masteri-thao-dien/gioi-thieu/thong-tin-du-an"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "residential_tower_blocks",
+          "value": 4,
+          "unit": "twin_tower_blocks",
+          "scope": "project",
+          "claim_id": "map-masterithaodien|project|residential_tower_blocks|1",
+          "source_url": "https://masterisehomes.com/masteri-thao-dien/gioi-thieu/thong-tin-du-an",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/masteri-thao-dien/gioi-thieu/thong-tin-du-an"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Original site says four twin towers; not eight independent legal buildings"
+        },
+        {
+          "field": "residential_tower_floor_range",
+          "value": [
+            41,
+            45
+          ],
+          "unit": "floors",
+          "scope": "project",
+          "claim_id": "map-masterithaodien|project|residential_tower_floor_range|1",
+          "source_url": "https://masterisehomes.com/masteri-thao-dien/gioi-thieu/thong-tin-du-an",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/masteri-thao-dien/gioi-thieu/thong-tin-du-an"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "other_serviced_mixed_use_tower",
+          "value": 1,
+          "unit": "tower_44_floors",
+          "scope": "mixed_use",
+          "claim_id": "map-masterithaodien|mixed_use|other_serviced_mixed_use_tower|1",
+          "source_url": "https://masterisehomes.com/masteri-thao-dien/gioi-thieu/thong-tin-du-an",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/masteri-thao-dien/gioi-thieu/thong-tin-du-an"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Do not merge with apartment tower count"
+        },
+        {
+          "field": "project_address_historical",
+          "value": "159 Xa Lo Ha Noi, Thao Dien Ward, Thu Duc, HCMC",
+          "unit": "street_address",
+          "scope": "project",
+          "claim_id": "map-masterithaodien|project|project_address_historical|1",
+          "source_url": "https://masterisehomes.com/masteri-thao-dien/gioi-thieu/thong-tin-du-an",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/masteri-thao-dien/gioi-thieu/thong-tin-du-an"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "New administrative ward mapping not yet checked"
+        },
+        {
+          "field": "construction_start_claim",
+          "value": "2014-Q1",
+          "unit": "quarter",
+          "scope": "project",
+          "claim_id": "map-masterithaodien|project|construction_start_claim|1",
+          "source_url": "https://masterisehomes.com/masteri-thao-dien/gioi-thieu/thong-tin-du-an",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/masteri-thao-dien/gioi-thieu/thong-tin-du-an"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "original_completion_target",
+          "value": "2016-Q4",
+          "unit": "quarter",
+          "scope": "project",
+          "claim_id": "map-masterithaodien|project|original_completion_target|1",
+          "source_url": "https://masterisehomes.com/masteri-thao-dien/gioi-thieu/thong-tin-du-an",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/masteri-thao-dien/gioi-thieu/thong-tin-du-an"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Forward-looking original expected date"
+        },
+        {
+          "field": "first_apartments_handed_over",
+          "value": "2016-06-30",
+          "unit": "date",
+          "scope": "project",
+          "claim_id": "map-masterithaodien|project|first_apartments_handed_over|1",
+          "source_url": "https://masterisehomes.com/masteri-thao-dien/tin-tuc/tin-tuc-su-kien-AtkPHRNk/nhung-can-ho-dau-tien-cua-khu-dan-cu-cao-cap-masteri-thao-dien-da-chinh-thuc-duoc-ban-giao",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": "2016-07-11",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/masteri-thao-dien/tin-tuc/tin-tuc-su-kien-AtkPHRNk/nhung-can-ho-dau-tien-cua-khu-dan-cu-cao-cap-masteri-thao-dien-da-chinh-thuc-duoc-ban-giao"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Developer news 2016-07-11 documents first units on 2016-06-30"
+        },
+        {
+          "field": "tower_group_planned_handover_range",
+          "value": "2016-06_to_2016-12",
+          "unit": "date_range",
+          "scope": "tower_group:T1-T4",
+          "claim_id": "map-masterithaodien|tower_group:T1-T4|tower_group_planned_handover_range|1",
+          "source_url": "https://masterisehomes.com/masteri-thao-dien/tin-tuc/tin-tuc-su-kien-AtkPHRNk/nhung-can-ho-dau-tien-cua-khu-dan-cu-cao-cap-masteri-thao-dien-da-chinh-thuc-duoc-ban-giao",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": "2016-07-11",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/masteri-thao-dien/tin-tuc/tin-tuc-su-kien-AtkPHRNk/nhung-can-ho-dau-tien-cua-khu-dan-cu-cao-cap-masteri-thao-dien-da-chinh-thuc-duoc-ban-giao"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Tentative schedule, not proof all units handed over"
+        }
+      ],
       "source_references": [
         {
           "url": "https://masterisehomes.com/",
@@ -837,16 +1366,36 @@
           "role": "issuer_reported",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://masterisehomes.com/masteri-thao-dien/gioi-thieu/thong-tin-du-an",
+          "role": "issuer_public_page",
+          "status": "issuer_or_media_reference_pending_review",
+          "checked_at": "2026-10-12",
+          "publisher": "Masterise Homes",
+          "published_at": null,
+          "source_rights": "not_granted_or_unverified",
+          "evidence_batch": "qimap-p0-official-dossier-batch02-20261012"
+        },
+        {
+          "url": "https://masterisehomes.com/masteri-thao-dien/tin-tuc/tin-tuc-su-kien-AtkPHRNk/nhung-can-ho-dau-tien-cua-khu-dan-cu-cao-cap-masteri-thao-dien-da-chinh-thuc-duoc-ban-giao",
+          "role": "issuer_public_page",
+          "status": "issuer_or_media_reference_pending_review",
+          "checked_at": "2026-10-12",
+          "publisher": "Masterise Homes",
+          "published_at": "2016-07-11",
+          "source_rights": "not_granted_or_unverified",
+          "evidence_batch": "qimap-p0-official-dossier-batch02-20261012"
         }
       ],
       "coverage": {
         "project_identity": "evidence_or_claim_recorded",
         "developer_brand": "evidence_or_claim_recorded",
         "source_reference": "evidence_or_claim_recorded",
-        "site_area": "missing_or_unverified",
+        "site_area": "evidence_or_claim_recorded",
         "residential_units": "missing_or_unverified",
-        "tower_count": "missing_or_unverified",
-        "handover_year": "missing_or_unverified",
+        "tower_count": "evidence_or_claim_recorded",
+        "handover_year": "evidence_or_claim_recorded",
         "legal_owner": "missing_or_unverified",
         "foreign_buyer_eligibility": "missing_or_unverified",
         "verified_location": "missing_or_unverified",
@@ -854,7 +1403,22 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P1",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "candidate_review": {
+        "pending": true,
+        "last_intake_at": "2026-10-12",
+        "source_batch_file": "data/qimap_p0_official_dossier_candidates_20261012_batch02.json",
+        "total_claims_with_provenance": 9,
+        "conflicts": [
+          {
+            "project_id": "map-masterithaodien",
+            "action": "Verify 2014 press estimates against official price schedule; preserve 4 twin tower blocks distinction"
+          }
+        ],
+        "publication": "not_approved; issuer or media candidate only",
+        "price_status": "REPORT_ESTIMATE values stored separately; not a transaction or listing",
+        "coordinates_newly_verified": 0
+      }
     },
     {
       "id": "map-gatewaythaodien",
@@ -1186,7 +1750,117 @@
       "foreign_capital": "not_verified_separately",
       "position_status": "not_independently_verified",
       "pricing_status": "unverified_asking_or_missing",
-      "specifications": [],
+      "specifications": [
+        {
+          "field": "residential_towers",
+          "value": 5,
+          "unit": "towers",
+          "scope": "project",
+          "claim_id": "map-mcp|project|residential_towers|1",
+          "source_url": "https://masterisehomes.com/masteri-centre-point/en/news/masterise-homes-chinh-thuc-ban-giao-masteri-centre-point-xac-lap-chuan-song-can-ho-cao-cap-nhat-khu-dong-tphcm",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/masteri-centre-point/en/news/masterise-homes-chinh-thuc-ban-giao-masteri-centre-point-xac-lap-chuan-song-can-ho-cao-cap-nhat-khu-dong-tphcm",
+            "https://masterisehomes.com/masteri-centre-point/news/cap-nhat-tien-do-thang-52023-mat-ngoai-noi-bat-tiep-tuc-hoan-thien-khong-gian-song-noi-that-ban-giao-trong-can-ho"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "handover_event",
+          "value": "2023-12-23",
+          "unit": "date",
+          "scope": "project",
+          "claim_id": "map-mcp|project|handover_event|1",
+          "source_url": "https://masterisehomes.com/masteri-centre-point/en/news/masterise-homes-chinh-thuc-ban-giao-masteri-centre-point-xac-lap-chuan-song-can-ho-cao-cap-nhat-khu-dong-tphcm",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/masteri-centre-point/en/news/masterise-homes-chinh-thuc-ban-giao-masteri-centre-point-xac-lap-chuan-song-can-ho-cao-cap-nhat-khu-dong-tphcm"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "First ceremonial handover event, not every apartment transferred"
+        },
+        {
+          "field": "handover_release_units_scope",
+          "value": "more_than_2000",
+          "unit": "apartments",
+          "scope": "project",
+          "claim_id": "map-mcp|project|handover_release_units_scope|1",
+          "source_url": "https://masterisehomes.com/masteri-centre-point/en/news/masterise-homes-chinh-thuc-ban-giao-masteri-centre-point-xac-lap-chuan-song-can-ho-cao-cap-nhat-khu-dong-tphcm",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/masteri-centre-point/en/news/masterise-homes-chinh-thuc-ban-giao-masteri-centre-point-xac-lap-chuan-song-can-ho-cao-cap-nhat-khu-dong-tphcm"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Corporate announcement not certified final inventory"
+        },
+        {
+          "field": "project_address_historical",
+          "value": "No. 6 D1 Street, Long Binh Ward, Thu Duc, HCMC",
+          "unit": "street_address",
+          "scope": "project",
+          "claim_id": "map-mcp|project|project_address_historical|1",
+          "source_url": "https://www.masterisehomes.com/masteri-centre-point/",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.masterisehomes.com/masteri-centre-point/"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "No GPS from address"
+        },
+        {
+          "field": "construction_progress_status",
+          "value": "interior_fitout_in_progress_2023-05",
+          "unit": "status",
+          "scope": "project",
+          "claim_id": "map-mcp|project|construction_progress_status|1",
+          "source_url": "https://masterisehomes.com/masteri-centre-point/news/cap-nhat-tien-do-thang-52023-mat-ngoai-noi-bat-tiep-tuc-hoan-thien-khong-gian-song-noi-that-ban-giao-trong-can-ho",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": "2023-05",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/masteri-centre-point/news/cap-nhat-tien-do-thang-52023-mat-ngoai-noi-bat-tiep-tuc-hoan-thien-khong-gian-song-noi-that-ban-giao-trong-can-ho"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Historical state only"
+        },
+        {
+          "field": "units_under_internal_quality_inspection",
+          "value": 154,
+          "unit": "apartments",
+          "scope": "lower_two_floors",
+          "claim_id": "map-mcp|lower_two_floors|units_under_internal_quality_inspection|1",
+          "source_url": "https://masterisehomes.com/masteri-centre-point/news/cap-nhat-tien-do-thang-52023-mat-ngoai-noi-bat-tiep-tuc-hoan-thien-khong-gian-song-noi-that-ban-giao-trong-can-ho",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": "2023-05",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/masteri-centre-point/news/cap-nhat-tien-do-thang-52023-mat-ngoai-noi-bat-tiep-tuc-hoan-thien-khong-gian-song-noi-that-ban-giao-trong-can-ho"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Not actual delivered units"
+        }
+      ],
       "source_references": [
         {
           "url": "https://masterisehomes.com/",
@@ -1199,6 +1873,36 @@
           "role": "initial_map_listing_unverified",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://masterisehomes.com/masteri-centre-point/en/news/masterise-homes-chinh-thuc-ban-giao-masteri-centre-point-xac-lap-chuan-song-can-ho-cao-cap-nhat-khu-dong-tphcm",
+          "role": "issuer_public_page",
+          "status": "issuer_or_media_reference_pending_review",
+          "checked_at": "2026-10-12",
+          "publisher": "Masterise Homes",
+          "published_at": null,
+          "source_rights": "not_granted_or_unverified",
+          "evidence_batch": "qimap-p0-official-dossier-batch02-20261012"
+        },
+        {
+          "url": "https://masterisehomes.com/masteri-centre-point/news/cap-nhat-tien-do-thang-52023-mat-ngoai-noi-bat-tiep-tuc-hoan-thien-khong-gian-song-noi-that-ban-giao-trong-can-ho",
+          "role": "developer_progress_month",
+          "status": "issuer_or_media_reference_pending_review",
+          "checked_at": "2026-10-12",
+          "publisher": "Masterise Homes",
+          "published_at": "2023-05",
+          "source_rights": "not_granted_or_unverified",
+          "evidence_batch": "qimap-p0-official-dossier-batch02-20261012"
+        },
+        {
+          "url": "https://www.masterisehomes.com/masteri-centre-point/",
+          "role": "issuer_public_page",
+          "status": "issuer_or_media_reference_pending_review",
+          "checked_at": "2026-10-12",
+          "publisher": "Masterise Homes",
+          "published_at": null,
+          "source_rights": "not_granted_or_unverified",
+          "evidence_batch": "qimap-p0-official-dossier-batch02-20261012"
         }
       ],
       "coverage": {
@@ -1207,8 +1911,8 @@
         "source_reference": "evidence_or_claim_recorded",
         "site_area": "missing_or_unverified",
         "residential_units": "missing_or_unverified",
-        "tower_count": "missing_or_unverified",
-        "handover_year": "missing_or_unverified",
+        "tower_count": "evidence_or_claim_recorded",
+        "handover_year": "evidence_or_claim_recorded",
         "legal_owner": "missing_or_unverified",
         "foreign_buyer_eligibility": "missing_or_unverified",
         "verified_location": "missing_or_unverified",
@@ -1216,7 +1920,17 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P2",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "candidate_review": {
+        "pending": true,
+        "last_intake_at": "2026-10-12",
+        "source_batch_file": "data/qimap_p0_official_dossier_candidates_20261012_batch02.json",
+        "total_claims_with_provenance": 6,
+        "conflicts": [],
+        "publication": "not_approved; issuer or media candidate only",
+        "price_status": "REPORT_ESTIMATE values stored separately; not a transaction or listing",
+        "coordinates_newly_verified": 0
+      }
     },
     {
       "id": "map-lumiere",
@@ -1233,7 +1947,99 @@
       "foreign_capital": "not_verified_separately",
       "position_status": "not_independently_verified",
       "pricing_status": "unverified_asking_or_missing",
-      "specifications": [],
+      "specifications": [
+        {
+          "field": "residential_towers",
+          "value": 5,
+          "unit": "towers",
+          "scope": "project",
+          "claim_id": "map-lumiere|project|residential_towers|1",
+          "source_url": "https://masterisehomes.com/lumiere-boulevard/en/construction-progress-update-lumiere-boulevard-april-2023",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": "2023-04-25",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/lumiere-boulevard/en/construction-progress-update-lumiere-boulevard-april-2023",
+            "https://masterisehomes.com/lumiere-boulevard/vn/cap-nhat-hinh-anh-hoan-thien-moi-nhat-cac-can-ho-lumiere-boulevard-san-sang-ban-giao-toa-nha-ruc-ro"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "project_address_historical",
+          "value": "No. 8 D1 Street, Vinhomes Grand Park, Long Binh Ward, Thu Duc, HCMC",
+          "unit": "street_address",
+          "scope": "project",
+          "claim_id": "map-lumiere|project|project_address_historical|1",
+          "source_url": "https://masterisehomes.com/lumiere-boulevard/vn/cap-nhat-hinh-anh-hoan-thien-moi-nhat-cac-can-ho-lumiere-boulevard-san-sang-ban-giao-toa-nha-ruc-ro",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": "2024-01-19",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/lumiere-boulevard/vn/cap-nhat-hinh-anh-hoan-thien-moi-nhat-cac-can-ho-lumiere-boulevard-san-sang-ban-giao-toa-nha-ruc-ro"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "first_handover_original_forecast",
+          "value": "2023-Q4",
+          "unit": "quarter",
+          "scope": "project",
+          "claim_id": "map-lumiere|project|first_handover_original_forecast|1",
+          "source_url": "https://masterisehomes.com/lumiere-boulevard/en/construction-progress-update-lumiere-boulevard-april-2023",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": "2023-04-25",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/lumiere-boulevard/en/construction-progress-update-lumiere-boulevard-april-2023"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "As reported April 2023, not realized handover"
+        },
+        {
+          "field": "developer_readiness_report",
+          "value": "2024-01-19",
+          "unit": "date",
+          "scope": "project",
+          "claim_id": "map-lumiere|project|developer_readiness_report|1",
+          "source_url": "https://masterisehomes.com/lumiere-boulevard/vn/cap-nhat-hinh-anh-hoan-thien-moi-nhat-cac-can-ho-lumiere-boulevard-san-sang-ban-giao-toa-nha-ruc-ro",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": "2024-01-19",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/lumiere-boulevard/vn/cap-nhat-hinh-anh-hoan-thien-moi-nhat-cac-can-ho-lumiere-boulevard-san-sang-ban-giao-toa-nha-ruc-ro"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Preparing to welcome residents; actual handover not proven"
+        },
+        {
+          "field": "hanging_gardens_reported",
+          "value": 24,
+          "unit": "gardens",
+          "scope": "project",
+          "claim_id": "map-lumiere|project|hanging_gardens_reported|1",
+          "source_url": "https://masterisehomes.com/lumiere-boulevard/vn/cap-nhat-hinh-anh-hoan-thien-moi-nhat-cac-can-ho-lumiere-boulevard-san-sang-ban-giao-toa-nha-ruc-ro",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Masterise Homes",
+          "source_published_at": "2024-01-19",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://masterisehomes.com/lumiere-boulevard/vn/cap-nhat-hinh-anh-hoan-thien-moi-nhat-cac-can-ho-lumiere-boulevard-san-sang-ban-giao-toa-nha-ruc-ro"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Marketing amenity claim"
+        }
+      ],
       "source_references": [
         {
           "url": "https://masterisehomes.com/",
@@ -1246,6 +2052,26 @@
           "role": "initial_map_listing_unverified",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://masterisehomes.com/lumiere-boulevard/en/construction-progress-update-lumiere-boulevard-april-2023",
+          "role": "issuer_public_page",
+          "status": "issuer_or_media_reference_pending_review",
+          "checked_at": "2026-10-12",
+          "publisher": "Masterise Homes",
+          "published_at": "2023-04-25",
+          "source_rights": "not_granted_or_unverified",
+          "evidence_batch": "qimap-p0-official-dossier-batch02-20261012"
+        },
+        {
+          "url": "https://masterisehomes.com/lumiere-boulevard/vn/cap-nhat-hinh-anh-hoan-thien-moi-nhat-cac-can-ho-lumiere-boulevard-san-sang-ban-giao-toa-nha-ruc-ro",
+          "role": "issuer_public_page",
+          "status": "issuer_or_media_reference_pending_review",
+          "checked_at": "2026-10-12",
+          "publisher": "Masterise Homes",
+          "published_at": "2024-01-19",
+          "source_rights": "not_granted_or_unverified",
+          "evidence_batch": "qimap-p0-official-dossier-batch02-20261012"
         }
       ],
       "coverage": {
@@ -1254,7 +2080,7 @@
         "source_reference": "evidence_or_claim_recorded",
         "site_area": "missing_or_unverified",
         "residential_units": "missing_or_unverified",
-        "tower_count": "missing_or_unverified",
+        "tower_count": "evidence_or_claim_recorded",
         "handover_year": "missing_or_unverified",
         "legal_owner": "missing_or_unverified",
         "foreign_buyer_eligibility": "missing_or_unverified",
@@ -1263,7 +2089,22 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P2",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "candidate_review": {
+        "pending": true,
+        "last_intake_at": "2026-10-12",
+        "source_batch_file": "data/qimap_p0_official_dossier_candidates_20261012_batch02.json",
+        "total_claims_with_provenance": 5,
+        "conflicts": [
+          {
+            "project_id": "map-lumiere",
+            "action": "Check actual delivery; 2023 completion target contradicted by 2024 readiness release"
+          }
+        ],
+        "publication": "not_approved; issuer or media candidate only",
+        "price_status": "REPORT_ESTIMATE values stored separately; not a transaction or listing",
+        "coordinates_newly_verified": 0
+      }
     },
     {
       "id": "map-vingrand",
@@ -1377,13 +2218,199 @@
       "foreign_capital": "not_verified_separately",
       "position_status": "not_independently_verified",
       "pricing_status": "unverified_asking_or_missing",
-      "specifications": [],
+      "specifications": [
+        {
+          "field": "phase_site_area_ha",
+          "value": 2.8,
+          "unit": "ha",
+          "scope": "phase:celesta_rise",
+          "claim_id": "map-celesta|phase:celesta_rise|phase_site_area_ha|1",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel Vietnam",
+          "source_published_at": "2024-11",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living",
+            "https://www.celesta.com.vn/en/celesta-rise/about/project-overview"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "phase_apartments",
+          "value": 923,
+          "unit": "apartments",
+          "scope": "phase:celesta_rise",
+          "claim_id": "map-celesta|phase:celesta_rise|phase_apartments|1",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel Vietnam",
+          "source_published_at": "2024-11",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living",
+            "https://www.celesta.com.vn/en/celesta-rise/about/project-overview"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "phase_towers",
+          "value": 5,
+          "unit": "towers",
+          "scope": "phase:celesta_rise",
+          "claim_id": "map-celesta|phase:celesta_rise|phase_towers|1",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel Vietnam",
+          "source_published_at": "2024-11",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living",
+            "https://www.celesta.com.vn/en/celesta-rise/about/project-overview"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "phase_tower_floors",
+          "value": 20,
+          "unit": "floors",
+          "scope": "phase:celesta_rise",
+          "claim_id": "map-celesta|phase:celesta_rise|phase_tower_floors|1",
+          "source_url": "https://www.celesta.com.vn/en/celesta-rise/about/project-overview",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel / Phu Long developer microsite",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.celesta.com.vn/en/celesta-rise/about/project-overview"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "project_location",
+          "value": "Nguyen Huu Tho Street, Phuoc Kien Commune, Nha Be, HCMC",
+          "unit": "road_and_locality",
+          "scope": "phase:celesta_rise",
+          "claim_id": "map-celesta|phase:celesta_rise|project_location|1",
+          "source_url": "https://www.celesta.com.vn/en/celesta-rise/about/project-overview",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel / Phu Long developer microsite",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.celesta.com.vn/en/celesta-rise/about/project-overview"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Do not misidentify 288 or 673 Nguyen Huu Tho sales galleries as project site"
+        },
+        {
+          "field": "parent_township_area_ha",
+          "value": 6.2,
+          "unit": "ha",
+          "scope": "parent:celesta_city",
+          "claim_id": "map-celesta|parent:celesta_city|parent_township_area_ha|1",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel Vietnam",
+          "source_published_at": "2024-11",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Not phase area"
+        },
+        {
+          "field": "construction_started",
+          "value": "2022-07",
+          "unit": "month",
+          "scope": "phase:celesta_rise",
+          "claim_id": "map-celesta|phase:celesta_rise|construction_started|1",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel Vietnam",
+          "source_published_at": "2024-11",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "topped_out",
+          "value": "2024-01",
+          "unit": "month",
+          "scope": "phase:celesta_rise",
+          "claim_id": "map-celesta|phase:celesta_rise|topped_out|1",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel Vietnam",
+          "source_published_at": "2024-11",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "handover_event",
+          "value": "2024-11-09",
+          "unit": "date",
+          "scope": "phase:celesta_rise",
+          "claim_id": "map-celesta|phase:celesta_rise|handover_event|1",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel Vietnam",
+          "source_published_at": "2024-11",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Confirmed developer event, not all units individually accepted"
+        }
+      ],
       "source_references": [
         {
           "url": "https://www.keppel.com/realestate/About-Us/Our-Projects/Vietnam",
           "role": "research_or_market_reference",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living",
+          "role": "issuer_publication_month",
+          "status": "issuer_or_media_reference_pending_review",
+          "checked_at": "2026-10-12",
+          "publisher": "Keppel Vietnam",
+          "published_at": "2024-11",
+          "source_rights": "not_granted_or_unverified",
+          "evidence_batch": "qimap-p0-official-dossier-batch02-20261012"
+        },
+        {
+          "url": "https://www.celesta.com.vn/en/celesta-rise/about/project-overview",
+          "role": "issuer_public_page",
+          "status": "issuer_or_media_reference_pending_review",
+          "checked_at": "2026-10-12",
+          "publisher": "Keppel / Phu Long developer microsite",
+          "published_at": null,
+          "source_rights": "not_granted_or_unverified",
+          "evidence_batch": "qimap-p0-official-dossier-batch02-20261012"
         }
       ],
       "coverage": {
@@ -1401,7 +2428,22 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P2",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "candidate_review": {
+        "pending": true,
+        "last_intake_at": "2026-10-12",
+        "source_batch_file": "data/qimap_p0_official_dossier_candidates_20261012_batch02.json",
+        "total_claims_with_provenance": 9,
+        "conflicts": [
+          {
+            "project_id": "map-celesta",
+            "action": "Sales gallery 288/673 Nguyen Huu Tho are not the apartment site number; crosscheck exact site separately"
+          }
+        ],
+        "publication": "not_approved; issuer or media candidate only",
+        "price_status": "REPORT_ESTIMATE values stored separately; not a transaction or listing",
+        "coordinates_newly_verified": 0
+      }
     },
     {
       "id": "map-mizuki",
@@ -1531,7 +2573,116 @@
       "foreign_capital": "not_verified_separately",
       "position_status": "not_independently_verified",
       "pricing_status": "unverified_asking_or_missing",
-      "specifications": [],
+      "specifications": [
+        {
+          "field": "site_area_m2",
+          "value": 33974,
+          "unit": "m2",
+          "scope": "project",
+          "claim_id": "map-vista|project|site_area_m2|1",
+          "source_url": "https://www.capitaland.com/en/find-a-property/global-property-listing/residential/vista-verde.html",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "CapitaLand Development",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.capitaland.com/en/find-a-property/global-property-listing/residential/vista-verde.html"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "residential_units",
+          "value": 1152,
+          "unit": "apartments",
+          "scope": "project",
+          "claim_id": "map-vista|project|residential_units|1",
+          "source_url": "https://www.capitaland.com/en/find-a-property/global-property-listing/residential/vista-verde.html",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "CapitaLand Development",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.capitaland.com/en/find-a-property/global-property-listing/residential/vista-verde.html"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "residential_towers",
+          "value": 4,
+          "unit": "towers",
+          "scope": "project",
+          "claim_id": "map-vista|project|residential_towers|1",
+          "source_url": "https://www.capitaland.com/en/find-a-property/global-property-listing/residential/vista-verde.html",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "CapitaLand Development",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.capitaland.com/en/find-a-property/global-property-listing/residential/vista-verde.html"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "residential_tower_floors",
+          "value": 35,
+          "unit": "floors",
+          "scope": "project",
+          "claim_id": "map-vista|project|residential_tower_floors|1",
+          "source_url": "https://www.capitaland.com/en/find-a-property/global-property-listing/residential/vista-verde.html",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "CapitaLand Development",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.capitaland.com/en/find-a-property/global-property-listing/residential/vista-verde.html"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": null
+        },
+        {
+          "field": "project_address_historical",
+          "value": "02 Phan Van Dang Street, Thanh My Loi Ward, District 2, HCMC",
+          "unit": "street_address",
+          "scope": "project",
+          "claim_id": "map-vista|project|project_address_historical|1",
+          "source_url": "https://www.capitaland.com/en/find-a-property/global-property-listing/residential/vista-verde.html",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "CapitaLand Development",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.capitaland.com/en/find-a-property/global-property-listing/residential/vista-verde.html"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Administrative ward crosswalk pending"
+        },
+        {
+          "field": "issuer_current_operational_status",
+          "value": "completed_and_operational",
+          "unit": "state_as_checked_2026_10_12",
+          "scope": "project",
+          "claim_id": "map-vista|project|issuer_current_operational_status|1",
+          "source_url": "https://www.capitaland.com/en/find-a-property/global-property-listing/residential/vista-verde.html",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "CapitaLand Development",
+          "source_published_at": null,
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.capitaland.com/en/find-a-property/global-property-listing/residential/vista-verde.html"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Undated portfolio; not date of initial handover"
+        }
+      ],
       "source_references": [
         {
           "url": "https://www.capitaland.com/vn/en/stay/residential-development-listing/vista-verde.html",
@@ -1544,15 +2695,25 @@
           "role": "research_or_market_reference",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://www.capitaland.com/en/find-a-property/global-property-listing/residential/vista-verde.html",
+          "role": "issuer_public_page",
+          "status": "issuer_or_media_reference_pending_review",
+          "checked_at": "2026-10-12",
+          "publisher": "CapitaLand Development",
+          "published_at": null,
+          "source_rights": "not_granted_or_unverified",
+          "evidence_batch": "qimap-p0-official-dossier-batch02-20261012"
         }
       ],
       "coverage": {
         "project_identity": "evidence_or_claim_recorded",
         "developer_brand": "evidence_or_claim_recorded",
         "source_reference": "evidence_or_claim_recorded",
-        "site_area": "missing_or_unverified",
-        "residential_units": "missing_or_unverified",
-        "tower_count": "missing_or_unverified",
+        "site_area": "evidence_or_claim_recorded",
+        "residential_units": "evidence_or_claim_recorded",
+        "tower_count": "evidence_or_claim_recorded",
         "handover_year": "missing_or_unverified",
         "legal_owner": "missing_or_unverified",
         "foreign_buyer_eligibility": "missing_or_unverified",
@@ -1561,7 +2722,17 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P2",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "candidate_review": {
+        "pending": true,
+        "last_intake_at": "2026-10-12",
+        "source_batch_file": "data/qimap_p0_official_dossier_candidates_20261012_batch02.json",
+        "total_claims_with_provenance": 6,
+        "conflicts": [],
+        "publication": "not_approved; issuer or media candidate only",
+        "price_status": "REPORT_ESTIMATE values stored separately; not a transaction or listing",
+        "coordinates_newly_verified": 0
+      }
     },
     {
       "id": "map-palmheights",
@@ -1578,7 +2749,98 @@
       "foreign_capital": "not_verified_separately",
       "position_status": "not_independently_verified",
       "pricing_status": "unverified_asking_or_missing",
-      "specifications": [],
+      "specifications": [
+        {
+          "field": "residential_units",
+          "value": 816,
+          "unit": "apartments",
+          "scope": "phase:palm_heights",
+          "claim_id": "map-palmheights|phase:palm_heights|residential_units|1",
+          "source_url": "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel Land",
+          "source_published_at": "2019-09-26",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Investor report slide 14; phase-only"
+        },
+        {
+          "field": "forecast_completion_asof_sep2019",
+          "value": "2019-H2",
+          "unit": "half_year",
+          "scope": "phase:palm_heights",
+          "claim_id": "map-palmheights|phase:palm_heights|forecast_completion_asof_sep2019|1",
+          "source_url": "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel Land",
+          "source_published_at": "2019-09-26",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Original 2019 forecast"
+        },
+        {
+          "field": "issuer_confirmed_handover_year",
+          "value": 2019,
+          "unit": "year",
+          "scope": "phase:palm_heights",
+          "claim_id": "map-palmheights|phase:palm_heights|issuer_confirmed_handover_year|1",
+          "source_url": "https://www.keppel.com/realestate/Media-Releases-SGX-Filings/keppel-unlocks-s1414-million-from-divestment-of-palm-city-in-vietnam-19763",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel",
+          "source_published_at": "2025-04-01",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/realestate/Media-Releases-SGX-Filings/keppel-unlocks-s1414-million-from-divestment-of-palm-city-in-vietnam-19763"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Later 2025 Keppel release confirms handover"
+        },
+        {
+          "field": "parent_project",
+          "value": "Palm City",
+          "unit": "project_name",
+          "scope": "phase:palm_heights",
+          "claim_id": "map-palmheights|phase:palm_heights|parent_project|1",
+          "source_url": "https://www.keppel.com/realestate/Media-Releases-SGX-Filings/keppel-unlocks-s1414-million-from-divestment-of-palm-city-in-vietnam-19763",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel",
+          "source_published_at": "2025-04-01",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/realestate/Media-Releases-SGX-Filings/keppel-unlocks-s1414-million-from-divestment-of-palm-city-in-vietnam-19763"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "30ha site relates to parent Palm City, not Palm Heights"
+        },
+        {
+          "field": "keppel_divestment_ownership_note",
+          "value": "Keppel divested 42 percent stake in Palm City developer SRC in 2025-03",
+          "unit": "corporate_action",
+          "scope": "parent:palm_city",
+          "claim_id": "map-palmheights|parent:palm_city|keppel_divestment_ownership_note|1",
+          "source_url": "https://www.keppel.com/realestate/Media-Releases-SGX-Filings/keppel-unlocks-s1414-million-from-divestment-of-palm-city-in-vietnam-19763",
+          "source_role": "issuer_claim_unverified",
+          "source_issuer": "Keppel",
+          "source_published_at": "2025-04-01",
+          "source_checked_at": "2026-10-12",
+          "source_rights": "minimal_public_reference_only_no_republication_license",
+          "supporting_sources": [
+            "https://www.keppel.com/realestate/Media-Releases-SGX-Filings/keppel-unlocks-s1414-million-from-divestment-of-palm-city-in-vietnam-19763"
+          ],
+          "review_status": "publisher_claim_requires_document_review",
+          "note": "Not proof of legal owner for Palm Heights apartment units"
+        }
+      ],
       "source_references": [
         {
           "url": "https://www.keppel.com/realestate/About-Us/Our-Projects/Vietnam",
@@ -1591,6 +2853,26 @@
           "role": "issuer_reported",
           "status": "indexed_research_reference",
           "checked_at": null
+        },
+        {
+          "url": "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf",
+          "role": "corporate_investor_pdf",
+          "status": "issuer_or_media_reference_pending_review",
+          "checked_at": "2026-10-12",
+          "publisher": "Keppel Land",
+          "published_at": "2019-09-26",
+          "source_rights": "not_granted_or_unverified",
+          "evidence_batch": "qimap-p0-official-dossier-batch02-20261012"
+        },
+        {
+          "url": "https://www.keppel.com/realestate/Media-Releases-SGX-Filings/keppel-unlocks-s1414-million-from-divestment-of-palm-city-in-vietnam-19763",
+          "role": "issuer_public_page",
+          "status": "issuer_or_media_reference_pending_review",
+          "checked_at": "2026-10-12",
+          "publisher": "Keppel",
+          "published_at": "2025-04-01",
+          "source_rights": "not_granted_or_unverified",
+          "evidence_batch": "qimap-p0-official-dossier-batch02-20261012"
         }
       ],
       "coverage": {
@@ -1608,7 +2890,22 @@
         "rental_offer": "missing_or_unverified"
       },
       "review_priority": "P1",
-      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh."
+      "disclaimer": "Thông số gắn nhãn nguồn công bố không thay thế xác nhận pháp lý. Giá và quota người nước ngoài chưa xác minh.",
+      "candidate_review": {
+        "pending": true,
+        "last_intake_at": "2026-10-12",
+        "source_batch_file": "data/qimap_p0_official_dossier_candidates_20261012_batch02.json",
+        "total_claims_with_provenance": 5,
+        "conflicts": [
+          {
+            "project_id": "map-palmheights",
+            "action": "Keppel sold parent developer stake in 2025; legal ownership must not be inferred from equity transaction"
+          }
+        ],
+        "publication": "not_approved; issuer or media candidate only",
+        "price_status": "REPORT_ESTIMATE values stored separately; not a transaction or listing",
+        "coordinates_newly_verified": 0
+      }
     },
     {
       "id": "map-origami",
