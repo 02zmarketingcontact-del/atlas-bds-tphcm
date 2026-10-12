@@ -66,8 +66,8 @@
       "id": "PAN_2006",
       "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
       "source_host": "phumyhung.vn",
-      "source_class": "republished_media_on_developer_host",
-      "original_publisher": "original_media_not_confirmed",
+      "source_class": "developer_hosted_third_party_press_excerpt",
+      "original_publisher": "Báo Pháp Luật Việt Nam (developer-hosted reproduction, dated 2006-07-12)",
       "url": "https://phumyhung.vn/phu-my-hung-cong-bo-the-panorama-giai-doan-2-va-3/",
       "published_at": "2006-07-12",
       "checked_at": "2026-10-12",
@@ -77,7 +77,15 @@
         "research_use": "minimal_factual_metadata_and_attribution",
         "commercial_republication": "not_granted_or_unverified",
         "images": "not_permitted_without_license",
-        "bulk_feed": "not_permitted_without_agreement"
+        "bulk_feed": "not_permitted_without_agreement",
+        "original_journalism_rights": "not_granted_or_unknown"
+      },
+      "event_referenced": "2006-07-15 (chronology conflicts with reported publication date)",
+      "validation": {
+        "checked_at": "2026-10-12",
+        "method": "web_open_official_host_page",
+        "rights_review": "reference_only_unlicensed_for_republication",
+        "publication_date_verified": false
       }
     },
     {
@@ -114,6 +122,12 @@
         "commercial_republication": "not_granted_or_unverified",
         "images": "not_permitted_without_license",
         "bulk_feed": "not_permitted_without_agreement"
+      },
+      "validation": {
+        "checked_at": "2026-10-12",
+        "method": "web_open_official_host_page",
+        "rights_review": "reference_only_unlicensed_for_republication",
+        "publication_date_verified": false
       }
     },
     {
@@ -402,6 +416,12 @@
         "commercial_republication": "not_granted_or_unverified",
         "images": "not_permitted_without_license",
         "bulk_feed": "not_permitted_without_agreement"
+      },
+      "validation": {
+        "checked_at": "2026-10-12",
+        "method": "web_open_official_host_page",
+        "rights_review": "reference_only_unlicensed_for_republication",
+        "publication_date_verified": false
       }
     },
     {
@@ -480,8 +500,8 @@
       "id": "MID_2018_SIGNATURE_PRICE",
       "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
       "source_host": "phumyhung.vn",
-      "source_class": "developer_site_historical_article",
-      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_class": "developer_hosted_third_party_report",
+      "original_publisher": "Nguoidothi.net.vn (credited by host)",
       "url": "https://phumyhung.vn/midtown/hon-1-200-can-ho-va-cua-hang-thuoc-phu-my-hung-midtown-da-duoc-ban-het/",
       "published_at": null,
       "checked_at": "2026-10-12",
@@ -491,7 +511,15 @@
         "research_use": "minimal_factual_metadata_and_attribution",
         "commercial_republication": "not_granted_or_unverified",
         "images": "not_permitted_without_license",
-        "bulk_feed": "not_permitted_without_agreement"
+        "bulk_feed": "not_permitted_without_agreement",
+        "original_journalism_rights": "not_granted_or_unknown"
+      },
+      "event_referenced": "2018-03-31 (event referenced, NOT publication date)",
+      "validation": {
+        "checked_at": "2026-10-12",
+        "method": "web_open_official_host_page",
+        "rights_review": "reference_only_unlicensed_for_republication",
+        "publication_date_verified": false
       }
     },
     {
@@ -1608,6 +1636,23 @@
           "note": "Bốn ID hist-* hiện trỏ project_group=hist-phumyhungmidtown không hiện diện trong danh mục; không tự đổi index.",
           "review_status": "issuer_claim_review_pending",
           "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "historical_midtown_three_phase_reported_average_price_vnd_m2",
+          "value": [
+            60000000,
+            70000000
+          ],
+          "unit": "VND/m2",
+          "scope": "phases:grande_symphony_signature",
+          "source_ids": [
+            "MID_2018_SIGNATURE_PRICE"
+          ],
+          "event_date": "2018-03-31",
+          "event_status": "historical_retro_developer_hosted_media_report",
+          "note": "Historic 60–70m/m2 across The Grande, The Symphony, The Signature, on mixed 1,230 apartment and shop transactions reported. Not specific to The Signature, not transaction verified; VAT and maintenance included, floor-area definition missing. REPORT_ESTIMATE.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
         }
       ],
       "notes": []
@@ -1989,23 +2034,6 @@
           "note": null,
           "review_status": "issuer_claim_review_pending",
           "rights": "metadata_reference_only_republication_unlicensed"
-        },
-        {
-          "field": "marketing_average_price_range_vnd_m2",
-          "value": [
-            60000000,
-            70000000
-          ],
-          "unit": "VND/m2",
-          "scope": "sale_2018",
-          "source_ids": [
-            "MID_2018_SIGNATURE_PRICE"
-          ],
-          "event_date": null,
-          "event_status": "issuer_historical_or_profile_claim",
-          "note": "Giá trung bình từ báo của website CĐT, gồm VAT + quỹ bảo trì, diện tích tính giá chưa nói rõ.",
-          "review_status": "issuer_claim_review_pending",
-          "rights": "metadata_reference_only_republication_unlicensed"
         }
       ],
       "notes": []
@@ -2197,26 +2225,27 @@
       "verification": "issuer_claim_review_only_not_transaction"
     },
     {
-      "id": "PMH_SIGNATURE_2018_PRIMARY_AVG_RANGE",
-      "project_id": "hist-thesignaturemidtown",
-      "scope": "phase:the_signature",
-      "type": "PRICE_ASKING",
-      "market": "PRIMARY_HISTORIC",
+      "id": "PMH_MIDTOWN_FIRST_THREE_PHASES_2018_REPORTED_AVG_RANGE",
+      "project_id": "map-midtown",
+      "scope": "phases:grande_symphony_signature",
+      "type": "REPORT_ESTIMATE",
+      "market": "MULTIPHASE_HISTORICAL_AGGREGATE",
       "price_min": 60000000,
       "price_max": 70000000,
       "currency": "VND",
       "denominator": "m2",
-      "price_basis": "developer_site_average_selling_price_range_of_2018_launch",
+      "price_basis": "developer_hosted_third_party_reported_average_price_range_across_2017_2018_first_three_phases_mixed_products",
       "area_basis": "UNSPECIFIED_net_or_gross",
       "vat": "INCLUDED",
       "maintenance_fund": "INCLUDED",
       "unit_area_m2": null,
-      "observation_period": "2018-Q1",
+      "observation_period": "2017-Q1_to_2018-03-31",
       "source_ids": [
         "MID_2018_SIGNATURE_PRICE"
       ],
       "rights": "reference_only_no_feed_or_republication_permission",
-      "verification": "not_an_individual_verified_transaction"
+      "verification": "UNVERIFIED_REPORTED_MARKET_AGGREGATE_NOT_TRANSACTION_OR_PHASE_SPECIFIC",
+      "note": "Source labels Nguoidothi.net.vn; 60–70 million VND/m² spans 3 phases and includes shops, cannot treat as The Signature-specific asking or verified sale."
     }
   ],
   "conflicts": [
@@ -2316,6 +2345,14 @@
         "PAN_2006",
         "MID_2018_SIGNATURE_SALE"
       ]
+    },
+    {
+      "id": "PMH_MIDTOWN_MULTI_PHASE_AVERAGE",
+      "project_id": "map-midtown",
+      "issue": "Developer-hosted journalism identifies 60–70m/m² as multi-phase first-three-Midtown-project average (includes apartments and shops), not The Signature alone. REPORT_ESTIMATE only, source's original publisher requires rights check.",
+      "source_ids": [
+        "MID_2018_SIGNATURE_PRICE"
+      ]
     }
   ],
   "data_connection_queue": [
@@ -2351,13 +2388,30 @@
     "unique_source_urls": 28,
     "price_candidates": 4,
     "price_types": {
-      "PRICE_ASKING": 3,
+      "PRICE_ASKING": 2,
       "TRANSACTION_VERIFIED": 0,
       "RENT_ASKING": 0,
-      "REPORT_ESTIMATE": 1
+      "REPORT_ESTIMATE": 2
     },
     "new_verified_coordinates": 0,
-    "conflicts": 11,
+    "conflicts": 12,
     "live_price_publications": 0
-  }
+  },
+  "audit_corrections": [
+    {
+      "checked_at": "2026-10-12",
+      "id": "price_scope_2018_midtown",
+      "reason": "first 3 phases aggregate, third party hosted article",
+      "status": "corrected_review_only"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "id": "third_party_rights",
+      "source_ids": [
+        "PAN_2006",
+        "MID_2018_SIGNATURE_PRICE"
+      ],
+      "status": "original_licence_unverified"
+    }
+  ]
 }
