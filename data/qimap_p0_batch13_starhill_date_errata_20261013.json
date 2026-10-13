@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-13",
+  "applies_to": "data/qimap_p0_phumyhung_8_legacy_historical_candidates_20261013_batch13.json",
+  "publication_status": "REVIEW_ONLY",
+  "supersedes_claim_id": "batch13-028",
+  "correction_scope": {
+    "project_id": "hist-starhill",
+    "field": "phase2_launch_event"
+  },
+  "source_url": "https://phumyhung.vn/chao-ban-giai-doan-ii-star-hill/",
+  "displayed_source_date": "09/12",
+  "year_verified": false,
+  "full_iso_date_supported": false,
+  "corrected_value": "09/12 (year unverified)",
+  "corrected_event_date": null,
+  "notes": "Original candidate recorded 2012-12-09 but exact year was an inference, not established from the opened source text. Use this erratum to override any apparent year precision; obtain independently dated archival evidence before approval. Do not auto-publish.",
+  "feed_rights": "NOT_GRANTED",
+  "no_auto_publish": true
+}
