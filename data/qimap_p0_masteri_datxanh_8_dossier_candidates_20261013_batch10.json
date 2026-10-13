@@ -1,0 +1,1413 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "qimap-p0-masteri-datxanh-historical-20261013-batch10",
+  "as_of": "2026-10-13",
+  "repository": "02zmarketingcontact-del/atlas-bds-tphcm",
+  "branch": "research/qimap-p0-dossier-link-20261012-kd-sk",
+  "pr_number": 77,
+  "publication_status": "DRAFT_REVIEW_ONLY_NOT_PUBLIC",
+  "selection": {
+    "criteria": "Eight existing catalog residential projects with zero structured specifications in data/project_dossiers_v1.json on 2026-10-13; not in prior batches 01-09",
+    "historical_market": "HCMC old municipal boundary, 2013-2019",
+    "selected_ids": [
+      "hist-monesaigonsouth",
+      "hist-millennium",
+      "hist-masterianphu",
+      "hist-monegiadinh",
+      "hist-opalriverside",
+      "hist-opalgarden",
+      "hist-luxgarden",
+      "hist-sunviewtown"
+    ],
+    "validated_prior_batch_count": 9
+  },
+  "rights_policy": "Publicly accessible company facts cited with attribution and minimum necessary extraction. Public URL alone is NOT license for scraping, rehosting imagery/articles, downloading price listings in bulk or automatic feed reuse.",
+  "sources": [
+    {
+      "id": "M01",
+      "publisher": "Masterise Homes / Masteri",
+      "document": "Developer news: M-One Saigon South topping out",
+      "date": "2017-04-28",
+      "url": "https://www.masterisehomes.com/m-one-nam-sai-gon/tin-tuc/tin-tuc-su-kien-m-one-nam-saigon/du-an-m-one-nam-sai-gon-cat-noc-va-hoan-thien-phan-tho",
+      "checked_at": "2026-10-13",
+      "rights": "minimal_public_factual_citation_only; no licensed republishing of full article, image, bulk data or automated price feed"
+    },
+    {
+      "id": "M02",
+      "publisher": "Masterise Homes / Masteri",
+      "document": "Developer news: technical estate takeover",
+      "date": "2017-09-06",
+      "url": "https://masterisehomes.com/m-one-nam-sai-gon/tin-tuc/tin-tuc-su-kien-m-one-nam-saigon/le-ban-giao-va-tiep-quan-khu-dan-cu-m-one-nam-sai-gon",
+      "checked_at": "2026-10-13",
+      "rights": "minimal_public_factual_citation_only; no licensed republishing of full article, image, bulk data or automated price feed"
+    },
+    {
+      "id": "M03",
+      "publisher": "Masterise Homes / Masteri",
+      "document": "Developer news: first M-One Saigon South residents",
+      "date": "2017-10-26",
+      "url": "https://masterisehomes.com/m-one-nam-sai-gon/tin-tuc/tin-tuc-su-kien-m-one-nam-saigon/m-one-nam-sai-gon-san-sang-chao-don-nhung-cu-dan-tuong-lai",
+      "checked_at": "2026-10-13",
+      "rights": "minimal_public_factual_citation_only; no licensed republishing of full article, image, bulk data or automated price feed"
+    },
+    {
+      "id": "M04",
+      "publisher": "Masterise Homes / Masteri",
+      "document": "Developer tower 1 apartment floorplans",
+      "date": null,
+      "url": "https://masterisehomes.com/m-one-nam-sai-gon/mat-bang/can-ho-m-one/toa-1-m-one",
+      "checked_at": "2026-10-13",
+      "rights": "minimal_public_factual_citation_only; no licensed republishing of full article, image, bulk data or automated price feed"
+    },
+    {
+      "id": "M05",
+      "publisher": "Masterise Homes / Masteri",
+      "document": "Developer 2016 Millennium launch article",
+      "date": "2016-07-26",
+      "url": "https://masterisehomes.com/millennium/tin-tuc/tin-tuc-su-kien-millennium/sap-ra-mat-du-an-can-ho-hang-sang-tai-ben-van-don",
+      "checked_at": "2026-10-13",
+      "rights": "minimal_public_factual_citation_only; no licensed republishing of full article, image, bulk data or automated price feed"
+    },
+    {
+      "id": "M06",
+      "publisher": "Masterise Homes / Masteri",
+      "document": "Developer 2018 Millennium building takeover",
+      "date": "2018-07-04",
+      "url": "https://masterisehomes.com/millennium/tin-tuc/tin-tuc-su-kien-millennium/le-ban-giao-va-tiep-quan-khu-dan-cu-hang-sang-millennium",
+      "checked_at": "2026-10-13",
+      "rights": "minimal_public_factual_citation_only; no licensed republishing of full article, image, bulk data or automated price feed"
+    },
+    {
+      "id": "M07",
+      "publisher": "Masterise Homes / Masteri",
+      "document": "Developer 2018 first Millennium apartment residents",
+      "date": "2018-08-02",
+      "url": "https://www.masterisehomes.com/millennium/tin-tuc/tin-tuc-su-kien-millennium/millennium-chao-don-nhung-cu-dan-dau-tien-den-voi-cong-dong-van-minh-quoc-te-ngay-trung-tam-thanh-pho",
+      "checked_at": "2026-10-13",
+      "rights": "minimal_public_factual_citation_only; no licensed republishing of full article, image, bulk data or automated price feed"
+    },
+    {
+      "id": "M08",
+      "publisher": "Masterise Homes / Masteri",
+      "document": "Developer Masteri An Phu topping-out story",
+      "date": "2018-09-24",
+      "url": "https://masterisehomes.com/masteri-an-phu/tin-tuc/tin-tuc-su-kien-anphu/du-an-masteri-an-phu-cat-noc-va-hoan-thien-phan-tho",
+      "checked_at": "2026-10-13",
+      "rights": "minimal_public_factual_citation_only; no licensed republishing of full article, image, bulk data or automated price feed"
+    },
+    {
+      "id": "M09",
+      "publisher": "Masterise Homes / Masteri",
+      "document": "Developer M-One Gia Dinh initial launch",
+      "date": "2017-10-28",
+      "url": "https://masterisehomes.com/m-one-gia-dinh/tin-tuc/tin-tuc-su-kien-5c10xN6V/masteri-ra-mat-du-an-m-one-gia-dinh-tai-trung-tam-go-vap-JhPoKfPw",
+      "checked_at": "2026-10-13",
+      "rights": "minimal_public_factual_citation_only; no licensed republishing of full article, image, bulk data or automated price feed"
+    },
+    {
+      "id": "M10",
+      "publisher": "Masterise Homes / Masteri",
+      "document": "Developer M-One Gia Dinh 156 unit announcement",
+      "date": "2017-11-10",
+      "url": "https://masterisehomes.com/m-one-gia-dinh/tin-tuc/tin-tuc-su-kien-5c10xN6V/m-one-gia-dinh-chuan-tien-ich-dac-vi-tri-vua-tai-chinh",
+      "checked_at": "2026-10-13",
+      "rights": "minimal_public_factual_citation_only; no licensed republishing of full article, image, bulk data or automated price feed"
+    },
+    {
+      "id": "M11",
+      "publisher": "Masteri / Thao Dien Investment",
+      "document": "Historical developer-marketing newsletter, M-One Gia Dinh 27m VND/m2 offer floor, PDF p.18",
+      "date": null,
+      "source_period": "2017 (exact issue date unverified)",
+      "access_status": "indexed_pdf_text_only; screenshot renderer failed; manual visual review pending",
+      "url": "https://masterisehomes.com/storage/media/MeJhRXp4oel7KzlYH0Rwqz9iW1JCNUUxgakBPMoi.pdf",
+      "checked_at": "2026-10-13",
+      "rights": "minimal_public_factual_citation_only; no licensed republishing of full article, image, bulk data or automated price feed"
+    },
+    {
+      "id": "M12",
+      "publisher": "Masterise Homes / Masteri",
+      "document": "M-One Gia Dinh factsheet, PDF filename marked 2019; publication date unverified",
+      "date": null,
+      "source_period": "2019 filename only, unverified",
+      "access_status": "indexed_pdf_text; independent image review pending",
+      "url": "https://masterisehomes.com/Data/Sites/1/media/gia-dinh/factsheet---watermark-2019.pdf",
+      "checked_at": "2026-10-13",
+      "rights": "minimal_public_factual_citation_only; no licensed republishing of full article, image, bulk data or automated price feed"
+    },
+    {
+      "id": "D01",
+      "publisher": "CTCP Tap doan Dat Xanh (DXG)",
+      "document": "Annual report FY2018, corporate project specifications and delivery events, PDF pp.6,11,24,31",
+      "date": null,
+      "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+      "access_status": "publisher-hosted_pdf_parsed; visual page31 reviewed",
+      "url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+      "checked_at": "2026-10-13",
+      "rights": "minimal_public_factual_citation_only; no licensed republishing of full article, image, bulk data or automated price feed"
+    },
+    {
+      "id": "D02",
+      "publisher": "CTCP Tap doan Dat Xanh (DXG)",
+      "document": "Annual report FY2016, historical Sunview Town milestone",
+      "date": null,
+      "source_period": "FY2016",
+      "url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-2016.cbtt.pdf",
+      "checked_at": "2026-10-13",
+      "rights": "minimal_public_factual_citation_only; no licensed republishing of full article, image, bulk data or automated price feed"
+    },
+    {
+      "id": "D03",
+      "publisher": "CTCP Tap doan Dat Xanh (DXG)",
+      "document": "Annual report FY2014, site/location and expected handover for Sunview Town",
+      "date": null,
+      "source_period": "FY2014; filename 31 03 2015 not independently certified publication date",
+      "url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/31%2003%202015_Bao%20cao%20thuong%20nien%20nam%202014.pdf",
+      "checked_at": "2026-10-13",
+      "rights": "minimal_public_factual_citation_only; no licensed republishing of full article, image, bulk data or automated price feed"
+    },
+    {
+      "id": "D04",
+      "publisher": "CTCP Tap doan Dat Xanh (DXG)",
+      "document": "Annual report FY2015 for Opal Riverside projected completion",
+      "date": null,
+      "source_period": "FY2015",
+      "url": "https://datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/Bao%20cao%20thuong%20nien%202015_DXG.pdf",
+      "checked_at": "2026-10-13",
+      "rights": "minimal_public_factual_citation_only; no licensed republishing of full article, image, bulk data or automated price feed"
+    },
+    {
+      "id": "D05",
+      "publisher": "CTCP Tap doan Dat Xanh (DXG)",
+      "document": "Developer news: Sunview Town 1603 apartments and block names",
+      "date": "2017-02-22",
+      "url": "https://www.datxanh.vn/tin-tuc/tap-doan-dat-xanh-chinh-thuc-khanh-thanh-du-an-luxcity.html",
+      "checked_at": "2026-10-13",
+      "rights": "minimal_public_factual_citation_only; no licensed republishing of full article, image, bulk data or automated price feed"
+    }
+  ],
+  "dossiers": [
+    {
+      "id": "hist-monesaigonsouth",
+      "name": "M-One Saigon South",
+      "project_type": "APARTMENT_PROJECT_OR_RESIDENTIAL_PHASE",
+      "region_scope": "HCMC_historical_boundary",
+      "developer_or_issuer": "Masteri / Thao Dien Investment",
+      "canonical_status": "MATCHED_EXISTING_150_CATALOG",
+      "existing_specifications_at_selection": 0,
+      "review_status": "RESEARCH_CANDIDATE_NOT_PUBLISHED",
+      "facts": [
+        {
+          "field": "topping_out_date",
+          "value": "2017-04-27",
+          "unit": "date",
+          "scope": "project",
+          "source_id": "M01",
+          "source_url": "https://www.masterisehomes.com/m-one-nam-sai-gon/tin-tuc/tin-tuc-su-kien-m-one-nam-saigon/du-an-m-one-nam-sai-gon-cat-noc-va-hoan-thien-phan-tho",
+          "source_published_at": "2017-04-28",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Event date in issuer article posted 28 April 2017."
+        },
+        {
+          "field": "developer_historic",
+          "value": "TCO Viet Nam in partnership with Thao Dien Investment",
+          "unit": null,
+          "scope": "project",
+          "source_id": "M01",
+          "source_url": "https://www.masterisehomes.com/m-one-nam-sai-gon/tin-tuc/tin-tuc-su-kien-m-one-nam-saigon/du-an-m-one-nam-sai-gon-cat-noc-va-hoan-thien-phan-tho",
+          "source_published_at": "2017-04-28",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "historic_building_count",
+          "value": 2,
+          "unit": "towers",
+          "scope": "project",
+          "source_id": "M02",
+          "source_url": "https://masterisehomes.com/m-one-nam-sai-gon/tin-tuc/tin-tuc-su-kien-m-one-nam-saigon/le-ban-giao-va-tiep-quan-khu-dan-cu-m-one-nam-sai-gon",
+          "source_published_at": "2017-09-06",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "historic_tower_floor_count",
+          "value": 24,
+          "unit": "floors",
+          "scope": "project",
+          "source_id": "M02",
+          "source_url": "https://masterisehomes.com/m-one-nam-sai-gon/tin-tuc/tin-tuc-su-kien-m-one-nam-saigon/le-ban-giao-va-tiep-quan-khu-dan-cu-m-one-nam-sai-gon",
+          "source_published_at": "2017-09-06",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Issuer description at project level; requires per-tower floorplan mapping."
+        },
+        {
+          "field": "mixed_apartment_plus_officetel_units_lower_bound",
+          "value": 900,
+          "unit": "units",
+          "scope": "project",
+          "source_id": "M02",
+          "source_url": "https://masterisehomes.com/m-one-nam-sai-gon/tin-tuc/tin-tuc-su-kien-m-one-nam-saigon/le-ban-giao-va-tiep-quan-khu-dan-cu-m-one-nam-sai-gon",
+          "source_published_at": "2017-09-06",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Publisher says OVER 900 total residential apartments plus officetel; MUST NOT treat as residential apartments only."
+        },
+        {
+          "field": "technical_facility_takeover_date",
+          "value": "2017-08-31",
+          "unit": "date",
+          "scope": "project",
+          "source_id": "M02",
+          "source_url": "https://masterisehomes.com/m-one-nam-sai-gon/tin-tuc/tin-tuc-su-kien-m-one-nam-saigon/le-ban-giao-va-tiep-quan-khu-dan-cu-m-one-nam-sai-gon",
+          "source_published_at": "2017-09-06",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Transfer of building management/facilities, NOT apartment delivery."
+        },
+        {
+          "field": "first_customer_apartment_handover_claim",
+          "value": "mid-October 2017",
+          "unit": "month",
+          "scope": "project",
+          "source_id": "M03",
+          "source_url": "https://masterisehomes.com/m-one-nam-sai-gon/tin-tuc/tin-tuc-su-kien-m-one-nam-saigon/m-one-nam-sai-gon-san-sang-chao-don-nhung-cu-dan-tuong-lai",
+          "source_published_at": "2017-10-26",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Developer report of first customer handover; exact day unspecified."
+        },
+        {
+          "field": "historic_address_publication",
+          "value": "35/12 Be Van Cam, Tan Kieng, District 7, HCMC (historic)",
+          "unit": null,
+          "scope": "project",
+          "source_id": "M02",
+          "source_url": "https://masterisehomes.com/m-one-nam-sai-gon/tin-tuc/tin-tuc-su-kien-m-one-nam-saigon/le-ban-giao-va-tiep-quan-khu-dan-cu-m-one-nam-sai-gon",
+          "source_published_at": "2017-09-06",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ADDRESS_SCOPE_UNVERIFIED",
+          "note": "Article address may reference office or site; not coordinate-verified."
+        },
+        {
+          "field": "tower_1_two_bedroom_area_ranges_m2",
+          "value": [
+            [
+              55.98,
+              58.87
+            ],
+            [
+              62.26,
+              63.93
+            ]
+          ],
+          "unit": "m2",
+          "scope": "tower_1",
+          "source_id": "M04",
+          "source_url": "https://masterisehomes.com/m-one-nam-sai-gon/mat-bang/can-ho-m-one/toa-1-m-one",
+          "source_published_at": null,
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "No net/gross method independently established; layout classes not total project inventory."
+        },
+        {
+          "field": "tower_1_three_bedroom_area_range_m2",
+          "value": [
+            70.86,
+            86.61
+          ],
+          "unit": "m2",
+          "scope": "tower_1",
+          "source_id": "M04",
+          "source_url": "https://masterisehomes.com/m-one-nam-sai-gon/mat-bang/can-ho-m-one/toa-1-m-one",
+          "source_published_at": null,
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "No net/gross method established."
+        }
+      ],
+      "review_notes": [
+        "Never count combined apartments and officetel as apartment-only inventory.",
+        "Do not conflate 31 Aug technical management takeover with mid-October first buyer handover."
+      ]
+    },
+    {
+      "id": "hist-millennium",
+      "name": "Millennium",
+      "project_type": "APARTMENT_PROJECT_OR_RESIDENTIAL_PHASE",
+      "region_scope": "HCMC_historical_boundary",
+      "developer_or_issuer": "Masteri / Thao Dien Investment",
+      "canonical_status": "MATCHED_EXISTING_150_CATALOG",
+      "existing_specifications_at_selection": 0,
+      "review_status": "RESEARCH_CANDIDATE_NOT_PUBLISHED",
+      "facts": [
+        {
+          "field": "historic_project_address",
+          "value": "132 Ben Van Don, Ward 6, District 4, HCMC (historic)",
+          "unit": null,
+          "scope": "project",
+          "source_id": "M05",
+          "source_url": "https://masterisehomes.com/millennium/tin-tuc/tin-tuc-su-kien-millennium/sap-ra-mat-du-an-can-ho-hang-sang-tai-ben-van-don",
+          "source_published_at": "2016-07-26",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_ADDRESS_CURRENT_WARD_UNVERIFIED",
+          "note": null
+        },
+        {
+          "field": "site_area_m2",
+          "value": 7302,
+          "unit": "m2",
+          "scope": "project",
+          "source_id": "M05",
+          "source_url": "https://masterisehomes.com/millennium/tin-tuc/tin-tuc-su-kien-millennium/sap-ra-mat-du-an-can-ho-hang-sang-tai-ben-van-don",
+          "source_published_at": "2016-07-26",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "above_ground_floors",
+          "value": 34,
+          "unit": "floors",
+          "scope": "project",
+          "source_id": "M05",
+          "source_url": "https://masterisehomes.com/millennium/tin-tuc/tin-tuc-su-kien-millennium/sap-ra-mat-du-an-can-ho-hang-sang-tai-ben-van-don",
+          "source_published_at": "2016-07-26",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "basement_levels",
+          "value": 3,
+          "unit": "levels",
+          "scope": "project",
+          "source_id": "M05",
+          "source_url": "https://masterisehomes.com/millennium/tin-tuc/tin-tuc-su-kien-millennium/sap-ra-mat-du-an-can-ho-hang-sang-tai-ben-van-don",
+          "source_published_at": "2016-07-26",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "shophouse_count",
+          "value": 17,
+          "unit": "units",
+          "scope": "commercial",
+          "source_id": "M05",
+          "source_url": "https://masterisehomes.com/millennium/tin-tuc/tin-tuc-su-kien-millennium/sap-ra-mat-du-an-can-ho-hang-sang-tai-ben-van-don",
+          "source_published_at": "2016-07-26",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "officetel_count",
+          "value": 347,
+          "unit": "units",
+          "scope": "officetel",
+          "source_id": "M05",
+          "source_url": "https://masterisehomes.com/millennium/tin-tuc/tin-tuc-su-kien-millennium/sap-ra-mat-du-an-can-ho-hang-sang-tai-ben-van-don",
+          "source_published_at": "2016-07-26",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Officetel count NOT housing apartment count."
+        },
+        {
+          "field": "residential_floors_reported",
+          "value": "7-34",
+          "unit": "floors",
+          "scope": "residential",
+          "source_id": "M05",
+          "source_url": "https://masterisehomes.com/millennium/tin-tuc/tin-tuc-su-kien-millennium/sap-ra-mat-du-an-can-ho-hang-sang-tai-ben-van-don",
+          "source_published_at": "2016-07-26",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "typical_residential_area_range_m2",
+          "value": [
+            57,
+            100
+          ],
+          "unit": "m2",
+          "scope": "residential",
+          "source_id": "M05",
+          "source_url": "https://masterisehomes.com/millennium/tin-tuc/tin-tuc-su-kien-millennium/sap-ra-mat-du-an-can-ho-hang-sang-tai-ben-van-don",
+          "source_published_at": "2016-07-26",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Exact gross/net area basis unpublished in cited story."
+        },
+        {
+          "field": "penthouse_count",
+          "value": 12,
+          "unit": "units",
+          "scope": "penthouse",
+          "source_id": "M05",
+          "source_url": "https://masterisehomes.com/millennium/tin-tuc/tin-tuc-su-kien-millennium/sap-ra-mat-du-an-can-ho-hang-sang-tai-ben-van-don",
+          "source_published_at": "2016-07-26",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "penthouse_approximate_size_m2",
+          "value": 200,
+          "unit": "m2",
+          "scope": "penthouse",
+          "source_id": "M05",
+          "source_url": "https://masterisehomes.com/millennium/tin-tuc/tin-tuc-su-kien-millennium/sap-ra-mat-du-an-can-ho-hang-sang-tai-ben-van-don",
+          "source_published_at": "2016-07-26",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "groundbreaking_month",
+          "value": "2016-05",
+          "unit": "month",
+          "scope": "project",
+          "source_id": "M05",
+          "source_url": "https://masterisehomes.com/millennium/tin-tuc/tin-tuc-su-kien-millennium/sap-ra-mat-du-an-can-ho-hang-sang-tai-ben-van-don",
+          "source_published_at": "2016-07-26",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "technical_facility_takeover_date",
+          "value": "2018-06-28",
+          "unit": "date",
+          "scope": "project",
+          "source_id": "M06",
+          "source_url": "https://masterisehomes.com/millennium/tin-tuc/tin-tuc-su-kien-millennium/le-ban-giao-va-tiep-quan-khu-dan-cu-hang-sang-millennium",
+          "source_published_at": "2018-07-04",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Building management takeover NOT equal all homeowner handovers."
+        },
+        {
+          "field": "first_customer_apartment_handover_period",
+          "value": "2018-06 to 2018-07",
+          "unit": "period",
+          "scope": "project",
+          "source_id": "M07",
+          "source_url": "https://www.masterisehomes.com/millennium/tin-tuc/tin-tuc-su-kien-millennium/millennium-chao-don-nhung-cu-dan-dau-tien-den-voi-cong-dong-van-minh-quoc-te-ngay-trung-tam-thanh-pho",
+          "source_published_at": "2018-08-02",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Issuer says first residents late June / early July 2018; not full project completion."
+        }
+      ],
+      "review_notes": [
+        "Mixed project: 17 shophouses, 347 officetels, 12 penthouses should not be summed as ordinary residential flats.",
+        "Press launch predicted Q2/2018 completion; distinguish forecasts from first actual resident handovers."
+      ]
+    },
+    {
+      "id": "hist-masterianphu",
+      "name": "Masteri An Phu",
+      "project_type": "APARTMENT_PROJECT_OR_RESIDENTIAL_PHASE",
+      "region_scope": "HCMC_historical_boundary",
+      "developer_or_issuer": "Masteri / Thao Dien Investment",
+      "canonical_status": "MATCHED_EXISTING_150_CATALOG",
+      "existing_specifications_at_selection": 0,
+      "review_status": "RESEARCH_CANDIDATE_NOT_PUBLISHED",
+      "facts": [
+        {
+          "field": "historic_project_address",
+          "value": "179 Xa Lo Ha Noi, Thao Dien Ward, District 2, HCMC (historic)",
+          "unit": null,
+          "scope": "project",
+          "source_id": "M08",
+          "source_url": "https://masterisehomes.com/masteri-an-phu/tin-tuc/tin-tuc-su-kien-anphu/du-an-masteri-an-phu-cat-noc-va-hoan-thien-phan-tho",
+          "source_published_at": "2018-09-24",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_ADDRESS_CURRENT_WARD_UNVERIFIED",
+          "note": null
+        },
+        {
+          "field": "residential_tower_count",
+          "value": 2,
+          "unit": "towers",
+          "scope": "project",
+          "source_id": "M08",
+          "source_url": "https://masterisehomes.com/masteri-an-phu/tin-tuc/tin-tuc-su-kien-anphu/du-an-masteri-an-phu-cat-noc-va-hoan-thien-phan-tho",
+          "source_published_at": "2018-09-24",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "tower_floor_count",
+          "value": 42,
+          "unit": "floors",
+          "scope": "project",
+          "source_id": "M08",
+          "source_url": "https://masterisehomes.com/masteri-an-phu/tin-tuc/tin-tuc-su-kien-anphu/du-an-masteri-an-phu-cat-noc-va-hoan-thien-phan-tho",
+          "source_published_at": "2018-09-24",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "mixed_use_units_lower_bound",
+          "value": 1000,
+          "unit": "units",
+          "scope": "project",
+          "source_id": "M08",
+          "source_url": "https://masterisehomes.com/masteri-an-phu/tin-tuc/tin-tuc-su-kien-anphu/du-an-masteri-an-phu-cat-noc-va-hoan-thien-phan-tho",
+          "source_published_at": "2018-09-24",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Issuer says over 1000 apartments/officetels/penthouses/shophouses combined, not apartment-only inventory."
+        },
+        {
+          "field": "topping_out_event_claim",
+          "value": "2018-09-25",
+          "unit": "date",
+          "scope": "project",
+          "source_id": "M08",
+          "source_url": "https://masterisehomes.com/masteri-an-phu/tin-tuc/tin-tuc-su-kien-anphu/du-an-masteri-an-phu-cat-noc-va-hoan-thien-phan-tho",
+          "source_published_at": "2018-09-24",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "PUBLISHER_DATE_CONFLICT_HOLD",
+          "note": "Source dated 24 Sep 2018 narrates 25 Sep 2018 as event: apparent published-vs-event inconsistency; manual archived verification required."
+        },
+        {
+          "field": "expected_handover_at_publication",
+          "value": "2019-Q1",
+          "unit": "quarter",
+          "scope": "project",
+          "source_id": "M08",
+          "source_url": "https://masterisehomes.com/masteri-an-phu/tin-tuc/tin-tuc-su-kien-anphu/du-an-masteri-an-phu-cat-noc-va-hoan-thien-phan-tho",
+          "source_published_at": "2018-09-24",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Forward-looking plan, not verified actual delivery."
+        }
+      ],
+      "review_notes": [
+        "Article published 24 September narrates 25 September topping event; hold date until independently reconciled.",
+        "Do not infer residential-unit totals from 1,000+ mixed-use inventory."
+      ]
+    },
+    {
+      "id": "hist-monegiadinh",
+      "name": "M-One Gia Dinh",
+      "project_type": "APARTMENT_PROJECT_OR_RESIDENTIAL_PHASE",
+      "region_scope": "HCMC_historical_boundary",
+      "developer_or_issuer": "Masteri / Thao Dien Investment",
+      "canonical_status": "MATCHED_EXISTING_150_CATALOG",
+      "existing_specifications_at_selection": 0,
+      "review_status": "RESEARCH_CANDIDATE_NOT_PUBLISHED",
+      "facts": [
+        {
+          "field": "market_launch_article_date",
+          "value": "2017-10-28",
+          "unit": "date",
+          "scope": "project",
+          "source_id": "M09",
+          "source_url": "https://masterisehomes.com/m-one-gia-dinh/tin-tuc/tin-tuc-su-kien-5c10xN6V/masteri-ra-mat-du-an-m-one-gia-dinh-tai-trung-tam-go-vap-JhPoKfPw",
+          "source_published_at": "2017-10-28",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "historic_project_address",
+          "value": "12 Nguyen Binh Khiem, Ward 1, Go Vap District, HCMC (historic)",
+          "unit": null,
+          "scope": "project",
+          "source_id": "M09",
+          "source_url": "https://masterisehomes.com/m-one-gia-dinh/tin-tuc/tin-tuc-su-kien-5c10xN6V/masteri-ra-mat-du-an-m-one-gia-dinh-tai-trung-tam-go-vap-JhPoKfPw",
+          "source_published_at": "2017-10-28",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_ADDRESS_CURRENT_WARD_UNVERIFIED",
+          "note": null
+        },
+        {
+          "field": "apartment_types",
+          "value": [
+            1,
+            2,
+            3
+          ],
+          "unit": "bedrooms",
+          "scope": "project",
+          "source_id": "M09",
+          "source_url": "https://masterisehomes.com/m-one-gia-dinh/tin-tuc/tin-tuc-su-kien-5c10xN6V/masteri-ra-mat-du-an-m-one-gia-dinh-tai-trung-tam-go-vap-JhPoKfPw",
+          "source_published_at": "2017-10-28",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "advertised_apartment_size_range_m2",
+          "value": [
+            49,
+            89
+          ],
+          "unit": "m2",
+          "scope": "project",
+          "source_id": "M09",
+          "source_url": "https://masterisehomes.com/m-one-gia-dinh/tin-tuc/tin-tuc-su-kien-5c10xN6V/masteri-ra-mat-du-an-m-one-gia-dinh-tai-trung-tam-go-vap-JhPoKfPw",
+          "source_published_at": "2017-10-28",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "2017 article; net/gross not stated."
+        },
+        {
+          "field": "planned_first_handover_at_launch",
+          "value": "2019-Q1",
+          "unit": "quarter",
+          "scope": "project",
+          "source_id": "M09",
+          "source_url": "https://masterisehomes.com/m-one-gia-dinh/tin-tuc/tin-tuc-su-kien-5c10xN6V/masteri-ra-mat-du-an-m-one-gia-dinh-tai-trung-tam-go-vap-JhPoKfPw",
+          "source_published_at": "2017-10-28",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Expectation in 2017 launch; not actual handover."
+        },
+        {
+          "field": "residential_apartment_inventory",
+          "value": 156,
+          "unit": "apartments",
+          "scope": "project",
+          "source_id": "M10",
+          "source_url": "https://masterisehomes.com/m-one-gia-dinh/tin-tuc/tin-tuc-su-kien-5c10xN6V/m-one-gia-dinh-chuan-tien-ich-dac-vi-tri-vua-tai-chinh",
+          "source_published_at": "2017-11-10",
+          "source_period": null,
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Developer 2017 statement; broker totals differ in some later unofficial sources."
+        },
+        {
+          "field": "historic_floor_levels_by_tower",
+          "value": [
+            12,
+            15
+          ],
+          "unit": "floors",
+          "scope": "tower_set",
+          "source_id": "M12",
+          "source_url": "https://masterisehomes.com/Data/Sites/1/media/gia-dinh/factsheet---watermark-2019.pdf",
+          "source_published_at": null,
+          "source_period": "2019 filename only, unverified",
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "SECONDARY_PDF_VISUAL_REVIEW_PENDING",
+          "note": null
+        },
+        {
+          "field": "historic_shophouse_count",
+          "value": 8,
+          "unit": "units",
+          "scope": "commercial",
+          "source_id": "M12",
+          "source_url": "https://masterisehomes.com/Data/Sites/1/media/gia-dinh/factsheet---watermark-2019.pdf",
+          "source_published_at": null,
+          "source_period": "2019 filename only, unverified",
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "SECONDARY_PDF_VISUAL_REVIEW_PENDING",
+          "note": null
+        },
+        {
+          "field": "site_area_m2",
+          "value": 2486.6,
+          "unit": "m2",
+          "scope": "project",
+          "source_id": "M12",
+          "source_url": "https://masterisehomes.com/Data/Sites/1/media/gia-dinh/factsheet---watermark-2019.pdf",
+          "source_published_at": null,
+          "source_period": "2019 filename only, unverified",
+          "source_issuer": "Masterise Homes / Masteri",
+          "review_status": "SECONDARY_PDF_VISUAL_REVIEW_PENDING",
+          "note": null
+        }
+      ],
+      "review_notes": [
+        "Brochure lower-bound ask 27m VND/m2 in 2017 not a verified executed transaction, VAT/area basis unknown.",
+        "Factsheet PDF has 2019 in filename but exact publication day not verified."
+      ]
+    },
+    {
+      "id": "hist-opalriverside",
+      "name": "Opal Riverside",
+      "project_type": "APARTMENT_PROJECT_OR_RESIDENTIAL_PHASE",
+      "region_scope": "HCMC_historical_boundary",
+      "developer_or_issuer": "Dat Xanh Group",
+      "canonical_status": "MATCHED_EXISTING_150_CATALOG",
+      "existing_specifications_at_selection": 0,
+      "review_status": "RESEARCH_CANDIDATE_NOT_PUBLISHED",
+      "facts": [
+        {
+          "field": "historic_district",
+          "value": "Thu Duc District, HCMC (former)",
+          "unit": null,
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "LOCATION_NON_GEOCODED",
+          "note": null
+        },
+        {
+          "field": "land_site_area_m2",
+          "value": 20096.5,
+          "unit": "m2",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "construction_floor_area_m2",
+          "value": 68512,
+          "unit": "m2",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Built gross floor area, not saleable apartment area."
+        },
+        {
+          "field": "issuer_tower_count",
+          "value": 3,
+          "unit": "towers",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "CONFLICT_NEEDS_SCOPE_RECONCILIATION",
+          "note": "Broker sources sometimes list 2 residential towers; tower definitions/blocks must be mapped before approval."
+        },
+        {
+          "field": "issuer_floor_count",
+          "value": 19,
+          "unit": "floors",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "CONFLICT_NEEDS_SCOPE_RECONCILIATION",
+          "note": "Other marketing descriptions cite 20 floors; could differ by tower or counting scheme."
+        },
+        {
+          "field": "issuer_apartment_count",
+          "value": 626,
+          "unit": "apartments",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "issuer_reported_handover_year",
+          "value": 2018,
+          "unit": "year",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Issuer corporate report says 2018 delivery, exact first-customer date and apartment takeup not established."
+        },
+        {
+          "field": "historic_expected_handover_as_of_FY2015",
+          "value": "2017-Q4",
+          "unit": "quarter",
+          "scope": "project",
+          "source_id": "D04",
+          "source_url": "https://datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/Bao%20cao%20thuong%20nien%202015_DXG.pdf",
+          "source_published_at": null,
+          "source_period": "FY2015",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Older forecast; do NOT treat as actual handover."
+        }
+      ],
+      "review_notes": [
+        "Three buildings in annual report vs 'two residential towers' elsewhere; unresolved, not an automatic correction.",
+        "2015 planned 2017-Q4 delivery vs FY2018 retrospective delivered; delay/change cannot be inferred without further documents."
+      ]
+    },
+    {
+      "id": "hist-opalgarden",
+      "name": "Opal Garden",
+      "project_type": "APARTMENT_PROJECT_OR_RESIDENTIAL_PHASE",
+      "region_scope": "HCMC_historical_boundary",
+      "developer_or_issuer": "Dat Xanh Group",
+      "canonical_status": "MATCHED_EXISTING_150_CATALOG",
+      "existing_specifications_at_selection": 0,
+      "review_status": "RESEARCH_CANDIDATE_NOT_PUBLISHED",
+      "facts": [
+        {
+          "field": "historic_district",
+          "value": "Thu Duc District, HCMC (former)",
+          "unit": null,
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "LOCATION_NON_GEOCODED",
+          "note": null
+        },
+        {
+          "field": "site_area_m2",
+          "value": 8219.8,
+          "unit": "m2",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "constructed_floor_area_m2",
+          "value": 48278,
+          "unit": "m2",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Built gross floor area, not net apartment area."
+        },
+        {
+          "field": "towers",
+          "value": 4,
+          "unit": "towers",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "floors",
+          "value": 17,
+          "unit": "floors",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "residential_apartments",
+          "value": 470,
+          "unit": "apartments",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "issuer_reported_handover_period",
+          "value": "2018-12",
+          "unit": "month",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Corporate report describes 2018 delivery milestone; exact first/last buyer-specific dates not established."
+        }
+      ],
+      "review_notes": [
+        "Issuer delivery event is not notarized evidence all 470 residents took possession."
+      ]
+    },
+    {
+      "id": "hist-luxgarden",
+      "name": "LuxGarden",
+      "project_type": "APARTMENT_PROJECT_OR_RESIDENTIAL_PHASE",
+      "region_scope": "HCMC_historical_boundary",
+      "developer_or_issuer": "Dat Xanh Group",
+      "canonical_status": "MATCHED_EXISTING_150_CATALOG",
+      "existing_specifications_at_selection": 0,
+      "review_status": "RESEARCH_CANDIDATE_NOT_PUBLISHED",
+      "facts": [
+        {
+          "field": "historic_district",
+          "value": "District 7, HCMC (former)",
+          "unit": null,
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "LOCATION_NON_GEOCODED",
+          "note": null
+        },
+        {
+          "field": "site_area_m2",
+          "value": 9121.2,
+          "unit": "m2",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "residential_tower_count",
+          "value": 2,
+          "unit": "towers",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "residential_tower_floor_count",
+          "value": 27,
+          "unit": "floors",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "residential_apartment_count",
+          "value": 500,
+          "unit": "apartments",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "topping_out_date",
+          "value": "2018-02-23",
+          "unit": "date",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "first_handover_period_issuer_claim",
+          "value": "2018-Q4-late",
+          "unit": "quarter",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Annual report: commenced handover late Q4 2018; no exact date or full handover status."
+        }
+      ],
+      "review_notes": [
+        "FY2018 annual report provides corporate milestones, not unit-level delivery certificates."
+      ]
+    },
+    {
+      "id": "hist-sunviewtown",
+      "name": "Sunview Town",
+      "project_type": "APARTMENT_PROJECT_OR_RESIDENTIAL_PHASE",
+      "region_scope": "HCMC_historical_boundary",
+      "developer_or_issuer": "Dat Xanh Group",
+      "canonical_status": "MATCHED_EXISTING_150_CATALOG",
+      "existing_specifications_at_selection": 0,
+      "review_status": "RESEARCH_CANDIDATE_NOT_PUBLISHED",
+      "facts": [
+        {
+          "field": "historic_location",
+          "value": "Go Dua, Tam Binh Ward, Thu Duc District, HCMC (former)",
+          "unit": null,
+          "scope": "project",
+          "source_id": "D03",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/31%2003%202015_Bao%20cao%20thuong%20nien%20nam%202014.pdf",
+          "source_published_at": null,
+          "source_period": "FY2014; filename 31 03 2015 not independently certified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "LOCATION_NON_GEOCODED",
+          "note": null
+        },
+        {
+          "field": "site_area_m2",
+          "value": 36697,
+          "unit": "m2",
+          "scope": "project",
+          "source_id": "D03",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/31%2003%202015_Bao%20cao%20thuong%20nien%20nam%202014.pdf",
+          "source_published_at": null,
+          "source_period": "FY2014; filename 31 03 2015 not independently certified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "residential_apartment_count",
+          "value": 1603,
+          "unit": "apartments",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "commercial_shophouse_count",
+          "value": 36,
+          "unit": "units",
+          "scope": "commercial",
+          "source_id": "D03",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/31%2003%202015_Bao%20cao%20thuong%20nien%20nam%202014.pdf",
+          "source_published_at": null,
+          "source_period": "FY2014; filename 31 03 2015 not independently certified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Shophouses are not apartments."
+        },
+        {
+          "field": "towers",
+          "value": 4,
+          "unit": "towers",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": null
+        },
+        {
+          "field": "historic_building_names",
+          "value": [
+            "Ruby",
+            "Sapphire",
+            "Pearl",
+            "Diamond"
+          ],
+          "unit": null,
+          "scope": "tower_set",
+          "source_id": "D05",
+          "source_url": "https://www.datxanh.vn/tin-tuc/tap-doan-dat-xanh-chinh-thuc-khanh-thanh-du-an-luxcity.html",
+          "source_published_at": "2017-02-22",
+          "source_period": null,
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Need exact phase/block-to-coordinate and per-tower unit schedule."
+        },
+        {
+          "field": "issuer_reported_delivery_year",
+          "value": 2016,
+          "unit": "year",
+          "scope": "project",
+          "source_id": "D01",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/bao-cao-thuong-nien-dxg-2018-050319.pdf",
+          "source_published_at": null,
+          "source_period": "FY2018; PDF filename 050319 not accepted as a verified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "Company annual report timeline says 1,603 units delivered; no distinct first-customer day."
+        },
+        {
+          "field": "historic_handover_target",
+          "value": "2016-Q1",
+          "unit": "quarter",
+          "scope": "project",
+          "source_id": "D03",
+          "source_url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/31%2003%202015_Bao%20cao%20thuong%20nien%20nam%202014.pdf",
+          "source_published_at": null,
+          "source_period": "FY2014; filename 31 03 2015 not independently certified publication date",
+          "source_issuer": "CTCP Tap doan Dat Xanh (DXG)",
+          "review_status": "ISSUER_CLAIM_REQUIRES_MANUAL_APPROVAL",
+          "note": "2014 anticipated target, NOT certified first delivery."
+        }
+      ],
+      "review_notes": [
+        "Sunview Town is distinct from Sunview 1-2; do not aggregate across these similarly named developments."
+      ]
+    }
+  ],
+  "price_observations": [
+    {
+      "project_id": "hist-monegiadinh",
+      "project_name": "M-One Gia Dinh",
+      "price_type": "PRICE_ASKING",
+      "offer_characterization": "developer_marketed_historical_lower_bound",
+      "amount": 27000000,
+      "currency": "VND",
+      "numerator_unit": "VND",
+      "denominator_area_unit": "m2",
+      "price_reference": "from 27 million VND per m2",
+      "source_id": "M11",
+      "source_url": "https://masterisehomes.com/storage/media/MeJhRXp4oel7KzlYH0Rwqz9iW1JCNUUxgakBPMoi.pdf",
+      "issuer": "Masteri / Thao Dien Investment",
+      "source_period": "2017 (exact issue date undetermined)",
+      "area_m2": null,
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "vat_included": "UNKNOWN",
+      "fees_included": "UNKNOWN",
+      "unit_configuration_at_lower_bound": "UNKNOWN",
+      "offer_date": "2017 (month/day unknown)",
+      "transaction_verified": false,
+      "automatic_publication_allowed": false,
+      "review_status": "PRICE_SOURCE_PDF_VISUAL_VERIFICATION_PENDING",
+      "rights": "public_factual_citation_only_no_bulk_price_feed_license",
+      "note": "PDF indexed text p18 has 27m/m2 and 156 apartments; screenshot retrieval failed, no commercial licensing established; not an executed deal or current market price."
+    }
+  ],
+  "review_conflicts": [
+    {
+      "id": "C01",
+      "project_id": "hist-monesaigonsouth",
+      "kind": "product_scope",
+      "description": "Over 900 units includes apartments and officetels; cannot use as 900 housing units",
+      "resolution": "Obtain developer tower/unit residential schedule."
+    },
+    {
+      "id": "C02",
+      "project_id": "hist-monesaigonsouth",
+      "kind": "delivery_definition",
+      "description": "31 Aug 2017 facility takeover vs first buyer apartment delivery reported mid-October 2017",
+      "resolution": "Store distinct event types."
+    },
+    {
+      "id": "C03",
+      "project_id": "hist-millennium",
+      "kind": "product_scope",
+      "description": "347 officetels and 17 shophouses not apartments; 12 penthouses classified separately",
+      "resolution": "Obtain unit breakdown by tower and floor."
+    },
+    {
+      "id": "C04",
+      "project_id": "hist-masterianphu",
+      "kind": "chronology",
+      "description": "Publisher page dated 24 Sep 2018 describes 25 Sep topping event",
+      "resolution": "Check archived article timestamp/other independent release."
+    },
+    {
+      "id": "C05",
+      "project_id": "hist-monegiadinh",
+      "kind": "pricing_basis",
+      "description": "2017 developer brochure 'from 27m VND/m2' has unknown net/gross, VAT and qualifying unit; PDF screenshot unavailable",
+      "resolution": "Manual original PDF view and launch price sheet with VAT/area basis; do not publish chart point."
+    },
+    {
+      "id": "C06",
+      "project_id": "hist-monegiadinh",
+      "kind": "chronology",
+      "description": "Q1 2019 handover appears only as 2017 forward-looking target",
+      "resolution": "Obtain actual first resident handover dated source."
+    },
+    {
+      "id": "C07",
+      "project_id": "hist-opalriverside",
+      "kind": "tower_counts",
+      "description": "DXG 2018 annual report: 3 towers/19 floors; some other real estate profiles: 2 towers/20 floors",
+      "resolution": "Get signed site/building approvals and tower/phase schedule before resolving."
+    },
+    {
+      "id": "C08",
+      "project_id": "hist-opalriverside",
+      "kind": "completion_chronology",
+      "description": "FY2015 projected Q4 2017 delivery vs FY2018 retrospective 2018 handover",
+      "resolution": "Distinguish forecast and actual, verify per-tower delivery notices."
+    },
+    {
+      "id": "C09",
+      "project_id": "hist-opalgarden",
+      "kind": "handover_scope",
+      "description": "December 2018 milestone is not proof all 470 units were physically handed over",
+      "resolution": "Obtain dated handover rounds."
+    },
+    {
+      "id": "C10",
+      "project_id": "hist-sunviewtown",
+      "kind": "identity",
+      "description": "Sunview Town (1,603 apartments) must not be conflated with Sunview 1-2",
+      "resolution": "Store separate canonical IDs and exact tower ownership."
+    },
+    {
+      "id": "C11",
+      "project_id": "hist-monegiadinh",
+      "kind": "issuer_source_date",
+      "description": "2017 Masteri newsletter and factsheet file marked 2019 do not establish precise publishing day",
+      "resolution": "Seek original issue metadata before plotting exact-date price."
+    }
+  ],
+  "rights_and_feed_connection_queue": [
+    {
+      "provider": "Masterise Homes / Masteri",
+      "need": "Written permission for recurring authorized historical and active sale/rent price export; clarify reuse license for dated brochures and images",
+      "status": "PERMISSION_NOT_DOCUMENTED",
+      "fallback": "Minimal public facts with attribution only; no images, scraped listings, or automated feeds"
+    },
+    {
+      "provider": "Dat Xanh Group / DXG",
+      "need": "Permission for systematic feed and source/version API; independent confirmation of delivery records and tower inventories",
+      "status": "PERMISSION_NOT_DOCUMENTED",
+      "fallback": "Only attributed public corporate-report facts as review candidates"
+    },
+    {
+      "provider": "Batdongsan.com.vn, Nha Tot/Cho Tot and F1 brokers",
+      "need": "Commercial syndication or official API feed rights incl observed listing timestamps, m2 area basis and legal reuse",
+      "status": "NO_LICENSED_FEED",
+      "fallback": "No automated crawling or price indexing until rights reviewed"
+    }
+  ],
+  "unavailable_or_limited_source_access": [
+    {
+      "source_id": "M11",
+      "status": "PDF_INDEXED_TEXT_AVAILABLE_BUT_PAGE_IMAGE_RENDER_FAILED",
+      "mitigation": "Manual visual proof / original publisher contact; keep price observation review-only."
+    },
+    {
+      "source_id": "D01",
+      "status": "PDF_P31_SCREENSHOT_VERIFIED_P06_TEXT_PARSED",
+      "mitigation": "Request issuer machine-readable report/project timeline feed for full validation."
+    }
+  ],
+  "daily_price_source_watch": {
+    "checked_at": "2026-10-13",
+    "repo_update_status_path": "data/update_status.json",
+    "repository_status": "not_configured",
+    "sources_configured": 0,
+    "sources_successful": 0,
+    "authorized_feeds": 0,
+    "last_run_at": null,
+    "published_changes": 0,
+    "source_registry": "data/feeds/source_registry.json",
+    "notes": "Checked repository daily source state, not a successfully executing commercial feed."
+  },
+  "global_integrity_guards": {
+    "the_felix_distinct_from_felix_homes": true,
+    "the_win_city_duc_hoa_tay_ninh_outside_hcm": true,
+    "norton_park_conflicts_hold": true,
+    "types": [
+      "PRICE_ASKING",
+      "TRANSACTION_VERIFIED",
+      "RENT_ASKING",
+      "REPORT_ESTIMATE"
+    ],
+    "no_unapproved_public_price_legal_or_coordinates": true,
+    "no_mass_scraping": true,
+    "no_auto_facebook_group_join": true,
+    "no_other_agents_claimed": true
+  },
+  "metrics": {
+    "new_sourced_dossiers": 8,
+    "new_candidate_facts": 68,
+    "source_urls": 17,
+    "new_sourced_price_observations": 1,
+    "new_crosschecked_wgs84_coordinates": 0,
+    "verified_transactions": 0,
+    "price_types": {
+      "PRICE_ASKING": 1,
+      "TRANSACTION_VERIFIED": 0,
+      "RENT_ASKING": 0,
+      "REPORT_ESTIMATE": 0
+    },
+    "review_conflicts": 11,
+    "authorized_price_feeds": 0,
+    "publications": 0
+  }
+}
