@@ -13,7 +13,7 @@ const kinds=new Set(["PRICE_ASKING","RENT_ASKING","REPORT_ESTIMATE","PRIMARY_ASK
 for(const file of files){
  const batch=read("data/"+file),dossiers=batch.dossiers||[],observations=batch.price_observations||[];
  if(!Array.isArray(dossiers)||!dossiers.length){issue(fatal,"missing_dossiers",{file});continue}
- if(!/REVIEW|DRAFT|NOT_PUBLIC|NOT_PUBLISHED/i.test(String(batch.publication_status||"")))
+ if(batch.publication_status && !/REVIEW|DRAFT|NOT_PUBLIC|NOT_PUBLISHED/i.test(String(batch.publication_status)))
    issue(fatal,"batch_not_research_only",{file,publication_status:batch.publication_status});
  const sources=[...(batch.sources||[]),...(batch.supplementary_sources||[])],urlById=new Map();
  for(const s of sources){const u=goodUrl(typeof s==="string"?s:s.url||s.source_url);if(!u)continue;
@@ -28,7 +28,7 @@ for(const file of files){
  if(!Array.isArray(observations)){issue(fatal,"bad_observations",{file});continue}
  for(let i=0;i<observations.length;i++){
    const p=observations[i],kind=p.type||p.price_type||p.classification||p.observation_type||null;
-   const project_id=p.project_id||p.canonical_project_id||null,reference_ids=[...(p.source_ids||[]),p.source_id].filter(Boolean);
+   const project_id=p.project_id||p.canonical_project_id||((typeof p.id==="string" && /^(map|hist|candidate)-/.test(p.id))?p.id:null),reference_ids=[...(p.source_ids||[]),p.source_id].filter(Boolean);
    let source_url=goodUrl(p.source_url||p.url||p.evidence_url);
    if(!source_url)for(const id of reference_ids){if(urlById.has(id)){source_url=urlById.get(id);break}}
    if(source_url)observedURLs.add(source_url);
@@ -52,7 +52,7 @@ for(const file of files){
      p.approved_for_publication===true||p.publish_allowed===true)
      issue(fatal,"unsafe_verified_or_published_price",{file,staging_id});
  }
- batches.push({file,publication_status:batch.publication_status,dossier_rows:dossiers.length,facts:facts.length,
+ batches.push({file,publication_status:batch.publication_status||"RESEARCH_BRANCH_ONLY_UNDECLARED",dossier_rows:dossiers.length,facts:facts.length,
    price_rows:observations.length,source_rows:sources.length,conflicts:(batch.review_conflicts||batch.conflicts||[]).length||0});
 }
 const missing=[...valid].filter(id=>!byId.has(id)).sort(),extras=[...byId.keys()].filter(id=>!valid.has(id)).sort();
