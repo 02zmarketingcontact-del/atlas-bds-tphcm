@@ -1,0 +1,16 @@
+{
+  "status": "REVIEW_ONLY",
+  "name": "The EverRich 2 / River City",
+  "facts": {
+    "site_area_m2": 112585,
+    "apartments_planned": 3125,
+    "mixed_units_2016_publicity": 8000,
+    "location": "Phu Thuan, District 7",
+    "announced_partnership_date": "2016-03-07"
+  },
+  "source": "https://www.phatdat.com.vn/en/news/river-city-du-an-nua-ty-usd-o-nam-tp-hcm",
+  "review": "Rebrand, scope, exact address, handover not verified.",
+  "checked_at": "2026-10-17",
+  "publish": false,
+  "coordinates_verified": false
+}
