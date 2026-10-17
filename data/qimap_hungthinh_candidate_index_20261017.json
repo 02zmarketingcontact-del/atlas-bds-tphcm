@@ -1,0 +1,60 @@
+{
+  "kind": "REVIEW_ONLY_PROJECT_DISCOVERY",
+  "date": "2026-10-17",
+  "source_institution": "Hung Thinh Land",
+  "rights": "Public facts for manual reference. No ongoing feed or media license.",
+  "candidates": [
+    {
+      "name": "9View Apartment",
+      "official_portfolio_url": "https://www.hungthinhland.com/projects/detail/9VIEW-APARTMENT.html",
+      "legal_verified": false,
+      "coordinate_verified": false
+    },
+    {
+      "name": "SaigonMia",
+      "official_portfolio_url": "https://www.hungthinhland.com/projects/detail/SaigonMia.html",
+      "legal_verified": false,
+      "coordinate_verified": false
+    },
+    {
+      "name": "Moonlight Residences",
+      "official_portfolio_url": "https://www.hungthinhland.com/projects/detail/MOONLIGHT-RESIDENCES.html",
+      "legal_verified": false,
+      "coordinate_verified": false
+    },
+    {
+      "name": "Moonlight Park View",
+      "official_portfolio_url": "https://www.hungthinhland.com/projects/detail/MOONLIGHT-PARK-VIEW.html",
+      "legal_verified": false,
+      "coordinate_verified": false
+    },
+    {
+      "name": "Moonlight Boulevard",
+      "official_portfolio_url": "https://www.hungthinhland.com/projects/detail/MOONLIGHT-BOULEVARD.html",
+      "legal_verified": false,
+      "coordinate_verified": false
+    },
+    {
+      "name": "Lavita Charm",
+      "official_portfolio_url": "https://www.hungthinhland.com/projects/detail/LAVITA-CHARM.html",
+      "legal_verified": false,
+      "coordinate_verified": false
+    },
+    {
+      "name": "Q7 Saigon Riverside Complex",
+      "official_portfolio_url": "https://www.hungthinhland.com/projects/detail/Q7-SAIGON-RIVERSIDE-COMPLEX.html",
+      "legal_verified": false,
+      "coordinate_verified": false
+    },
+    {
+      "name": "Q7 Boulevard",
+      "official_portfolio_url": "https://www.hungthinhland.com/projects/detail/Q7-BOULEVARD.html",
+      "legal_verified": false,
+      "coordinate_verified": false
+    }
+  ],
+  "notes": [
+    "Previously researched locally; this file records citations for manual GitHub review.",
+    "No public price, geocode, or legal status changes."
+  ]
+}
