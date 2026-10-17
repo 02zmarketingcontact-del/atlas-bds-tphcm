@@ -1,0 +1,47 @@
+{
+  "batch": 21,
+  "review_only": true,
+  "checked_date": "2026-10-14",
+  "project_ids": [
+    "hist-saigonpearl",
+    "hist-themanor",
+    "hist-thaodienpearl",
+    "hist-citygarden",
+    "hist-xiriverviewpalace",
+    "hist-pearlplaza"
+  ],
+  "data_metrics": {
+    "dossiers": 6,
+    "dated_price_candidates": 12,
+    "urls": 16,
+    "verified_transactions": 0,
+    "crosschecked_wgs84": 0
+  },
+  "references": [
+    {
+      "project": "City Garden",
+      "source": "Refico",
+      "url": "https://refico.com.vn/specialities/city-garden/",
+      "units_reported": 926
+    },
+    {
+      "project": "City Garden",
+      "source": "Refico",
+      "published": "2023-08-03",
+      "url": "https://refico.com.vn/vi/news/city-garden-can-ho-binh-thanh/",
+      "units_reported": 927
+    },
+    {
+      "project": "The Manor",
+      "source": "Bitexco",
+      "url": "https://bitexco.com.vn/du-an/the-manor-ho-chi-minh/",
+      "access": "direct_access_failed"
+    }
+  ],
+  "conflicts": [
+    "City Garden 926 vs 927 units: manual reconciliation required",
+    "The Manor 426 plus 623 units: direct official verification pending"
+  ],
+  "source_rights": "No bulk reuse or authorized price feed",
+  "publication": "NOT_APPROVED"
+}
