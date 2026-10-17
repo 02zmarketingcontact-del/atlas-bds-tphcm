@@ -1,0 +1,27 @@
+{
+  "review": "REVIEW_ONLY",
+  "id": "candidate-pdr-monrei-saigon",
+  "name": "Monrei Saigon",
+  "scope": "HCMC_expanded_only",
+  "source_claims": {
+    "ward": "Thuan Giao (former Binh Duong)",
+    "land_m2": 18146.7,
+    "gross_floor_area_approx_m2": 188000,
+    "implementation_label": "2023-12",
+    "partnership": "Mitsubishi Corporation"
+  },
+  "sources": [
+    [
+      "https://www.phatdat.com.vn/project/monrei-saigon-1",
+      null
+    ]
+  ],
+  "hold": [
+    "Implementation not equivalent to launch, groundbreaking or completion",
+    "Residential unit count not confirmed"
+  ],
+  "coords_verified": false,
+  "checked_at": "2026-10-17",
+  "rights": "public URL references only; no price feed or reuse authorization",
+  "published": false
+}
