@@ -93,7 +93,11 @@
       "price_basis": "ADVERTISEMENT_STARTING_PRICE",
       "area_basis": "UNKNOWN",
       "transaction_verified": false,
-      "review_state": "REVIEW_ONLY"
+      "review_state": "REVIEW_ONLY",
+      "publisher": "VnExpress (provided by Celadon)",
+      "effective_date": null,
+      "unit_area_m2": null,
+      "rights": "PUBLIC_SHORT_FACT_CITATION_ONLY_NO_REPUBLICATION_LICENSE"
     },
     {
       "phase": "Celadon City - unassigned",
@@ -105,7 +109,11 @@
       "price_basis": "ADVERTISEMENT_STARTING_PRICE",
       "area_basis": "UNKNOWN",
       "transaction_verified": false,
-      "review_state": "REVIEW_ONLY"
+      "review_state": "REVIEW_ONLY",
+      "publisher": "Dan Tri",
+      "effective_date": null,
+      "unit_area_m2": null,
+      "rights": "PUBLIC_SHORT_FACT_CITATION_ONLY_NO_REPUBLICATION_LICENSE"
     },
     {
       "phase": "Ruby blocks A-B",
@@ -117,7 +125,11 @@
       "price_basis": "ADVERTISEMENT_STARTING_PRICE",
       "area_basis": "UNKNOWN",
       "transaction_verified": false,
-      "review_state": "REVIEW_ONLY"
+      "review_state": "REVIEW_ONLY",
+      "publisher": "Nguoi Lao Dong (archived via Tuoi Tre)",
+      "effective_date": null,
+      "unit_area_m2": null,
+      "rights": "PUBLIC_SHORT_FACT_CITATION_ONLY_NO_REPUBLICATION_LICENSE"
     },
     {
       "phase": "Ruby block C",
@@ -129,7 +141,11 @@
       "price_basis": "ADVERTISEMENT_STARTING_PRICE",
       "area_basis": "UNKNOWN",
       "transaction_verified": false,
-      "review_state": "REVIEW_ONLY"
+      "review_state": "REVIEW_ONLY",
+      "publisher": "CafeLand",
+      "effective_date": null,
+      "unit_area_m2": null,
+      "rights": "PUBLIC_SHORT_FACT_CITATION_ONLY_NO_REPUBLICATION_LICENSE"
     }
   ],
   "hold": [
@@ -150,5 +166,22 @@
     "TRANSACTION_VERIFIED": 0,
     "RENT_ASKING": 0,
     "REPORT_ESTIMATE": 0
-  }
+  },
+  "history_event_candidates": [
+    {
+      "date": "2010-09",
+      "event": "Developer joint venture Celadon City construction reportedly started",
+      "publisher": "Nguoi Lao Dong",
+      "source_url": "https://tuoitre.vn/nld/kinh-te/cong-bo-du-an-celadon-city-20120107111520209.htm",
+      "review_state": "REVIEW_ONLY"
+    },
+    {
+      "date": "2013-04-13",
+      "event": "Ruby Block A 263 units reportedly handed over",
+      "publisher": "Dan Tri",
+      "source_url": "https://dantri.com.vn/nha-dat/celadon-city-giao-nha-truoc-tien-do-5-thang-1366950456.htm",
+      "government_acceptance_verified": false,
+      "review_state": "REVIEW_ONLY"
+    }
+  ]
 }
