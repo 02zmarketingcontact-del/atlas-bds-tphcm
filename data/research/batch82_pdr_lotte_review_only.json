@@ -1,0 +1,14 @@
+{
+  "status": "REVIEW_ONLY",
+  "name": "Lotte Eco Smart City Thu Thiem - residential",
+  "facts": {
+    "residential_blocks": "2-2,2-4,2-6",
+    "planned_groundbreaking": "2026-10-23",
+    "scope": "HCMC_old_boundary"
+  },
+  "source": "https://phatdat.com.vn/news/du-an-lotte-eco-smart-city-thu-thiem-du-kien-khoi-cong-vao-ngay-23102026",
+  "review": "Date is future proposal, not accomplished. Land area differing between sources.",
+  "checked_at": "2026-10-17",
+  "publish": false,
+  "coordinates_verified": false
+}
