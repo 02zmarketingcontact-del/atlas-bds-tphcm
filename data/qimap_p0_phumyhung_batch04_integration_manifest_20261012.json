@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-10-12",
+  "status": "REVIEW_ONLY_CANONICAL_LINK_PENDING",
+  "canonical_catalog_records_before": 150,
+  "input_candidate_file": "data/qimap_p0_phumyhung_10_dossier_candidates_20261012_batch04.json",
+  "target_catalog_file": "data/project_dossiers_v1.json",
+  "affected_existing_records": [
+    {
+      "id": "hist-thepanorama",
+      "name": "The Panorama",
+      "claim_candidates": 11,
+      "exists_in_catalog": true,
+      "correct_parent_id": null
+    },
+    {
+      "id": "hist-skygarden",
+      "name": "Sky Garden",
+      "claim_candidates": 15,
+      "exists_in_catalog": true,
+      "correct_parent_id": null
+    },
+    {
+      "id": "hist-greenvalley",
+      "name": "Green Valley",
+      "claim_candidates": 11,
+      "exists_in_catalog": true,
+      "correct_parent_id": null
+    },
+    {
+      "id": "hist-scenicvalley",
+      "name": "Scenic Valley",
+      "claim_candidates": 14,
+      "exists_in_catalog": true,
+      "correct_parent_id": null
+    },
+    {
+      "id": "hist-riversideresidence",
+      "name": "Riverside Residence",
+      "claim_candidates": 10,
+      "exists_in_catalog": true,
+      "correct_parent_id": null
+    },
+    {
+      "id": "map-midtown",
+      "name": "Phú Mỹ Hưng Midtown",
+      "claim_candidates": 9,
+      "exists_in_catalog": true,
+      "correct_parent_id": null
+    },
+    {
+      "id": "hist-thegrandemidtown",
+      "name": "The Grande (Midtown)",
+      "claim_candidates": 6,
+      "exists_in_catalog": true,
+      "correct_parent_id": "map-midtown"
+    },
+    {
+      "id": "hist-thesymphonymidtown",
+      "name": "The Symphony (Midtown)",
+      "claim_candidates": 6,
+      "exists_in_catalog": true,
+      "correct_parent_id": "map-midtown"
+    },
+    {
+      "id": "hist-thesignaturemidtown",
+      "name": "The Signature (Midtown)",
+      "claim_candidates": 12,
+      "exists_in_catalog": true,
+      "correct_parent_id": "map-midtown"
+    },
+    {
+      "id": "hist-thepeakmidtown",
+      "name": "The Peak (Midtown)",
+      "claim_candidates": 7,
+      "exists_in_catalog": true,
+      "correct_parent_id": "map-midtown"
+    }
+  ],
+  "metrics": {
+    "project_ids_present": 10,
+    "source_urls_unique": 28,
+    "source_records": 29,
+    "unmerged_claims": 101,
+    "price_candidates": 4,
+    "price_types": {
+      "PRICE_ASKING": 2,
+      "TRANSACTION_VERIFIED": 0,
+      "RENT_ASKING": 0,
+      "REPORT_ESTIMATE": 2
+    },
+    "verified_new_coordinates": 0,
+    "verified_transactions": 0,
+    "conflicts": 12,
+    "new_live_price_data": 0
+  },
+  "id_remap_pending": {
+    "children": [
+      "hist-thegrandemidtown",
+      "hist-thesymphonymidtown",
+      "hist-thesignaturemidtown",
+      "hist-thepeakmidtown"
+    ],
+    "from_orphan_group": "hist-phumyhungmidtown",
+    "to_existing_group": "map-midtown",
+    "requires_regeneration_of": "data/project_search_index.json",
+    "requires_source_fix": "data/apartment_project_expansion_2006_2026.json"
+  },
+  "audit_findings": [
+    {
+      "id": "MIDTOWN_2018_PRICE_SCOPE",
+      "source_url": "https://phumyhung.vn/midtown/hon-1-200-can-ho-va-cua-hang-thuoc-phu-my-hung-midtown-da-duoc-ban-het/",
+      "original_publisher": "Nguoidothi.net.vn",
+      "finding": "60-70m VND/m2 applies to three Midtown phases (apartments + shops mentioned). Reassigned to parent and REPORT_ESTIMATE in source batch, not The Signature asking.",
+      "published_at": "not_verified",
+      "event_date": "2018-03-31"
+    },
+    {
+      "id": "SKYGARDEN_2008_PRICE",
+      "source_url": "https://phumyhung.vn/dieu-chinh-gia-nha-hop-ly-khong-can-cu-vao-bien-dong-thi-truong/",
+      "finding": "Average 27m VND/m2 circa Aug 2008, SKY Garden III Stage 2. PRICE_ASKING, VAT + area basis unknown.",
+      "published_at": "not_verified",
+      "observation_period": "2008-08_to_2008-10"
+    }
+  ],
+  "acceptance_gates": [
+    "Map all candidate facts by existing ID and scope, preserve observed evidence and event dates without publishing.",
+    "Hold all fact states as publisher_claim_requires_document_review; do not set verified_price, verified_location or legal flags.",
+    "For original journalism reproduced on developer hosting, check original rights and publisher.",
+    "Regenerate index after correcting four Midtown phase parent IDs, ensuring master 150 IDs intact.",
+    "Do not merge or publish prices, legal details, geocodes until expert review and license clearance."
+  ],
+  "source_rights": "reference_only; no commercial API or media license; require approved feed partnership",
+  "canonical_write_attempt": {
+    "result": "BLOCKED_BY_CONNECTOR_SAFETY_CHECKS",
+    "affected_file": "data/project_dossiers_v1.json",
+    "published_changes": 0
+  }
+}
