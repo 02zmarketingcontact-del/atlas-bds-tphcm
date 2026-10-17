@@ -1,0 +1,47 @@
+{
+  "review": "REVIEW_ONLY",
+  "id": "candidate-pdr-everrich-1",
+  "name": "The EverRich 1",
+  "region_scope": "HCMC_old_boundary",
+  "developer": "Phat Dat",
+  "claims": [
+    [
+      "construction_started",
+      "2006-10"
+    ],
+    [
+      "completion_claim",
+      "2009-11"
+    ],
+    [
+      "tower_count",
+      2
+    ],
+    [
+      "apartments_current_page",
+      350
+    ],
+    [
+      "apartments_older_page",
+      300
+    ]
+  ],
+  "sources": [
+    {
+      "url": "https://www.phatdat.com.vn/project/the-everrich-1",
+      "published": null,
+      "checked": "2026-10-17"
+    },
+    {
+      "url": "https://theeverrich1.phatdat.com.vn/en/project/everrich-1/",
+      "published": null,
+      "checked": "2026-10-17"
+    }
+  ],
+  "conflicts": [
+    "300 vs 350 unit count; housing vs 50 offices not resolved"
+  ],
+  "coordinates": null,
+  "price_verified": false,
+  "rights": "citation only; feed not authorized"
+}
