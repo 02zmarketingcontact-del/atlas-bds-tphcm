@@ -1,0 +1,31 @@
+{
+  "review": "REVIEW_ONLY",
+  "id": "hist-millennium",
+  "name": "Millennium",
+  "scope": "HCMC_old_boundary",
+  "catalog_id": "hist-millennium",
+  "source_claims": {
+    "land_m2": 7302.6,
+    "towers": 2,
+    "apartments_approx": 650,
+    "unit_size_range_m2": [
+      53,
+      107
+    ],
+    "handover_from": "2018-06"
+  },
+  "sources": [
+    [
+      "https://www.phatdat.com.vn/project/millennium",
+      null
+    ]
+  ],
+  "hold": [
+    "650 approx current webpage vs 653 in PDR 2017 report",
+    "Developer role vs Masteri/Masterise branding must be reconciled"
+  ],
+  "coords_verified": false,
+  "checked_at": "2026-10-17",
+  "rights": "public URL references only; no price feed or reuse authorization",
+  "published": false
+}
