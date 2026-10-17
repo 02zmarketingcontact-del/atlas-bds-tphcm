@@ -1,0 +1,154 @@
+{
+  "schema": "qimap_p0_review_only_index_v1",
+  "batch": "celadon",
+  "import_date": "2026-10-18",
+  "note": "Prior local study 7 parent/precinct candidates and 4 dated historical price claims; NOT NEW findings this run. Sources are referenced for short facts only; no reproduction rights or authorized live price feed.",
+  "profiles": [
+    {
+      "name": "Celadon City",
+      "parent": null,
+      "level": "parent_masterplan",
+      "issuer": "Gamuda Land",
+      "source_url": "https://gamudaland.com.vn/vn/developments/celadon-city",
+      "source_date": null,
+      "exact_address": null,
+      "wgs84": null,
+      "review_state": "REVIEW_ONLY"
+    },
+    {
+      "name": "Ruby Precinct",
+      "parent": "Celadon City",
+      "level": "marketing_precinct",
+      "issuer": "Gamuda Land",
+      "source_url": "https://gamudaland.com.vn/vn/developments/township/ruby-precinct",
+      "source_date": null,
+      "exact_address": null,
+      "wgs84": null,
+      "review_state": "REVIEW_ONLY"
+    },
+    {
+      "name": "Emerald Precinct",
+      "parent": "Celadon City",
+      "level": "marketing_precinct",
+      "issuer": "Gamuda Land",
+      "source_url": "https://gamudaland.com.vn/vn/developments/township/emerald-precinct",
+      "source_date": null,
+      "exact_address": null,
+      "wgs84": null,
+      "review_state": "REVIEW_ONLY"
+    },
+    {
+      "name": "Diamond Alnata",
+      "parent": "Celadon City",
+      "level": "marketing_precinct",
+      "issuer": "Gamuda Land",
+      "source_url": "https://gamudaland.com.vn/vn/developments/township/diamond-alnata",
+      "source_date": null,
+      "exact_address": null,
+      "wgs84": null,
+      "review_state": "REVIEW_ONLY"
+    },
+    {
+      "name": "Diamond Alnata Plus",
+      "parent": "Celadon City",
+      "level": "possible_subphase",
+      "issuer": "Gamuda Land",
+      "source_url": "https://gamudaland.com.vn/en/developments/township/diamond-alnata-plus",
+      "source_date": null,
+      "exact_address": null,
+      "wgs84": null,
+      "review_state": "REVIEW_ONLY"
+    },
+    {
+      "name": "Diamond Brilliant",
+      "parent": "Celadon City",
+      "level": "marketing_precinct",
+      "issuer": "Gamuda Land",
+      "source_url": "https://gamudaland.com.vn/vn/developments/township/diamond-brilliant",
+      "source_date": null,
+      "exact_address": null,
+      "wgs84": null,
+      "review_state": "REVIEW_ONLY"
+    },
+    {
+      "name": "Diamond Centery",
+      "parent": "Celadon City",
+      "level": "marketing_precinct",
+      "issuer": "Gamuda Land",
+      "source_url": "https://gamudaland.com.vn/vn/developments/township/diamond-centery",
+      "source_date": null,
+      "exact_address": null,
+      "wgs84": null,
+      "review_state": "REVIEW_ONLY"
+    }
+  ],
+  "price_candidates": [
+    {
+      "phase": "Ruby Precinct",
+      "pub_date": "2011-11-08",
+      "amount": 19000000,
+      "unit": "VND_PER_M2",
+      "source_url": "https://vnexpress.net/celadon-city-mo-ban-khu-can-ho-ruby-2716260.html",
+      "price_type": "PRICE_ASKING",
+      "price_basis": "ADVERTISEMENT_STARTING_PRICE",
+      "area_basis": "UNKNOWN",
+      "transaction_verified": false,
+      "review_state": "REVIEW_ONLY"
+    },
+    {
+      "phase": "Celadon City - unassigned",
+      "pub_date": "2013-04-22",
+      "amount": 1500000000,
+      "unit": "VND_PER_UNIT",
+      "source_url": "https://dantri.com.vn/nha-dat/celadon-city-giao-nha-truoc-tien-do-5-thang-1366950456.htm",
+      "price_type": "PRICE_ASKING",
+      "price_basis": "ADVERTISEMENT_STARTING_PRICE",
+      "area_basis": "UNKNOWN",
+      "transaction_verified": false,
+      "review_state": "REVIEW_ONLY"
+    },
+    {
+      "phase": "Ruby blocks A-B",
+      "pub_date": "2014-05-04",
+      "amount": 21000000,
+      "unit": "VND_PER_M2",
+      "source_url": "https://tuoitre.vn/nld/tieu-dung/mo-ban-block-c-du-an-celadon-city-2014050418204808.htm",
+      "price_type": "PRICE_ASKING",
+      "price_basis": "ADVERTISEMENT_STARTING_PRICE",
+      "area_basis": "UNKNOWN",
+      "transaction_verified": false,
+      "review_state": "REVIEW_ONLY"
+    },
+    {
+      "phase": "Ruby block C",
+      "pub_date": "2015-08-01",
+      "amount": 23000000,
+      "unit": "VND_PER_M2",
+      "source_url": "https://cafeland.vn/tin-tuc/mo-ban-tieu-khu-ruby-thuoc-du-an-celadon-city-54372.html",
+      "price_type": "PRICE_ASKING",
+      "price_basis": "ADVERTISEMENT_STARTING_PRICE",
+      "area_basis": "UNKNOWN",
+      "transaction_verified": false,
+      "review_state": "REVIEW_ONLY"
+    }
+  ],
+  "hold": [
+    "2015 Ruby C 370 vs 372 units; no decision",
+    "2015 23m/m2 x 68m2 conflicts with cited 1.68bn total",
+    "Diamond Alnata Plus hierarchy not legally confirmed",
+    "All historical handover announcements are not formal acceptance documents"
+  ],
+  "rights": {
+    "authorized_feeds": 0,
+    "public_short_fact_citation_only": true,
+    "no_bulk_scraping": true
+  },
+  "gates": {
+    "production_publish": false,
+    "legal_verified": false,
+    "verified_coordinates": 0,
+    "TRANSACTION_VERIFIED": 0,
+    "RENT_ASKING": 0,
+    "REPORT_ESTIMATE": 0
+  }
+}
