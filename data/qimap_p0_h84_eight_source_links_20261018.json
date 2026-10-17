@@ -1,0 +1,44 @@
+{
+  "as_of": "2026-10-18",
+  "status": "REVIEW_ONLY",
+  "batch": "H84",
+  "publisher": "Hung Thinh Land",
+  "projects": [
+    {
+      "name": "Florita",
+      "url": "https://www.hungthinhland.com/projects/detail/FLORITA.html"
+    },
+    {
+      "name": "Lavita Garden",
+      "url": "https://www.hungthinhland.com/projects/detail/LAVITA-GARDEN.html"
+    },
+    {
+      "name": "Citizen.TS",
+      "url": "https://www.hungthinhland.com/projects/detail/CITIZEN-TS.html"
+    },
+    {
+      "name": "Melody Residences",
+      "url": "https://www.hungthinhland.com/projects/detail/MELODY-RESIDENCES.html"
+    },
+    {
+      "name": "8X Plus",
+      "url": "https://www.hungthinhland.com/projects/detail/8X-PLUS.html"
+    },
+    {
+      "name": "8X Rainbow",
+      "url": "https://www.hungthinhland.com/projects/detail/8X-RAINBOW.html"
+    },
+    {
+      "name": "8X Dam Sen",
+      "url": "https://www.hungthinhland.com/projects/detail/8X-DAM-SEN.html"
+    },
+    {
+      "name": "Sky Center",
+      "url": "https://www.hungthinhland.com/projects/detail/SKY-CENTER.html"
+    }
+  ],
+  "price_candidate_count": 5,
+  "price_candidate_type": "PRICE_ASKING",
+  "verified_geo_count": 0,
+  "publication_allowed": false
+}
