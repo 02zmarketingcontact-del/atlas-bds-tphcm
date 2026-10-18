@@ -37,7 +37,13 @@ def resolve(item):
     url=item.get("source_url","")
     if not public_url(url): return None
     req=urllib.request.Request(url,headers={"User-Agent":"QiMapNewsResearch/1.0"})
-    with urllib.request.urlopen(req,timeout=12) as resp:
+    class SafeRedirect(urllib.request.HTTPRedirectHandler):
+        def redirect_request(self, request, fp, code, msg, headers, newurl):
+            if not public_url(newurl):
+                raise ValueError("unsafe redirect")
+            return super().redirect_request(request,fp,code,msg,headers,newurl)
+    opener=urllib.request.build_opener(SafeRedirect())
+    with opener.open(req,timeout=12) as resp:
         final=resp.geturl()
         if not public_url(final): return None
         if "news.google.com" in urllib.parse.urlsplit(final).hostname: return None
@@ -55,9 +61,11 @@ def resolve(item):
         "source_resolution":"PUBLISHER_HTML_METADATA"}
 def main():
     doc=json.loads(FILE.read_text(encoding="utf-8"));resolved=0;failed=0
+    attempted=0
     for item in reversed(doc.get("items",[])):
         if item.get("original_url") and item.get("source_description"): continue
-        if resolved>=12:break
+        if attempted>=12:break
+        attempted+=1
         try:
             result=resolve(item)
             if result:
