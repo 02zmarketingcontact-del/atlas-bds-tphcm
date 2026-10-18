@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-18",
+  "status": "REVIEW_ONLY",
+  "dataset": "Le Thanh apartment/phase/block source index, not legal project registration",
+  "projects": [
+    {
+      "name": "Chung cư Lê Thành Khu A",
+      "kind": "phase",
+      "parent": "Lê Thành An Dương Vương",
+      "official_url": "https://lethanh.com.vn/chung-cu-le-thanh-a",
+      "source_institution": "Công ty Lê Thành",
+      "published_at": null,
+      "rights": "REFERENCE_ONLY_NO_FEED_LICENSE",
+      "wgs84": null,
+      "legal_verified": false
+    },
+    {
+      "name": "Chung cư Lê Thành Khu B",
+      "kind": "phase",
+      "parent": "Lê Thành An Dương Vương",
+      "official_url": "https://lethanh.com.vn/chung-cu-le-thanh-b",
+      "source_institution": "Công ty Lê Thành",
+      "published_at": null,
+      "rights": "REFERENCE_ONLY_NO_FEED_LICENSE",
+      "wgs84": null,
+      "legal_verified": false
+    },
+    {
+      "name": "Lê Thành Twin Towers",
+      "kind": "project",
+      "parent": null,
+      "official_url": "https://lethanh.com.vn/chung-cu-le-thanh-twin-towers",
+      "source_institution": "Công ty Lê Thành",
+      "published_at": null,
+      "rights": "REFERENCE_ONLY_NO_FEED_LICENSE",
+      "wgs84": null,
+      "legal_verified": false
+    },
+    {
+      "name": "Lê Thành Tân Tạo 1",
+      "kind": "phase",
+      "parent": "Lê Thành Tân Tạo",
+      "official_url": "https://lethanh.com.vn/chung-cu-le-thanh-tan-tao-1",
+      "source_institution": "Công ty Lê Thành",
+      "published_at": null,
+      "rights": "REFERENCE_ONLY_NO_FEED_LICENSE",
+      "wgs84": null,
+      "legal_verified": false
+    },
+    {
+      "name": "Lê Thành An Lạc (NOXH)",
+      "kind": "project",
+      "parent": null,
+      "official_url": "https://lethanh.com.vn/chung-cu-le-thanh-an-lac",
+      "source_institution": "Công ty Lê Thành",
+      "published_at": null,
+      "rights": "REFERENCE_ONLY_NO_FEED_LICENSE",
+      "wgs84": null,
+      "legal_verified": false
+    },
+    {
+      "name": "Lê Thành Tân Tạo 2 (NOXH)",
+      "kind": "phase",
+      "parent": "Lê Thành Tân Tạo",
+      "official_url": "https://lethanh.com.vn/chung-cu-le-thanh-tan-tao-2",
+      "source_institution": "Công ty Lê Thành",
+      "published_at": null,
+      "rights": "REFERENCE_ONLY_NO_FEED_LICENSE",
+      "wgs84": null,
+      "legal_verified": false
+    },
+    {
+      "name": "Lê Thành Tân Kiên (NOXH)",
+      "kind": "project",
+      "parent": null,
+      "official_url": "https://lethanh.com.vn/chung-cu-le-thanh-tan-kien-1",
+      "source_institution": "Công ty Lê Thành",
+      "published_at": null,
+      "rights": "REFERENCE_ONLY_NO_FEED_LICENSE",
+      "wgs84": null,
+      "legal_verified": false
+    },
+    {
+      "name": "Lê Thành Tân Kiên Block A (NOXH)",
+      "kind": "block",
+      "parent": "Lê Thành Tân Kiên (NOXH)",
+      "official_url": "https://lethanh.com.vn/co-hoi-an-cu-mo-tich-luy-block-a-noxh-chung-cu-le-thanh-tan-kien",
+      "source_institution": "Công ty Lê Thành",
+      "published_at": null,
+      "rights": "REFERENCE_ONLY_NO_FEED_LICENSE",
+      "wgs84": null,
+      "legal_verified": false
+    }
+  ],
+  "conflict_sources": [
+    {
+      "project": "Lê Thành Tân Tạo 2",
+      "unit_counts_claims": [
+        450,
+        494,
+        495
+      ],
+      "source_urls": [
+        "https://lethanh.com.vn/le-dong-tho-du-an-nha-o-xa-hoi-le-thanh-tan-tao-2",
+        "https://hdnd.hochiminhcity.gov.vn/tin-tuc/ban-van-hoa-xa-hoi/tp-hcm-chuan-bi-khoi-cong-10-000-can-nha-o-xa-hoi-dip-quoc-khanh-2-9",
+        "https://lethanh.com.vn/chung-cu-le-thanh-tan-tao-2"
+      ],
+      "state": "HOLD"
+    },
+    {
+      "project": "Lê Thành Tân Kiên",
+      "unit_counts_claims": [
+        1445,
+        1443
+      ],
+      "source_urls": [
+        "https://lethanh.com.vn/cong-ty-tnhh-tm-xd-le-thanh-cong-bo-thong-tin-du-an-nha-o-xa-hoi-le-thanh-tan-kien",
+        "https://batdongsan.baoxaydung.vn/thanh-pho-ho-chi-minh-khoi-cong-du-an-nha-o-xa-hoi-gan-1500-can-ho-1926868382628.htm"
+      ],
+      "state": "HOLD"
+    }
+  ],
+  "metrics": {
+    "profiles": 8,
+    "review_only_source_urls": 8,
+    "new_price_observations": 0,
+    "coordinates_verified": 0,
+    "authorized_feeds": 0
+  },
+  "no_auto_publication": true
+}
