@@ -30,13 +30,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           TRANSLATE_ITEMS: '12'
-        continue-on-error: true
         run: python scripts/qimap-translate-news.py
       - name: Create original four-language articles
         env:
           GH_TOKEN: ${{ github.token }}
           ARTICLE_LIMIT: '40'
-        continue-on-error: true
         run: python scripts/qimap-full-articles.py
       - name: Enforce multilingual publication gate
         run: python scripts/qimap-publish-gate.py
