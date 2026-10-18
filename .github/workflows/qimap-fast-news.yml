@@ -19,6 +19,12 @@ jobs:
           python-version: '3.12'
       - name: Gather public news metadata
         run: python scripts/qimap-fast-news.py
+      - name: Translate fresh news metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TRANSLATE_ITEMS: '12'
+        continue-on-error: true
+        run: python scripts/qimap-translate-news.py
       - name: Commit news dataset if changed
         run: |
           git config user.name "qimap-news-bot"
