@@ -12,6 +12,15 @@ on:
       - 'scripts/audit-source-candidates.py'
       - 'data/feeds/source_candidates_v4.json'
       - 'data/feeds/source_registry.json'
+  pull_request:
+    paths:
+      - 'scripts/qimap-hourly.py'
+      - 'tests/test_qimap_hourly.py'
+      - 'tests/test_source_candidates.py'
+      - 'scripts/audit-source-candidates.py'
+      - 'data/feeds/source_candidates_v4.json'
+      - 'data/feeds/source_registry.json'
+      - '.github/workflows/qimap-hourly-intelligence.yml'
       - '.github/workflows/qimap-hourly-intelligence.yml'
 permissions:
   contents: read
