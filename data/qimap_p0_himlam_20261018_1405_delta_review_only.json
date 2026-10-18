@@ -1,0 +1,113 @@
+{
+  "schema": "qimap_p0_candidate_delta_v1",
+  "status": "REVIEW_ONLY",
+  "as_of": "2026-10-18",
+  "parent_batch": "HIMLAM_8_20261018_DELTA_2007_2026",
+  "sources": [
+    {
+      "id": "HL-S40",
+      "publisher": "Báo Đầu tư Bất động sản / Tin nhanh Chứng khoán",
+      "published_at": "2015-12-04",
+      "url": "https://www.tinnhanhchungkhoan.vn/him-lam-cho-lon-quan-6-mo-ban-dot-cuoi-200-can-ho-post124774.html",
+      "rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_COPY_NO_AUTHORIZED_FEED"
+    },
+    {
+      "id": "HL-S41",
+      "publisher": "CafeLand",
+      "published_at": "2017-03-11",
+      "url": "https://cafeland.vn/tin-tuc/tien-do-du-an-him-lam-phu-dong-65292.html",
+      "rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_MEDIA_COPY_NO_AUTHORIZED_FEED"
+    },
+    {
+      "id": "HL-S42",
+      "publisher": "Báo Đầu tư Bất động sản / Tin nhanh Chứng khoán",
+      "published_at": "2015-10-23",
+      "url": "https://www.tinnhanhchungkhoan.vn/him-lam-cho-lon-quan-6-co-thuc-su-thuyet-phuc-nguoi-mua-post122497.html",
+      "rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_COPY_NO_AUTHORIZED_FEED"
+    }
+  ],
+  "price_observations": [
+    {
+      "id": "HL-PRICE-22",
+      "entity_id": "himlam-cho-lon",
+      "source_id": "HL-S40",
+      "source_publication_date": "2015-12-04",
+      "offer_campaign_date": "2015-12-05",
+      "price_type": "PRICE_ASKING",
+      "price_min_vnd": 1800000000,
+      "price_max_vnd": 2000000000,
+      "unit": "VND/apartment",
+      "unit_area_range_m2": [
+        82,
+        86
+      ],
+      "area_measurement_basis": "UNKNOWN",
+      "vat_basis": "UNKNOWN",
+      "scope": "200 units last offering, Block C, phase II (issuer-attributed press release)",
+      "verified_transaction": false,
+      "authorized_feed": false,
+      "publication_status": "REVIEW_ONLY",
+      "note": "Separate final 200-unit tranche from October 2015 marketing; no inference of completed sale"
+    },
+    {
+      "id": "HL-PRICE-23",
+      "entity_id": "himlam-phu-an",
+      "source_id": "S38",
+      "source_publication_date": "2018-12-04",
+      "reference_period": "2017",
+      "observation_date": null,
+      "price_type": "REPORT_ESTIMATE",
+      "price_min_vnd": 24000000,
+      "price_max_vnd": null,
+      "unit": "VND/m2",
+      "area_measurement_basis": "UNKNOWN",
+      "vat_basis": "UNKNOWN",
+      "scope": "2018 journalist's retrospective reference to 2017 price circa 24m VND/m2; not a 2017 listing or verified transaction",
+      "verified_transaction": false,
+      "authorized_feed": false,
+      "publication_status": "REVIEW_ONLY"
+    }
+  ],
+  "historical_events": [
+    {
+      "entity_id": "himlam-cho-lon",
+      "source_id": "HL-S40",
+      "event_date": "2015-12-05",
+      "event_type": "ADVERTISED_FINAL_SALE_TRANCHE",
+      "description": "200 apartments Block C phase II marketed, not authenticated signed contracts",
+      "verification": "DATED_PRESS_ADVERTISING_ONLY"
+    },
+    {
+      "entity_id": "himlam-cho-lon",
+      "source_id": "HL-S40",
+      "event_date": "2015-12-04",
+      "event_type": "UNIT_COUNT_CONFLICT",
+      "description": "2015 source uses 1,456 apartments, while other sources 1,488 and 1,468. No total approved.",
+      "verification": "HOLD"
+    },
+    {
+      "entity_id": "himlam-phu-dong",
+      "source_id": "HL-S41",
+      "event_date": "2017-03-11",
+      "event_type": "CONSTRUCTION_PROGRESS_JOURNALIST_OBSERVED",
+      "description": "1 apartment block 21 floors and ~400 apartments, construction reached 17th floor; Dec 2017 handover only forecast",
+      "verification": "PRESS_SOURCE_ONLY"
+    }
+  ],
+  "qa": {
+    "dossiers_with_new_evidence": 3,
+    "new_dated_urls": 3,
+    "new_price_candidates": 2,
+    "new_wgs84_verified": 0,
+    "transaction_verified": 0,
+    "source_rights": "REFERENCE_ONLY",
+    "production_changes": 0,
+    "requires_manual_review": true
+  },
+  "holds": [
+    "Him Lam Chợ Lớn totals 1,456 vs 1,468 vs 1,488 require dated approved design",
+    "Promotional 12-15m VND/month developer rent-back guarantee is NOT independent RENT_ASKING",
+    "Sales-count claims 1,256/1,456 are not verified executed transactions",
+    "Him Lam Phú Đông historical geography Bình Dương before 2025 merger"
+  ]
+}
