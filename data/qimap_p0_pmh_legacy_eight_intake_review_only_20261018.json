@@ -1,0 +1,98 @@
+{
+  "schema": "qimap_p0_project_evidence_review_only_v1",
+  "as_of": "2026-10-18",
+  "status": "REVIEW_ONLY",
+  "projects": [
+    {
+      "name": "Mỹ Đức",
+      "kind": "NEW_CANDIDATE",
+      "event_date": "2006-08-12",
+      "units": 84,
+      "blocks": 2,
+      "url": "https://phumyhung.vn/phu-my-hung-cong-bo-du-an-moi-khu-can-ho-cao-cap-my-duc/"
+    },
+    {
+      "name": "Mỹ Phát",
+      "kind": "NEW_CANDIDATE",
+      "event_date": "2006-11-04",
+      "units": 72,
+      "blocks": 3,
+      "url": "https://phumyhung.vn/du-an-khu-can-ho-cao-cap-my-phat/",
+      "warning": "Land 3298 vs 3282 m2 in handover report"
+    },
+    {
+      "name": "Garden Plaza 2",
+      "kind": "SPLIT_CANDIDATE",
+      "parent": "hist-gardenplaza",
+      "event_date": "2007-02-03",
+      "units": 38,
+      "url": "https://phumyhung.vn/phu-my-hung-cong-bo-du-an-moi-khu-can-ho-cao-cap-garden-plaza-2/"
+    },
+    {
+      "name": "Sky Garden 2",
+      "kind": "PHASE_CANDIDATE",
+      "parent": "hist-skygarden",
+      "event_date": "2006-06-30",
+      "units": 710,
+      "url": "https://phumyhung.vn/phu-my-hung-hon-700-nhan-can-ho-moi-sky-garden-2/"
+    },
+    {
+      "name": "Sky Garden 3 Phase 1",
+      "kind": "PHASE_CANDIDATE",
+      "parent": "hist-skygarden",
+      "event_date": "2009-06",
+      "blocks": 5,
+      "url": "https://phumyhung.vn/phu-my-hung-di-tim-bi-mat-tien-do-xay-dung-nhanh/",
+      "warning": "Early handover offer not actual handover"
+    },
+    {
+      "name": "The Panorama handover phases",
+      "kind": "PHASE_CANDIDATE",
+      "parent": "hist-thepanorama",
+      "event_date": "2008-07",
+      "url": "https://phumyhung.vn/them-mot-khu-can-ho-giao-nha-dung-han-tai-khu-do-thi-phu-my-hung/"
+    },
+    {
+      "name": "Riverpark Residence Phase 1 offer",
+      "kind": "SALES_TRANCHE",
+      "parent": "hist-riverparkresidence",
+      "event_date": "2009-07",
+      "units": 140,
+      "url": "https://thesaigontimes.vn/phu-my-hung-ban-can-ho-riverpark-residence/"
+    },
+    {
+      "name": "Riverpark Premier",
+      "kind": "NEW_CANDIDATE",
+      "event_date": "2016-07-31",
+      "units": 268,
+      "url": "https://phumyhung.vn/riverparkpremier/vn/99-can-ho-riverpark-da-tim-duoc-chu-nhan.php"
+    }
+  ],
+  "prices": [
+    {
+      "project": "Riverpark Residence Phase 1 offer",
+      "source_date": "2009-07-14",
+      "price_type": "PRICE_ASKING",
+      "value_min_vnd": 45000000,
+      "unit": "VND/m2",
+      "source": "https://thesaigontimes.vn/phu-my-hung-ban-can-ho-riverpark-residence/"
+    },
+    {
+      "project": "Riverpark Premier",
+      "event_date": "2016-07-31",
+      "price_type": "PRICE_ASKING",
+      "value_min_vnd": 6000000000,
+      "value_max_vnd": 18000000000,
+      "range_exclusive": true,
+      "unit": "VND/apartment",
+      "source": "https://phumyhung.vn/riverparkpremier/vn/99-can-ho-riverpark-da-tim-duoc-chu-nhan.php"
+    }
+  ],
+  "source_policy": "Public factual citation only; no license for bulk feeds, photos, article replication; dates in historic developer pages refer to events and are not assumed publication dates.",
+  "metrics": {
+    "dossiers_with_new_evidence": 8,
+    "price_observations_with_evidence": 2,
+    "verified_wgs84_coordinates": 0,
+    "verified_transactions": 0
+  }
+}
