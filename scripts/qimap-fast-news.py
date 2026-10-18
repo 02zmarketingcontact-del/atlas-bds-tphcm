@@ -60,7 +60,9 @@ def main():
                 errors.append({"topic": topic, "query": query, "error": type(exc).__name__ + ": " + str(exc)[:160]})
     merged = {i["id"]: i for i in existing if isinstance(i, dict) and i.get("id")}
     for item in fresh:
-        merged[item["id"]] = item
+        # Preserve previously verified publisher URLs and translations on refresh.
+        # RSS contains only metadata and must not erase downstream enrichments.
+        merged[item["id"]] = {**merged.get(item["id"], {}), **item}
     # Persist the full history in monthly shards; latest.json is only a lightweight UI cache.
     by_month = {}
     for item in merged.values():
