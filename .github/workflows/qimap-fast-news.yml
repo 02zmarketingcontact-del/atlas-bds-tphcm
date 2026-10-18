@@ -11,7 +11,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -30,7 +30,7 @@ jobs:
       - name: Create original four-language articles
         env:
           GH_TOKEN: ${{ github.token }}
-          ARTICLE_LIMIT: '3'
+          ARTICLE_LIMIT: '40'
         continue-on-error: true
         run: python scripts/qimap-full-articles.py
       - name: Enforce multilingual publication gate
