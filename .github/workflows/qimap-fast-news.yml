@@ -25,11 +25,17 @@ jobs:
           TRANSLATE_ITEMS: '12'
         continue-on-error: true
         run: python scripts/qimap-translate-news.py
+      - name: Create original four-language articles
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ARTICLE_LIMIT: '3'
+        continue-on-error: true
+        run: python scripts/qimap-full-articles.py
       - name: Commit news dataset if changed
         run: |
           git config user.name "qimap-news-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news/latest.json data/news/archive/
+          git add data/news/latest.json data/news/archive/ data/news/articles/ data/news/articles-index.json
           if ! git diff --cached --quiet; then
             git commit -m "data(news): refresh public news briefs [skip ci]"
             git push
