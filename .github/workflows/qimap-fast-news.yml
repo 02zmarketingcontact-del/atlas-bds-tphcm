@@ -1,0 +1,30 @@
+name: QiMap Fast News
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: qimap-fast-news
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Gather public news metadata
+        run: python scripts/qimap-fast-news.py
+      - name: Commit news dataset if changed
+        run: |
+          git config user.name "qimap-news-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news/latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data(news): refresh public news briefs [skip ci]"
+            git push
+          fi
