@@ -10,9 +10,12 @@ on:
       - 'tests/test_qimap_hourly.py'
       - 'tests/test_source_candidates.py'
       - 'scripts/audit-source-candidates.py'
+      - 'data/feeds/source_candidates_v4.json'
+      - 'data/feeds/source_registry.json'
       - '.github/workflows/qimap-hourly-intelligence.yml'
 permissions:
   contents: read
+  actions: read
 concurrency:
   group: qimap-hourly
   cancel-in-progress: false
