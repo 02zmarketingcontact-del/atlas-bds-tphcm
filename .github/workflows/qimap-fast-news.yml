@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/qimap-source-resolver.py'
+      - '.github/workflows/qimap-fast-news.yml'
   schedule:
     - cron: '13 * * * *'
 permissions:
