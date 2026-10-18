@@ -31,6 +31,16 @@ jobs:
           python -m unittest discover -s tests -p 'test_source_candidates.py' -v
       - name: Audit candidate sources
         run: python scripts/audit-source-candidates.py --input data/feeds/source_candidates_v4.json --output artifacts/qimap-hourly/source-audit.json
+      - name: Restore previous checkpoint artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p artifacts/qimap-hourly/checkpoints
+          RUN_ID=$(gh run list --workflow qimap-hourly-intelligence.yml --branch main --status success --limit 1 --json databaseId --jq '.[0].databaseId // empty' 2>/dev/null || true)
+          if [ -n "$RUN_ID" ]; then
+            gh run download "$RUN_ID" --pattern 'qimap-hourly-*' --dir /tmp/qimap-previous || true
+            find /tmp/qimap-previous -path '*/checkpoints/*.json' -type f -exec cp {} artifacts/qimap-hourly/checkpoints/ \; 2>/dev/null || true
+          fi
       - name: Source registry and incremental discovery
         run: python scripts/qimap-hourly.py --registry data/feeds/source_registry.json --out artifacts/qimap-hourly
       - name: Summary
