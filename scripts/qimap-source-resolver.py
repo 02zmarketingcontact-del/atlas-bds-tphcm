@@ -64,7 +64,7 @@ def main():
     attempted=0
     for item in reversed(doc.get("items",[])):
         if item.get("original_url") and item.get("source_description"): continue
-        if attempted>=12:break
+        if attempted>=120:break
         attempted+=1
         try:
             result=resolve(item)
