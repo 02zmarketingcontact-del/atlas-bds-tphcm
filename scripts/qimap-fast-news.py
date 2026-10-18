@@ -81,7 +81,7 @@ def main():
                 pass
         complete = {x["id"]: x for x in previous if isinstance(x, dict) and x.get("id")}
         complete.update({x["id"]: x for x in records})
-        path.write_text(json.dumps({"month": month, "total": len(complete), "items": list(complete.values())}, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+        path.write_text(json.dumps({"month": month, "total": len(complete), "items": list(complete.values())}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     items = list(merged.values())[-200:]
     report = {"updated_at": dt.datetime.now(dt.timezone.utc).isoformat(), "mode": "PUBLIC_NEWS_METADATA", "verification": "NEWS_AGGREGATED_NOT_INDEPENDENTLY_VERIFIED", "new_fetched": len(fresh), "unique_fetched": len({x["id"] for x in fresh}), "queries": sum(len(v) for v in TOPICS.values()), "total": len(items), "archived_this_run": len(merged), "archive_months_touched": len(by_month), "errors": errors, "items": items}
     OUT.parent.mkdir(parents=True, exist_ok=True)
