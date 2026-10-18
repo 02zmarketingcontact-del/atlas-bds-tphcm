@@ -3,6 +3,8 @@
 Never copy or republish article bodies. Fail closed if origin is not established.
 """
 import html
+import base64
+import re
 from html.parser import HTMLParser
 import ipaddress
 import json
@@ -33,8 +35,24 @@ def public_url(url):
             if not ip.is_global: return False
     except (OSError,ValueError): return False
     return True
+def decode_google_news_link(url):
+    try:
+        path=urllib.parse.urlsplit(url).path
+        encoded=path.split('/articles/',1)[-1].split('/rss/articles/',1)[-1].split('/',1)[0]
+        raw=base64.urlsafe_b64decode(encoded+'='*(-len(encoded)%4))
+        hits=re.findall(rb'https?://[^\\x00-\\x20\\x7f-\\xff\\"<>]+',raw)
+        for hit in hits:
+            candidate=hit.decode('ascii','ignore')
+            if candidate.startswith('https://') and public_url(candidate) and 'google.com' not in urllib.parse.urlsplit(candidate).hostname:
+                return candidate
+    except (ValueError,UnicodeError): pass
+    return None
+
 def resolve(item):
     url=item.get("source_url","")
+    if "news.google.com" in urllib.parse.urlsplit(url).hostname:
+        decoded=decode_google_news_link(url)
+        if decoded: url=decoded
     if not public_url(url): return None
     req=urllib.request.Request(url,headers={"User-Agent":"QiMapNewsResearch/1.0"})
     class SafeRedirect(urllib.request.HTTPRedirectHandler):
@@ -74,4 +92,6 @@ def main():
         except Exception: failed+=1
     FILE.write_text(json.dumps(doc,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps({"resolved":resolved,"unresolved":failed}))
+    if resolved==0 and not any(i.get("original_url") for i in doc.get("items",[])):
+        raise SystemExit("No publisher URLs resolved; review Google News link decoding and source acquisition")
 if __name__=="__main__":main()
