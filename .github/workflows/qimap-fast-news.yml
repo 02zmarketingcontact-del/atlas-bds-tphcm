@@ -33,6 +33,8 @@ jobs:
           ARTICLE_LIMIT: '3'
         continue-on-error: true
         run: python scripts/qimap-full-articles.py
+      - name: Enforce multilingual publication gate
+        run: python scripts/qimap-publish-gate.py
       - name: Commit news dataset if changed
         run: |
           git config user.name "qimap-news-bot"
