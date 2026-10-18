@@ -1,6 +1,10 @@
 name: QiMap Fast News
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/qimap-source-resolver.py'
   schedule:
     - cron: '13 * * * *'
 permissions:
