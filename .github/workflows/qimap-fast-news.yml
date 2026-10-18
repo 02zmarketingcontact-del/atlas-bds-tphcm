@@ -19,6 +19,8 @@ jobs:
           python-version: '3.12'
       - name: Gather public news metadata
         run: python scripts/qimap-fast-news.py
+      - name: Resolve original publisher sources
+        run: python scripts/qimap-source-resolver.py
       - name: Translate fresh news metadata
         env:
           GH_TOKEN: ${{ github.token }}
