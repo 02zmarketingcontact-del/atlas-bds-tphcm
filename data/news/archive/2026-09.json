@@ -1,0 +1,2346 @@
+{
+  "month": "2026-09",
+  "total": 234,
+  "items": [
+    {
+      "id": "0d1f403aee0fb0708f",
+      "topic": "rental",
+      "title": "Sau chuỗi tăng dài, giá chung cư TPHCM bắt đầu \"hụt hơi\"? - Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSURBU1RzbUduQjJueFBBd0M3R3FfLWFidkxNXzBLUTV6c3ZRdVZqOUVlMW16QUxheWpMUUItc1JsR09yV05JYkNZX3Y3dmMzemRlS0RZQVJrcFVsZDVpRE5DQlhjTnQ5b1lpRXhCTmV3dE5HV3NwTmRUd0ZJRGRNMUJXZmdTSDR3VTJmQW5lU1JkNmVTbk1kRU5rMHM4N2RYMGxKN1c2ZWEtNWVaNmhJ?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Dân trí: Sau chuỗi tăng dài, giá chung cư TPHCM bắt đầu \"hụt hơi\"? - Báo Dân trí. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "71d52aa4bc136f90b0",
+      "topic": "apartments",
+      "title": "Cháy căn hộ chung cư ở xã Tân Nhựt do quên nồi thịt kho - Thanh Niên",
+      "source": "Thanh Niên",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRzlYTjZYUnU0U0ItRmUzcTFrVWpvdnM4R1o0djlxendoc1VLNkZxSHN1QVBZZmJQYndHWGQ5RlhCTFlTZmRpdUNvSC1CVk5JS2dUY2pUYUVNNjhlR0xodXZ5eE11emRKR0FNeWo5WjB3TjdxQVZ3RVI5S0JOZ0VSWDRIS0xEME5FSGVLN09XWnhzODBOajloSTdVSklOWjNv?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Thanh Niên: Cháy căn hộ chung cư ở xã Tân Nhựt do quên nồi thịt kho - Thanh Niên. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "0a85eef8288d9264d0",
+      "topic": "apartments",
+      "title": "Cháy căn hộ tầng 11 chung cư ở TP HCM - VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1Ib0FYUGU3YS1tT1ppcFhpSWVTVEdNdkhwd3loUkVTbXgzWFh6YUVWT3VOMjVXZXQwUFYxalZKeVpYNVp6OTdZSE5YMDg2bDJtQkFJZ0FHOXk0ZmtSb1d4LVl2dDdYckw3b0ZOX0xtejhxYUhZemFodUpidTU?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VnExpress: Cháy căn hộ tầng 11 chung cư ở TP HCM - VnExpress. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "8063b7adbf57ff8a8f",
+      "topic": "apartments",
+      "title": "Cháy căn hộ tầng 11 chung cư ở TPHCM - Báo Tiền Phong",
+      "source": "Báo Tiền Phong",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE40RFJvajZwWllscDhaOW5vSXZhMnFibmZEUWxQek9wWXBCSFZYdURpSUxYaTMwbHRhdW0yZjhuN2xfOVFtTmRzckkyMkQwVUI2LXhXUjNweXRheTQtaldnOTE1eWdNNGJ6THhSQUdDVlJXUWZpU2lhYjFlZE55UQ?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Tiền Phong: Cháy căn hộ tầng 11 chung cư ở TPHCM - Báo Tiền Phong. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "1ffc1353d9b2e9c4a1",
+      "topic": "rental",
+      "title": "TP.HCM thu hồi các căn hộ tại 6 chung cư Thanh Đa - Báo Tuổi Trẻ",
+      "source": "Báo Tuổi Trẻ",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUzY1RHI5OC1iX01aVElVTDZYb2FUXzhWckNkcUVhQUVWQjJ2S2hSSHpjeWRpOGIzSWVzYWhQdkh0OTdRRWhFQkh4YmRJNm5TVDRUbktuV3ZOVjJZc3FodlhuMUlkME9hZkVaSTJ3cjgyMVc2ajhwbDNpWjdsWmpVakdrM01yVlVWMXVCX2F5bjRlN2JP?oc=5",
+      "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Tuổi Trẻ: TP.HCM thu hồi các căn hộ tại 6 chung cư Thanh Đa - Báo Tuổi Trẻ. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "a553bd51016e34f78c",
+      "topic": "rental",
+      "title": "Bất động sản TP.HCM “lệch pha”: Chung cư neo giá trên 45 - 80 triệu đồng/m², biệt thự giảm 9% - MoneyF",
+      "source": "MoneyF",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNDloT0dXVHRxSm9GTC1KajFKNnB3bTJwaUxBZDJRdzI4R01CQWxyc2pKZ21yNjUxTElGLXVMSWtIUXczS1VqZzBYQUZjZmhWTFZjZS1BRjZkdUw1YXdfaE9CVzJkaHZmTm9RQWJsTWxTY3FaTHhBd0QtOXJxdVg0aVFn?oc=5",
+      "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ MoneyF: Bất động sản TP.HCM “lệch pha”: Chung cư neo giá trên 45 - 80 triệu đồng/m², biệt thự giảm 9% - MoneyF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "00d98b1ce4f2fd5206",
+      "topic": "apartments",
+      "title": "Cháy căn hộ tầng 11 chung cư ở TPHCM - Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR3RrczBrbzMwN2lNbUNOWnhqREx2eVhDUVM4SmtTemZkdm9wb1NwSTBPSTlsRjNLbW80eEc5emZUSXl4bUMxZkVWUFJ0M1ZDcklnSFd4a2hzUXVQb3pLaXlUWi11emhTSGdhNy1kOEZ0eGNPOEVWV080TS1mbXVaM1h4dFRUZHktTElUZkRvZk9IUQ?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Dân trí: Cháy căn hộ tầng 11 chung cư ở TPHCM - Báo Dân trí. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "623236beed2f2a74c1",
+      "topic": "apartments",
+      "title": "Cháy căn hộ tầng 11 chung cư ở TPHCM, hàng trăm người sơ tán - Báo VietNamNet",
+      "source": "Báo VietNamNet",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVGMyTTFfZ0pIZkRNanVxQ0ZyVm5JcHpoVUU3S3BybW9vWHozTVM2YVRzbnhHTTdSSUVZeWFGUjItUXlOYjd4OVhueEZxZWNlQWFIaDZQZF9ZNTd4dUVXUDFjY1oyM0lmLVpQS0MwOXJsOW1JR1VRbkJ6cGg0cWdVdFB5N013SzFjeEZ5NnZCSUZPamFxVGxiQlY0WTEwRFE?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo VietNamNet: Cháy căn hộ tầng 11 chung cư ở TPHCM, hàng trăm người sơ tán - Báo VietNamNet. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "502e6212f447722d40",
+      "topic": "apartments",
+      "title": "Giá chung cư chững lại sau giai đoạn tăng mạnh đầu năm - Laodong.vn",
+      "source": "Laodong.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbV9Ja2laZW1mUEF6WUtWMzJVVkc2XzFuUDhjR3dMM3lXb1Bsck8takMtVlFKd2M2LXR4TVV5X2ludHMyREoxckk1Qmo2dEhOdkc2ZzJ6Zm82cnFwSlEyY2FoT0RtREI2b3o1TnhMZjhBX01QUklxcTVXMVJJSVM3M3VOWXNuUk1qdU00Ymk5aWRZeFJfWHJlcXNSM01tSmc?oc=5",
+      "published": "Sat, 19 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Laodong.vn: Giá chung cư chững lại sau giai đoạn tăng mạnh đầu năm - Laodong.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "3fdc3f463ec7c8a7c0",
+      "topic": "projects",
+      "title": "TPHCM: Loạt dự án được gỡ vướng, cấp sổ hồng - ttbc-hcm.gov.vn",
+      "source": "ttbc-hcm.gov.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcFRqd1BWck5MWXJ1dWVHaTBlWXBXTDJ0V3JrQVlGVXhENlVJX292OExGdkVZTGJ4OS1QbkZLQVh1Nl9lY19hRnFLV2xMeEoyN2hFLVpQWHJ0UHJuWmxWa3FJWEVMRnB2Z3RiNTB1blFoZnJ2TWthbVdjUTh0cmpHaE9hc19Pdw?oc=5",
+      "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ ttbc-hcm.gov.vn: TPHCM: Loạt dự án được gỡ vướng, cấp sổ hồng - ttbc-hcm.gov.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "5fd5f0044e17cc0534",
+      "topic": "apartments",
+      "title": "Loạt chung cư hơn 50 tuổi, giá hàng chục triệu đồng mỗi m2 ở TPHCM - Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUGZGS0hUY0FQVG5QMHZzWEVMQzVxR2FrNmJFUWtzVVFaRUVBUEQ4SndZRWhVUjd6aG9nNlVVNkt1Um0zVkJPM1BudnVmUjJqVnNIei1PY3hDbXJ6RXBZc2lvWUJZalRJckRWMlZzVElEZGZnd0Z5dlZGT1dpN28yeW5odm43XzYxWEJiR3N6di0yVmF0aHUyQzAtRkU5cnhDcFB1WlRzN2NwYnRvY2xNX2Y3NEZhLVVnN25LV2hfZw?oc=5",
+      "published": "Sat, 19 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Dân trí: Loạt chung cư hơn 50 tuổi, giá hàng chục triệu đồng mỗi m2 ở TPHCM - Báo Dân trí. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "e45c472da3af9010f7",
+      "topic": "rental",
+      "title": "Cung cầu cùng giảm, bất động sản TP.HCM cũ đang bước vào nhịp điều chỉnh - Nhaquanly",
+      "source": "Nhaquanly",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOU2NrbTlmbkVxeVVWaXY4TXVOUS1qTW5Jbm14T0Nfd0sxRE9EOFB3SmFkMEJwMVZsajlOYjlfU0w5V2d5cFFsSjZmLW41bGdQamd4UDNuaTlKLVZHOHNCYjk1ZzJvOWY1VlJlUDZCU3RWTHQ4QjVtYUN3aThNbjZ2d1A3aTlMT3NRcE0zQVA0UmNfb2RMSDdqUjNxLWIzb0x6SkhTVVdR?oc=5",
+      "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Nhaquanly: Cung cầu cùng giảm, bất động sản TP.HCM cũ đang bước vào nhịp điều chỉnh - Nhaquanly. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "e2bfff1178c290523e",
+      "topic": "projects",
+      "title": "Dự án mới giá trăm triệu đồng/m2, chung cư cũ TPHCM xuất hiện nghịch lý - Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRmx3cG9ybXZsUUt3TDBJTW01SGlFREg2MG1CT1FSYUNWUEZTQm1kVGFVaGw2TkJzZk9oSGNTejF0VktJS2Vza0FEQ1FVeGdId2x5WGFfaTllMlFmN0lNQ0xHaFl2ZGxxZmJzcGd3ZGZ6REJCRVlScWY4R2ZGN1J2U0pnZGtpVENFenVPMUhvNjFyVU44LUhZbA?oc=5",
+      "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Vietnam.vn: Dự án mới giá trăm triệu đồng/m2, chung cư cũ TPHCM xuất hiện nghịch lý - Vietnam.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "b66c0115a4e987402b",
+      "topic": "rental",
+      "title": "Tràn lan văn phòng, spa... \"núp bóng\" căn hộ chung cư - Kenh14.vn",
+      "source": "Kenh14.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUmY5NUIyVTR5bkZ4czNqdG1mRW9FejlkUjN5QjRfUXhfNXkzLWIxU0szNlZlMjVaU05FZW5wN1lIUDM4S0ctVlhHYV96aXBRSS1WaGtHbkVXZlphX0F1MWhUOFVqUXdURFo0NU9DZWM4dGprWDVwUEhlN3lEMGlCMndRdHI4RTEteHk1RzY4WTBvdw?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Kenh14.vn: Tràn lan văn phòng, spa... \"núp bóng\" căn hộ chung cư - Kenh14.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "18426c9624f7c0f17b",
+      "topic": "projects",
+      "title": "Khó kiếm chung cư dưới 45 triệu đồng mỗi m2 tại Bình Dương cũ - VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaGRuRmtWRTJtRnYtejVWQWZZbnhqb2p0Zll2TlhwWTJXbmdIT25rcVFLOWFsY3Y2SXhqcVdUN0ZYSGVPR1kzVDczejhZeXhETFZreG81NUVzWm0zVGdYV2NEbmRDQzgyM3JjN2ZHQmxWay05cEJFSk1abU14RGhEc0RyNFc1RjlkRUhZYTFsRHpxSmtYZDZzV09OYlA?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VnExpress: Khó kiếm chung cư dưới 45 triệu đồng mỗi m2 tại Bình Dương cũ - VnExpress. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "7e5d81ab152fdf6af5",
+      "topic": "rental",
+      "title": "Bất động sản tại TP. HCM phân hóa mạnh: Chung cư giữ giá, biệt thự giảm 9% - nguoiquansat.vn",
+      "source": "nguoiquansat.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRjA5NDBRZm9yS0dMd3RIOHhSYXpBV3ZXXzloMWxBa1lPb2pKYkhENlJfNDRLMHlVenJSWmF3V3gzeFJXc2Zwemp1UUZhbElSeUo0bUMzY1hJZlMwQ0dKcXZ3c21VM3EzUEV5QmRYTHJZWnFSd0FqbGJsQWhrNTd4UHdvdDQzVDdSREh4WVJ5dmhOZk5MNE8zeHRfQUNubDRzTmFLS1l4VE90Zw?oc=5",
+      "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ nguoiquansat.vn: Bất động sản tại TP. HCM phân hóa mạnh: Chung cư giữ giá, biệt thự giảm 9% - nguoiquansat.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "20410ceedd35f9f576",
+      "topic": "apartments",
+      "title": "Địa ốc 24H: Thời hạn nhà chung cư theo niên hạn công trình; hàng ngàn căn hộ tái định cư hoang vắng tại TPHCM - Báo Tiền Phong",
+      "source": "Báo Tiền Phong",
+      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQMVAyOU85MzFEYUFEcU1CSTJQekx0bjdHTEV5ZVZzaDF5TnhsS1VWVV9sazIwNnMwZjZzZkVfbkowa0oyeHdsZEZBOFNNdlJuMHcyNnljTzZKX0RHQlVJSFRySzBaOXdlM3hyRTl5UW95OS1UV0xoRWE5eXVoN3JpSVVaMFhCZ1RIdTVxa2N0M21ZMWYxckRkeVRkRWFGMnlQMm5pQUlIR0w2VXJ4Y2NrQTVRUlFpbXhUNDZQZ2ZCS2d3b19Od2lJOGhTVUVSajBCckg5TlQtelVXekJN?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Tiền Phong: Địa ốc 24H: Thời hạn nhà chung cư theo niên hạn công trình; hàng ngàn căn hộ tái định cư hoang vắng tại TPHCM - Báo Tiền Phong. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "ac0e0256f7f8543401",
+      "topic": "rental",
+      "title": "TP.HCM thu hồi căn hộ thuộc tài sản công tại 6 lô Cư xá Thanh Đa - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZUVwUXYtc1hZRGgwdzBUZGtiZy1GQzZVeXh0dVl6Y3RkbVF0N1g3cUdPb0JBSVhjUG9meFNZcS04LTYxRDFJVmNVQkY0UlZJRkF2eWFCcUlFOVlfOUFCdXV5U3V6d2M2b0NFVmdtVXdIWGc2eWNxaVVTclZQbDYzWmRWREozc3pkZkhHSzBSbW55THRTeWp5alpKVm1mMGtCcUx2bXh3?oc=5",
+      "published": "Sun, 27 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: TP.HCM thu hồi căn hộ thuộc tài sản công tại 6 lô Cư xá Thanh Đa - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "9d8ba9375724d0f6b3",
+      "topic": "apartments",
+      "title": "Sắp thu hồi nhiều căn hộ tại 6 chung cư ở TP. HCM - nguoiquansat.vn",
+      "source": "nguoiquansat.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYjRpdXZ6SXdYUWJLd1NYN0lianpESHlCT2s0Z2FHRlVhZVM3dm5qcVpyZFQ0eE5waW1PSzBBZE02UC0yVjBYcHpYWHRYQ0FrZWdQc01mY2sxX3ljaEYtVkJYTmUyMm5yVmhBeDMzeGNTUlc5UFVOSnNuN3BfRGd2Ymg3V09aMmk1NGhVYg?oc=5",
+      "published": "Sun, 27 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ nguoiquansat.vn: Sắp thu hồi nhiều căn hộ tại 6 chung cư ở TP. HCM - nguoiquansat.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "347b71a95106759b23",
+      "topic": "rental",
+      "title": "TPHCM thu hồi nhà ở cũ thuộc tài sản công tại 6 lô số chung cư Cư xá Thanh Đa - Fili.vn",
+      "source": "Fili.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX0kzOTA4YWdYLW00TjRaa3dpTk9ZbGpwSjdWRXpZb0Q1Q0tjZFlnZDh4ZXY2SmNRdkhwZk12alQ2dlhRSEtINnJDTmctdUpxRkg4V1lFS1FIcFY3amZTbF81Uk9hdE8wY1poX3U1a2VlNE1JZkZEeFQwR1RuUnloQTk2VjdUX3BtXzg0am81REhHZXhxN0dOU1pQRFo5NTRsV0g5ZkpQLXBpekcxVDNGN054bW1VOVIydkE?oc=5",
+      "published": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Fili.vn: TPHCM thu hồi nhà ở cũ thuộc tài sản công tại 6 lô số chung cư Cư xá Thanh Đa - Fili.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "a6a224cfc10252ece1",
+      "topic": "projects",
+      "title": "Nhiều dự án chung cư tại TPHCM tung gói mua nhà 0 đồng: Cẩn trọng áp lực trả nợ sau ưu đãi - Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRWtrek1oTG1pWjAyUUJleDVQWG5BN3NzdmhlOG9YcnJLbGJfcnBFY1hxS0ZydXJHdnBTV1VTUV9BQ2syM1lxYlJ4Wk51UWc2MXBHdzdkSFhLdGE2M1pkYUFnY1paSFFObTBrak9XZW1sZGxPRmN4NVVfSTU5MTZYYXUtUVZGcmhRcV92SExLWld6TUQ1cElJZTAxTEZieHJWRG52aFZZM0J4a2Z0X3JfQmFR?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Vietnam.vn: Nhiều dự án chung cư tại TPHCM tung gói mua nhà 0 đồng: Cẩn trọng áp lực trả nợ sau ưu đãi - Vietnam.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "9b4675a596a5907b61",
+      "topic": "apartments",
+      "title": "Một hộ kho thịt quên tắt bếp, cư dân chung cư ở TPHCM tháo chạy - BÁO SÀI GÒN GIẢI PHÓNG",
+      "source": "BÁO SÀI GÒN GIẢI PHÓNG",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOWF0N3B1WTZubWNHVGNsNU5yNzlWUXBnVW9JbE9Ld1ZXSVRZNFRmLVdHTlgyeDcwX2NINkcyZlNVMmhzYUlRT2FxaV9zMHFfQlE0Wl80cjdHaFBqS0F6aHp2X3dHS2dld2Z4XzZ2N3d3Xy1ZUGZrd05JTV9sS3JqNGtmX1BmdkgwRDlzMEo3UW1vb2haLU02TldGZjd3Uk10NjJvdA?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ BÁO SÀI GÒN GIẢI PHÓNG: Một hộ kho thịt quên tắt bếp, cư dân chung cư ở TPHCM tháo chạy - BÁO SÀI GÒN GIẢI PHÓNG. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "8a7b133141ac9e94e1",
+      "topic": "rental",
+      "title": "Danh sách 37 dự án đủ điều kiện bán tại TP.HCM năm 2026 có gì đáng chú ý? - 24HMoney",
+      "source": "24HMoney",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd0VLVnhHOEk0bGJuLWtVdjEyZEs0eHFSWGtPT0Vsb2RwbUxtMV9tcDRsODBxcnAySURpem9GNElEQ2Z5clMxVkdLSGdUUWdvamJzMV9wODhhWE1RbGc1ZEljWmNEWkI5TV9saHgyNTVrNVNYUktVQl96MnltbGdQOGVJbF9TbXBWUzNhTHNNYnRkM2hFMDQydWhsUUNiSUlJaS1qeEtldDJDeVUxd3FEeHd6dw?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ 24HMoney: Danh sách 37 dự án đủ điều kiện bán tại TP.HCM năm 2026 có gì đáng chú ý? - 24HMoney. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "fd2a6462e08395d4b2",
+      "topic": "apartments",
+      "title": "Tận thấy hàng ngàn căn hộ tái định cư hoang vắng ở TPHCM - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZVVPQ1RqcDVwOE90cWNsZktvRTd3OFozeFFKQ2hZdjhhc3BocUpyZ3YwS1hlbWxja2Fwckc1YWdhWUVOU0l2R1VLcmN6MXYta29LbDlPSG92aHBMRV9RLTRoVGwwcWFudzlIMGxDQ1hLS0lEX0JPazUxSFBIQW9SOG1WRXFkSXI5c1puSVQwRGRwSFJtTEtJb25NeDk?oc=5",
+      "published": "Sun, 20 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Tận thấy hàng ngàn căn hộ tái định cư hoang vắng ở TPHCM - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "4bf8bd76a5674904d4",
+      "topic": "apartments",
+      "title": "Dự báo mới nhất về giá chung cư khi tính niên hạn công trình - Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSFJCbldiNHdyb3hZRmpPeThEMnpkZURpY2RfLVpXc2t5TXFyOXV5THM2eVB0MXRsVGdDUGRTdmxMY1FmU0FZbl9DanZENXdWSmtkazgwdTZzMHd6MlljNS04dU5FdGhySGF0WEUtVnVGdmJBWE4zVkNYSXlNbkw4NEctUENmQ0l2dGtNaEM3eXRPRm9JV3Y5anF4cWFHZVhyd2w1VFR2S0ZQR2dlcHJjRXE1RHdCb0x3?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Dân trí: Dự báo mới nhất về giá chung cư khi tính niên hạn công trình - Báo Dân trí. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "27baffdde23ce34eba",
+      "topic": "projects",
+      "title": "Cùng một tuyến đường ở TPHCM, giá chung cư chênh nhau gần gấp đôi - Báo VietNamNet",
+      "source": "Báo VietNamNet",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMkJQUU92VldlZnJuWVY4cnNSb1lpYWdYVWVvTDN0QTZkVEtWUTlRTjRQdTlOQllrNlhvVnNnYmtmdThQX0tFM0x2ZVhGUm9YVVVkdTJFMTc5a2lnVG5yNi1JZnVXYUxoZzAxc2VueWg1UmZuMTFuWkFNT2JyOGVCcXB3Y3pRU0s4VXNHM2M0ckFDYjFaSThKZEd1RWN4d1N0?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo VietNamNet: Cùng một tuyến đường ở TPHCM, giá chung cư chênh nhau gần gấp đôi - Báo VietNamNet. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "8dfab7ec6893f95216",
+      "topic": "projects",
+      "title": "Khu Nam TP.HCM dẫn đầu nguồn cung bất động sản, có dự án mới giá từ 70 triệu đồng/m² - Tuổi Trẻ",
+      "source": "Tuổi Trẻ",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYmZ3ZkxBT3dtZXVvSEtDdWFmVWMxOGVDQlJoQVctT2xRaUZxYlBHVk04NE8waVF6ODIzeXNrajE1WTN2c2VKcW5wQmYyVjRVVW15OGRrWGJNdENJVlNCeHVvWTVldi0ydWVKMm84UHlkaEtUVUx6LUVnMmQ5aFhFelJnREFKOU5wdFhIdGNiWi1pTmtBckp4ODdTOUtkNjhPcWRQS1JYWG1HT2R1a1V1YzZtT0VKZG9YR0M5MXJ6eElzQQ?oc=5",
+      "published": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tuổi Trẻ: Khu Nam TP.HCM dẫn đầu nguồn cung bất động sản, có dự án mới giá từ 70 triệu đồng/m² - Tuổi Trẻ. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "8341b7d07e48ebee49",
+      "topic": "apartments",
+      "title": "Căn hộ ven sông giá lên đến 650 triệu đồng một m2 - VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQmVnaGs1OEVhM3BwcEE3eC1iWXJ0TF9ydXRnY0pzQlJXWWMzdC1zZ3EzR3FrZC1JYTVIN0FGUmdxZzU1S2tOYWl3M3JlSUVGRE9xaFA1cVp2NmFaQ1RnUGd1ZGNkdFh2QlhUd2F6dEwySFdnZF9rOFl6MjVuY3BhSC10dllrZE5WaUxNeg?oc=5",
+      "published": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VnExpress: Căn hộ ven sông giá lên đến 650 triệu đồng một m2 - VnExpress. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "af191b9be82d119b9d",
+      "topic": "apartments",
+      "title": "Giá căn hộ tại TP.HCM vẫn tăng 14% mỗi năm - Doanh nghiệp và Tiếp thị",
+      "source": "Doanh nghiệp và Tiếp thị",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVWVvbWdQVnplWkxsYnZLZnNJcjZtcjFYMWwyS3Vic0xPTXpZQjRLbnk3WEhKNmwzejJzZzVybmZGb1JKbWp2WWZIVzZNNTlkYzYtYWJyY0g3U1NTaVVDUDJScXZMUUhZMlVubWFvQnlpaWdFWG01MlJBenlmNXhtN0JuNkVoNUxKTVk2XzItQ25xVHVSME56Vg?oc=5",
+      "published": "Sun, 20 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Doanh nghiệp và Tiếp thị: Giá căn hộ tại TP.HCM vẫn tăng 14% mỗi năm - Doanh nghiệp và Tiếp thị. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "c424a43ae193ac14fd",
+      "topic": "apartments",
+      "title": "Dự án mới giá trăm triệu đồng/m2, chung cư cũ TPHCM xuất hiện nghịch lý - Báo VietNamNet",
+      "source": "Báo VietNamNet",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbXEwX3FjcGdzS0V5Vk5FZ1RwQW5VajkyUW5DTXliS3Ixd0U1QjNjZ0RqX0d5QXJxRTJTV1RMeHN5N0pkd2lQRkxWWHBNM3U1RmpHRzN1YjNFaDdvQzhuRFJsMHZZbDQ4dW5NY3JuTUppNHVQWW9taHRtWEFDeVNsX1BXQkRQOUVqUVRSU2QtVlpzZEZ2X2tGdlByQk96ZHJxVkFtZEg0TEw?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo VietNamNet: Dự án mới giá trăm triệu đồng/m2, chung cư cũ TPHCM xuất hiện nghịch lý - Báo VietNamNet. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "7a0cce9443a28390cf",
+      "topic": "apartments",
+      "title": "Không đạt kỳ vọng khi đầu tư bất động sản: Nhiều người bán cắt lỗ - BÁO SÀI GÒN GIẢI PHÓNG",
+      "source": "BÁO SÀI GÒN GIẢI PHÓNG",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNV0IxRlJOTC1VRkhlWXRoYklVcVQ3V0xMelc3alJXdW52ZUwxMml5dHdVSHYzNzBWSzFLRk1GZVdmWUpYSlZtZ1lYdmZsWFMwekRnOFVhOWEyZ19XSlNiUXEwLV8yR1NYOTRHajUwajdiZVZkZTJPaWlrR00wUF9oNFYtUFNtNFByczFqOUxLWGZPa3c1dlpjeEtLb252eDFMUXloMDFvTQ?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ BÁO SÀI GÒN GIẢI PHÓNG: Không đạt kỳ vọng khi đầu tư bất động sản: Nhiều người bán cắt lỗ - BÁO SÀI GÒN GIẢI PHÓNG. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "fb2e558641b4d7509b",
+      "topic": "apartments",
+      "title": "Ngày càng khó tìm căn hộ giá căn hộ dưới 100 triệu đồng/m2 tại khu Nam TP. Hồ Chí Minh - Nhịp sống kinh doanh",
+      "source": "Nhịp sống kinh doanh",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1VqRUYwbjR3VXU1c0poRGprR1pUMUJ3cUZXMTNSTFZ3a1hscFlaZkpNb1cwdlE1MEJINjVOOVVMMFdWalkyRkxoSlNWeDVBYkZyN2JWVXBRSllUbVRBOTVtU3Bfby0xQ3pITV9ZLXVWVko3T3phWHE5UlpoWkV2NldiY2ZDdzVkdi04SnlRUHYwMnBEM3pfUDZUemFOcjZSMUo3T0hIZ2ZmWHIxNU5PRnNfdEQwOTdWeWdNZHJrejBJUDA?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Nhịp sống kinh doanh: Ngày càng khó tìm căn hộ giá căn hộ dưới 100 triệu đồng/m2 tại khu Nam TP. Hồ Chí Minh - Nhịp sống kinh doanh. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "b2ced754e06f652c01",
+      "topic": "projects",
+      "title": "\"Siêu đô thị TP.HCM mở ra bản đồ cơ hội mới nhưng buộc nhà đầu tư BĐS bỏ tư duy lướt sóng...muốn thắng phải đi theo dòng tiền lớn, bám sát quy hoạch\" - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPcjk5TWlGeE1zRl96RFJ4MFVFR1RFMDZwaktXUzFWZDl3MjF4Q3dwYmhZZS1PeXpnQlRtZk51Ym5uZWR3cWhiX3ZsT1VnOE11ZlpocURfOGdlVWtLOHhrVm0taDFfX1l5MEhvNjBTSTcyTk4yZlV5OHlHWHhTSmdRWnFya0dRbGluM1dPbXFIQzlDT01WeEQzYkt5Z2FPVlg0ZFY0TkphVDdua29uSXFWOVdGbnVnaG1DMFpTNklNSklKSnoxQnJOS3Z6aUQwOGV5TVhDVlJZd2NjUS1TMkJCbzZBb1ZKMmhGX2lQdVBvLTBpZzVDeGs5N1JXR0M4RnE4eVdGSXpTbFRHSHRaQUEw?oc=5",
+      "published": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: \"Siêu đô thị TP.HCM mở ra bản đồ cơ hội mới nhưng buộc nhà đầu tư BĐS bỏ tư duy lướt sóng...muốn thắng phải đi theo dòng tiền lớn, bám sát quy hoạch\" - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "5de53a2a83efda970d",
+      "topic": "projects",
+      "title": "Dự án mới giá trăm triệu đồng/m2, chung cư cũ TPHCM xuất hiện nghịch lý - Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNb19RcW4zUUx2anBHNnc5MEFpbHBfRlZ5aU9sTGJkX2lVY1g4QjRqUEE5Q0RaTlVMYnltbFpvSXdxZ3VRQUM4NW50cnFPVWxzeElHN05vSG02ampvZFIyVjVjZWNEY1FQU2w5eHFkREpiV1pJVXFXX1JxQ3M0dzZEdWRoem4tQUhBbmNuTHpsdDlPemhTbDJTZEhXcUJNaTZUc0xIQ09CXy1xYlNZajVJRTJmMTE5QQ?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Vietstock: Dự án mới giá trăm triệu đồng/m2, chung cư cũ TPHCM xuất hiện nghịch lý - Vietstock. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "f29fee4e1377a8b36d",
+      "topic": "apartments",
+      "title": "Cung tăng, cầu giảm giá nhà sơ cấp vẫn lập đỉnh - VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcnc2XzJyN09KTFJxa2ROby1CNnBYdkRjZVNwQldwMFJ0NTctVUxVX1A1cV9kaTg5TDZNU2lueG1vQWRhVlhFbkU2S042dHRLS1BGNkR4bzF4aGVGMHA5ZmRRcV9pX09GV2V2dDlvU2dralgtZTVSdzh1YWZ1WVAyYV9jMWlvMEtN?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VnExpress: Cung tăng, cầu giảm giá nhà sơ cấp vẫn lập đỉnh - VnExpress. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "4c3a19a1ea9376a9e8",
+      "topic": "apartments",
+      "title": "Bán hàng chậm, chủ đầu tư bất động sản chịu sức ép dòng tiền - Tin nhanh chứng khoán",
+      "source": "Tin nhanh chứng khoán",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUzhFTUFESXBzV3BsSEdDM2ZNbllQV0tJUUdPbE1zREtOMjVzSTE1TjlSWnNacWRndlNuTmJhWmUyYjRCbjVUYVM4YnRmM2R6ZzBjNXNOWnNtUlZPbkZrTEdNSkswN2hUa281QVRZWWtTdVVGYjVTaFBNUHZnM0JYZDI4WWhjekVhS2JTQmRuRjVieE41My1SU0NaWUQwRmliLTdKZ25hTVRFQmZKVXfSAaoBQVVfeXFMTWpWU3htR25qNDlibXp2b3VjdWtpamZDUF9tdG9ueVo2UXhJSlJ6WEpWZU1ZRVJiT3FRNGlMR3FXUHZicW5FMldNZVF3X3NrUzQ0d3JYaVJDTl9qUkVVRGFveHd6RmJ2MFdYY3N6dVNKRWJNOFBlYXgzcU1SanFhNlVZUFlENE1vWEo4dnhYanlqYW1RZ0J1ODNUQ3Y5OHBkZ1hHZHNiR0pVanc?oc=5",
+      "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tin nhanh chứng khoán: Bán hàng chậm, chủ đầu tư bất động sản chịu sức ép dòng tiền - Tin nhanh chứng khoán. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "fbb2f1bd0eb9293af3",
+      "topic": "apartments",
+      "title": "Người mua chấp nhận rời trung tâm, giá căn hộ TP HCM tăng bình quân 14% mỗi năm - VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYzVWczgzdTdyOTV5cFlRZS1jZUdINWRBUWtEcF9WOC1Wb0o2NWE4SVRxLVNNTkhPdWZQMGtoVGhPQzcyeERrUFFaeXdlcEk0VDdXTGwyUVJxdkpuTW43aFdEQzh5UEx0SlI2NTNzMUVjeE4tNEdXT3J6ekN1V2djaHlhMDZCbXl0aEVibk5hRVJXWTBKVmJPNEduanRlakJpZVlYM2NEVlJmWXlFYnJoOVVTaHY1YlJWWXNyTQ?oc=5",
+      "published": "Sat, 19 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VietnamBiz: Người mua chấp nhận rời trung tâm, giá căn hộ TP HCM tăng bình quân 14% mỗi năm - VietnamBiz. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "b0af7397f526ac57de",
+      "topic": "apartments",
+      "title": "Cơn sốt tăng giá, căn hộ dưới 45 triệu/m² ở TP. HCM ngày càng khan hiếm - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPLVYwbF9nSzRXc0RIZUJ1V2w1bnpoUGxCVFl6U0pObnVSMUtCdFR2aDYxdXFmbkwxSWZzOWFKVDNUVWp4OThueTlzNmxGdWlSU1lrb3ZuRkJTRzdTUGYwbENYeWlhSWw5OGVuRUh3ekp5S2EtVEEzWU9iWlRRdHplRHRVdXVCS3E0NDJVWFdPVEh6QlZlWEE1UlhzOTlFRXdad2U4aHJJcnRmZnpP?oc=5",
+      "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Cơn sốt tăng giá, căn hộ dưới 45 triệu/m² ở TP. HCM ngày càng khan hiếm - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "f06d4de998a992edbc",
+      "topic": "apartments",
+      "title": "Người trẻ có thực sự từ bỏ giấc mơ sở hữu nhà? - Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVUxnak80TlZrZ3RfdTdTbzA0QTNZcjUxRVBqRmhPVElPcE5fMzB1WkpjcDlyOHVDNHFXcS1VZTNESjFZXzlncXdkWkFmZm5PSFRjMjZfakphOTNPSW03cDB6c2M0M3pwWkFWVUQxd2R0WmpCeHFKVFI3UFFkdTEzTUY0LTVOU2RWUmJiSGZCby1zSTJCM2c2LXIzUkVsOFV6OTlHZQ?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Dân trí: Người trẻ có thực sự từ bỏ giấc mơ sở hữu nhà? - Báo Dân trí. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "b12895e9204ebe2552",
+      "topic": "projects",
+      "title": "Tương lai nào cho thị trường bất động sản Quốc lộ 13, TPHCM? - Báo Thanh tra",
+      "source": "Báo Thanh tra",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNb3Zpak40LU52cklsU2xXcmtPRUcxbVhDc1NRaTFmcEd4Y0xFanNTR1hWSUJGRDVfUTM3UFpZMjhHdElIbGFkRXpIdVpnOWlDWTl1RkRWVGN6amZfQ3pUdmtMTUNPbnA0X2t0YzM4bWJwT25NamhZREE4U1NYUWNTOTlNVDlnbWpzZWRYOEwxZE5iNl9QSWhKeFpKSjFOM0ZWTzUtM2JFcmpUN2cyUUkxZEF0ZkxPUQ?oc=5",
+      "published": "Sun, 27 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Thanh tra: Tương lai nào cho thị trường bất động sản Quốc lộ 13, TPHCM? - Báo Thanh tra. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "fe347d0160d1ed0ce3",
+      "topic": "apartments",
+      "title": "Nhà hẻm TP.HCM hút khách, giá 3-5 tỷ đồng/căn - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN2IyNUNiVVkxZ200b19DeDR1SThyTTR1ZWcySExtSzUtVjFoS3pfUEFEdjhzLXRWMTFsUUx2QlRSNUpReUN2MEo5WVlqaVZSMFlYYUlBbXpDT0Q0Z2tpTnBlZ3ZoTHB5SE5tQXVxYzByRDdGQ0JCVUhEel90ZnlKdTczdndFUTNnbzBn?oc=5",
+      "published": "Sat, 19 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Nhà hẻm TP.HCM hút khách, giá 3-5 tỷ đồng/căn - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "577d27975823a412e6",
+      "topic": "apartments",
+      "title": "3 tỷ đồng mua được căn hộ nào dọc Quốc lộ 13? - 24HMoney",
+      "source": "24HMoney",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVkIwX2VFTnZwYnJ0bzl5aVdFMEd5bERkb1VXUVB4c2owM1gzZFhZRkkzN2l3ZjV2aEtEbkpnaWRNOXJhUXlIVUdFaHhZYTZMN20wVnUyM0Q2ZS0zY1gwbWN5QlRXTlpMTlIyOGRieGw0VXlGbEY1UkJCb3hYcHpIN3RmUmt2MDdXMUQ5djZB?oc=5",
+      "published": "Fri, 25 Sep 2026 02:00:37 GMT",
+      "brief": "Theo tin được tổng hợp từ 24HMoney: 3 tỷ đồng mua được căn hộ nào dọc Quốc lộ 13? - 24HMoney. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "0ce8b517bcac2752de",
+      "topic": "apartments",
+      "title": "Căn hộ 120m2 ở Hà Nội của Hoàng Đức - Kenh14.vn",
+      "source": "Kenh14.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPY0lVWTVfT3hfbnV3SDVYZlBPcTA4TmpsaEQ0NXM4VC0ySUhUOENRMmNuT3N2eGlEazhOYWw2aWtSbUFBSDNPSWlJc1NFVXFkRXNNdVVKZWVFT0VPZ3d4a2dtM3JteVlpRUI1dzRTZURsOS1rN25FYUFwMXQxTDdzQ1RR?oc=5",
+      "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Kenh14.vn: Căn hộ 120m2 ở Hà Nội của Hoàng Đức - Kenh14.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "c7997686dbd615d3a4",
+      "topic": "apartments",
+      "title": "Hơn 5 tỷ USD vốn ngoại và bài toán mới của bất động sản Việt Nam - Vietnam+ (VietnamPlus)",
+      "source": "Vietnam+ (VietnamPlus)",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZTBtMGhsMTlxWUE0VVU0c0lPSVh4ZTAxLXg5NE5LSVoxSzMxc1dqQlA0aTRJc1hqdU1iel84RzU4eVdRR0hUMnhkcUxwQ3o3S0M1M1JTVlJxcThmcTktSXZBeDB5VnZvZV9aQ20zaTFBeTFUTkxVRnNIN3JvY0RpN3ZoV0JuVV9hMC1jS2o2ZzlCTHBlSkRIRUNvTE83dm5jR09UbGVGeGRiNGc?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Vietnam+ (VietnamPlus): Hơn 5 tỷ USD vốn ngoại và bài toán mới của bất động sản Việt Nam - Vietnam+ (VietnamPlus). QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "dde115911e0d46096f",
+      "topic": "apartments",
+      "title": "Chương Dương Corp muốn vay ngân hàng 500 tỷ đồng - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVXhCYVg1d3BSQUhRTVJoYXFsRmt0OHNvWm10VldUcXcxeVZqT1JjUHliUDNVYlRkZG9XaXhWMHIxeWI4U0QydGtab2YtRVZNenBrcWEtOHdRTFBIRElHd0o3Z1ZUZjRYRkFoSmdFYTNQVFFfNnZCQUR6VXlPWGZaeHZiTEowN3hDaEw0TzJDTURNZw?oc=5",
+      "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Chương Dương Corp muốn vay ngân hàng 500 tỷ đồng - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "cb59bbf49cd0abe943",
+      "topic": "apartments",
+      "title": "Những siêu hạ tầng đang viết lại giá trị bất động sản - CafeBiz",
+      "source": "CafeBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLTRiZmRZNlJLSjRjYlRoX2hWd2hrX0ctb3A5NmxFeTZlVkFWRHVQQW81cklacENIMmlxblVfVjZJZml0bldob094NE5XcnB0c3VkSHhWeVROc1ZHRDBGTVNwc202Rk1nWUNpQmtVUzd3SnVsMXg2R1VDMmpJeG52VmJ5dFk5N3hRQW1nSE1jSjgweHV1MkRHMEh6UQ?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeBiz: Những siêu hạ tầng đang viết lại giá trị bất động sản - CafeBiz. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "2bf3472e173cbc87d8",
+      "topic": "apartments",
+      "title": "Đi để hiểu TP. Hồ Chí Minh mới - Baodautu.vn",
+      "source": "Baodautu.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBVU0JPeGdGR2NVLUFIOTBBR0dob3V3cE8wWW5HbFJFazZIcWpNSFRybUlEM1UyZnlQMkQtclQ1VnJ2Zjg5eVdtb1pHWC02TUJubVVrTWpRUUh4eXNWbWR4c3hWaU1ONmkyd1Q5Z2hpNA?oc=5",
+      "published": "Sun, 27 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Baodautu.vn: Đi để hiểu TP. Hồ Chí Minh mới - Baodautu.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "15e2d4c8de58b558b4",
+      "topic": "apartments",
+      "title": "Thúc đẩy nhà ở xã hội với Luật Phát triển đô thị - Báo Diễn đàn Doanh nghiệp",
+      "source": "Báo Diễn đàn Doanh nghiệp",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdDJWZVFwRFEzbzBuZDFZVXE2dWV1aVRrdkF1N0FNSzdZVTVxNXdJUjdtNk5QY0lfQVlERzFLS3p0Mmh6bDk3VE1SMm5CLWJzMGRKZk9UUDBULW5LT3Z4NHBtQkFJUHZUR3dJdnNPS1BEbTdLd3hnWTNCeUZwQTAtWmZNUU5fRGZIU3V1X085NUt2dXNOUUdZ?oc=5",
+      "published": "Sat, 19 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Diễn đàn Doanh nghiệp: Thúc đẩy nhà ở xã hội với Luật Phát triển đô thị - Báo Diễn đàn Doanh nghiệp. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "a40e45cf321912e333",
+      "topic": "apartments",
+      "title": "TP HCM tiếp tục mưa lớn giữa đợt triều cường - VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNN3BXeUdJNl80amkyQWhmbllLOVpQUEtLNzNFOXlVRjB4dFUyN2FOa1NMRzl4RTR1aWU5VlB3aTVIa0V1cjd1cWU1eWVHdm1wa19IR0tiMS1RNVp5MFFESkE3TmFhZE1hUGN3V1kzLVJOcVdzN3ZLbHRhU0Zwa2FJQ2tMUlFuUQ?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VnExpress: TP HCM tiếp tục mưa lớn giữa đợt triều cường - VnExpress. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "f97f384220964008ef",
+      "topic": "apartments",
+      "title": "Đừng vội vung 3-5 tỷ mua nhà hẻm TP.HCM nếu chưa check 3 điều này! - 24HMoney",
+      "source": "24HMoney",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONllYZDN3Ry1iUm1IWVZhVnhwcDkwb2ZPXzE1bVJzeDh1TU9NTnFVT0J5VGFyWDYwVFV0clVfUjlnOUhybEk1YkJWV210WHBGVXM4cVRxNE9SNWU4Q1dPWVZtbExVdVdjeTBHYnR0NTVpOVBHS3JEQ2NZRHpUM0loUHBkRlBqdUpfNEY3dTRmT0gxcklEOTFZWGptNUNhS2x2UHlzQlhyd2VaQQ?oc=5",
+      "published": "Sat, 19 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ 24HMoney: Đừng vội vung 3-5 tỷ mua nhà hẻm TP.HCM nếu chưa check 3 điều này! - 24HMoney. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "1a77a3f29b7e138163",
+      "topic": "apartments",
+      "title": "Đại tá Nguyễn Đình Dương làm Giám đốc Công an TP Huế - Báo VietNamNet",
+      "source": "Báo VietNamNet",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeTlRYzdDUG1NbnRod2RndU1MNXpDMFRRN2VPV3NsQ09YUE03NFZmOExwa2laN3pmOWRGNVZCY1VhdHhFb2dRVnd0YTRUUUVHUlpRQmhrS1J2MGFseWMybW5GNlhyUmRLMVIwZFAzTUdlRGkzaWlVUXRFMm5hVFZVc3BUOE9BS3V3Slh3Zk42Tng?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo VietNamNet: Đại tá Nguyễn Đình Dương làm Giám đốc Công an TP Huế - Báo VietNamNet. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "28065381023d05ef2d",
+      "topic": "apartments",
+      "title": "Lịch cúp điện Tây Ninh tuần này (24/9 đến 27/9) Long An, Trảng Bàng, Gò Dầu, Bình Minh, Hoà Thành, Thủ Thừa tiếp tục mất điện - Việt Nam Mới",
+      "source": "Việt Nam Mới",
+      "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQalNWa1lqTEZYZ3QzYUZRUTUxc3h0bTBFaXB4Y1IxUUJuNFBqTGVjbGxkOTJjNmFRa180QmJocEd0b2UtUFBuUmJGZi1oOHAyZGhPSkxfRHhlZFVILWx6SndibUNFcnljS0xvSDVDV2Z5bjIyYi1QdVpBNUNNQWFkM2ZFZmI3ZFZ0ZG9rYUlzYVluMkhpMDVDeFJlbnh1RTQ4MTljMFdqbVo5QTlBZDIyMFpjaFNZN09kVjJZSjV6TllJaW05TTNNMWNRYUlLanJZZmhWS2tZZVR2MXJxTmNvb3NXRkU5MVV6aUt6TVdsNkQ?oc=5",
+      "published": "Wed, 23 Sep 2026 01:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Việt Nam Mới: Lịch cúp điện Tây Ninh tuần này (24/9 đến 27/9) Long An, Trảng Bàng, Gò Dầu, Bình Minh, Hoà Thành, Thủ Thừa tiếp tục mất điện - Việt Nam Mới. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "81b74ecd4eb045a65e",
+      "topic": "apartments",
+      "title": "Lịch cúp điện Tây Ninh hôm nay 27/9 nhiều tuyến đường ở Trảng Bàng, Đức Hòa, Cần Đước, Cần Giuộc, Tân An và Dương Minh Châu mất điện từ sáng đến chiều - VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQZXlJLV9DbDRIMk02b0xTSi1Lc19jQmNLOTNOS08xODVoQ1JuT1JVUlRtVmgzc0JybFVTRTdvWVB6eEc5NGo3dlRwcER6dkFqMmdXSDZRdGZRek1VbVJzZEFrWEhaVy1teGh0elEyc24ta09jd3pRYkp1Y1VUWG1ObUNDRmREMDFVZVViNXlWbk5DQmlIRnBraGxNTFUxdFlZQ2xlVF9JZnRWZzg0WFNkakFkYWFEdC12UlBFaGIwT2xQdndjaGNZa19YMW53VGVXUENGaDVUODJnTm1xOThEc0Vxc2JQcTRBaUZSMjJBVUR3UnBTM3JhVHJKaEJ0bVZTV3drY0hyc3lUeEpsMFRBZnRFUjV4UQ?oc=5",
+      "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VietnamBiz: Lịch cúp điện Tây Ninh hôm nay 27/9 nhiều tuyến đường ở Trảng Bàng, Đức Hòa, Cần Đước, Cần Giuộc, Tân An và Dương Minh Châu mất điện từ sáng đến chiều - VietnamBiz. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "c794e4eef57df54623",
+      "topic": "rental",
+      "title": "Cardinal Court Phú Mỹ Hưng: Sức hút bền vững trên thị trường mua bán và cho thuê căn hộ cao cấp Quận 7 - Báo Tuyên Quang",
+      "source": "Báo Tuyên Quang",
+      "source_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQaC03Tk1IY1ZXaklPRW9CcXBYaEFXSEZmajF6WkVjbnhXU083N1ZyaTZqNzF3cC00N2RGNDNhMi04OFRXdHprWDFCSGpuVmdJMVEyTGp4cUYxcDRFVFV4SktjOGJMQTZfS3ZHSXBYRGpJMDRnR0l3b3FzSDZ6UGJ5QlZ5dGRkT3FQOThEVkEzLTBhMEFEZy1JWFFBRU5iM1JZeklFbmlYTjVhakRlTU11V1dwbHFoa0RwNzZmRVNDUS1DX0llTENQM1E3Q19UZl9fU1A4ZXdpbzhPR2JZcHVIRS1KeHJXcVN1eU44TUszTVVvMjdudWRDWA?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Tuyên Quang: Cardinal Court Phú Mỹ Hưng: Sức hút bền vững trên thị trường mua bán và cho thuê căn hộ cao cấp Quận 7 - Báo Tuyên Quang. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "a4fcef04479072f636",
+      "topic": "apartments",
+      "title": "Căn hộ Midtown Phú Mỹ Hưng duy trì sức hút nhờ nhu cầu mua bán và cho thuê ổn định - Báo Điện Biên Phủ",
+      "source": "Báo Điện Biên Phủ",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTGRLcjUzeGU3TEdoX01hbzNsUFVCVFp3R2NkS01Jc0l4eDVnMUs5UnFLSkY3LVR5djVGWWlHOHdkVS1sYUJjYWVka3g0aGNMYXNGYWV0QWNySVFLdWZRSURuVEY5Q3BaVUpXQlR6M0xJQ3Fjb3F6ZFRZRWJFY3NkZkR0WjFtOGtMMHhHRkFsTlYwR0p5M205Y3VxOFBKUGdCR3ptUFIwdUd4MXRkMlpteFl3ZVAyMmxwcEVUU1M4a2dDdw?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Điện Biên Phủ: Căn hộ Midtown Phú Mỹ Hưng duy trì sức hút nhờ nhu cầu mua bán và cho thuê ổn định - Báo Điện Biên Phủ. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "c8ddb474311fcc7df7",
+      "topic": "apartments",
+      "title": "Ra mắt gần 300 căn hộ hạng sang tại trung tâm Phú Mỹ Hưng - VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS3d1MGh6VVY5N3lVN3cycERJQ0gyTlVZUDl3T1JJZHRLTlQ2cU1HYTZJUE1TMTFJc2VGY041eTdmTEo3RndUQlBqeDZ2cG5VMEhSdDlvOUY3b1VBTE9vdFRDR3N4Z2w2dXJPclNKcHpkZzhXeHVYcHdVS201ZkduOUNVbU1SOU92REc0clRmN3d4T1pJZmtn?oc=5",
+      "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VnExpress: Ra mắt gần 300 căn hộ hạng sang tại trung tâm Phú Mỹ Hưng - VnExpress. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "6ee0d6cd26c2e3aae3",
+      "topic": "apartments",
+      "title": "Phú Mỹ Hưng 2.0: Một diện mạo mới từ những không gian đã hình thành - Người Đô Thị",
+      "source": "Người Đô Thị",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWVZ5SkpMNFNHTDlpSTZ2aFRINzlvRlZQaUN6d0hJWWJLdkZFR3ZDRUxaOVNLRzRvakxlOTZVSjFiZ2NrOFpyNDY1U1BsZm11WWdORUpsS1ZfT1ZSWXBuU2ZqeklnSzRwamUyWm10dGRZb1BvSDBLa01OZ1BXaGRxUUduZzFubG9lZEZnaVlENHpsSk5hU0FxSFR0R2FUNGVDaXJvRFhB?oc=5",
+      "published": "Sun, 27 Sep 2026 06:18:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Người Đô Thị: Phú Mỹ Hưng 2.0: Một diện mạo mới từ những không gian đã hình thành - Người Đô Thị. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "900880f09b600b0046",
+      "topic": "apartments",
+      "title": "Ngày càng khó tìm căn hộ giá căn hộ dưới 100 triệu đồng/m2 tại khu Nam TP. Hồ Chí Minh - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZ2ZrQlpDMEUwWGgydmN1QXlQdzhLQmc5SkZ0TzczVlRvZDJMemZXcnh1MkhOVzNNTWRpd1U1aUN2TXp4b1ZFVWRCb2lIYWpvZFJnLXBSRzNBQjdCa18wWnJ1dzFpVXh6ZGkyLXBRUGtlSldJREhLUWpDS1NIVmhpS3JvUm5XMk1NcnhCR1BqTVljVk1Jdmo3cFh0SDZoNzZnQk1WRkdJQkxMZENPU2FSWE9ndXBNV29HWXVMck10bEtqREk?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Ngày càng khó tìm căn hộ giá căn hộ dưới 100 triệu đồng/m2 tại khu Nam TP. Hồ Chí Minh - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "61f89dde7b8e47094a",
+      "topic": "apartments",
+      "title": "Văn Phú tung chính sách bán hàng đặc quyền cho Vlasta Premier - Phú Thuận - Báo VietNamNet",
+      "source": "Báo VietNamNet",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNnVZaGFmRklzX2NoZXNld1FIUkRWV0huNEN3TEZldFdYSjVxNnpxdUpyV0U5NGFVV0FpaXhfWDdEeTQ3RnJWeUc4anZzWDRrZnphVkdvUnhES3UyRjlxZHBUemo0bG8yOFpRWW85Sl9tVi1pRzN3dWc5aXJhN040S2xWVDR6eVlVbGtQUk54X1FuMmNEeE9FcWJrUVg3aE5aY3FHYUpYS1VQZw?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo VietNamNet: Văn Phú tung chính sách bán hàng đặc quyền cho Vlasta Premier - Phú Thuận - Báo VietNamNet. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "d3183e3dd318553f6a",
+      "topic": "apartments",
+      "title": "Hạ tầng dẫn lối, giá nhà ở 'khu nhà giàu' TP.HCM đang ra sao? - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVGxXSy1yVFdhaDRJX0FHVTVjU0hTdE55RUJkT3JuV1ZWd1lpb1RKNVVYNUdsTC00R2FWdmFnbzVmVDVUZVUyQWlING5SRDVyZ25zQlpjSmtheElyTUJEdWJXR2dlaG11VXhzdGM2anJnWnRUVVpFejdWOU9oRmE0SWhDT1BLdkhPN0RfamZ3SWlFVGhfVmFfTkMyX3Y?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Hạ tầng dẫn lối, giá nhà ở 'khu nhà giàu' TP.HCM đang ra sao? - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "94bc26e6135c91bbab",
+      "topic": "apartments",
+      "title": "Giải mã sức hút của quỹ đất 31,1ha ven sông tại An Phước Riverside Cần Giuộc - CafeLand",
+      "source": "CafeLand",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObDVOc2I4Z2dKM2sxRXpaZE56eWhfSnNiN1FhNVNycURYdExFbnNuRGZYdUhhb3k5SlNRcEFiaTlfeHFRLVROUkI5X3ZXSlU5SnUtUjMyNHlEMEhJaG5VZXJvNllhdWFubldzc2s5XzV6WkdVcm5udDc4SXJIT3JIVTNMS0lkYTJaaFhtRTJsTy1jM3FPQ293eUFNeC1MUDJuWHBCd2hsa2Zja255dDd4YTRfNmdDZw?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeLand: Giải mã sức hút của quỹ đất 31,1ha ven sông tại An Phước Riverside Cần Giuộc - CafeLand. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "1202d185de3907da8c",
+      "topic": "apartments",
+      "title": "Cháy nhà tạm, người mẹ cùng 2 con nhỏ tử vong - Báo VietNamNet",
+      "source": "Báo VietNamNet",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWFR2Zmw3NEg3dXY0TldTRXBmb1Z1OUhKTGY3MmY2ZUtGdkotOHhnM1J1YTBSRzJoeExaT1I3bjRueWNqMUU5aDdKVGM3S2J4dE80MTZMU3VUb1BHYXJ4WGs0VzhCcDJkMmt6UFAxVFd0emVwOGtpWVBoajdfZ1dzU1ozZGRUUQ?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo VietNamNet: Cháy nhà tạm, người mẹ cùng 2 con nhỏ tử vong - Báo VietNamNet. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "9fa5210cb0a8e6fbe6",
+      "topic": "projects",
+      "title": "TP.HCM còn 688 dự án vướng mắc chờ xử lý - VietnamFinance",
+      "source": "VietnamFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObVM3bHVKS0VYQW1icnYzWkJpUUc5Z3hET2llSzd1YzVYZmZhSzRvbmk5UGIwLUNlanRZczlSajRjZDhJeEdGSVVIRzFjMGtrZFBkZExXaEgyLVM4VEZoanhWWnNZWU5Ha0dQTDQ1NkMycG9lSVJfQ0lUTEt5Nk9wWEsyTjg?oc=5",
+      "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VietnamFinance: TP.HCM còn 688 dự án vướng mắc chờ xử lý - VietnamFinance. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "f68f4f82d2cf81ce21",
+      "topic": "projects",
+      "title": "Nhiều người mua nhà TP HCM chấp nhận rời trung tâm - VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdXp2T0FOWkFKNWd1MU96dmMxRnd4RjJELTlZQ09ZbHpDeUVHam5vZldHVV90REVrTXRFU0V6aVo4dWItdTczWDZVSmtwLUY4ay1WeVdPTlpCYmFjYnhwMWsyZXRaYVE5NmcyMWJ3MFZBUGZyajJJRHJuTHFLYTRaMV8tVy1jdjBhbXJFb3Rn?oc=5",
+      "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VnExpress: Nhiều người mua nhà TP HCM chấp nhận rời trung tâm - VnExpress. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "9692baf99251d5483f",
+      "topic": "projects",
+      "title": "TP.HCM: Thi công Dự án căn hộ cao cấp A&T Saigon Riverside làm lún, nứt nhiều nhà dân - Baodautu.vn",
+      "source": "Baodautu.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcG93ZmJSaUhaMnhPSWd2Mm1WdlBLYjY4VGJmNlA4cGxTS0tmY09rNHM5VDh1TWVNMXBfSmlhYWxQVkdLekxpS1RTQWJXWEx6RHA0U1FIbzBKSTFVcUtlZHc5dEdvYTZvcEpSeEx5SFR6d0pxMXlUcEQzLWxIOEtfeEstcV9yUk5vaGdFT215ckVucXlwT2VkcXg3S3BGRC1hcVFqV05RM0hOdG95VEVwbDhhOVo?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Baodautu.vn: TP.HCM: Thi công Dự án căn hộ cao cấp A&T Saigon Riverside làm lún, nứt nhiều nhà dân - Baodautu.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "2dcb6b4c77955826d3",
+      "topic": "projects",
+      "title": "Rủi ro khách hàng mất hàng trăm triệu đồng khi đặt cọc mua căn hộ ở TPHCM - Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTldXWHJmenY1ZmwwalJaaWRKTmozX1VCNGgwY1l5bWp5b3ZScjlCa1RXaGxaanJuSWl2SmY1WGJWVmFHUFQ0ZFJaWXlaX0llY1ZDZmVjMTZxeUxQSjFCalU4LXRTdEljOWNILU93VmxZNFpkQk14RE9UVUIxU2lRUXY5VjFJOFFPaWZac2ltMjFUU0J4eTlBZmdLdkhLSEJFak9qN3dJUHNoRnZUdUVscXVkQWdoRTZhalZuVTZmblBBRGItYlMxYVln?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Dân trí: Rủi ro khách hàng mất hàng trăm triệu đồng khi đặt cọc mua căn hộ ở TPHCM - Báo Dân trí. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "ad0d40ece87c0e9c74",
+      "topic": "projects",
+      "title": "TPHCM gỡ vướng, xem xét cấp sổ hồng cho người dân mua nhà tại 6 dự án - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVXlJLUpfU0VVOUxKVlNUX0dLUzlRdDlYeE5QRmZvOWtBTTZjLUhOY0dJMWN5VkxEaFVIeUxBZU1HWDd6c1lDa0N4bWVtRm9mTXN4Zm80OXRGSTVYNk9KcENsZXJ4cEEwcGhNekptU2xyZHlZQ1BKZno2QkVOOEc5NXpod0pMWlFZd1JReGFFUlZpVGFlR2RUaE5rRmhxbzQ1RklqSkI1MlZWdGoy?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: TPHCM gỡ vướng, xem xét cấp sổ hồng cho người dân mua nhà tại 6 dự án - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "e893e9600038fdc4cc",
+      "topic": "projects",
+      "title": "Bất động sản đang điều chỉnh về giá trị thực - Báo Sài Gòn Đầu Tư Tài Chính",
+      "source": "Báo Sài Gòn Đầu Tư Tài Chính",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd2hOaHhkYzdpLUtIZ0dlTVRnS3NPNVpfeDUtWm1fb19BYnVGdXo1WDFJbjUzN0l2WFNkM2pIUlFNT1NSa3FkTXFJeFk3U0R5ME1QUkVQU1VvUEV1ejgxa0V2V0JWdm5BNnBvaVRnMWFEejhyZVpMblJlTlNSYlIxSkRYcEhDYjltdkpVbnlB?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Sài Gòn Đầu Tư Tài Chính: Bất động sản đang điều chỉnh về giá trị thực - Báo Sài Gòn Đầu Tư Tài Chính. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "c666f0730014545344",
+      "topic": "projects",
+      "title": "Chung cư hết niên hạn: Quyền tài sản và tiền xây lại được tính thế nào? - CafeLand",
+      "source": "CafeLand",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUVpSa09pYUFkbWc5aFdTSkJxQnZjWWtzU3FMODBma1h3emJPNGxWeG5LRmhxMDRFdVdMNlB1TENKdlFiMjlLaHNkdkZHWVRlVzU4WGd3VWpYVVZscTd3eFdldldPXzVfcVpLdVFZVlo3dmdET2RxclI1NFF1NThydTlVU2o4SjI4eEhvamcwaWZXQk1HQ29oTjQtd29FdXRaSy15N3RUVXBPa2lWb0E?oc=5",
+      "published": "Sun, 27 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeLand: Chung cư hết niên hạn: Quyền tài sản và tiền xây lại được tính thế nào? - CafeLand. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "a9d47ebf66e2bf83f0",
+      "topic": "rental",
+      "title": "Chung cư từng là ‘hàng hot’ Hà Nội tăng giá gấp đôi, nay người mua lại chùn tay - Báo VietNamNet",
+      "source": "Báo VietNamNet",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObjF3RlZFTDhOM1ZQX1p6ejhDS3ZXUlhucWtHX1pHaHlDdldoYjl2U2pBcVVLZnNOeTlRRG5oakhpSy1yTXpuZndlZ3BZeVVCY0FwYlFhaHliWGRsQ2lqNWc3d000NlFrd01DTENGdVlVNFRtN05DdjVrVXRUYWZoWE9VRnUwWTI0cTVuYmZuSGlzcnVMenU1cnRQckI3V3dVNUczaHUxcjl1T0k4ZlRDVw?oc=5",
+      "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo VietNamNet: Chung cư từng là ‘hàng hot’ Hà Nội tăng giá gấp đôi, nay người mua lại chùn tay - Báo VietNamNet. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "e78ebde6ab5ae915ad",
+      "topic": "projects",
+      "title": "Khởi công hơn 800 căn hộ tại Khu đô thị mới Nam hồ Linh Đàm - CafeLand",
+      "source": "CafeLand",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObmMzUF9VREZUS2RGQnl6SlJreldmbDh6bHFNRWZ2UGU3eFZoWWtJUXpTaFc0OG4yR2I4a2FlZ2Q0SWpsaVR1dmJOdXpFcWJPSXpFdVd4SUZvTU13SUZoSE5NWFlVNzViQmV1WTZKTWdZMTlnTG5hUE8wM19UQnpxRnpLYU82VmhBUHBnRm03NjBtR0NZYkY0b21WTTVDcldW?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeLand: Khởi công hơn 800 căn hộ tại Khu đô thị mới Nam hồ Linh Đàm - CafeLand. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "7d9aef87e2eb3d0bd9",
+      "topic": "projects",
+      "title": "Nhà ở xã hội mới nhất: Hưng Yên có thêm gần 4.000 căn, Bắc Ninh khởi công dự án cao 19 tầng, Hà Tĩnh công bố g... - CafeLand",
+      "source": "CafeLand",
+      "source_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORFhkM0xmc1F1a1JVbExBWm1NSGZWU25DajdsdVZfZWZjbGltM1BYa1czakJIM3h6SFFFRzdOYm1YbHVJT3hvYjl2OTBKdTFPZnJjZVJHRnlRYkloMU5od2xrRHFxQU9ZVy1sNzRhOUlUVkNVODc0Tk53RUJKa0RqZV96aThhaGVkSldWZmZWekNtNVg2ME9NS3lRdGFXNkotNGlNa0habGE2UWdrNGkyUU42TXYtdXpIYVpOdWpiZ2drZ1lCaUJJRGJadTc5a0VLR040M2JxVFROVGVEOVVUeWpjNlV5MzdIdzBSd0NLRjZ0Smc?oc=5",
+      "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeLand: Nhà ở xã hội mới nhất: Hưng Yên có thêm gần 4.000 căn, Bắc Ninh khởi công dự án cao 19 tầng, Hà Tĩnh công bố g... - CafeLand. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "2a1facc5f04f4970c8",
+      "topic": "projects",
+      "title": "Giá căn hộ Linh Đàm sau cơn sốt: Nơi chưa đến 40 triệu, chỗ vượt 100 triệu đồng/m2 - Báo VietNamNet",
+      "source": "Báo VietNamNet",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONV9uS1A3RTl1SWc2ZUNkZ1hFdHRmbl8xLWlHTGFOM1d2c21DTFRJSUhjLXRXYWJoQWlDbjZ6OG1VNjRsTHJ1a2lzaFd0bFBMX2s4TXpRVVdmajk0NGVaRTNaRjZTMFo1ZU1fOFVJQ2h4QzYydkYtdXNlS0gxbnVNUmZOU3NpTDlMMUJmZS1ScXp4MUhQazBxLUJhYkI1ZVd2S1hFaC1Uckw?oc=5",
+      "published": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo VietNamNet: Giá căn hộ Linh Đàm sau cơn sốt: Nơi chưa đến 40 triệu, chỗ vượt 100 triệu đồng/m2 - Báo VietNamNet. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "1265701f1c6b58096c",
+      "topic": "projects",
+      "title": "Vì sao căn hộ Times City vẫn tăng giá liên tục sau hơn 10 năm bàn giao - Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWtKUjV6R1JFQmJRQWhIY1paR1Q0dkdwRGhIV2tpUkxXRmx6UllhN1Nmc0hkM3pLaWJKeTQ0SVZUTzRVTVV1SkxQWTd1Y3BRUmlLVzJQc09yOXhjUnEtYzFMV0pLMjl5R3hqWVdlbTAzWDlDOWVXc3Zxc1NCaFB3SGV0MUNXNWY5RnQ0eUdlVGlSVlFDdVBSQ2JnYmctbXV4Vjcyb2lCcw?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Znews: Vì sao căn hộ Times City vẫn tăng giá liên tục sau hơn 10 năm bàn giao - Znews. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "d8476b476d344bfd65",
+      "topic": "projects",
+      "title": "3 'đại gia' sở hữu hàng chục nghìn căn hộ chờ bán tại Việt Nam - Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObVliQzBWNmF5RXRsNVJBSlFxWmZGT2ZtdUhuRHVFblo3bmhFV01mNUZQUlB3cDhFSjROMmJCa3dEWnc4RzJpT1JqbnYtWEtWU0JnRWIwLV9WR0F6YU12OTlmSVhUMHZzSWduU3l6M1lVSjJpaDdiN1FWV0FEblV2SG51T1BFdDBSRWl3MTU2MjlVSlJ5blFIZ3FB?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Znews: 3 'đại gia' sở hữu hàng chục nghìn căn hộ chờ bán tại Việt Nam - Znews. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "0e2b64318da63418a5",
+      "topic": "projects",
+      "title": "3 'đại gia' sở hữu hàng chục nghìn căn hộ chờ bán tại Việt Nam - Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYzBwSWtWb3c2NjMwMHQ2ekRKTk9abENCZ1lVTDgyLWdReWhzSzZtcmwyUlN1dzRPcjF1Mmc2V0QzNGIzRGE2eDZYeWg4UkRpb0VfczJQekk5VU1XMlVTUVY3MS15dWdhNE9CWk9pakhJQXVsX3dPRnBZS3h3aHFsbHdFN2hFa0JZSU9n?oc=5",
+      "published": "Tue, 29 Sep 2026 05:07:05 GMT",
+      "brief": "Theo tin được tổng hợp từ Vietnam.vn: 3 'đại gia' sở hữu hàng chục nghìn căn hộ chờ bán tại Việt Nam - Vietnam.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "ca20e1cb0dc52c7a0b",
+      "topic": "projects",
+      "title": "Phạt Công ty Lý Khương 900 triệu đồng vì bán \"chui\" 682 căn hộ Dream Home Riverside - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLXJmMkFYdmthR0paMjhZV004dWRmbHgtNy1ZV1JaN0o3LW9LV2hwVWY0czg3bnQ4VU4td3AxTXIzWkZ1MGNycklVR3VwVUZkZHhmZWt0WjI4aVdybS1uZHMySDM5dnpBbzdJM3hlNmh1VmdJZ0RBQ1hhWEVReVplMTFTa255UWhHNVQ5Z3pMcUtTZHA0LUJLVkZ3YUZSSnRyQURJOXByRGY0VVdUamJ6NWQ0aWFwaEp3QWdFUg?oc=5",
+      "published": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Phạt Công ty Lý Khương 900 triệu đồng vì bán \"chui\" 682 căn hộ Dream Home Riverside - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "a89547684bf48a3112",
+      "topic": "projects",
+      "title": "The Global City: Tiềm năng đầu tư từ vị trí cửa ngõ phía Đông TP.HCM - Laodong.vn",
+      "source": "Laodong.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQalVOWmtLRWU5b3NLbHU4NkFXbkt1bmM5OXQ4VmJsRllySUp2LVV3bFZRdkFZeU5FNDlKb1hhdFAzSUE4emJ6YUR5Vkgwek5oWWtUTXlNRDZQWlp3SGh4MUNoV1pMZ2o1YWxaLS1XLXFmZExHbDRoVkM4T0xwQmFhR3ZsdW1rdk5Zb0gyOVB6Ti1vbVRiRUh3bnlCVDVGN2NnWHBBTHFXWVJxYk4yM054Z0tPN3JaTVd5ODBxSA?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Laodong.vn: The Global City: Tiềm năng đầu tư từ vị trí cửa ngõ phía Đông TP.HCM - Laodong.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "5738be1a3f0b2b981a",
+      "topic": "projects",
+      "title": "Cận cảnh cư xá Thanh Đa trước ngày tái thiết - Báo Xây dựng",
+      "source": "Báo Xây dựng",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZTNROEV2dU9EWlFlZXo1UEM2Y2gxWFFsUUZBMHhodUVPZjZFM2tIRVFVNU1WYmZPOHZ0MDJTTUQ3aERBdkIyYnhMa2sxUWUxOXB0WTZETVhtY0M1OGw2bnhTNXhaWnRJWks5d0laZ1BoOHBKUDZ5aWtnT1RfbGM5X04xUlh2V1kybzFPTW1OQkN4T0hRZDhEcUpzaVJhbEdnLVE?oc=5",
+      "published": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Xây dựng: Cận cảnh cư xá Thanh Đa trước ngày tái thiết - Báo Xây dựng. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "76358b3d1ce0d9a3b3",
+      "topic": "projects",
+      "title": "682 căn hộ Dream Home Riverside bị xác định bán khi chưa đủ điều kiện - Tạp chí Doanh nghiệp và Hội nhập",
+      "source": "Tạp chí Doanh nghiệp và Hội nhập",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdkgtWW55WkN6TnZ6ZDlqdEdfRlA0YUhWT2FnZVVLa04zWllCZ1Z1dzRfZ1BNaTVES3RvN0JTS05mRDFLSm1pUGI4OWZNaVlJbHktOW85dmZuY0ZobEpUZkM2MEVoQnVwYmtRRmZTV0d5WUYyeERDT2VDZklULS1JWmlXY2JxdXZIaXVQdmM0WXVzM2hGYWhDU0xPT2lPc094RnE4Y2Z6SFo2c2dxelhYSQ?oc=5",
+      "published": "Mon, 28 Sep 2026 04:39:04 GMT",
+      "brief": "Theo tin được tổng hợp từ Tạp chí Doanh nghiệp và Hội nhập: 682 căn hộ Dream Home Riverside bị xác định bán khi chưa đủ điều kiện - Tạp chí Doanh nghiệp và Hội nhập. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "b4bd4bbb49c8507474",
+      "topic": "projects",
+      "title": "Cư xá Thanh Đa những ngày di dời: Tiếc nhớ chốn cũ, mong ngày trở về - Laodong.vn",
+      "source": "Laodong.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMzNFLW1QbVR0ekw1T2tnZ05XYXl6M3dxUWxQdGhiNkhFTUJ6bGZwUXQzNHBmcFZIYXVHcTNOZjc1OFBJLTBHTXk5TnZlY0VLajhOUE9wUXA0RU1ZOGY4ZHZiQWFvSU8yVlQxWDRuNTIyU2xhVFhRN1BGU0tWVDdiOTBEMURSX2lqeEllRDJWbGNhcmlITHhKci0zdVBZSUEzRGNFdHlxcFdOVHJWZWtV?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Laodong.vn: Cư xá Thanh Đa những ngày di dời: Tiếc nhớ chốn cũ, mong ngày trở về - Laodong.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "aad3ff1a689532c277",
+      "topic": "projects",
+      "title": "Phạt chủ đầu tư 900 triệu đồng vì bán 682 căn hộ chưa đủ điều kiện: Có đủ tính răn đe? - Báo Tuổi Trẻ",
+      "source": "Báo Tuổi Trẻ",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTTNzWTFKek1mdFdGNTFTYXc4Umo4VHpVeHozUXdKbUJpNXU1Nm42ZFZCUnBlYU5uT0poLWdzRzNmcVdFM1JoWWlvZFBTODR1bkUzdTdRUzNfM3ZSZG9FcXQyY0Y0UlIzNjkwRXFicU9MelJpb3daRmVBbmJBVExXQzRjNlpUMHRWZGJoZTZyUERWcXpRRWtzZU14ZzZFTlF2YWViN3lJSGlqSk9Ua01qUUhRZkdORWUwSHozdHpjcXNtM0k?oc=5",
+      "published": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Tuổi Trẻ: Phạt chủ đầu tư 900 triệu đồng vì bán 682 căn hộ chưa đủ điều kiện: Có đủ tính răn đe? - Báo Tuổi Trẻ. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "7aab265d9cf81083b3",
+      "topic": "projects",
+      "title": "Legacy 66: Thông tin giá bán, vị trí và tiến độ dự án tại trung tâm TP.HCM - Daklak24h",
+      "source": "Daklak24h",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPclZQdWs3bkh1X2o3NldNTm1mQ3lLVXdHVERxUUstOWd2MktFLXgtOXNTZmUzMGtFVHZwdkNPb1p6U0pmSWdCQW4tSGR0Vy1tRlA5MWQwZzlvNlN4X0llSjRTZTMwVkRmZFJCTFljWVFLZXVNUGhfSXBJNjYwWXFpclJ5ZVJEWk5nUVUwYjlfaVR1TDBzSGRUb2VVeEFLbThBYnNJbEZlM2FKOVhXYkpuZlo2dFhnNzlCTWR6Yw?oc=5",
+      "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Daklak24h: Legacy 66: Thông tin giá bán, vị trí và tiến độ dự án tại trung tâm TP.HCM - Daklak24h. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "e6e03f7dfadb073966",
+      "topic": "projects",
+      "title": "Bán “chui” 682 căn hộ, chủ đầu tư Dream Home Riverside bị TP.HCM phạt 900 triệu đồng - Tạp chí Nhịp sống thị trường",
+      "source": "Tạp chí Nhịp sống thị trường",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSjRlYkVVd05Yb29Nc0xzMWdEcUhTMlNtODJyR0pleTZlVHhCcHhPSXlkT0FYY09OdGg1T05ldkpPcjNmazZBUFBpQ2RYQlNDeUlNSFNGZnpqVzFSTjM1WWhfSGJBblJZRUl6dXFWczFLUlBOamZha3d1dmVISVpNUWxPYS1jbjlvZzB3eXBnMEpmMHkyZDA5dHV4TkJvMUhWQ3FUY3VWV0F6NnFveUtWbHNiWlFwajA?oc=5",
+      "published": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tạp chí Nhịp sống thị trường: Bán “chui” 682 căn hộ, chủ đầu tư Dream Home Riverside bị TP.HCM phạt 900 triệu đồng - Tạp chí Nhịp sống thị trường. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "3befd8b45af95cb489",
+      "topic": "projects",
+      "title": "TPHCM ủy quyền cho phường, xã quyết định giá bán nhà tái định cư - Laodong.vn",
+      "source": "Laodong.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMHZHaHh5akJSOGZaUmRQc2tycThzZ2hTRmcxUzRQZDAza2tzaGt2OGx4VURGN295NFN5N1h3dGt2V1Z0cXdqVkxuNkU5TVItd0oxZUw4NEttS0w2UGs5VVRJM3NWVmkxS2xmc3dHa1E2Rng5cW4yOG1KUGlyMERPZDByV1JwSHVPSmtjMnNscUpiU3hmMzNqcTlmQlFRcmwtWWQ2T2ZNbnRtbmM?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Laodong.vn: TPHCM ủy quyền cho phường, xã quyết định giá bán nhà tái định cư - Laodong.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "bb9fd899e40caeaaa9",
+      "topic": "projects",
+      "title": "Novaland (NVL) bàn giao hơn 1.000 căn bất động sản, sắp chào bán 800 triệu cổ phiếu để xử lý nợ - nguoiquansat.vn",
+      "source": "nguoiquansat.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQUExSDF4SE95N3h6RGtvUGVUOUQ4b2FlUVF0eGVtcDd4d0tSWHFORVNaZmhkb2JtQTdndnMyYXMxQkI1UWdQc0xONmtXdEdjN2ZkdkxCazZPeHpMZGhVZHRTUGNqTEFFVFk5NzhXS3RQWFV1UHpVRUJzSWZRZjBmaF93bGk5ZzNHS01Tdl9Qc3gyQjZYYndoYS1pV0RLbFZkd2g4QkRlYmhjNTZRV21KT1FvdDN5LVlEaFVjeHFVVVhFbldxOWFZ?oc=5",
+      "published": "Sun, 20 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ nguoiquansat.vn: Novaland (NVL) bàn giao hơn 1.000 căn bất động sản, sắp chào bán 800 triệu cổ phiếu để xử lý nợ - nguoiquansat.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "4a4b52747f9002137c",
+      "topic": "projects",
+      "title": "Người dân TPHCM tháo dỡ nhà, giao mặt bằng làm cầu đường Bình Tiên - Báo VietNamNet",
+      "source": "Báo VietNamNet",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRFJncUhRUUwtUVFSR3Y3QW9iYWtsYlF4SnhCSW55WXhzcXBNYl94M0IydW85ajRvM1NrdGFBU3BRbkZucXNKcy02ZHRUcFZXcWp5ZFZBaUpVQm5mSzAxQXFjRWwyMzZtdkZzRk0tX2FSbGtQSmNtSXR2LWp6VFJsd1UtMFl4c243cmYySFpCRW5MSm9ZY1lsc1N3?oc=5",
+      "published": "Sun, 20 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo VietNamNet: Người dân TPHCM tháo dỡ nhà, giao mặt bằng làm cầu đường Bình Tiên - Báo VietNamNet. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "3de775dffc334b753e",
+      "topic": "projects",
+      "title": "Người dân không có sổ hồng vì sai phạm của chủ đầu tư - VTV.vn",
+      "source": "VTV.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMWo2ZUt3YWd5TjdtOTJjdEJKejVBdnd0QUpPR2k5bWlxcXdFVlZueFlTVTR5U0RkUENYN0dVVVdlN1FKSnR5MkM3cm1mNnVSZDdPQ3RaQnhaRngzTnFpWHdpV0JQaTdoNkMwdGlOUEMyNm9zSWMzMUhwU3E4bjlTbGhNMTlkZ1RjNFdwM2FFY0VJZw?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VTV.vn: Người dân không có sổ hồng vì sai phạm của chủ đầu tư - VTV.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "3ccafec493062de690",
+      "topic": "projects",
+      "title": "Rút ngắn hành trình pháp lý của dự án bất động sản - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX3NiZ3ZmaGJvQmd2aGRIRW41TWdPNDlzVXFhUlREbFNCRDlLc05YLWhRZV9FOW9fcWxlOTBuaGdERnFhcmFSVHprVHpnZ1JDQlkyOWZyZHVIaWJ1U2hEYVJLeG0waEFFTjlWV3h4RXNFZU9ELU1MMlJ5OWNpbXdJTFlTaVMzcUl6TkFySVR3anU5VnJo?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Rút ngắn hành trình pháp lý của dự án bất động sản - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "7d9b2d9a8afc824bef",
+      "topic": "projects",
+      "title": "Diễn biến pháp lý mới Mega City 2 Nhơn Trạch và 4.200 căn nhà ở xã hội - CafeLand",
+      "source": "CafeLand",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQm9VM1dZNnc4RG1OY1N0aVByUVpLS3FHcjlPcWtwdkMwVmNsTW51cUJjRXo2S1l5R1VQTVVnUmZ3WDJjSDU2TVI0RWF5bHJGVXNmdHJrby14SWFjVnFwTVROWnBkc19pQUhPQjRwQ0V2STdmclFadkJCMzlLMnY3MWZaM2pZSXJaeTBMb05PQ1BXdmFSTURTa2tZN2VTUU9OdjM2WERuWVQtRXdMcHc?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeLand: Diễn biến pháp lý mới Mega City 2 Nhơn Trạch và 4.200 căn nhà ở xã hội - CafeLand. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "d9c71f7a62faf8d85e",
+      "topic": "projects",
+      "title": "Cải tạo chung cư cũ: Chủ nhà được chọn cách bồi thường, vẫn lo thiếu tỷ lệ đồng thuận - Báo VietNamNet",
+      "source": "Báo VietNamNet",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUFBoWlNkOVVuWFE5STRJMUhSZ3l3dFl4RzRxYTgyOXA0U0g0MXBndGZ4SHhfa1V5cmNMUDFLaV9EWVR4Q0JMXy1YQ0FveG03cTA5bUtmYmo5eEU5TnZIY0JEWjRQNVZsYkhwMzctMTFVUUY1ZTN2ejhpUExOVXZHUThkMkdwdUxyeS1kTUU4bG92SnkxeFlHVkFSbjhTTjVidkl6SG5JYWpKQ3l2UU9YR2Jn?oc=5",
+      "published": "Sun, 27 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo VietNamNet: Cải tạo chung cư cũ: Chủ nhà được chọn cách bồi thường, vẫn lo thiếu tỷ lệ đồng thuận - Báo VietNamNet. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "61a976a75349aff8dc",
+      "topic": "projects",
+      "title": "Gỡ nút thắt pháp lý cho dự án tồn đọng tại Đà Nẵng: Cần cơ chế thông thoáng - CafeLand",
+      "source": "CafeLand",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPckZtSGdMVk5WTlNWMExOcjdMNENYNGtKaVVkMm5rSk1NVVRITk1pQ0VfcVEzcnVIeU4tTkJxMlR1MVAyaVcwUWtaNFdsN1dpRVg5Z3ZZLUhVNnhvTFFEOFRoYktyVGhPTlpmbG81b0dHQnlqSXUxeTJORXhsdm5rdi00MWFjSXJnX1QwWXBqMl90bUVoaHZxUm0xY2dWUE5YM0o3NG1kRkI1dmFHU1A4VnlsS08?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeLand: Gỡ nút thắt pháp lý cho dự án tồn đọng tại Đà Nẵng: Cần cơ chế thông thoáng - CafeLand. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "a92e0c87acd4b39fcb",
+      "topic": "projects",
+      "title": "Bán 'chui' 682 căn hộ rồi ngưng thi công, một chủ đầu tư ở TP.HCM bị phạt 900 triệu đồng - Báo Tuổi Trẻ",
+      "source": "Báo Tuổi Trẻ",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNml0MVA3MzcxdkNCSEdfMXV2ZFhzdk8xX2NJZU1TbHdhMy1pM3dEdTRuSzN4TU1QaWltaGV5bHpHd1IxdV8tWThjUzQtS0tYQ0xPNEJRc09zdWJaQjRITHhuTmFaWUY3b1kxcTNleUlULWhJSnlmc1E2azI2a0h3dTdMN3VybEg1MGdrMlduTjhVSlJfd21ISG9Ma3RLTXNfSXFOR0pqLVZUSDVFMzZhNFo0c2ttSnl4SFkyUVpaRUN5QVcz?oc=5",
+      "published": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Tuổi Trẻ: Bán 'chui' 682 căn hộ rồi ngưng thi công, một chủ đầu tư ở TP.HCM bị phạt 900 triệu đồng - Báo Tuổi Trẻ. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "9b69a7c4ead1f5b3d6",
+      "topic": "projects",
+      "title": "Mời thi tuyển phương án kiến trúc cho dự án Chung cư cao tầng HH-1-1 và HH-1-2 tại Khu đô thị du lịch sinh thái Nhơn Hội - Tạp chí Kiến trúc",
+      "source": "Tạp chí Kiến trúc",
+      "source_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPOFY5TUwzLXBZQ1NpV2VOc3Z3UGMtNm1XNmI3UENzcUVPbXNyYVo4Q1NuY3pGbjJ0XzY5eUhYWENqMTloczQ4SVBvbF9DLTYxQ3JBLURCUFVvalYwdnZVLUpobXFMdEMyb0NoYzhZZ3dYVGhzTjRhYU9Dam5FN0Q2aTIzNm5HVi1Tak1va0ZTTThqTW41T1Y4cENfTXdnbXAyV25xZFJsbktvcFpLNTFkblFnMndHY0xVTnBMdGpicDRkS2tWU2hUM2pHRXpwMnBmR01BSEtncE1VYnJ3UWhWUWcyS1ZEY01UQ283aG1oOUhGMlJXc25aUFlnQTk?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tạp chí Kiến trúc: Mời thi tuyển phương án kiến trúc cho dự án Chung cư cao tầng HH-1-1 và HH-1-2 tại Khu đô thị du lịch sinh thái Nhơn Hội - Tạp chí Kiến trúc. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "d32560ec9bbc07ec8d",
+      "topic": "projects",
+      "title": "Bán \"chui\" 682 căn hộ Dream Home Riverside, Công ty Lý Khương bị phạt 900 triệu đồng - Tạp chí Tài chính Doanh nghiệp",
+      "source": "Tạp chí Tài chính Doanh nghiệp",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZ1RWT3VId3ZSNHJYNjQzeXVQX1gwdUtlakctdlBVaHNyTllraUpaaURZWktDMTMza1dXRTNXdTZvNDdrYkFYVjBDeXo2V3lJV0ZfT19Fc3R3MGJvY3hDWUZnVnJoZC1rYVRWbFBnQ1lvLTNYaFBta1dWMHhqMWtWd3V2THVDVGM0Nk1LZ1BzVkNrckZKTFp3bmdIVEdMUUlmeTFEcDZPNURBUkxOcmpJdmh3UDRON2ZpN3FESEp5LWdJX0NIOVpJ?oc=5",
+      "published": "Sun, 27 Sep 2026 23:59:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tạp chí Tài chính Doanh nghiệp: Bán \"chui\" 682 căn hộ Dream Home Riverside, Công ty Lý Khương bị phạt 900 triệu đồng - Tạp chí Tài chính Doanh nghiệp. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "42d5d7843d1d84d2b6",
+      "topic": "projects",
+      "title": "Chung cư sẽ có niên hạn, giá căn hộ chịu tác động ra sao? - Thuonghieucongluan.com.vn",
+      "source": "Thuonghieucongluan.com.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdV9WTDBoM1FQSGZwSDQ3TTRSNm95NV83QVNkbldBYzR2Z3UtczRCY0o2bGVOSFVRLTJiTzZ0dC1HZGVkd3k0MzNNTzVBUUIzcWpKZUR5U3pwRTN6U21aMFp2TmIyNHJRLVZ0QWVyOGpFaFRHNzZOUGRoUFM1VG5GbzJrbHVtal9lSFROVUZ4eVRKNm1GbTFYRnMxeXJLYTFBSElSNw?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Thuonghieucongluan.com.vn: Chung cư sẽ có niên hạn, giá căn hộ chịu tác động ra sao? - Thuonghieucongluan.com.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "d5355fb96fa222254e",
+      "topic": "projects",
+      "title": "Căn hộ HH Linh Đàm giảm giá tiền tỷ, ai dám xuống tiền lúc này? - Tin tức 24h",
+      "source": "Tin tức 24h",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVWExQTM4YmNzel9sb2gxZ0xfSHZoTjA4cnZXcW1iVnBGYy1BRXl2aW16VWx3TWxmeEduSnVRQzZqOWlOaDdJLVhBOXREMjR1Z2F6R1h5R0pxbm5HR2dTelNPN2g5UGNLLTk2REZadTVOVnM2a1FsYWMzSUFKcDZGWXFpR3YyZVV4endaZVhUcUZheHJ2VlRpejBpVTM2amRLeV90empYTm5zVjM5S2VyOFR4VQ?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tin tức 24h: Căn hộ HH Linh Đàm giảm giá tiền tỷ, ai dám xuống tiền lúc này? - Tin tức 24h. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "638324ff7936010547",
+      "topic": "rental",
+      "title": "Bốc thăm căn hộ tại dự án NƠXH Sunrise Home Ngọc Hồi - Báo và Phát thanh Truyền hình Hà Nội",
+      "source": "Báo và Phát thanh Truyền hình Hà Nội",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVTYtclQ5WjVaaFJIbjVhemozRjRMd0s3RS12QWdUM0FuMlh1LXUwZEFIM0Vhc1k2RDRKU0Y2Q0FlU0FrSlh5aE5naUwwZEFkRm5CdUMzWkE2ZjR3a3NVSlBFbWpIWDJJY19hTEpKY0RmZVhjalphUW5FalVyXzVhRGtJQXZlMFhZY2QybFhkOW1kRjg?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo và Phát thanh Truyền hình Hà Nội: Bốc thăm căn hộ tại dự án NƠXH Sunrise Home Ngọc Hồi - Báo và Phát thanh Truyền hình Hà Nội. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "6831e8eb3a2e7ca837",
+      "topic": "projects",
+      "title": "Một công ty dự thu hơn 1.000 tỷ đồng từ chuyển nhượng dự án 'đắp chiếu' 15 năm, mới rót 37 tỷ - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMFVlRFVlcm1Ddko0VXdaOWZfV0tpSUhJZGhkU25Nd0tYTWQzQ2NnVXhpUGNxdEtSWjVpZDV4TmRUNFkxaHl3MUFMemVuTWRpMnZLZF9mTE5Sak82UUlQa3pPRG90OEljdmFOazFtczBzbENmbkM0dHhUdjRUd3BQODZuVDZFZFhHbVUzX0hCelZ1ZmQtQTFWeXotcnR0Zks5QTBEeHI2cmFQN0RtUmlZdWZfZ1dEb2pjLUowaTdPS2V3cVVSRzdfMQ?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Một công ty dự thu hơn 1.000 tỷ đồng từ chuyển nhượng dự án 'đắp chiếu' 15 năm, mới rót 37 tỷ - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "a747da68ddf62c6c9b",
+      "topic": "projects",
+      "title": "12 dự án chung cư Mường Thanh giá giảm sâu vẫn không có thanh khoản - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM0tHOWo3TXNZc0c5UzBiOWtMV012RHo5bHQwanhZUTBsa0JuaklLNDdjOERSbjZtbWdMNDhQenViVy1aTGlCNS16QlVWcEpuQXY3TVlXLU1LcXBtSVFoQnZKcWI5ekQzMDBnRm9GaXVMU2ZWbG5XcTJxUmJ5cTdISXBCLVp5S1ZyWTZBTGVua2k2alR1c1prb1Y0a2ctNjFEVHB5TDkwNzUyYWc?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: 12 dự án chung cư Mường Thanh giá giảm sâu vẫn không có thanh khoản - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "c4a7934415335360dc",
+      "topic": "projects",
+      "title": "Hà Nội xử lý 12 dự án sai phạm của Mường Thanh: Người dân mong muốn được bảo đảm quyền lợi - nguoiquansat.vn",
+      "source": "nguoiquansat.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcDJSUGVNYWo0Yzl3RzdJQXVUWGtTWFdjR3BCZFJVQWtocDNOS2xXWVRRc2hJSnQ2RnBNek1wWFdEZDVKLUx1dEZtRUpYZzBDd1FTdV94eXhqa2N4ZW1rLXFKT1NjLUN1UzdUY1A1ZlhCdkd5cWNBS1BrWGROUTJUQmJTSUs4TFNDWFBBQjA4U3dPbTQtSHM3MmxuUnZKU01TWlF5ek9VbGpSRS1iaGZJWTc0eC1MMW1qQUV3YTNVQVlSNG8?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ nguoiquansat.vn: Hà Nội xử lý 12 dự án sai phạm của Mường Thanh: Người dân mong muốn được bảo đảm quyền lợi - nguoiquansat.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "cfb4d46f4f3bb7f75c",
+      "topic": "projects",
+      "title": "Tecco Felice Homes Hồ Chí Minh: 1,4 tỷ đồng sở hữu căn hộ 2PN – Nhận nhà ở ngay, sổ hồng trao tay - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWWlPa2s5WjFsbkN6RWRRV2VPRGZfbzh0VG5hOW1RUGRsQzVjSS1adE1HYXVsdmM1dkNrUmQ2cU1YVmRkQm1vOFlkYm9qM2xBaV9sWV9ROGZwOGhkdXA4eHZMamJVME9fNHNWdFZzU2gtbkhnT0VWd3lzSFV2SUpiNzFkcU0wbk81UExnd0ZnWUVMUUdlQ3ZKMjM3aHlicEc5WHBla185aVhsTEF2YUpCUDhydUxmMjA0S3Bza3MybFpRaDBlV1U0R2xkNzI?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Tecco Felice Homes Hồ Chí Minh: 1,4 tỷ đồng sở hữu căn hộ 2PN – Nhận nhà ở ngay, sổ hồng trao tay - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "316f19f483416f0a3c",
+      "topic": "projects",
+      "title": "Nữ đại gia góp 29 tỷ đồng xây chung cư, gần 20 năm sau bị kiện trả lại vốn - Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNV1EwU19QeFJiRzhOd0NDRUdrZkJOTzJHYkZJSFY1dmRKdlZyeVJxdzUzVUFmaTJ3SG9fb3FmcC05TjBUY2c3TTl3YmJ6WWxQMFQ4MGJNWDVQb01lYWM0cm5vVUN5VWxFclBRWjRlSThFeTJnZ09PSzg5YTdtNnZ5Q0pJWHpkWHhmSU1mLVpBcmg1WVFzZ012LXI3Yy1kLTJwVGhiQXlvb1daT3ZLMUctLUtqYmlOQnJHTEVCRkNaTmdQVURDdnc?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Dân trí: Nữ đại gia góp 29 tỷ đồng xây chung cư, gần 20 năm sau bị kiện trả lại vốn - Báo Dân trí. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "97e39da637fd031f9c",
+      "topic": "projects",
+      "title": "Tây Ninh mở thêm cơ hội an cư cho công nhân ở Bến Lức - Laodong.vn",
+      "source": "Laodong.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV2xaeHJQc2p0MURGN3FSaFZWY0V1eGxtWklMSy02V0p6eTF5WnlyX1JGZk9UdENQa3JPWkQzNm1FOFEzZzF6QzhkX1AxRTE4clpEMmlWdVhKNXF4RWp3em1HNEZSSF8tQ3hCSlhwci1HMkx1R2pFNWQ0SFZtVTlpdXlQbDM1dWRna2tYS2NvWmxNbExpTUM4aDVn?oc=5",
+      "published": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Laodong.vn: Tây Ninh mở thêm cơ hội an cư cho công nhân ở Bến Lức - Laodong.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "cac9ff665aa6a435c3",
+      "topic": "projects",
+      "title": "Ngay sau khi Chính phủ chỉ đạo, 2 dự án hơn 166 ha của Novaland (NVL) có động thái mới, hé lộ hướng xử lý - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRjhBaG5mTEJKWlBDLVdOY01QbE1uSkVTX3hvMnpWZ05DMldoTVZYc0F2cnRJTElLUk5uVW14aUlmOWpDU09wQURjeXFoTlVBYnQ2LUk4M3NBdUU1REtTUHA4Y3AzZFY5YmFnajJrejdXNVBHNWdHdGtxS3E5TU96WUcxbFhKWXBudnhaQVVUSDFwa3N0WEZROWRlZFlPU0pyaU1pYVJpSzV6R3M5RElsQ2lXTUs0dlRISUJBMTI3X3MwZnBleTZRZUJwckplOGgxa05XSWh5bzY?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Ngay sau khi Chính phủ chỉ đạo, 2 dự án hơn 166 ha của Novaland (NVL) có động thái mới, hé lộ hướng xử lý - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "83366f602262392c9a",
+      "topic": "projects",
+      "title": "Chung cư The Pride: Chủ đầu tư vi phạm 'đẩy' cả trăm căn hộ 'treo' sổ hồng suốt thập kỷ - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSVQyVGdBQmlYOFA0azlqVElxanhxeHRDVFZObXVQVDFfZGZKbnVzVUR5YkxzR25UZTA1ZjJRaFpwZjZtLXpETUpyNEUxZEhPLUdPTDJzZmRYVkRzRFk5NzlENnZ4TUxRWTZZRUREb3diT3hLY0o2a0lPdEFZdExNek1qQkV0blN1MkJVQ0w3RlFhWWxEeTJnVlgyNkUtVlpiTXV3Q3V4aHBqYUxxQzl2M1Mxb3NfZlN1SVdZb0gxNA?oc=5",
+      "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Chung cư The Pride: Chủ đầu tư vi phạm 'đẩy' cả trăm căn hộ 'treo' sổ hồng suốt thập kỷ - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "cafcbd6855dd04516f",
+      "topic": "projects",
+      "title": "Bê bối cư dân chờ sổ hồng ở dự án của Sunshine: Còn ai dám giao dịch? - Đầu tư Việt Nam",
+      "source": "Đầu tư Việt Nam",
+      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOc0F6enZnUkE1RkdLT21RRkpzUHJlbVBTajUwU0M0R1ozV0hwaTV5X19zVFItMHd6NzNjWlhsMkd4V2YxNUtGVldiRS05NjFzblBsVHVaVkR4TWRQRVFTUWlZWW5NTXp6c2RfeVhFVHhFNnZ0a2F1RWxpdFFjeXotTkZpWUpLX0ptblU0aTI2M3JCNG40TDNYWldvOTF6a011V3hzajFzRnNWYVNzOHJURFNTbE5FU3RMNlVrRm55enB2NFFMRi1TX0NwbEVlcENqaDB5aQ?oc=5",
+      "published": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Đầu tư Việt Nam: Bê bối cư dân chờ sổ hồng ở dự án của Sunshine: Còn ai dám giao dịch? - Đầu tư Việt Nam. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "29b08f02832417dd40",
+      "topic": "projects",
+      "title": "DANH SÁCH công trình, dự án THU HỒI ĐẤT Đồng Nai 2026 sắp được bổ sung mới - CafeLand",
+      "source": "CafeLand",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeDBIVFYtZnJVR29OQlB3OG1SWW1tcUlScU4wLU5IOUtsOHJKYUNpWWo3OUlramJ0dFNzNXBnNkNqYVdKeUpva0lObW12T0NVdFctdFYyWDdyRXpOOXBzekFKazRpMW5Xd1V3VnVNSVBpSndkRE5XUll4U3I1ZHdNMW9rdGhuVERONjQ1TGx4MlB2bUNhTFZKeXIwWUNPSnQtbmlqbGVQaThwQmNHZWFYT2F3VQ?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeLand: DANH SÁCH công trình, dự án THU HỒI ĐẤT Đồng Nai 2026 sắp được bổ sung mới - CafeLand. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "1ac964c785b98fa453",
+      "topic": "projects",
+      "title": "Nhà đầu tư vàng, chứng khoán đi 'tàu lượn', vì sao bất động sản hút dòng tiền? - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeVF2b0h1c3I1eUJjSmZyTDlYaXQ3aTVmQWF6cGtpSVpyVjRLR2dSS1VoZHQ5eklRNTE5Q29RMEh3ck1BbUJmQWFqVFNlNWNmbnpDV2dQNTVJcHVacHcwUUhQVmVTR3ZrVkltUmhiQW1fb2czb3c2LWZxYlZ5Q3IxQ1hIRURtRnRLUmpoUno2LVB5R0RaYXpYeUlrN0JtVmc1WU5XaVowNmREWHlwNGhTb2xZNA?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Nhà đầu tư vàng, chứng khoán đi 'tàu lượn', vì sao bất động sản hút dòng tiền? - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "e1caae543605d75e1e",
+      "topic": "projects",
+      "title": "Người mua nhà lựa chọn dự án bất động sản tạo ra giá trị thực - Thời Báo Ngân Hàng",
+      "source": "Thời Báo Ngân Hàng",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcHU0ZDc3MDVpOHQtRXdXcTZweXBLUG5lMmdHdUY1czlIWHZxMUl5eTdNR1dYZEY5LTNWc0ZkejdfWGMwWnRGM3QtSHFkeXFOb0poZU4zTWZfY09RMUUtekxXMzE1bGxBZ3ZMUGFHamhQWWNNbHU3N3dQdDhVbEsxWGUtY2plSmdsbGlYTjYyMC1PVnc2UkJQOGNlaXg5Nkh3Q2c?oc=5",
+      "published": "Sat, 19 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Thời Báo Ngân Hàng: Người mua nhà lựa chọn dự án bất động sản tạo ra giá trị thực - Thời Báo Ngân Hàng. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "c02faaca4c93e5ee4f",
+      "topic": "projects",
+      "title": "CBRE: Chuyển dịch bất động sản từ tiềm năng ngắn hạn đến giá trị thực - Doanh nghiệp và Tiếp thị",
+      "source": "Doanh nghiệp và Tiếp thị",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVUVjSExCX0pnRk1ZWElDS1VmMmlMaEs1UVVQdWF4NmF6QXZXZ3FfUzgzQ05YbnkwOGZvT3REVTZhSGl2STJidmFFREZiNnI3NXZReExrRXZieVpqeUpoeU9yRWJtaHNiTXltQzRtekJxeTRlNzROTG5DQ0FtZUs5ZktZeTZuTms1b2luQ1loWmp1c1QxT1pDN3NrZ0NWOVBpU3JvajAzbFpOcmpZOEFhMU4tRVpfcFNzVXY3QXNR?oc=5",
+      "published": "Sat, 19 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Doanh nghiệp và Tiếp thị: CBRE: Chuyển dịch bất động sản từ tiềm năng ngắn hạn đến giá trị thực - Doanh nghiệp và Tiếp thị. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "29ff530f10179fe78c",
+      "topic": "projects",
+      "title": "Thị trường bất động sản: Người mua ngày càng đề cao chất lượng sống - VOH",
+      "source": "VOH",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZFRYc3lUaEJ5aVJpeXRfVk5hM1JrWTY3TTc0eUdsNkJodVJkQjE4dGZVWWE4a2xkTWR2RFB5UmxPc3pnUDY2bG15MVQtVVZuYlBUZl9xTW5wWGNLSXVvc1pYOGRVSldZNEdxTVUtX0V1eHdCbDgwVGdWRUdvYVdhRDVyX2NTUzRlRlB5dGZUTjY4THJFT0xWQmw0dVJmTVAwTzBGOUdLcDU?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VOH: Thị trường bất động sản: Người mua ngày càng đề cao chất lượng sống - VOH. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "1ed422890cb7efb597",
+      "topic": "projects",
+      "title": "Những siêu hạ tầng đang viết lại giá trị bất động sản - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT05fYk8zaHhycTNwZVNPTXdjUXhjUXRzaWgzN0E0RU1FUnFsbWVpZHBHaWhnQ1RoYzFTX2YwV1Z1dVpkeGZtb1J1VFVoZG84RUtvSjI0ejB4bEJJY1ZWT1ZuYVFFUVpaSm5HV0Z4SmRwaWJSSDNmTWZidklYalRWUW5md0FxWUU5OXp2b0wyOF9tYUYyZXNVVTEtX2dmbU1qb3BYNW1Sb0FjTTA?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Những siêu hạ tầng đang viết lại giá trị bất động sản - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "36f03b0726639e2663",
+      "topic": "projects",
+      "title": "Đồng Nai chuẩn bị đấu giá hơn 380ha đất làm khu đô thị gần sân bay Long Thành - CafeLand",
+      "source": "CafeLand",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNS2RGVjhScHV0UkF4eDE1TTBaQXFMMVJSdTFSM3F4YzR6YmMteThTbmN4eG92T3J4RjFwaHRucWkwNVpNZFNSamJJampUamJoc2FKRXV2enByODVnUmp2aEVIRngyUTNSaC1TRF9QenZWUVJWMVM4RTMtMllCLXR3MTJDM1lCM2p1TzJGSW1JSUJTUTJPMmRvNU1GNzc5dHpNVy1DQVBfVTZjVnYzTlJYZEh2SEpvdUVy?oc=5",
+      "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeLand: Đồng Nai chuẩn bị đấu giá hơn 380ha đất làm khu đô thị gần sân bay Long Thành - CafeLand. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "f453598c18cbaa702a",
+      "topic": "projects",
+      "title": "VIPF 2026 vinh danh những đơn vị tạo dấu ấn vì sự phát triển bất động sản công nghiệp xanh - Tin nhanh chứng khoán",
+      "source": "Tin nhanh chứng khoán",
+      "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQellqV1F1RnR4Z2EzQjlVQWs5MG5laWF3UHU5T2tDRjRwMWJ6R1dNSXRJa01jVFNiN1p4N2t4eEtDdlU5SWhyOUp4Z09FT3ZqYVRqczU4MVJYQmtiWUo3U2EzRWk5UDVxcXdBejhJTDlHSmU2M3luVVRQal9URnZhNThGdTBuLTAxMzlka01fQVc4SndSVVdXY2xHLVJfdVNWNjA3LWczNnRYcDVWcUJJWGYwZjBwZkk4T0VkWWZ1d0g5dXUxTlcwSEJQZE9QT2x3MFN0Vllscw?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tin nhanh chứng khoán: VIPF 2026 vinh danh những đơn vị tạo dấu ấn vì sự phát triển bất động sản công nghiệp xanh - Tin nhanh chứng khoán. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "40b3d59656b390e034",
+      "topic": "projects",
+      "title": "Xu hướng dịch chuyển bất động sản: từ vị trí đắc địa đến hệ sinh thái sống toàn diện - VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQWhET1R6SVlSOG9GTU5MMUhDbFZ2V0V3N1ZrSDQ2eEJGbUd1RElhSV9oVHVhemM1d1hsZ0lwb05jOEt3Z21aMmF2VmxCTmhVNUpPSTZkaGViYU9RU1lVYzFOYjJVektzcGR4MzA4elE3b3dMNkk1MjI1WjRlT3JIdHVqRDFuSFloMFU3cl8tcFVfd1UyUl8wbC1DY3U3N1p6S0pubVBNcVBrMzA4?oc=5",
+      "published": "Sun, 20 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VnEconomy: Xu hướng dịch chuyển bất động sản: từ vị trí đắc địa đến hệ sinh thái sống toàn diện - VnEconomy. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "c1272793ab832fdfa8",
+      "topic": "projects",
+      "title": "CBRE: Giá trị bất động sản đang dịch chuyển từ vị trí sang hệ sinh thái sống - nguoiquansat.vn",
+      "source": "nguoiquansat.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTnBjRk84TzFTMDUyRk9xX0lzbE9vbXU3SDc5dktxWXl4eWpqOGpyTE9KTjZ0cndVN0pWbVVsT0VVUFJVbEhBMlU0MEFpWXBBdXZLOUlGdDRDSlllaEhtMnNYLTIzdjFKQXlHU0ROeDFudDUzM1FaWnZYdmdnMGRtZWQ5eXpmZW5NZVBZZ25sYWZfMGZXSUFERVA5YkVuR2NrRlZPNXFNYWtfeGpZdDhKMQ?oc=5",
+      "published": "Sat, 19 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ nguoiquansat.vn: CBRE: Giá trị bất động sản đang dịch chuyển từ vị trí sang hệ sinh thái sống - nguoiquansat.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "12deddbf105a38743f",
+      "topic": "projects",
+      "title": "Cao tốc Bến Lức – Long Thành “về đích”, những dự án bất động sản nào hưởng lợi trực tiếp? - Nhịp sống kinh doanh",
+      "source": "Nhịp sống kinh doanh",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQb3V4OFpmeldYS0ozT3NjNWZYZWZPR0VBc1VjRWxJdGUyOG8tZFNfbHJ0VzBYT01GSm5faGZ5MHhjTVUyRklkc05tRi1ybDVqWUhpZUgzRlphem9EWG5HWExZUTY4QVd2YnI0ZHplMXhmVXZwdFN0cm1HaWF5aTM4SWdhVFpVYmw2OG11OEtad01aN3FxLWZ1XzFpQlo1MUwxRFM1RlNLWDhKUk0zbEVIdFB6T28xMjhVRlBfaTNqcWNSM0J5ekE?oc=5",
+      "published": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Nhịp sống kinh doanh: Cao tốc Bến Lức – Long Thành “về đích”, những dự án bất động sản nào hưởng lợi trực tiếp? - Nhịp sống kinh doanh. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "7c3e1a83a1518bd656",
+      "topic": "projects",
+      "title": "80 triệu cổ phiếu của Đông Tây Land chào sàn UPCoM - Thời báo Tài chính Việt Nam",
+      "source": "Thời báo Tài chính Việt Nam",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcExZbFNlX0pTMG4yR3A2OWdGbVFDOVlXWEN6em5HUXZfNU9YZUZMZHFQbzlHcG9lLUFwZUVxbnFOaXc1S09oWk1VRXpFTnpwdktqVHRjTzJXNmNrZ1JZcUJGeGNKZ1BQSEpVcThrbkpybVNXa3NCejBadTE0TW1SbWVfMzBLcFhpcEVFeDljeXkwZnhYMjFtOWZ0amY?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Thời báo Tài chính Việt Nam: 80 triệu cổ phiếu của Đông Tây Land chào sàn UPCoM - Thời báo Tài chính Việt Nam. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "98fb6059dc58348886",
+      "topic": "projects",
+      "title": "Ecopark Hải Dương đề xuất làm dự án bất động sản ở Mộc Châu - VietnamBiz",
+      "source": "VietnamBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYnZxeXE3RDYxYmRkUm4tSUNQT1ZCeVNoYVd4alpCS1QwOGhpU2VTWEVYV2hOMHU3X0p3UmQxT0ZreXJtSmZGdDNZR0hhbWZxR3E5dU81RE5ia2ZwSVRjbFptMVFBbVRDR3FXMUVod2NtTWNPNkdsZ2JJbGQtR0lxRG9JYjNBSHVUckF3Yi1Rd2IzU1BMb0lTTUdQcWU2T21Lei1F?oc=5",
+      "published": "Sun, 20 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VietnamBiz: Ecopark Hải Dương đề xuất làm dự án bất động sản ở Mộc Châu - VietnamBiz. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "e85ea5fd4e33ce00a3",
+      "topic": "projects",
+      "title": "Bất động sản 24h: Gia Lai duyệt KĐT hơn 9.200 tỷ đồng; Cần Thơ tìm chủ cho khu đô thị 279ha bên sông Mái Dầm - CafeLand",
+      "source": "CafeLand",
+      "source_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONWpmVkRWVU9MMU84bjR5aUZhWTAwTHVXd3FGbDdUUEdRU3M1Nl8zVG1FSWxDbll5MGRORDBxYldwaS1EUGZrOXZESjJFSk1Cc0JZNkNaeEx4N1RqX2FHTU0tVUVhYU1fUFkyeHMzTHptOFI3WXNTa0JoZDhyZWVMWldheHJjeXFPdjNHTkMyc0JZRVNlTlJxOTBjWWJKQnQ3a3ZFVzBxMzYtTUNNSnpha18xallZekIxMlhlZGNGWHduWG1BU2VyTzVjM3diUjNVVTFLRlNGNDRqLW9TMFE?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeLand: Bất động sản 24h: Gia Lai duyệt KĐT hơn 9.200 tỷ đồng; Cần Thơ tìm chủ cho khu đô thị 279ha bên sông Mái Dầm - CafeLand. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "39d0c889fd9339a42a",
+      "topic": "projects",
+      "title": "Nhận diện bức tranh cung - cầu địa ốc phía Nam - Tin nhanh chứng khoán",
+      "source": "Tin nhanh chứng khoán",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaDhlVjI3b1ZIU0J2Mnc2Rl9BdlRzWUswZ0wxTHhURkFhbzBsZmswTmtndXJJTkhTdTFhMnE0VVdTTVdwQmQxbUJhZmVDd2hydHdKcEdUYzMwWXRkSk4yczhIOXZBZnh2YXA3Wm56LV9zNHpMQ0t0WGFMaTNNdUxvdUdrR25fZnRXX2lGNXBEQmpyVE51aVBkQjNn0gGWAUFVX3lxTFAzTllRcUdRMXdXZGN1WG1pR0ZYUHh0eGw4bnJhbmpxRkg5V0JCeldEdjA3eXhNYllnci15OGxvQkwxTi1Fb1dFX2Q5MC1tcXdMVnhFdmNRdDQzWjd4Y3RWUHBiMXVpakoyS3Baa0FjYjlPUTBJbVdoV05oZVU4ZnNSQmJmSmVjQTZLVFJRVG1PQ09IU1daZw?oc=5",
+      "published": "Sun, 20 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tin nhanh chứng khoán: Nhận diện bức tranh cung - cầu địa ốc phía Nam - Tin nhanh chứng khoán. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "8c56ecf31357ea472b",
+      "topic": "projects",
+      "title": "Cuộc chơi địa ốc của ông chủ Tân Hiệp Phát: Từng lập loạt DN tổng vốn chục nghìn tỷ, vừa lập thêm công ty nhắm vào một phân khúc mới - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNbEZCMmcwazRJcUFYZTVCbzZlMmRSeGM5OVN4R0RuUHJwQ1RaVk9TajEtSFVCMnJGTFBwVDlWeG9UOFBRQnV0b0VpWnZhWmpuS2pfcWpZQVJWeVZtX3praUhvMjE4OXI0dUFrdVJ3OXB6SEk2aU5PcDkxVEhBT29IUEpfSjlvaWNfU2ZFS2Fycml6OHpKYmFzeTJjMG1pWlNTbFBSSVJKV0QwS3llS3hLcjNPQUQyYzliaHVERTlCVENaQWFoYVNlNG5KaVRiWGJhTHl1T2lhSUtWZ2RJelNjWmJaVFR4RWpuc3JtS01Hb2hQLVFuM253eWhJOExZakU?oc=5",
+      "published": "Sun, 20 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Cuộc chơi địa ốc của ông chủ Tân Hiệp Phát: Từng lập loạt DN tổng vốn chục nghìn tỷ, vừa lập thêm công ty nhắm vào một phân khúc mới - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "97953428204a326f91",
+      "topic": "projects",
+      "title": "Tây Ninh thu hồi hơn 417ha đất để làm tuyến đường mới, đi qua những khu vực nào? - CafeLand",
+      "source": "CafeLand",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX1FqcEtQNG5OWHdvQjJPZk9qRkk2S2lYbkRNV0o4VTB0RWlkRDA5NnE4a2dpQ21uWEVrLU9kNEVia2tRU1pfallDYy15dXFqUWJRMzU1Smkya0dSTjdvMHE3M09zdHAwX2NYd21fdjZjczdaN0wtYnRDMWtTTnBCZnpfcFJyX3NjcUYzZjh1YU9kRDFFeERfbWlkeDNUc0g2UDE3UndYellxQmpFTkI2UDZMZVR5MUoteWc?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeLand: Tây Ninh thu hồi hơn 417ha đất để làm tuyến đường mới, đi qua những khu vực nào? - CafeLand. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "252a48885aae72c7fa",
+      "topic": "projects",
+      "title": "3 tuyến đường kết nối sân bay Long Thành được bàn giao hơn 380ha mặt bằng - Laodong.vn",
+      "source": "Laodong.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRjYtdk5Bcm5ZeHBNWnVRZnY0RXRBSTBxdkstSVp2WTB0RnAyeWJmUlM1c2t4SEh6WWlJeTZQc2xDaVpMN1RxeEZzQmp4Vm53LUI2VDN0MkxwVVNSOVFKRVVGTWFKS3JXczd0Um4yZmcxRkJEdUN5TDJJTWRzOGt1eDc1TmVNVWlodElOdldtb0h6WHJEZmNhb0lqNVBHckxLSm0wOHdUTUYtQWNvcENHbg?oc=5",
+      "published": "Sat, 19 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Laodong.vn: 3 tuyến đường kết nối sân bay Long Thành được bàn giao hơn 380ha mặt bằng - Laodong.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "d6eda1b953d9b38cf0",
+      "topic": "rental",
+      "title": "Nhà nước dẫn dắt, doanh nghiệp mạnh dạn đầu tư NƠXH - Báo Sài Gòn Đầu Tư Tài Chính",
+      "source": "Báo Sài Gòn Đầu Tư Tài Chính",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNal9GeTB5ZXNYdUxMMjl5d1pRSTZtNTN2UnVqUXlROUJYTk5ic1NmOHJ3UmlMS1BIcWZMajlibGtvb09COGdZRjZvV25Kb2FzcURRelBXQTRJQkJmMl9IdGw1aHVuYk1kUmhYa2FvOFZud1RRQ0RjbGFPQ3E3STZEUm9lamZvU2dHSi15UzI2YnJQazdtNUE?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Sài Gòn Đầu Tư Tài Chính: Nhà nước dẫn dắt, doanh nghiệp mạnh dạn đầu tư NƠXH - Báo Sài Gòn Đầu Tư Tài Chính. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "1806e34f5ef6e9cc41",
+      "topic": "projects",
+      "title": "Lộ diện dự án bất động sản đầu tay của nhà sản xuất đồ chơi gỗ duy nhất trên sàn chứng khoán - Việt Nam Mới",
+      "source": "Việt Nam Mới",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSjRma3hzcjBQcmRUZ1pjOXJSYWF1MHE3VTNJRzZDSmUyX2VZeEpRVi10SkVRbkNWdE1TVVpIMTFLQ1A0VWREc21aUTRQZ3ZiY0ZWM1p3WEFYY1d4MDVMSUM1Zk1ReXhTN3A1TGZsZlBEMU1TVGxmYkYxQW91Q1NUYTgxaF9lQnZNRVpFd1VnZFpKSHIwRlBSM05fTXNGWHhHVVEwa29ZajFpdHNWdTViNXI5YlFLcjJGNVU4VldPSnB3dTNhR1ZLTUVtRFQwZw?oc=5",
+      "published": "Sun, 20 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Việt Nam Mới: Lộ diện dự án bất động sản đầu tay của nhà sản xuất đồ chơi gỗ duy nhất trên sàn chứng khoán - Việt Nam Mới. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "babdbb63dca492d842",
+      "topic": "projects",
+      "title": "3 tỷ đồng mua được căn hộ nào dọc Quốc lộ 13? - Fili.vn",
+      "source": "Fili.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQ19MdExLeHU0MUNyRzZ4a0tKZmh0RV9UdTBhV3BDWXNHZmE2VXo1MVNYS0tseHl1WnFjb1V3ZjhZTkltcEp1emZqb1lpOXdvdGY1d1ZXUm5uSmZIZUNRUjh2aXlzTjZMam1uVXU4SWtyRUVERzdwckdjdU9XOTFHQ2V0Z09qSHdWYXF3Z2NB?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Fili.vn: 3 tỷ đồng mua được căn hộ nào dọc Quốc lộ 13? - Fili.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "8b0c78f6445d3c3aab",
+      "topic": "projects",
+      "title": "Sau 12 năm chờ đợi và lỗi hẹn, dự án cao tốc gần 30.000 tỷ đồng sẽ tạo ra thay đổi không ngờ tại một tỉnh phía Nam - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTm10bjR2dXRJTm9YQmQxWmVOZm5POG1zYnhHMFZoTXVCQUpkWHJwbWpkOUNHLVNwVFUtU0c4VVVHS0NmWFJkQnhIbm9JWktoVVRHN20tTVgtYkZmalZRZ2pxQTJ2MTNUSUkzRjc0X2EzVmRLR0lHZ3I3LWg1a0k4eGRXaWxVSkhFaVRORHBxUmZQa1hfVTZ1NklKOU50Q21vajNxdW5LcW9KQ1NwMXZZbDVDMDVGZ3AzTW9GejdPRDVsRHB4SzdldVpnMU5FMWdjeXZJbGpZMVlTTFktbGt5anZDOTAyQQ?oc=5",
+      "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Sau 12 năm chờ đợi và lỗi hẹn, dự án cao tốc gần 30.000 tỷ đồng sẽ tạo ra thay đổi không ngờ tại một tỉnh phía Nam - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "536429b6da8b457faa",
+      "topic": "projects",
+      "title": "Quảng Ninh: Dự án Cửa Ông 4B của liên danh Thiên đường Hải Đảo - Tecco - Đông Đô được gỡ nút thắt pháp lý - Việt Nam Mới",
+      "source": "Việt Nam Mới",
+      "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcnhYVWJkY0FNZFRXdXc5NFVwZThrVzh2eHRPQTRwaWhrUW9aeE5lQmduOUoxNXhlTnJfcDNGaktVS08tN2R6cmY3cW9BaHpucEVKMXprRXBMQ3NJV3RNSk1xR3lieW9mb3pVV0x1RGNHSDJaQ2IxUkNWa2dNVXVRbUdURG1hMFNDSGU0dmtGNUN2Ukhyck44ckQ2TlVUYTJFdlpOREI1ZkxGNXJWSjJRdmJOc0pBN0hjZXMxbnVJQmo0NTVudm40Yk9hRE5FOVVQb3AzcVBLNzNqdUU?oc=5",
+      "published": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Việt Nam Mới: Quảng Ninh: Dự án Cửa Ông 4B của liên danh Thiên đường Hải Đảo - Tecco - Đông Đô được gỡ nút thắt pháp lý - Việt Nam Mới. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "32a6ed6a4dc936fb44",
+      "topic": "policy",
+      "title": "Khẩn trương hoàn thiện các dự án Luật Đất đai, Nhà ở, Kinh doanh bất động sản (sửa đổi) - xaydungchinhsach.chinhphu.vn",
+      "source": "xaydungchinhsach.chinhphu.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPa3Q2dUY5LUFsQVNFMk5aYlBnUUM2NTc1NHAyb0VyUjJwN1F3b2lIR2FxV2VVNkkwTXduUUVRWk91VmNWM0lsVXFSNTFLclFJbjJSVTVhS3NybTFFTHlwRGdjY3FOOXdGazkzWFpkNXFlSFk2YzNkbm5PUnEzYjlsUm1TQ3Bra2pTakg2MDhYZzdOUzdXOEt0Yi1nVjhmV3ZjTnE2bURJZFJaQmgxMjdveVZaTGNkbTV3MjBHNXFieXZkM0UyWjM4NmJPbHlKb3RIYWFJRXctczh1UGdlNEJBVm5oenVEWnRGYjVNM3ZrTmV3Q0U?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ xaydungchinhsach.chinhphu.vn: Khẩn trương hoàn thiện các dự án Luật Đất đai, Nhà ở, Kinh doanh bất động sản (sửa đổi) - xaydungchinhsach.chinhphu.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "b7b163b2df9151cf34",
+      "topic": "policy",
+      "title": "Sửa Luật Kinh doanh bất động sản, đừng bỏ qua 'phân lô bán nền' núp bóng tách thửa - Tuổi Trẻ",
+      "source": "Tuổi Trẻ",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYmIxTEg3UnNScHVKZWxTb29NZGdnUDgxZnlEdEZmSi01UkNaQkxWMEdNelBhdFliRThobl9BYng2cGxBNm1wNk85OFFpN3hfd0l2QUs5ZF9ra1hMN3RRZy1XWVIzRktxWlh0eDd0amZJdjlBMDhicnpmbEgzN3hxaExjUEVXS1BRd3J6WXhlQU02NFF5aVdPVm5XT2Y5SnN3RE5YSEdDeUpQWTlyYUNXWmRQR21sYkNjd3ptWXdR?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tuổi Trẻ: Sửa Luật Kinh doanh bất động sản, đừng bỏ qua 'phân lô bán nền' núp bóng tách thửa - Tuổi Trẻ. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "082975e4e1cbe264c9",
+      "topic": "policy",
+      "title": "Sửa Luật Kinh doanh bất động sản: Đề xuất quản lý hoạt động phân lô, bán nền ngoài dự án - baodautu",
+      "source": "baodautu",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOHd3N3IySHZmc1BpWGhVUm5iUzFEbjhOSl9iZ0NaX2NpUi1mMTRIbWE4d2wwTFBiekZYTDZaUXhJcE92RHRGZzM0bHMxS091VC1ZQlFaU0k2SGtnUkY3WVZYZUdiTXk5SjFaYjdqV29TcTNneGtUQnhOaWtDWnFVUFozTGhyaG5VeUZBVjE0UDF6Rk5Fa1RRZGo2MXlSaG9nQzlUX3lxNmo5bXo1cU1LYXFKV0JHQjgwbGxn?oc=5",
+      "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ baodautu: Sửa Luật Kinh doanh bất động sản: Đề xuất quản lý hoạt động phân lô, bán nền ngoài dự án - baodautu. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "c02cf66c6e21677f7b",
+      "topic": "policy",
+      "title": "Sửa Luật Kinh doanh bất động sản: Cắt giảm thủ tục, gỡ vướng vốn và giao dịch - thitruongtaichinhtiente.vn",
+      "source": "thitruongtaichinhtiente.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSlc4WnRzX2hLR1VVb1pJQnRWLTUwbTVKbnMtUGJaWXV4bk5ZMTFac2tSclNzQ0tmdzEtVDdhM3lFQ3VJLWFkOTdweDBmMEJaWENBZzQxUWJsV21pdHdpTGo3bkhLM1ptQXY0NVN1aTlDenhORURQbkRLVm1aenU4dHltblY2R2ptSUJTb3dnM0k5UlNOVHdnb3dNR0R0U3paaWxueC1pNnZlM3hYVTV0X1R4c05QdldzZjhQU3N3?oc=5",
+      "published": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ thitruongtaichinhtiente.vn: Sửa Luật Kinh doanh bất động sản: Cắt giảm thủ tục, gỡ vướng vốn và giao dịch - thitruongtaichinhtiente.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "582395d1d5fd94de85",
+      "topic": "policy",
+      "title": "Cục An ninh kinh tế - Bộ Công an: Khuyến cáo doanh nghiệp, người dân cần nâng cao ý thức chấp hành quy định của pháp luật về nhà ở, kinh doanh bất động sản - Cổng Thông tin điện tử Bộ Công an",
+      "source": "Cổng Thông tin điện tử Bộ Công an",
+      "source_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNdnVGRk1mX2xDY1ZMd2ZrMHo0WTdXZzhvNElRcFVPWWd0cE1acEFuRWV0c0FWR3pBaHY3Vm10OHhNZm85YVlCVjNmdGd3akNMU09QSzFSVm9WSWpSMFd1dEVfTFdoUGtseFp5SlRzU1JFeHd5cnhNdFVXVzFLQTU5T0hQSG1fczJIUFlmMy1MbWlSRU5MQU9qOXlpc1pvWFoydjJyM1BCUUFrRWNmSUg3bGRFdnd6WkJZYUVORkhzbEZvaXR1MFg1ck8wTWRLMG9mdmh4ZW9xUlV1SU1YVmh3WXVlaC10czJBSXpMQmJqTVVBX1dUS1VfVkxPbEF6MWotRlhjQ1l3ZmtRMXJ6RzZB?oc=5",
+      "published": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Cổng Thông tin điện tử Bộ Công an: Cục An ninh kinh tế - Bộ Công an: Khuyến cáo doanh nghiệp, người dân cần nâng cao ý thức chấp hành quy định của pháp luật về nhà ở, kinh doanh bất động sản - Cổng Thông tin điện tử Bộ Công an. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "52fb1d380f6366ff1d",
+      "topic": "policy",
+      "title": "Luật kinh doanh bất động sản: Cần bổ sung mới các quy định mang tính chất kiến tạo - Báo Đại Đoàn Kết",
+      "source": "Báo Đại Đoàn Kết",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeGg1LVJnMnRXVnM5RWRRZ0NHSlZWM1BwdTFZUGJWLUVzblJtVk9IZ2JXSkNwR0hnQVlLT0habmlKWU1MZmZUM1lxVEpnX0NGc0VGYkNkdUNPdWl0ZWVISGJBbUJSZXZCUlhRX3dHLVNnU1d6QW03TmtxQ184cENaM0xSSnZPRmU3RHNuMmNrV1RaTWhLcDhyb29WdnpiS0RhZ1dsUEhleWtvVHZw?oc=5",
+      "published": "Tue, 29 Sep 2026 03:22:23 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Đại Đoàn Kết: Luật kinh doanh bất động sản: Cần bổ sung mới các quy định mang tính chất kiến tạo - Báo Đại Đoàn Kết. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "ad3c304892c6312657",
+      "topic": "policy",
+      "title": "HoREA đề xuất đưa đất nền ngoài dự án vào Luật Kinh doanh bất động sản - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcENMS2w4UUxYQ201RUpNWmVzNmVxRlBnamxnZGxfMmZtMGlEWlFQaEhZMVRjd0tla01tV3BaUndpR1JYU1NlQVV6S0lsMF9tVWZHNUlvVGJFMlR4ejhuTDBSVkxiTFhpTGxrTzRxdHRRUWRIcnVQOTNhMllfV2VIaEZ6bzdqaEVLVERiNDdITWxRMUttS01pdngyR05yRUE5U2pma2FEOE84Nk40RFE?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: HoREA đề xuất đưa đất nền ngoài dự án vào Luật Kinh doanh bất động sản - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "fb95fd1a5ebd14b2b6",
+      "topic": "policy",
+      "title": "Uỷ ban Kinh tế và Tài chính thẩm tra sơ bộ Dự án Luật Kinh doanh bất động sản (sửa đổi) - Cổng Thông tin điện tử Quốc hội",
+      "source": "Cổng Thông tin điện tử Quốc hội",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE04NkxTYTF3aFUtX3hkSm1idlYzOE42QzNnSlhkWTlvX3d0QkdMaFVJQVU2UzkwcmNhNmFqdmc1VHpyRWpzX3pveDlpSmpsM2NZVFBId3psdlE1cHoxNG5zRDloNWFaMENoZi0xSVpEZU1iSFBFYkw1RnVFMWl3dw?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Cổng Thông tin điện tử Quốc hội: Uỷ ban Kinh tế và Tài chính thẩm tra sơ bộ Dự án Luật Kinh doanh bất động sản (sửa đổi) - Cổng Thông tin điện tử Quốc hội. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "649c9b2a732a1484f2",
+      "topic": "policy",
+      "title": "Đề xuất đưa đất nền ngoài dự án vào Luật Kinh doanh bất động sản - Tạp chí Điện tử Luật sư Việt Nam",
+      "source": "Tạp chí Điện tử Luật sư Việt Nam",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdEhqZG01cFp6Wm5fOWx6Ul9PVUdmMHBMU3BoZWc1cWxzZjQ5M2lnbXB1S1N4bXRoWnJ1WVY5dEJKSFRtaGlGc2xOVmpMRkVVcW9JOHo3VlFPMklLOE51WDZYTE52U1RYeE11Z0xpdndoNU9HSEdiSjZFbjYyeGVqZUFOZHRfYmlRbXN6WUhBNk9BTzZEMElfdQ?oc=5",
+      "published": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tạp chí Điện tử Luật sư Việt Nam: Đề xuất đưa đất nền ngoài dự án vào Luật Kinh doanh bất động sản - Tạp chí Điện tử Luật sư Việt Nam. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "9e806d544f366d2c0f",
+      "topic": "policy",
+      "title": "Mở rộng quyền chuyển nhượng hợp đồng bất động sản: Gỡ nút thắt cho nhà chưa có sổ - baodautu",
+      "source": "baodautu",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMWYzNHNCUk91ck9meUVvMWNJaTlNVURITWJZV1ZtVUwtRkhhckdaV2dyN2tJbjNfQmVrQVpycVltd09xMDdJLWc1eDJuVVZ5U0FjM2l3Y0VtbGZmVmNJeDlLWllVOG93YUtmQzJOTnpsS1NVNk9XbEo3TVdnNGkxZjd3cmR1NjIwMDVkWlFmY0VpV1Q2YU1GRndMOXNMNVFwUW9obm9jeVpNSjR5VWZQTnduTQ?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ baodautu: Mở rộng quyền chuyển nhượng hợp đồng bất động sản: Gỡ nút thắt cho nhà chưa có sổ - baodautu. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "254ca6cbd67222460b",
+      "topic": "policy",
+      "title": "Hoàn thiện pháp luật về chuyển nhượng hợp đồng mua bán nhà ở chưa có giấy chứng nhận - Tạp chí Điện tử Luật sư Việt Nam",
+      "source": "Tạp chí Điện tử Luật sư Việt Nam",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZkQwbFRoUDNHN0Z3SWpoWF92M0hpR3NaVDI5S3l4Vl96ZVFIenJRRHBMdEgwcWp1Y1VMVDdaWTcySktGdmVjNUlReFNvelZVZnBiTnpmOUppSkJUaE5lc3BLeWZodDZvamhYbHFPR0tGU1dlU2FJLVhra2FaSnViTzdhNWVqTmtHM1VETElBSkRkWElpV0JMRnZRenppWUNPMGZtYkJRTlBvSjhURjNBczk3aw?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tạp chí Điện tử Luật sư Việt Nam: Hoàn thiện pháp luật về chuyển nhượng hợp đồng mua bán nhà ở chưa có giấy chứng nhận - Tạp chí Điện tử Luật sư Việt Nam. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "2dcdb3112029e870f9",
+      "topic": "policy",
+      "title": "Chuyên gia chỉ ra nhiều bất cập trong quy định tài chính và giao dịch bất động sản - Tin nhanh chứng khoán",
+      "source": "Tin nhanh chứng khoán",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVjhqc1pQdUhzLWY3OGFQclMzVG15TGdkNkZKT0F2dV9Vci1hSVIwai1SLXdqMG5LaFRxWks0eVowWGhxSExibk4zVUZOTGRubzRlZ25DbXBCeTNCRXl2TU5WcVU3c3lVZU1ySlBKZWtMZ3pLX1lSdVBDTE4zQzQ2bGp6NzFyTEx5X2RvbS00WnpITzlNT0ptX1ZTUmRjSHdoQ2djWUlZaXVncjZNNUpncThrTk90OS04dnNXR1hvclEtMmVaYTl0Z1dOUzfSAcgBQVVfeXFMUHNNMnRIeVF3NVExV0FXOVhIUzNiVExPQ2Nac3dUUHBFQXRuaHZ0MXZIUzU0djg0ZlBnMTFQcWZYX2pJZW9nSWkybXNiNFhySmVRandJZEpqbHNveFI4em9TNEd1WkZINTMyeGVpYzViRUVGQm5QcDVIREdrdHpzUkdiRFFxc1RaOTM4ME0wdm9QakZUM0JIaGlNUFlYX0FFSjI0Rm5nemhzWnYtbG5qdnhldzk0czAzWWZGMFdMNVBHUHJPQWVQcWM?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tin nhanh chứng khoán: Chuyên gia chỉ ra nhiều bất cập trong quy định tài chính và giao dịch bất động sản - Tin nhanh chứng khoán. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "6d0772f045011d7883",
+      "topic": "policy",
+      "title": "Ba luật bất động sản cùng sửa, doanh nghiệp đang chờ tháo gỡ nút nào? - Tạp chí Doanh nghiệp và Hội nhập",
+      "source": "Tạp chí Doanh nghiệp và Hội nhập",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLXl1M1NsLVZucThScjB6cXZLUjBrQW1nQkJDQm5BSXBNMXNyNlpvYlVibF9pVkIwanVHeWVWSjRRaTA2LXVKUHVCWmJiVnlWXzA2QXFFMEtCRUNHTGRmME14UVZDYjkyWjBSRWFZMnpuVEROSzdPZFF5ZndYLXA0OW10bDAtNFNYZzNsXzRORWxnT1VNUTdmbkV1MFhWSXhTVHRWTW5uSVBQWXpfcVE?oc=5",
+      "published": "Mon, 21 Sep 2026 08:25:07 GMT",
+      "brief": "Theo tin được tổng hợp từ Tạp chí Doanh nghiệp và Hội nhập: Ba luật bất động sản cùng sửa, doanh nghiệp đang chờ tháo gỡ nút nào? - Tạp chí Doanh nghiệp và Hội nhập. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "38e8cb5f3c75b21e2c",
+      "topic": "policy",
+      "title": "Đề xuất đưa đất nền ngoài dự án vào Luật Kinh doanh bất động sản - Tintucvietnam",
+      "source": "Tintucvietnam",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU2h3aTV0bHFoWnp6Z200SlhaVG1uanU5Ny1oS0MydXg1eGI0Szl4dkN3ajBPeVJnMVA3czRsZkZsaXppY1ppWEVYbHNyN0lOLUJqSFUyZXhoRzFZUndTLUEwRnlYY1ZmOU9rUURLLXgxWTEyWW5SUV8zeVBUR1NYV1VuT2N5MVR6V0hBUlM3NjFnM0cybUZUR1RLRDFoQQ?oc=5",
+      "published": "Sun, 27 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tintucvietnam: Đề xuất đưa đất nền ngoài dự án vào Luật Kinh doanh bất động sản - Tintucvietnam. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "ffe19f25e2e36053e0",
+      "topic": "policy",
+      "title": "Lấy ý kiến người dân về Luật Đất đai, Nhà ở, Kinh doanh bất động sản - Báo Tiền Phong",
+      "source": "Báo Tiền Phong",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTmZlRWpQUXpsU2JjdjNZY3E4R09FYWdtNjB2VTlFZXdMQXRWNDVUbzZzbUkzZ0FieF84dEs2aTV5Wm8xUzhOcEtXRk5NSVpNdVdScGhkNDZleS0zd0tDMy1Ubl96TTRnQkpiZzFmR3ZKRElydVdGRkNpbl9fdHlSX0xLS3R5TEc5ellMUWJSWVdiWWJhck5iek9yZVZ6UGFXUmU4TlpB?oc=5",
+      "published": "Sat, 19 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Tiền Phong: Lấy ý kiến người dân về Luật Đất đai, Nhà ở, Kinh doanh bất động sản - Báo Tiền Phong. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "b36006b3957988c9f8",
+      "topic": "policy",
+      "title": "Bộ Tư pháp sẽ rà soát pháp luật về đất đai, nhà ở, kinh doanh bất động sản - Laodong.vn",
+      "source": "Laodong.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa1Q5cXJKY2hNZTk3aDdGNW1BMHloSlFuOW9rN0VDbGpPZ1c0Rm5EanFkREpjTUJVUWZBT1lySUZLVUgtNjBXYnV6VVRRVXJaRUg4TTJ6cHJrOHdJV3BiRGltNUNhckZPMXVpSzhIUEc5N2lleC11ZmpXZlhyMTVqTHNhV0JiRFh2Ml9pQXlfWFk4U2dGNEp6Tk9DeTVlQjJMcFlmMHF5ZUY5V1pHczQxTDF3bw?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Laodong.vn: Bộ Tư pháp sẽ rà soát pháp luật về đất đai, nhà ở, kinh doanh bất động sản - Laodong.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "565040657a04203017",
+      "topic": "policy",
+      "title": "Đẩy nhanh lấy ý kiến Nhân dân về các dự án luật đất đai, nhà ở và bất động sản - https://phapluatphattrien.vn/",
+      "source": "https://phapluatphattrien.vn/",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYW9EVVBoNlRfTXZRUXFTeGtPM0s0Tk16RXpZckViQVJtdlk0Q1BNR1Bza04xd3dqVDkxRmhQaFQzLWlzcXh5T0N5WDBMMVJqcExOQ1lnRVNwT0pwSzdRZ0lJWWxVQnNGeTZtUVVtb3BkNTh3QXRNaGJuUjQ3Um5yRUtoanpLSl91Q050N1Y5b3RvVi1YMkJsQWpVcjhrYmZYU05RQVZnZ3owTWpBRmsxVTdUa25SbDlQ?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ https://phapluatphattrien.vn/: Đẩy nhanh lấy ý kiến Nhân dân về các dự án luật đất đai, nhà ở và bất động sản - https://phapluatphattrien.vn/. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "28a9efb7ca06af804e",
+      "topic": "policy",
+      "title": "Hoàn thiện ba dự án luật về đất đai, nhà ở, bất động sản: Xử lý chồng chéo và quy định chuyển tiếp - https://phapluatphattrien.vn/",
+      "source": "https://phapluatphattrien.vn/",
+      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeVZxMmZ5ZUx2dk9LV05faXQwanh5ejBGMG1GTlZIWXZZTWR1OWR3OG9Ea1NpOHU1YVpSb2szRVpvUXlfNG5hVzdwMElYVmhhRmlHaU8xN2hrOGhTdkZVWWNhWUJXeURQamNQYTJCcEFrRkx0cVFGbkdDaGVpSXlOLTVaelZ6RmxPcGVEMG5zYjJLRjAtMFlad2N6UWNLbjF3SDM1dUhhaUtnaVF6aFBPcXVGcU9KemtHWEoyNWtxWUFMY0NhTW55Z05EMjBaaVdU?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ https://phapluatphattrien.vn/: Hoàn thiện ba dự án luật về đất đai, nhà ở, bất động sản: Xử lý chồng chéo và quy định chuyển tiếp - https://phapluatphattrien.vn/. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "6ad6d62e89cd677c86",
+      "topic": "policy",
+      "title": "Đề xuất đưa đất nền ngoài dự án vào luật, chặn ‘đầu nậu’ phân lô bán nền - Báo VietNamNet",
+      "source": "Báo VietNamNet",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPc0M4eW85UE1yWUJnYWJtTWFUVUFRZld6UkRSLUhRbGwtTU5LMkRPcXVXQTJfUndLWmtrV3kwUDQzamJBLWJLckRSLWdMNkl6N0RJaFdfSncxaUFSd1NMbFZYeVBKQ1VRbDNkNWt1WjRJczlvMjdGWE5CYjRscjlBSTNwNzdkX3dCaC1id1JvVmRDZHplMnFJSVNKdlY4Q0lDSHdjdlVMYw?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo VietNamNet: Đề xuất đưa đất nền ngoài dự án vào luật, chặn ‘đầu nậu’ phân lô bán nền - Báo VietNamNet. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "1fd20564399c62a72c",
+      "topic": "policy",
+      "title": "Đề xuất đưa đất nền ngoài dự án vào luật, ngăn chặn rủi ro cho người mua - Tạp chí Tài chính Doanh nghiệp",
+      "source": "Tạp chí Tài chính Doanh nghiệp",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeVZFNXZNbm1vNnpWcEx2b2tqc2FkMS01ZURQZEU1djJ2aXBfMnVsUzBWYlZ3akQ5d1lWLUJpdHhDWl9GdEtkV2RmU25xd0dTZUVhYUR3QTAwWXN3aHhueE11VTg1QU5ZQlVQQ09VQmxHdEdTZGtFMGhmLVRFRzgxMmNISHlzQmxCZXhMdXJ3cU0xNHdMbHRzdGtRMndkMFk3eFd3Z3F4R00zN3JpazZ4VGJaVDljWUpBYUE?oc=5",
+      "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tạp chí Tài chính Doanh nghiệp: Đề xuất đưa đất nền ngoài dự án vào luật, ngăn chặn rủi ro cho người mua - Tạp chí Tài chính Doanh nghiệp. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "69c380089c8eeef8c4",
+      "topic": "policy",
+      "title": "Hướng dẫn góp ý các dự thảo Luật trên ứng dụng VNeID - Công An tỉnh Cao Bằng",
+      "source": "Công An tỉnh Cao Bằng",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTGxkSjF6ZmJ0anRlcVF6MlNydGczOEZuSFhRTmtabi1SNDhUVjNxY1huUkpDMzRqQ3N0OXZZZ2xhclhTX0w2Nm95dGlxVHk1WHI1Z2l0dmdMSmE1Zm5Pc1pVd0t0cERrelFuWWtnSnFVSmFPTHlzcDZIVC0xcHdCUG0yMXJaNzRuekpzVmJHX1FxT1hLMWM5czZHclFaaHRoV3dyTmo4VGx3MzBBdklfdDg4V0k3Uk16SXptWFVjOA?oc=5",
+      "published": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Công An tỉnh Cao Bằng: Hướng dẫn góp ý các dự thảo Luật trên ứng dụng VNeID - Công An tỉnh Cao Bằng. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "70eefc48b4521b439a",
+      "topic": "policy",
+      "title": "Khẩn trương hoàn thiện đồng bộ 3 luật về đất đai, nhà ở, bất động sản - Tạp chí Kinh tế - Tài chính Online",
+      "source": "Tạp chí Kinh tế - Tài chính Online",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTlY0V0FSQ2lwWWlHZ3d2S1RodC1vZ2JKbVJwTGVYN0pJbHJka0U1aGJHN2ttU3d3NE52QUItX3FJVzR3RG9oOExhRG1ubXpqTDg4MXF6OE10VDY5RnVtZ3RkUTZLZWFRd3VaMkFGbE16c1BobVhNeXZ1UUVreHJDWGpLMkxFUzNLb3lTWUdyZGJad2l3dml6TmNjQUJZeExZNTRNSFhGRW5aYzgwdlRxNQ?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tạp chí Kinh tế - Tài chính Online: Khẩn trương hoàn thiện đồng bộ 3 luật về đất đai, nhà ở, bất động sản - Tạp chí Kinh tế - Tài chính Online. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "9db7545d6136992de7",
+      "topic": "policy",
+      "title": "Giao dịch đất nền phân lô có nên đưa vào luật để quản lý? - Thanh Niên",
+      "source": "Thanh Niên",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcGVUcE92SUNiN2ZnanRfUEtLQ29VZzN1dzlaYjAycVhSUUwycXlHRWYwajdWUjd2WXJ2SXNZZ1V5V05XVWM4Y2dSN1ZSSzNENF8weVpCQU9mWmJ2c1NESHpZOVprSDRwYmpKdlJRNHpMREdCNWRvVW10R1hhRXMzc0ZWQm5vZm0wbEFZb0dMM3BYXzRMQlFINml6ZTg5SjFZdGc?oc=5",
+      "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Thanh Niên: Giao dịch đất nền phân lô có nên đưa vào luật để quản lý? - Thanh Niên. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "2727313766420c15ab",
+      "topic": "policy",
+      "title": "Bài 3: Sửa luật để thị trường bất động sản minh bạch và phát triển bền vững - Báo Thanh tra",
+      "source": "Báo Thanh tra",
+      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOR0laQ2t0czhvYWpjQUdLMW9FNTVsaEFRZU0xTFJNTEdMc2JsUE5BbjA5bC1EVzNPOEkyaHNxeFU3YmhSMk80NmZEc0owR1JOUFJnczFXeVBhdlJzdENrMTJkaEk1VW1MSDhYVHY3bHlIZkJweGJVQ2QySGRoZ3RvSE1nZGdYNU1yOHJybkhuMTVtUzRqRno4TzlkTlozSlJ4cHZlSFNHV0JubVFaaWhLNGZXR2RLc0NNMkt4RnpLUGlWSUJaNnlzOWRlZw?oc=5",
+      "published": "Sat, 19 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Thanh tra: Bài 3: Sửa luật để thị trường bất động sản minh bạch và phát triển bền vững - Báo Thanh tra. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "b7d3a918cb76b0de0e",
+      "topic": "policy",
+      "title": "Đề xuất nhà chưa có sổ đỏ được chuyển nhượng hợp đồng mua bán - VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQS3ktMU1LRTNPeDk2b0NEaURaTzlnZlM0Unlobnh6bzdWbFFKdmZpdHhNMTRFTzdraFBSN0NSQVFqdFdXa29sSXVaVUhMMEEyNTZDTDBFYkRnemYxNzc2VEF6QXdKMHAwcmNVcFEtdEw1dEplZ0xPTThBWTlka3lua2kyTDUyV2hZckJacnNHR0RsQnRpWkJvdWhhVDI?oc=5",
+      "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VnExpress: Đề xuất nhà chưa có sổ đỏ được chuyển nhượng hợp đồng mua bán - VnExpress. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "4110fb2cf98f52acff",
+      "topic": "policy",
+      "title": "Chuyển nhượng hợp đồng kinh doanh BĐS: Làm sao hạn chế rủi ro? - VietnamFinance",
+      "source": "VietnamFinance",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWUh6dGFOaWV3SDBPQjRnR1BWLVNxeF9OUG02SGFKbUppV2c0cE5wU1FxRTNFRHZhc2tadk1GNkpzOElYSV83MFhyMjlpOE1JUnk0eS02emdITG16OGliYnpQVW9vRzEzVDZaNVhkQTAyQ0psdktGdWhIZkNsbXV2Uk8waXRuVUh4TVVUNWluMmtNZmFxSUFuQmxCdU9PaElq?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VietnamFinance: Chuyển nhượng hợp đồng kinh doanh BĐS: Làm sao hạn chế rủi ro? - VietnamFinance. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "a9a92a8f04e9e4a5fe",
+      "topic": "policy",
+      "title": "4 lợi ích, 6 rủi ro khi đưa giao dịch đất nền vào luật để quản lý - Thanh Niên",
+      "source": "Thanh Niên",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNM1NYNzVRbkloeGs3UXpHZHVRRGxhRlM5QWk0WWJySDdMbjYtZm1tUUFzZlg5X2tYNVAxNmNad21SVVduV1J6c0s4bTNzZEktU0EyR1pqWm90NnY3emRGZUVUdXJwRVVlNEJLbGYtYUVvVVB6eWxIQTVBel9uYmpGbXZ0a2F6enc2XzdyRzA5cEdsdktzajZvSjlKZUJBR2pqdEVadWhmT25oTXds?oc=5",
+      "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Thanh Niên: 4 lợi ích, 6 rủi ro khi đưa giao dịch đất nền vào luật để quản lý - Thanh Niên. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "73b4d5a95d4fae4582",
+      "topic": "policy",
+      "title": "Gỡ vướng bất động sản du lịch: “Phân loại hồ sơ, không hợp thức hóa sai phạm” - Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVFBDRmRyZ3pPZVJkUjJ6Z0lvRU94b0dKU2c3ei0yaDFFb3VrUURLUURoSlQ1SmlERFNEWG4zSVJJYjM3MWhuTWNkbmw3R1NncE9jQXh6YUJkWXN6bUdpZUFfZWN3RzI2QWIxVXdoaURDZ3ZpRU0zM2ZFLW9ZS3VWWko2SG50SldNVUM5VGhGelloVkJ2TklFT184UnBHVmxNU2lRY1lZZ1BqZDFFTVBDdmlPcVN3dkgtVXd2a2NUSXlUeHFUSV9JeWpR?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Dân trí: Gỡ vướng bất động sản du lịch: “Phân loại hồ sơ, không hợp thức hóa sai phạm” - Báo Dân trí. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "d372f4c13acaa2b8a0",
+      "topic": "policy",
+      "title": "Nhà ở xã hội không chỉ cần nhiều mà phải đúng nhu cầu - Báo và Phát thanh Truyền hình Hà Nội",
+      "source": "Báo và Phát thanh Truyền hình Hà Nội",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPakpPV2VJaW8xQzF2VWtKc1BYdFlqUEdYYWVlTjJ1UFBtZFpaREZwZXVjMzQ5TjBWQTYxSlZCSGljaGlWNV9pM1VuTS1KaG1xZmFLRWhMYndBdzVMNFFOdzFLR3h5eFVaeTNKZm40MzhEM3pNT2FIZmhjU2NyOVhNd1NTRm1sdWU1YlRIMmVMZW13NUJL?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo và Phát thanh Truyền hình Hà Nội: Nhà ở xã hội không chỉ cần nhiều mà phải đúng nhu cầu - Báo và Phát thanh Truyền hình Hà Nội. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "349296c8c081d7e475",
+      "topic": "policy",
+      "title": "Dự báo bất ngờ thị trường bất động sản cuối năm 2026 - Laodong.vn",
+      "source": "Laodong.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQb0ZxSlhwVmV4VksyMUs3NHdqOGZwUTNuU0lycjdlc0ZzR0tCRzQ4N2Z6X1l1Mm5nRTNoNjRBLUp6dU51LTBYZVl3NHNEeWZHbFMtUm1BN18tMDUxcFZnOVhqTEY1NlhCQTFrSWFTYS1tdk5RU1dBcnBnZ0taYmhROEU4ZEhsanRxV2dqeEM5RFZnN0FnTVA4Z3lOVzQ?oc=5",
+      "published": "Sun, 27 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Laodong.vn: Dự báo bất ngờ thị trường bất động sản cuối năm 2026 - Laodong.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "48844ced8f65de9cc0",
+      "topic": "policy",
+      "title": "TIN NÓNG HẠ TẦNG: TP.HCM đang quy hoạch TOD ở những khu vực nào quanh ga metro? - CafeLand",
+      "source": "CafeLand",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWmkta3o2NmZpcTM3QTNLVUVSNlpaMmdBNlROOVVQNWFEMXd2VmdhRDdIWkhtcDREV0wtSUx6ZlZmeVpiQ2tENWpiZm80MHZfUF9QcDFaamU5YzZITkJyQW5Vb2xSMzBOREFqQ0Jmc0JBSWlRUzNaUklSb1gzZDVDWVJLdzh3VkpTOEVwVVNRcHlXa1lzTjI5cmdseHdha2JlMjR5SEVxVWVVWXVhS0JVcWhYNm1YQ28?oc=5",
+      "published": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeLand: TIN NÓNG HẠ TẦNG: TP.HCM đang quy hoạch TOD ở những khu vực nào quanh ga metro? - CafeLand. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "6d1e00043e07b3a12d",
+      "topic": "policy",
+      "title": "TPHCM chuẩn bị khởi công thêm 3 tuyến metro tổng vốn hơn 260.000 tỷ đồng - Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR3M1VlM1S09Sb2IyajVaM0NJb090N0Vzd1lzWUFhYTludVUwMlhhS2VkWGFPVGdBU1JweFU2bmNPUVRBc0ZqOElwTFZwYVVoRC1mVmVpVHd6R0tYV1FpbG9XUjdJclJDd0dwdzl2eE9HT05sQnZ5ME1fQ2w0QkxWVExyTy1aenlnaVpreW1KYTI4MnVwNDF6N3hrTllheW9hTmhfQUMxYUtkU3I4OXg5d1JNaXpIMjBNcW85b1ZrT20?oc=5",
+      "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Dân trí: TPHCM chuẩn bị khởi công thêm 3 tuyến metro tổng vốn hơn 260.000 tỷ đồng - Báo Dân trí. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "260d670798de464114",
+      "topic": "policy",
+      "title": "Chủ tịch TPHCM thống nhất nghiên cứu metro số 2 kéo dài đến ranh tỉnh Tây Ninh - Báo VietNamNet",
+      "source": "Báo VietNamNet",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVHRPQ3VRN3E4NUlCMHlaSzNhdE94Yy1iT1JsRkFMVnRJT19fc0JTbzZIUU9MZTVPX25oM3dJN0QwWjh6VTM4MW5oNUotR1Z1WXhZXzZmRXNqZEpvNmxoUDltb2RWNmtRM2lDcEZBc190cC1JM2hHWmtodU5DRGpuMTJuSHJhSUxXdTVpLTlTNG1neHQ0N3o4OTdyVFBnaHFXanRqWG9UQXQzcjJHS3l6X1lSMA?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo VietNamNet: Chủ tịch TPHCM thống nhất nghiên cứu metro số 2 kéo dài đến ranh tỉnh Tây Ninh - Báo VietNamNet. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "6e2a2413776b2436c6",
+      "topic": "policy",
+      "title": "Nhà đất tăng giá do gần ga metro, TP.HCM thu lại phần chênh lệch thế nào? - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV0I3M2FJeEhKYWJuclJtb2tnLW5jVEVjcHpKNFhCaTZSU2tIdDhfX3o5TzBZcFk3ZnQyZjVjOG9HS0o4aEE0Z010X0l0M00xeXJsSXk2cnBnTGZXMlRLTmRreHJZS2lqU0RRUXFVb2NqRUg5YkhpdDU0RHphTDQ5ejJvZFNpZG1yZG5HeWdyc2FwQkN0TVZjMm12MzBnUm03aHZnU2x2YXU0U0lLMkdz?oc=5",
+      "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Nhà đất tăng giá do gần ga metro, TP.HCM thu lại phần chênh lệch thế nào? - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "4c2f094c6aaed6ef94",
+      "topic": "policy",
+      "title": "TP.HCM muốn khởi công kéo dài metro số 2 đến ranh tỉnh Tây Ninh trong quý IV/2026 - baodautu",
+      "source": "baodautu",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQTlQQjl0Wnlqdnhob3BwdFNHZjBtRXJyV0l1X0dZNk5fd0R0NlhJYVdiUVNrUDVMSHp6eFk0eFZ4d2N1OFhIRGpfQ0dWalhUVEEwMGlWOEtrcVp6TDRPRzA5aEhZaktza2xkWlBleU5obzdNZW8wd2tJb1Vvc0ZJa0lSdjlFbFlKNlZmUWxjNWMxMGRla1Yyck1acmM3bE1aMEVQNW82blBaZjU3RXcyWWFR?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ baodautu: TP.HCM muốn khởi công kéo dài metro số 2 đến ranh tỉnh Tây Ninh trong quý IV/2026 - baodautu. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "42338575ea1f207d07",
+      "topic": "policy",
+      "title": "TPHCM chi hơn 71 tỉ đồng quản lý, bảo trì Metro số 1 năm 2026 - Laodong.vn",
+      "source": "Laodong.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRWNkWWJRX1NSTGkyTzY2MHdudGluczZXMFIzeXA5R1VMV0FRNnFJbVg2SUxrUk9LTW81SFRVczQta2ozVUE4amJhc2owUnFRZUpzQ0RpeENWNHZXVjVoaDhJbmV3a1A4T08tenZHaHFjOGNXSDg4aGF3RFhqc3NvTGZtOF9seWR0WVdQcFMyZld5T0hGRHdtQklZNDEyMXM?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Laodong.vn: TPHCM chi hơn 71 tỉ đồng quản lý, bảo trì Metro số 1 năm 2026 - Laodong.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "25533d071592834f6c",
+      "topic": "policy",
+      "title": "Các khu vực được TPHCM phát triển mạnh TOD quanh ga metro - Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORWxWS21CRzBxQXFhZFg2VXZFQVhtY3N2YjBYSnVyM2NmalVyTXdRdE5OUGRrUHBCUDlKcUZmX1d3NmN3NEhUYktxV05HSF80QTNiVl9fZ2NZUi15LURHT2oxMkpPLV9GNDU1bkJfUWROTS1VVGZHRTh4MFd6U0lVMHo0LTIyMDVvR0FzaU9mX1dFWTFPeEN1RVVoUk5lakVtaDdWTGcxN2p4RFNJZVE?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Dân trí: Các khu vực được TPHCM phát triển mạnh TOD quanh ga metro - Báo Dân trí. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "00bb827f2741fb70da",
+      "topic": "policy",
+      "title": "TPHCM mở cơ chế hút vốn đầu tư vào TOD quanh ga metro - Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa242SzFtUE02S2Y5Y2p6MVFaa2NSXzYtZjVQQ2ZnaUpQRGhTNUVPaGhxZk9QVDNCM0VxbGZTVEQ2SFRhMXFPeS1MQ2F5WU05UFNrSXhlNThrM1Z4U0Mxcko1VjVvQXBGRFVTQkJLQU1qR25wcWxMczdhNkxIYWlLRnBkSUl4emJqNkNFZGxZdEs5RkJPMGl0dlkzdzlrd1F5RGtRNFR0RVZBQnk3b0ln?oc=5",
+      "published": "Sun, 27 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Dân trí: TPHCM mở cơ chế hút vốn đầu tư vào TOD quanh ga metro - Báo Dân trí. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "fd3fe4e429c3f6275e",
+      "topic": "policy",
+      "title": "TP.HCM dự kiến cuối năm khởi công đoạn metro số 2 kéo tới Tây Ninh - CafeLand",
+      "source": "CafeLand",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaGt6d1lIWVZicmd5dkxCNXNDeUJ5dnVQbjJUYTJ5VFktWWZ2aHJEUWdneFoxQVFtbzhjTDFrdGtJWDdpVlRfRVZRT1ZZUmxZZF9Cd3FlZFJub1NObUpwaGVwYnlJTXFwMjNpcmladXRoZXlUcmw2aklrdnV5LWpzY3RmUGwwUEh6V1JoLS1GZDZHUHlGQWtJZmhjU1BOMUFncDZheVhqZkw?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeLand: TP.HCM dự kiến cuối năm khởi công đoạn metro số 2 kéo tới Tây Ninh - CafeLand. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "557f39b993e7352881",
+      "topic": "policy",
+      "title": "TP.HCM ra thời hạn quy hoạch TOD dọc các tuyến metro - CafeLand",
+      "source": "CafeLand",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYWhEdVRTcm9hSG5pSEdFUl9RTXZnVVhPbHZ4T05RWmM2SWpNeDdKTGRHTWlzeVRBd3lBSXdMOTNTbzRZYVpfT3NXekhZSWVWdmQwb0dQTm4zLVEwZHR2VWNRcEJiaGY2dlFLM251dVd5dDE4M2RFcDVaMkhDLUtPMjhmQ0hlMHRENmlJY0pvZUdkZ0FsVkE?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeLand: TP.HCM ra thời hạn quy hoạch TOD dọc các tuyến metro - CafeLand. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "7b82f2b141ac9141c8",
+      "topic": "policy",
+      "title": "Metro số 2 TPHCM kéo dài đến ranh tỉnh Tây Ninh, khởi công cuối năm 2026 - Laodong.vn",
+      "source": "Laodong.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObHc0UnBkd1lDMmxSLUxQVWNJVGkzbHoyUEZDdnp0SjV1TjdTWXk0NHRzamdkcnMwaWdCM3ZRWmVCblBhWTdIOVRjekFzUEZodVd0ZUZWMzREU3N6c1JCbVUyaTVnUGNQWGdmUTdwUE83emN3YlZnRDN2TllDWTZqdmVOWEZVY2JpZ2JIX1g3SkF0QjlYMWdFbmdLODNwZ1d4UmhsZ1VCT2hqYk9MYnc?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Laodong.vn: Metro số 2 TPHCM kéo dài đến ranh tỉnh Tây Ninh, khởi công cuối năm 2026 - Laodong.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "6179c7c97a5843fa8c",
+      "topic": "policy",
+      "title": "Dự thảo TOD TP.HCM: Nhà đầu tư được đề xuất ranh giới khu TOD - CafeLand",
+      "source": "CafeLand",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeGtOT1FQMXdsMnhWWG14ekxDNlhiZVdJZ0NvRkNGVmFrYUc5U0pLQXM0WG9saGZOcGFveTkwTFdPSFh1QTlLWmdYbnlfNXJjOTBWMUc0Vi1uZmY1TWNpbmtKX19rV0tFWlFHdV9pckhQWGh6M3N4RlRfdG1zZGtvR3JjcVhrejZtYjhhSWhmSlNhcTBsamN1Rk0wNWt4eGR5?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeLand: Dự thảo TOD TP.HCM: Nhà đầu tư được đề xuất ranh giới khu TOD - CafeLand. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "e34b93f04430cb13fb",
+      "topic": "policy",
+      "title": "Metro số 2 TP.HCM kéo dài đến ranh tỉnh Tây Ninh, khởi công cuối năm 2026 - Báo Xây dựng",
+      "source": "Báo Xây dựng",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdEgyZDdtNWg1VUxsdTlHc1FDVjdlUTBhYTRWSjlFRTlwcVB2N01sMUZUQ2FuMHVObV9hRGRUU2JRVnZ1aTJzeFplZ0U3RlY5N3hFaFh4Mmx2endKVlBnbnNjcm5ya3BRM3RXakVOZTBjbUxEVXZyVFVxVDUwWmZaSG51WDhBaTRaRi00S1JMZVh3cE1TVEFfa2MzZk1jUE1PVDcwVjllZ0dOUHdfZTh2SnVzcjRLNGc?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Xây dựng: Metro số 2 TP.HCM kéo dài đến ranh tỉnh Tây Ninh, khởi công cuối năm 2026 - Báo Xây dựng. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "afb537e5a64c337cdd",
+      "topic": "policy",
+      "title": "Ưu tiên hành động của một thành phố toàn cầu - BÁO SÀI GÒN GIẢI PHÓNG",
+      "source": "BÁO SÀI GÒN GIẢI PHÓNG",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQLV9wQmJhOVhyN2k5VnJNY3gxTHFQalAtRkMxa1lrMmhVRlNfaGxKTlZxdUw3TU1JR2kxdUpQT0JjWnRySWtLY2p6Q0tuSm8xWENCOGVCMklJNFNBSkZtNHdlbEg2alFjcjdvZnVweHg1QzNDb1llMnM3VHlFTWZQSlItaEU2ZXFWTW85Uw?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ BÁO SÀI GÒN GIẢI PHÓNG: Ưu tiên hành động của một thành phố toàn cầu - BÁO SÀI GÒN GIẢI PHÓNG. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "cca51bc96d0876bc30",
+      "topic": "policy",
+      "title": "TOD TP.HCM, đừng chỉ tăng mật độ, nên tính hệ số sử dụng đất tối ưu cho từng nhà ga - Tuổi Trẻ",
+      "source": "Tuổi Trẻ",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQalotcFMxUmZEVm9jQzN3eHNOaDVycHdscTlyQ3JCdzlzVkdsZEJDcy1LWDVfRF9GeWtxRDBUSlAzTmh6bjUwa0FDbm5kTmV3VUNnaFNDWm9uRm9oQl93MzJ1OVV6eHVKRng5QUdrYzVxWnRUcmdJUTNKSm9JdEl5eVp1QW84TmthWC1jal9QRHVObnJVX2M1dmJXUHpsa3hiTGp2TmlFXzZJZnZUeXlMeDBHTXlMTGhiZWJ3Z2hwQQ?oc=5",
+      "published": "Sun, 27 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tuổi Trẻ: TOD TP.HCM, đừng chỉ tăng mật độ, nên tính hệ số sử dụng đất tối ưu cho từng nhà ga - Tuổi Trẻ. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "e65698ca65594caa8a",
+      "topic": "policy",
+      "title": "Cắt quyền mua nhà ở riêng lẻ với tổ chức, cá nhân nước ngoài: Sẽ không gây tác động lớn đến thị trường? - Báo Tuổi Trẻ",
+      "source": "Báo Tuổi Trẻ",
+      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVmZVX3Npd1I2bjZiNVJVZExLUE4wdHBrdC1fb0RKZ1VSVHQwbURZc18yNzVtTUpwbURqeUhZUzBJbVhTWm5NLVhRSl9KdGRlSVd2OWJKYXlCYjZsN3R5eU9VUEw2enhMVkNBWm1jRGNySGFyS0t2ejFJN1U0S1kyOEpoekcwOHFxTnBfOHN6OUFMMTZfZUhKdmFDTThpd21ZbXBFbTBtVmtqZEtLOUUwLU50ZV9QMHRTZ0plYlJkQ1ZPRFc5RXZqWHVMdEF2WDlOUHRaMTF0SU5oQQ?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Tuổi Trẻ: Cắt quyền mua nhà ở riêng lẻ với tổ chức, cá nhân nước ngoài: Sẽ không gây tác động lớn đến thị trường? - Báo Tuổi Trẻ. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "4d4324a4cce9d89d65",
+      "topic": "policy",
+      "title": "Dự thảo Luật Nhà ở (sửa đổi): Người nước ngoài không được mua biệt thự, nhà liền kề - Tạp chí Điện tử Luật sư Việt Nam",
+      "source": "Tạp chí Điện tử Luật sư Việt Nam",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMnlIUjVjTEk1UU5ZaWxESWlMbURZM1YtN01rQ2d4Q3RlUXpGV0RyX2cxY2lZUm1vOGgzVGZ1U09rQTZSVU9FdTFtT2xaazREY1dVUG9TSTZVZC1Ya0tHRTRxMFZtbkJNZGowbkstUVNzY1A2ZUoyNkxrUFNONy1zVVdBME40SmNSbXJJTmxHOWw0d25CdXg3Z1llTzdwUXRELUN3M1o0WEVnVGNm?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tạp chí Điện tử Luật sư Việt Nam: Dự thảo Luật Nhà ở (sửa đổi): Người nước ngoài không được mua biệt thự, nhà liền kề - Tạp chí Điện tử Luật sư Việt Nam. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "5deefa8023aff95c88",
+      "topic": "policy",
+      "title": "Dự thảo về quyền sở hữu nhà ở, sử dụng đất ở tại Việt Nam của người nước ngoài - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUUh6R2YtenJpNGVqLTJELVFyVEZzVzU0ajc4ZFo1c1NFaFpQb0FMS3lnU3lOMUFhc05fNXRUekE5OGtKT3JySlVQUE92cTJRTFhjVDdYYTBMMmZGWHFOSTV4WlRuUl9wMHFNQ3NoZDkzMndtaDc1R3dORmx3c1pHRGYwMkpfRGRLZmt4WW5FWFo5cnRRWmtlSndzaE9uckk4TGoySmNOYlJGY3h0VnoyMzZKR1RBT0Zf?oc=5",
+      "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Dự thảo về quyền sở hữu nhà ở, sử dụng đất ở tại Việt Nam của người nước ngoài - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "1333efafc298129100",
+      "topic": "policy",
+      "title": "6.188 căn nhà tại Việt Nam đã được cấp Giấy chứng nhận cho người nước ngoài, dự thảo mới có đề xuất đáng chú ý - nguoiquansat.vn",
+      "source": "nguoiquansat.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMFp6LW0wQld4VWc0bVZhMXNjRmhKbHJwYVJ2RS01Mi1ZNm9ERks5R3B2Yi1ncE5Ddl9TdnRNM3IxVUdZYXoxVk1sdG9QMjVoRGRKbC1kOUR4dU4wNFFNQW82VFlHRksyU29iUzdVZWRsaFU0aTZ6am5FbEI4cEJXSFZNZU5LUkpTSktqcjE2UXNaOVhoZF9vSC11QlZ0V0R4aUp4djc5S1plejRxNnphR1RrelpsZ0h5WDUzN1g3c2pjNHZUeVdxcFEyUXMxeERhbFBpRHJScXV5cTJUTUE?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ nguoiquansat.vn: 6.188 căn nhà tại Việt Nam đã được cấp Giấy chứng nhận cho người nước ngoài, dự thảo mới có đề xuất đáng chú ý - nguoiquansat.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "d24d7da16bbea7a173",
+      "topic": "policy",
+      "title": "Người nước ngoài sở hữu hơn 6.100 căn nhà tại Việt Nam - Tạp chí Kinh tế - Tài chính Online",
+      "source": "Tạp chí Kinh tế - Tài chính Online",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTHE4bFJIcmdleEhZbXMzNFBBLWRYMUpiOEF2UkRaU2xLbEhtaEVoSnVCeU0yTDNnU1c3bi1xVTluc1ZXMlY3ZUNmV0tvak1ZbFUxa192c2V6azFnelhOSW11ZklkWXVMb1VXaTFVeUJ2ZFBzc3p5MVNkMVZYQzA0Rl84Z0tzam9fcWNkZjN2MHFrS2tzUEFzOUJEREVzWDA?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tạp chí Kinh tế - Tài chính Online: Người nước ngoài sở hữu hơn 6.100 căn nhà tại Việt Nam - Tạp chí Kinh tế - Tài chính Online. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "c0cea0188e01b321af",
+      "topic": "policy",
+      "title": "Chủ đầu tư bán căn hộ cho người nước ngoài: Những thủ tục cần lưu ý trước và sau khi bán - Fili.vn",
+      "source": "Fili.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONDV6Q09OeDM3RDl0MFB2VDd0REhXbzd0VUd6UGV5dGotZ3d4WXJCSHRIYy01RWRQYmJocm9ibnozMjVRQmV1SW5Yc01yQUNZcy1FQ3YyVUdEX0NNenBYTURSS29yNnhIX3hSZG80Yy1Zc1c2ck93YU41QnRib3EwakNkdzlvWWYzMjRoRWNyN0QwYkR4aHVvMkwwTkxlaWZpVkVzRzI2ZVNTb1dBN2g3WTNxandpMEFIam9HQlA1VW5QNVh0THpV?oc=5",
+      "published": "Sun, 27 Sep 2026 03:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Fili.vn: Chủ đầu tư bán căn hộ cho người nước ngoài: Những thủ tục cần lưu ý trước và sau khi bán - Fili.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "8477f69f472007dee6",
+      "topic": "policy",
+      "title": "Quyền và nghĩa vụ của người gốc Việt Nam định cư ở nước ngoài sử dụng đất tại Việt Nam theo Luật Đất đai năm 2024 và kiến nghị hoàn thiện - Tạp chí Dân chủ và Pháp luật",
+      "source": "Tạp chí Dân chủ và Pháp luật",
+      "source_url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNcmMyQlpmSUZLeF94RXJqVEdqWFJFRGNvbE5ITmV2SUlqNndpX0MzbUlsNUlaOFdpcm1QV3JaVjVBOVcyQkdZR0U1cGJweWo2MGdZM3FsUTlzdE84M2ZKNm1pV2x2N2tXWnBEVGsxRlBlUXVkY0Z0a1p0LUJEaGJfZEJxZ2E0S2xTOXpZaGJDM3lfTDdrNUVJZ1B1eHl2WEE3dVNlTG5aY1MxSnBSekJjZndOQ090VDlRUlpwNUZzdW9SUGh4YzNBTF9aLXc2VGlvM0M4WEZIOWxDbVhKdTZyZkVRZFRRMHU0WGNWTDFvQmlOcDZWeHVUYllCTHJfblZGS0p3aA?oc=5",
+      "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tạp chí Dân chủ và Pháp luật: Quyền và nghĩa vụ của người gốc Việt Nam định cư ở nước ngoài sử dụng đất tại Việt Nam theo Luật Đất đai năm 2024 và kiến nghị hoàn thiện - Tạp chí Dân chủ và Pháp luật. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "ce311d8887a662a112",
+      "topic": "policy",
+      "title": "Hồi chuông đối với các doanh nghiệp bán nhà cho người nước ngoài - theleader.vn",
+      "source": "theleader.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON1ZYMEl1cjNyQXBwYkpnRHNOdnlTYjRicmlubXByZ3oyY2dfSjh1d2szWkRxd1RwWnIyODFYZWJSSmhOcjFCUDNwcTRROFJfVU9ZSTFaakhZbTlXSGtpUHVJNXQ2dGU2VGVrMTRWVmtpdjhuMXZ4a0o3cGduVVVndGMxdVFHaGkwdk1HRzFCcw?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ theleader.vn: Hồi chuông đối với các doanh nghiệp bán nhà cho người nước ngoài - theleader.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "ce326bd575eb4bf7d4",
+      "topic": "policy",
+      "title": "Thu hồi đất ở Hà Nội: Khi nào người gốc Việt Nam định cư ở nước ngoài được tái định cư? - Báo Sức khỏe & Đời sống",
+      "source": "Báo Sức khỏe & Đời sống",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORXd0alVabDZyUEpIM3Y0cVM0c1oxVnhYVC11dG5YMl9pbXFJemE5RW9VWWNpRjgtVFBFckc2dkZsNnlYcl90d2dmVElsd1lzX1pBcGZkNGsxWlBxSEd1eHZoR0VPLTZqa29MYkZmUHpUVlRvcWM1LUQ2aWNIcmlCMDJDZ1lpYXNUWFNpX002d2VXWWNVTjFvVXJraUs3bTlNakZYcnNYdDRPQ0huQnhJREFhYTdzSWw5M0VGLVd5UFRrNlpzSjdvb2NWcU5CUm8?oc=5",
+      "published": "Sun, 20 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Sức khỏe & Đời sống: Thu hồi đất ở Hà Nội: Khi nào người gốc Việt Nam định cư ở nước ngoài được tái định cư? - Báo Sức khỏe & Đời sống. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "b2a827ffabf37e2e8c",
+      "topic": "policy",
+      "title": "Các trường hợp không được bố trí tái định cư mới nhất 2026 - LuatVietnam",
+      "source": "LuatVietnam",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONXE0OFFpX2JVTEl2VXBHRWRCVl9FS3liUUdlbmJDYW80MEdBT0lnSHZkVnBERURtdHVSSFBTT0sxVVFKS2ZiZjM1c1M1Rl9tcjFrNDdzUmZ1LVVsLWN1eUF6cFJ3cHhuZlVUU29mOVh0N2huVDJZbG5qbzF4QVBjTjY0VEM4MU02YzFBSFhPRnFrd1hTOUNuU2IzTmg4OGNmUktldURmWQ?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ LuatVietnam: Các trường hợp không được bố trí tái định cư mới nhất 2026 - LuatVietnam. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "cc248dc9470edda380",
+      "topic": "policy",
+      "title": "Người nước ngoài không được mua biệt thự, liền kề: Luật sư đề xuất cho sở hữu nhà, không có quyền sử dụng đất - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaDVaNGRNSXJuelRrRWlvQUh5UEFKQld1dFNkd25iTVFPYS1ka0tPSmZnNzFhX3Nha1hOU0djem1xQVRnd3hmYWI5dUJMR1dxeFFKTlBGZS1paFo4WlFVR0x4eWFTRXAybjNMNW5MYk1ERWI1Q2hlUGpleVQ2WHJBaHBKVjhiaVhmdE0yYmRjVnotM0VycFV6a0hKZm1IY1lsa0d2LVhMMGFDQm1qQ1BiazRmWmo2VC1GcmFvcVItT3VCdVhlMk02aHB3NXI5bTEwQkMyTlRIcy1rSUY1VDB3?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Người nước ngoài không được mua biệt thự, liền kề: Luật sư đề xuất cho sở hữu nhà, không có quyền sử dụng đất - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "9924a0733cafd01a32",
+      "topic": "policy",
+      "title": "9 đề xuất đáng chú ý trong dự thảo Luật Nhà ở sửa đổi - Fili.vn",
+      "source": "Fili.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd01IQkJTeFdheFEzbHRCZkljX1hSTDVneFZtdkJYa29TVVBlOVprVmI2QnBzVHZ0R2QyNXVudTNUT2RmN0dYYlZ4cEtfMlV0eEs2VlJzUnk4OFZ2bHRzblFlMGpwUjEzQ3htSzdTSmNTZ2xybE5Ua2hKQ1MxWW44OXp4YlBfSXdwNnZwdXZYZnR1YktDaXRCeVhR?oc=5",
+      "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Fili.vn: 9 đề xuất đáng chú ý trong dự thảo Luật Nhà ở sửa đổi - Fili.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "ff9bc6ff3261e35969",
+      "topic": "policy",
+      "title": "Sơn Kim Land bị phạt 280 triệu đồng vì không thông tin bán 136 căn nhà cho người nước ngoài - Tuổi Trẻ",
+      "source": "Tuổi Trẻ",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYW9tclJJTDViMnhFeTB3VlYtd21BdnVzTXIwdEdTOUZMS3JES1ZFYS1OX05nVUhUclRncDVkZW9IejZUWWRSM3FtazZRRmw0MnRINzFDdEVPTC1hdTZINmpSQzBmTFQxWVlhTDh5MmdTUDR3NkRoR3lOTHFZMzN2SVJFRVc2NFBTWjRFczFBaGRMR2Y3ZFFtaDJERFhZcGtIalpua1pQS0E5OE9HSjhWMTZOQlpkZ2FWQ2w5REFtSHoyVVF3WktnRlE3VFFBZw?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tuổi Trẻ: Sơn Kim Land bị phạt 280 triệu đồng vì không thông tin bán 136 căn nhà cho người nước ngoài - Tuổi Trẻ. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "5c9fa159dd90f5efe2",
+      "topic": "policy",
+      "title": "Người nước ngoài đã mua bao nhiêu bất động sản Việt Nam? - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR2dDZklrQ1Y0Ry0xVk1QNk1YN0dNcFNpSmd0amxZYXJpQW9zYmUxd2IzSUF2WlZDV0o3NU5iTnFOTF9WWlZxOVhJWjlCVGRFX0cxTnBOaFJkZXZfVUhWRWdPaFh5VGYwR2Z4eWRNdXIzSjRKX1hQUnptSTRUc2ZyYjE1dVZFMmwyX1VlQ2RGR1pHaWpPelZRcFNjOA?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Người nước ngoài đã mua bao nhiêu bất động sản Việt Nam? - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "9e0df5f9a16c251853",
+      "topic": "policy",
+      "title": "TP. Hồ Chí Minh mạnh tay xử lý doanh nghiệp bất động sản vi phạm - Tạp chí Kinh tế - Tài chính Online",
+      "source": "Tạp chí Kinh tế - Tài chính Online",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVXVYemVOdlh4dDVmYTVDeWd3a0Vqc0M1YmsyUDd5V2I1a1RSMVFKeEp4QzdSSnE4WklGc1ItODZvZlI0Nm9jSEc4Yl9jbV9GbzJtMERLOURPYmtEQnBWbTJXa2FpRzJLOGlreXRNOHg1bkxzWGdCNHRuME1pLUNGMkFQTnV0M1JMay1oWXNmWnVISWZTTTVtdkxET2EtQ3hTa0FVbFlSY1RmRk0?oc=5",
+      "published": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tạp chí Kinh tế - Tài chính Online: TP. Hồ Chí Minh mạnh tay xử lý doanh nghiệp bất động sản vi phạm - Tạp chí Kinh tế - Tài chính Online. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "405f30f1e3d5510a4b",
+      "topic": "rental",
+      "title": "Luật Nhà ở sửa đổi: Loạt đề xuất đáng chú ý về nhà cho thuê, sở hữu và cải tạo chung cư - nguoiquansat.vn",
+      "source": "nguoiquansat.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSWFVWmFhamliYldIZWF0ZzM2UzZGczFhV25JV3lsaG9kZUs2d3JqYzFIZ0RXTThDaVNRWmRtem1TM0NNTUItdXRYaFJ4VEJ5U20wLTEzbWZTOGNCVEFjZHYycmFRRDE2UDAwbGdWMGxxV3cyUTVJcEhvdVRWTWFaU0N5alRFdkRtTDVRUm42WERtbkhhUWxOR2FtU0FqQnlJOW1yRUhIWDlfLU5QaW1ISHZpTWVnY0xqRGowTThn?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ nguoiquansat.vn: Luật Nhà ở sửa đổi: Loạt đề xuất đáng chú ý về nhà cho thuê, sở hữu và cải tạo chung cư - nguoiquansat.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "773a2d08f86ed2fefe",
+      "topic": "rental",
+      "title": "Nhà đầu tư Nga tìm kiếm cơ hội mới trên thị trường bất động sản Việt Nam - Báo Tuổi Trẻ",
+      "source": "Báo Tuổi Trẻ",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVjBsc1dTTlNDcHJ6QmU1UkQ5c21nSzlhSGZMWTJ2dkR5S0VPbm45QXo0MWNZc3hjTHVoRzNDQXZnTHJaeG5HeThHYXUyR1E0c3dEbkk5aTFOVHR4NTVKTmRUZ0V3andPb2RtUWZfdWVHN1VJUGVrZWRrT2Z2ZktLVjkzVC1aY244TlZJNjQtS1NmdmVRVmx5UEtCaVJTNVRpWGJGbmlwZVdlUnZKYTBCY2J4VGE?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Tuổi Trẻ: Nhà đầu tư Nga tìm kiếm cơ hội mới trên thị trường bất động sản Việt Nam - Báo Tuổi Trẻ. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "be56dafec8be463ca6",
+      "topic": "policy",
+      "title": "Công an Đà Nẵng “lật tẩy” thủ đoạn chuyển tiền xuyên biên giới - Tạp chí Tài chính Doanh nghiệp",
+      "source": "Tạp chí Tài chính Doanh nghiệp",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOXZ2VUgwdW1DY0NrUy1YZDgzaGdHVHNCSVgzYko3ZDBZX3FMZHZRRGtCYUMwSDlBNUdqdjdSRmFPaTB4aXprd3pFS25ZZ2tPbHFFbEJnRFdiX0tJcTFZY3hZU2RmRDU0TUIyZVJwZWpFZWZEcUF5RU1QSW1OV1dwVUVIVkxrZDk4LTJLdjFFYlpGa3dsSUlsV0hRSzk4R2R4VmMzMFY0LVd4WVk?oc=5",
+      "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tạp chí Tài chính Doanh nghiệp: Công an Đà Nẵng “lật tẩy” thủ đoạn chuyển tiền xuyên biên giới - Tạp chí Tài chính Doanh nghiệp. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "4a32a462840f778c27",
+      "topic": "policy",
+      "title": "“Cởi trói” tín dụng du lịch: “Đòn bẩy” cho hệ sinh thái đủ sức cạnh tranh quốc tế - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY1A3V0FSRzdFOEdOUTlRMk5jVWxZUHpBTGJSbzRYOXBhb3ExU2hIT0dYVVZTeklVZjR4T1VUcDU4bVhFWEdpamkwbmdocUp0b3lqd2lTOVVqbDAzeklxeGpqODdUT19aV2tKNkRxbXBkUnFWbmYtemgyT2d3U0UzYldjYVNEZG5hckZ5LWtpWkh2YW1IcTBjYzJHVmZ4eGU2c0dVSFU1OEZMeTY0aWQ3NDg0WU5xOXM?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: “Cởi trói” tín dụng du lịch: “Đòn bẩy” cho hệ sinh thái đủ sức cạnh tranh quốc tế - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "76cef1f1dbc5a1fe85",
+      "topic": "policy",
+      "title": "Giới nhà giàu Trung Quốc tìm “bến đỗ” mới ở châu Âu, Italy nổi lên đầy bất ngờ - VIETTIMES",
+      "source": "VIETTIMES",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZk5PeVZnbEY1dW5sQUcyWmxDQXlTLXp0ZzdEUy1sUkJGY215MjZNZE9lUGR1YnZhQWdyaVQ4VXRvdmdEU3BJMjh1RDVWZU5ac05taXlVQnhQa1Q0eFBneF9pQmJhaXF1cEM1aFVmOFpGUy1QUHBGTDFhWkkwT2ZaZXBxU296dGNpTWdPSzJWNDJlZS1qZlBwalI5M2pTay1jUVdKbm9VdkhIMFhHaU1QdWJ3?oc=5",
+      "published": "Sun, 27 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VIETTIMES: Giới nhà giàu Trung Quốc tìm “bến đỗ” mới ở châu Âu, Italy nổi lên đầy bất ngờ - VIETTIMES. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "81dbe959e246f9d400",
+      "topic": "rental",
+      "title": "Từ cái chết của thiếu nữ, cảnh sát phát hiện 'ổ' ma túy trong các căn hộ - VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVVlfTWpOeEtyclNhMlp3ZXllRkREdGxDRndLS1dwTjZNSlQxQzZLa2NfSTl6eUdCZ2Etc0FoRXdqajg3dXl4YVBSUlZTZ0Nwcm11ZjFINUlHRm9Lckstb3gzeXBESk5OTXVvaUMzQmhLVDlRbTVvQWVJM0poZDd6Z2FFWVNLXzFjOU9NblNTa1dWQ1J2ZkNMOUdhMVFGbmhVb01XWTk4UQ?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VnExpress: Từ cái chết của thiếu nữ, cảnh sát phát hiện 'ổ' ma túy trong các căn hộ - VnExpress. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "110fbffc0ad2fcfce9",
+      "topic": "rental",
+      "title": "Không mua nổi nhà, thà làm “công chúa phòng trọ”: Thoát cảnh gánh nợ hàng chục năm, có tiền thì thuê nhà xịn - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbXU3MWMxaDMyb2F2TXJZUkZKWlRzVkYybGltWTUyMU94RXRWU1VvNHd1VmZrdktEZnJ1NkNHVjhWbEtEMDdKOGdBTldQNXdUTGFjcU5HT3F2a1RZNVMwVEZoMWdueUpBYy13dS10NTVFdkpJaVFKNEowMGFZVlhJVXhDNG5ZN1Z3WW1SSUc5dkQ3SkxUS1JKS0I2dlhadUR5R0Q5Uk92UDUxZktQcmJlNGRTNGMtWFF4RUhTOVZjYVcyZzRPWnZuNXN6b0UxampZNWZWUXZiU2luVXc?oc=5",
+      "published": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Không mua nổi nhà, thà làm “công chúa phòng trọ”: Thoát cảnh gánh nợ hàng chục năm, có tiền thì thuê nhà xịn - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "166863170edcc8a2b4",
+      "topic": "rental",
+      "title": "10 năm mua 2 căn nhà ở TP.HCM, cô gái tiết lộ: Căn đầu tiên mua năm 24 tuổi với 10 triệu trong tay - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRVpRd25SLTJVOGxlZjBMdGkyU18yTEFLMEJwV2NUejZYRHNMNjZsY05oYTY0Y3l2bFBQdnVnNzBTR3dVdXptY20xVE51RlF4ZFVvWW9pZHRRZk5Hb05wc2cwZS1MMjEybVBYblJtZlMwWXh5TzJCZkhiUU1PY0p4Zk1EQ2Rqa0RZZzBSMTZnRkpZQ1h2WjJtRS1VZDZCeXFrRjl2VmM1cTVLZXZodzJSRFJ2d1ROdlVNSU55SE91c0U5UERWU0N5dmctQ1B6OHhO?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: 10 năm mua 2 căn nhà ở TP.HCM, cô gái tiết lộ: Căn đầu tiên mua năm 24 tuổi với 10 triệu trong tay - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "19635a1b6317c65f87",
+      "topic": "rental",
+      "title": "TP HCM dừng tính thuế loạt căn hộ nhà ở xã hội - 24HMoney",
+      "source": "24HMoney",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSnRJSjNlLVVxV1d0WlJVaGJyelNRZkItZEM1R3l2TmsyU1FscGJlUG50RXBBa0I3Y1hUZ2FEZU02bDlDT3dfeFhlOF95eUswdnNzNHA1VmFKc3ZtOG01RkpTMWFDU016YklPNTFnUjVHbXByV2lveG5qSVYxcU1uSk5TcTIwQzRNMjlwNmRRaTk?oc=5",
+      "published": "Mon, 28 Sep 2026 07:33:09 GMT",
+      "brief": "Theo tin được tổng hợp từ 24HMoney: TP HCM dừng tính thuế loạt căn hộ nhà ở xã hội - 24HMoney. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "f6390e867468fee514",
+      "topic": "rental",
+      "title": "Kinh doanh bất động sản cho thuê không còn là “bài toán dễ” - Tài sản công",
+      "source": "Tài sản công",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdno4Sk9kNVZSaGxGWjRYMXktWDg2RElHSzB6NVUtUmhaS1AtTGwxWXlzX0FFaURZWFhuUUdCSHJBMllKaURDZVQyLU9fWE5KMmxCYTZSX0ZnOW9zTktMMWwwY0VZZXJtV0x3MTRoR21RYm1QWi1MVmNQcWwzRVhZMUc0dEd4TmlTR21aV0N5NjFndlMyQ3dOZjB2YmVMdw?oc=5",
+      "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tài sản công: Kinh doanh bất động sản cho thuê không còn là “bài toán dễ” - Tài sản công. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "ec9b66c63c7da83ff8",
+      "topic": "rental",
+      "title": "Cư dân HH Linh Đàm lo chuyện ‘cắt ngọn’ chung cư; siết cho thuê căn hộ theo ngày - Báo VietNamNet",
+      "source": "Báo VietNamNet",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNN1Q0NVhGTnhzVmpoVGhGRF8zNFFNM09xYXFVSlZydjFYWUZGdHRRZGRCQjFRd0F2eE1wblNnaGFDS19hWm5LY1IyV1A3SmtwU1BUaklPM3Nld18xaXJ5ZXJ2ZVhlcXRZN3VYRUlOR2c2cndTT0RmSWZ4Z0k3YTd6RDdfSnl4c0pIcVdRb2I2djcycldlMVJfT1otNzZOdDd6cDBwVGF3LUV2bnlYei0zMGlB?oc=5",
+      "published": "Sun, 20 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo VietNamNet: Cư dân HH Linh Đàm lo chuyện ‘cắt ngọn’ chung cư; siết cho thuê căn hộ theo ngày - Báo VietNamNet. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "e196a2452b7e03b192",
+      "topic": "rental",
+      "title": "Giá bất động sản Hà Nội đồng loạt điều chỉnh: Đất nền giảm 14%, chung cư về 83 triệu đồng/m2 - nguoiquansat.vn",
+      "source": "nguoiquansat.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTTNsM3NfbGIyX3lkeVBNZ1RWYV9LYVR1YjVMWktabDQ3RVFTYXVLcnFZakptUVQyNWMyS0NPWlZ5MmQ2c3g0WTJnOGkxcXFFQkMzY3B2WGFPV1AtS3o1NEMwbHE3bTRPam5QbGVfdW5jZzhuWTM2YzBuNzd2VlYtZGJubUhJUUN2dHJkb2wxalVYNkZrX01iTjBUUmJyV3hnLWpIY1VWa25ONW91VjhudnVDME1SVDJBeEhFOHk0dGM4ZzQ?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ nguoiquansat.vn: Giá bất động sản Hà Nội đồng loạt điều chỉnh: Đất nền giảm 14%, chung cư về 83 triệu đồng/m2 - nguoiquansat.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "b0b37df60e39ff41ef",
+      "topic": "rental",
+      "title": "18 kiến nghị nhà đất chưa được chấp thuận của HoREA có gì đáng chú ý? - Fili.vn",
+      "source": "Fili.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNelBVS1RQc2ttQmd5ZEo5WDE3TXFLS2xFV3hJeTREZmtzNlRiTFhXNzIwOENDaTVEQVhsY0ZIbkVuZVBWalNJRndJaktmU2drLXlJbHgtN2lvWXU0NlNhZWlhMXpQY1NJdGc3ZkQtYzZ0UC11dGpJa0VqdTBqWGtoaDRDYWV4ZDlnSzFHdWRoMVlUQVlpdUNuMm5nTDhobENqQzk3WnFidzJFXzJEZlE?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Fili.vn: 18 kiến nghị nhà đất chưa được chấp thuận của HoREA có gì đáng chú ý? - Fili.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "1eb39ef0b14483d506",
+      "topic": "rental",
+      "title": "3.700 căn hộ tái định cư bỏ không ở Thủ Thiêm kỳ vọng được Luật phát triển đô thị tháo gỡ - Tuổi Trẻ",
+      "source": "Tuổi Trẻ",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORmE1am5YdHRCYmJSTTI4MnFlUjdRbTJDODB5blUzc3VXLVhrd2pKT014R3lFczBMeEZ2cFF1YUg3alVCOFA3bk1EdXR1bnNaVWlsd2lFM3FzVDBwWG1NMjF6bWd2b0VRdWdWSF8zZVVLSlBBa0dXOWlfcmpFdEpOcGtVa0pqRk54YUhBWjYwLUV4S1I5ZGRHSU1lUktlaFc1bXVUUmZqcEhpbFhLYWxDTFF5TkVmaUtPQVh3?oc=5",
+      "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tuổi Trẻ: 3.700 căn hộ tái định cư bỏ không ở Thủ Thiêm kỳ vọng được Luật phát triển đô thị tháo gỡ - Tuổi Trẻ. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "11666a6399662932cf",
+      "topic": "rental",
+      "title": "Tâm lý “phòng thủ” vẫn bao trùm thị trường địa ốc - Tài sản công",
+      "source": "Tài sản công",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdHNWRkNjUmxzdG5id2VMZ2F4NzZxMVl5Y1UwVUI2OXZKM2xkZml4Y1pTTWNTSGhlSk9fWDdxR2FjSXpjMlltU1JOZmV0UUpXMFpyQUxXS2xBbXlNSGZoWEphNXJyYWlfMkFhaFZHQ3dIOUoyWHBQb0JwN01WZTZmeHhqeUZfeHpSU0pKeVVyZVk?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tài sản công: Tâm lý “phòng thủ” vẫn bao trùm thị trường địa ốc - Tài sản công. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "768701911d092ba36f",
+      "topic": "rental",
+      "title": "Không mua nổi nhà, thà làm “công chúa phòng trọ”: Thoát cảnh gánh nợ hàng chục năm, có tiền thì thuê nhà xịn - CafeBiz",
+      "source": "CafeBiz",
+      "source_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNT2FYX3RBRVZzNGhoOW9IT3J4N0g2aFNDSlNzZFB2UmlUWTJsaVhZVFdxZzg2QS15Zkh3eGRIOFcxVl9DS00xdnd4TDV2bFVEVkgyQlV2ME92MUlRTkJ4VEFKbHlZZmRqRWh2NUJOU05id0R1Q25Vd3FnellHZVROOXRqa2lKV0xPclhFWGpIa1pnRlFvVFRyUEx4RlBXNU43NnpXV0ZhbC0wV2h3ZmlMTS0wa1hxWkp4bmJ3R0dtT3BpMzNnVzQ2Vlg2VUk3b0FsX1FlNHJodUpjYTZTeFE?oc=5",
+      "published": "Wed, 30 Sep 2026 09:45:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeBiz: Không mua nổi nhà, thà làm “công chúa phòng trọ”: Thoát cảnh gánh nợ hàng chục năm, có tiền thì thuê nhà xịn - CafeBiz. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "ac76386643df8dda71",
+      "topic": "rental",
+      "title": "TP.HCM thu hồi căn hộ thuộc tài sản công tại 6 lô Cư xá Thanh Đa - An ninh Tiền tệ",
+      "source": "An ninh Tiền tệ",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbVZSNHRoeHBzdzd3VElVM3hMc1o0bE1uWUlJbjVLVU9DMngzakpQQXVMbVVZQmpodUgxSzNkMExnZlloMzNOcEJtNUxidGlEZEZvTVNpWTJMcFJHYmM2YVNNa0o0WFZiY0xUc3ZqZ1pBOW1yRTBTVnBTRmZ1Y19FQkFRNWlYNzhQRXJlay1DZ2RteWFrckVvXzF4UktmMlZ5MFg2QUF4bmtPTkhQc3VLVU5zU1c?oc=5",
+      "published": "Sun, 27 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ An ninh Tiền tệ: TP.HCM thu hồi căn hộ thuộc tài sản công tại 6 lô Cư xá Thanh Đa - An ninh Tiền tệ. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "f4dd5e2cb2e0644176",
+      "topic": "rental",
+      "title": "Ngày 29/10/2026, đấu giá các quyền sử dụng đất và Căn hộ tại TP.HCM - Báo Đấu thầu",
+      "source": "Báo Đấu thầu",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMlFjQkJRNk56REhWblgwVjhGLVFMaElNMzlTLW5wZ2JuZTd6anp2MFpHWW9CWTlVYmpKVjZ6SUlZOU9yLXp1ZHdtcGRVdXhCdWZnaTQwMDJkSkZMMjB3RGpkaDRORXZZVEhWQUJ2UUdtVGhjYnVFTkh3YjdrSzJjV1BiQmRWdUQwT2lEYjFieGpXT2xVeHlRU2NnaVhaWHdqZFdN?oc=5",
+      "published": "Mon, 21 Sep 2026 03:44:09 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Đấu thầu: Ngày 29/10/2026, đấu giá các quyền sử dụng đất và Căn hộ tại TP.HCM - Báo Đấu thầu. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "0ee8d101712883d4b1",
+      "topic": "rental",
+      "title": "TP HCM dừng tính thuế loạt căn hộ nhà ở xã hội - VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX2ZYREJsNGRwQkMyTjU1WlZZemI5c2tSNWhZeHA3Z1F0a1RLSENVQWJGNURDMEdIb01tNnpqSVY0ZDNWdGFNa3Y5dlI4ajJtQ0ZJNU5PNzJFeGFITEdwNGRscWlUQ2djVzBQYXF1Y1lMVGxhWG1VZ2p3bURoZ0gtR2szSlF4TzN0?oc=5",
+      "published": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VnExpress: TP HCM dừng tính thuế loạt căn hộ nhà ở xã hội - VnExpress. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "1bb9f5f21ff30b2cba",
+      "topic": "rental",
+      "title": "The Sóng: Lợi thế của căn hộ du lịch đã vận hành - Báo Xây dựng",
+      "source": "Báo Xây dựng",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWkZYb3lPRFktcXEtRmtzaDBKdUpBTmIzVkx4Vk9zSkt0b19uZG9DZWgyZ2dOYjJuQW1ncW5MSXY0bVZ6eHgxVENzQmVpdUo1WmNBOWZiR1BUSXZDV3ZLNzNYWjR4R0hMNXktSU1YTGQ1V0xmUnV2MHpTNWNrT25PemEtdVlHTS11dVBwM0RyOWlPUzlueUQ0?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Xây dựng: The Sóng: Lợi thế của căn hộ du lịch đã vận hành - Báo Xây dựng. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "0494008d47e43507fe",
+      "topic": "rental",
+      "title": "Phạt Công ty Lý Khương 900 triệu đồng vì bán sai phép 682 căn hộ - Thanh Niên",
+      "source": "Thanh Niên",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeEUzb3VLRHNOVkc1Zjc1eWhhWkxqa205cElTdUFheThOcGs5SktmUVpwVExGS0VrWDJGajR3X1l4Wk4wWndqeXNtSUNNeElYcW9hVnZZU2lDQ05RRjYwbGp6akw5VTlEZzJ5dF9IWUprS2lTSHNjTlBabVRrRk44QWIzQW1tdmtmSjV0MnNTem5RTHI3clFpSzNrSWxyUGhldlBod3RZMmdZb3FV?oc=5",
+      "published": "Sun, 27 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Thanh Niên: Phạt Công ty Lý Khương 900 triệu đồng vì bán sai phép 682 căn hộ - Thanh Niên. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "a85ff33dd4b23b279b",
+      "topic": "rental",
+      "title": "TP.HCM giao đất thực hiện dự án Rita Võ tại đường Nguyễn Văn Cừ - CafeLand",
+      "source": "CafeLand",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSEZVdml6aHFxdTBYblVTNzBpLWVwWHU5YmRreWoydENXU1NsYTZJelV6S2xyZnJwTDBlcS1PQWVLNWdYSmtlc2x3dVJVRkRDVXduT1JlTXdkR0w2M29XQnM2eDY3TnB3eTR2blJnbzNyRDF0V0NRTzVkU1pEUFJ6bWJvNWdySFZhb2JTSEZWOEVZdmhNRmxGSV9FbmJINl9ZeExxRw?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeLand: TP.HCM giao đất thực hiện dự án Rita Võ tại đường Nguyễn Văn Cừ - CafeLand. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "b70f98046994071232",
+      "topic": "rental",
+      "title": "Bán sai phép 682 căn hộ Dream Home Riverside, Công ty Lý Khương bị phạt 900 triệu đồng - Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNS1E5c3N1T2lYcEZFNW5oWW50cldyTGhKeUJBQWRnZGtORXNZZklENnotWmVzWVp0QVpWX1I2cl9KLUlzVm0tRkhzMTFYV1VlUlNJamFXMzRMQXh6LVZ3N0V4LW94djJ2MjFxLUJBODgxeXdwZkJfMnVqd0h1Y1lnVmRiR29saGZWd2pRU05pZVJYYXhoYXpEamxKZUJRZ3lWWnNpSXMzdW03c3VFeFlLRW1BZnYwcE0zU1dLaVpZOG9uR0RFMmlEajZxbUU5UTJZVzhST2dNZi0zZw?oc=5",
+      "published": "Sat, 26 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Dân trí: Bán sai phép 682 căn hộ Dream Home Riverside, Công ty Lý Khương bị phạt 900 triệu đồng - Báo Dân trí. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "5a56364d883a0fec47",
+      "topic": "rental",
+      "title": "Dịch vụ công ở TP.HCM được đưa đến tận khu phố phục vụ người dân - Thanh Niên",
+      "source": "Thanh Niên",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONnNQOEpEa2dWXzBjZmJXU3hiY2RKa1JZcURGemFPSEZpd3N3dWJTb3F2OFZZOVlCTUEtelowV21fWmpuUFdYMnAzb0dCcTFkQ3NaUmtLa2ZUX0xiLWNBYmlCNkI0ekxpcUp1eUN3cF9ZUjlNSW1SbS1UT1hOVVc3dGxzM0F0bTZPNURQMmRkVUllOVliLWZKRnZQSTRBWVlXejBqZnFieVhGUHM?oc=5",
+      "published": "Sun, 20 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Thanh Niên: Dịch vụ công ở TP.HCM được đưa đến tận khu phố phục vụ người dân - Thanh Niên. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "2772ffabcb7667bd35",
+      "topic": "rental",
+      "title": "Bất động sản cho thuê hiện ra sao? - Vietstock",
+      "source": "Vietstock",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUjl1ejdySk1aMk84aEJtNUp0T3NabWdzOUFXQnhYVkRRSzRPcFJuVnZvWURnQUkzMnBSbDJGNXhoREpQa3lvTXBPV0k5UDVzYWJzRjFqYTVJaEZzVXIzelZRdXRMY1dSc2ZxNGRQSGtROVNDUWk1QzJwU0psR0tzMG5vWkFIUQ?oc=5",
+      "published": "Sun, 27 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Vietstock: Bất động sản cho thuê hiện ra sao? - Vietstock. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "41b0a4d358250f0576",
+      "topic": "rental",
+      "title": "Nghị quyết 21: Quyền lợi người mua chung cư được bảo đảm, thị trường bất động sản hướng tới giá trị thực - Fili.vn",
+      "source": "Fili.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbnNreGhEMnhzdjZWSENETVowNDZKZ1FjemRJcVNCTkJFQjVrdmJuTjRDRlA2a0ZaNkdndGhiZEktSGc3am96a2wzRno0Skg5NVFZdFp5MWxwcngwT0FiYzBjdER0YjgxUlN2Z0lJamljRW9UWU44TmJlMENyR3pTeFJNTHhwV2tJOGhFNUxMWkQ5T3ZyaXlLVzlsVlBWU21Ka1VPQ3gwVGIyelIzbUQzdnFXNkhWU3NRYnhWWTlVbjQyT2VTWXBaQVZjRjZRLTh6N3JRQUxEUjBnOHc?oc=5",
+      "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Fili.vn: Nghị quyết 21: Quyền lợi người mua chung cư được bảo đảm, thị trường bất động sản hướng tới giá trị thực - Fili.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "1c3ebc32a775835f44",
+      "topic": "rental",
+      "title": "Loạt lợi thế tối ưu hóa tỷ suất lợi nhuận của Khải Hoàn Prime - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX2lXRUpzVk5DbWxGTS1WRm9jWHM4b1RwNXA2RlY1RE9OWWRDVXl6RHBEV1ppV2lwakRQdGtudjBCVnpCZ2JTTDlTY1RxU2gtYXlGb1NfSlAwMUJ4NGl3NFZtNlJIRlQwZVJBeXRvQkpWcU5LSGRPY1diVkVOTGRBSGRqY0VsTmF2dHFLZFlta2syN0FPVXhqNXhhajkzX3NYeEZR?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Loạt lợi thế tối ưu hóa tỷ suất lợi nhuận của Khải Hoàn Prime - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "84a2dd1e7bee5aea3d",
+      "topic": "rental",
+      "title": "Căn hộ ven sông Hàn hưởng lợi từ chính sách hút cư dân quốc tế - VnExpress",
+      "source": "VnExpress",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbDQ1Z0FZVzBTYVlrOTFVN3pTZzhXWm5WXzVXakJMTmpPOV93OGVpdW16WC1GbDJtdEFQaWNaYUU1SmVQM0R4MFh4ZFBLUzBmWXRITjBsVW9ac0llSWF3SHVFcWx2T0NZRXRJZ0l4cHdIMUNtcURtcDJYRmhwR1hCWkJLOVRPODg4V1JodkpGQmZpa0o3OGdlS0xPaXM4Zw?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VnExpress: Căn hộ ven sông Hàn hưởng lợi từ chính sách hút cư dân quốc tế - VnExpress. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "776a0ea01fd8205b71",
+      "topic": "rental",
+      "title": "Tỷ lệ 60% studio tại The Fest: Airbnb hoàn hảo cho nhà đầu tư sành sỏi - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVEJCN3ExYVYtZkU0NVRmdGpUd1ZXMjBRcXVuMlZsTG96YkdHYmRkSk9hTTRfMWV3ODFCWmhwVTBXUjUyc3hIbDYtX256eVZSU0llWnJqN2NOUEJEOHpqODExaUVtd2NlWW1LaHVmWXEtR2NBbDlCaFhlVkY2YVJudUxSdFk3b25YQTZzd01JY1ZIYzdoeGpubVJlUG92dnBYZ0JxZHNISHA1NlRo?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Tỷ lệ 60% studio tại The Fest: Airbnb hoàn hảo cho nhà đầu tư sành sỏi - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "5d0724358a62e52d1a",
+      "topic": "rental",
+      "title": "Phát hiện chàng trai SN 1996 sở hữu 9 căn nhà trị giá 294 tỷ đồng - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOd1R0TkRHSjZrcW1ueTB3QlE5MzkzcDJOODlQczFLUXpySXVvOE9ZQ25fNmN2Y3VMVUFEUDF2R2lGZTJMNk5GdVpyOXkxY0diUTZXU0oyVGdJU2kxSzFOT2NlcUk3MGp3ZGF1MzFJRFR3REQtQS1YLTFHSkEyMW1aQ1RuWlZDUGJKc2JwbVNyaHl0T0w0UkJOeEFQQktOclpUNHptSTgwMHE?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Phát hiện chàng trai SN 1996 sở hữu 9 căn nhà trị giá 294 tỷ đồng - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "2f3e152225db691555",
+      "topic": "rental",
+      "title": "Thấy gì từ việc hơn 12.000 người cạnh tranh suất mua 750 căn nhà ở xã hội? - Báo Dân trí",
+      "source": "Báo Dân trí",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMDhwdkREV1hPY2g1UUFXVk42cjYyeVA5N2xRanpGZE9RaHJTcEQ5c1pGbXBoZzBnODRJSXh2NTlzVGtGZExmU3djWWJOR2xyUnRDNUh0SWpkZVpNLWNuQy1uYzE4ZU0zeWpPTXktVUh5ZGZQTFNYWnN2WUlxdHNwYlVmWnllaTA1dGg1MGJwcXFITmRlR3FUeUx1WEtQWnMzYTdldm13RlFCazA0dzZqNWloenVKbkNFRDJCVWszcWlwZW10VEYxTQ?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Dân trí: Thấy gì từ việc hơn 12.000 người cạnh tranh suất mua 750 căn nhà ở xã hội? - Báo Dân trí. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "f66985e5e0e40b43fe",
+      "topic": "rental",
+      "title": "Mua nhà xinh, rinh Mazda CX-3 từ Seaholdings - baodautu",
+      "source": "baodautu",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSFdIeUY5MEYwRWR3YkN5Vk52S1JqSG5qNXlOSzNYbmpKN1g2WUlOSU4yZEZ3bld4T1QyUnZMLUZVRnN4ZVN1cmUxYzBDQXpxUk5YZXZSV3F5OVJ5ZmlKazRsSXRFRFFpQWN6cWZUV3pteEFPMkVJNVVqY2YybGoxdUF3?oc=5",
+      "published": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ baodautu: Mua nhà xinh, rinh Mazda CX-3 từ Seaholdings - baodautu. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "23e6dda8cae97fb472",
+      "topic": "rental",
+      "title": "Doanh nghiệp chủ động tung chính sách “khủng” thời khó, cơ hội “khó lặp lại” cho người mua - Nhịp sống kinh doanh",
+      "source": "Nhịp sống kinh doanh",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdUZ1NHFIVktscEo3WTBlem1xX2pneDdVcy1aYkxsZnhzT0l2cDc0ZFVrM0tZOVczN21lWTRpYnUzZ18yVTlZNXl2VlR2UWdnTVJIWWlva0JUUnpNb0VvbS1nY0ZJM0dlWFZwTTBGcFF4cURtNGhvS2I0WWtHZ2poMjVQbXl1TVN1M2lvdE1lN1lkQ3kxZGhVYkdVanh4YWVMdG1TOVVuVXJsUkoxZERsbnNMVkFqcG8wZnhBUi1VVW9hS3QzSlgwYg?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Nhịp sống kinh doanh: Doanh nghiệp chủ động tung chính sách “khủng” thời khó, cơ hội “khó lặp lại” cho người mua - Nhịp sống kinh doanh. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "e24617dffcc086cadc",
+      "topic": "rental",
+      "title": "Dự án nào ven sông Hàn chiếm lợi thế khi các chuyên gia quốc tế đổ về Đà Nẵng? - Báo Điện tử An ninh Thủ đô",
+      "source": "Báo Điện tử An ninh Thủ đô",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRHF5VktXR1RIQkRlM1NTdjdQbTRJMmxJWnRSaWl0VHBhSnpPdWhoX0RyY19TbnYxLW9tVnp4NUFoS3paMFBjSzhDWTJIWDk0M3ZTYjM2eU9TYXZ0dmV0blp4MEtsMFBHbXlnR2t1X3NUQTJQRjVIbnZXOU01OF91V0NIenBqdWFjY0ZvU25oMnVZMnV6bmdiSTdNbkpQd0N0N2J0SHp1WXdJU1RjWkdicUlyZ3Rtc0U?oc=5",
+      "published": "Sun, 20 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Điện tử An ninh Thủ đô: Dự án nào ven sông Hàn chiếm lợi thế khi các chuyên gia quốc tế đổ về Đà Nẵng? - Báo Điện tử An ninh Thủ đô. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "a648bced87a73bb908",
+      "topic": "rental",
+      "title": "Dự án cao cấp “án binh bất động”, nhà ở vừa túi tiền giữ sóng thanh khoản - Vietnam.vn",
+      "source": "Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVmlYYUpycTJoYUFRYlI4NW4yeUNheXpuRVV2cklNYV9jbjBfZmdscEtCN0R5eXhHM3k1WEZUQ24xMXByZWRSNkUyOTZzbXJnRjRZNTQtekF3U1hGbGZPOGl6UlVucllycmd0UG5hZGhvRFdyeEdxY0RZR1V6T2J0bElCMVEtZnZCWGoyUHhLNFlYNWo0dURrTQ?oc=5",
+      "published": "Sat, 19 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Vietnam.vn: Dự án cao cấp “án binh bất động”, nhà ở vừa túi tiền giữ sóng thanh khoản - Vietnam.vn. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "d0511a0db5e7a84165",
+      "topic": "rental",
+      "title": "Giải mã sức hút của \"tọa độ\" cho thuê bất động sản đắt đỏ bậc nhất Hà Nội - VOV.VN",
+      "source": "VOV.VN",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRHFuYzYwUGlRU3BORVl5VTltM0dyNHJnbXhvbS15MlBxdHlzeHUycEdheTA5U2duaVozVlI2NkZ2MEhxaHdLZUF6SGJKak5sRGc0Q1JyX1QxeGh1Y1d4OThsd0JpRDlGemUyYWp0NkllNEVET0JJbW5IM2FGV0k4Um5KYUpqMm4tY09WSWdJcVRpUm1POGJmOHcxT2NfZENlazA2QTJnRGs2akpzcWI2eUZ3X3NsRlQzYkswa1E0cE4?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VOV.VN: Giải mã sức hút của \"tọa độ\" cho thuê bất động sản đắt đỏ bậc nhất Hà Nội - VOV.VN. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "52f27b772156a3ed6a",
+      "topic": "rental",
+      "title": "Thu hút FDI và sự chuyển động của thị trường bất động sản khu công nghiệp - VnEconomy",
+      "source": "VnEconomy",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdGZKYjVXNDNBRHZaX25MMlA4YWNMYlo2VVFtenpqMFNKWmhPX29rQXozU0NuMHJMcTBmeFF4bG1PLXNhYjVwTUxBWTliWEZMRkktVkxsU095cDNvcVVwcWQ5VTZ1UXhwU0RvdzRidHdRMmk3eFFmQU05aFFtY0g3U3BMeWRTSFV6TWRST2dWaDJqaFFOYjFJamh4TnlZWjQ?oc=5",
+      "published": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ VnEconomy: Thu hút FDI và sự chuyển động của thị trường bất động sản khu công nghiệp - VnEconomy. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "ce14c7e4257a22c625",
+      "topic": "rental",
+      "title": "Phát triển thị trường bất động sản du lịch, nghỉ dưỡng: 7 khoảng trống pháp lý cần được hoàn thiện - Báo Diễn đàn Doanh nghiệp",
+      "source": "Báo Diễn đàn Doanh nghiệp",
+      "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQY3phZ2ZwYUJSYVNqUURPTk9xdV9nb3pjZmVwS1l1SDA5SmZkcTB6dGtEdW53a3F0d3ltVUhYZUkyMGxEYm13dDU3SUVlSW1GYjdYVFdjMnE1M09MZUN2ZXh5Tm55MWd6bUhfY18ySHhha2ZfNHA1V0dibXlLbXYzcEdDM1NXNll6a2t6MHhTbU9jeDh2QVd0bUhQMlFDcFp3a0JBX2k1RU9sTDZGcnkyVlpZOGJJSmFSb0JWZnR3WGJkRm1FWDE4QkpwZFlDSHctbEdRZ1RxVQ?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Báo Diễn đàn Doanh nghiệp: Phát triển thị trường bất động sản du lịch, nghỉ dưỡng: 7 khoảng trống pháp lý cần được hoàn thiện - Báo Diễn đàn Doanh nghiệp. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "8ab2f15f73c9ec8a12",
+      "topic": "rental",
+      "title": "Bất động sản cho thuê hiện ra sao? - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE95V2JoTEN4ZVo0Q2d2eXR2OGVEdGw4Y0pJMWw0UDBUOWN0cDlzblBJa1o3YzhmOG03MnRTVVJVR0pwVm1LRkVBM2NCWk9rT3JvQVdXRDdSNTB6d1NtSmNrdUlKSkFsalU4ckRGcmEyazQ1Njl0SmZFR3JHRHBYQQ?oc=5",
+      "published": "Sun, 27 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Bất động sản cho thuê hiện ra sao? - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "15f2614a30cb6410c6",
+      "topic": "rental",
+      "title": "Giữa biến động thị trường, đâu là giá trị thực của bất động sản? - Znews",
+      "source": "Znews",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQVhrQXgxYXlHNXJfV01jc0V5a0R2S2pvVVUwREVVVExMb3ZaanBRdWJzZmQ2RVdNc0x0aEliU1plWHlBRWZObURJdENaQlp2X1h3cHZNOHBFWVNUZ3c2aUh5YmJpWlBBTzlTd3UtY3V5N005akdFQU9VUmZpUHUyeUNoSXdZWUQ1ZmN3QWZKWUN1cFRtZG9TSTBmdTg?oc=5",
+      "published": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Znews: Giữa biến động thị trường, đâu là giá trị thực của bất động sản? - Znews. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "2c13c6c1326f60df57",
+      "topic": "rental",
+      "title": "TS Nguyễn Văn Đính: Thị trường bất động sản sẽ chuyển từ 'giá kỳ vọng' sang 'giá trị thực' - Mekong ASEAN",
+      "source": "Mekong ASEAN",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVjByNUFndmJOWGNqbTUwaUNBWXZSLUhLbnBuVlpoQzBxbFcxMjA3dTRqbU8zZHY3NW5DaVdwSDdzM055MXBWUE1NV2pJb3I2LU90WE1IVm1xZlBvTzYyaGRsWWNuUE40UFRLMWpKNERwbFNfY3BUaXZ5MW91MGZDY1pBc1F5dEhSN2I3S3haeXpsX3FOVVA0UmZYWTcydGZFbE01US1scTAwaHg2dnNSOWw0YXZnODk0bExR?oc=5",
+      "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Mekong ASEAN: TS Nguyễn Văn Đính: Thị trường bất động sản sẽ chuyển từ 'giá kỳ vọng' sang 'giá trị thực' - Mekong ASEAN. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "fda44a0fe4e7b6789d",
+      "topic": "rental",
+      "title": "Ưu thế bất động sản dòng tiền khi thuộc hệ sinh thái đã vận hành - baodautu",
+      "source": "baodautu",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaHNla2h2bmNFdEN1WjNBaDQ0bWlUbUlKdnYwbHY1Yk42Zld4cmhtRlBtbC1jLU5YR1NnYmN6OU5hMzRSQ1lLRzVhN1poeEoxbVhaTmJYdFM2Wmp4QnYzRzk5NHdtQkZmZVN0YWgxdjFfcU9DYlBhMkpRQzdqdDFQeEtrR2hPbndXcVRPazlsMjUtc0pYOWhKUjFrM3YxZw?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ baodautu: Ưu thế bất động sản dòng tiền khi thuộc hệ sinh thái đã vận hành - baodautu. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "b5afa7e9067b10d40a",
+      "topic": "rental",
+      "title": "Bất động sản đối mặt “bài toán kép” - Tạp chí Tài chính Doanh nghiệp",
+      "source": "Tạp chí Tài chính Doanh nghiệp",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVEdrMTdpREV5WEdJbFdYS1NOMEctUG5WQmJTNi13UTdKMWFpREMtTVUxbUktUE9CQkowVUZ1Um5ycnU5djdWY3ktRzJhTkRTWjd3OGRBeHVpeDQyd1AyNVBhMEhiam1xa3M0Qk96UmxlT0w1Yldzd2JvM0l0aWVnOVhTMTdFWFU?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ Tạp chí Tài chính Doanh nghiệp: Bất động sản đối mặt “bài toán kép” - Tạp chí Tài chính Doanh nghiệp. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    },
+    {
+      "id": "39747f1b47f86b27d8",
+      "topic": "rental",
+      "title": "Doanh nghiệp chủ động tung chính sách “khủng” thời khó, cơ hội “khó lặp lại” cho người mua - CafeF",
+      "source": "CafeF",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUUFFU0Q3aTBOTnd0dHg2NTdxRTAtbXpFLU9UdHRXZGtwNkpmVTRHd1BKS0RtdWpLR3NlQ1BTeXplVlJ2dUkySkhQMUFZcUZMMUFvejFnbTREVW5PbEtUZ0dpQ2dIcTFKRUxIQ3Jnc09JV0pjb0RkNm9ZQUdVN0pKMFgwZGhnWTN0MmprRkF1ODl4Y05fTVNEaUloRTZzNjlVdU5BNmVILTd3dlE3MW80VmJhdF9IcVNidFMydlRla29OcEE?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "brief": "Theo tin được tổng hợp từ CafeF: Doanh nghiệp chủ động tung chính sách “khủng” thời khó, cơ hội “khó lặp lại” cho người mua - CafeF. QiMap ghi nhận để theo dõi thị trường; thông tin chưa được xác minh độc lập.",
+      "status": "NEWS_AGGREGATED"
+    }
+  ]
+}
