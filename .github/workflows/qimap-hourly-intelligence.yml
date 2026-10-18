@@ -8,6 +8,8 @@ on:
     paths:
       - 'scripts/qimap-hourly.py'
       - 'tests/test_qimap_hourly.py'
+      - 'tests/test_source_candidates.py'
+      - 'scripts/audit-source-candidates.py'
       - '.github/workflows/qimap-hourly-intelligence.yml'
 permissions:
   contents: read
@@ -24,7 +26,11 @@ jobs:
         with:
           python-version: '3.12'
       - name: Unit tests
-        run: python -m unittest discover -s tests -p 'test_qimap_hourly.py' -v
+        run: |
+          python -m unittest discover -s tests -p 'test_qimap_hourly.py' -v
+          python -m unittest discover -s tests -p 'test_source_candidates.py' -v
+      - name: Audit candidate sources
+        run: python scripts/audit-source-candidates.py --input data/feeds/source_candidates_v4.json --output artifacts/qimap-hourly/source-audit.json
       - name: Source registry and incremental discovery
         run: python scripts/qimap-hourly.py --registry data/feeds/source_registry.json --out artifacts/qimap-hourly
       - name: Summary
