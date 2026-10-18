@@ -1,0 +1,284 @@
+{
+  "schema_version": "qimap-p0-evidence-crosscheck-v1",
+  "as_of": "2026-10-18",
+  "base_main_sha": "2dc37230e00ac0f286138e601766b5706dbd3a3b",
+  "review_state": "REVIEW_ONLY",
+  "production_eligible": false,
+  "provenance_note": "Six pre-existing Nam Long candidate dossiers cross-checked with additional dated issuer documents. This is not six new legal projects; older EHome4 price candidates are carried forward without new-price delta.",
+  "dedupe_checked_against": [
+    "main@2dc3723",
+    "PR#77",
+    "PR#78",
+    "prior local Nam Long six dossier batch"
+  ],
+  "sources": [
+    {
+      "id": "NLG_AR2022",
+      "publisher": "Nam Long Group (HOSE:NLG)",
+      "title": "Annual Report 2022, Core Businesses p.19",
+      "url": "https://www.namlongvn.com/uploads/assets/files/NLG/2023/nlg-bctn-ar-220423-en.pdf",
+      "source_type": "ISSUER_ANNUAL_REPORT",
+      "report_period": "2022",
+      "published_at": null,
+      "publication_date_status": "NOT_CONFIRMED",
+      "extracted_location": "Printed page 19; PDF page 10 (1-indexed)",
+      "rights": "FACTUAL_CITATION_REFERENCE_ONLY; NO_BULK_LICENSE; NO_COPY_REHOST",
+      "review_note": "Text search confirmed; web screenshot fetch timed out, page visual verification pending."
+    },
+    {
+      "id": "NLG_2020_EHOME",
+      "publisher": "Nam Long Group (HOSE:NLG)",
+      "title": "Thông tin chi tiết những dự án EHome",
+      "url": "https://www.namlongvn.com/tin-tuc/2925-thong-tin-chi-tiet-nhung-du-an-ehome-cua-tap-doan-nam-long/",
+      "source_type": "ISSUER_RETROSPECTIVE",
+      "published_at": "2020-03-02",
+      "rights": "FACTUAL_CITATION_REFERENCE_ONLY; NO_BULK_LICENSE"
+    },
+    {
+      "id": "NLG_EHOME3_PAGE",
+      "publisher": "Nam Long Group",
+      "title": "EHome 3 project page",
+      "url": "https://www.namlongvn.com/khu-do-thi-nha-o/ehome-3/",
+      "source_type": "ISSUER_CURRENT_PROJECT_PAGE",
+      "published_at": null,
+      "rights": "FACTUAL_CITATION_REFERENCE_ONLY; NO_BULK_LICENSE"
+    },
+    {
+      "id": "NLG_BRIDGE_PAGE",
+      "publisher": "Nam Long Group",
+      "title": "The Bridgeview project page",
+      "url": "https://www.namlongvn.com/en/township-residential/the-bridgeview/",
+      "source_type": "ISSUER_CURRENT_PROJECT_PAGE",
+      "published_at": null,
+      "rights": "FACTUAL_CITATION_REFERENCE_ONLY; NO_BULK_LICENSE"
+    },
+    {
+      "id": "NLG_KIKYO_2016",
+      "publisher": "Nam Long Group",
+      "title": "Kikyo Residence partnership announcement",
+      "url": "https://www.namlongvn.com/tin-tuc/1332-nam-long-hose-nlg-tiep-tuc-cung-hankyu-realty-va-nishi-nippon-railroad-phat-trien-du-an-kikyo-residence-trung-tam-quan-9/",
+      "source_type": "ISSUER_PRESS_RELEASE",
+      "published_at": "2016-11-09",
+      "event_date": "2016-11-08",
+      "rights": "FACTUAL_CITATION_REFERENCE_ONLY; NO_BULK_LICENSE"
+    },
+    {
+      "id": "NLG_KIKYO_2018",
+      "publisher": "Nam Long Group",
+      "title": "Flora Kikyo handover announcement",
+      "url": "https://www.namlongvn.com/tin-tuc/2008-tap-doan-nam-long-ban-giao-du-an-flora-kikyo-som-hon-du-kien-3-thang/",
+      "source_type": "ISSUER_PRESS_RELEASE",
+      "published_at": "2018-08-07",
+      "event_date": "2018-07-29",
+      "rights": "FACTUAL_CITATION_REFERENCE_ONLY; NO_BULK_LICENSE"
+    },
+    {
+      "id": "NLG_EHOME4_2015",
+      "publisher": "Nam Long Group",
+      "title": "EHome 4 starting price announcement",
+      "url": "https://www.namlongvn.com/tin-tuc/108-du-an-ehome-4-nam-long-gia-chi-tu-450-trieu-dong/",
+      "source_type": "ISSUER_NEWS",
+      "published_at": "2015-12-03",
+      "rights": "FACTUAL_CITATION_REFERENCE_ONLY; NO_BULK_LICENSE"
+    },
+    {
+      "id": "VNEXPRESS_EHOME4_2014",
+      "publisher": "VnExpress",
+      "title": "Nam Long tiếp tục mở bán căn hộ EHome 4",
+      "url": "https://vnexpress.net/nam-long-tiep-tuc-mo-ban-can-ho-ehome-4-3075170.html",
+      "source_type": "PRESS",
+      "published_at": "2014-09-09",
+      "rights": "FACTUAL_CITATION_REFERENCE_ONLY; NO_BULK_LICENSE"
+    },
+    {
+      "id": "24H_EHOME4_2015",
+      "publisher": "24h.com.vn",
+      "title": "Căn hộ EHome 4 giá 475 triệu đồng",
+      "url": "https://www.24h.com.vn/tin-tai-chinh-nha-dat-bds/can-ho-ehome-4-gia-475-trieu-dong-day-song-thi-truong-bds-c679a716365.html",
+      "source_type": "PRESS",
+      "published_at": "2015-06-24",
+      "rights": "FACTUAL_CITATION_REFERENCE_ONLY; NO_BULK_LICENSE"
+    }
+  ],
+  "dossiers": [
+    {
+      "project_id": "hist-ehome1",
+      "name": "EHome 1",
+      "ar_2022_units": 312,
+      "source_ids": [
+        "NLG_AR2022",
+        "NLG_2020_EHOME"
+      ],
+      "issuer_history": "2008–2009 developer timeline (2020 retrospective)",
+      "unit_count_status": "ISSUER_CLAIM_NOT_LEGAL_CONFIRMATION"
+    },
+    {
+      "project_id": "hist-ehome2",
+      "name": "EHome 2",
+      "ar_2022_units": 604,
+      "source_ids": [
+        "NLG_AR2022",
+        "NLG_2020_EHOME"
+      ],
+      "hold": "600/604/621 units in historical references; validate tower schedule"
+    },
+    {
+      "project_id": "hist-ehome3",
+      "name": "EHome 3",
+      "ar_2022_units": 2398,
+      "source_ids": [
+        "NLG_AR2022",
+        "NLG_2020_EHOME",
+        "NLG_EHOME3_PAGE"
+      ],
+      "hold": "Official source inconsistency: 2022 annual report 2398, current site 2274, historical 2020 portfolio 2204. Street spelling Hồ Học Lãm versus Hồ Ngọc Lãm; do not fix pin."
+    },
+    {
+      "project_id": "hist-ehome4",
+      "name": "EHome 4",
+      "ar_2022_units": 1288,
+      "source_ids": [
+        "NLG_AR2022",
+        "NLG_2020_EHOME",
+        "NLG_EHOME4_2015"
+      ],
+      "hold": "2020 issuer article 2104 units versus annual report 1288; reconcile scope/phase; historical Bình Dương separate from 2026 TP.HCM boundary."
+    },
+    {
+      "project_id": "hist-thebridgeview",
+      "name": "The Bridgeview",
+      "ar_2022_units": 578,
+      "source_ids": [
+        "NLG_AR2022",
+        "NLG_BRIDGE_PAGE",
+        "NLG_2020_EHOME"
+      ],
+      "hold": "The Bridgeview marketed as Flora 578 units, EHome 5 historical 592 units: do not equate legal project identity or project scope."
+    },
+    {
+      "project_id": "hist-florakikyo",
+      "name": "Flora Kikyo",
+      "ar_2022_units": 234,
+      "source_ids": [
+        "NLG_AR2022",
+        "NLG_KIKYO_2016",
+        "NLG_KIKYO_2018"
+      ],
+      "timeline": [
+        {
+          "date": "2016-11-08",
+          "kind": "DEVELOPMENT_PARTNERSHIP_ANNOUNCED",
+          "not_apartment_presale": true
+        },
+        {
+          "date": "2018-07-29",
+          "kind": "DEVELOPER_REPORTED_HANDOVER",
+          "not_government_acceptance": true
+        }
+      ],
+      "hold": "Keep Kikyo Residence 5.3ha and wider residential area 17.5ha separate from 1-block apartment parcel"
+    }
+  ],
+  "price_observations": [
+    {
+      "project_id": "hist-ehome4",
+      "kind": "PRICE_ASKING",
+      "source_id": "VNEXPRESS_EHOME4_2014",
+      "source_publication_date": "2014-09-09",
+      "amount_vnd_from": 450000000,
+      "basis": "STARTING_PRICE_PER_TWO_BEDROOM_APARTMENT",
+      "area_sqm": null,
+      "area_basis": "NOT_SPECIFIED",
+      "vat_included": null,
+      "transaction_verified": false,
+      "prior_run_research": true
+    },
+    {
+      "project_id": "hist-ehome4",
+      "kind": "PRICE_ASKING",
+      "source_id": "24H_EHOME4_2015",
+      "source_publication_date": "2015-06-24",
+      "amount_vnd_from": 475000000,
+      "basis": "STARTING_PRICE_PER_TWO_BEDROOM_APARTMENT",
+      "area_sqm": null,
+      "area_basis": "NOT_SPECIFIED",
+      "vat_included": null,
+      "transaction_verified": false,
+      "prior_run_research": true
+    },
+    {
+      "project_id": "hist-ehome4",
+      "kind": "PRICE_ASKING",
+      "source_id": "NLG_EHOME4_2015",
+      "source_publication_date": "2015-12-03",
+      "amount_vnd_from": 450000000,
+      "basis": "STARTING_PRICE_PER_TWO_BEDROOM_APARTMENT",
+      "area_range_sqm": [
+        40,
+        43.5
+      ],
+      "area_basis": "NET_OR_GROSS_NOT_SPECIFIED",
+      "vat_included": null,
+      "transaction_verified": false,
+      "prior_run_research": true,
+      "warning": "Cannot infer exact area matching starting price or price trend"
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "EHOME3_UNIT_COUNT",
+      "claim_values": [
+        2204,
+        2274,
+        2398
+      ],
+      "status": "HOLD_UNTIL_ISSUER_PHASE_BREAKDOWN"
+    },
+    {
+      "field": "EHOME4_UNIT_COUNT",
+      "claim_values": [
+        1288,
+        2104
+      ],
+      "status": "HOLD_UNTIL_ISSUER_PHASE_BREAKDOWN"
+    },
+    {
+      "field": "BRIDGEVIEW_EHOME5_IDENTITY",
+      "claim_values": [
+        578,
+        592
+      ],
+      "status": "HOLD_SEPARATE_PROJECT_IDENTITIES"
+    },
+    {
+      "field": "EHOME2_UNIT_COUNT",
+      "claim_values": [
+        600,
+        604,
+        621
+      ],
+      "status": "HOLD_UNTIL_VERIFIED"
+    }
+  ],
+  "metrics_this_run": {
+    "dossiers_with_new_primary_source_crosslink": 6,
+    "new_unique_official_source_urls_relative_to_prior_local_batch": 1,
+    "new_verified_price_observations": 0,
+    "previous_price_candidates_copied_for_review": 3,
+    "new_verified_wgs84_coordinates": 0,
+    "transaction_verified": 0
+  },
+  "rights_queue": [
+    "Nam Long investor relations: unit counts by phase/tower and identity map for EHome5 vs The Bridgeview",
+    "Nam Long: historical EHome4 price sheet area basis, VAT and sales campaign effective date",
+    "All third-party listing providers: written authorization required for automated price feeds"
+  ],
+  "publish_gates": {
+    "coordinates": false,
+    "legal": false,
+    "prices": false,
+    "foreign_eligibility": false,
+    "feed_license": false
+  },
+  "license_policy": "Permitted: link and minimal cited facts for internal research; no asset redistribution or bulk extraction without documented license."
+}
