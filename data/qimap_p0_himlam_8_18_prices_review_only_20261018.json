@@ -308,7 +308,10 @@
       "url": "https://thesaigontimes.vn/saigontimes/thi-truong-can-ho-chay-dua-voi-lai-suat-0/",
       "publication_date": "2013-05-11",
       "interpretation": "11 May 2013 Hyco4 60-unit release, asking prices VND 1.2-2.0bn per apartment, size range 52-94 m2; 50% payment upfront marketing policy",
-      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_REPUBLICATION_NO_AUTHORIZED_FEED"
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_REPUBLICATION_NO_AUTHORIZED_FEED",
+      "access_status": "DIRECT_ARTICLE_READABLE_VERIFIED_2026-10-18",
+      "publication_date_verified": true,
+      "date_precision_note": "Article visibly published 19:09 on 2013-05-11; same calendar date as marketing event, dates separately substantiated by S33 advance notice."
     },
     {
       "id": "S30",
@@ -373,6 +376,34 @@
       "publication_date": "2013-12-10",
       "interpretation": "December 21 final 2013 tranche 30 block A units prices 1.4-2.2bn VND/apt",
       "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S37",
+      "publisher": "Bao Dau Tu Bat Dong San / Tin Nhanh Chung Khoan",
+      "source_role": "DATED_ISSUER_ATTRIBUTED_CONSTRUCTION_AND_SALES_PRESS",
+      "url": "https://www.tinnhanhchungkhoan.vn/du-an-him-lam-phu-an-quan-9-cat-noc-sau-gan-1-nam-thi-cong-post163749.html",
+      "publication_date": "2017-07-17",
+      "reported_event_date": "2017-07-10",
+      "interpretation": "Reports July 10 2017 topping out first tower; issuer-marketed 1.7-1.9bn VND per 69-71m2 two-bedroom unit, 1092 apartments as reported; formal acceptance not attached.",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_FEED"
+    },
+    {
+      "id": "S38",
+      "publisher": "Bao Dau Tu Bat Dong San / Tin Nhanh Chung Khoan",
+      "source_role": "DATED_JOURNALIST_MARKET_ESTIMATE",
+      "url": "https://www.tinnhanhchungkhoan.vn/gia-dat-nen-tphcm-lai-leo-thang-post201742.html",
+      "publication_date": "2018-12-04",
+      "interpretation": "Phu An estimated price now over 30m VND/m2, retrospectively approx 24m/m2 during 2017; no individual listings or transfer deeds verified.",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_FEED"
+    },
+    {
+      "id": "S39",
+      "publisher": "Bao Dau Tu Bat Dong San / Tin Nhanh Chung Khoan",
+      "source_role": "DATED_SECONDARY_MARKET_PRESS_ESTIMATE",
+      "url": "https://www.tinnhanhchungkhoan.vn/thi-truong-can-ho-tphcm-soi-dong-thi-truong-thu-cap-post225292.html",
+      "publication_date": "2019-11-22",
+      "interpretation": "Phu An reportedly 2.3-2.6bn VND/apartment for around 70m2 in secondary market, 1029 apartments claimed vs 1092 in 2017; Phu Dong delivery reported 2017. No specific verified transactions.",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_FEED"
     }
   ],
   "dossiers": [
@@ -535,12 +566,17 @@
         "S11",
         "S12",
         "S21",
-        "S24"
+        "S24",
+        "S37",
+        "S38",
+        "S39"
       ],
       "quality_holds": [
         "MANAGER_PORTFOLIO_2018_LAUNCH_VS_DATED_2017_SELLING",
         "DELIVERED_STATUS_NOT_ACCEPTANCE_CERTIFICATE",
-        "69_71_M2_2018_VS_68_71_M2_2017_AREA_RANGE_CHECK_NET_GROSS"
+        "69_71_M2_2018_VS_68_71_M2_2017_AREA_RANGE_CHECK_NET_GROSS",
+        "2017_PRESS_1092_APARTMENTS_VS_2019_PRESS_1029_APARTMENTS_REQUIRE_APPROVAL",
+        "2017_TOPPING_OUT_DATE_NOT_FORMAL_HANDOVER"
       ],
       "latitude": null,
       "longitude": null,
@@ -563,13 +599,15 @@
         "S13",
         "S15",
         "S24",
-        "S27"
+        "S27",
+        "S39"
       ],
       "quality_holds": [
         "ONE_21F_TOWER_400_APARTMENTS_BROKER_CLAIM",
         "CONTAINS_TOWNHOUSES_DO_NOT_ADD_TO_APARTMENT_COUNT",
         "2025_GEO_BOUNDARY_VERSION_REQUIRED",
-        "2016_PORTAL_400_UNITS_CORROBORATION_ONLY_OFFICIAL_APPROVAL_STILL_NEEDED"
+        "2016_PORTAL_400_UNITS_CORROBORATION_ONLY_OFFICIAL_APPROVAL_STILL_NEEDED",
+        "2019_PRESS_REPORTS_2017_HANDOVER_NOT_SIGNED_ACCEPTANCE"
       ],
       "latitude": null,
       "longitude": null,
@@ -601,7 +639,6 @@
       "quality_holds": [
         "HIM_LAM_NOT_ASSUME_LEGAL_DEVELOPER",
         "16_VS_17_STORIES_BROKER_COUNT_DIFFERENT",
-        "2013_SALES_EVENT_YEAR_ONLY_NO_PUBLICATION_DATE",
         "HYCO4_16_STORIES_2012_VS_17_STORIES_2013_NO_APPROVED_DRAWING",
         "HYCO4_EXPECTED_HANDOVER_Q2_2013_VS_Q3_2013_VS_RESIDENTS_NOV_2014_CONSTRUCTION_CONTINUES"
       ],
@@ -976,11 +1013,13 @@
       "corroborating_source_ids": [
         "S34"
       ],
-      "evidence_notes": "S29 redirect to inaccessible Tuoi Tre; S34 VietNamNet corroborates May 2013 price release.",
+      "evidence_notes": "S29 article directly readable with 2013-05-11 publication timestamp and 1.2-2bn VND range; S33 corroborates announced 11 May release. No executed contracts.",
       "review_state": "REVIEW_ONLY",
       "eligible_for_public_price_series": false,
       "independently_verified_transaction": false,
-      "authorized_feed": false
+      "authorized_feed": false,
+      "offer_event_date": "2013-05-11",
+      "date_precision_note": "Article publication 2013-05-11 and separately reported sales event 2013-05-11, verified in published page; not an individual executed sale."
     },
     {
       "id": "HL-PRICE-17",
@@ -1023,6 +1062,85 @@
       "rights": "REFERENCE_FACT_ONLY_NO_BULK_COPY",
       "review_state": "REVIEW_ONLY",
       "eligible_for_public_price_series": false
+    },
+    {
+      "observed_at_from_individual_listing": null,
+      "area_measurement_basis": "NET_GROSS_UNKNOWN",
+      "vat_basis": "UNSPECIFIED",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "REFERENCE_FACT_ONLY_NO_BULK_COPY",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false,
+      "id": "HL-PRICE-19",
+      "entity_id": "himlam-phu-an",
+      "publication_date": "2017-07-17",
+      "publisher_source_id": "S37",
+      "url": "https://www.tinnhanhchungkhoan.vn/du-an-him-lam-phu-an-quan-9-cat-noc-sau-gan-1-nam-thi-cong-post163749.html",
+      "price_type": "PRICE_ASKING",
+      "market_type": "PRIMARY_ISSUER_MARKETING",
+      "value_min_vnd": 1700000000,
+      "value_max_vnd": 1900000000,
+      "unit": "VND/apartment",
+      "price_basis": "2017 journalist report on developer-attributed marketing price for 2-bedroom apartments, not a closed transaction",
+      "unit_area_range_m2": [
+        69,
+        71
+      ],
+      "reference_period": "2017-07",
+      "evidence_notes": "Distinct 2017-07-17 snapshot, not the earlier S12 June release; exact matching of endpoints to unit layouts unproven"
+    },
+    {
+      "observed_at_from_individual_listing": null,
+      "area_measurement_basis": "NET_GROSS_UNKNOWN",
+      "vat_basis": "UNSPECIFIED",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "REFERENCE_FACT_ONLY_NO_BULK_COPY",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false,
+      "id": "HL-PRICE-20",
+      "entity_id": "himlam-phu-an",
+      "publication_date": "2018-12-04",
+      "publisher_source_id": "S38",
+      "url": "https://www.tinnhanhchungkhoan.vn/gia-dat-nen-tphcm-lai-leo-thang-post201742.html",
+      "price_type": "REPORT_ESTIMATE",
+      "market_type": "UNSPECIFIED_MARKET_SECONDARY_OR_RESALE",
+      "value_min_vnd": 30000000,
+      "value_max_vnd": null,
+      "lower_bound_exclusive": true,
+      "unit": "VND/m2",
+      "price_basis": "Journalist's indicated current market level OVER 30m VND/m2; not individual advertised unit, and no title/deed verification",
+      "unit_area_range_m2": null,
+      "reference_period": "2018-12",
+      "evidence_notes": "Open lower bound strictly >30m, no fabricated upper endpoint"
+    },
+    {
+      "observed_at_from_individual_listing": null,
+      "area_measurement_basis": "NET_GROSS_UNKNOWN",
+      "vat_basis": "UNSPECIFIED",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "REFERENCE_FACT_ONLY_NO_BULK_COPY",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false,
+      "id": "HL-PRICE-21",
+      "entity_id": "himlam-phu-an",
+      "publication_date": "2019-11-22",
+      "publisher_source_id": "S39",
+      "url": "https://www.tinnhanhchungkhoan.vn/thi-truong-can-ho-tphcm-soi-dong-thi-truong-thu-cap-post225292.html",
+      "price_type": "REPORT_ESTIMATE",
+      "market_type": "SECONDARY_MARKET_INDICATIVE",
+      "value_min_vnd": 2300000000,
+      "value_max_vnd": 2600000000,
+      "unit": "VND/apartment",
+      "price_basis": "Reported secondary-market price range, not documented deeds or closed transaction",
+      "unit_area_range_m2": [
+        70,
+        70
+      ],
+      "reference_period": "2019-11",
+      "evidence_notes": "Reporter says being traded in secondary market; no specific apartment listing, no executed contract, price per m2 not computed"
     }
   ],
   "historical_events": [
@@ -1190,6 +1308,35 @@
         "S30"
       ],
       "verification": "DATED_PRESS_RESIDENT_ACCOUNTS_NOT_FORMAL_COMPLETION"
+    },
+    {
+      "entity_id": "himlam-phu-an",
+      "event_date": "2017-07-10",
+      "event_type": "FIRST_TOWER_TOPPED_OUT_REPORTED",
+      "source_ids": [
+        "S37"
+      ],
+      "verification": "DATED_PRESS_EVENT_NOT_ACCEPTANCE_OR_COMPLETION"
+    },
+    {
+      "entity_id": "himlam-phu-an",
+      "event_date": "2018",
+      "event_date_precision": "YEAR_ONLY",
+      "event_type": "HANDOVER_PERIOD_REPORTED_2018_TO_EARLY_2019",
+      "source_ids": [
+        "S39"
+      ],
+      "verification": "DATED_2019_PRESS_RETROSPECTIVE_NOT_ACCEPTANCE_CERTIFICATE"
+    },
+    {
+      "entity_id": "himlam-phu-dong",
+      "event_date": "2017",
+      "event_date_precision": "YEAR_ONLY",
+      "event_type": "HANDOVER_YEAR_REPORTED_RETROSPECTIVELY",
+      "source_ids": [
+        "S39"
+      ],
+      "verification": "DATED_2019_PRESS_RETROSPECTIVE_NOT_ACCEPTANCE_CERTIFICATE"
     }
   ],
   "review_issues": [
@@ -1316,6 +1463,22 @@
       "residency_as_of_2014_11_05": "Press says some apartments occupied while other parts under construction",
       "contractor_page_undated": "Claims completion 2014",
       "action": "Do not equate marketing promise, customer possession, partial occupancy or contractor completion with official inspection / completion certification."
+    },
+    {
+      "issue": "HIM_LAM_PHU_AN_2017_1092_VS_2019_1029_APARTMENTS",
+      "claim_2017": "1092 apartments per S37",
+      "claim_2019": "1029 apartments per S39",
+      "action": "HOLD; require signed approved project/phase unit list; do not settle this conflict from news articles alone"
+    },
+    {
+      "issue": "HIM_LAM_PHU_AN_SECONDARY_2019_REPORTED_NOT_TRANSACTION",
+      "claim_2019": "2.3-2.6bn VND/apartment, about 70 m2 reported secondary",
+      "action": "REVIEW_ONLY REPORT_ESTIMATE; no verified transfers and no permissioned price feed"
+    },
+    {
+      "issue": "HIM_LAM_PHU_DONG_2017_HANDOVER_RETROSPECTIVE",
+      "claim_2019": "Press says handed over in 2017",
+      "action": "Request signed completion/acceptance documents and exact tower/date"
     }
   ],
   "access_and_rights_queue": [
@@ -1384,16 +1547,16 @@
   },
   "metrics": {
     "candidate_dossiers_in_bundle": 8,
-    "sources_in_bundle": 36,
-    "source_urls_unique": 36,
-    "price_observations_in_bundle": 18,
+    "sources_in_bundle": 39,
+    "source_urls_unique": 39,
+    "price_observations_in_bundle": 21,
     "price_counts_by_type": {
-      "PRICE_ASKING": 12,
-      "REPORT_ESTIMATE": 6
+      "REPORT_ESTIMATE": 8,
+      "PRICE_ASKING": 13
     },
-    "historical_events_in_bundle": 18,
-    "dossiers_receiving_new_sources_in_this_increment": 1,
-    "new_price_evidence_in_this_increment": 2,
+    "historical_events_in_bundle": 21,
+    "dossiers_receiving_new_sources_in_this_increment": 2,
+    "new_price_evidence_in_this_increment": 3,
     "new_wgs84_coordinates_in_this_increment": 0
   },
   "guardrails": {
@@ -1449,17 +1612,28 @@
     "rights": "Linked factual observation, not page reproduction; no authorized automated feed",
     "publication_policy": "REVIEW_ONLY, do not publish price, legal status, coordinate or foreign-ownership eligibility"
   },
-  "git_status_note": "Review-only evidence, GitHub publication status must be verified independently.",
+  "git_status_note": "2026-10-18 current P0 revision: article S29 publication date validated directly, 3 dated reference sources and 3 new historical asking/report estimates added, legal and prices remain review-only. Open a draft PR before any merge.",
   "current_turn_delta": {
-    "dated_price_sources_added": [
-      "S35",
-      "S36"
+    "source_ids_added": [
+      "S37",
+      "S38",
+      "S39"
     ],
-    "undated_article_event_corroboration": "S34",
     "new_price_ids": [
-      "HL-PRICE-17",
-      "HL-PRICE-18"
+      "HL-PRICE-19",
+      "HL-PRICE-20",
+      "HL-PRICE-21"
     ],
-    "prior_research_prices_carried_forward": 16
+    "dossiers_newly_enriched": [
+      "himlam-phu-an",
+      "himlam-phu-dong"
+    ],
+    "historical_events_added": 3,
+    "verified_existing_source_publication_dates": [
+      "S29"
+    ],
+    "wgs84_coordinates_verified": 0,
+    "production_changes": 0,
+    "publication_rights_granted": 0
   }
 }
