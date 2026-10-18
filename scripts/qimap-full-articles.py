@@ -24,8 +24,10 @@ def complete(article):
         for l in LANGS)
 
 def generate(item,token):
+    if not item.get("original_url") or not item.get("source_description"):
+        raise ValueError("publisher source URL and metadata required before rewrite")
     system=("You write ORIGINAL multilingual Vietnamese property market explainers for QiMap. "
-      "Only evidence about this specific news story is the source headline, publisher and date. "
+      "Only evidence about this specific news story is the publisher title, description, publisher and date. "
       "Never pretend you read the full article. Never invent numbers, quotes, legal approvals, prices or events. "
       "Distinguish the headline's claim from your general interpretation. "
       "Produce one complete coherent explainer in each of vi, en, zh-CN, zh-TW. "
@@ -35,7 +37,7 @@ def generate(item,token):
       "Do not copy the source headline verbatim as the article body. "
       "Return ONLY valid JSON: {languages:{vi:{title,description,body},en:{...},"
       "zh-CN:{...},zh-TW:{...}}}. Plain text bodies; no markdown.")
-    data={"headline":item["title"],"source":item["source"],"published":item["published"],"topic":item["topic"]}
+    data={"headline":item.get("original_title",item["title"]),"publisher_description":item["source_description"],"source":item["source"],"published":item.get("source_published",item["published"]),"topic":item["topic"]}
     payload={"model":"openai/gpt-4.1-mini","temperature":0.2,"max_tokens":7500,
       "messages":[{"role":"system","content":system},{"role":"user","content":json.dumps(data,ensure_ascii=False)}]}
     req=urllib.request.Request(API,data=json.dumps(payload,ensure_ascii=False).encode("utf-8"),
@@ -47,9 +49,9 @@ def generate(item,token):
     article=json.loads(raw)
     if not complete(article):
         raise ValueError("incomplete four-language content")
-    article.update({"id":item["id"],"source":item["source"],"source_url":item["source_url"],
+    article.update({"id":item["id"],"source":item["source"],"source_url":item["original_url"],
       "published":item["published"],"topic":item["topic"],"status":"COMPLETE_4_LANG",
-      "editorial_basis":"HEADLINE_ONLY_WITH_ORIGINAL_CONTEXT",
+      "editorial_basis":"PUBLISHER_TITLE_DESCRIPTION_WITH_ORIGINAL_CONTEXT",
       "generated_at":dt.datetime.now(dt.timezone.utc).isoformat()})
     return article
 
@@ -62,6 +64,7 @@ def main():
     completed=0; errors=[]
     for item in reversed(doc["items"]):
         if completed>=limit: break
+        if not item.get("original_url") or not item.get("source_description"): continue
         path=OUT/(item["id"]+".json")
         if path.exists():
             try:
