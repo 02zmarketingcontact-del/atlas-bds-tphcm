@@ -1,0 +1,1465 @@
+{
+  "schema": "qimap_p0_issuer_dossier_historical_candidates_v1",
+  "batch_id": "HIMLAM_8_20261018_DELTA_2007_2026",
+  "as_of": "2026-10-18",
+  "scope": "Old HCMC apartment market 2006-2026; former Binh Duong separately tagged HCMC post 2025",
+  "repo": "02zmarketingcontact-del/atlas-bds-tphcm",
+  "github_main_sha_at_read": "2345a807fc3fcb5dbade34da191569200f0f5ae7",
+  "git_baseline": {
+    "open_issues": 42,
+    "open_prs": 10,
+    "compared_against": [
+      "main 150 dossier records",
+      "main 126 legacy expansion",
+      "draft PR #77 historical 57 dossiers",
+      "draft PR #78 research audit",
+      "draft PR #79 TTC",
+      "draft PR #80 An Gia"
+    ],
+    "existing_himlam_dossier_ids_in_main": 0,
+    "no_github_mutation_succeeded_this_run": true,
+    "verified_current_main": "2345a807fc3fcb5dbade34da191569200f0f5ae7",
+    "mutations_create_file_attempts_blocked_by_safety": 2,
+    "new_review_data_on_github_this_run": false,
+    "previous_github_writes_blocked": true
+  },
+  "status": "REVIEW_ONLY_NOT_PUBLISHED",
+  "sources": [
+    {
+      "id": "S01",
+      "publisher": "Him Lam Corporation",
+      "source_role": "DEVELOPER_OFFICIAL_PORTFOLIO",
+      "url": "https://www.himlam.com/VI-VN/gioi-thieu",
+      "publication_date": null,
+      "interpretation": "2012 event timeline; page publication not independently dated",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S02",
+      "publisher": "Truong Son Land Corporation",
+      "source_role": "CORPORATE_PROPERTY_MANAGER",
+      "url": "https://truongsonland.com/thu-vien/thu-vien-anh/su-kien-him-lam-land?pagenumber=3",
+      "publication_date": null,
+      "interpretation": "2012 and 2013 sales event captions; CMS page date unknown",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S03",
+      "publisher": "VnExpress",
+      "source_role": "DATED_PRESS_PROJECT_MARKETING",
+      "url": "https://vnexpress.net/him-lam-riverside-giao-nha-vao-quy-iii-2727103.html",
+      "publication_date": "2013-03-22",
+      "interpretation": "Him Lam Riverside 30m VND/m2, expected 2013 Q3 handover, not proof of handover",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S04",
+      "publisher": "Dau Tu Chung Khoan",
+      "source_role": "DATED_PRESS_ISSUER_MARKETING",
+      "url": "https://m.tinnhanhchungkhoan.vn/mo-ban-dot-cuoi-du-an-him-lam-riverside-gia-tu-30-trieu-dongm2-post13928.html",
+      "publication_date": "2013-07-15",
+      "interpretation": "30m VND/m2 Riverside; 314 apartments in 3 towers cited; site area unit appears erroneous",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S05",
+      "publisher": "VnExpress",
+      "source_role": "DATED_PRESS_PROJECT_MARKETING",
+      "url": "https://vnexpress.net/mua-nha-trong-khu-do-thi-moi-him-lam-gia-1-6-ty-dong-3124163.html",
+      "publication_date": "2014-12-23",
+      "interpretation": "Riverside phase 2 block F 200 offered, 59–77m2, 1.6–2.2bn VND/flat; 15m/month buyback offer, not observed rent",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S06",
+      "publisher": "Dau Tu Chung Khoan",
+      "source_role": "DATED_PRESS_HANDOVER_CLAIM",
+      "url": "https://www.tinnhanhchungkhoan.vn/him-lam-ban-giao-1150-can-ho-hoan-thien-trong-thang-9-va-thang-10-post121729.html",
+      "publication_date": "2015-10-10",
+      "interpretation": "Developer claim 700 Cho Lon, 450 Riverside Phase 2 units handed/being handed; not state acceptance",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S07",
+      "publisher": "Sai Gon Dau Tu Tai Chinh",
+      "source_role": "DATED_PRESS_HANDOVER_CLAIM",
+      "url": "https://dttc.sggp.org.vn/450-can-ho-gdii-him-lam-riverside-dang-duoc-ban-giao-post17659.html",
+      "publication_date": "2015-10-16",
+      "interpretation": "Reported first Riverside Phase II handovers 2015-10-15, not completion certificate",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S08",
+      "publisher": "VnExpress",
+      "source_role": "DATED_PRESS_PROJECT_MARKETING",
+      "url": "https://vnexpress.net/him-lam-cong-bo-ban-du-an-moi-3096900.html",
+      "publication_date": "2014-10-23",
+      "interpretation": "Cho Lon 17.7m/m2 excl VAT; 8 blocks 1488 flats; 352 initial sale tranche",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S09",
+      "publisher": "Truong Son Land Corporation",
+      "source_role": "CORPORATE_PROPERTY_MANAGER",
+      "url": "https://www.truongsonland.com/him-lam-cho-lon-4",
+      "publication_date": null,
+      "interpretation": "Cho Lon 9 blocks 1468 apartments; says 2015 launch, contradictory to 2014 press",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S10",
+      "publisher": "VnExpress",
+      "source_role": "DATED_PRESS_MARKET_REPORT",
+      "url": "https://vnexpress.net/nha-dat-tp-hcm-con-giam-den-het-nam-2696318.html",
+      "publication_date": "2008-06-09",
+      "interpretation": "Reporter describes Nam Khanh market indicative 12m VND/m2, NOT individual verified transaction",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S11",
+      "publisher": "Truong Son Land Corporation",
+      "source_role": "CORPORATE_PROPERTY_MANAGER",
+      "url": "https://www.truongsonland.com/en-US/~/him-lam-phu-an-6",
+      "publication_date": null,
+      "interpretation": "Phu An 1092 flats, 2018 market launch label contradicted by 2017 sale report",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S12",
+      "publisher": "Dau Tu Chung Khoan",
+      "source_role": "DATED_PRESS_PROJECT_MARKETING",
+      "url": "https://www.tinnhanhchungkhoan.vn/him-lam-sap-mo-ban-154-can-cuoi-cung-du-an-him-lam-phu-an-post161939.html",
+      "publication_date": "2017-06-20",
+      "interpretation": "Phu An 1092 flats 68–71m2 at 1.5–1.9bn/flat",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S13",
+      "publisher": "Dau Tu Chung Khoan",
+      "source_role": "DATED_PRESS_PROJECT_MARKETING",
+      "url": "https://www.tinnhanhchungkhoan.vn/thi-truong-bat-dong-san-vao-giai-doan-gan-duc-khoi-trong-post140024.html",
+      "publication_date": "2016-07-06",
+      "interpretation": "Phu Dong debut 400 apartments July 2 2016 for 1.1–1.2bn/flat",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S14",
+      "publisher": "Rever",
+      "source_role": "BROKER_PROJECT_AGGREGATE_UNDATED",
+      "url": "https://rever.vn/du-an/him-lam-nam-khanh",
+      "publication_date": null,
+      "interpretation": "Nam Khanh Tạ Quang Bửu; claims 468 flats but also 351 or 625 in same page; HOLD unit count",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S15",
+      "publisher": "Rever",
+      "source_role": "BROKER_PROJECT_AGGREGATE_UNDATED",
+      "url": "https://linhlh.rever.vn/du-an/him-lam-phu-dong",
+      "publication_date": null,
+      "interpretation": "Phu Dong Dĩ An old Bình Dương, Trần Thị Vững; 1 residential tower of 400 apartments; NOT proof of legal scope",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S16",
+      "publisher": "Batdongsan.com.vn",
+      "source_role": "BROKER_PROJECT_AGGREGATE_UNDATED",
+      "url": "https://batdongsan.com.vn/du-an-can-ho-chung-cu-binh-thanh/the-hyco4-tower-pj984",
+      "publication_date": null,
+      "interpretation": "Hyco4 official project owner Thuy Loi 4A, Him Lam sales partner; 205 Nguyen Xi 3 blocks 330 units; not legal verification",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S17",
+      "publisher": "Him Lam Corporation",
+      "source_role": "DEVELOPER_ARCHIVE_REPUBLISHED",
+      "url": "https://www.himlam.com/VI-VN/tin-tuc/chi-tiet-tin-tuc/chinh-thuc-cong-bo-du-an-can-ho-him-lam-cho-lon-135387",
+      "publication_date": "2022-04-23",
+      "interpretation": "CMS display date only, 2014-era archived original: do NOT assign historical price observation date 2022",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S18",
+      "publisher": "VnExpress",
+      "source_role": "DATED_PRESS_SECONDARY_PROJECT_MARKETING",
+      "url": "https://vnexpress.net/can-ho-him-lam-cho-lon-gia-tu-17-7-trieu-dong-mot-m2-3098223.html",
+      "publication_date": "2014-10-27",
+      "interpretation": "Corroboration of 2014 Cho Lon 17.7m/m2, not new independent price observation",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S19",
+      "publisher": "Tuoi Tre/Saigon Times corporate content",
+      "source_role": "DATED_PRESS_HANDOVER_CLAIM",
+      "url": "https://tuoitre.vn/saigontimes/ban-giao-450-can-ho-him-lam-riverside-giai-doan-2-106141490.htm",
+      "publication_date": "2015-10-16",
+      "interpretation": "Developer press material dated 2015-10-16, phase II initial 450 deliveries",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S20",
+      "publisher": "VnExpress (Him Lam Land-provided content)",
+      "source_role": "DATED_PUBLIC_PRESS",
+      "url": "https://vnexpress.net/can-ho-cao-cap-him-lam-riverside-2704845.html",
+      "publication_date": "2010-04-22",
+      "interpretation": "Launch date claim for late Aug 2009; conflicts with July 2009 selling press",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED",
+      "rechecked_at": "2026-10-18",
+      "original_publication_verified": true,
+      "review_state": "REVIEW_ONLY"
+    },
+    {
+      "id": "S21",
+      "publisher": "BNEWS / Vietnam News Agency (TTXVN)",
+      "source_role": "DATED_PUBLIC_PRESS",
+      "url": "https://bnews.vn/khach-hang-tham-quan-can-ho-hoan-thien-du-an-him-lam-phu-an/73720.html",
+      "publication_date": "2018-01-16",
+      "interpretation": "4 blocks A B C D; 1092 units; 32 Thuy Loi; June 2018 anticipated delivery not certified",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED",
+      "rechecked_at": "2026-10-18",
+      "original_publication_verified": true,
+      "review_state": "REVIEW_ONLY"
+    },
+    {
+      "id": "S22",
+      "publisher": "Batdongsan.com.vn Wiki, reprint credited to Tuoi Tre",
+      "source_role": "DATED_PUBLIC_SOURCE_WITH_CREDITED_ORIGINAL",
+      "url": "https://wiki.batdongsan.com.vn/tin-tuc/thi-truong-can-ho-khong-con-nhieu-song-de-luot-9781",
+      "publication_date": "2009-07-03",
+      "interpretation": "July 2, 2009 Him Lam Riverside sale 85 of 314 at VND 27.3-32m/m2",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED",
+      "rechecked_at": "2026-10-18",
+      "original_publication_verified": false,
+      "review_state": "REVIEW_ONLY"
+    },
+    {
+      "id": "S23",
+      "publisher": "Batdongsan.com.vn Wiki, reprint credited to Nguoi Lao Dong",
+      "source_role": "DATED_PUBLIC_SOURCE_WITH_CREDITED_ORIGINAL",
+      "url": "https://wiki.batdongsan.com.vn/tin-tuc/ban-giao-can-ho-him-lam-nam-khanh-13186",
+      "publication_date": "2010-01-18",
+      "interpretation": "Reported Him Lam Nam Khanh 468 apartments; trading range 16.5-17m/m2, no transaction records",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED",
+      "rechecked_at": "2026-10-18",
+      "original_publication_verified": false,
+      "review_state": "REVIEW_ONLY"
+    },
+    {
+      "id": "S24",
+      "publisher": "Bao Dau tu Chung khoan",
+      "source_role": "DATED_PUBLIC_PRESS",
+      "url": "https://www.tinnhanhchungkhoan.vn/xu-huong-gia-bat-dong-san-2018-binh-on-post181607.html",
+      "publication_date": "2018-03-14",
+      "interpretation": "Market retrospective: Phu An 27m/m2, Phu Dong 28-30m/m2 as 2018 report estimates",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED",
+      "rechecked_at": "2026-10-18",
+      "original_publication_verified": true,
+      "review_state": "REVIEW_ONLY"
+    },
+    {
+      "id": "S25",
+      "publisher": "Nguoi Lao Dong, syndicated at Tuoi Tre",
+      "source_role": "DATED_PUBLIC_SOURCE_WITH_CREDITED_ORIGINAL",
+      "url": "https://tuoitre.vn/nld/vi-sao-tphcm-dong-y-cap-so-hong-cho-dau-o-to-o-chung-cu-him-lam-riverside-196260512081121472.htm",
+      "publication_date": "2026-05-12",
+      "interpretation": "Quotes approval dated 2008-09-29, A2 A3 blocks, 2012 amendments and state inspections 2015-2016; original decisions not obtained",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED",
+      "rechecked_at": "2026-10-18",
+      "original_publication_verified": false,
+      "review_state": "REVIEW_ONLY"
+    },
+    {
+      "id": "S26",
+      "publisher": "Sai Gon Giai Phong (SGGP)",
+      "source_role": "DATED_PUBLIC_PRESS",
+      "url": "https://www.sggp.org.vn/nhin-tu-du-an-him-lam-nam-khanh-post323857.html",
+      "publication_date": "2007-10-05",
+      "interpretation": "Early Sep 2007 show-apartment marketing and price from 8.6m/m2 via NOVA distributor",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED",
+      "rechecked_at": "2026-10-18",
+      "original_publication_verified": true,
+      "review_state": "REVIEW_ONLY"
+    },
+    {
+      "id": "S27",
+      "publisher": "CafeLand",
+      "source_role": "THIRD_PARTY_PROJECT_REFERENCE_NOT_OFFICIAL",
+      "url": "https://cafeland.vn/du-an/khu-can-ho-him-lam-phu-dong-1309.html",
+      "publication_date": null,
+      "last_updated": "2016-08-02",
+      "source_date_type": "last_updated_only",
+      "interpretation": "2016 portal overview describes one 21-floor block / 400 apartments, area 45 to 88.72 m2 and 207 separately counted townhouses; no original permit/issuer document; corroboration only",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED",
+      "verified_access_date": "2026-10-18"
+    },
+    {
+      "id": "S28",
+      "publisher": "CafeLand",
+      "source_role": "DATED_PRESS_DEVELOPER_ASKING_OFFER",
+      "url": "https://cafeland.vn/tin-tuc/mo-ban-tiep-20-can-ho-the-hyco4-tower-gia-tu-11-ty-dongcan-24096.html",
+      "publication_date": "2012-05-25",
+      "interpretation": "20 apartments in block A and C marketed from VND 1.1bn per apartment; issuer legal role assigned to Thuy Loi 4A; Him Lam Land-Hyco4 selling organization",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_REPUBLICATION_NO_AUTHORIZED_FEED"
+    },
+    {
+      "id": "S29",
+      "publisher": "Tap chi Kinh te Sai Gon / Saigon Times",
+      "source_role": "DATED_PRESS_REPORTED_SALES_OFFER",
+      "url": "https://thesaigontimes.vn/saigontimes/thi-truong-can-ho-chay-dua-voi-lai-suat-0/",
+      "publication_date": "2013-05-11",
+      "interpretation": "11 May 2013 Hyco4 60-unit release, asking prices VND 1.2-2.0bn per apartment, size range 52-94 m2; 50% payment upfront marketing policy",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_REPUBLICATION_NO_AUTHORIZED_FEED"
+    },
+    {
+      "id": "S30",
+      "publisher": "CafeLand",
+      "source_role": "DATED_PRESS_OCCUPANCY_EVIDENCE",
+      "url": "https://cafeland.vn/tin-tuc/song-chung-voi-bui-va-tieng-on-o-chung-cu-hyco4-tower-49439.html",
+      "publication_date": "2014-11-05",
+      "interpretation": "Reports residents had moved into parts of Hyco4 despite continuing work in other parts as of November 2014; no official completion certificate",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_REPUBLICATION_NO_AUTHORIZED_FEED"
+    },
+    {
+      "id": "S31",
+      "publisher": "Cong ty Thai Thinh",
+      "source_role": "CONTRACTOR_PROJECT_PAGE_UNDATED",
+      "url": "https://thaithinh.com.vn/du-an/thi-cong-cao-oc-thuy-loi-4-the-hyco4-tower",
+      "publication_date": null,
+      "interpretation": "Contractor asserts project completed in 2014, 330 units, 16 aboveground stories; website publication date not established; corroboration only",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_REPUBLICATION_NO_AUTHORIZED_FEED"
+    },
+    {
+      "id": "S32",
+      "publisher": "VnExpress",
+      "source_role": "DATED_BUSINESS_INTRODUCTION",
+      "url": "https://vnexpress.net/the-hyco4-tower-vi-tri-dac-dia-tai-quan-binh-thanh-2724033.html",
+      "publication_date": "2012-11-16",
+      "interpretation": "Article describes three blocks, 16 stories and one basement, developer Thuy Loi 4A; does not independently verify floor-permit count",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_REPUBLICATION_NO_AUTHORIZED_FEED"
+    },
+    {
+      "id": "S33",
+      "publisher": "Tin nhanh Chung khoan / Bao Dau tu",
+      "source_role": "DATED_MARKETING_LAUNCH_NOTICE",
+      "url": "https://www.tinnhanhchungkhoan.vn/mo-ban-du-an-the-hyco4-tower-post16273.html",
+      "publication_date": "2013-05-06",
+      "interpretation": "Advance notice for 60 apartments planned release on 11 May 2013, 17 stories claimed, expected completion Q3 2013; no price in this article",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_REPUBLICATION_NO_AUTHORIZED_FEED"
+    },
+    {
+      "id": "S34",
+      "publisher": "VietNamNet",
+      "source_role": "PROJECT_LAUNCH_CORROBORATION",
+      "url": "https://vietnamnet.vn/mo-ban-60-can-ho-du-an-the-hyco4-tower-120918.html",
+      "publication_date": null,
+      "reported_event_date": "2013-05-11",
+      "interpretation": "At May 2013 launch, 80% of units 1.2-2.0bn VND; dated event, unknown publication date",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S35",
+      "publisher": "VnEconomy",
+      "source_role": "DATED_PRESS_PROJECT_MARKETING",
+      "url": "https://vneconomy.vn/cho-vay-mua-can-ho-the-hyco4-tower-lai-suat-6nam.htm",
+      "publication_date": "2013-09-26",
+      "interpretation": "September 28 block A 30-unit launch, prices 1.4-2.2bn VND/apt",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    },
+    {
+      "id": "S36",
+      "publisher": "Bao Dau Tu / Tin Nhanh Chung Khoan",
+      "source_role": "DATED_PRESS_PROJECT_MARKETING",
+      "url": "https://www.tinnhanhchungkhoan.vn/mo-ban-dot-cuoi-du-an-the-hyco4-tower-post9158.html",
+      "publication_date": "2013-12-10",
+      "interpretation": "December 21 final 2013 tranche 30 block A units prices 1.4-2.2bn VND/apt",
+      "access_rights": "PUBLIC_FACT_REFERENCE_ONLY_NO_BULK_COPY_NO_AUTHORIZED_PRICE_FEED"
+    }
+  ],
+  "dossiers": [
+    {
+      "entity_id": "himlam-riverside-master",
+      "canonical_name": "Him Lam Riverside",
+      "entity_level": "parent_complex",
+      "parent_entity_id": null,
+      "geographic_scope": "HCMC_old_boundary",
+      "address_candidate": "Khu đô thị Him Lam Tân Hưng, phường Tân Hưng, Quận 7 (historical)",
+      "developer_or_sales_role_issuer_claim": "Him Lam / Him Lam Land",
+      "unit_count_candidate": null,
+      "unit_count_unverified_broker_aggregate": null,
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S20",
+        "S25"
+      ],
+      "quality_holds": [
+        "DO_NOT_SUM_PARENT_PLUS_PHASES",
+        "ALLOCATION_2013_30M_M2_TO_SPECIFIC_PHASE_UNVERIFIED",
+        "PHASE_COUNTS_314_450_VS_REPORTED_931_TOTAL"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "wgs84_verified": false,
+      "legal_approved": false,
+      "foreign_buyer_eligibility": "NOT_VERIFIED",
+      "state": "REVIEW_ONLY"
+    },
+    {
+      "entity_id": "himlam-riverside-phase-1",
+      "canonical_name": "Him Lam Riverside Giai đoạn I",
+      "entity_level": "phase",
+      "parent_entity_id": "himlam-riverside-master",
+      "geographic_scope": "HCMC_old_boundary",
+      "address_candidate": "Khu đô thị Him Lam Tân Hưng, Quận 7 (phase-specific address not checked)",
+      "developer_or_sales_role_issuer_claim": "Him Lam / Him Lam Land",
+      "unit_count_candidate": 314,
+      "unit_count_unverified_broker_aggregate": null,
+      "source_ids": [
+        "S02",
+        "S04",
+        "S06",
+        "S22"
+      ],
+      "quality_holds": [
+        "PHASE1_314_TOWERS_3_2013_PRESS",
+        "MOVE_IN_END_2013_IS_REPORT_NOT_ACCEPTANCE",
+        "NO_INDIVIDUAL_BLOCK_ADDRESS"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "wgs84_verified": false,
+      "legal_approved": false,
+      "foreign_buyer_eligibility": "NOT_VERIFIED",
+      "state": "REVIEW_ONLY"
+    },
+    {
+      "entity_id": "himlam-riverside-phase-2",
+      "canonical_name": "Him Lam Riverside Giai đoạn II",
+      "entity_level": "phase",
+      "parent_entity_id": "himlam-riverside-master",
+      "geographic_scope": "HCMC_old_boundary",
+      "address_candidate": "Block F, khu Him Lam Tân Hưng, Quận 7; only product sub-block identity",
+      "developer_or_sales_role_issuer_claim": "Him Lam / Him Lam Land",
+      "unit_count_candidate": 450,
+      "unit_count_unverified_broker_aggregate": null,
+      "source_ids": [
+        "S05",
+        "S06",
+        "S07",
+        "S19"
+      ],
+      "quality_holds": [
+        "BLOCK_F_200_UNITS_OFFER_NOT_TOTAL_PHASE",
+        "450_2015_INITIAL_HANDOVER_NOT_ALL_CERTIFIED",
+        "TOTAL_PHASE_COUNT_REQUIRES_SIGNED_APPROVAL"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "wgs84_verified": false,
+      "legal_approved": false,
+      "foreign_buyer_eligibility": "NOT_VERIFIED",
+      "state": "REVIEW_ONLY"
+    },
+    {
+      "entity_id": "himlam-cho-lon",
+      "canonical_name": "Him Lam Chợ Lớn",
+      "entity_level": "project",
+      "parent_entity_id": null,
+      "geographic_scope": "HCMC_old_boundary",
+      "address_candidate": "Phường 11, Quận 6; phía trong đường Hậu Giang, cách mặt tiền khoảng 120m (old admin)",
+      "developer_or_sales_role_issuer_claim": "Him Lam",
+      "unit_count_candidate": null,
+      "unit_count_unverified_broker_aggregate": null,
+      "source_ids": [
+        "S08",
+        "S09",
+        "S17",
+        "S18",
+        "S06"
+      ],
+      "quality_holds": [
+        "UNIT_COUNT_CONFLICT_1488_PRESS_VS_1468_MANAGER",
+        "TOWER_COUNT_CONFLICT_8_PRESS_VS_9_MANAGER",
+        "LAUNCH_2014_PRESS_VS_2015_MANAGER"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "wgs84_verified": false,
+      "legal_approved": false,
+      "foreign_buyer_eligibility": "NOT_VERIFIED",
+      "state": "REVIEW_ONLY"
+    },
+    {
+      "entity_id": "himlam-nam-khanh",
+      "canonical_name": "Him Lam Nam Khánh",
+      "entity_level": "project",
+      "parent_entity_id": null,
+      "geographic_scope": "HCMC_old_boundary",
+      "address_candidate": "Đường Tạ Quang Bửu, Phường 5, Quận 8 (historic)",
+      "developer_or_sales_role_issuer_claim": "Him Lam",
+      "unit_count_candidate": null,
+      "unit_count_unverified_broker_aggregate": null,
+      "source_ids": [
+        "S10",
+        "S14",
+        "S23",
+        "S26"
+      ],
+      "quality_holds": [
+        "BROKER_468_VS_351_VS_625_UNITS_SCOPE_UNVERIFIED",
+        "2008_ASKING_SNAPSHOT_NOT_TRANSACTION_VERIFIED"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "wgs84_verified": false,
+      "legal_approved": false,
+      "foreign_buyer_eligibility": "NOT_VERIFIED",
+      "state": "REVIEW_ONLY"
+    },
+    {
+      "entity_id": "himlam-phu-an",
+      "canonical_name": "Him Lam Phú An",
+      "entity_level": "project",
+      "parent_entity_id": null,
+      "geographic_scope": "HCMC_old_boundary",
+      "address_candidate": "32 Thủy Lợi, Phường Phước Long A, Quận 9 (historic)",
+      "developer_or_sales_role_issuer_claim": "Him Lam / Him Lam Land",
+      "unit_count_candidate": 1092,
+      "unit_count_unverified_broker_aggregate": null,
+      "source_ids": [
+        "S11",
+        "S12",
+        "S21",
+        "S24"
+      ],
+      "quality_holds": [
+        "MANAGER_PORTFOLIO_2018_LAUNCH_VS_DATED_2017_SELLING",
+        "DELIVERED_STATUS_NOT_ACCEPTANCE_CERTIFICATE",
+        "69_71_M2_2018_VS_68_71_M2_2017_AREA_RANGE_CHECK_NET_GROSS"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "wgs84_verified": false,
+      "legal_approved": false,
+      "foreign_buyer_eligibility": "NOT_VERIFIED",
+      "state": "REVIEW_ONLY"
+    },
+    {
+      "entity_id": "himlam-phu-dong",
+      "canonical_name": "Him Lam Phú Đông (Dĩ An)",
+      "entity_level": "project",
+      "parent_entity_id": null,
+      "geographic_scope": "HCMC_post_2025_former_Binh_Duong",
+      "address_candidate": "Đường Trần Thị Vững, phường An Bình, thành phố Dĩ An, tỉnh Bình Dương (trước sáp nhập; TP.HCM mới)",
+      "developer_or_sales_role_issuer_claim": "Him Lam",
+      "unit_count_candidate": null,
+      "unit_count_unverified_broker_aggregate": 400,
+      "source_ids": [
+        "S13",
+        "S15",
+        "S24",
+        "S27"
+      ],
+      "quality_holds": [
+        "ONE_21F_TOWER_400_APARTMENTS_BROKER_CLAIM",
+        "CONTAINS_TOWNHOUSES_DO_NOT_ADD_TO_APARTMENT_COUNT",
+        "2025_GEO_BOUNDARY_VERSION_REQUIRED",
+        "2016_PORTAL_400_UNITS_CORROBORATION_ONLY_OFFICIAL_APPROVAL_STILL_NEEDED"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "wgs84_verified": false,
+      "legal_approved": false,
+      "foreign_buyer_eligibility": "NOT_VERIFIED",
+      "state": "REVIEW_ONLY"
+    },
+    {
+      "entity_id": "hyco4-tower",
+      "canonical_name": "The Hyco4 Tower (Thủy Lợi 4)",
+      "entity_level": "project",
+      "parent_entity_id": null,
+      "geographic_scope": "HCMC_old_boundary",
+      "address_candidate": "205 Nguyễn Xí, phường 26, quận Bình Thạnh (historical)",
+      "developer_or_sales_role_issuer_claim": "Công ty CP Đầu tư BĐS Thủy Lợi 4A; Him Lam Land SALES_PARTNER not necessarily investor",
+      "unit_count_candidate": null,
+      "unit_count_unverified_broker_aggregate": 330,
+      "source_ids": [
+        "S02",
+        "S16",
+        "S28",
+        "S29",
+        "S30",
+        "S31",
+        "S32",
+        "S33"
+      ],
+      "quality_holds": [
+        "HIM_LAM_NOT_ASSUME_LEGAL_DEVELOPER",
+        "16_VS_17_STORIES_BROKER_COUNT_DIFFERENT",
+        "2013_SALES_EVENT_YEAR_ONLY_NO_PUBLICATION_DATE",
+        "HYCO4_16_STORIES_2012_VS_17_STORIES_2013_NO_APPROVED_DRAWING",
+        "HYCO4_EXPECTED_HANDOVER_Q2_2013_VS_Q3_2013_VS_RESIDENTS_NOV_2014_CONSTRUCTION_CONTINUES"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "wgs84_verified": false,
+      "legal_approved": false,
+      "foreign_buyer_eligibility": "NOT_VERIFIED",
+      "state": "REVIEW_ONLY"
+    }
+  ],
+  "price_observations": [
+    {
+      "id": "HL-PRICE-01",
+      "entity_id": "himlam-nam-khanh",
+      "publication_date": "2008-06-09",
+      "observed_at_from_individual_listing": null,
+      "publisher_source_id": "S10",
+      "url": "https://vnexpress.net/nha-dat-tp-hcm-con-giam-den-het-nam-2696318.html",
+      "price_type": "REPORT_ESTIMATE",
+      "value_min_vnd": 12000000,
+      "value_max_vnd": null,
+      "unit": "VND/m2",
+      "price_basis": "press-reported 2008 secondary market indicative offer level",
+      "unit_area_range_m2": null,
+      "area_measurement_basis": "NET_GROSS_UNKNOWN",
+      "vat_basis": "UNSPECIFIED",
+      "evidence_notes": "May 2008 14m/m2 quoted in same article, NOT counted as second observation; no listing IDs",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "REFERENCE_FACT_ONLY_NO_BULK_COPY",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false
+    },
+    {
+      "id": "HL-PRICE-02",
+      "entity_id": "himlam-riverside-master",
+      "publication_date": "2013-03-22",
+      "observed_at_from_individual_listing": null,
+      "publisher_source_id": "S03",
+      "url": "https://vnexpress.net/him-lam-riverside-giao-nha-vao-quy-iii-2727103.html",
+      "price_type": "PRICE_ASKING",
+      "value_min_vnd": 30000000,
+      "value_max_vnd": null,
+      "unit": "VND/m2",
+      "price_basis": "issuer promoted asking price in VnExpress, phase not confirmed",
+      "unit_area_range_m2": null,
+      "area_measurement_basis": "NET_GROSS_UNKNOWN",
+      "vat_basis": "UNSPECIFIED",
+      "evidence_notes": "2013-Q3 handover only expectation; July 2013 30m/m2 repeated not separately counted",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "REFERENCE_FACT_ONLY_NO_BULK_COPY",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false
+    },
+    {
+      "id": "HL-PRICE-03",
+      "entity_id": "himlam-cho-lon",
+      "publication_date": "2014-10-23",
+      "observed_at_from_individual_listing": null,
+      "publisher_source_id": "S08",
+      "url": "https://vnexpress.net/him-lam-cong-bo-ban-du-an-moi-3096900.html",
+      "price_type": "PRICE_ASKING",
+      "value_min_vnd": 17700000,
+      "value_max_vnd": null,
+      "unit": "VND/m2",
+      "price_basis": "first tranche issuer asking offer, 352 apts launched",
+      "unit_area_range_m2": null,
+      "area_measurement_basis": "NET_GROSS_UNKNOWN",
+      "vat_basis": "EXCLUDED",
+      "evidence_notes": "2014-10-27 VnExpress article corroborates same offer, not separate observation",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "REFERENCE_FACT_ONLY_NO_BULK_COPY",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false
+    },
+    {
+      "id": "HL-PRICE-04",
+      "entity_id": "himlam-riverside-phase-2",
+      "publication_date": "2014-12-23",
+      "observed_at_from_individual_listing": null,
+      "publisher_source_id": "S05",
+      "url": "https://vnexpress.net/mua-nha-trong-khu-do-thi-moi-him-lam-gia-1-6-ty-dong-3124163.html",
+      "price_type": "PRICE_ASKING",
+      "value_min_vnd": 1600000000,
+      "value_max_vnd": 2200000000,
+      "unit": "VND/apartment",
+      "price_basis": "phase II block F: group of 200 marketed apts",
+      "unit_area_range_m2": [
+        59,
+        77
+      ],
+      "area_measurement_basis": "NET_GROSS_UNKNOWN",
+      "vat_basis": "UNSPECIFIED",
+      "evidence_notes": "Buyback guaranteed rent 15m/month is developer promotion, not independent RENT_ASKING",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "REFERENCE_FACT_ONLY_NO_BULK_COPY",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false
+    },
+    {
+      "id": "HL-PRICE-05",
+      "entity_id": "himlam-cho-lon",
+      "publication_date": "2015-10-10",
+      "observed_at_from_individual_listing": null,
+      "publisher_source_id": "S06",
+      "url": "https://www.tinnhanhchungkhoan.vn/him-lam-ban-giao-1150-can-ho-hoan-thien-trong-thang-9-va-thang-10-post121729.html",
+      "price_type": "PRICE_ASKING",
+      "value_min_vnd": 1700000000,
+      "value_max_vnd": 2000000000,
+      "unit": "VND/apartment",
+      "price_basis": "last two blocks developer advertised asking interval",
+      "unit_area_range_m2": null,
+      "area_measurement_basis": "NET_GROSS_UNKNOWN",
+      "vat_basis": "UNSPECIFIED",
+      "evidence_notes": "Different unit and product batch than 2014 launch; do NOT convert price/m2 without unit area",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "REFERENCE_FACT_ONLY_NO_BULK_COPY",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false
+    },
+    {
+      "id": "HL-PRICE-06",
+      "entity_id": "himlam-phu-dong",
+      "publication_date": "2016-07-06",
+      "observed_at_from_individual_listing": null,
+      "publisher_source_id": "S13",
+      "url": "https://www.tinnhanhchungkhoan.vn/thi-truong-bat-dong-san-vao-giai-doan-gan-duc-khoi-trong-post140024.html",
+      "price_type": "PRICE_ASKING",
+      "value_min_vnd": 1100000000,
+      "value_max_vnd": 1200000000,
+      "unit": "VND/apartment",
+      "price_basis": "July 2 2016 debut group of 400 apartments; price announced in July 6 article",
+      "unit_area_range_m2": null,
+      "area_measurement_basis": "NET_GROSS_UNKNOWN",
+      "vat_basis": "UNSPECIFIED",
+      "evidence_notes": "Former Bình Dương, now HCMC after 2025; do not pool old HCMC series before merger",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "REFERENCE_FACT_ONLY_NO_BULK_COPY",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false
+    },
+    {
+      "id": "HL-PRICE-07",
+      "entity_id": "himlam-phu-an",
+      "publication_date": "2017-06-20",
+      "observed_at_from_individual_listing": null,
+      "publisher_source_id": "S12",
+      "url": "https://www.tinnhanhchungkhoan.vn/him-lam-sap-mo-ban-154-can-cuoi-cung-du-an-him-lam-phu-an-post161939.html",
+      "price_type": "PRICE_ASKING",
+      "value_min_vnd": 1500000000,
+      "value_max_vnd": 1900000000,
+      "unit": "VND/apartment",
+      "price_basis": "issuer marketing general 1092-apartment project",
+      "unit_area_range_m2": [
+        68,
+        71
+      ],
+      "area_measurement_basis": "NET_GROSS_UNKNOWN",
+      "vat_basis": "UNSPECIFIED",
+      "evidence_notes": "Reported successful sales have not been authenticated as closed transactions",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "REFERENCE_FACT_ONLY_NO_BULK_COPY",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false
+    },
+    {
+      "id": "HL-PRICE-08",
+      "entity_id": "himlam-nam-khanh",
+      "publication_date": "2007-10-05",
+      "observed_at_from_individual_listing": null,
+      "publisher_source_id": "S26",
+      "url": "https://www.sggp.org.vn/nhin-tu-du-an-him-lam-nam-khanh-post323857.html",
+      "price_type": "PRICE_ASKING",
+      "value_min_vnd": 8600000,
+      "value_max_vnd": null,
+      "unit": "VND/m2",
+      "price_basis": "Reporter quoted distributor NOVA first marketing from 8.6m/m2; not transaction",
+      "unit_area_range_m2": null,
+      "area_measurement_basis": "NET_GROSS_UNKNOWN",
+      "vat_basis": "UNSPECIFIED",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "REFERENCE_FACT_ONLY_NO_BULK_COPY",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false
+    },
+    {
+      "id": "HL-PRICE-09",
+      "entity_id": "himlam-riverside-phase-1",
+      "publication_date": "2009-07-03",
+      "observed_at_from_individual_listing": null,
+      "publisher_source_id": "S22",
+      "url": "https://wiki.batdongsan.com.vn/tin-tuc/thi-truong-can-ho-khong-con-nhieu-song-de-luot-9781",
+      "price_type": "PRICE_ASKING",
+      "value_min_vnd": 27300000,
+      "value_max_vnd": 32000000,
+      "unit": "VND/m2",
+      "price_basis": "July 2 2009 85-of-314 tranche promoted range; July timeline contradicts Aug 2009 source",
+      "unit_area_range_m2": null,
+      "area_measurement_basis": "NET_GROSS_UNKNOWN",
+      "vat_basis": "UNSPECIFIED",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "REFERENCE_FACT_ONLY_NO_BULK_COPY",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false
+    },
+    {
+      "id": "HL-PRICE-10",
+      "entity_id": "himlam-nam-khanh",
+      "publication_date": "2010-01-18",
+      "observed_at_from_individual_listing": null,
+      "publisher_source_id": "S23",
+      "url": "https://wiki.batdongsan.com.vn/tin-tuc/ban-giao-can-ho-him-lam-nam-khanh-13186",
+      "price_type": "REPORT_ESTIMATE",
+      "value_min_vnd": 16500000,
+      "value_max_vnd": 17000000,
+      "unit": "VND/m2",
+      "price_basis": "Secondary-market reported range attributed to NLD; no deeds/listing IDs",
+      "unit_area_range_m2": [
+        80,
+        null
+      ],
+      "area_measurement_basis": "NET_GROSS_UNKNOWN",
+      "vat_basis": "UNSPECIFIED",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "REFERENCE_FACT_ONLY_NO_BULK_COPY",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false
+    },
+    {
+      "id": "HL-PRICE-11",
+      "entity_id": "himlam-phu-an",
+      "publication_date": "2018-03-14",
+      "observed_at_from_individual_listing": null,
+      "publisher_source_id": "S24",
+      "url": "https://www.tinnhanhchungkhoan.vn/xu-huong-gia-bat-dong-san-2018-binh-on-post181607.html",
+      "price_type": "REPORT_ESTIMATE",
+      "value_min_vnd": 27000000,
+      "value_max_vnd": null,
+      "unit": "VND/m2",
+      "price_basis": "March 2018 journalist market indicative figure; not verified closed sale",
+      "unit_area_range_m2": null,
+      "area_measurement_basis": "NET_GROSS_UNKNOWN",
+      "vat_basis": "UNSPECIFIED",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "REFERENCE_FACT_ONLY_NO_BULK_COPY",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false
+    },
+    {
+      "id": "HL-PRICE-12",
+      "entity_id": "himlam-phu-dong",
+      "publication_date": "2018-03-14",
+      "observed_at_from_individual_listing": null,
+      "publisher_source_id": "S24",
+      "url": "https://www.tinnhanhchungkhoan.vn/xu-huong-gia-bat-dong-san-2018-binh-on-post181607.html",
+      "price_type": "REPORT_ESTIMATE",
+      "value_min_vnd": 28000000,
+      "value_max_vnd": 30000000,
+      "unit": "VND/m2",
+      "price_basis": "March 2018 journalist market indicative range; no transaction IDs",
+      "unit_area_range_m2": null,
+      "area_measurement_basis": "NET_GROSS_UNKNOWN",
+      "vat_basis": "UNSPECIFIED",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "REFERENCE_FACT_ONLY_NO_BULK_COPY",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false
+    },
+    {
+      "id": "HL-PRICE-13",
+      "entity_id": "himlam-phu-an",
+      "publication_date": "2018-03-14",
+      "observed_at_from_individual_listing": null,
+      "reported_reference_period": "2016 (year only)",
+      "publisher": "Bao Dau tu Bat dong san / Tin nhanh Chung khoan",
+      "publisher_source_id": "S24",
+      "url": "https://www.tinnhanhchungkhoan.vn/xu-huong-gia-bat-dong-san-2018-binh-on-post181607.html",
+      "price_type": "REPORT_ESTIMATE",
+      "value_min_vnd": 22000000,
+      "value_max_vnd": null,
+      "unit": "VND/m2",
+      "price_basis": "2018 retrospective press survey says project asking level in 2016 was 22 million VND/m2; whether developer-issued or secondary is not documented",
+      "unit_area_range_m2": null,
+      "area_measurement_basis": "NET_GROSS_UNKNOWN",
+      "vat_basis": "UNSPECIFIED",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "CITATION_ONLY_NO_FEED_LICENSE",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false,
+      "evidence_notes": "Do not use 2018 article publication date as 2016 price observation timestamp; year-level historical reference only."
+    },
+    {
+      "id": "HL-PRICE-14",
+      "entity_id": "himlam-phu-dong",
+      "publication_date": "2018-03-14",
+      "observed_at_from_individual_listing": null,
+      "reported_reference_period": "late 2016 (month/day unspecified)",
+      "publisher": "Bao Dau tu Bat dong san / Tin nhanh Chung khoan",
+      "publisher_source_id": "S24",
+      "url": "https://www.tinnhanhchungkhoan.vn/xu-huong-gia-bat-dong-san-2018-binh-on-post181607.html",
+      "price_type": "REPORT_ESTIMATE",
+      "value_min_vnd": 23000000,
+      "value_max_vnd": null,
+      "unit": "VND/m2",
+      "price_basis": "2018 article retrospectively says developer initial asking level in late 2016 was 23 million VND/m2",
+      "unit_area_range_m2": null,
+      "area_measurement_basis": "NET_GROSS_UNKNOWN",
+      "vat_basis": "UNSPECIFIED",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "CITATION_ONLY_NO_FEED_LICENSE",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false,
+      "evidence_notes": "2018 date is provenance publication, not direct 2016 transaction or dated 2016 offer; former Binh Duong separately segmented."
+    },
+    {
+      "id": "HL-PRICE-15",
+      "entity_id": "hyco4-tower",
+      "publication_date": "2012-05-25",
+      "observed_at_from_individual_listing": null,
+      "publisher_source_id": "S28",
+      "url": "https://cafeland.vn/tin-tuc/mo-ban-tiep-20-can-ho-the-hyco4-tower-gia-tu-11-ty-dongcan-24096.html",
+      "price_type": "PRICE_ASKING",
+      "value_min_vnd": 1100000000,
+      "value_max_vnd": null,
+      "unit": "VND/apartment",
+      "price_basis": "Advertised starting price for an offering of 20 apartments in blocks A and C; not per-m2 and not a transaction price",
+      "area_basis": "Source mentions examples 52, 77 and 81 m2 but does not link smallest price to an area; do not infer price per m2",
+      "vat_basis": "NOT_STATED",
+      "seller_or_distributor": "Him Lam Land - Hyco4 distribution organization; legal project investor stated as Thuy Loi 4A",
+      "reference_period": "2012-05-25 press announcement",
+      "evidence_status": "SOURCED_CANDIDATE_REVIEW_ONLY",
+      "rights_status": "PUBLIC_FACT_REFERENCE_ONLY_NO_LICENSED_FEED",
+      "transaction_verified": false,
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false,
+      "independently_verified_transaction": false,
+      "authorized_feed": false
+    },
+    {
+      "id": "HL-PRICE-16",
+      "entity_id": "hyco4-tower",
+      "publication_date": "2013-05-11",
+      "observed_at_from_individual_listing": null,
+      "publisher_source_id": "S29",
+      "url": "https://thesaigontimes.vn/saigontimes/thi-truong-can-ho-chay-dua-voi-lai-suat-0/",
+      "price_type": "PRICE_ASKING",
+      "value_min_vnd": 1200000000,
+      "value_max_vnd": 2000000000,
+      "unit": "VND/apartment",
+      "price_basis": "Prices attributed to 60-apartment marketing release at model-home launch; payment terms 50% upfront with deferred remainder; no final deal proof",
+      "area_basis": "Reported apartments span 52-94 m2; price endpoints not matched to a specific unit size",
+      "vat_basis": "NOT_STATED",
+      "seller_or_distributor": "Him Lam Land distributor; investor Thuy Loi 4A",
+      "reference_period": "2013-05-11 launch",
+      "evidence_status": "SOURCED_CANDIDATE_REVIEW_ONLY",
+      "rights_status": "PUBLIC_FACT_REFERENCE_ONLY_NO_LICENSED_FEED",
+      "transaction_verified": false,
+      "corroborating_source_ids": [
+        "S34"
+      ],
+      "evidence_notes": "S29 redirect to inaccessible Tuoi Tre; S34 VietNamNet corroborates May 2013 price release.",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false,
+      "independently_verified_transaction": false,
+      "authorized_feed": false
+    },
+    {
+      "id": "HL-PRICE-17",
+      "entity_id": "hyco4-tower",
+      "publication_date": "2013-09-26",
+      "offer_event_date": "2013-09-28",
+      "publisher_source_id": "S35",
+      "url": "https://vneconomy.vn/cho-vay-mua-can-ho-the-hyco4-tower-lai-suat-6nam.htm",
+      "price_type": "PRICE_ASKING",
+      "value_min_vnd": 1400000000,
+      "value_max_vnd": 2200000000,
+      "unit": "VND/apartment",
+      "price_basis": "30 block A units announced for 28 Sep tranche; advertised, not transacted",
+      "unit_area_range_m2": null,
+      "area_measurement_basis": "UNKNOWN_PRICE_TO_AREA_MAPPING",
+      "vat_basis": "UNKNOWN",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "REFERENCE_FACT_ONLY_NO_BULK_COPY",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false
+    },
+    {
+      "id": "HL-PRICE-18",
+      "entity_id": "hyco4-tower",
+      "publication_date": "2013-12-10",
+      "offer_event_date": "2013-12-21",
+      "publisher_source_id": "S36",
+      "url": "https://www.tinnhanhchungkhoan.vn/mo-ban-dot-cuoi-du-an-the-hyco4-tower-post9158.html",
+      "price_type": "PRICE_ASKING",
+      "value_min_vnd": 1400000000,
+      "value_max_vnd": 2200000000,
+      "unit": "VND/apartment",
+      "price_basis": "30 block A units announced for 21 Dec tranche; advertised, not transacted",
+      "unit_area_range_m2": "52-132",
+      "area_measurement_basis": "UNKNOWN_PRICE_TO_AREA_MAPPING",
+      "vat_basis": "UNKNOWN",
+      "independently_verified_transaction": false,
+      "authorized_feed": false,
+      "rights": "REFERENCE_FACT_ONLY_NO_BULK_COPY",
+      "review_state": "REVIEW_ONLY",
+      "eligible_for_public_price_series": false
+    }
+  ],
+  "historical_events": [
+    {
+      "entity_id": "himlam-riverside-master",
+      "event_date": "2012",
+      "event_type": "SHOW_APARTMENT_OPENED",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "verification": "ISSUER_YEAR_CLAIM_ONLY"
+    },
+    {
+      "entity_id": "hyco4-tower",
+      "event_date": "2013",
+      "event_type": "30_UNIT_MARKETING_LAUNCH",
+      "source_ids": [
+        "S02"
+      ],
+      "verification": "ASSET_MANAGEMENT_YEAR_CLAIM_ONLY"
+    },
+    {
+      "entity_id": "himlam-riverside-phase-1",
+      "event_date": "2013-12",
+      "event_type": "OCCUPANCY_REPORTED",
+      "source_ids": [
+        "S06"
+      ],
+      "verification": "PRESS_REPORTED_NOT_FORMAL_ACCEPTANCE"
+    },
+    {
+      "entity_id": "himlam-riverside-phase-2",
+      "event_date": "2015-10-15",
+      "event_type": "INITIAL_HANDOVER_REPORTED",
+      "source_ids": [
+        "S07",
+        "S19"
+      ],
+      "verification": "PRESS_REPORTED_NOT_FORMAL_ACCEPTANCE"
+    },
+    {
+      "entity_id": "himlam-cho-lon",
+      "event_date": "2014-10-23",
+      "event_type": "MARKETING_LAUNCH",
+      "source_ids": [
+        "S08"
+      ],
+      "verification": "DATED_PRESS"
+    },
+    {
+      "entity_id": "himlam-cho-lon",
+      "event_date": "2015-09-28",
+      "event_type": "FIRST_HANDOVER_REPORTED",
+      "source_ids": [
+        "S06"
+      ],
+      "verification": "PRESS_REPORTED_NOT_FORMAL_ACCEPTANCE"
+    },
+    {
+      "entity_id": "himlam-phu-dong",
+      "event_date": "2016-07-02",
+      "event_type": "MARKETING_LAUNCH",
+      "source_ids": [
+        "S13"
+      ],
+      "verification": "DATED_PRESS"
+    },
+    {
+      "entity_id": "himlam-phu-an",
+      "event_date": "2017-06",
+      "event_type": "154_UNIT_TRANCHE_LAUNCH",
+      "source_ids": [
+        "S12"
+      ],
+      "verification": "PRESS_REPORTED_NOT_TRANSACTION_VALIDATION"
+    },
+    {
+      "entity_id": "himlam-nam-khanh",
+      "event_date": "2007-09",
+      "event_type": "MARKETING_SHOW_APARTMENT_OPENED",
+      "source_ids": [
+        "S26"
+      ],
+      "verification": "MONTH_ONLY_PRESS_REPORTED"
+    },
+    {
+      "entity_id": "himlam-nam-khanh",
+      "event_date": "2007-09",
+      "event_type": "CONSTRUCTION_START_REPORTED",
+      "source_ids": [
+        "S23"
+      ],
+      "verification": "REPUBLISHED_PRESS_NOT_CONSTRUCTION_PERMIT"
+    },
+    {
+      "entity_id": "himlam-riverside-phase-1",
+      "event_date": "2009-07-02",
+      "event_type": "85_APARTMENT_SELLING_TRANCHE_REPORTED",
+      "source_ids": [
+        "S22"
+      ],
+      "verification": "REPUBLISHED_TUOI_TRE_CLAIM"
+    },
+    {
+      "entity_id": "himlam-riverside-master",
+      "event_date": "2009-08",
+      "event_type": "LAUNCH_DATE_LATE_AUGUST_CLAIM",
+      "source_ids": [
+        "S20"
+      ],
+      "verification": "CONFLICTS_WITH_2009_07_02_SELLING"
+    },
+    {
+      "entity_id": "himlam-phu-an",
+      "event_date": "2018-01-13",
+      "event_type": "FOUR_BLOCK_SITE_VISIT_STARTED",
+      "source_ids": [
+        "S21"
+      ],
+      "verification": "TTXVN_NOT_FORMAL_HANDOVER"
+    },
+    {
+      "entity_id": "himlam-riverside-master",
+      "event_date": "2008-09-29",
+      "event_type": "PROJECT_APPROVAL_DATE_REPORTED_FOR_A2_A3",
+      "source_ids": [
+        "S25"
+      ],
+      "verification": "2026_PRESS_CITES_SXD_APPROVAL_PRIMARY_DOCUMENT_NOT_OBTAINED"
+    },
+    {
+      "entity_id": "himlam-riverside-master",
+      "event_date": "2015/2016",
+      "event_type": "ACCEPTANCE_REPORTED_FOR_A2_AND_A3",
+      "source_ids": [
+        "S25"
+      ],
+      "verification": "2026_PRESS_MENTIONS_INSPECTION_DOCUMENTS_NOT_OBTAINED"
+    },
+    {
+      "entity_id": "hyco4-tower",
+      "event_date": "2012-05-25",
+      "event_type": "MARKETING_OFFER_20_APARTMENTS",
+      "source_ids": [
+        "S28"
+      ],
+      "verification": "DATED_PRESS_ATTRIBUTED_ISSUER_OFFER_ONLY"
+    },
+    {
+      "entity_id": "hyco4-tower",
+      "event_date": "2013-05-11",
+      "event_type": "MARKETING_LAUNCH_60_APARTMENTS",
+      "source_ids": [
+        "S29",
+        "S33"
+      ],
+      "verification": "DATED_PRESS_LAUNCH_REPORT_ONLY"
+    },
+    {
+      "entity_id": "hyco4-tower",
+      "event_date": "2014-11-05",
+      "event_type": "RESIDENTS_OCCUPY_PARTIAL_COMPLETION",
+      "source_ids": [
+        "S30"
+      ],
+      "verification": "DATED_PRESS_RESIDENT_ACCOUNTS_NOT_FORMAL_COMPLETION"
+    }
+  ],
+  "review_issues": [
+    {
+      "issue": "HIM_LAM_CHO_LON_2014_VS_CURRENT_COUNTS",
+      "claim_2014": [
+        "8 blocks",
+        "1488 apartments"
+      ],
+      "claim_corporate_manager": [
+        "9 blocks",
+        "1468 apartments"
+      ],
+      "action": "HOLD; request dated official approval drawings and amendments"
+    },
+    {
+      "issue": "HIM_LAM_CHO_LON_LAUNCH_YEAR",
+      "dated_press": "2014-10-23",
+      "corporate_manager_undated": "2015",
+      "action": "Retain both and request marketing phase breakdown"
+    },
+    {
+      "issue": "NAM_KHANH_INTRA_SOURCE_CONFLICT",
+      "claim_in_same_broker_page": [
+        468,
+        351,
+        625
+      ],
+      "action": "Do not approve apartment count"
+    },
+    {
+      "issue": "RIVERSIDE_PARENT_PHASE_DOUBLE_COUNT",
+      "press_count_claims": [
+        314,
+        450,
+        931
+      ],
+      "action": "Obtain signed phase boundaries and unit inventories"
+    },
+    {
+      "issue": "PHU_AN_LAUNCH_YEAR",
+      "dated_press": "2017-06-20 marketed",
+      "management_page": "2018 launch",
+      "action": "HOLD; distinguish marketing vs project completion"
+    },
+    {
+      "issue": "HYCO4_CORPORATE_ROLE",
+      "company": "Thuy Loi 4A investment; Him Lam Land sales intermediary",
+      "action": "Do not attribute Him Lam as legal investor"
+    },
+    {
+      "issue": "CMS_REPUBLISH_DATE",
+      "corporate_archive_cms_display": "2022-04-23",
+      "underlying_original_marketing": "2014",
+      "action": "Never map CMS repost date to 2014 price observation date"
+    },
+    {
+      "issue": "PHU_DONG_GEO_BOUNDARY",
+      "prior": "Binh Duong Di An",
+      "post2025": "HCMC",
+      "action": "Keep both historical geography fields and avoid rewriting historical market shares"
+    },
+    {
+      "issue": "RIVERSIDE_JULY_2009_VS_LATE_AUG_2009_LAUNCH",
+      "claims": [
+        {
+          "source_id": "S22",
+          "date": "2009-07-02",
+          "event": "tranche sale 85 of 314"
+        },
+        {
+          "source_id": "S20",
+          "date": "late 2009-08",
+          "event": "initial launch claimed"
+        }
+      ],
+      "action": "HOLD event ordering until original dated issuer circulars; could be distinct tranches, NOT silently overwrite"
+    },
+    {
+      "issue": "RIVERSIDE_APPROVAL_COUNTS_VS_COMPLETED_2026_PRESS",
+      "claims": [
+        {
+          "source_id": "S25",
+          "claim": "1197 apartments approved under A2 A3 project; source also reports current 884 apartments at A2 A3 and 281 car spaces"
+        },
+        {
+          "source_id": "S06",
+          "claim": "931 apartments reported Riverside 2015"
+        }
+      ],
+      "action": "HOLD, map block/phase scope to official 2008 approval, 2012 amendment and 2015-16 acceptance documents. No legal affirmation"
+    },
+    {
+      "issue": "PHU_AN_2017_VS_2018_APARTMENT_SIZE",
+      "claims": [
+        {
+          "source_id": "S12",
+          "size_m2": [
+            68,
+            71
+          ]
+        },
+        {
+          "source_id": "S21",
+          "size_m2": [
+            69,
+            71
+          ]
+        }
+      ],
+      "action": "HOLD until original unit typology, measurement method and tower-specific plan"
+    },
+    {
+      "issue": "HYCO4_STORY_COUNT_16_VS_17",
+      "dated_press_2012": "16 stories + 1 basement (VnExpress and CafeLand 2012)",
+      "dated_press_2013": "17 stories (Tin nhanh Chung khoan 2013)",
+      "contractor_undated": "16 aboveground stories",
+      "action": "HOLD, check permit architectural drawings and floor-counting convention. Never publish one floor count as verified."
+    },
+    {
+      "issue": "HYCO4_HANDOVER_PROJECTED_VS_PARTIAL_OCCUPANCY",
+      "projection_2012": "Q2 2013",
+      "projection_2013": "Q3 2013",
+      "residency_as_of_2014_11_05": "Press says some apartments occupied while other parts under construction",
+      "contractor_page_undated": "Claims completion 2014",
+      "action": "Do not equate marketing promise, customer possession, partial occupancy or contractor completion with official inspection / completion certification."
+    }
+  ],
+  "access_and_rights_queue": [
+    {
+      "source": "himlam.com",
+      "need": "Permission for recurring developer fact feed and archive screenshots/PDF + provenance policy",
+      "status": "NOT_REQUESTED_NO_LICENSE_IN_EVIDENCE"
+    },
+    {
+      "source": "truongsonland.com",
+      "need": "Corporate manager facts/images + archive feed terms and intended use",
+      "status": "NOT_REQUESTED_NO_LICENSE_IN_EVIDENCE"
+    },
+    {
+      "source": "vnexpress.net",
+      "need": "License/partner API if systematic historical fulltext/image ingestion is desired",
+      "status": "NO_LICENSE_IN_EVIDENCE_FACT_REFERENCE_ONLY"
+    },
+    {
+      "source": "tinnhanhchungkhoan.vn",
+      "need": "Licensed content feed for ongoing automated fulltext; URL-linked factual extraction for internal review only",
+      "status": "NO_LICENSE_IN_EVIDENCE"
+    },
+    {
+      "source": "Tuoi Tre / Nguoi Lao Dong original archives via secondary mirrors",
+      "need": "Direct original URLs and quote/republication license. Current candidate source uses credited mirror, not verified original",
+      "status": "NOT_REQUESTED_NO_LICENSE_IN_EVIDENCE"
+    },
+    {
+      "source": "HCMC Department of Construction; Ministry of Construction quality inspectorate",
+      "need": "Certified original decisions 2008-09-29, 2012 amendment; 2015/2016 acceptance documentation and updated counts for A2/A3",
+      "status": "SOURCE_PRIMARY_DOCUMENT_NOT_OBTAINED"
+    },
+    {
+      "source": "cafeland.vn, thesaigontimes.vn, vnexpress.net, tinnhanhchungkhoan.vn",
+      "need": "Written permission for ongoing automated content reuse or periodic licensed data feed; public facts are referenced individually only",
+      "status": "REFERENCE_ONLY_NO_FEED_LICENSE"
+    }
+  ],
+  "blocked_sources": [
+    {
+      "url": "https://thitruong.nld.com.vn/nld-thi-truong/dia-oc/ban-giao-can-ho-him-lam-riverside-giai-doan-2-20160415213111913.htm",
+      "access_status": "REDIRECT_500_IN_RESEARCH_CLIENT",
+      "alternate_source_id": "S19",
+      "action": "Use alternate dated article only for human review, no retries or bulk crawl"
+    },
+    {
+      "url": "https://thesaigontimes.vn/saigontimes/thi-truong-can-ho-chay-dua-voi-lai-suat-0/",
+      "checked_on": "2026-10-18",
+      "access_result": "Redirected to inaccessible Tuoi Tre URL; do not bulk crawl",
+      "remediation": "Use independent S34 corroboration; pursue licensed feed for automated prices"
+    }
+  ],
+  "source_watch": {
+    "github_issue": "https://github.com/02zmarketingcontact-del/atlas-bds-tphcm/issues/44",
+    "last_checked_at_utc": "2026-10-18T01:26:42.496Z",
+    "pages_monitored": 23,
+    "pages_readable": 15,
+    "pages_blocked_or_access_errors": 5,
+    "changed_pages": 0,
+    "candidate_facts": 5,
+    "feeds_authorized": 0,
+    "status": "checked",
+    "last_run_at": "2026-10-18T01:26:42.496Z",
+    "permissioned_price_feeds": 0
+  },
+  "metrics": {
+    "candidate_dossiers_in_bundle": 8,
+    "sources_in_bundle": 36,
+    "source_urls_unique": 36,
+    "price_observations_in_bundle": 18,
+    "price_counts_by_type": {
+      "PRICE_ASKING": 12,
+      "REPORT_ESTIMATE": 6
+    },
+    "historical_events_in_bundle": 18,
+    "dossiers_receiving_new_sources_in_this_increment": 1,
+    "new_price_evidence_in_this_increment": 2,
+    "new_wgs84_coordinates_in_this_increment": 0
+  },
+  "guardrails": {
+    "do_not_publish_price_or_legal_or_coordinates": true,
+    "the_felix_distinct_from_felix_homes": true,
+    "the_win_city_duc_hoa_tay_ninh_out_of_hcm_scope": true,
+    "norton_park_conflicting_facts_not_approved": true,
+    "source_rights_reference_not_feed_license": true,
+    "no_facebook_group_auto_join": true,
+    "no_bulk_scraping": true,
+    "no_other_ai_agent_run_assumed": true
+  },
+  "change_summary": {
+    "previous_local_file": "qimap_p0_himlam_8_dossiers_prices_review_only_20261018.json",
+    "added_source_ids": [
+      "S20",
+      "S21",
+      "S22",
+      "S23",
+      "S24",
+      "S25",
+      "S26"
+    ],
+    "added_price_ids": [
+      "HL-PRICE-08",
+      "HL-PRICE-09",
+      "HL-PRICE-10",
+      "HL-PRICE-11",
+      "HL-PRICE-12"
+    ],
+    "added_event_count": 7,
+    "source_rights": "CITATION_ONLY_NOT_LICENSED_FEED",
+    "staging_only": true,
+    "no_publication": true,
+    "added_price_ids_this_run": [
+      "HL-PRICE-13",
+      "HL-PRICE-14"
+    ],
+    "source_url_reused_this_run": "S24",
+    "added_source_ids_this_run": [
+      "S27"
+    ]
+  },
+  "historical_merge_note_20261018_1150_vn": {
+    "new_price_evidence_this_increment": 2,
+    "dossiers_receiving_new_dated_sources": 1,
+    "new_distinct_source_urls": 6,
+    "new_wgs84_coordinates": 0,
+    "new_transaction_verified": 0,
+    "github_changes": "NOT_CONFIRMED_WRITE_TO_REPO_SAFETY_BLOCKED",
+    "priority": "The Hyco4 Tower, confirm issuer role and hold 16-vs-17 floors and date of completion",
+    "source_verification": "Web page review on 2026-10-18; primary dated newspaper articles plus contractor website; no bulk crawling",
+    "rights": "Linked factual observation, not page reproduction; no authorized automated feed",
+    "publication_policy": "REVIEW_ONLY, do not publish price, legal status, coordinate or foreign-ownership eligibility"
+  },
+  "git_status_note": "Review-only evidence, GitHub publication status must be verified independently.",
+  "current_turn_delta": {
+    "dated_price_sources_added": [
+      "S35",
+      "S36"
+    ],
+    "undated_article_event_corroboration": "S34",
+    "new_price_ids": [
+      "HL-PRICE-17",
+      "HL-PRICE-18"
+    ],
+    "prior_research_prices_carried_forward": 16
+  }
+}
