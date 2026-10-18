@@ -6,6 +6,7 @@ import hashlib
 import json
 import pathlib
 import urllib.request
+import urllib.error
 import xml.etree.ElementTree as ET
 
 ALLOWED = {"OFFICIAL", "PARTNER_AUTHORIZED", "LICENSED_DATA"}
@@ -53,6 +54,8 @@ def main():
     args = p.parse_args()
     out = pathlib.Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
+    checkpoint_dir = out / "checkpoints"
+    checkpoint_dir.mkdir(exist_ok=True)
     report = {"run_id": dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ"), "started_at": dt.datetime.now(dt.timezone.utc).isoformat(), "sources_total": None, "sources_enabled": 0, "sources_checked": 0, "sources_success": 0, "sources_failed": 0, "new_candidates": 0, "duplicates": 0, "published": 0, "errors": []}
     try:
         feeds = validate(json.loads(pathlib.Path(args.registry).read_text(encoding="utf-8")))
@@ -62,12 +65,14 @@ def main():
                 continue
             report["sources_enabled"] += 1
             try:
-                result = discover(feed, {})
+                checkpoint_path = checkpoint_dir / (feed["id"] + ".json")
+                previous = json.loads(checkpoint_path.read_text()) if checkpoint_path.exists() else {}
+                result = discover(feed, previous)
                 report["sources_checked"] += 1
                 report["sources_success"] += 1
                 report["new_candidates"] += result["new_candidates"]
                 report["duplicates"] += result["duplicates"]
-                (out / ("checkpoint-" + feed["id"] + ".json")).write_text(json.dumps(result["checkpoint"], indent=2))
+                checkpoint_path.write_text(json.dumps(result["checkpoint"], indent=2))
             except Exception as exc:
                 report["sources_checked"] += 1
                 report["sources_failed"] += 1
