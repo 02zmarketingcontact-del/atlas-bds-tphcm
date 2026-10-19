@@ -1,0 +1,77 @@
+{
+  "as_of": "2026-10-19",
+  "status": "REVIEW_ONLY",
+  "publication_allowed": false,
+  "source_usage": "attributed short public facts; feed rights unverified",
+  "dedup": "compared selected PR77 dossiers and intake files; not repository-wide",
+  "project_profiles": 5,
+  "price_asking_apartments": 3,
+  "verified_transactions": 0,
+  "verified_coordinates": 0,
+  "authorized_feeds": 0,
+  "items": [
+    {
+      "id": "hist-parcspring",
+      "src": "https://vir.com.vn/capitavalue-homes-launches-first-project-14893.html",
+      "date": "2012-07-09",
+      "publisher": "Vietnam Investment Review",
+      "price": {
+        "type": "PRICE_ASKING",
+        "operator": "LESS_THAN",
+        "value": 1000,
+        "currency": "USD",
+        "per": "m2"
+      },
+      "flag": "2012 394 apartments + 10 retail; portfolio scope differs from other reports"
+    },
+    {
+      "id": "hist-thekrista",
+      "src": "https://vnexpress.net/ra-mat-khu-can-ho-the-krista-3218072.html",
+      "date": "2015-05-14",
+      "publisher": "VnExpress",
+      "price": {
+        "type": "PRICE_ASKING",
+        "operator": "FROM",
+        "value": 23900000,
+        "currency": "VND",
+        "per": "m2"
+      },
+      "flag": "344 units; marketed as PARCSpring phase 2; handover dates disputed"
+    },
+    {
+      "id": "hist-thekrista",
+      "src": "https://vnexpress.net/mo-ban-dot-2-du-an-the-krista-3255153.html",
+      "date": "2015-07-29",
+      "publisher": "VnExpress",
+      "price": {
+        "type": "PRICE_ASKING",
+        "operator": "FROM",
+        "value": 1500000000,
+        "currency": "VND",
+        "per": "2BR_unit"
+      },
+      "flag": "VAT excluded, exact area and area basis unknown"
+    },
+    {
+      "id": "hist-krisvue",
+      "src": "https://baodauthau.vn/capitaland-viet-nam-ban-giao-can-ho-du-an-kris-vue-dung-cam-ket-post57007.html",
+      "date": "2018-09-07",
+      "publisher": "Bao Dau Thau",
+      "fact": "First units handed over since June 2018, not entire-project completion"
+    },
+    {
+      "id": "hist-monegiadinh",
+      "src": "https://masterisehomes.com/m-one-gia-dinh/mat-bang-m-one-gia-dinh",
+      "date": null,
+      "publisher": "Masterise Homes",
+      "fact": "1BR 49.4m2, 2BR 69.3-74.1m2, 3BR 89.5m2; undated"
+    },
+    {
+      "id": "hist-monesaigonsouth",
+      "src": "https://www.masterisehomes.com/m-one-nam-sai-gon/tin-tuc/tin-tuc-su-kien-m-one-nam-saigon/5-uu-the-khi-dau-tu-can-ho-officetel-m-one-nam-sai-gon",
+      "date": "2017-08-10",
+      "publisher": "Masterise Homes",
+      "flag": "Officetel asking from 850m VND NOT comparable to standard apartment offers, excluded"
+    }
+  ]
+}
