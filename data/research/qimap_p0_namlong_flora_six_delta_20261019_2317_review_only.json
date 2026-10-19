@@ -1,0 +1,411 @@
+{
+  "schema_version": "qimap-p0-evidence-candidates-v1.1",
+  "batch_id": "qimap-p0-namlong-flora-six-delta-20261019-2317",
+  "as_of": "2026-10-19",
+  "status": "REVIEW_ONLY_NOT_PUBLIC",
+  "repository": "02zmarketingcontact-del/atlas-bds-tphcm",
+  "base_ref": "main",
+  "base_sha": "100ae57d66034ea3abf5575b0ceb327d526cc6c8",
+  "branch": "research/qimap-p0-namlong-flora-six-delta-20261019-2317",
+  "related_prs": [
+    77,
+    78,
+    82
+  ],
+  "related_issues": [
+    74,
+    53,
+    52,
+    44
+  ],
+  "dedup": {
+    "checked_open_prs": [
+      67,
+      76,
+      77,
+      78,
+      79,
+      80,
+      82
+    ],
+    "method": "inspected full available diffs, searched 7 unique source URL slug substrings; no matches in checked PRs, but not a guaranteed audit of every unmerged historical branch",
+    "note": "All six canonical IDs exist in main and had unverified coverage; new dated source URLs are additional evidence rather than new project identities. Previously-staged Flora Novia 2018 offers and Flora Anh Dao 2015 19.9m/m2 are not recounted."
+  },
+  "selection": {
+    "project_ids": [
+      "hist-floraanhdao",
+      "hist-florafuji",
+      "hist-florakikyo",
+      "hist-thebridgeview",
+      "hist-floranovia",
+      "hist-floramizukimp15"
+    ],
+    "region_scope": "HCMC_old_boundary",
+    "selection_basis": "Main dossiers mostly missing independently verified area, towers, history, prices, rental and location. Add true dated issuer/source-provenance facts to 2015–2022 history without repeating PR77 candidate URLs."
+  },
+  "sources": [
+    {
+      "id": "NL-FA-20160520",
+      "project_id": "hist-floraanhdao",
+      "url": "https://www.namlongvn.com/tin-tuc/994-du-an-flora-anh-dao-phong-cach-nhat-gia-hop-ly-co-nha-ngay/",
+      "publisher": "Nam Long Group",
+      "original_publisher": "Nam Long Group",
+      "published_at": "2016-05-20",
+      "source_type": "ISSUER_NEWS",
+      "title": "Flora Anh Dao: project nearing handover",
+      "checked_at": "2026-10-19",
+      "access": "PUBLIC_WEB_PAGE_MANUAL_FACT_REVIEW",
+      "rights": {
+        "brief_fact_citation": "REVIEW_ONLY",
+        "republish_full_text": "NOT_AUTHORIZED",
+        "images": "NOT_AUTHORIZED",
+        "bulk_scraping": "NOT_AUTHORIZED",
+        "automated_feed": "NOT_AUTHORIZED"
+      },
+      "no_auto_publish": true
+    },
+    {
+      "id": "NL-FF-20160625",
+      "project_id": "hist-florafuji",
+      "url": "https://www.namlongvn.com/tin-tuc/1008-chung-cu-flora-fuji-chinh-thuc-ra-mat-thi-truong/",
+      "publisher": "Nam Long Group",
+      "original_publisher": "Nam Long Group",
+      "published_at": "2016-06-25",
+      "source_type": "ISSUER_NEWS",
+      "title": "Flora Fuji public launch and 789 apartments",
+      "checked_at": "2026-10-19",
+      "access": "PUBLIC_WEB_PAGE_MANUAL_FACT_REVIEW",
+      "rights": {
+        "brief_fact_citation": "REVIEW_ONLY",
+        "republish_full_text": "NOT_AUTHORIZED",
+        "images": "NOT_AUTHORIZED",
+        "bulk_scraping": "NOT_AUTHORIZED",
+        "automated_feed": "NOT_AUTHORIZED"
+      },
+      "no_auto_publish": true
+    },
+    {
+      "id": "NL-FK-20161109",
+      "project_id": "hist-florakikyo",
+      "url": "https://www.namlongvn.com/tin-tuc/1332-nam-long-hose-nlg-tiep-tuc-cung-hankyu-realty-va-nishi-nippon-railroad-phat-trien-du-an-kikyo-residence-trung-tam-quan-9/",
+      "publisher": "Nam Long Group",
+      "original_publisher": "Nam Long Group",
+      "published_at": "2016-11-09",
+      "source_type": "ISSUER_PRESS_RELEASE",
+      "title": "Kikyo Residence investment announcement",
+      "checked_at": "2026-10-19",
+      "access": "PUBLIC_WEB_PAGE_MANUAL_FACT_REVIEW",
+      "rights": {
+        "brief_fact_citation": "REVIEW_ONLY",
+        "republish_full_text": "NOT_AUTHORIZED",
+        "images": "NOT_AUTHORIZED",
+        "bulk_scraping": "NOT_AUTHORIZED",
+        "automated_feed": "NOT_AUTHORIZED"
+      },
+      "no_auto_publish": true
+    },
+    {
+      "id": "NL-BV-20151203",
+      "project_id": "hist-thebridgeview",
+      "url": "https://www.namlongvn.com/tin-tuc/110-du-an-ehome-5-the-bridgeview-trai-nghiem-thanh-cong-cua-dong-ehome/",
+      "publisher": "Nam Long Group",
+      "original_publisher": "Nam Long Group",
+      "published_at": "2015-12-03",
+      "source_type": "ISSUER_NEWS",
+      "title": "EHome 5 The Bridgeview first block topped out",
+      "checked_at": "2026-10-19",
+      "access": "PUBLIC_WEB_PAGE_MANUAL_FACT_REVIEW",
+      "rights": {
+        "brief_fact_citation": "REVIEW_ONLY",
+        "republish_full_text": "NOT_AUTHORIZED",
+        "images": "NOT_AUTHORIZED",
+        "bulk_scraping": "NOT_AUTHORIZED",
+        "automated_feed": "NOT_AUTHORIZED"
+      },
+      "no_auto_publish": true
+    },
+    {
+      "id": "NL-FN-20200721",
+      "project_id": "hist-floranovia",
+      "url": "https://www.namlongvn.com/tin-tuc/3005-nam-long-doanh-so-tu-dau-nam-dat-2340-ty-lai-6-thang-gan-179-ty-dong/",
+      "publisher": "Nam Long Group (repost)",
+      "original_publisher": "Vietstock.vn",
+      "published_at": "2020-07-21",
+      "source_type": "ISSUER_SITE_THIRD_PARTY_REPOST",
+      "title": "Nam Long 2020 interim report commentary references Flora Novia deliveries",
+      "checked_at": "2026-10-19",
+      "access": "PUBLIC_WEB_PAGE_MANUAL_FACT_REVIEW",
+      "rights": {
+        "brief_fact_citation": "REVIEW_ONLY",
+        "republish_full_text": "NOT_AUTHORIZED",
+        "images": "NOT_AUTHORIZED",
+        "bulk_scraping": "NOT_AUTHORIZED",
+        "automated_feed": "NOT_AUTHORIZED"
+      },
+      "no_auto_publish": true
+    },
+    {
+      "id": "NL-FM-20201007",
+      "project_id": "hist-floramizukimp15",
+      "url": "https://www.namlongvn.com/tin-tuc/3101-toan-canh-khu-do-thi-mizuki-park-sau-10-thang-ban-giao/",
+      "publisher": "Nam Long Group (repost)",
+      "original_publisher": "Muabannhadat.vn",
+      "published_at": "2020-10-07",
+      "source_type": "ISSUER_SITE_THIRD_PARTY_REPOST",
+      "title": "Mizuki Park phase-one delivery and 2017 quoted launch price",
+      "checked_at": "2026-10-19",
+      "access": "PUBLIC_WEB_PAGE_MANUAL_FACT_REVIEW",
+      "rights": {
+        "brief_fact_citation": "REVIEW_ONLY",
+        "republish_full_text": "NOT_AUTHORIZED",
+        "images": "NOT_AUTHORIZED",
+        "bulk_scraping": "NOT_AUTHORIZED",
+        "automated_feed": "NOT_AUTHORIZED"
+      },
+      "no_auto_publish": true
+    },
+    {
+      "id": "NL-FM-20220331",
+      "project_id": "hist-floramizukimp15",
+      "url": "https://www.namlongvn.com/tin-tuc/3541-mizuki-park-do-thi-tam-diem-chu-y-tai-khu-nam/",
+      "publisher": "Nam Long Group (repost)",
+      "original_publisher": "Dau tu Chung khoan (tinnhanhchungkhoan.vn)",
+      "published_at": "2022-03-31",
+      "source_type": "ISSUER_SITE_THIRD_PARTY_REPOST",
+      "title": "Mizuki Park retrospective 2017 historical price corroboration",
+      "checked_at": "2026-10-19",
+      "access": "PUBLIC_WEB_PAGE_MANUAL_FACT_REVIEW",
+      "rights": {
+        "brief_fact_citation": "REVIEW_ONLY",
+        "republish_full_text": "NOT_AUTHORIZED",
+        "images": "NOT_AUTHORIZED",
+        "bulk_scraping": "NOT_AUTHORIZED",
+        "automated_feed": "NOT_AUTHORIZED"
+      },
+      "no_auto_publish": true
+    }
+  ],
+  "historical_events": [
+    {
+      "id": "E01",
+      "project_id": "hist-floraanhdao",
+      "source_id": "NL-FA-20160520",
+      "event_type": "HANDOVER_PLAN",
+      "event_time": "2016-06",
+      "precision": "MONTH_PLANNED",
+      "statement": "Publisher said handover scheduled for June 2016; not independently confirmed handover."
+    },
+    {
+      "id": "E02",
+      "project_id": "hist-florafuji",
+      "source_id": "NL-FF-20160625",
+      "event_type": "MARKETING_LAUNCH",
+      "event_time": "2016-06-25",
+      "precision": "DAY",
+      "statement": "Issuer opened showroom/launched Flora Fuji; 789 apartments reported for Flora Fuji, not whole Fuji Residence."
+    },
+    {
+      "id": "E03",
+      "project_id": "hist-florakikyo",
+      "source_id": "NL-FK-20161109",
+      "event_type": "PARTNERSHIP_ANNOUNCEMENT",
+      "event_time": "2016-11-08",
+      "precision": "DAY_EVENT",
+      "statement": "Issuer announced Nam Long/Japanese partners cooperation: Kikyo Residence 234 Flora apartments plus 110 Valora villas; 5.3ha for mixed project, not apartment-only plot."
+    },
+    {
+      "id": "E04",
+      "project_id": "hist-thebridgeview",
+      "source_id": "NL-BV-20151203",
+      "event_type": "CONSTRUCTION_TOPPING_OUT",
+      "event_time": "2015-12-03",
+      "precision": "PUBLISHED_BY_DATE",
+      "statement": "First block reported topped out by publication date; 90% of tranche-one apartments said to have sold (issuer marketing; not verified transaction count)."
+    },
+    {
+      "id": "E05",
+      "project_id": "hist-floranovia",
+      "source_id": "NL-FN-20200721",
+      "event_type": "HANDOVER_PERIOD_CLAIM",
+      "event_time": "2019_to_2020_Q1",
+      "precision": "INTERVAL_APPROX",
+      "statement": "Reposted financial article attributes Flora Novia delivery/completion to 2019 and Q1 2020; do not set a universal building handover day."
+    },
+    {
+      "id": "E06",
+      "project_id": "hist-floramizukimp15",
+      "source_id": "NL-FM-20201007",
+      "event_type": "PARENT_PHASE_HANDOVER_REPORT",
+      "event_time": "BY_2020-10-07",
+      "precision": "BEFORE_PUBLICATION",
+      "statement": "Mizuki Park phase 1 described as already handed over, approx 10 months prior; article does not enumerate MP1-MP5 towers so individual-tower scope is not approved."
+    }
+  ],
+  "price_observations": [
+    {
+      "id": "FLORA_ANHDAO_20160520_ROUNDED_2BR",
+      "project_id": "hist-floraanhdao",
+      "source_ids": [
+        "NL-FA-20160520"
+      ],
+      "type": "REPORT_ESTIMATE",
+      "observed_as_of": "2016-05-20",
+      "amount": 1100000000,
+      "currency": "VND",
+      "denominator": "apartment",
+      "bedrooms": 2,
+      "amount_qualifier": "approximately",
+      "scope": "project_2br_generic_not_unit",
+      "unit_area_m2": null,
+      "area_basis": "UNKNOWN",
+      "vat_basis": "UNKNOWN",
+      "fees_basis": "UNKNOWN",
+      "product_market": "developer_primary_reported_promotion",
+      "method": "issuer_historical_rounded_promotional_claim",
+      "transaction_verified": false,
+      "approval": "REVIEW_ONLY",
+      "feed_rights": "NOT_GRANTED",
+      "not_current_offer": true
+    },
+    {
+      "id": "FLORA_FUJI_20160625_ISSUER_AVG",
+      "project_id": "hist-florafuji",
+      "source_ids": [
+        "NL-FF-20160625"
+      ],
+      "type": "REPORT_ESTIMATE",
+      "observed_as_of": "2016-06-25",
+      "amount": 1100000000,
+      "currency": "VND",
+      "denominator": "apartment",
+      "bedrooms": null,
+      "amount_qualifier": "average",
+      "scope": "project_all_apartments_average_not_unit",
+      "unit_area_m2": null,
+      "area_basis": "UNKNOWN",
+      "vat_basis": "UNKNOWN",
+      "fees_basis": "UNKNOWN",
+      "product_market": "developer_primary_reported_average",
+      "method": "issuer_reported_project_average",
+      "transaction_verified": false,
+      "approval": "REVIEW_ONLY",
+      "feed_rights": "NOT_GRANTED",
+      "not_current_offer": true
+    },
+    {
+      "id": "FLORA_MIZUKI_2017_RETROSPECTIVE_START",
+      "project_id": "hist-floramizukimp15",
+      "source_ids": [
+        "NL-FM-20201007",
+        "NL-FM-20220331"
+      ],
+      "type": "REPORT_ESTIMATE",
+      "observed_as_of": "2017",
+      "as_of_precision": "YEAR_ONLY_RETROSPECTIVE",
+      "published_at_first_seen": "2020-10-07",
+      "amount": 27000000,
+      "currency": "VND",
+      "denominator": "m2",
+      "bedrooms": null,
+      "amount_qualifier": "launch_from_recalled",
+      "scope": "Flora_Mizuki_parent_project; applicability_to_MP1-MP5_unresolved",
+      "unit_area_m2": null,
+      "area_basis": "UNKNOWN_GROSS_OR_NET",
+      "vat_basis": "UNKNOWN",
+      "fees_basis": "UNKNOWN",
+      "product_market": "developer_primary_historical_retrospective",
+      "method": "two_secondary_reposts_on_issuer_domain_referring_to_2017",
+      "transaction_verified": false,
+      "approval": "REVIEW_ONLY",
+      "feed_rights": "NOT_GRANTED",
+      "not_current_offer": true
+    }
+  ],
+  "review_conflicts": [
+    {
+      "project_id": "hist-floramizukimp15",
+      "issue": "Mizuki Park phase-one label in 2020 repost is not a documented MP1–MP5 tower roster. 2017 launch asking reference is parent-project scoped.",
+      "disposition": "HOLD_TOWER_LEVEL_AGGREGATION"
+    },
+    {
+      "project_id": "hist-florakikyo",
+      "issue": "Kikyo Residence includes 234 Flora apartments plus 110 Valora villas; avoid adding villa units to apartment count.",
+      "disposition": "SEPARATE_APARTMENT_AND_VILLA_COUNTS"
+    },
+    {
+      "project_id": "hist-thebridgeview",
+      "issue": "One tower was topped out by 2015-12-03; topping-out does not establish building handover. Separate tower totals/issuer figures must not be harmonized without a plan.",
+      "disposition": "NO_HANDOVER_INFERENCE"
+    },
+    {
+      "project_id": "hist-floraanhdao",
+      "issue": "June 2016 delivery is projected by May 2016 article, not proven actual handover.",
+      "disposition": "PLAN_ONLY"
+    },
+    {
+      "project_id": "hist-floranovia",
+      "issue": "Publisher-reposted financial report says completed handovers spanning 2019 and Q1 2020; no tower-specific completion or signed handover records.",
+      "disposition": "REQUEST_HANDOVER_DOCUMENTATION"
+    }
+  ],
+  "rights_connection_queue": [
+    {
+      "provider": "Nam Long Group",
+      "scope": "official developer historical news",
+      "need": "confirm written permission for recurring feed, archives and media reuse",
+      "status": "NOT_GRANTED"
+    },
+    {
+      "provider": "Vietstock.vn",
+      "scope": "original commentary reproduced at Nam Long Group",
+      "need": "source license for automated or commercial reuse; original link",
+      "status": "NOT_GRANTED"
+    },
+    {
+      "provider": "Muabannhadat.vn",
+      "scope": "original article reproduced on issuer domain",
+      "need": "original rights and phase/tower primary evidence",
+      "status": "NOT_GRANTED"
+    },
+    {
+      "provider": "Dau tu Chung khoan / tinnhanhchungkhoan.vn",
+      "scope": "2022 retrospective",
+      "need": "original license for automated content use",
+      "status": "NOT_GRANTED"
+    }
+  ],
+  "geo": {
+    "wgs84_new_verified": 0,
+    "reason": "No primary parcel/site geospatial records or two-source coordinate corroboration in this batch."
+  },
+  "price_feed_state": {
+    "monitor_last_run_utc": "2026-10-19T01:29:53.280Z",
+    "pages_monitored": 23,
+    "pages_changed": 0,
+    "robots_or_errors": 6,
+    "authorized_price_feeds": 0,
+    "price_autopublish": false
+  },
+  "metrics": {
+    "dossiers_with_new_dated_source": 6,
+    "new_unique_source_urls": 7,
+    "evidenced_price_observations": 3,
+    "price_breakdown": {
+      "PRICE_ASKING": 0,
+      "TRANSACTION_VERIFIED": 0,
+      "RENT_ASKING": 0,
+      "REPORT_ESTIMATE": 3
+    },
+    "new_wgs84_coordinates_crosschecked": 0,
+    "production_fields_changed": 0
+  },
+  "guards": {
+    "felix_separate_from_felix_homes": true,
+    "win_city_duc_hoa_tay_ninh_outside_hcm": true,
+    "norton_park_conflict_remains_on_hold": true,
+    "facebook_group_auto_join": false,
+    "unlicensed_bulk_scraping": false,
+    "legal_or_price_autopublish": false
+  },
+  "notes": "Small original factual summaries, no article body, scraped listing data, photos, private contacts, legal approvals, transaction certification or inferred coordinate. Date on source publication separate from effective historical year; rights not established for feed."
+}
