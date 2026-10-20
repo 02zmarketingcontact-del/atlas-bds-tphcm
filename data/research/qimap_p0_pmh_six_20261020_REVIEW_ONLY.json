@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "review_only": true,
+  "date": "2026-10-20",
+  "projects": [
+    [
+      "Mỹ Đức (Phú Mỹ Hưng)",
+      "https://phumyhung.vn/phu-my-hung-cong-bo-du-an-moi-khu-can-ho-cao-cap-my-duc/",
+      84,
+      "2006-08-12"
+    ],
+    [
+      "Mỹ Phát",
+      "https://phumyhung.vn/du-an-khu-can-ho-cao-cap-my-phat/",
+      72,
+      "2006-11-04"
+    ],
+    [
+      "Garden Court 1",
+      "https://phumyhung.vn/en/garden-court-1-apartments-to-be-handed-over-to-buyers/",
+      103,
+      "2009-05"
+    ],
+    [
+      "Garden Court 2",
+      "https://phumyhung.vn/phu-my-hung-cong-bo-can-ho-garden-court-2/",
+      90,
+      "2007-08-18"
+    ],
+    [
+      "Green View",
+      "https://phumyhung.vn/cong-ty-pmh-ap-dung-phuong-thuc-kinh-doanh-moi-trong-viec-mua-can-ho-green-view-giai-doan-2/",
+      153,
+      "2007-05-19"
+    ],
+    [
+      "Nam Khang",
+      "https://phumyhung.vn/khoi-cong-xay-dung-nam-khang-va-biet-thu-my-thai-iii/",
+      38,
+      "2006"
+    ]
+  ],
+  "price_evidence": [
+    {
+      "project": "Green View",
+      "kind": "PRICE_ASKING",
+      "minimum": 1800,
+      "maximum": 2000,
+      "currency": "USD",
+      "basis": "m2",
+      "date": "2007-05-19"
+    }
+  ],
+  "location_evidence": "Descriptive only, 0 WGS84 independently checked",
+  "warning": "Mỹ Đức (PMH) is not automatically same as indexed Chung cư Mỹ Đức",
+  "rights": "Short factual references only; feed and reproduction permissions unverified",
+  "publish": false
+}
