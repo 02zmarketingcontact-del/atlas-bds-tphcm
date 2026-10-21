@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "status": "REVIEW_ONLY",
+  "review_date": "2026-10-17",
+  "source_kind": "An Gia issuer pages; press stories",
+  "approved_for_publication": false,
+  "profiles": [
+    {
+      "name": "The Garden",
+      "official_url": "https://www.angia.com.vn/vi/du-an/du-an-da-hoan-thanh/the-garden/the-garden.html",
+      "site_status": "intermittent_timeout"
+    },
+    {
+      "name": "The Star",
+      "official_url": "https://www.angia.com.vn/en/project/handed-over-projects/the-star-1/the-star-1.html"
+    },
+    {
+      "name": "Riverside",
+      "official_url": "https://www.angia.com.vn/en/project/handed-over-projects/riverside-1/riverside-1.html"
+    },
+    {
+      "name": "Skyline",
+      "official_url": "https://www.angia.com.vn/en/project/handed-over-projects/skyline-1/skyline-1.html"
+    },
+    {
+      "name": "River Panorama",
+      "official_url": "https://www.angia.com.vn/en/project/handed-over-projects/river-panorama-2.html",
+      "site_status": "intermittent_timeout"
+    },
+    {
+      "name": "Sky 89",
+      "official_url": "https://www.angia.com.vn/en/project/handed-over-projects/sky-89-1/sky-89-1.html"
+    },
+    {
+      "name": "Westgate",
+      "official_url": "https://www.angia.com.vn/en/project/ongoing-projects/-139.html"
+    }
+  ],
+  "new_price_candidate": {
+    "project": "Westgate",
+    "published": "2020-02-24",
+    "kind": "REPORT_ESTIMATE",
+    "unit_type": "2 bedrooms, 2 bathrooms",
+    "planned_price_from_vnd": 1800000000,
+    "unit": "VND/apartment",
+    "source": "https://vnexpress.net/an-gia-ra-mat-du-an-tai-khu-trung-tam-hanh-chinh-tay-sai-gon-4056842.html",
+    "effective_offer_date": null,
+    "area_sqm": null,
+    "area_basis": "unknown",
+    "vat": "unknown",
+    "status": "REVIEW_ONLY"
+  },
+  "source_rights": "Reference links only; no authorized feed, no redistribution",
+  "verified_coordinates_added": 0
+}
