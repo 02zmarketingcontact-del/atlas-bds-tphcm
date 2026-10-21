@@ -22,6 +22,8 @@ jobs:
         run: node scripts/validate-data.cjs
       - name: Validate 105 QiMap GIS references and provenance
         run: node scripts/validate-qimap-gis-reference.cjs
+      - name: Validate remaining 48 GIS review batch
+        run: node scripts/validate-qimap-remaining-48.cjs
       - name: Verify browser JavaScript syntax
         run: node --check assets/atlas-v4.js
       - name: Validate QiMap sourced project profile
