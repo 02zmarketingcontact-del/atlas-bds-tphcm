@@ -1,0 +1,286 @@
+{
+  "schema_version": "qimap-p0-source-backed-delta-v1",
+  "batch_id": "qimap-tdh-six-issuer-bulletins-delta-20261021-2230",
+  "research_date": "2026-10-21",
+  "repository": "02zmarketingcontact-del/atlas-bds-tphcm",
+  "base_main_sha": "bc69f77f1318144be78b51ae95cd284da4274117",
+  "status": "REVIEW_ONLY",
+  "publish_gate": "MANUAL_REVIEW_REQUIRED",
+  "catalog_match_status": "CANDIDATE_IDS_NOT_YET_LINKED_TO_CANONICAL_IDS",
+  "dedupe_note": "These six candidates already existed in earlier local Thuduc research (17 historical price candidates); this file includes ONLY newly found 5 URLs, 4 different price observations, and sales/timeline deltas. Do not count issuer-reported sales as TRANSACTION_VERIFIED.",
+  "source_rights_status": "COMMERCIAL_REUSE_NOT_GRANTED",
+  "sources": [
+    {
+      "id": "TDH_IR_Q1_2018",
+      "organization": "CTCP Phat trien Nha Thu Duc (Thuduc House)",
+      "source_class": "ISSUER_IR_BULLETIN",
+      "document_period": "2018-Q1",
+      "date_granularity": "QUARTER",
+      "url": "https://www.thuduchouse.vn/pdf/tdh_ban_tin_ir_quy-i2018_vi_1526365540.pdf",
+      "locator": "PDF pages 3-4 (zero-index 2-3); issuer sales table, RiverView/Citrine launch",
+      "evidence_state": "PDF_TEXT_EXTRACTED; SCREENSHOT_CACHE_MISS",
+      "rights": "CITATION_AND_RESEARCH_ONLY; COMMERCIAL_REUSE_NOT_GRANTED"
+    },
+    {
+      "id": "TDH_IR_Q3_2018",
+      "organization": "CTCP Phat trien Nha Thu Duc (Thuduc House)",
+      "source_class": "ISSUER_IR_BULLETIN",
+      "document_period": "2018-Q3",
+      "contained_as_of": "2018-10-30",
+      "date_granularity": "QUARTER_PLUS_AS_OF",
+      "url": "https://thuduchouse.vn/pdf/ban-tin-ir-quy-32018_vi_1543810077.pdf",
+      "locator": "PDF pages 3-4, 9, 11 (zero-index 2-3,8,10); 216/225 inventory",
+      "evidence_state": "PDF_TEXT_EXTRACTED; SCREENSHOT_CACHE_MISS",
+      "rights": "CITATION_AND_RESEARCH_ONLY; COMMERCIAL_REUSE_NOT_GRANTED"
+    },
+    {
+      "id": "CONGLY_2015_12_01",
+      "organization": "Bao Cong Ly",
+      "source_class": "PRESS_DEVELOPER_ATTRIBUTED",
+      "published_at": "2015-12-01",
+      "url": "https://congly.vn/thuduc-house-mo-ban-giai-doan-2-du-an-tdh-phuoc-long-147923.html",
+      "rights": "CITATION_AND_RESEARCH_ONLY; COMMERCIAL_REUSE_NOT_GRANTED"
+    },
+    {
+      "id": "DTTCO_2017_12_19",
+      "organization": "Bao Sai Gon Dau Tu Tai Chinh",
+      "source_class": "PRESS_DEVELOPER_ATTRIBUTED",
+      "published_at": "2017-12-19",
+      "url": "https://dttc.sggp.org.vn/dong-tho-du-an-bach-phu-thinh-post50708.html",
+      "rights": "CITATION_AND_RESEARCH_ONLY; COMMERCIAL_REUSE_NOT_GRANTED"
+    },
+    {
+      "id": "DANTRI_2019_01_09",
+      "organization": "Bao Dan Tri",
+      "source_class": "PRESS_PROJECT_PROMOTION",
+      "published_at": "2019-01-09",
+      "url": "https://dantri.com.vn/kinh-doanh/centum-wealth-complex-tung-hang-hot-dau-nam-2019-20190109110233408.htm",
+      "rights": "CITATION_AND_RESEARCH_ONLY; COMMERCIAL_REUSE_NOT_GRANTED"
+    }
+  ],
+  "dossiers": [
+    {
+      "candidate_id": "cand-tdh-truong-tho",
+      "new_source_ids": [
+        "TDH_IR_Q1_2018"
+      ],
+      "new_facts": [
+        {
+          "kind": "ISSUER_REPORTED_SALES_CUMULATIVE",
+          "as_of": "2018-Q1",
+          "sold_reported": 259,
+          "total_units_reported": 262,
+          "remaining_reported": 3,
+          "source": "TDH_IR_Q1_2018"
+        }
+      ]
+    },
+    {
+      "candidate_id": "cand-tdh-phuoc-binh",
+      "new_source_ids": [
+        "TDH_IR_Q1_2018"
+      ],
+      "new_facts": [
+        {
+          "kind": "ISSUER_REPORTED_SALES_CUMULATIVE",
+          "as_of": "2018-Q1",
+          "sold_reported": 86,
+          "total_units_reported": 86,
+          "remaining_reported": 0,
+          "source": "TDH_IR_Q1_2018"
+        }
+      ],
+      "hold": [
+        "Issuer project pages disagree on street/land area/handover; this intake does not choose one."
+      ]
+    },
+    {
+      "candidate_id": "cand-s-home-phuoc-long",
+      "new_source_ids": [
+        "CONGLY_2015_12_01"
+      ],
+      "new_facts": [
+        {
+          "kind": "PHASE_2_MARKETING",
+          "date": "2015-12-01",
+          "unit_area_min_m2": 45.6,
+          "unit_area_max_m2": 83.6,
+          "area_basis": "NET_AS_PUBLISHER",
+          "source": "CONGLY_2015_12_01"
+        }
+      ],
+      "hold": [
+        "4 blocks may refer to structural sections rather than four separate towers; keep publisher wording."
+      ]
+    },
+    {
+      "candidate_id": "cand-tdh-riverview",
+      "new_source_ids": [
+        "TDH_IR_Q1_2018",
+        "TDH_IR_Q3_2018"
+      ],
+      "new_facts": [
+        {
+          "kind": "ISSUER_REPORTED_SALES_CUMULATIVE",
+          "as_of": "2018-10-30",
+          "sold_reported": 158,
+          "total_units_reported": 216,
+          "remaining_reported": 58,
+          "source": "TDH_IR_Q3_2018"
+        }
+      ],
+      "hold": [
+        "Issuer 2018 says 216 units; 2020 developer-attributed report says 214; current developer catalog has S-Home Binh Chieu 210. Project alias/identity requires source-document review before linking."
+      ]
+    },
+    {
+      "candidate_id": "cand-citrine",
+      "new_source_ids": [
+        "TDH_IR_Q1_2018",
+        "TDH_IR_Q3_2018"
+      ],
+      "new_facts": [
+        {
+          "kind": "ISSUER_REPORTED_MARKETING_START",
+          "date": "2018-09-05",
+          "source": "TDH_IR_Q3_2018",
+          "note": "Issuer says eligible for opening/signing; NOT an independent legal verification."
+        },
+        {
+          "kind": "ISSUER_REPORTED_SALES_CUMULATIVE",
+          "as_of": "2018-10-30",
+          "sold_reported": 127,
+          "total_units_reported": 225,
+          "remaining_reported": 98,
+          "source": "TDH_IR_Q3_2018"
+        }
+      ],
+      "hold": [
+        "225/226 unit figures from older articles require reconciliation."
+      ]
+    },
+    {
+      "candidate_id": "cand-centum-wealth",
+      "new_source_ids": [
+        "DTTCO_2017_12_19",
+        "DANTRI_2019_01_09"
+      ],
+      "new_facts": [
+        {
+          "kind": "GROUND_BREAKING_REPORTED",
+          "date": "2017-12-19",
+          "reported_towers": 3,
+          "reported_units": 544,
+          "source": "DTTCO_2017_12_19"
+        },
+        {
+          "kind": "ISSUER_REPORTED_PHASE_2_MARKETING",
+          "date": "2019-01-09",
+          "reported_units_for_phase": 80,
+          "source": "DANTRI_2019_01_09"
+        }
+      ],
+      "hold": [
+        "Developer/current sources 544 vs secondary report 554; DO NOT choose."
+      ]
+    }
+  ],
+  "price_observations": [
+    {
+      "id": "new-s-home-phuoc-long-2015q4-phase2-average",
+      "project_id": "cand-s-home-phuoc-long",
+      "classification": "REPORT_ESTIMATE",
+      "market": "PRIMARY_PHASE2_MARKETING",
+      "observed_at": "2015-12-01",
+      "currency": "VND",
+      "amount_approx": 1000000000,
+      "price_unit": "VND_PER_APARTMENT",
+      "approximation": "around",
+      "area_min_m2": 45.6,
+      "area_max_m2": 83.6,
+      "area_basis": "NET_AS_PUBLISHER",
+      "vat": "INCLUDED",
+      "source_id": "CONGLY_2015_12_01",
+      "note": "Marketing average across units, NOT a price for one specific size; never compute VND/m2 by pairing range."
+    },
+    {
+      "id": "new-riverview-2018q1-issuer-quoted-range",
+      "project_id": "cand-tdh-riverview",
+      "classification": "PRICE_ASKING",
+      "market": "PRIMARY_PRELAUNCH_ISSUER_INDICATIVE",
+      "observed_at": null,
+      "source_period": "2018-Q1",
+      "context_event_date": "2018-04-15",
+      "currency": "VND",
+      "min_amount": 1200000000,
+      "max_amount": 1900000000,
+      "price_unit": "VND_PER_APARTMENT",
+      "area_m2": null,
+      "area_basis": "NOT_STATED",
+      "vat": "INCLUDED",
+      "source_id": "TDH_IR_Q1_2018",
+      "note": "Q1 issuer bulletin describes April groundbreaking, therefore no precise price announcement day established."
+    },
+    {
+      "id": "new-centum-2017-12-19-issuer-quoted-average",
+      "project_id": "cand-centum-wealth",
+      "classification": "REPORT_ESTIMATE",
+      "market": "PRIMARY_PROJECT_PROMOTIONAL_PRICE",
+      "observed_at": "2017-12-19",
+      "currency": "VND",
+      "amount_approx": 1300000000,
+      "price_unit": "VND_PER_2BR_APARTMENT",
+      "area_m2": null,
+      "area_basis": "NOT_STATED",
+      "vat": "NOT_STATED",
+      "source_id": "DTTCO_2017_12_19",
+      "note": "Publisher attributes approximate average to developer; not a verified transaction."
+    },
+    {
+      "id": "new-centum-2019-01-09-marketing-average",
+      "project_id": "cand-centum-wealth",
+      "classification": "REPORT_ESTIMATE",
+      "market": "PRIMARY_PHASE2_MARKETING",
+      "observed_at": "2019-01-09",
+      "currency": "VND",
+      "amount_approx": 1500000000,
+      "price_unit": "VND_PER_2BR_APARTMENT",
+      "area_m2": null,
+      "area_basis": "NOT_STATED",
+      "vat": "NOT_STATED",
+      "source_id": "DANTRI_2019_01_09",
+      "note": "Promotional editorial, quoted issuer average, not a verified closing price."
+    }
+  ],
+  "metrics": {
+    "dossiers_with_new_source": 6,
+    "unique_new_source_urls": 5,
+    "new_evidenced_price_observations": 4,
+    "coordinates_verified": 0,
+    "transaction_verified": 0,
+    "linked_to_production": 0
+  },
+  "quality_flags": [
+    "PDF visual screenshot unavailable (cache miss); re-render/recheck issuer PDFs before promoting any PDF-derived values.",
+    "Issuer claimed units sold or contracts signed are not unit-level verified transactions.",
+    "The Felix and Felix Homes remain distinct; The Win City Duc Hoa is outside present HCMC scope; Norton Park still requires manual conflict review.",
+    "No licensed listing feed verified; do not scrape providers or auto-join Facebook groups."
+  ],
+  "source_permission_queue": [
+    {
+      "provider": "Thuduc House",
+      "ask": "written reuse rights for structured derivative factual data and image permissions; otherwise cite publicly only"
+    },
+    {
+      "provider": "PropertyGuru / Batdongsan.com.vn",
+      "ask": "authorized resale and rental data feed, rights, freshness, attribution, opt-out terms"
+    }
+  ],
+  "not_modified": [
+    "data/projects.json",
+    "data/project_dossiers_v1.json",
+    "data/price_history.json",
+    "data/rent_listings.json",
+    "data/feeds/source_registry.json"
+  ]
+}
