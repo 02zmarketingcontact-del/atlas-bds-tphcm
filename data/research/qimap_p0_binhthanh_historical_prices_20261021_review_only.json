@@ -1,0 +1,64 @@
+{
+  "status": "REVIEW_ONLY",
+  "date": "2026-10-21",
+  "price_counts": {
+    "PRICE_ASKING": 1,
+    "TRANSACTION_VERIFIED": 0,
+    "RENT_ASKING": 0,
+    "REPORT_ESTIMATE": 2
+  },
+  "observations": [
+    {
+      "project_id": "hist-citygarden",
+      "type": "PRICE_ASKING",
+      "market": "primary",
+      "date": "2010-08-01",
+      "publisher": "Báo Người Lao Động / Tuổi Trẻ archive",
+      "source_url": "https://tuoitre.vn/nld/xa-hoi/city-garden-khai-truong-nha-mau-2010073111275279.htm",
+      "price_min_billion_vnd_per_apartment": 2.7,
+      "area_options_m2": [
+        70,
+        141
+      ],
+      "min_price_to_area_pairing": "unknown",
+      "vat": "unknown",
+      "rights": "REFERENCE_ONLY_NO_FEED_LICENSE"
+    },
+    {
+      "project_id": "hist-richmondcity",
+      "type": "REPORT_ESTIMATE",
+      "market": "historical_primary_reported",
+      "observation_year": 2017,
+      "publication_date": "2019-11-22",
+      "publisher": "Đầu tư Chứng khoán",
+      "source_url": "https://www.tinnhanhchungkhoan.vn/thi-truong-can-ho-tphcm-soi-dong-thi-truong-thu-cap-post225292.html",
+      "price_min_billion_vnd_per_apartment": 1.6,
+      "price_max_billion_vnd_per_apartment": 1.8,
+      "area_basis": "not_matched",
+      "rights": "REFERENCE_ONLY_NO_FEED_LICENSE"
+    },
+    {
+      "project_id": "hist-richmondcity",
+      "type": "REPORT_ESTIMATE",
+      "market": "secondary_market_reported",
+      "observation_date": "2019-11-22",
+      "publication_date": "2019-11-22",
+      "publisher": "Đầu tư Chứng khoán",
+      "source_url": "https://www.tinnhanhchungkhoan.vn/thi-truong-can-ho-tphcm-soi-dong-thi-truong-thu-cap-post225292.html",
+      "reported_price_approx_billion_vnd_per_apartment": 3,
+      "area_basis": "not_matched",
+      "rights": "REFERENCE_ONLY_NO_FEED_LICENSE"
+    }
+  ],
+  "blocked_source": {
+    "url": "https://tuoitre.vn/nld/vnmoney/du-an-richmond-het-hang-som-20170403171525315.htm",
+    "status": "NOT_ACCESSIBLE",
+    "excluded_claim": "2017 28-30 million VND/m2; not counted"
+  },
+  "governance": [
+    "No transactions verified",
+    "Do not publish or derive price-per-m2 without matched unit size",
+    "Historical developer price narrative is not proof of executed transactions",
+    "No unrestricted resale or licensed source feed"
+  ]
+}
