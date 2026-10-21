@@ -1,0 +1,324 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-10-10",
+  "product": "QiMap by QILUVI",
+  "target_region": "HCMC new 2025 boundaries incl former Binh Duong / Ba Ria-Vung Tau; legacy HCMC + neighboring old Long An (new Tay Ninh) clearly flagged",
+  "working_branch": "feat/qimap-supplementary-gis-layers-plan-20261010",
+  "source_audit_only": true,
+  "no_new_approved_official_planning_geometry": true,
+  "no_official_GTFS_feed_confirmed": true,
+  "baseline": {
+    "apartment_reference_pins": 105,
+    "apartment_core": 153,
+    "osm_bus_stops_old_bbox": 1223,
+    "osm_metro_station_points": 14,
+    "transit_corridor_metadata": 9,
+    "metro_line_1_schematic": 1,
+    "approved_zoning_features": 0,
+    "bus_route_lines": 0
+  },
+  "source_registry": [
+    {
+      "kind": "osm-extract",
+      "name": "Geofabrik Vietnam OpenStreetMap PBF",
+      "url": "https://download.geofabrik.de/asia/vietnam.html",
+      "method": "licensed_file_extract",
+      "rights": "ODbL attribution_and_sharealike_for_derived_database",
+      "official": false,
+      "access_status": "public_with_ODbL",
+      "note": "OSM facts only. Does not prove a bus is in service or a road is legally planned."
+    },
+    {
+      "kind": "operator-directory",
+      "name": "Trung tâm Quản lý Giao thông công cộng TP.HCM",
+      "url": "https://buyttphcm.com.vn/",
+      "method": "official_operator_public_web",
+      "rights": "redistribution_permission_not_confirmed",
+      "official": true,
+      "access_status": "public_web_no_confirmed_GTFS_or_API",
+      "note": "MCPT merged HCMC + former Bình Dương public transport authorities in 2026. Need GTFS/static exports and commercial redistribution contract."
+    },
+    {
+      "kind": "planning-discovery",
+      "name": "Geoportal HCMC DONRE planning 1/2000 catalog",
+      "url": "https://geoportal-stnmt.tphcm.gov.vn/geonetwork/srv/search",
+      "method": "geospatial_metadata_catalog",
+      "rights": "service_per_layer_and_republication_require_verification",
+      "official": true,
+      "access_status": "catalog_searchable_viewable_licenses_not_validated",
+      "note": "Historical 1/2000 land-use WMS/WMTS/TMS advertised; public viewability is not proof of unrestricted redistribution; old districts/legacy cadastral base."
+    },
+    {
+      "kind": "planning-portal",
+      "name": "Sở QHKT bản đồ quy hoạch và quyết định",
+      "url": "https://qhkt.hochiminhcity.gov.vn/ban-do-quy-hoach.html",
+      "method": "official_plan_documents",
+      "rights": "view_and_link;rehosting_and_georeferencing_need_authorization",
+      "official": true,
+      "access_status": "public_directory",
+      "note": "Prefer approving authority, plan ID, effective date, amendments, historical boundaries."
+    },
+    {
+      "kind": "planning-access",
+      "name": "Cổng công bố dữ liệu QH đô thị nông thôn HCMC hướng dẫn 14/05/2026",
+      "url": "https://qhkt.hochiminhcity.gov.vn/tai-lieu-hop/huong-dan-gisxaydung-3627.html",
+      "method": "official_published_guidance",
+      "rights": "viewer_use_only_until_service_license_confirmed",
+      "official": true,
+      "access_status": "public_instruction",
+      "note": "GIS layers not automatically authorized for commercial embedding."
+    },
+    {
+      "kind": "municipal-api",
+      "name": "GIS API TP.HCM dùng chung",
+      "url": "https://gisapi.tphcm.gov.vn/Home/Help",
+      "method": "REST_SOAP_or_JS_API",
+      "rights": "requires_registerkey_and_service_subscription",
+      "official": true,
+      "access_status": "registration_key_required",
+      "note": "Public docs show keyed geocoding/JS map services, NOT proof that official zoning vectors are included. Never commit RegisterKey."
+    },
+    {
+      "kind": "metro-portfolio",
+      "name": "Thông tin metro QHKT HCMC 2026",
+      "url": "https://qhkt.hochiminhcity.gov.vn/tai-lieu-hop.html",
+      "method": "official_planning_documents",
+      "rights": "portal_link_only_pending_geometry_use_terms",
+      "official": true,
+      "access_status": "public_articles_and_GIS_viewer",
+      "note": "2026 portal mentions proposed metro routes on GIS. Proposal != approved engineering geometry."
+    }
+  ],
+  "layers": [
+    {
+      "id": "bus_stops",
+      "title_vi": "Điểm dừng xe buýt",
+      "geometry": "Point",
+      "current_state": "community_sample_unverified",
+      "current_count": 1223,
+      "existing_file": "data/bus_stops_osm.geojson",
+      "priority": "short",
+      "acceptance_criteria": "extending to new HCMC boundaries; reconcile MCPT active/inactive/code/platform; clear circle clustering",
+      "source_kinds": [
+        "osm-extract",
+        "operator-directory"
+      ],
+      "has_new_approved_official_geometry": false,
+      "coordinate_target": "EPSG:4326 for GeoJSON; preserve source EPSG and transformation metadata; WMS CRS depends on GetCapabilities",
+      "source_timestamp_required": true,
+      "attribution_and_rights_review_required": true
+    },
+    {
+      "id": "bus_routes",
+      "title_vi": "Tuyến xe buýt và chiều chạy",
+      "geometry": "MultiLineString",
+      "current_state": "not_integrated",
+      "current_count": 0,
+      "existing_file": null,
+      "priority": "short",
+      "acceptance_criteria": "OSM type=route,route=bus relation candidates; only mark operating when operator GTFS approved; route code/ref and direction are distinct",
+      "source_kinds": [
+        "osm-extract",
+        "operator-directory"
+      ],
+      "has_new_approved_official_geometry": false,
+      "coordinate_target": "EPSG:4326 for GeoJSON; preserve source EPSG and transformation metadata; WMS CRS depends on GetCapabilities",
+      "source_timestamp_required": true,
+      "attribution_and_rights_review_required": true
+    },
+    {
+      "id": "bus_schedule",
+      "title_vi": "Giờ chạy / xe đến trạm",
+      "geometry": "Table_or_GTFS",
+      "current_state": "not_integrated",
+      "current_count": 0,
+      "existing_file": null,
+      "priority": "medium",
+      "acceptance_criteria": "GTFS stops/routes/trips/stop_times/calendar/shapes; GTFS-RT only with explicit operator API access, no simulated realtime",
+      "source_kinds": [
+        "operator-directory"
+      ],
+      "has_new_approved_official_geometry": false,
+      "coordinate_target": "EPSG:4326 for GeoJSON; preserve source EPSG and transformation metadata; WMS CRS depends on GetCapabilities",
+      "source_timestamp_required": true,
+      "attribution_and_rights_review_required": true
+    },
+    {
+      "id": "metro_stations",
+      "title_vi": "Ga Metro",
+      "geometry": "Point",
+      "current_state": "community_sample_unverified",
+      "current_count": 14,
+      "existing_file": "data/metro_stations_osm.geojson",
+      "priority": "short",
+      "acceptance_criteria": "verify line-1 14 station names and entrances with operator, expand other geographies, no guessed walking time",
+      "source_kinds": [
+        "osm-extract",
+        "metro-portfolio"
+      ],
+      "has_new_approved_official_geometry": false,
+      "coordinate_target": "EPSG:4326 for GeoJSON; preserve source EPSG and transformation metadata; WMS CRS depends on GetCapabilities",
+      "source_timestamp_required": true,
+      "attribution_and_rights_review_required": true
+    },
+    {
+      "id": "metro_corridors",
+      "title_vi": "Metro vận hành và quy hoạch",
+      "geometry": "LineString",
+      "current_state": "metadata_only_plus_schematic",
+      "current_count": 9,
+      "existing_file": "data/transit_lines_2026.json",
+      "priority": "short_medium",
+      "acceptance_criteria": "9 informational corridors are not 9 source-backed alignments; replace hand-drawn line-1 schematic with OSM candidate under review; future metro ONLY official plan geometry",
+      "source_kinds": [
+        "osm-extract",
+        "metro-portfolio"
+      ],
+      "has_new_approved_official_geometry": false,
+      "coordinate_target": "EPSG:4326 for GeoJSON; preserve source EPSG and transformation metadata; WMS CRS depends on GetCapabilities",
+      "source_timestamp_required": true,
+      "attribution_and_rights_review_required": true
+    },
+    {
+      "id": "roads_existing",
+      "title_vi": "Đường và kết nối hiện hữu",
+      "geometry": "LineString_or_VectorTiles",
+      "current_state": "base_style_only_not_queryable",
+      "current_count": 0,
+      "existing_file": null,
+      "priority": "short",
+      "acceptance_criteria": "Extract highway=* with ODbL to owned queryable road reference; never call official construction status from OSM tag; use routing graph for walking distance",
+      "source_kinds": [
+        "osm-extract"
+      ],
+      "has_new_approved_official_geometry": false,
+      "coordinate_target": "EPSG:4326 for GeoJSON; preserve source EPSG and transformation metadata; WMS CRS depends on GetCapabilities",
+      "source_timestamp_required": true,
+      "attribution_and_rights_review_required": true
+    },
+    {
+      "id": "roads_construction",
+      "title_vi": "Đường đang triển khai thi công",
+      "geometry": "LineString",
+      "current_state": "not_integrated",
+      "current_count": 0,
+      "existing_file": null,
+      "priority": "medium",
+      "acceptance_criteria": "Link each project to official investment/commencement source and segment geometry; never infer under construction solely from proposed highway OSM",
+      "source_kinds": [
+        "planning-portal"
+      ],
+      "has_new_approved_official_geometry": false,
+      "coordinate_target": "EPSG:4326 for GeoJSON; preserve source EPSG and transformation metadata; WMS CRS depends on GetCapabilities",
+      "source_timestamp_required": true,
+      "attribution_and_rights_review_required": true
+    },
+    {
+      "id": "roads_planned",
+      "title_vi": "Đường quy hoạch / lộ giới / chỉ giới",
+      "geometry": "LineString_or_licensed_WMS",
+      "current_state": "no_approved_geometry",
+      "current_count": 0,
+      "existing_file": null,
+      "priority": "medium",
+      "acceptance_criteria": "Acquire officially adopted 1/2000 transportation plan, plan ID, effective date and amendments, approved reuse rights, official centerline or reference tile",
+      "source_kinds": [
+        "planning-discovery",
+        "planning-portal",
+        "planning-access"
+      ],
+      "has_new_approved_official_geometry": false,
+      "coordinate_target": "EPSG:4326 for GeoJSON; preserve source EPSG and transformation metadata; WMS CRS depends on GetCapabilities",
+      "source_timestamp_required": true,
+      "attribution_and_rights_review_required": true
+    },
+    {
+      "id": "zoning_2000",
+      "title_vi": "Quy hoạch phân khu 1/2000",
+      "geometry": "Polygon_or_licensed_WMS_WMTS",
+      "current_state": "no_approved_geometry",
+      "current_count": 0,
+      "existing_file": "data/planning_layers.geojson",
+      "priority": "medium",
+      "acceptance_criteria": "Pilot one authorized WMS/WMTS layer from official portal, verify URL/CRS/CORS/attribution, distinguish historical plan period and current amendments",
+      "source_kinds": [
+        "planning-discovery",
+        "planning-portal",
+        "planning-access",
+        "municipal-api"
+      ],
+      "has_new_approved_official_geometry": false,
+      "coordinate_target": "EPSG:4326 for GeoJSON; preserve source EPSG and transformation metadata; WMS CRS depends on GetCapabilities",
+      "source_timestamp_required": true,
+      "attribution_and_rights_review_required": true
+    },
+    {
+      "id": "zoning_500",
+      "title_vi": "Quy hoạch chi tiết 1/500",
+      "geometry": "Polygon_or_linked_official_document",
+      "current_state": "no_approved_geometry",
+      "current_count": 0,
+      "existing_file": null,
+      "priority": "long",
+      "acceptance_criteria": "Site-specific approved plan, legal basis and reuse rights required; site parcel/polygon cannot be reverse-created from project pins",
+      "source_kinds": [
+        "planning-portal"
+      ],
+      "has_new_approved_official_geometry": false,
+      "coordinate_target": "EPSG:4326 for GeoJSON; preserve source EPSG and transformation metadata; WMS CRS depends on GetCapabilities",
+      "source_timestamp_required": true,
+      "attribution_and_rights_review_required": true
+    },
+    {
+      "id": "admin_bounds",
+      "title_vi": "Địa giới 2025/2026 + địa danh cũ",
+      "geometry": "MultiPolygon",
+      "current_state": "not_integrated",
+      "current_count": 0,
+      "existing_file": null,
+      "priority": "medium",
+      "acceptance_criteria": "Use officially dated boundaries and mapping old/new provinces/wards; don't merge names without ID/version",
+      "source_kinds": [
+        "planning-discovery",
+        "municipal-api"
+      ],
+      "has_new_approved_official_geometry": false,
+      "coordinate_target": "EPSG:4326 for GeoJSON; preserve source EPSG and transformation metadata; WMS CRS depends on GetCapabilities",
+      "source_timestamp_required": true,
+      "attribution_and_rights_review_required": true
+    },
+    {
+      "id": "flood_traffic_environment",
+      "title_vi": "Ngập, giao thông thời gian thực, tiện ích",
+      "geometry": "Multiple",
+      "current_state": "future_scope",
+      "current_count": 0,
+      "existing_file": null,
+      "priority": "long",
+      "acceptance_criteria": "Only source-licensed official datasets or partner APIs; no old traffic timestamps dressed up as realtime",
+      "source_kinds": [
+        "municipal-api"
+      ],
+      "has_new_approved_official_geometry": false,
+      "coordinate_target": "EPSG:4326 for GeoJSON; preserve source EPSG and transformation metadata; WMS CRS depends on GetCapabilities",
+      "source_timestamp_required": true,
+      "attribution_and_rights_review_required": true
+    }
+  ],
+  "proposed_update_frequency": {
+    "osm_reference": "weekly offline extract and change detection; approved snapshot only",
+    "bus_operator_static": "daily where official permitted GTFS; else manual updates",
+    "bus_realtime": "only if official GTFS-RT and legal service agreement",
+    "official_planning": "monthly source monitor plus event-driven checks of new/amended decision",
+    "road_construction": "weekly official status checks; approval before public change"
+  },
+  "critical_policy": [
+    "Official viewer availability does not equal open API or republishing rights",
+    "Every planned road/land-use polygon has legal plan ID, approval and effective date, and possibly superseding amendments",
+    "OSM proposed/construction tags cannot certify official investment status",
+    "A land-use intersection on a research GPS point does not certify legal zoning of a parcel",
+    "Bus stops without source-confirmed status are OSM references, not active service claims",
+    "Never embed paid GIS RegisterKey, token or API secret in repo or public client",
+    "No auto-export from Google Maps or third-party maps to open basemap"
+  ]
+}
