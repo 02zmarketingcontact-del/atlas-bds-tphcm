@@ -1,0 +1,45 @@
+{
+  "status": "REVIEW_ONLY",
+  "date": "2026-10-21",
+  "baseline": "bc69f77f1318144be78b51ae95cd284da4274117",
+  "source_anomaly": "10 pre-existing historical HCMC records link an unrelated Saigon Pearl villa listing instead of the named apartment project.",
+  "bad_source_record_ids": [
+    "hist-citygarden",
+    "hist-pearlplaza",
+    "hist-saigonresplaza",
+    "hist-chungcumyduc",
+    "hist-chungcuphamvietchanh",
+    "hist-richmondcity",
+    "hist-sunwahpearl",
+    "hist-thanhdaview",
+    "hist-chungcunguyenngocphuong",
+    "hist-chungcu1050chuvanan"
+  ],
+  "official_source_candidates": [
+    [
+      "hist-citygarden",
+      "https://www.fico.com.vn/du-an-city-garden"
+    ],
+    [
+      "hist-pearlplaza",
+      "https://ssggroup.com.vn/index.php?function=detail&id=107&module=projects"
+    ],
+    [
+      "hist-saigonresplaza",
+      "https://www.saigonres.com.vn/du-an/saigonres-plaza.html"
+    ],
+    [
+      "hist-chungcumyduc",
+      "https://sc5.vn/chung-cu-my-duc"
+    ],
+    [
+      "hist-richmondcity",
+      "https://www.hungthinhland.com/projects/detail/RICHMOND-CITY.html"
+    ]
+  ],
+  "rights": "LINK_REFERENCE_ONLY_NO_COMMERCIAL_REUSE_LICENSE",
+  "validated_geocoordinates_new": 0,
+  "price_publication_allowed": false,
+  "production_change_allowed": false,
+  "notes": "Five source URL fixes remain unresearched; validate historical address and source rights before release."
+}
