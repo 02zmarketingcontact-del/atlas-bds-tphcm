@@ -1,0 +1,68 @@
+{
+  "as_of": "2026-10-22",
+  "status": "REVIEW_ONLY",
+  "source_group": "TTC Group/Sacomreal",
+  "dossiers": [
+    {
+      "name": "Carillon Apartment",
+      "url": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/thuong-hieu-carillon-tiep-tuc-thang-lon",
+      "publication_date": "2016-04-21",
+      "source_license": "UNKNOWN",
+      "commercial_feed_permission": false,
+      "auto_publish": false
+    },
+    {
+      "name": "Carillon 2",
+      "url": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/sacomreal-chiem-15-luong-giao-dich-thi-truong-tphcm-3",
+      "publication_date": "2015-07-03",
+      "source_license": "UNKNOWN",
+      "commercial_feed_permission": false,
+      "auto_publish": false
+    },
+    {
+      "name": "Carillon 5",
+      "url": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/tphcm-chap-thuan-dau-tu-khu-can-ho-carillon-5-3",
+      "publication_date": "2016-06-30",
+      "source_license": "UNKNOWN",
+      "commercial_feed_permission": false,
+      "auto_publish": false
+    },
+    {
+      "name": "Carillon 7",
+      "url": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/ttc-land-gioi-thieu-80-can-ho-cuoi-cung-du-an-carillon-7-2",
+      "publication_date": "2019-05-11",
+      "source_license": "UNKNOWN",
+      "commercial_feed_permission": false,
+      "auto_publish": false
+    },
+    {
+      "name": "Jamona Heights",
+      "url": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/jamona-heights-can-ho-vang-trong-khu-compound-ven-song-2",
+      "publication_date": "2016-12-20",
+      "source_license": "UNKNOWN",
+      "commercial_feed_permission": false,
+      "auto_publish": false
+    },
+    {
+      "name": "Charmington La Pointe",
+      "url": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/sacomreal-cong-bo-du-an-charmington-la-pointe-3",
+      "publication_date": "2015-11-09",
+      "source_license": "UNKNOWN",
+      "commercial_feed_permission": false,
+      "auto_publish": false
+    }
+  ],
+  "metrics": {
+    "sourced_profiles": 6,
+    "price_candidates": 4,
+    "verified_coordinates": 0
+  },
+  "review_warnings": [
+    "Carillon 5 221 residential+8 shops versus 229 apartments phrasing",
+    "Charmington price 30m/m2 mixed residential/officetel",
+    "Jamona Heights separate from Jamona Apartment",
+    "No authenticated price feed or accepted legal conclusion"
+  ],
+  "source_state": "citation_research_only",
+  "production_changes": false
+}
