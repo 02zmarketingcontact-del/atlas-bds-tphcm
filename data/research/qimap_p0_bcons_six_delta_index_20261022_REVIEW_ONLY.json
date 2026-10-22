@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-22",
+  "status": "REVIEW_ONLY",
+  "baseline": "bc69f77f1318144be78b51ae95cd284da4274117",
+  "profiles": [
+    "Bcons Suoi Tien",
+    "Bcons Garden",
+    "Bcons Green View",
+    "Bcons Plaza",
+    "Bcons Polygon",
+    "Bcons City / Green Topaz"
+  ],
+  "metrics": {
+    "new_sourced_profiles": 6,
+    "dated_price_candidates": 5,
+    "verified_coordinates": 0
+  },
+  "important_new_evidence": {
+    "claim": "Bcons issuer says Green Topaz (Chung cu Ngoi Sao) handed over on 2024-12-02",
+    "url": "https://bcons.com.vn/chung-cu-ngoi-sao-chinh-thuc-ban-giao-tap-doan-bcons-tiep-tuc-giu-tron-chu-tin/"
+  },
+  "dedupe": "PR77 batch18 already includes Nov 2023 32m VND/m2 Bcons City marketing price, excluded",
+  "rights": "citations only; 0 authorized feeds",
+  "production_changes": 0
+}
