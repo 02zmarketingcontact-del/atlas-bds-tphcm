@@ -1,0 +1,83 @@
+{
+  "as_of": "2026-10-23",
+  "status": "REVIEW_ONLY",
+  "production_write": false,
+  "unique_project_families": 5,
+  "candidate_dossiers": 7,
+  "observations": [
+    {
+      "project": "Him Lam Nam Khánh",
+      "date": "2008-06-21",
+      "type": "PRICE_ASKING",
+      "quoted_price": "12 triệu/m²",
+      "source_url": "https://cafef.vn/bat-dong-san/can-ho-him-lam-giam-gia-50-200862192758557.chn",
+      "rights": "REFERENCE_ONLY_NO_COMMERCIAL_FEED_PERMISSION"
+    },
+    {
+      "project": "Him Lam Nam Khánh",
+      "date": "2010-01-18",
+      "type": "REPORT_ESTIMATE",
+      "quoted_price": "16,5–17 triệu/m²",
+      "source_url": "https://wiki.batdongsan.com.vn/tin-tuc/ban-giao-can-ho-him-lam-nam-khanh-13186",
+      "rights": "REFERENCE_ONLY_NO_COMMERCIAL_FEED_PERMISSION"
+    },
+    {
+      "project": "Him Lam Riverside",
+      "date": "2013-03-22",
+      "type": "PRICE_ASKING",
+      "quoted_price": "30 triệu/m²",
+      "source_url": "https://vnexpress.net/him-lam-riverside-giao-nha-vao-quy-iii-2727103.html",
+      "rights": "REFERENCE_ONLY_NO_COMMERCIAL_FEED_PERMISSION"
+    },
+    {
+      "project": "Him Lam Riverside – giai đoạn 2",
+      "date": "2014-12-10",
+      "type": "PRICE_ASKING",
+      "quoted_price": "1,6–2,2 tỷ/căn, 59–77 m²",
+      "source_url": "https://vnexpress.net/can-ho-him-lam-riverside-gia-tu-1-6-ty-dong-3118011.html",
+      "rights": "REFERENCE_ONLY_NO_COMMERCIAL_FEED_PERMISSION"
+    },
+    {
+      "project": "Him Lam Chợ Lớn",
+      "date": "2014-11-27",
+      "type": "PRICE_ASKING",
+      "quoted_price": "17 triệu/m²",
+      "source_url": "https://vnexpress.net/mo-ban-dot-hai-du-an-him-lam-cho-lon-3112402.html",
+      "rights": "REFERENCE_ONLY_NO_COMMERCIAL_FEED_PERMISSION"
+    },
+    {
+      "project": "Him Lam Chợ Lớn – giai đoạn 2 (C1/C2)",
+      "date": "2015-10-12",
+      "type": "PRICE_ASKING",
+      "quoted_price": "1,65–2 tỷ/căn, 82–85 m²",
+      "source_url": "https://www.tinnhanhchungkhoan.vn/him-lam-cho-lon-mo-ban-160-can-2-block-cuoi-cung-post122147.html",
+      "rights": "REFERENCE_ONLY_NO_COMMERCIAL_FEED_PERMISSION"
+    },
+    {
+      "project": "Him Lam Phú Đông",
+      "date": "2015-12-28",
+      "type": "PRICE_ASKING",
+      "quoted_price": "1–1,2 tỷ/căn, đã VAT",
+      "source_url": "https://wiki.batdongsan.com.vn/tin-tuc/chinh-thuc-gioi-thieu-du-an-him-lam-phu-dong-74850",
+      "rights": "REFERENCE_ONLY_NO_COMMERCIAL_FEED_PERMISSION"
+    },
+    {
+      "project": "Him Lam Phú An",
+      "date": "2017-08-14",
+      "type": "PRICE_ASKING",
+      "quoted_price": "1,7–1,9 tỷ/căn 2PN",
+      "source_url": "https://plo.vn/du-an-him-lam-phu-an-duoc-tra-cham-trong-6-nam-post449008.html",
+      "rights": "REFERENCE_ONLY_NO_COMMERCIAL_FEED_PERMISSION"
+    }
+  ],
+  "new_correlated_wgs84": 0,
+  "guards": [
+    "Phase ≠ new legal project",
+    "Rentback guarantee ≠ RENT_ASKING",
+    "No verified transactions",
+    "No unit size normalization when area basis unknown",
+    "The Felix ≠ Felix Homes",
+    "The Win City: Tây Ninh/out of HCMC",
+    "Norton Park: conflicted, not autoapproved"
+  ]
+}
