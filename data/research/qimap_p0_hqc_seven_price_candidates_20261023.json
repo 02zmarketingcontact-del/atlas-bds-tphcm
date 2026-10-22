@@ -1,0 +1,100 @@
+{
+  "status": "REVIEW_ONLY",
+  "last_researched": "2026-10-23",
+  "reuse_rights": "UNVERIFIED; facts and source links only",
+  "wgs84_verified": 0,
+  "transaction_verified": 0,
+  "items": [
+    {
+      "id": "HQC-P1",
+      "project": "HQC Plaza",
+      "publication_date": "2013-07-25",
+      "type": "PRICE_ASKING",
+      "min": 11800000,
+      "max": 12900000,
+      "basis": "VND/m2",
+      "area_m2": null,
+      "qualification": "unknown",
+      "publisher": "Tin nhanh Chứng khoán",
+      "url": "https://www.tinnhanhchungkhoan.vn/bidv-ho-tro-can-bo-chien-sy-cong-an-mua-can-ho-hqc-plaza-post13590.html"
+    },
+    {
+      "id": "HQC-P2",
+      "project": "HQC Plaza",
+      "publication_date": "2014-12-04",
+      "type": "PRICE_ASKING",
+      "min": 12800000,
+      "max": null,
+      "basis": "VND/m2",
+      "area_m2": null,
+      "qualification": "unknown",
+      "publisher": "VnExpress",
+      "url": "https://vnexpress.net/gan-70-can-ho-tai-hqc-plaza-co-chu-3115985.html"
+    },
+    {
+      "id": "HQC-P3",
+      "project": "HQC Hóc Môn",
+      "publication_date": "2015-12-05",
+      "type": "PRICE_ASKING",
+      "min": 14000000,
+      "max": 14000000,
+      "basis": "VND/m2",
+      "area_m2": null,
+      "qualification": "included VAT and maintenance",
+      "publisher": "CafeLand",
+      "url": "https://cafeland.vn/tin-tuc/cat-noc-nha-xa-hoi-hqc-hoc-mon-56853.html"
+    },
+    {
+      "id": "HQC-P4",
+      "project": "HOF-HQC Hồ Học Lãm",
+      "publication_date": "2019-09-28",
+      "type": "REPORT_ESTIMATE",
+      "min": 14000000,
+      "max": 14000000,
+      "basis": "VND/m2",
+      "area_m2": null,
+      "qualification": "VAT excluded; social housing schedule",
+      "publisher": "Nhà Đầu Tư",
+      "url": "https://nhadautu.vn/du-an-nha-o-xa-hoi-35-ho-hoc-lam-cham-tien-do-tphcm-ra-toi-hau-thu-cho-dia-oc-hoang-quan-d28357.html"
+    },
+    {
+      "id": "HQC-P5",
+      "project": "HOF-HQC Hồ Học Lãm",
+      "publication_date": "2019-09-28",
+      "type": "REPORT_ESTIMATE",
+      "min": 15300000,
+      "max": 15300000,
+      "basis": "VND/m2",
+      "area_m2": null,
+      "qualification": "VAT excluded; commercial rate approximate",
+      "publisher": "Nhà Đầu Tư",
+      "url": "https://nhadautu.vn/du-an-nha-o-xa-hoi-35-ho-hoc-lam-cham-tien-do-tphcm-ra-toi-hau-thu-cho-dia-oc-hoang-quan-d28357.html"
+    },
+    {
+      "id": "HQC-P6",
+      "project": "HOF-HQC Hồ Học Lãm",
+      "publication_date": "2019-09-28",
+      "type": "REPORT_ESTIMATE",
+      "min": 90000,
+      "max": 90000,
+      "basis": "VND/m2/month",
+      "area_m2": null,
+      "qualification": "regulatory rental schedule; NOT RENT_ASKING",
+      "publisher": "Nhà Đầu Tư",
+      "url": "https://nhadautu.vn/du-an-nha-o-xa-hoi-35-ho-hoc-lam-cham-tien-do-tphcm-ra-toi-hau-thu-cho-dia-oc-hoang-quan-d28357.html"
+    },
+    {
+      "id": "HQC-P7",
+      "project": "HQC Bình Trưng Đông",
+      "publication_date": "2022-06-13",
+      "type": "PRICE_ASKING",
+      "min": 1720000000,
+      "max": 1720000000,
+      "basis": "VND/apartment",
+      "area_m2": 54,
+      "qualification": "expired listing; VAT/area basis unknown",
+      "publisher": "CafeLand Nhà đất",
+      "url": "https://nhadat.cafeland.vn/ban-chung-cu-nha-o-xa-hoi-hqc-binh-trung-dong-quan-2-2111971.html"
+    }
+  ]
+}
