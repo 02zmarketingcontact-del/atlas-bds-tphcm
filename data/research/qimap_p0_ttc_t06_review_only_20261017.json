@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "batch": "TTC_P0_78_RECONCILED",
+  "as_of": "2026-10-17",
+  "status": "REVIEW_ONLY",
+  "project": {
+    "project_id": "T06",
+    "name": "Jamona Apartment (Jamona City high-rise)",
+    "legacy_address_research_only": "Dao Tri, old District 7",
+    "publisher_claims": {
+      "residential_units_claim": 1290,
+      "separate_from_jamona_heights": true,
+      "separate_from_jamona_lowrise": true
+    },
+    "source_ids": [
+      "S03",
+      "S11",
+      "S06"
+    ],
+    "regional_scope": "HCMC_old_boundary",
+    "in_catalog_150_as_same_standalone_name": false,
+    "geo_verified": false,
+    "legal_verified": false,
+    "status": "REVIEW_ONLY",
+    "canonical_id": null,
+    "catalog_link_status": "UNMAPPED",
+    "publish": false
+  },
+  "sources": [
+    {
+      "id": "S03",
+      "publisher": "TTC Group",
+      "publication_date": "2015-07-03",
+      "url": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/sacomreal-chiem-15-luong-giao-dich-thi-truong-tphcm-3",
+      "access": "READ",
+      "license": "NOT_DOCUMENTED",
+      "rights_status": "ATTRIBUTION_REFERENCE_ONLY"
+    },
+    {
+      "id": "S06",
+      "publisher": "TTC Group",
+      "publication_date": "2019-02-13",
+      "url": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/nam-2018-ttcland-vuot-41-ke-hoach-doanh-thu-va-8-ke-hoach-loi-nhuan",
+      "access": "READ",
+      "license": "NOT_DOCUMENTED",
+      "rights_status": "ATTRIBUTION_REFERENCE_ONLY"
+    },
+    {
+      "id": "S11",
+      "publisher": "TTC Group",
+      "publication_date": "2015-11-12",
+      "url": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/jamona-apartment-can-ho-cao-cap-gia-chi-20-trieu-dongm2-3",
+      "access": "READ",
+      "license": "NOT_DOCUMENTED",
+      "rights_status": "ATTRIBUTION_REFERENCE_ONLY"
+    }
+  ],
+  "price_observations": [
+    {
+      "id": "P07",
+      "project_id": "T06",
+      "source_id": "S03",
+      "source_publication_date": "2015-07-03",
+      "price_type": "PRICE_ASKING",
+      "amount": 15,
+      "max_amount": 22,
+      "unit": "VND_MILLION_PER_M2",
+      "price_basis": "DEVELOPER_ADVERTISED_PRICE_RANGE",
+      "vat": "UNKNOWN",
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "exact_effective_date": null,
+      "transaction_verified": false,
+      "authorized_for_public_feed": false,
+      "review_status": "REVIEW_ONLY",
+      "wgs84_verified": false,
+      "contract_transaction_verified": false,
+      "licensed_feed": false
+    },
+    {
+      "id": "P08",
+      "project_id": "T06",
+      "source_id": "S11",
+      "source_publication_date": "2015-11-12",
+      "price_type": "PRICE_ASKING",
+      "amount": 20,
+      "max_amount": null,
+      "unit": "VND_MILLION_PER_M2",
+      "price_basis": "DEVELOPER_ADVERTISED_FROM",
+      "vat": "UNKNOWN",
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "exact_effective_date": null,
+      "transaction_verified": false,
+      "authorized_for_public_feed": false,
+      "review_status": "REVIEW_ONLY",
+      "wgs84_verified": false,
+      "contract_transaction_verified": false,
+      "licensed_feed": false
+    }
+  ],
+  "additional_fact_candidates": [],
+  "review_conflicts": [],
+  "source_rights": {
+    "bulk_ingestion_authorized": false,
+    "periodic_price_feed_authorized": false,
+    "full_text_republication_authorized": false
+  },
+  "safety": {
+    "coordinates_verified": false,
+    "legal_verified": false,
+    "price_verified_transaction": false,
+    "production_write": false
+  }
+}
