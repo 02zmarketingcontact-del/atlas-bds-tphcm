@@ -1,0 +1,1351 @@
+{
+  "version": "1.3",
+  "batch_id": "P0_KEPPEL_BATCH08_PLUS_CELESTA_GOLD_20261013",
+  "as_of": "2026-10-13",
+  "status": "DRAFT_RESEARCH_CANDIDATE_NOT_PUBLISHED",
+  "source_rights": "Public factual citations only, with attribution; no licensed bulk feed, copyrighted content or media republication permissions established.",
+  "source_issuer": "Keppel Land / Keppel Ltd.",
+  "sources": [
+    {
+      "id": "est2009",
+      "url": "https://www.keppel.com/realestate/vn/en/Media-Releases/The-Estella-garners-strong-interest-ahead-of-new-release",
+      "issuer": "Keppel",
+      "published_at": "2009-09-24",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    },
+    {
+      "id": "est2012",
+      "url": "https://www.keppel.com/realestate/vn/en/News-Library/The-Estella-welcomes-happy-homebuyers",
+      "issuer": "Keppel",
+      "published_at": "2012-09",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    },
+    {
+      "id": "estprofile",
+      "url": "https://www.keppel.com/realestate/vn/en/Live/The-Estella",
+      "issuer": "Keppel",
+      "published_at": null,
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    },
+    {
+      "id": "eh",
+      "url": "https://www.keppel.com/realestate/vn/en/Live/Estella-Heights",
+      "issuer": "Keppel",
+      "published_at": null,
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    },
+    {
+      "id": "fy2014",
+      "url": "https://www.keppel.com/en/download.ashx?id=7385",
+      "issuer": "Keppel",
+      "published_at": "2015-01-21",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS",
+      "evidence_locator": "pdf_page_15_of_31; Keppel FY2014 Vietnam Estella Heights ASP"
+    },
+    {
+      "id": "rp",
+      "url": "https://www.keppel.com/realestate/vn/en/Live/Riviera-Point",
+      "issuer": "Keppel",
+      "published_at": null,
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    },
+    {
+      "id": "rp2016",
+      "url": "https://www.keppel.com/realestate/vn/en/Media-Releases/New-link-bridge-in-District-7-enhances-connectivity-for-the-community",
+      "issuer": "Keppel",
+      "published_at": "2016-09-22",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    },
+    {
+      "id": "rp2019",
+      "url": "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf",
+      "issuer": "Keppel",
+      "published_at": "2019-09-26",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS",
+      "evidence_locator": "pdf_page_13_of_21; Riviera Point phase 1A 1B 1C and subsequent"
+    },
+    {
+      "id": "view",
+      "url": "https://www.keppel.com/realestate/vn/en/Live/The-View",
+      "issuer": "Keppel",
+      "published_at": null,
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    },
+    {
+      "id": "inf2023",
+      "url": "https://www.keppel.com/realestate/vn/en/News-Library/2023-December-The-Infiniti-was-honoured-at-the-Vietnam-Outstanding-Property-Awards-2023",
+      "issuer": "Keppel",
+      "published_at": "2023-12",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    },
+    {
+      "id": "cel2022",
+      "url": "https://www.keppel.com/realestate/vn/en/Media-Releases/Keppel-Land-emerges-as-the-most-awarded-company-at-the-PropertyGuru-Vietnam-Property-Awards-2022",
+      "issuer": "Keppel",
+      "published_at": "2022-10-30",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    },
+    {
+      "id": "cel2023",
+      "url": "https://www.keppel.com/realestate/vn/en/News-Library/2023-October-Strategic-partnership-signed-to-create-more-value-for-stakeholders",
+      "issuer": "Keppel",
+      "published_at": "2023-10",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    },
+    {
+      "id": "ca2024",
+      "url": "https://www.keppel.com/realestate/vn/en/News-Library/07-2024-Groundbreaking-ceremony-marks-start-of-construction-of-Celesta-Avenue",
+      "issuer": "Keppel",
+      "published_at": "2024-07",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    },
+    {
+      "id": "ca2025",
+      "url": "https://www.keppel.com/realestate/vn/en/News-Library/09-2025-Keppel-recognised-for-the-third-consecutive-year",
+      "issuer": "Keppel",
+      "published_at": "2025-09",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    },
+    {
+      "id": "fy2025",
+      "url": "https://www.keppel.com/file/investor-relations/financial-results-business-updates/2025/4q/2-keppel-ltd-2h25-fy25-presentation-slides.pdf",
+      "issuer": "Keppel",
+      "published_at": "2026-02-05",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS",
+      "as_of_data": "2025-12-31",
+      "evidence_locator": "pdf_pages_50_52_54_of_58; as_of_2025_12_31"
+    },
+    {
+      "id": "cel_2021_nov_shopee",
+      "url": "https://www.keppel.com/realestate/vn/en/News-Library/Keppel-Land-and-Shopee-join-hands-to-collaborate-on-Celesta-Heights-project",
+      "issuer": "Keppel Real Estate Vietnam",
+      "published_at": "2021-11",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    },
+    {
+      "id": "cel_2022_sep_private",
+      "url": "https://www.keppel.com/realestate/vn/en/News-Library/Private-preview-of-Celesta-Avenue",
+      "issuer": "Keppel Real Estate Vietnam",
+      "published_at": "2022-09",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    },
+    {
+      "id": "cel_gold_2026",
+      "url": "https://www.keppel.com/realestate/vn/en/News-Library/05-2026-Groundbreaking-ceremony-of-Celesta-Gold",
+      "issuer": "Keppel Ltd., Real Estate Division Vietnam",
+      "published_at": "2026-05",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    },
+    {
+      "id": "infiniti_topping_2025",
+      "url": "https://www.keppel.com/realestate/vn/en/News-Library/02-2025-Topping-out-ceremony-of-The-Inifiniti-at-Riviera-Point",
+      "issuer": "Keppel Ltd., Real Estate Division Vietnam",
+      "published_at": "2025-02",
+      "checked_at": "2026-10-13",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    },
+    {
+      "id": "estella_heights_signature_2015_oct",
+      "url": "https://www.keppel.com/realestate/vn/en/News-Library/Official-launch-of-Estella-Heights-Signature-Collection",
+      "issuer": "Keppel Land / Keppel Vietnam",
+      "published_at": "2015-10",
+      "checked_at": "2026-10-13",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "access_status": "DIRECT_PRIMARY_SOURCE_OPENED_ON_2026_10_13",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS",
+      "source_type": "DEVELOPER_HISTORICAL_PRESS_RELEASE"
+    },
+    {
+      "id": "celesta_rise_groundbreaking_2022",
+      "url": "https://www.keppel.com/realestate/vn/en/News-Library/Groundbreaking-of-Celesta-Rise",
+      "issuer": "Keppel Real Estate Division Vietnam",
+      "published_at": "2022-07",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    },
+    {
+      "id": "celesta_rise_handover_2024",
+      "url": "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living",
+      "issuer": "Keppel Real Estate Division Vietnam",
+      "published_at": "2024-11",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    },
+    {
+      "id": "celesta_rise_groundbreaking_vn_2022",
+      "url": "https://www.keppel.com/realestate/vn/News-Library/Groundbreaking-of-Celesta-Rise",
+      "issuer": "Keppel Real Estate Division Vietnam",
+      "published_at": "2022-07",
+      "rights": "REFERENCE_ONLY_NO_FEED_PERMISSION",
+      "rights_status": "FACTUAL_ATTRIBUTION_ONLY_NOT_LICENSED_FOR_FEEDS_OR_PHOTOS"
+    }
+  ],
+  "dossiers": [
+    {
+      "id": "hist-theestella",
+      "name": "The Estella",
+      "product_class": "APARTMENT",
+      "research_status": "REVIEW_ONLY",
+      "facts": [
+        {
+          "field": "phase1_units",
+          "value": 719,
+          "source_key": "estprofile",
+          "source_url": "https://www.keppel.com/realestate/vn/en/Live/The-Estella",
+          "source_issuer": "Keppel",
+          "source_published_at": null,
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "completion_year_issuer_claim",
+          "value": 2012,
+          "source_key": "estprofile",
+          "source_url": "https://www.keppel.com/realestate/vn/en/Live/The-Estella",
+          "source_issuer": "Keppel",
+          "source_published_at": null,
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "homebuyers_briefing_event_not_verified_handover",
+          "value": "2012-09-16",
+          "source_key": "est2012",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/The-Estella-welcomes-happy-homebuyers",
+          "source_issuer": "Keppel",
+          "source_published_at": "2012-09",
+          "review_status": "DO_NOT_TREAT_AS_VERIFIED_HANDOVER_DATE"
+        },
+        {
+          "field": "units_released_for_sale_by_2009_09",
+          "value": 518,
+          "source_key": "est2009",
+          "source_url": "https://www.keppel.com/realestate/vn/en/Media-Releases/The-Estella-garners-strong-interest-ahead-of-new-release",
+          "source_issuer": "Keppel",
+          "source_published_at": "2009-09-24",
+          "scope": "2009-09 phase1 issuer disclosure",
+          "review_status": "ISSUER_CLAIM_UNVERIFIED"
+        },
+        {
+          "field": "issuer_reported_share_sold_2009_09_approx",
+          "value": 0.7,
+          "source_key": "est2009",
+          "source_url": "https://www.keppel.com/realestate/vn/en/Media-Releases/The-Estella-garners-strong-interest-ahead-of-new-release",
+          "source_issuer": "Keppel",
+          "source_published_at": "2009-09-24",
+          "scope": "518 units released, not independently verified transactions",
+          "review_status": "ISSUER_CLAIM_UNVERIFIED"
+        },
+        {
+          "field": "historical_location_ward_district_2009",
+          "value": "An Phu Ward, District 2, HCMC",
+          "source_key": "est2009",
+          "source_url": "https://www.keppel.com/realestate/vn/en/Media-Releases/The-Estella-garners-strong-interest-ahead-of-new-release",
+          "source_issuer": "Keppel",
+          "source_published_at": "2009-09-24",
+          "scope": "project",
+          "review_status": "HISTORIC_AREA_ONLY_NOT_GEOCODED",
+          "note": "Historical area, not a verified current street address or WGS84 point"
+        },
+        {
+          "field": "joint_developers_disclosed_2009",
+          "value": [
+            "Keppel Land Estate Pte Ltd",
+            "Tien Phuoc Co Ltd"
+          ],
+          "source_key": "est2009",
+          "source_url": "https://www.keppel.com/realestate/vn/en/Media-Releases/The-Estella-garners-strong-interest-ahead-of-new-release",
+          "source_issuer": "Keppel",
+          "source_published_at": "2009-09-24",
+          "scope": "project",
+          "review_status": "ISSUER_DISCLOSURE_NOT_LEGAL_VERIFICATION"
+        },
+        {
+          "field": "completion_and_handover_year_as_reported_in_2015",
+          "value": 2012,
+          "source_key": "estella_heights_signature_2015_oct",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Official-launch-of-Estella-Heights-Signature-Collection",
+          "source_issuer": "Keppel Land / Keppel Vietnam",
+          "source_published_at": "2015-10",
+          "scope": "The Estella, developer retrospective in Oct 2015",
+          "review_status": "ISSUER_RETROSPECTIVE_CLAIM_NOT_INDEPENDENTLY_VERIFIED",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE"
+        }
+      ]
+    },
+    {
+      "id": "hist-estellaheights",
+      "name": "Estella Heights",
+      "product_class": "APARTMENT",
+      "research_status": "REVIEW_ONLY",
+      "facts": [
+        {
+          "field": "phase1_units",
+          "value": 496,
+          "source_key": "eh",
+          "source_url": "https://www.keppel.com/realestate/vn/en/Live/Estella-Heights",
+          "source_issuer": "Keppel",
+          "source_published_at": null,
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "phase1_completion_year_issuer_claim",
+          "value": 2017,
+          "source_key": "eh",
+          "source_url": "https://www.keppel.com/realestate/vn/en/Live/Estella-Heights",
+          "source_issuer": "Keppel",
+          "source_published_at": null,
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "phase2_units",
+          "value": 376,
+          "source_key": "eh",
+          "source_url": "https://www.keppel.com/realestate/vn/en/Live/Estella-Heights",
+          "source_issuer": "Keppel",
+          "source_published_at": null,
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "phase2_completion_year_issuer_claim",
+          "value": 2018,
+          "source_key": "eh",
+          "source_url": "https://www.keppel.com/realestate/vn/en/Live/Estella-Heights",
+          "source_issuer": "Keppel",
+          "source_published_at": null,
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "phase1_launch_month_issuer_reported",
+          "value": "2015-02",
+          "source_key": "estella_heights_signature_2015_oct",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Official-launch-of-Estella-Heights-Signature-Collection",
+          "source_issuer": "Keppel Land / Keppel Vietnam",
+          "source_published_at": "2015-10",
+          "scope": "Estella Heights Phase 1",
+          "review_status": "ISSUER_CLAIM_REVIEW_ONLY",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE"
+        },
+        {
+          "field": "phase1_tower_count_issuer_reported",
+          "value": 2,
+          "source_key": "estella_heights_signature_2015_oct",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Official-launch-of-Estella-Heights-Signature-Collection",
+          "source_issuer": "Keppel Land / Keppel Vietnam",
+          "source_published_at": "2015-10",
+          "scope": "Estella Heights Phase 1",
+          "review_status": "ISSUER_CLAIM_REVIEW_ONLY",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE"
+        },
+        {
+          "field": "phase1_storeys_per_tower_issuer_reported",
+          "value": 33,
+          "source_key": "estella_heights_signature_2015_oct",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Official-launch-of-Estella-Heights-Signature-Collection",
+          "source_issuer": "Keppel Land / Keppel Vietnam",
+          "source_published_at": "2015-10",
+          "scope": "Estella Heights Phase 1",
+          "review_status": "ISSUER_CLAIM_REVIEW_ONLY",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE"
+        },
+        {
+          "field": "phase2_signature_collection_launch_month_issuer_reported",
+          "value": "2015-10",
+          "source_key": "estella_heights_signature_2015_oct",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Official-launch-of-Estella-Heights-Signature-Collection",
+          "source_issuer": "Keppel Land / Keppel Vietnam",
+          "source_published_at": "2015-10",
+          "scope": "Estella Heights Phase 2 Signature Collection",
+          "review_status": "ISSUER_CLAIM_REVIEW_ONLY",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE"
+        },
+        {
+          "field": "phase2_advertised_unit_area_range_m2",
+          "value": {
+            "min": 60,
+            "max": 314,
+            "area_basis": "UNKNOWN_NET_OR_GROSS"
+          },
+          "source_key": "estella_heights_signature_2015_oct",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Official-launch-of-Estella-Heights-Signature-Collection",
+          "source_issuer": "Keppel Land / Keppel Vietnam",
+          "source_published_at": "2015-10",
+          "scope": "Estella Heights Phase 2 Signature Collection",
+          "review_status": "ISSUER_ADVERTISED_AREA_BASIS_UNDISCLOSED",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE"
+        },
+        {
+          "field": "phase2_preview_reported_average_vnd_per_m2",
+          "value": 45000000,
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Official-launch-of-Estella-Heights-Signature-Collection",
+          "source_issuer": "Keppel Real Estate Division Vietnam",
+          "source_published_at": "2015-10",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "review_status": "REVIEW_ONLY",
+          "note": "170 of 273 launched Phase 2 units reportedly sold during special preview; developer-reported average; unit-area/VAT unknown, not independent transaction."
+        }
+      ]
+    },
+    {
+      "id": "hist-rivierapoint",
+      "name": "Riviera Point",
+      "product_class": "APARTMENT_PARENT_AND_PHASE",
+      "research_status": "REVIEW_ONLY",
+      "facts": [
+        {
+          "field": "phase1A_units_historical",
+          "value": 549,
+          "source_key": "rp2016",
+          "source_url": "https://www.keppel.com/realestate/vn/en/Media-Releases/New-link-bridge-in-District-7-enhances-connectivity-for-the-community",
+          "source_issuer": "Keppel",
+          "source_published_at": "2016-09-22",
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "phase1_units_updated_profile",
+          "value": 561,
+          "source_key": "rp",
+          "source_url": "https://www.keppel.com/realestate/vn/en/Live/Riviera-Point",
+          "source_issuer": "Keppel",
+          "source_published_at": null,
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "phase1_completion_year_issuer_claim",
+          "value": 2014,
+          "source_key": "rp",
+          "source_url": "https://www.keppel.com/realestate/vn/en/Live/Riviera-Point",
+          "source_issuer": "Keppel",
+          "source_published_at": null,
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "group_total_units_as_of_2025_12",
+          "value": 2361,
+          "source_key": "fy2025",
+          "source_url": "https://www.keppel.com/file/investor-relations/financial-results-business-updates/2025/4q/2-keppel-ltd-2h25-fy25-presentation-slides.pdf",
+          "source_issuer": "Keppel",
+          "source_published_at": "2026-02-05",
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "subsequent_phases_units_in_2019_plan",
+          "value": 532,
+          "source_key": "rp2019",
+          "source_url": "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf",
+          "source_issuer": "Keppel",
+          "source_published_at": "2019-09-26",
+          "scope": "2019 Riviera group forecast",
+          "review_status": "FORECAST_NOT_FINAL"
+        },
+        {
+          "field": "phase2_units_ready_to_launch_2027",
+          "value": 437,
+          "source_key": "fy2025",
+          "source_url": "https://www.keppel.com/file/investor-relations/financial-results-business-updates/2025/4q/2-keppel-ltd-2h25-fy25-presentation-slides.pdf",
+          "source_issuer": "Keppel",
+          "source_published_at": "2026-02-05",
+          "scope": "2025-12-31 issuer planning snapshot",
+          "review_status": "FUTURE_PLAN_NOT_COMPLETION"
+        },
+        {
+          "field": "units_launched_by_2025_12_31",
+          "value": 1889,
+          "source_key": "fy2025",
+          "source_url": "https://www.keppel.com/file/investor-relations/financial-results-business-updates/2025/4q/2-keppel-ltd-2h25-fy25-presentation-slides.pdf",
+          "source_issuer": "Keppel",
+          "source_published_at": "2026-02-05",
+          "scope": "2025-12-31 Riviera group, may be mixed product types",
+          "review_status": "ISSUER_CLAIM_UNVERIFIED"
+        },
+        {
+          "field": "issuer_reported_units_sold_by_2025_12_31",
+          "value": 1873,
+          "source_key": "fy2025",
+          "source_url": "https://www.keppel.com/file/investor-relations/financial-results-business-updates/2025/4q/2-keppel-ltd-2h25-fy25-presentation-slides.pdf",
+          "source_issuer": "Keppel",
+          "source_published_at": "2026-02-05",
+          "scope": "2025-12-31 Riviera group",
+          "review_status": "ISSUER_SALES_DISCLOSURE_NOT_VERIFIED_CONTRACTS"
+        }
+      ]
+    },
+    {
+      "id": "hist-theviewatrivierapoint",
+      "name": "The View at Riviera Point",
+      "product_class": "APARTMENT_PHASE",
+      "research_status": "REVIEW_ONLY",
+      "facts": [
+        {
+          "field": "phase1B_units_2016",
+          "value": 518,
+          "source_key": "rp2016",
+          "source_url": "https://www.keppel.com/realestate/vn/en/Media-Releases/New-link-bridge-in-District-7-enhances-connectivity-for-the-community",
+          "source_issuer": "Keppel",
+          "source_published_at": "2016-09-22",
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "phase1B_units_updated_profile",
+          "value": 541,
+          "source_key": "view",
+          "source_url": "https://www.keppel.com/realestate/vn/en/Live/The-View",
+          "source_issuer": "Keppel",
+          "source_published_at": null,
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "completion_year_issuer_claim",
+          "value": 2019,
+          "source_key": "view",
+          "source_url": "https://www.keppel.com/realestate/vn/en/Live/The-View",
+          "source_issuer": "Keppel",
+          "source_published_at": null,
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        }
+      ]
+    },
+    {
+      "id": "hist-theinfinitiatrivierapoint",
+      "name": "The Infiniti at Riviera Point",
+      "product_class": "APARTMENT_PHASE",
+      "research_status": "REVIEW_ONLY",
+      "facts": [
+        {
+          "field": "phase1C_units_2019",
+          "value": 798,
+          "source_key": "rp2019",
+          "source_url": "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf",
+          "source_issuer": "Keppel",
+          "source_published_at": "2019-09-26",
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "phase1C_units_2023",
+          "value": 822,
+          "source_key": "inf2023",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/2023-December-The-Infiniti-was-honoured-at-the-Vietnam-Outstanding-Property-Awards-2023",
+          "source_issuer": "Keppel",
+          "source_published_at": "2023-12",
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "planned_completion_2019",
+          "value": "2021H2_bare/2022H1_fitted",
+          "source_key": "rp2019",
+          "source_url": "https://www.keppel.com/file/investor-relations/events-presentations/presentations/2019/briefing-to-analysts-on-vietnam-property-26-sep-2019.pdf",
+          "source_issuer": "Keppel",
+          "source_published_at": "2019-09-26",
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "shophouses_in_822_premium_units",
+          "value": 24,
+          "source_key": "inf2023",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/2023-December-The-Infiniti-was-honoured-at-the-Vietnam-Outstanding-Property-Awards-2023",
+          "source_issuer": "Keppel",
+          "source_published_at": "2023-12",
+          "scope": "2023 Infiniti unit mix; do not count as condos",
+          "review_status": "MIXED_USE_UNIT_SCOPE"
+        },
+        {
+          "field": "penthouses_in_822_premium_units",
+          "value": 8,
+          "source_key": "inf2023",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/2023-December-The-Infiniti-was-honoured-at-the-Vietnam-Outstanding-Property-Awards-2023",
+          "source_issuer": "Keppel",
+          "source_published_at": "2023-12",
+          "scope": "2023 Infiniti unit mix",
+          "review_status": "ISSUER_CLAIM_UNVERIFIED"
+        },
+        {
+          "field": "duplex_4br_in_822_premium_units",
+          "value": 32,
+          "source_key": "inf2023",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/2023-December-The-Infiniti-was-honoured-at-the-Vietnam-Outstanding-Property-Awards-2023",
+          "source_issuer": "Keppel",
+          "source_published_at": "2023-12",
+          "scope": "2023 Infiniti unit mix",
+          "review_status": "ISSUER_CLAIM_UNVERIFIED"
+        },
+        {
+          "field": "units_ready_to_launch_2026",
+          "value": 2,
+          "source_key": "fy2025",
+          "source_url": "https://www.keppel.com/file/investor-relations/financial-results-business-updates/2025/4q/2-keppel-ltd-2h25-fy25-presentation-slides.pdf",
+          "source_issuer": "Keppel",
+          "source_published_at": "2026-02-05",
+          "scope": "2025-12-31 Infiniti phase launch pipeline",
+          "review_status": "FORECAST_NOT_ACTUAL_LAUNCH"
+        },
+        {
+          "field": "topping_out_event_not_handover",
+          "value": "2025-02-26",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/02-2025-Topping-out-ceremony-of-The-Inifiniti-at-Riviera-Point",
+          "source_issuer": "Keppel Ltd. / Keppel Vietnam",
+          "source_published_at": "2025-02",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "review_status": "REVIEW_ONLY_NOT_LEGAL_OR_TRANSACTION_VERIFICATION",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "event_date": "2025-02-26"
+        },
+        {
+          "field": "handover_forecast_as_of_2025_02_not_verified",
+          "value": "2025-12",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/02-2025-Topping-out-ceremony-of-The-Inifiniti-at-Riviera-Point",
+          "source_issuer": "Keppel Ltd. / Keppel Vietnam",
+          "source_published_at": "2025-02",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "review_status": "REVIEW_ONLY_NOT_LEGAL_OR_TRANSACTION_VERIFICATION",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "event_date": null
+        }
+      ]
+    },
+    {
+      "id": "hist-celestaheights",
+      "name": "Celesta Heights",
+      "product_class": "APARTMENT_PHASE",
+      "research_status": "REVIEW_ONLY",
+      "facts": [
+        {
+          "field": "towers",
+          "value": 4,
+          "source_key": "cel2022",
+          "source_url": "https://www.keppel.com/realestate/vn/en/Media-Releases/Keppel-Land-emerges-as-the-most-awarded-company-at-the-PropertyGuru-Vietnam-Property-Awards-2022",
+          "source_issuer": "Keppel",
+          "source_published_at": "2022",
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "planned_units",
+          "value": 752,
+          "source_key": "cel2022",
+          "source_url": "https://www.keppel.com/realestate/vn/en/Media-Releases/Keppel-Land-emerges-as-the-most-awarded-company-at-the-PropertyGuru-Vietnam-Property-Awards-2022",
+          "source_issuer": "Keppel",
+          "source_published_at": "2022",
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "preview_launch_units_2021",
+          "value": 693,
+          "source_key": "cel2023",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/2023-October-Strategic-partnership-signed-to-create-more-value-for-stakeholders",
+          "source_issuer": "Keppel",
+          "source_published_at": "2023-10",
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "expected_completion_not_actual",
+          "value": 2028,
+          "source_key": "fy2025",
+          "source_url": "https://www.keppel.com/file/investor-relations/financial-results-business-updates/2025/4q/2-keppel-ltd-2h25-fy25-presentation-slides.pdf",
+          "source_issuer": "Keppel",
+          "source_published_at": "2026-02-05",
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "2021_preview_booked_share_approx",
+          "value": 0.99,
+          "source_key": "cel2023",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/2023-October-Strategic-partnership-signed-to-create-more-value-for-stakeholders",
+          "source_issuer": "Keppel",
+          "source_published_at": "2023-10",
+          "scope": "693 launched units, reported reservation/booking not contracts",
+          "review_status": "ISSUER_BOOKINGS_NOT_VERIFIED_TRANSACTIONS"
+        },
+        {
+          "field": "phase_order_in_celesta_city",
+          "value": 2,
+          "source_key": "cel_2021_nov_shopee",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Keppel-Land-and-Shopee-join-hands-to-collaborate-on-Celesta-Heights-project",
+          "source_issuer": "Keppel Real Estate Vietnam",
+          "source_published_at": "2021-11",
+          "scope": "phase:celesta_heights",
+          "review_status": "ISSUER_CLAIM_UNVERIFIED"
+        },
+        {
+          "field": "site_area_hectares_issuer_2021",
+          "value": 2.15,
+          "source_key": "cel_2021_nov_shopee",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Keppel-Land-and-Shopee-join-hands-to-collaborate-on-Celesta-Heights-project",
+          "source_issuer": "Keppel Real Estate Vietnam",
+          "source_published_at": "2021-11",
+          "scope": "phase:celesta_heights",
+          "review_status": "ISSUER_CLAIM_UNVERIFIED",
+          "note": "Site area attributed only to Celesta Heights, not entire Celesta City"
+        },
+        {
+          "field": "historical_road_and_district_2021",
+          "value": "Nguyen Huu Tho street, Nha Be District, HCMC",
+          "source_key": "cel_2021_nov_shopee",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Keppel-Land-and-Shopee-join-hands-to-collaborate-on-Celesta-Heights-project",
+          "source_issuer": "Keppel Real Estate Vietnam",
+          "source_published_at": "2021-11",
+          "scope": "phase:celesta_heights",
+          "review_status": "HISTORIC_LOCATION_NOT_VERIFIED_CURRENT_ADDRESS"
+        },
+        {
+          "field": "joint_developers_disclosed_2021",
+          "value": [
+            "Keppel Land",
+            "Phu Long"
+          ],
+          "source_key": "cel_2021_nov_shopee",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Keppel-Land-and-Shopee-join-hands-to-collaborate-on-Celesta-Heights-project",
+          "source_issuer": "Keppel Real Estate Vietnam",
+          "source_published_at": "2021-11",
+          "scope": "phase:celesta_heights",
+          "review_status": "ISSUER_DISCLOSURE_NOT_LEGAL_VERIFICATION"
+        }
+      ]
+    },
+    {
+      "id": "hist-celestaavenue",
+      "name": "Celesta Avenue",
+      "product_class": "LANDED_TERRACE_HOUSES_NOT_APARTMENTS",
+      "research_status": "REVIEW_ONLY",
+      "facts": [
+        {
+          "field": "type",
+          "value": "landed_terrace_houses_not_apartment",
+          "source_key": "ca2024",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/07-2024-Groundbreaking-ceremony-marks-start-of-construction-of-Celesta-Avenue",
+          "source_issuer": "Keppel",
+          "source_published_at": "2024-07",
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "townhouses",
+          "value": 43,
+          "source_key": "ca2025",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/09-2025-Keppel-recognised-for-the-third-consecutive-year",
+          "source_issuer": "Keppel",
+          "source_published_at": "2025-09",
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "groundbreaking",
+          "value": "2024-07-16",
+          "source_key": "ca2024",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/07-2024-Groundbreaking-ceremony-marks-start-of-construction-of-Celesta-Avenue",
+          "source_issuer": "Keppel",
+          "source_published_at": "2024-07",
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "expected_handover_not_verified",
+          "value": "2025Q4",
+          "source_key": "ca2025",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/09-2025-Keppel-recognised-for-the-third-consecutive-year",
+          "source_issuer": "Keppel",
+          "source_published_at": "2025-09",
+          "review_status": "ISSUER_CLAIM_NOT_INDEPENDENTLY_VERIFIED"
+        },
+        {
+          "field": "private_preview_month_issuer_claim",
+          "value": "2022-09",
+          "source_key": "cel_2022_sep_private",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Private-preview-of-Celesta-Avenue",
+          "source_issuer": "Keppel Real Estate Vietnam",
+          "source_published_at": "2022-09",
+          "scope": "phase:celesta_avenue",
+          "review_status": "ISSUER_EVENT_NOT_APARTMENT_SALE"
+        },
+        {
+          "field": "townhouse_land_area_range_m2",
+          "value": {
+            "min": 196,
+            "max": 469
+          },
+          "source_key": "cel_2022_sep_private",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Private-preview-of-Celesta-Avenue",
+          "source_issuer": "Keppel Real Estate Vietnam",
+          "source_published_at": "2022-09",
+          "scope": "phase:celesta_avenue",
+          "review_status": "LANDED_HOUSES_EXCLUDE_FROM_APARTMENT_AREA_PRICING"
+        }
+      ]
+    },
+    {
+      "id": "candidate-celesta-gold-keppel-2026",
+      "name": "Celesta Gold",
+      "product_class": "APARTMENT_WITH_SEPARATE_COMMERCIAL_PODIUM",
+      "catalog_id_status": "NEW_IDENTITY_NOT_IN_150_STANDARD_RECORDS_MATCH_REVIEW_REQUIRED",
+      "research_status": "REVIEW_ONLY_NOT_GIS_LEGAL_OR_PRICE_VERIFIED",
+      "canonical_parent_candidate": "CELESTA City",
+      "latitude": null,
+      "longitude": null,
+      "facts": [
+        {
+          "field": "parent_phase_of",
+          "value": "CELESTA City",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/05-2026-Groundbreaking-ceremony-of-Celesta-Gold",
+          "source_issuer": "Keppel Ltd. / Keppel Vietnam",
+          "source_published_at": "2026-05",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "review_status": "REVIEW_ONLY_NOT_LEGAL_OR_TRANSACTION_VERIFICATION",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "event_date": null
+        },
+        {
+          "field": "historical_groundbreaking_event",
+          "value": "2026-05-07",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/05-2026-Groundbreaking-ceremony-of-Celesta-Gold",
+          "source_issuer": "Keppel Ltd. / Keppel Vietnam",
+          "source_published_at": "2026-05",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "review_status": "REVIEW_ONLY_NOT_LEGAL_OR_TRANSACTION_VERIFICATION",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "event_date": "2026-05-07"
+        },
+        {
+          "field": "residential_apartment_units_issuer_claim",
+          "value": 420,
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/05-2026-Groundbreaking-ceremony-of-Celesta-Gold",
+          "source_issuer": "Keppel Ltd. / Keppel Vietnam",
+          "source_published_at": "2026-05",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "review_status": "REVIEW_ONLY_NOT_LEGAL_OR_TRANSACTION_VERIFICATION",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "event_date": null
+        },
+        {
+          "field": "planned_above_ground_floors_issuer_claim",
+          "value": 25,
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/05-2026-Groundbreaking-ceremony-of-Celesta-Gold",
+          "source_issuer": "Keppel Ltd. / Keppel Vietnam",
+          "source_published_at": "2026-05",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "review_status": "REVIEW_ONLY_NOT_LEGAL_OR_TRANSACTION_VERIFICATION",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "event_date": null
+        },
+        {
+          "field": "site_area_hectares_lower_bound_exclusive",
+          "value": 1.28,
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/05-2026-Groundbreaking-ceremony-of-Celesta-Gold",
+          "source_issuer": "Keppel Ltd. / Keppel Vietnam",
+          "source_published_at": "2026-05",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "review_status": "REVIEW_ONLY_NOT_LEGAL_OR_TRANSACTION_VERIFICATION",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "event_date": null
+        },
+        {
+          "field": "development_partners_issuer_claim",
+          "value": [
+            "Keppel",
+            "Phu Long",
+            "Nomura Real Estate Vietnam"
+          ],
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/05-2026-Groundbreaking-ceremony-of-Celesta-Gold",
+          "source_issuer": "Keppel Ltd. / Keppel Vietnam",
+          "source_published_at": "2026-05",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "review_status": "REVIEW_ONLY_NOT_LEGAL_OR_TRANSACTION_VERIFICATION",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "event_date": null
+        },
+        {
+          "field": "commercial_podium_excluded_from_apartment_units",
+          "value": [
+            "officetel",
+            "shophouses",
+            "retail"
+          ],
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/05-2026-Groundbreaking-ceremony-of-Celesta-Gold",
+          "source_issuer": "Keppel Ltd. / Keppel Vietnam",
+          "source_published_at": "2026-05",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "review_status": "REVIEW_ONLY_NOT_LEGAL_OR_TRANSACTION_VERIFICATION",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "event_date": null
+        },
+        {
+          "field": "developer_reported_location_road",
+          "value": "Nguyen Huu Tho Avenue, HCMC",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/05-2026-Groundbreaking-ceremony-of-Celesta-Gold",
+          "source_issuer": "Keppel Ltd. / Keppel Vietnam",
+          "source_published_at": "2026-05",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "review_status": "REVIEW_ONLY_NOT_LEGAL_OR_TRANSACTION_VERIFICATION",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "event_date": null
+        },
+        {
+          "field": "developer_reported_main_contractor",
+          "value": "Coteccons",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/05-2026-Groundbreaking-ceremony-of-Celesta-Gold",
+          "source_issuer": "Keppel Ltd. / Keppel Vietnam",
+          "source_published_at": "2026-05",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "review_status": "REVIEW_ONLY_NOT_LEGAL_OR_TRANSACTION_VERIFICATION",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "event_date": null
+        },
+        {
+          "field": "investor_corporate_name_issuer_quote_review_only",
+          "value": "Nha Be Real Estate Joint Stock Company",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/05-2026-Groundbreaking-ceremony-of-Celesta-Gold",
+          "source_issuer": "Keppel Ltd. / Keppel Vietnam",
+          "source_published_at": "2026-05",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "review_status": "REVIEW_ONLY_NOT_LEGAL_OR_TRANSACTION_VERIFICATION",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "event_date": null
+        },
+        {
+          "field": "planned_handover_not_actual",
+          "value": "2027Q4",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/05-2026-Groundbreaking-ceremony-of-Celesta-Gold",
+          "source_issuer": "Keppel Ltd. / Keppel Vietnam",
+          "source_published_at": "2026-05",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "review_status": "REVIEW_ONLY_NOT_LEGAL_OR_TRANSACTION_VERIFICATION",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "event_date": null
+        }
+      ]
+    },
+    {
+      "id": "map-celesta",
+      "name": "Celesta Rise",
+      "product_class": "APARTMENT_PHASE",
+      "canonical_parent_candidate": "CELESTA City",
+      "catalog_id_status": "EXISTING_CANONICAL_MAP_ID",
+      "regional_scope": "HCMC_OLD_BOUNDARY",
+      "latitude": null,
+      "longitude": null,
+      "research_status": "REVIEW_ONLY_NOT_GIS_LEGAL_OR_PRICE_VERIFIED",
+      "facts": [
+        {
+          "field": "phase_order_in_celesta_city",
+          "value": 1,
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Groundbreaking-of-Celesta-Rise",
+          "source_issuer": "Keppel Real Estate Division Vietnam",
+          "source_published_at": "2022-07",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "review_status": "REVIEW_ONLY"
+        },
+        {
+          "field": "masterplan_site_area_hectares",
+          "value": 6.2,
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Groundbreaking-of-Celesta-Rise",
+          "source_issuer": "Keppel Real Estate Division Vietnam",
+          "source_published_at": "2022-07",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "review_status": "REVIEW_ONLY",
+          "note": "Masterplan total CELESTA City, not phase land area."
+        },
+        {
+          "field": "phase_site_area_hectares",
+          "value": 2.8,
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living",
+          "source_issuer": "Keppel Real Estate Division Vietnam",
+          "source_published_at": "2024-11",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "review_status": "REVIEW_ONLY"
+        },
+        {
+          "field": "phase_towers",
+          "value": 5,
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Groundbreaking-of-Celesta-Rise",
+          "source_issuer": "Keppel Real Estate Division Vietnam",
+          "source_published_at": "2022-07",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "review_status": "REVIEW_ONLY"
+        },
+        {
+          "field": "phase_premium_units_including_streetfront_products",
+          "value": 923,
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Groundbreaking-of-Celesta-Rise",
+          "source_issuer": "Keppel Real Estate Division Vietnam",
+          "source_published_at": "2022-07",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "review_status": "REVIEW_ONLY",
+          "note": "Developer includes streetfront products; do not assume pure apartments stock."
+        },
+        {
+          "field": "groundbreaking_event_not_sales_launch",
+          "value": "2022-07-15",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Groundbreaking-of-Celesta-Rise",
+          "source_issuer": "Keppel Real Estate Division Vietnam",
+          "source_published_at": "2022-07",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "review_status": "REVIEW_ONLY"
+        },
+        {
+          "field": "developer_partners_reported",
+          "value": [
+            "Keppel Land",
+            "Phu Long"
+          ],
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Groundbreaking-of-Celesta-Rise",
+          "source_issuer": "Keppel Real Estate Division Vietnam",
+          "source_published_at": "2022-07",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "review_status": "REVIEW_ONLY"
+        },
+        {
+          "field": "historic_ward_district_at_groundbreaking",
+          "value": "Phuoc Kien commune, Nha Be District, HCMC (historic address, current address unverified)",
+          "source_url": "https://www.keppel.com/realestate/vn/News-Library/Groundbreaking-of-Celesta-Rise",
+          "source_issuer": "Keppel Real Estate Division Vietnam",
+          "source_published_at": "2022-07",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "review_status": "REVIEW_ONLY"
+        },
+        {
+          "field": "handover_event_not_all_unit_completion",
+          "value": "2024-11-09",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living",
+          "source_issuer": "Keppel Real Estate Division Vietnam",
+          "source_published_at": "2024-11",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "review_status": "REVIEW_ONLY"
+        },
+        {
+          "field": "handover_started_month_issuer_claim",
+          "value": "2024-11",
+          "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/11-2024-Celesta-Rise-handover-marks-new-standard-in-Saigon-South-urban-living",
+          "source_issuer": "Keppel Real Estate Division Vietnam",
+          "source_published_at": "2024-11",
+          "source_checked_at": "2026-10-13",
+          "source_role": "ISSUER_CLAIM",
+          "source_rights": "FACTUAL_REFERENCE_ONLY_NO_BULK_FEED_OR_MEDIA_REUSE",
+          "review_status": "REVIEW_ONLY",
+          "note": "Developer expressly reports being handed over to homebuyers in November 2024."
+        }
+      ]
+    }
+  ],
+  "price_observations": [
+    {
+      "id": "hist-theestella",
+      "period": "2009-09",
+      "source_url": "https://www.keppel.com/realestate/vn/en/Media-Releases/The-Estella-garners-strong-interest-ahead-of-new-release",
+      "source_date": "2009-09-24",
+      "amount_usd_per_m2": {
+        "min": 2000,
+        "max": 2200
+      },
+      "price_type": "REPORT_ESTIMATE",
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "vat": "UNKNOWN",
+      "verified_transaction": false,
+      "publication_approved": false,
+      "currency": "USD",
+      "price_unit": "USD/m2",
+      "market_segment": "PRIMARY_DEVELOPER_HISTORICAL",
+      "unit_area_m2": null,
+      "price_includes_vat": "UNKNOWN",
+      "price_includes_fees": "UNKNOWN",
+      "commercial_republication_permission": "NOT_ESTABLISHED",
+      "transaction_verified": false,
+      "evidence_status": "DIRECT_ISSUER_SOURCE_OPENED"
+    },
+    {
+      "id": "hist-theestella",
+      "period": "2014",
+      "source_url": "https://www.keppel.com/en/download.ashx?id=7385",
+      "source_date": "2015-01-21",
+      "amount_usd_per_m2": 1590,
+      "price_type": "REPORT_ESTIMATE",
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "vat": "UNKNOWN",
+      "verified_transaction": false,
+      "publication_approved": false,
+      "currency": "USD",
+      "price_unit": "USD/m2",
+      "market_segment": "PRIMARY_DEVELOPER_HISTORICAL",
+      "unit_area_m2": null,
+      "price_includes_vat": "UNKNOWN",
+      "price_includes_fees": "UNKNOWN",
+      "commercial_republication_permission": "NOT_ESTABLISHED",
+      "transaction_verified": false,
+      "evidence_status": "DIRECT_ISSUER_SOURCE_OPENED"
+    },
+    {
+      "id": "hist-rivierapoint",
+      "period": "2014",
+      "source_url": "https://www.keppel.com/en/download.ashx?id=7385",
+      "source_date": "2015-01-21",
+      "amount_usd_per_m2": 1550,
+      "price_type": "REPORT_ESTIMATE",
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "vat": "UNKNOWN",
+      "verified_transaction": false,
+      "publication_approved": false,
+      "currency": "USD",
+      "price_unit": "USD/m2",
+      "market_segment": "PRIMARY_DEVELOPER_HISTORICAL",
+      "unit_area_m2": null,
+      "price_includes_vat": "UNKNOWN",
+      "price_includes_fees": "UNKNOWN",
+      "commercial_republication_permission": "NOT_ESTABLISHED",
+      "transaction_verified": false,
+      "evidence_status": "DIRECT_ISSUER_SOURCE_OPENED"
+    },
+    {
+      "id": "hist-estellaheights",
+      "period": "2015-01",
+      "source_url": "https://www.keppel.com/en/download.ashx?id=7385",
+      "source_date": "2015-01-21",
+      "amount_usd_per_m2": 1800,
+      "price_type": "REPORT_ESTIMATE",
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "vat": "UNKNOWN",
+      "verified_transaction": false,
+      "publication_approved": false,
+      "currency": "USD",
+      "price_unit": "USD/m2",
+      "market_segment": "PRIMARY_DEVELOPER_HISTORICAL",
+      "unit_area_m2": null,
+      "price_includes_vat": "UNKNOWN",
+      "price_includes_fees": "UNKNOWN",
+      "commercial_republication_permission": "NOT_ESTABLISHED",
+      "transaction_verified": false,
+      "evidence_status": "DIRECT_ISSUER_SOURCE_OPENED"
+    },
+    {
+      "id": "hist-estellaheights",
+      "period": "2015-10",
+      "source_url": "https://www.keppel.com/realestate/vn/en/News-Library/Official-launch-of-Estella-Heights-Signature-Collection",
+      "source_date": "2015-10",
+      "source_issuer": "Keppel Land / Tien Phuoc",
+      "amount_vnd_per_m2": 45000000,
+      "price_type": "REPORT_ESTIMATE",
+      "price_scope": "ESTELLA_HEIGHTS_PHASE2_SIGNATURE_COLLECTION_PREVIEW_COHORT",
+      "reported_sold_units_issuer_claim": 170,
+      "launched_units_cohort_issuer_claim": 273,
+      "price_description": "Issuer-reported average from special preview; not verified underlying contracts",
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "unit_area_m2": null,
+      "vat": "UNKNOWN",
+      "price_includes_vat": "UNKNOWN",
+      "price_includes_fees": "UNKNOWN",
+      "currency": "VND",
+      "price_unit": "VND/m2",
+      "market_segment": "PRIMARY_DEVELOPER_HISTORICAL",
+      "commercial_republication_permission": "NOT_ESTABLISHED",
+      "verified_transaction": false,
+      "transaction_verified": false,
+      "publication_approved": false,
+      "evidence_status": "DIRECT_OFFICIAL_ISSUER_SOURCE_CHECKED_2026_10_13"
+    }
+  ],
+  "review_conflicts": [
+    {
+      "topic": "Riviera Point phase scope",
+      "historical": "2019 report: 549+518+798+532=2397",
+      "later": "2025 group total: 2361; current profiles 561+541+822; 2025 phase 2 pipeline 437; these sum to 2361",
+      "decision": "REVIEW_ONLY; alignment is arithmetic, not proof of unchanged phase design or units class"
+    },
+    {
+      "topic": "The Infiniti 798 vs 822",
+      "evidence": "2023 issuer says 822 includes 24 shophouses; 822-24=798, matching 2019 issuer 798",
+      "decision": "PROVISIONAL_EXPLANATION_NOT_VERIFIED; do not count 822 as 822 residential units"
+    },
+    {
+      "topic": "The View 518 vs 541",
+      "decision": "Dated 2016/2019 reports differ from undated current project profile; clarify change and boundary."
+    },
+    {
+      "topic": "Celesta Heights 693 preview vs 752 total",
+      "decision": "Launched cohort vs total planned inventory, not automatically inconsistent."
+    },
+    {
+      "topic": "The Estella Sep 2012 buyer briefing",
+      "decision": "Not actual handover proof; issuer states phase completed on time."
+    },
+    {
+      "topic": "Celesta Avenue 43 landed townhouses",
+      "decision": "EXCLUDE_FROM_APARTMENT_STOCK; preserve existing historical index identity with classification guard."
+    },
+    {
+      "topic": "Riviera Point 2025 reported sales",
+      "decision": "Issuer claims not independent unit contract verification or transaction price evidence."
+    },
+    {
+      "topic": "The Infiniti historical plan vs construction update",
+      "historical": "2019 Keppel presentation envisaged 2H 2021 bare / 1H 2022 fitted completion",
+      "later": "February 2025 Keppel reports topping-out on 26 February 2025 and expected December 2025 handover",
+      "decision": "REVIEW_ONLY: neither forecast demonstrates actual handover; seek developer handover confirmation"
+    },
+    {
+      "topic": "Celesta Gold new canonical identity",
+      "historical": "No existing Celesta Gold record among 150 canonical dossiers on 2026-10-13 branch",
+      "later": "Keppel May 2026 issuer statement records latest CELESTA City phase, 420 residential apartments separate from podium other units",
+      "decision": "CREATE ID CANDIDATE ONLY; check exact phase relations, current administrative ward, legal owner, location and tower footprint before standard inclusion"
+    },
+    {
+      "topic": "Celesta Rise phase 923 units",
+      "decision": "Review composition of streetfront products before counting entire 923 as pure apartment inventory; event 2024-11-09 is not evidence all units handed over."
+    },
+    {
+      "topic": "Estella Heights preview VND 45m/m2 average",
+      "decision": "Source reports average issuer-declared preview sales 170/273, but gross/net area, VAT, underlying sale contracts unknown. REPORT_ESTIMATE only, not TRANSACTION_VERIFIED."
+    }
+  ],
+  "source_feed_status": {
+    "checked": "2026-10-13",
+    "repo_registry_file": "data/feeds/source_registry.json",
+    "repo_price_status_file": "data/update_status.json",
+    "registry_configured": false,
+    "authorization_count": 0,
+    "official_source_open_access": "LIMITED_PUBLIC_REFERENCE",
+    "licensed_bulk_reuse": "NOT_ESTABLISHED",
+    "blocked_reuse_request_queue": [
+      {
+        "publisher": "Keppel Ltd. / Keppel Vietnam",
+        "permission_needed": "Price/listing feed, reuse of original photos/brochures, text extraction rights, access terms",
+        "status": "PARTNERSHIP_AND_LEGAL_REVIEW_REQUIRED"
+      }
+    ]
+  },
+  "metrics": {
+    "new_sourced_dossiers_this_run_vs_prior_local": 1,
+    "existing_dossiers_with_new_facts": 1,
+    "new_official_source_urls_this_run_vs_prior_local": 3,
+    "new_fact_candidates_this_run_vs_prior_local": 11,
+    "new_evidenced_price_observations_this_run": 1,
+    "new_wgs84_coordinates_this_run": 0,
+    "apartment_dossiers_in_batch": 8,
+    "non_apartment_exclusion_dossiers_in_batch": 1,
+    "candidate_dossiers_in_batch": 9,
+    "unique_official_urls_in_batch": 23,
+    "fact_candidates_in_batch": 74,
+    "evidenced_price_observations_in_batch": 5,
+    "transaction_verified_observations": 0,
+    "provider_authorized_feed_count": 0,
+    "github_commits_this_run": 0
+  },
+  "guards": {
+    "publish_legal_or_price": false,
+    "merge_without_review": false,
+    "the_felix_distinct_from_felix_homes": true,
+    "the_win_city_tay_ninh_outside_hcm": true,
+    "norton_park_unresolved": true,
+    "celesta_avenue_landed_excluded": true,
+    "celesta_gold_not_yet_standard_catalogued": true,
+    "the_infiniti_2025_handover_forecast_not_actual": true
+  },
+  "reviewed_at": "2026-10-13",
+  "staging_note": "Carry over 8 locally researched Keppel candidate dossiers, add source-backed Celesta Rise historical launch/handover, and a separate developer-reported 2015 Estella Heights Phase 2 historical price estimate. Classification guards on townhouses/retail, no legal or price publication permission.",
+  "last_audited": "2026-10-13",
+  "new_source_rights_review": [
+    {
+      "issuer": "Keppel Land Vietnam",
+      "scope": "website sources including 2 newly checked primary URLs",
+      "public_factual_reference": "PERMITTED_WITH_ATTRIBUTION_PENDING_SOURCE_TOS_REVIEW",
+      "bulk_extraction_feed": "NO_LICENSE_ESTABLISHED",
+      "photos_rehosting": "NO_PERMISSION_ESTABLISHED",
+      "next_step": "Request authorized structured data feed / licensing and public display permission; cite limited facts without copying copyrighted works."
+    }
+  ],
+  "research_delta_20261013_0939": {
+    "baseline_file": "qimap_p0_keppel_batch08_plus_celesta_gold_20261013_review_only.json",
+    "new_source_urls": 1,
+    "existing_dossiers_with_new_source": 2,
+    "new_fact_candidates": 6,
+    "new_evidenced_price_observations": 0,
+    "new_crosschecked_coordinates": 0,
+    "new_source_urls_list": [
+      "https://www.keppel.com/realestate/vn/en/News-Library/Official-launch-of-Estella-Heights-Signature-Collection"
+    ],
+    "new_fact_project_ids": [
+      "hist-theestella",
+      "hist-estellaheights"
+    ],
+    "publication_approved": false,
+    "github_commit_success": false
+  }
+}
