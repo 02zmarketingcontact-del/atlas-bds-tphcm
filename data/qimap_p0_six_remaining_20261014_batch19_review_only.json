@@ -1,0 +1,1340 @@
+{
+  "schema_version": "qimap-p0-source-linked-candidates-v1.1",
+  "batch_id": "batch19-six-remaining-catalog-gaps-20261013",
+  "as_of": "2026-10-14",
+  "repository": "02zmarketingcontact-del/atlas-bds-tphcm",
+  "branch_target": "research/qimap-p0-dossier-link-20261012-kd-sk",
+  "draft_pr_target": 77,
+  "github_write_status": "STAGED_CANDIDATE_IN_DRAFT_PR_REQUIRES_GITHUB_VERIFICATION",
+  "publication_status": "REVIEW_ONLY_DRAFT_PR_NOT_PUBLISHED",
+  "baseline": {
+    "catalog_entries": 150,
+    "previous_batches_inspected": 18,
+    "previously_researched_catalog_entries": 144,
+    "previously_unresearched_catalog_entries": 6,
+    "existing_authorized_feeds": 0
+  },
+  "dossiers": [
+    {
+      "project_id": "map-prive",
+      "name": "The Prive",
+      "classification": "HCMC_APARTMENT_CANDIDATE",
+      "source": "https://datxanhservices.vn/gia-va-chinh-sach-ban-hang-the-prive/",
+      "source_published_at": "2026-09-11",
+      "organization": "Dat Xanh Services",
+      "facts": [
+        "The Privé is in Nam Rạch Chiếc, Thủ Đức/old District 2",
+        "Distributor as of 2026-09-18 projects completion/hand-over in Q3/2027; not actual handover"
+      ],
+      "legal_status": "UNVERIFIED_DISTRIBUTOR_CLAIM",
+      "gps_wgs84_verified": false
+    },
+    {
+      "project_id": "map-felix",
+      "name": "The Felix",
+      "classification": "POST_MERGER_HCMC_APARTMENT_CANDIDATE",
+      "source": "https://www.c-holdings.vn/the-felix-du-an-can-ho-cao-cap-phap-ly-minh-bach-an-tam-chon-lua",
+      "source_published_at": null,
+      "organization": "C-Holdings",
+      "facts": [
+        "Historical site Nguyen Du, Binh Hoa, Thuan An, former Binh Duong",
+        "9465 m2 development, 40 floors and one basement claimed by developer",
+        "Developer ecosystem contains 1206 and 1216 total product figures; denominator unresolved",
+        "The Felix is not Felix Homes at Nguyen Van Dung, Go Vap, owned by CC1"
+      ],
+      "legal_status": "CLAIMED_NOT_INDEPENDENTLY_CHECKED",
+      "gps_wgs84_verified": false
+    },
+    {
+      "project_id": "map-happyone",
+      "name": "Happy One Central",
+      "classification": "POST_MERGER_HCMC_APARTMENT_CANDIDATE",
+      "source": "https://dantri.com.vn/bat-dong-san/mung-ban-giao-364-so-hong-dot-1-happy-one-central-tung-can-ho-dong-gia-168-ty-dong-20241211223347433.htm",
+      "source_published_at": "2024-12-12",
+      "organization": "Bao Dan Tri relaying Van Xuan Group claim",
+      "facts": [
+        "Developer says initial apartment handover started 28 July 2024",
+        "First batch of 364 ownership certificates was announced for 14 December 2024, which is not apartment handover date",
+        "Different third-party sources disagree on apartment totals and earlier handover schedules"
+      ],
+      "legal_status": "UNVERIFIED",
+      "gps_wgs84_verified": false
+    },
+    {
+      "project_id": "map-win",
+      "name": "The Win City",
+      "classification": "OUTSIDE_HCMC_TAY_NINH",
+      "source": "https://thewincity.vn/tin-tuc/chuan-bi-khoi-cong-du-an-the-win-city-tai-xa-duc-hoa-tay-ninh/",
+      "source_published_at": "2025-10-30",
+      "organization": "The Win City project website",
+      "facts": [
+        "Present site in Duc Hoa commune, Tay Ninh province, formerly Long An",
+        "Groundbreaking was announced for 31 October 2025",
+        "Victory Heights phase 2822 products: 2748 apartments plus 74 shophouses"
+      ],
+      "legal_status": "NOT_REVIEWED",
+      "gps_wgs84_verified": false
+    },
+    {
+      "project_id": "hist-golfparkresidence",
+      "name": "Golf Park Residence",
+      "classification": "NON_APARTMENT_LOW_RISE_EXCLUDE",
+      "source": "https://www.novaland.com.vn/golf-park-residence-p-long-thanh-my-q9-gioi-thieu--chuong-trinh-uu-dai-thang-82016",
+      "source_published_at": "2016-08-15",
+      "organization": "Novaland",
+      "facts": [
+        "Novaland explicitly describes 90 townhouses and 5 villas in eight zones",
+        "Historical location: Street 2, Long Thanh My, former District 9, HCMC",
+        "December 2016 was developer's scheduled delivery, not independently verified actual date",
+        "Reported starting price from VND3 billion per townhouse or villa, NOT eligible apartment asking-price observation"
+      ],
+      "legal_status": "NOT_REVIEWED",
+      "gps_wgs84_verified": false
+    },
+    {
+      "project_id": "hist-thanhdaview",
+      "name": "Thanh Da View",
+      "classification": "HCMC_APARTMENT_CANDIDATE",
+      "source": "https://savista.com.vn/du-an/chung-cu-thanh-da-view/",
+      "source_published_at": "2023-10-06",
+      "organization": "SAVISTA building management operator",
+      "facts": [
+        "Historical address 07 Thanh Da, Ward 27, Binh Thanh, HCMC",
+        "20 floors and two basements",
+        "Operator lists 132 flats on floors 4-19 and four penthouses on floor 20: unclear whether penthouses are within or in addition to 132",
+        "Operator page is not evidence of initial 2012 or 2013 handover",
+        "23/03/2011 CafeLand reported developer asking price from VND28.4 million/m2, source is secondary press and area/VAT basis unknown",
+        "Conflicting historical street numbers: 13, 50; 2023 managing operator says 07 Thanh Da. No WGS84 geometry selected.",
+        "June 2014 press said complete and ~80% occupied; NOT a precise certified handover milestone."
+      ],
+      "legal_status": "NOT_REVIEWED",
+      "gps_wgs84_verified": false
+    }
+  ],
+  "price_observations": [
+    {
+      "project_id": "map-prive",
+      "type": "PRICE_ASKING",
+      "source_url": "https://datxanhservices.vn/gia-va-chinh-sach-ban-hang-the-prive/",
+      "source_date": "2026-09-11",
+      "amount_min": 115000000,
+      "amount_max": 135000000,
+      "currency": "VND",
+      "unit": "per_m2",
+      "area_m2": null,
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "vat_included": false,
+      "maintenance_included": false,
+      "rights": "CITATION_ONLY_NO_FEED_LICENSE",
+      "transaction_verified": false,
+      "source_checked_at": "2026-10-13",
+      "review_status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "price_unit": "per_m2",
+      "price_type": "PRICE_ASKING",
+      "marketing_scope": "Distributor marketing, VAT/maintenance excluded, discounts not applied",
+      "discount_applied": false
+    },
+    {
+      "project_id": "map-felix",
+      "type": "PRICE_ASKING",
+      "source_url": "https://www.sggp.org.vn/nguoi-tre-de-dang-hien-thuc-giac-mo-an-cu-tai-the-felix-post791103.html",
+      "source_date": "2025-04-17",
+      "amount_min": 34000000,
+      "amount_max": null,
+      "currency": "VND",
+      "unit": "per_m2",
+      "area_m2": null,
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "vat_included": null,
+      "maintenance_included": null,
+      "rights": "CITATION_ONLY_NO_FEED_LICENSE",
+      "transaction_verified": false,
+      "source_checked_at": "2026-10-13",
+      "review_status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "price_unit": "per_m2",
+      "price_type": "PRICE_ASKING"
+    },
+    {
+      "project_id": "map-happyone",
+      "type": "PRICE_ASKING",
+      "source_url": "https://dantri.com.vn/bat-dong-san/mung-ban-giao-364-so-hong-dot-1-happy-one-central-tung-can-ho-dong-gia-168-ty-dong-20241211223347433.htm",
+      "source_date": "2024-12-12",
+      "amount_min": 1680000000,
+      "amount_max": 1680000000,
+      "currency": "VND",
+      "unit": "per_unit",
+      "area_m2": null,
+      "area_lower_bound_m2": 52,
+      "area_basis": "PROMOTIONAL_COHORT_MINIMUM_NOT_EXACT_AREA",
+      "vat_included": null,
+      "maintenance_included": null,
+      "rights": "CITATION_ONLY_NO_FEED_LICENSE",
+      "transaction_verified": false,
+      "note": "12 promotional units only; cannot extrapolate market prices",
+      "source_checked_at": "2026-10-13",
+      "review_status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "price_unit": "per_unit",
+      "price_type": "PRICE_ASKING",
+      "caution": "12-candidate limited-price offer only, do not extrapolate market or infer 52m2 for every special-price unit"
+    },
+    {
+      "project_id": "hist-thanhdaview",
+      "type": "PRICE_ASKING",
+      "price_type": "PRICE_ASKING",
+      "source_url": "https://cafeland.vn/tin-tuc/mo-ban-can-ho-an-thanh-da-view-7798.html",
+      "source_date": "2011-03-23",
+      "organization": "CafeLand (reported Thanh Yen developer announcement)",
+      "amount_min": 28400000,
+      "amount_max": null,
+      "currency": "VND",
+      "unit": "per_m2",
+      "price_unit": "per_m2",
+      "area_m2": null,
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "vat_included": null,
+      "maintenance_included": null,
+      "rights": "CITATION_ONLY_NO_BULK_FEED_OR_REPUBLICATION_LICENSE",
+      "transaction_verified": false,
+      "source_checked_at": "2026-10-14",
+      "review_status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Developer launch starting asking price, March 2011 press report. Campaign discount 5% separately described; not applied. Cannot infer sales or market average.",
+      "discount_applied": false
+    },
+    {
+      "project_id": "map-felix",
+      "type": "REPORT_ESTIMATE",
+      "price_type": "REPORT_ESTIMATE",
+      "underlying_market_signal": "PRICE_ASKING",
+      "source_url": "https://fili.vn/2026/09/3-ty-dong-mua-duoc-can-ho-nao-doc-quoc-lo-13-4222-1495158.htm",
+      "source_date": "2026-09-25",
+      "organization": "FILI / Vietstock",
+      "amount_min": 35900000,
+      "amount_max": 46200000,
+      "currency": "VND",
+      "unit": "per_m2",
+      "price_unit": "per_m2",
+      "area_m2": null,
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "vat_included": null,
+      "maintenance_included": null,
+      "rights": "ATTRIBUTED_SHORT_FACTS_ONLY_NO_PROVIDER_FEED_LICENSE",
+      "transaction_verified": false,
+      "source_checked_at": "2026-10-14",
+      "review_status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Journalist summary of asking listings captured mainly Aug-Sep 2026; no unit-level portal evidence or provider feed rights; not verified sales or representative market mean."
+    },
+    {
+      "project_id": "map-happyone",
+      "type": "REPORT_ESTIMATE",
+      "price_type": "REPORT_ESTIMATE",
+      "underlying_market_signal": "PRICE_ASKING",
+      "source_url": "https://fili.vn/2026/09/3-ty-dong-mua-duoc-can-ho-nao-doc-quoc-lo-13-4222-1495158.htm",
+      "source_date": "2026-09-25",
+      "organization": "FILI / Vietstock",
+      "amount_min": 2500000000,
+      "amount_max": 3150000000,
+      "currency": "VND",
+      "unit": "per_unit",
+      "price_unit": "per_unit",
+      "bedrooms": 2,
+      "area_m2": null,
+      "area_range_m2": [
+        68,
+        74
+      ],
+      "area_basis": "AREA_RANGE_UNPAIRED_WITH_PRICES_NET_GROSS_UNKNOWN",
+      "vat_included": null,
+      "maintenance_included": null,
+      "rights": "ATTRIBUTED_SHORT_FACTS_ONLY_NO_PROVIDER_FEED_LICENSE",
+      "transaction_verified": false,
+      "source_checked_at": "2026-10-14",
+      "review_status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Journalist summary of Aug-Sep 2026 asking listings; apartment area 68-74 m2 not individually linked to quoted price range; no per-m2 calculation or broker feed authorization."
+    }
+  ],
+  "supplementary_sources": [
+    {
+      "organization": "Dat Xanh Services",
+      "date": "2025-04-09",
+      "url": "https://datxanhservices.vn/dat-xanh-ky-ket-hop-tac-trien-khai-the-prive-voi-cac-ngan-hang-va-don-vi-phan-phoi-lon/",
+      "usage": "Source of partner-signing date, not sales launch or signed legal permission"
+    },
+    {
+      "organization": "Dat Xanh Services",
+      "date": "2026-09-18",
+      "url": "https://datxanhservices.vn/chu-dau-tu-phap-ly-tien-do-the-prive/",
+      "usage": "Developer-distributor progress and permit claims, do not publicize as independently verified"
+    },
+    {
+      "organization": "Batdongsan.com.vn",
+      "date": null,
+      "url": "https://batdongsan.com.vn/du-an-nha-o-xa-hoi-go-vap/felix-homes-pj2886",
+      "usage": "Disambiguate Felix Homes from The Felix; not a licensed price feed"
+    },
+    {
+      "organization": "Phu Hung Securities",
+      "date": "2024-12-14",
+      "url": "https://www.phs.vn/tin-tuc/van-xuan-group-ban-giao-so-hong-du-an-happy-one-central/6226525",
+      "usage": "Secondary dated corporate news on certificate handover"
+    },
+    {
+      "organization": "Thanh Nien",
+      "date": "2022-02-22",
+      "url": "https://thanhnien.vn/khach-hang-happy-one-central-thanh-toan-som-nhan-loc-xuan-tu-chu-dau-tu-1851431646.htm",
+      "usage": "Issuer's 2022 sales-program coverage"
+    },
+    {
+      "url": "https://baotayninh.vn/chuan-bi-khoi-cong-du-an-the-win-city-tai-xa-duc-hoa-tay-ninh-148405.html",
+      "organization": "Bao Tay Ninh",
+      "published_at": "2025-10-30",
+      "category": "province_press",
+      "usage": "Cross-check provincial location and phase scope",
+      "rights": "attributed_short_facts_only_no_license"
+    },
+    {
+      "url": "https://victory.thewincity.vn/",
+      "organization": "The Win City / Thang Loi",
+      "published_at": null,
+      "category": "project_phase_site",
+      "usage": "Victory Heights six blocks and separated apartments and shophouses",
+      "rights": "attributed_short_facts_only_no_license"
+    },
+    {
+      "url": "https://www.sggp.org.vn/nguoi-tre-de-dang-hien-thuc-giac-mo-an-cu-tai-the-felix-post791103.html",
+      "organization": "Sai Gon Giai Phong",
+      "published_at": "2025-04-17",
+      "category": "news_developer_asking_price",
+      "usage": "The Felix VND34m/sqm from-price, not transaction",
+      "rights": "attributed_short_facts_only_no_license"
+    },
+    {
+      "organization": "C-Holdings",
+      "url": "https://c-holdings.vn/phap-ly-the-felix",
+      "published_at": null,
+      "checked_at": "2026-10-13",
+      "category": "DEVELOPER_LEGAL_DOCUMENT_INDEX",
+      "usage": "Lists 12 legal-document references and identifiers; documents NOT independently inspected, no legal clearance accepted",
+      "rights": "ATTRIBUTED_SHORT_FACTS_ONLY_NO_FEED_OR_DOCUMENT_REPUBLICATION"
+    },
+    {
+      "organization": "C-Holdings",
+      "url": "https://www.c-holdings.vn/thong-bao-ve-viec-hoan-tien-dat-cho-du-an-the-felix",
+      "published_at": null,
+      "checked_at": "2026-10-13",
+      "category": "DEVELOPER_BOOKING_REFUND_NOTICE",
+      "usage": "Describes refund of bookings where customers could not select units; not evidence of project cancellation or confirmed transactions",
+      "rights": "ATTRIBUTED_SHORT_FACTS_ONLY"
+    },
+    {
+      "organization": "C-Holdings",
+      "url": "https://www.c-holdings.vn/cap-nhat-tien-do-xay-dung-du-an-the-felix-cua-chu-dau-tu-c-holdings",
+      "published_at": null,
+      "checked_at": "2026-10-13",
+      "category": "DEVELOPER_UNDATED_CONSTRUCTION_UPDATE",
+      "usage": "Developer claims two main blocks reached around 20th level in photos; cannot assign construction milestone date",
+      "rights": "ATTRIBUTED_SHORT_FACTS_ONLY_NO_IMAGE_REPUBLICATION"
+    },
+    {
+      "url": "https://cafeland.vn/tin-tuc/mo-ban-can-ho-an-thanh-da-view-7798.html",
+      "organization": "CafeLand; reporting developer Thanh Yen launch claim",
+      "published_at": "2011-03-23",
+      "checked_at": "2026-10-14",
+      "category": "SECONDARY_PRESS_HISTORICAL_DEVELOPER_SALES_LAUNCH",
+      "usage": "Historic developer starting asking price VND28.4m/m2 and claimed address number 13; expected April 2012 delivery not actual delivery.",
+      "rights": "ATTRIBUTED_FACTS_ONLY_NOT_LICENSED_FOR_FEED_OR_CONTENT_REHOSTING",
+      "quality_note": "Secondary press, no developer original price sheet, VAT and net/gross basis unknown"
+    },
+    {
+      "url": "https://cafeland.vn/du-an/thanh-da-view-dinh-cua-ban-dao-thanh-da-344.html",
+      "organization": "CafeLand; text credited to Thanh Tam / Nguon Doanh Nghiep",
+      "published_at": "2011-04-11",
+      "checked_at": "2026-10-14",
+      "category": "SECONDARY_HISTORICAL_PROJECT_OVERVIEW",
+      "usage": "Claims different number 50 Thanh Da, Nov 2009 start and expected Q2/2013 handover; all remain candidates.",
+      "rights": "ATTRIBUTED_FACTS_ONLY_NOT_LICENSED_FOR_FEED"
+    },
+    {
+      "url": "https://cafeland.vn/tin-tuc/mo-ban-va-tham-quan-can-ho-thanh-da-view-46531.html",
+      "organization": "CafeLand; reporting Hung Thinh Land sales event",
+      "published_at": "2014-06-19",
+      "checked_at": "2026-10-14",
+      "category": "SECONDARY_PRESS_PROJECT_OCCUPANCY",
+      "usage": "Reports building was completed and approximately 80% residents moved in by June 2014. This is not an original certified apartment handover date.",
+      "rights": "ATTRIBUTED_FACTS_ONLY_NOT_LICENSED_FOR_FEED"
+    },
+    {
+      "url": "https://vnexpress.net/du-an-thanh-da-view-uu-dai-cho-khach-mua-nha-2923440.html",
+      "organization": "VnExpress; reporting Thanh Yen corporate promotional program",
+      "published_at": "2013-12-17",
+      "checked_at": "2026-10-14",
+      "category": "SECONDARY_PRESS_SALES_CAMPAIGN",
+      "usage": "Developer-reported promotional campaign applied to about 30 apartments in Dec 2013, no monetary asking price extracted.",
+      "rights": "ATTRIBUTED_FACTS_ONLY_NOT_LICENSED_FOR_FEED"
+    },
+    {
+      "organization": "C-Holdings - developer-linked The Felix project portal",
+      "date": null,
+      "url": "https://thefelix.c-holdings.vn/trungtamdulieu/",
+      "usage": "Official hub links legal files, sales policies, price sheets and floorplans. Index only: no sheet data reviewed, no verified sales/listing price.",
+      "rights": "PUBLIC_LINK_AND_MINIMAL_FACTUAL_REFERENCE_ONLY_NO_FEED_OR_REPUBLICATION_LICENSE",
+      "checked_at": "2026-10-14"
+    },
+    {
+      "organization": "The Win City - developer project website",
+      "date": null,
+      "url": "https://thewincity.vn/lien-he/",
+      "usage": "Official contact page labels project location 179 DT825, Duc Hoa, Tay Ninh. Address unverified as cadastral coordinates; outside HCMC.",
+      "rights": "PUBLIC_LINK_AND_MINIMAL_FACTUAL_REFERENCE_ONLY",
+      "checked_at": "2026-10-14"
+    },
+    {
+      "organization": "FILI (Tai chinh va Cuoc song) / Vietstock ecosystem",
+      "date": "2026-09-25",
+      "url": "https://fili.vn/2026/09/3-ty-dong-mua-duoc-can-ho-nao-doc-quoc-lo-13-4222-1495158.htm",
+      "usage": "Research-only summary of price-asking samples from third-party listing portals, not original provider feed",
+      "access_status": "TARGETED_PUBLIC_PAGE_READ",
+      "rights": "SHORT_ATTRIBUTED_FACTS_AND_LINK_ONLY; NO_BULK_LISTING_OR_FEED_LICENSE"
+    },
+    {
+      "organization": "C-Holdings",
+      "date": null,
+      "event_date": "2025-06-28",
+      "url": "https://www.c-holdings.vn/bung-no-giao-dich-tai-le-mo-ban-the-felix-can-ho-hanh-phuc-vua-cham-nhu-cau-vua-sinh-lai-kep",
+      "usage": "Primary developer narrative: first official launch event, average marketed price statement, planned handover. Article publication date not shown; transactions not verified.",
+      "access_status": "TARGETED_PUBLIC_PAGE_READ",
+      "rights": "SHORT_ATTRIBUTED_FACTS_AND_LINK_ONLY; NO_BULK_LISTING_OR_MEDIA_LICENSE"
+    }
+  ],
+  "source_access_queue": [
+    {
+      "url": "https://datxanhservices.vn/the-prive-1",
+      "reason": "403 on direct open 2026-10-13",
+      "solution": "Request written permission and original inventory/pricing export"
+    },
+    {
+      "url": "https://www.c-holdings.vn/binh-duong-chap-thuan-cho-c-holdings-chuyen-muc-dich-hon-8-500m2-dat-lam-khu-can-ho-the-felix",
+      "reason": "Timeout on direct open 2026-10-13",
+      "solution": "Request signed primary legal and phase inventory documents"
+    },
+    {
+      "url": "https://batdongsan.com.vn/",
+      "reason": "No bulk listing feed agreement",
+      "solution": "Negotiate provider-authorized historical sale/rent feed"
+    },
+    {
+      "url": "https://datxanhservices.vn/gia-va-chinh-sach-ban-hang-the-prive/",
+      "reason": "HTTP 403 current direct access 2026-10-13; earlier asking-price candidate retained without live access confirmation",
+      "solution": "Request signed dated price sheet, area/price basis, and explicit licensed price feed."
+    },
+    {
+      "url": "https://thewincity.vn/tin-tuc/chuan-bi-khoi-cong-du-an-the-win-city-tai-xa-duc-hoa-tay-ninh/",
+      "reason": "Fetch failed 2026-10-13; URL readable in targeted access on 2026-10-14 (resolved availability, not a license).",
+      "solution": "Keep citation only; contact owner for an approved feed if needed.",
+      "last_readable_date": "2026-10-14"
+    },
+    {
+      "url": "https://thefelix.c-holdings.vn/trungtamdulieu/",
+      "reason": "The developer-linked public index links Google Drive price-sheet and policy folders. No feed/data-reuse permission established and actual file contents not checked.",
+      "solution": "Request direct C-Holdings authorization for structured CSV/API, permitted display fields, effective date, per-unit area basis, VAT/maintenance, terms and retention."
+    },
+    {
+      "url": "https://fili.vn/2026/09/3-ty-dong-mua-duoc-can-ho-nao-doc-quoc-lo-13-4222-1495158.htm",
+      "reason": "Public journalism cites asking listings from Batdongsan, Nha Tot, HouseNow; underlying listing data rights and unit-level observations not granted",
+      "solution": "Partner licensed provider feed; capture dated original listing reference, unit size and exact basis; retain journalistic quote only as aggregate research estimate."
+    }
+  ],
+  "review_conflicts": [
+    "The Felix 1206 vs 1216 products and distinct Felix Homes entity",
+    "Happy One Central reported unit totals and handover event types",
+    "Thanh Da View 132 apartments plus 4 penthouses denominator",
+    "The Win City is Tay Ninh not HCMC",
+    "Golf Park Residence is low-rise not apartments",
+    "The Prive distributor legal eligibility and projected handover require original papers",
+    "Norton Park still disputed in prior batch 18",
+    "The Felix: developer claims project 1216 total units while contemporaneous SGGP source says 1216 apartments; apartment-only denominator needs original inventory.",
+    "The Felix: developer legal-document list is not equivalent to regulator independent verification; eligibility for foreign buyers remains unverified.",
+    "Thanh Da View street number: 13 (CafeLand 23/03/2011), 50 (CafeLand 11/04/2011), 07 (SAVISTA 06/10/2023). Do not geocode as a single precise coordinate absent authoritative parcel and renumbering evidence.",
+    "Thanh Da View handover timing: expected 04/2012 vs Q2/2013 in 2011 sources; by 06/2014 described completed and ~80% occupied. No independent exact initial handover date confirmed.",
+    "The Win City developer website states address 179 DT825, Duc Hoa, Tay Ninh; separate project microsite uses province road 10. No project WGS84 coordinate approved; keep outside HCMC.",
+    "C-Holdings says 736 first-batch The Felix units found buyers at 2025-06-28 event; no documentary transaction verification.",
+    "FILI 2026-09-25 prices are aggregated asking samples from third-party listing portals; original provider reuse rights and unit-level evidence not granted."
+  ],
+  "metrics": {
+    "dossier_source_candidates": 6,
+    "new_evidenced_price_candidates": 6,
+    "new_wgs84_coordinates_crosschecked": 0,
+    "transactions_verified": 0,
+    "authorized_price_feeds": 0,
+    "new_fact_candidates": 64,
+    "distinct_source_urls_in_local_candidate": 25,
+    "github_committed_new_dossiers": 0,
+    "github_committed_new_price_observations": 0,
+    "github_committed_verified_coordinates": 0,
+    "new_directly_read_official_webpage_urls_this_revision": 0,
+    "developer_legal_document_links_identified_not_verified": 12,
+    "this_run_new_evidenced_price_candidates": 2,
+    "this_run_new_facts": 6,
+    "this_run_new_source_urls": 2,
+    "this_run_new_verified_coordinates": 0,
+    "this_run_new_dossiers_with_new_sources": 2,
+    "this_run_new_primary_developer_urls": 1
+  },
+  "policy": "Citation-only factual evidence; retain source institution, original publication date, URL, rights and review status. Neither a public article nor seller marketing conveys a feed or image republication license. No automatic group access, no published asking/legal/coordinates claims; preserve price distinctions.",
+  "revision": "v6-20261014-new-september-2026-report-price-estimates-and-developer-launch-history",
+  "verification_run": {
+    "date": "2026-10-14",
+    "github_repo_head_checked": "5c8f6ed8c5d7993dc9faf50cc69bec72621a83e8",
+    "pr_77": "OPEN_DRAFT",
+    "open_issue_count": 42,
+    "open_pr_count": 7,
+    "github_batch19_present": false,
+    "price_feed_status": "not_configured",
+    "feed_registry_entries": 0,
+    "source_access": "Selective reads of individual source pages; Dat Xanh Services price page not readable; The Win City provincial/project pages readable.",
+    "github_commit_attempt": "2026-10-14_batch19_v6_review_only",
+    "review_status": "NOT_APPROVED",
+    "write_block": "github create_file connector safety check blocked for full source file and compact manifest"
+  },
+  "fact_candidates": [
+    {
+      "fact_id": "batch19-fact-001",
+      "project_id": "map-prive",
+      "field": "historical_neighborhood",
+      "value": "Nam Rach Chiec, former District 2, HCMC",
+      "unit": null,
+      "source_url": "https://datxanhservices.vn/gia-va-chinh-sach-ban-hang-the-prive/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Developer distributor geographic description, not verified GPS"
+    },
+    {
+      "fact_id": "batch19-fact-002",
+      "project_id": "map-prive",
+      "field": "marketing_price_min",
+      "value": 115000000,
+      "unit": "VND/m2",
+      "source_url": "https://datxanhservices.vn/gia-va-chinh-sach-ban-hang-the-prive/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Price excludes VAT and maintenance"
+    },
+    {
+      "fact_id": "batch19-fact-003",
+      "project_id": "map-prive",
+      "field": "marketing_price_max",
+      "value": 135000000,
+      "unit": "VND/m2",
+      "source_url": "https://datxanhservices.vn/gia-va-chinh-sach-ban-hang-the-prive/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Price excludes VAT and maintenance"
+    },
+    {
+      "fact_id": "batch19-fact-004",
+      "project_id": "map-prive",
+      "field": "marketing_vat_included",
+      "value": false,
+      "unit": null,
+      "source_url": "https://datxanhservices.vn/gia-va-chinh-sach-ban-hang-the-prive/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Explicit in Sept 2026 source"
+    },
+    {
+      "fact_id": "batch19-fact-005",
+      "project_id": "map-prive",
+      "field": "marketing_maintenance_included",
+      "value": false,
+      "unit": null,
+      "source_url": "https://datxanhservices.vn/gia-va-chinh-sach-ban-hang-the-prive/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Explicit in Sept 2026 source"
+    },
+    {
+      "fact_id": "batch19-fact-006",
+      "project_id": "map-prive",
+      "field": "marketing_scope",
+      "value": "Towers 9, 10, 11",
+      "unit": null,
+      "source_url": "https://datxanhservices.vn/gia-va-chinh-sach-ban-hang-the-prive/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Referenced for Sept-Nov 2026 incentive program"
+    },
+    {
+      "fact_id": "batch19-fact-007",
+      "project_id": "map-prive",
+      "field": "marketing_period_start",
+      "value": "2026-09-08",
+      "unit": "date",
+      "source_url": "https://datxanhservices.vn/gia-va-chinh-sach-ban-hang-the-prive/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Promotional program not standing market price"
+    },
+    {
+      "fact_id": "batch19-fact-008",
+      "project_id": "map-prive",
+      "field": "marketing_period_end",
+      "value": "2026-11-08",
+      "unit": "date",
+      "source_url": "https://datxanhservices.vn/gia-va-chinh-sach-ban-hang-the-prive/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Promotional program not standing market price"
+    },
+    {
+      "fact_id": "batch19-fact-009",
+      "project_id": "map-prive",
+      "field": "developer_expected_handover",
+      "value": "2027-Q3",
+      "unit": "quarter",
+      "source_url": "https://datxanhservices.vn/chu-dau-tu-phap-ly-tien-do-the-prive/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Issuer/distributor expectation only; not actual handover"
+    },
+    {
+      "fact_id": "batch19-fact-010",
+      "project_id": "map-prive",
+      "field": "construction_report_as_of",
+      "value": "2026-09",
+      "unit": "month",
+      "source_url": "https://datxanhservices.vn/chu-dau-tu-phap-ly-tien-do-the-prive/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "No engineer independent verification"
+    },
+    {
+      "fact_id": "batch19-fact-011",
+      "project_id": "map-felix",
+      "field": "historic_street_location",
+      "value": "Nguyen Du, Binh Hoa, former Thuan An Binh Duong",
+      "unit": null,
+      "source_url": "https://www.c-holdings.vn/the-felix-du-an-can-ho-cao-cap-phap-ly-minh-bach-an-tam-chon-lua",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Old locality; now part of HCMC after 2025"
+    },
+    {
+      "fact_id": "batch19-fact-012",
+      "project_id": "map-felix",
+      "field": "site_area_reported",
+      "value": 9465,
+      "unit": "m2",
+      "source_url": "https://www.c-holdings.vn/the-felix-du-an-can-ho-cao-cap-phap-ly-minh-bach-an-tam-chon-lua",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Developer report, unverified cadastral plan"
+    },
+    {
+      "fact_id": "batch19-fact-013",
+      "project_id": "map-felix",
+      "field": "building_above_ground_floors",
+      "value": 40,
+      "unit": "floors",
+      "source_url": "https://www.c-holdings.vn/the-felix-du-an-can-ho-cao-cap-phap-ly-minh-bach-an-tam-chon-lua",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Developer report"
+    },
+    {
+      "fact_id": "batch19-fact-014",
+      "project_id": "map-felix",
+      "field": "building_basement_floors",
+      "value": 1,
+      "unit": "floor",
+      "source_url": "https://www.c-holdings.vn/the-felix-du-an-can-ho-cao-cap-phap-ly-minh-bach-an-tam-chon-lua",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Developer report"
+    },
+    {
+      "fact_id": "batch19-fact-015",
+      "project_id": "map-felix",
+      "field": "total_products_reported",
+      "value": 1216,
+      "unit": "all_products",
+      "source_url": "https://www.c-holdings.vn/the-felix-du-an-can-ho-cao-cap-phap-ly-minh-bach-an-tam-chon-lua",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Developer source mixes units and categories; do not treat as apartment total"
+    },
+    {
+      "fact_id": "batch19-fact-016",
+      "project_id": "map-felix",
+      "field": "commercial_categories",
+      "value": [
+        "apartment",
+        "officetel",
+        "duplex",
+        "shophouse"
+      ],
+      "unit": null,
+      "source_url": "https://www.c-holdings.vn/the-felix-du-an-can-ho-cao-cap-phap-ly-minh-bach-an-tam-chon-lua",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Developer commercial product categories"
+    },
+    {
+      "fact_id": "batch19-fact-017",
+      "project_id": "map-felix",
+      "field": "marketing_start_price",
+      "value": 34000000,
+      "unit": "VND/m2",
+      "source_url": "https://www.sggp.org.vn/nguoi-tre-de-dang-hien-thuc-giac-mo-an-cu-tai-the-felix-post791103.html",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Apr 17 2025 quotation attributed to developer, not sale"
+    },
+    {
+      "fact_id": "batch19-fact-018",
+      "project_id": "map-felix",
+      "field": "developer_reported_total_from_news",
+      "value": 1216,
+      "unit": "units",
+      "source_url": "https://www.sggp.org.vn/nguoi-tre-de-dang-hien-thuc-giac-mo-an-cu-tai-the-felix-post791103.html",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "News calls these apartments, developer site calls total products; scope unresolved"
+    },
+    {
+      "fact_id": "batch19-fact-019",
+      "project_id": "map-happyone",
+      "field": "issuer_announced_apartment_handover_start",
+      "value": "2024-07-28",
+      "unit": "date",
+      "source_url": "https://dantri.com.vn/bat-dong-san/mung-ban-giao-364-so-hong-dot-1-happy-one-central-tung-can-ho-dong-gia-168-ty-dong-20241211223347433.htm",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Article reports issuer claim retrospectively"
+    },
+    {
+      "fact_id": "batch19-fact-020",
+      "project_id": "map-happyone",
+      "field": "issuer_announced_certificate_handover_date",
+      "value": "2024-12-14",
+      "unit": "date",
+      "source_url": "https://dantri.com.vn/bat-dong-san/mung-ban-giao-364-so-hong-dot-1-happy-one-central-tung-can-ho-dong-gia-168-ty-dong-20241211223347433.htm",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Future event as of the Dec 12 article"
+    },
+    {
+      "fact_id": "batch19-fact-021",
+      "project_id": "map-happyone",
+      "field": "issuer_announced_certificate_count",
+      "value": 364,
+      "unit": "certificate",
+      "source_url": "https://dantri.com.vn/bat-dong-san/mung-ban-giao-364-so-hong-dot-1-happy-one-central-tung-can-ho-dong-gia-168-ty-dong-20241211223347433.htm",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Not number of apartments newly handed over"
+    },
+    {
+      "fact_id": "batch19-fact-022",
+      "project_id": "map-happyone",
+      "field": "special_promotion_asking_price",
+      "value": 1680000000,
+      "unit": "VND/unit",
+      "source_url": "https://dantri.com.vn/bat-dong-san/mung-ban-giao-364-so-hong-dot-1-happy-one-central-tung-can-ho-dong-gia-168-ty-dong-20241211223347433.htm",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Only 12 promotional apartments"
+    },
+    {
+      "fact_id": "batch19-fact-023",
+      "project_id": "map-happyone",
+      "field": "special_promotion_unit_count",
+      "value": 12,
+      "unit": "units",
+      "source_url": "https://dantri.com.vn/bat-dong-san/mung-ban-giao-364-so-hong-dot-1-happy-one-central-tung-can-ho-dong-gia-168-ty-dong-20241211223347433.htm",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Restricted promotional cohort"
+    },
+    {
+      "fact_id": "batch19-fact-024",
+      "project_id": "map-happyone",
+      "field": "special_promotion_min_area",
+      "value": 52,
+      "unit": "m2",
+      "source_url": "https://dantri.com.vn/bat-dong-san/mung-ban-giao-364-so-hong-dot-1-happy-one-central-tung-can-ho-dong-gia-168-ty-dong-20241211223347433.htm",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Lower bound not exact price-unit area"
+    },
+    {
+      "fact_id": "batch19-fact-025",
+      "project_id": "hist-thanhdaview",
+      "field": "historic_address",
+      "value": "07 Thanh Da, Ward 27, Binh Thanh, HCMC",
+      "unit": null,
+      "source_url": "https://savista.com.vn/du-an/chung-cu-thanh-da-view/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Operator address, not GPS"
+    },
+    {
+      "fact_id": "batch19-fact-026",
+      "project_id": "hist-thanhdaview",
+      "field": "operator_listed_developer",
+      "value": "Thanh Yen Real Estate Investment and Trading JSC",
+      "unit": null,
+      "source_url": "https://savista.com.vn/du-an/chung-cu-thanh-da-view/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Operator attribution, no corporate registry review"
+    },
+    {
+      "fact_id": "batch19-fact-027",
+      "project_id": "hist-thanhdaview",
+      "field": "floors_above_ground",
+      "value": 20,
+      "unit": "floors",
+      "source_url": "https://savista.com.vn/du-an/chung-cu-thanh-da-view/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Management company source"
+    },
+    {
+      "fact_id": "batch19-fact-028",
+      "project_id": "hist-thanhdaview",
+      "field": "basements",
+      "value": 2,
+      "unit": "floors",
+      "source_url": "https://savista.com.vn/du-an/chung-cu-thanh-da-view/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Management company source"
+    },
+    {
+      "fact_id": "batch19-fact-029",
+      "project_id": "hist-thanhdaview",
+      "field": "apartments_floors_4_to_19",
+      "value": 132,
+      "unit": "units",
+      "source_url": "https://savista.com.vn/du-an/chung-cu-thanh-da-view/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Do not assume includes/excludes top-floor penthouses"
+    },
+    {
+      "fact_id": "batch19-fact-030",
+      "project_id": "hist-thanhdaview",
+      "field": "penthouses_floor_20",
+      "value": 4,
+      "unit": "units",
+      "source_url": "https://savista.com.vn/du-an/chung-cu-thanh-da-view/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Denominator requires approval"
+    },
+    {
+      "fact_id": "batch19-fact-031",
+      "project_id": "hist-thanhdaview",
+      "field": "site_area_reported",
+      "value": 2869,
+      "unit": "m2",
+      "source_url": "https://savista.com.vn/du-an/chung-cu-thanh-da-view/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Operator figure"
+    },
+    {
+      "fact_id": "batch19-fact-032",
+      "project_id": "map-win",
+      "field": "current_province",
+      "value": "Tay Ninh",
+      "unit": null,
+      "source_url": "https://baotayninh.vn/chuan-bi-khoi-cong-du-an-the-win-city-tai-xa-duc-hoa-tay-ninh-148405.html",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Direct provincial newspaper cross-check"
+    },
+    {
+      "fact_id": "batch19-fact-033",
+      "project_id": "map-win",
+      "field": "current_commune",
+      "value": "Duc Hoa",
+      "unit": null,
+      "source_url": "https://baotayninh.vn/chuan-bi-khoi-cong-du-an-the-win-city-tai-xa-duc-hoa-tay-ninh-148405.html",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Outside HCMC for HCMC denominator"
+    },
+    {
+      "fact_id": "batch19-fact-034",
+      "project_id": "map-win",
+      "field": "announced_groundbreaking",
+      "value": "2025-10-31",
+      "unit": "date",
+      "source_url": "https://baotayninh.vn/chuan-bi-khoi-cong-du-an-the-win-city-tai-xa-duc-hoa-tay-ninh-148405.html",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Announcement, not independently verified completion"
+    },
+    {
+      "fact_id": "batch19-fact-035",
+      "project_id": "map-win",
+      "field": "victory_heights_total_products",
+      "value": 2822,
+      "unit": "products",
+      "source_url": "https://baotayninh.vn/chuan-bi-khoi-cong-du-an-the-win-city-tai-xa-duc-hoa-tay-ninh-148405.html",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Includes 74 shophouses"
+    },
+    {
+      "fact_id": "batch19-fact-036",
+      "project_id": "map-win",
+      "field": "victory_heights_blocks",
+      "value": 6,
+      "unit": "blocks",
+      "source_url": "https://victory.thewincity.vn/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Developer phase site"
+    },
+    {
+      "fact_id": "batch19-fact-037",
+      "project_id": "map-win",
+      "field": "victory_heights_apartments",
+      "value": 2748,
+      "unit": "units",
+      "source_url": "https://victory.thewincity.vn/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Exclude 74 shophouses"
+    },
+    {
+      "fact_id": "batch19-fact-038",
+      "project_id": "map-win",
+      "field": "victory_heights_shophouses",
+      "value": 74,
+      "unit": "units",
+      "source_url": "https://victory.thewincity.vn/",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Not apartment inventory"
+    },
+    {
+      "fact_id": "batch19-fact-039",
+      "project_id": "hist-golfparkresidence",
+      "field": "land_use_type",
+      "value": "lowrise_townhouses_and_villas",
+      "unit": null,
+      "source_url": "https://www.novaland.com.vn/golf-park-residence-p-long-thanh-my-q9-gioi-thieu--chuong-trinh-uu-dai-thang-82016",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Explicit Novaland source, exclude from apartments"
+    },
+    {
+      "fact_id": "batch19-fact-040",
+      "project_id": "hist-golfparkresidence",
+      "field": "townhouses",
+      "value": 90,
+      "unit": "units",
+      "source_url": "https://www.novaland.com.vn/golf-park-residence-p-long-thanh-my-q9-gioi-thieu--chuong-trinh-uu-dai-thang-82016",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Not apartment inventory"
+    },
+    {
+      "fact_id": "batch19-fact-041",
+      "project_id": "hist-golfparkresidence",
+      "field": "villas",
+      "value": 5,
+      "unit": "units",
+      "source_url": "https://www.novaland.com.vn/golf-park-residence-p-long-thanh-my-q9-gioi-thieu--chuong-trinh-uu-dai-thang-82016",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Not apartment inventory"
+    },
+    {
+      "fact_id": "batch19-fact-042",
+      "project_id": "hist-golfparkresidence",
+      "field": "historic_address",
+      "value": "Street 2, Long Thanh My, former District 9 HCMC",
+      "unit": null,
+      "source_url": "https://www.novaland.com.vn/golf-park-residence-p-long-thanh-my-q9-gioi-thieu--chuong-trinh-uu-dai-thang-82016",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "No verified GPS"
+    },
+    {
+      "fact_id": "batch19-fact-043",
+      "project_id": "hist-golfparkresidence",
+      "field": "scheduled_handover",
+      "value": "2016-12",
+      "unit": "month",
+      "source_url": "https://www.novaland.com.vn/golf-park-residence-p-long-thanh-my-q9-gioi-thieu--chuong-trinh-uu-dai-thang-82016",
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Source states future schedule; not independently verified"
+    },
+    {
+      "fact_id": "batch19-v3-fact-044",
+      "project_id": "map-felix",
+      "field": "booking_refund_notice",
+      "value": "Developer announced 100% booking refunds for customers unable to select a suitable unit",
+      "unit": null,
+      "source_url": "https://www.c-holdings.vn/thong-bao-ve-viec-hoan-tien-dat-cho-du-an-the-felix",
+      "source_published_at": null,
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Undated company announcement; do not infer project cancellation, contractual remedy or legal defect."
+    },
+    {
+      "fact_id": "batch19-v3-fact-045",
+      "project_id": "map-felix",
+      "field": "construction_floor_claim",
+      "value": "Around floor 20 across two main blocks",
+      "unit": "floor_approx",
+      "source_url": "https://www.c-holdings.vn/cap-nhat-tien-do-xay-dung-du-an-the-felix-cua-chu-dau-tu-c-holdings",
+      "source_published_at": null,
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Company self-report with undated photos; not independent current construction certification."
+    },
+    {
+      "fact_id": "batch19-v3-fact-046",
+      "project_id": "map-felix",
+      "field": "developer_legal_document_index",
+      "value": "12 named source documents linked, content unreviewed",
+      "unit": "document_links",
+      "source_url": "https://c-holdings.vn/phap-ly-the-felix",
+      "source_published_at": null,
+      "source_checked_at": "2026-10-13",
+      "status": "REVIEW_ONLY",
+      "note": "Do not infer legal sufficiency or foreign ownership eligibility from developer index."
+    },
+    {
+      "fact_id": "batch19-fact-047",
+      "project_id": "hist-thanhdaview",
+      "field": "initial_developer_sales_launch_date",
+      "value": "2011-03-23",
+      "unit": "date",
+      "source_url": "https://cafeland.vn/tin-tuc/mo-ban-can-ho-an-thanh-da-view-7798.html",
+      "source_published_at": "2011-03-23",
+      "source_checked_at": "2026-10-14",
+      "source_rights": "ATTRIBUTED_SHORT_FACTS_ONLY_NO_FEED_LICENSE",
+      "status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Secondary outlet reporting launch, not recorded contract."
+    },
+    {
+      "fact_id": "batch19-fact-048",
+      "project_id": "hist-thanhdaview",
+      "field": "launch_marketing_price_from",
+      "value": 28400000,
+      "unit": "VND/m2",
+      "source_url": "https://cafeland.vn/tin-tuc/mo-ban-can-ho-an-thanh-da-view-7798.html",
+      "source_published_at": "2011-03-23",
+      "source_checked_at": "2026-10-14",
+      "source_rights": "ATTRIBUTED_SHORT_FACTS_ONLY_NO_FEED_LICENSE",
+      "status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "PRICE_ASKING minimum. No VAT/maintenance/area basis verified; do not infer transaction."
+    },
+    {
+      "fact_id": "batch19-fact-049",
+      "project_id": "hist-thanhdaview",
+      "field": "historical_address_candidate",
+      "value": "13 Thanh Da, Ward 27, Binh Thanh",
+      "unit": null,
+      "source_url": "https://cafeland.vn/tin-tuc/mo-ban-can-ho-an-thanh-da-view-7798.html",
+      "source_published_at": "2011-03-23",
+      "source_checked_at": "2026-10-14",
+      "source_rights": "ATTRIBUTED_SHORT_FACTS_ONLY_NO_FEED_LICENSE",
+      "status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Inconsistent with CafeLand 11 Apr 2011 #50 and building operator SAVISTA 2023 #07. Hold geocoding."
+    },
+    {
+      "fact_id": "batch19-fact-050",
+      "project_id": "hist-thanhdaview",
+      "field": "expected_handover_original_2011",
+      "value": "2012-04",
+      "unit": "year_month",
+      "source_url": "https://cafeland.vn/tin-tuc/mo-ban-can-ho-an-thanh-da-view-7798.html",
+      "source_published_at": "2011-03-23",
+      "source_checked_at": "2026-10-14",
+      "source_rights": "ATTRIBUTED_SHORT_FACTS_ONLY_NO_FEED_LICENSE",
+      "status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Expected schedule only, not evidence of actual apartment handover."
+    },
+    {
+      "fact_id": "batch19-fact-051",
+      "project_id": "hist-thanhdaview",
+      "field": "historical_address_candidate",
+      "value": "50 Thanh Da, Ward 27, Binh Thanh",
+      "unit": null,
+      "source_url": "https://cafeland.vn/du-an/thanh-da-view-dinh-cua-ban-dao-thanh-da-344.html",
+      "source_published_at": "2011-04-11",
+      "source_checked_at": "2026-10-14",
+      "source_rights": "ATTRIBUTED_SHORT_FACTS_ONLY_NO_FEED_LICENSE",
+      "status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Conflicts with 2011-03-23 article #13 and 2023 SAVISTA #07."
+    },
+    {
+      "fact_id": "batch19-fact-052",
+      "project_id": "hist-thanhdaview",
+      "field": "developer_reported_construction_start",
+      "value": "2009-11",
+      "unit": "year_month",
+      "source_url": "https://cafeland.vn/du-an/thanh-da-view-dinh-cua-ban-dao-thanh-da-344.html",
+      "source_published_at": "2011-04-11",
+      "source_checked_at": "2026-10-14",
+      "source_rights": "ATTRIBUTED_SHORT_FACTS_ONLY_NO_FEED_LICENSE",
+      "status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Secondary source citing developer, not permit or inspection record."
+    },
+    {
+      "fact_id": "batch19-fact-053",
+      "project_id": "hist-thanhdaview",
+      "field": "revised_expected_handover_2011",
+      "value": "2013-Q2",
+      "unit": "quarter",
+      "source_url": "https://cafeland.vn/du-an/thanh-da-view-dinh-cua-ban-dao-thanh-da-344.html",
+      "source_published_at": "2011-04-11",
+      "source_checked_at": "2026-10-14",
+      "source_rights": "ATTRIBUTED_SHORT_FACTS_ONLY_NO_FEED_LICENSE",
+      "status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Published expected handover, not actual."
+    },
+    {
+      "fact_id": "batch19-fact-054",
+      "project_id": "hist-thanhdaview",
+      "field": "building_completed_at_latest_by",
+      "value": "2014-06-19",
+      "unit": "date",
+      "source_url": "https://cafeland.vn/tin-tuc/mo-ban-va-tham-quan-can-ho-thanh-da-view-46531.html",
+      "source_published_at": "2014-06-19",
+      "source_checked_at": "2026-10-14",
+      "source_rights": "ATTRIBUTED_SHORT_FACTS_ONLY_NO_FEED_LICENSE",
+      "status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Secondary report described fully completed property at reporting date, not an inspection approval or precise handover date."
+    },
+    {
+      "fact_id": "batch19-fact-055",
+      "project_id": "hist-thanhdaview",
+      "field": "reported_occupancy_rate_2014",
+      "value": 80,
+      "unit": "percent",
+      "source_url": "https://cafeland.vn/tin-tuc/mo-ban-va-tham-quan-can-ho-thanh-da-view-46531.html",
+      "source_published_at": "2014-06-19",
+      "source_checked_at": "2026-10-14",
+      "source_rights": "ATTRIBUTED_SHORT_FACTS_ONLY_NO_FEED_LICENSE",
+      "status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Press report says 80% residents moved in; unverified estimate and denominator."
+    },
+    {
+      "fact_id": "batch19-fact-056",
+      "project_id": "hist-thanhdaview",
+      "field": "sales_campaign_reference_date",
+      "value": "2013-12-17",
+      "unit": "date",
+      "source_url": "https://vnexpress.net/du-an-thanh-da-view-uu-dai-cho-khach-mua-nha-2923440.html",
+      "source_published_at": "2013-12-17",
+      "source_checked_at": "2026-10-14",
+      "source_rights": "ATTRIBUTED_SHORT_FACTS_ONLY_NO_FEED_LICENSE",
+      "status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "VnExpress reports Thanh Yen limited campaign for ~30 units; no transaction verification."
+    },
+    {
+      "fact_id": "batch19-fact-057",
+      "project_id": "map-felix",
+      "field": "developer_document_portal_index",
+      "value": "Official The Felix project hub indexes legal, model contracts, bank, sales policy, price sheets, pricing calculations and site-plan folders; actual files and permissions unreviewed.",
+      "unit": null,
+      "source_url": "https://thefelix.c-holdings.vn/trungtamdulieu/",
+      "source_published_at": null,
+      "source_checked_at": "2026-10-14",
+      "source_rights": "SOURCE_LINK_ONLY_NO_PRICE_FEED_OR_REPUBLICATION_LICENSE",
+      "status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Document directory is not an evidenced asking price, transaction or verified legal status."
+    },
+    {
+      "fact_id": "batch19-fact-058",
+      "project_id": "map-win",
+      "field": "official_website_project_address_candidate",
+      "value": "No. 179 DT825, Duc Hoa, Tay Ninh",
+      "unit": null,
+      "source_url": "https://thewincity.vn/lien-he/",
+      "source_published_at": null,
+      "source_checked_at": "2026-10-14",
+      "source_rights": "SOURCE_LINK_AND_SHORT_FACT_ONLY",
+      "status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Project remains outside HCMC; cadastral boundary and WGS84 not independently verified."
+    },
+    {
+      "fact_id": "batch19-fact-059",
+      "project_id": "map-felix",
+      "field": "developer_launch_event_date",
+      "value": "2025-06-28",
+      "unit": "date",
+      "source_url": "https://www.c-holdings.vn/bung-no-giao-dich-tai-le-mo-ban-the-felix-can-ho-hanh-phuc-vua-cham-nhu-cau-vua-sinh-lai-kep",
+      "source_published_at": null,
+      "source_event_date": "2025-06-28",
+      "source_checked_at": "2026-10-14",
+      "source_rights": "PUBLIC_CITATION_ONLY_NO_BULK_DATA_FEED_OR_MEDIA_REUSE_LICENSE",
+      "status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Issuer said first official sales event was 28 June 2025; this is not the article publication date."
+    },
+    {
+      "fact_id": "batch19-fact-060",
+      "project_id": "map-felix",
+      "field": "developer_reported_first_launch_inventory_claim",
+      "value": 736,
+      "unit": "apartment_claim",
+      "source_url": "https://www.c-holdings.vn/bung-no-giao-dich-tai-le-mo-ban-the-felix-can-ho-hanh-phuc-vua-cham-nhu-cau-vua-sinh-lai-kep",
+      "source_published_at": null,
+      "source_event_date": "2025-06-28",
+      "source_checked_at": "2026-10-14",
+      "source_rights": "PUBLIC_CITATION_ONLY_NO_BULK_DATA_FEED_OR_MEDIA_REUSE_LICENSE",
+      "status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Developer says first batch found buyers, not independently validated signed transactions; never label TRANSACTION_VERIFIED."
+    },
+    {
+      "fact_id": "batch19-fact-061",
+      "project_id": "map-felix",
+      "field": "developer_marketed_average_price_2025_event",
+      "value": 38500000,
+      "unit": "VND/m2",
+      "source_url": "https://www.c-holdings.vn/bung-no-giao-dich-tai-le-mo-ban-the-felix-can-ho-hanh-phuc-vua-cham-nhu-cau-vua-sinh-lai-kep",
+      "source_published_at": null,
+      "source_event_date": "2025-06-28",
+      "source_checked_at": "2026-10-14",
+      "source_rights": "PUBLIC_CITATION_ONLY_NO_BULK_DATA_FEED_OR_MEDIA_REUSE_LICENSE",
+      "status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Developer-marketed average linked to June 2025 launch; source article date missing; do not add a date-qualified price observation."
+    },
+    {
+      "fact_id": "batch19-fact-062",
+      "project_id": "map-felix",
+      "field": "developer_announced_planned_handover",
+      "value": "2027-Q2",
+      "unit": "quarter",
+      "source_url": "https://www.c-holdings.vn/bung-no-giao-dich-tai-le-mo-ban-the-felix-can-ho-hanh-phuc-vua-cham-nhu-cau-vua-sinh-lai-kep",
+      "source_published_at": null,
+      "source_event_date": "2025-06-28",
+      "source_checked_at": "2026-10-14",
+      "source_rights": "PUBLIC_CITATION_ONLY_NO_BULK_DATA_FEED_OR_MEDIA_REUSE_LICENSE",
+      "status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Only developer forward-looking plan, not actual handover."
+    },
+    {
+      "fact_id": "batch19-fact-063",
+      "project_id": "map-felix",
+      "field": "journalist_reported_asking_price_range_202609",
+      "value": [
+        35900000,
+        46200000
+      ],
+      "unit": "VND/m2",
+      "source_url": "https://fili.vn/2026/09/3-ty-dong-mua-duoc-can-ho-nao-doc-quoc-lo-13-4222-1495158.htm",
+      "source_published_at": "2026-09-25",
+      "source_event_date": null,
+      "source_checked_at": "2026-10-14",
+      "source_rights": "PUBLIC_CITATION_ONLY_NO_BULK_DATA_FEED_OR_MEDIA_REUSE_LICENSE",
+      "status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Summary of asking samples, not a price transaction or license to republish listings."
+    },
+    {
+      "fact_id": "batch19-fact-064",
+      "project_id": "map-happyone",
+      "field": "journalist_reported_2br_asking_range_202609",
+      "value": [
+        2500000000,
+        3150000000
+      ],
+      "unit": "VND/unit",
+      "source_url": "https://fili.vn/2026/09/3-ty-dong-mua-duoc-can-ho-nao-doc-quoc-lo-13-4222-1495158.htm",
+      "source_published_at": "2026-09-25",
+      "source_event_date": null,
+      "source_checked_at": "2026-10-14",
+      "source_rights": "PUBLIC_CITATION_ONLY_NO_BULK_DATA_FEED_OR_MEDIA_REUSE_LICENSE",
+      "status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "note": "Only asking samples; 68-74m2 area range is unpaired with prices and gross/net unspecified."
+    }
+  ],
+  "developer_document_index_pending_review": {
+    "project_id": "map-felix",
+    "organization": "C-Holdings",
+    "index_url": "https://c-holdings.vn/phap-ly-the-felix",
+    "checked_at": "2026-10-13",
+    "published_at": null,
+    "rights": "LINK_AND_REFERENCE_ONLY_NO_DOCUMENT_REPUBLICATION",
+    "verification": "DOCUMENT_LINKS_PRESENT_ON_DEVELOPER_PAGE; CONTENT_NOT_CHECKED; LEGAL_STATUS_NOT_APPROVED",
+    "documents": [
+      {
+        "label": "Investment policy/approval",
+        "identifier": "3016/QD-UBND",
+        "status": "LINKED_NOT_CONTENT_VERIFIED"
+      },
+      {
+        "label": "1/500 master plan approval",
+        "identifier": "1730/QD-UBND",
+        "status": "LINKED_NOT_CONTENT_VERIFIED"
+      },
+      {
+        "label": "Feasibility report review",
+        "identifier": "205/HDXD-QLTK",
+        "status": "LINKED_NOT_CONTENT_VERIFIED"
+      },
+      {
+        "label": "Environmental permit",
+        "identifier": "65/GPMT-STNMT",
+        "status": "LINKED_NOT_CONTENT_VERIFIED"
+      },
+      {
+        "label": "Fire safety design approval",
+        "identifier": "2238/TD-PCCC",
+        "status": "LINKED_NOT_CONTENT_VERIFIED"
+      },
+      {
+        "label": "Construction permit",
+        "identifier": "2416/GPXD",
+        "status": "LINKED_NOT_CONTENT_VERIFIED"
+      },
+      {
+        "label": "Land-use purpose change",
+        "identifier": "1954/QD-UBND",
+        "status": "LINKED_NOT_CONTENT_VERIFIED"
+      },
+      {
+        "label": "Foundation acceptance notice",
+        "identifier": "1334/GD-DDCN",
+        "status": "LINKED_NOT_CONTENT_VERIFIED"
+      },
+      {
+        "label": "Purchaser bank guarantee",
+        "identifier": "26",
+        "status": "LINKED_NOT_CONTENT_VERIFIED"
+      },
+      {
+        "label": "Standard sales contract filing",
+        "identifier": "3406/TB-SCT",
+        "status": "LINKED_NOT_CONTENT_VERIFIED"
+      },
+      {
+        "label": "Future-home sales eligibility claim",
+        "identifier": "029-CV-PL/0425",
+        "status": "LINKED_NOT_CONTENT_VERIFIED"
+      },
+      {
+        "label": "Land financial obligations confirmation",
+        "identifier": "document image not numbered",
+        "status": "LINKED_NOT_CONTENT_VERIFIED"
+      }
+    ]
+  },
+  "source_watch_current": {
+    "checked_at": "2026-10-14",
+    "registry_path": "data/feeds/source_registry.json",
+    "registry_last_updated_at": "2026-10-09",
+    "authorized_feeds": 0,
+    "state": "not_configured",
+    "social_group_joining": "DISALLOWED",
+    "automated_scraping": "DISALLOWED"
+  }
+}
