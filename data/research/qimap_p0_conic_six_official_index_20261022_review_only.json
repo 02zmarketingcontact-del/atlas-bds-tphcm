@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-22",
+  "status": "REVIEW_ONLY",
+  "group": "Conic six HCMC apartment dossiers",
+  "dossiers": [
+    "Conic Dinh Khiem",
+    "Conic Dong Nam A",
+    "Conic Garden",
+    "Conic Skyway Residence",
+    "Conic Riverside",
+    "Conic Boulevard"
+  ],
+  "first_party": "https://www.conic.vn/du-an/du-an-da-hoan-thanh/khu-dan-cu-conic/khu-dan-cu-conic-1",
+  "review_flags": [
+    "developer unit totals differ",
+    "Riverside address separation",
+    "Boulevard owned by 584, Conic developer",
+    "initial payment is not asking price"
+  ],
+  "verified_gps": 0,
+  "transactions_verified": 0,
+  "publication": false
+}
