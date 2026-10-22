@@ -1,0 +1,187 @@
+{
+  "schema": "qimap_review_candidates_v1",
+  "as_of": "2026-10-22",
+  "source_rights": "CITE_FACTS_ONLY; NO_LICENSE_FOR_BULK_COPY_IMAGES_OR_COMMERCIAL_FEED",
+  "review_status": "REVIEW_ONLY",
+  "publish": false,
+  "additional_sources": [
+    {
+      "key": "S2",
+      "publisher": "TTC Group / republished VnExpress",
+      "date": "2016-07-27",
+      "url": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/carillon-dong-can-ho-tam-trung-cho-gioi-van-phong"
+    },
+    {
+      "key": "S8",
+      "publisher": "TTC Group / TTC Land",
+      "date": "2019-02-13",
+      "url": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/nam-2018-ttcland-vuot-41-ke-hoach-doanh-thu-va-8-ke-hoach-loi-nhuan"
+    },
+    {
+      "key": "S9",
+      "publisher": "TTC Group / Sacomreal",
+      "date": "2016-05-09",
+      "url": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/mua-can-ho-charmington-la-pointe-duoc-cam-ket-thue-lai-3"
+    }
+  ],
+  "historical_facts": [
+    {
+      "project": "Carillon Apartment",
+      "claim": "454 residential apartments; started construction Nov 2011; delivered Q4 2013 per corporate article",
+      "source_date": "2016-04-21",
+      "evidence": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/thuong-hieu-carillon-tiep-tuc-thang-lon",
+      "qualification": "Corporate-historical claim; not government handover approval"
+    },
+    {
+      "project": "Carillon 2",
+      "claim": "224 apartments marketed; located Trinh Dinh Thao, Tan Phu; handing over in July 2016",
+      "sources": [
+        "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/sacomreal-chiem-15-luong-giao-dich-thi-truong-tphcm-3",
+        "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/carillon-dong-can-ho-tam-trung-cho-gioi-van-phong"
+      ],
+      "qualification": "July 2016 is in-progress handover, not proof all units delivered"
+    },
+    {
+      "project": "Carillon 5",
+      "claim": "291/2 Luy Ban Bich; 3029.1m2 reported land; counts conflict 221 apartments plus 8 shops versus 229 apartments; 86% products delivered by end 2018 according to company",
+      "sources": [
+        "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/tphcm-chap-thuan-dau-tu-khu-can-ho-carillon-5-3",
+        "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/carillon-dong-can-ho-tam-trung-cho-gioi-van-phong",
+        "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/nam-2018-ttcland-vuot-41-ke-hoach-doanh-thu-va-8-ke-hoach-loi-nhuan"
+      ],
+      "qualification": "Original investment decision unseen; distinct product-class definitions; hold unit count"
+    },
+    {
+      "project": "Carillon 7",
+      "claim": "Luong Minh Nguyet, Tan Phu; 80-unit last advertised batch; topped out, finishing as of 2019-05-11; 2BR 60-80m2 in marketed mix",
+      "source": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/ttc-land-gioi-thieu-80-can-ho-cuoi-cung-du-an-carillon-7-2",
+      "qualification": "Never treat topped-out milestone as delivered"
+    },
+    {
+      "project": "Jamona Heights",
+      "claim": "High-rise phase in Jamona Golden Silk, NOT Jamona Apartment in Jamona City; two 17-story towers, 286 apartments and 5 shophouses, site 5767m2 according to 2016 marketing",
+      "source": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/jamona-heights-can-ho-vang-trong-khu-compound-ven-song-2",
+      "qualification": "Source is marketing repost attributed to Dan Tri, not title proof"
+    },
+    {
+      "project": "Charmington La Pointe",
+      "claim": "181 Cao Thang; 163 residential flats 51-80m2 plus 345 office-tels 31-44.5m2; TTC reported 100% handed over by end 2018",
+      "sources": [
+        "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/sacomreal-cong-bo-du-an-charmington-la-pointe-3",
+        "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/nam-2018-ttcland-vuot-41-ke-hoach-doanh-thu-va-8-ke-hoach-loi-nhuan"
+      ],
+      "qualification": "Office-tels must not be represented as residential apartments, completion corporate claim only"
+    }
+  ],
+  "price_observations": [
+    {
+      "id": "TTC-2015-CARILLON2",
+      "project": "Carillon 2",
+      "source_date": "2015-07-03",
+      "source_url": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/sacomreal-chiem-15-luong-giao-dich-thi-truong-tphcm-3",
+      "source_organization": "TTC Group",
+      "price_type": "PRICE_ASKING",
+      "market": "PRIMARY",
+      "amount": 14.6,
+      "unit": "VND_MILLION_PER_M2",
+      "area_m2": null,
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "vat": "UNKNOWN",
+      "fees": "UNKNOWN",
+      "status": "REVIEW_ONLY",
+      "transaction_verified": false,
+      "feed_authorized": false,
+      "publish": false
+    },
+    {
+      "id": "TTC-2016-JAMONAHEIGHTS",
+      "project": "Jamona Heights",
+      "source_date": "2016-12-20",
+      "source_url": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/jamona-heights-can-ho-vang-trong-khu-compound-ven-song-2",
+      "source_organization": "TTC Group repost Dan Tri",
+      "price_type": "PRICE_ASKING",
+      "market": "PRIMARY",
+      "amount": 1.49,
+      "unit": "VND_BILLION_PER_UNIT_STARTING",
+      "area_m2": null,
+      "area_basis": "UNKNOWN",
+      "vat": "UNKNOWN",
+      "fees": "UNKNOWN",
+      "status": "REVIEW_ONLY",
+      "transaction_verified": false,
+      "feed_authorized": false,
+      "publish": false
+    },
+    {
+      "id": "TTC-2019-CARILLON7",
+      "project": "Carillon 7",
+      "source_date": "2019-05-11",
+      "source_url": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/ttc-land-gioi-thieu-80-can-ho-cuoi-cung-du-an-carillon-7-2",
+      "source_organization": "TTC Group / TTC Land",
+      "price_type": "PRICE_ASKING",
+      "market": "PRIMARY",
+      "amount": 30,
+      "unit": "VND_MILLION_PER_M2_STARTING",
+      "area_m2": null,
+      "marketing_bedroom_mix_area_range_m2": [
+        60,
+        80
+      ],
+      "starting_price_linked_to_area_range": false,
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "vat": "UNKNOWN",
+      "fees": "UNKNOWN",
+      "status": "REVIEW_ONLY",
+      "transaction_verified": false,
+      "feed_authorized": false,
+      "publish": false
+    },
+    {
+      "id": "TTC-2015-CHARMINGTON",
+      "project": "Charmington La Pointe",
+      "source_date": "2015-11-09",
+      "source_url": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/sacomreal-cong-bo-du-an-charmington-la-pointe-3",
+      "source_organization": "TTC Group / Sacomreal",
+      "price_type": "PRICE_ASKING",
+      "market": "PRIMARY",
+      "amount": 30,
+      "unit": "VND_MILLION_PER_M2_APPROX",
+      "area_m2": null,
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "vat": "UNKNOWN",
+      "fees": "UNKNOWN",
+      "product_type": "UNRESOLVED_RESIDENTIAL_OR_OFFICETEL",
+      "status": "QUARANTINED_PRODUCT_SCOPE",
+      "exclude_from_residential_chart": true,
+      "transaction_verified": false,
+      "feed_authorized": false,
+      "publish": false
+    }
+  ],
+  "excluded_rent_claim": {
+    "project": "Charmington La Pointe",
+    "source_date": "2016-05-09",
+    "source_url": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/mua-can-ho-charmington-la-pointe-duoc-cam-ket-thue-lai-3",
+    "value": "6.5 million VND/month for six months",
+    "reason": "DEVELOPER_BUYBACK_GUARANTEE_IS_NOT_RENT_ASKING",
+    "count_as_rent_observation": false
+  },
+  "metrics": {
+    "source_linked_dossiers": 6,
+    "price_candidates_with_source": 4,
+    "straight_residential_asking_candidates": 3,
+    "quarantined_mixed_use_asking": 1,
+    "verified_transaction": 0,
+    "rent_asking": 0,
+    "verified_wgs84": 0,
+    "licensed_price_feeds": 0
+  },
+  "approval_gates": [
+    "Get original 2016 Carillon 5 municipal decision",
+    "Verify legal owners separately",
+    "Resolve residential vs officetel minimum price",
+    "Verify net/gross area, VAT and maintenance fees",
+    "Never merge Jamona Heights and Jamona Apartment",
+    "Require source rights before data feeds"
+  ]
+}
