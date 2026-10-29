@@ -1,0 +1,536 @@
+{
+  "schema_version": "qimap_p0_candidate_2026_v1",
+  "batch_id": "qimap-p0-batch63-20261016",
+  "as_of": "2026-10-16T13:16:52+07:00",
+  "repository": "02zmarketingcontact-del/atlas-bds-tphcm",
+  "branch": "research/qimap-p0-dossier-link-20261012-kd-sk",
+  "target_draft_pr": 77,
+  "review_status": "REVIEW_ONLY",
+  "production_changes": 0,
+  "scope": "Existing Q7 Phu My Hung historical apartments 2006-2017; supplementary proof only; no legal, coordinate or live price publication",
+  "comparison_to_existing_research": "Checked branch PR77 batch04 and batch11 plus batch13 and canonical historical catalog; no claim of global nonduplication",
+  "sources": [
+    {
+      "id": "B63_SKY_HANDOVER_2006",
+      "url": "https://phumyhung.vn/phu-my-hung-hon-700-nhan-can-ho-moi-sky-garden-2/",
+      "organization": "Phu My Hung (reprints Phap Luat Viet Nam article)",
+      "publication_date": "2006-07-09",
+      "publication_date_precision": "day",
+      "historical_event_date_or_window": "2006-06-30/2006-07-01",
+      "verified_url_opened": true,
+      "access_checked_at": "2026-10-16",
+      "use_rights": "PUBLIC_FACTUAL_REFERENCE_ONLY; no bulk extraction, text/photo republication, API or licensed feed rights established",
+      "notes": "2006 press date is from article credit; rehosting date unknown",
+      "source_ids_of_merged_duplicate": [
+        "B63_SKY_HANDOVER_2006"
+      ]
+    },
+    {
+      "id": "B63_SKY_RENT_2014",
+      "url": "https://phumyhung.vn/bds-quy-2-phan-khuc-trung-cap-tang-904/",
+      "organization": "Phu My Hung (reprints Nguoi Lao Dong)",
+      "publication_date": null,
+      "publication_date_precision": "unknown",
+      "historical_event_date_or_window": "2014-Q2_to_2014-07",
+      "verified_url_opened": true,
+      "access_checked_at": "2026-10-16",
+      "use_rights": "PUBLIC_FACTUAL_REFERENCE_ONLY; no bulk extraction, text/photo republication, API or licensed feed rights established",
+      "notes": "Article refers to Q2 2014 and upcoming 2014-07-19 launch; exact publication date not verified; market commentary not current listing",
+      "source_ids_of_merged_duplicate": [
+        "B63_SKY_RENT_2014",
+        "B63_GREEN_BLOCK_B_2014"
+      ]
+    },
+    {
+      "id": "B63_RIVERSIDE_2009",
+      "url": "https://phumyhung.vn/gan-90-san-pham-riverside-residence-da-duoc-khach-hang-tieu-thu/",
+      "organization": "Phu My Hung",
+      "publication_date": "2009",
+      "publication_date_precision": "year",
+      "historical_event_date_or_window": "early_2009",
+      "verified_url_opened": true,
+      "access_checked_at": "2026-10-16",
+      "use_rights": "PUBLIC_FACTUAL_REFERENCE_ONLY; no bulk extraction, text/photo republication, API or licensed feed rights established",
+      "notes": "Year inferred from historical reference inside article; exact publication date not verified",
+      "source_ids_of_merged_duplicate": [
+        "B63_RIVERSIDE_2009"
+      ]
+    },
+    {
+      "id": "B63_RIVERPARK_2011",
+      "url": "https://phumyhung.vn/to-chuc-buoi-mit-tinh-ve-an-toan-ve-sinh-lao-dong-phong-chong-chay-no-tai-cong-truong/",
+      "organization": "Phu My Hung",
+      "publication_date": "2011-03",
+      "publication_date_precision": "month",
+      "historical_event_date_or_window": "2011-03-23",
+      "verified_url_opened": true,
+      "access_checked_at": "2026-10-16",
+      "use_rights": "PUBLIC_FACTUAL_REFERENCE_ONLY; no bulk extraction, text/photo republication, API or licensed feed rights established",
+      "notes": "March 2011 construction site at H18, Pham Van Nghi; no apartment handover at this date",
+      "source_ids_of_merged_duplicate": [
+        "B63_RIVERPARK_2011"
+      ]
+    },
+    {
+      "id": "B63_RIVERSIDE_RIVERPARK_2012",
+      "url": "https://phumyhung.vn/khi-khach-hang-tin-tuong-chu-dau-tu/",
+      "organization": "Phu My Hung",
+      "publication_date": null,
+      "publication_date_precision": "unknown",
+      "historical_event_date_or_window": "by_early_2012-11",
+      "verified_url_opened": true,
+      "access_checked_at": "2026-10-16",
+      "use_rights": "PUBLIC_FACTUAL_REFERENCE_ONLY; no bulk extraction, text/photo republication, API or licensed feed rights established",
+      "notes": "Refers to earlier handovers of both Riverside Residence and Riverpark Residence; exact publish date and individual handover dates unavailable",
+      "source_ids_of_merged_duplicate": [
+        "B63_RIVERSIDE_RIVERPARK_2012"
+      ]
+    },
+    {
+      "id": "B63_SCENIC_MARKETING_2014",
+      "url": "https://phumyhung.vn/nhu-cau-nha-o-cua-gioi-tre-tang-cao/",
+      "organization": "Phu My Hung (reprints Dan Tri)",
+      "publication_date": null,
+      "publication_date_precision": "unknown",
+      "historical_event_date_or_window": "after_2014-10-02",
+      "verified_url_opened": true,
+      "access_checked_at": "2026-10-16",
+      "use_rights": "PUBLIC_FACTUAL_REFERENCE_ONLY; no bulk extraction, text/photo republication, API or licensed feed rights established",
+      "notes": "Marketing article describes approximately VND 2bn for around 70m2; original day unverified",
+      "source_ids_of_merged_duplicate": [
+        "B63_SCENIC_MARKETING_2014"
+      ]
+    },
+    {
+      "id": "B63_SCENIC_HANDOVER_PLAN_2017",
+      "url": "https://dantri.com.vn/the-thao/phu-my-hung-phat-dong-giai-the-thao-de-gan-ket-gia-dinh-20170719122735777.htm",
+      "organization": "Dan Tri",
+      "publication_date": "2017-07-19",
+      "publication_date_precision": "day",
+      "historical_event_date_or_window": "2017-07-22",
+      "verified_url_opened": true,
+      "access_checked_at": "2026-10-16",
+      "use_rights": "PUBLIC_FACTUAL_REFERENCE_ONLY; no bulk extraction, text/photo republication, API or licensed feed rights established",
+      "notes": "Advance announcement of planned handover on 22 July, not proof the handover occurred",
+      "source_ids_of_merged_duplicate": [
+        "B63_SCENIC_HANDOVER_PLAN_2017"
+      ]
+    },
+    {
+      "id": "B63_PANORAMA_TERMS_2006",
+      "url": "https://phumyhung.vn/du-an-the-panorama-thanh-toan-linh-hoat-nguoi-mua-chu-dong-tai-chinh/",
+      "organization": "Phu My Hung (reprints Tin Tuc)",
+      "publication_date": "2006-07-19",
+      "publication_date_precision": "day",
+      "historical_event_date_or_window": "2006-07-15",
+      "verified_url_opened": true,
+      "access_checked_at": "2026-10-16",
+      "use_rights": "PUBLIC_FACTUAL_REFERENCE_ONLY; no bulk extraction, text/photo republication, API or licensed feed rights established",
+      "notes": "10 million VND is reservation deposit, not apartment sale price; VAT mentioned separately in payment schedule",
+      "source_ids_of_merged_duplicate": [
+        "B63_PANORAMA_TERMS_2006"
+      ]
+    },
+    {
+      "id": "B63_GREEN_REVER_UNDATED",
+      "url": "https://rever.vn/du-an/green-valley",
+      "organization": "Rever",
+      "publication_date": null,
+      "publication_date_precision": "unknown",
+      "historical_event_date_or_window": "claimed_2016-09",
+      "verified_url_opened": true,
+      "access_checked_at": "2026-10-16",
+      "use_rights": "PUBLIC_FACTUAL_REFERENCE_ONLY; no bulk extraction, text/photo republication, API or licensed feed rights established",
+      "notes": "Broker project-page handover month is secondary and undated; NOT independently verified; keep held-out",
+      "source_ids_of_merged_duplicate": [
+        "B63_GREEN_REVER_UNDATED"
+      ]
+    }
+  ],
+  "dossiers": [
+    {
+      "project_id": "hist-skygarden",
+      "project_name": "Sky Garden / Sky Garden II",
+      "regional_scope": "HCMC_old_boundary",
+      "reference_existing_catalog": true,
+      "review_status": "REVIEW_ONLY",
+      "coordinate_status": "not_verified_in_this_batch"
+    },
+    {
+      "project_id": "hist-riversideresidence",
+      "project_name": "Riverside Residence",
+      "regional_scope": "HCMC_old_boundary",
+      "reference_existing_catalog": true,
+      "review_status": "REVIEW_ONLY",
+      "coordinate_status": "not_verified_in_this_batch"
+    },
+    {
+      "project_id": "hist-riverparkresidence",
+      "project_name": "Riverpark Residence",
+      "regional_scope": "HCMC_old_boundary",
+      "reference_existing_catalog": true,
+      "review_status": "REVIEW_ONLY",
+      "coordinate_status": "not_verified_in_this_batch"
+    },
+    {
+      "project_id": "hist-scenicvalley",
+      "project_name": "Scenic Valley",
+      "regional_scope": "HCMC_old_boundary",
+      "reference_existing_catalog": true,
+      "review_status": "REVIEW_ONLY",
+      "coordinate_status": "not_verified_in_this_batch"
+    },
+    {
+      "project_id": "hist-thepanorama",
+      "project_name": "The Panorama",
+      "regional_scope": "HCMC_old_boundary",
+      "reference_existing_catalog": true,
+      "review_status": "REVIEW_ONLY",
+      "coordinate_status": "not_verified_in_this_batch"
+    },
+    {
+      "project_id": "hist-greenvalley",
+      "project_name": "Green Valley",
+      "regional_scope": "HCMC_old_boundary",
+      "reference_existing_catalog": true,
+      "review_status": "REVIEW_ONLY",
+      "coordinate_status": "not_verified_in_this_batch"
+    }
+  ],
+  "fact_candidates": [
+    {
+      "id": "batch63-fact-01",
+      "project_id": "hist-skygarden",
+      "field": "sky_garden_II_handover_event",
+      "value": "2006-06-30/2006-07-01",
+      "unit": "date_range",
+      "scope": "phase:sky_garden_II",
+      "source_ids": [
+        "B63_SKY_HANDOVER_2006"
+      ],
+      "notes": "issuer_hosted_media_article_not_completion_certificate",
+      "review_status": "REVIEW_ONLY"
+    },
+    {
+      "id": "batch63-fact-02",
+      "project_id": "hist-skygarden",
+      "field": "phase_II_apartments_and_towers",
+      "value": {
+        "apartments": 710,
+        "blocks": 9,
+        "floors_min": 14,
+        "floors_max": 18,
+        "unit_area_range_m2": [
+          71,
+          337
+        ]
+      },
+      "unit": "inventory",
+      "scope": "phase:sky_garden_II",
+      "source_ids": [
+        "B63_SKY_HANDOVER_2006"
+      ],
+      "notes": "must_not_add_710_to_parent_totals",
+      "review_status": "REVIEW_ONLY"
+    },
+    {
+      "id": "batch63-fact-03",
+      "project_id": "hist-riversideresidence",
+      "field": "block_C_marketing_size_range_m2",
+      "value": [
+        143,
+        239
+      ],
+      "unit": "m2",
+      "scope": "block:C_excludes_penthouses",
+      "source_ids": [
+        "B63_RIVERSIDE_2009"
+      ],
+      "notes": "seller_article_specific_phase",
+      "review_status": "REVIEW_ONLY"
+    },
+    {
+      "id": "batch63-fact-04",
+      "project_id": "hist-riversideresidence",
+      "field": "reported_number_of_apartments_in_last_launch_summary",
+      "value": 544,
+      "unit": "apartments",
+      "scope": "four_sales_events",
+      "source_ids": [
+        "B63_RIVERSIDE_2009"
+      ],
+      "notes": "NOT_EQUATE_WITH_PROJECT_COMPLETED_INVENTORY_622",
+      "review_status": "REVIEW_ONLY"
+    },
+    {
+      "id": "batch63-fact-05",
+      "project_id": "hist-riversideresidence",
+      "field": "article_reported_total_apartments",
+      "value": 622,
+      "unit": "apartments",
+      "scope": "full_project",
+      "source_ids": [
+        "B63_RIVERSIDE_2009"
+      ],
+      "notes": "scope_difference_544_vs_622_requires_project_plan",
+      "review_status": "REVIEW_ONLY"
+    },
+    {
+      "id": "batch63-fact-06",
+      "project_id": "hist-riversideresidence",
+      "field": "handover_occurred_before_2012_11",
+      "value": "before_2012-11",
+      "unit": "date_upper_bound",
+      "scope": "project",
+      "source_ids": [
+        "B63_RIVERSIDE_RIVERPARK_2012"
+      ],
+      "notes": "not_an_exact_handover_date",
+      "review_status": "REVIEW_ONLY"
+    },
+    {
+      "id": "batch63-fact-07",
+      "project_id": "hist-riverparkresidence",
+      "field": "building_site_event",
+      "value": "2011-03-23",
+      "unit": "date",
+      "scope": "construction_site:H18_Pham_Van_Nghi",
+      "source_ids": [
+        "B63_RIVERPARK_2011"
+      ],
+      "notes": "construction_event_only",
+      "review_status": "REVIEW_ONLY"
+    },
+    {
+      "id": "batch63-fact-08",
+      "project_id": "hist-riverparkresidence",
+      "field": "handover_occurred_before_2012_11",
+      "value": "before_2012-11",
+      "unit": "date_upper_bound",
+      "scope": "project",
+      "source_ids": [
+        "B63_RIVERSIDE_RIVERPARK_2012"
+      ],
+      "notes": "different_entity_from_Riverpark_Premier",
+      "review_status": "REVIEW_ONLY"
+    },
+    {
+      "id": "batch63-fact-09",
+      "project_id": "hist-scenicvalley",
+      "field": "planned_first_handover_announcement",
+      "value": "2017-07-22",
+      "unit": "date",
+      "scope": "project_or_initial_cohort_not_specified",
+      "source_ids": [
+        "B63_SCENIC_HANDOVER_PLAN_2017"
+      ],
+      "notes": "announced_before_event_not_proof_actual_delivery",
+      "review_status": "REVIEW_ONLY"
+    },
+    {
+      "id": "batch63-fact-10",
+      "project_id": "hist-thepanorama",
+      "field": "launch_payment_schedule",
+      "value": {
+        "reservation_deposit_vnd": 10000000,
+        "deposit_percent_3days": 10,
+        "contract_next_month_percent": 10,
+        "subsequent_tranches_percent_total": 50,
+        "handover_principal_percent": 30,
+        "handover_vat_percent": 10
+      },
+      "unit": "payment_terms",
+      "scope": "marketing_launch_2006",
+      "source_ids": [
+        "B63_PANORAMA_TERMS_2006"
+      ],
+      "notes": "do_not_classify_reservation_deposit_as_PRICE_ASKING",
+      "review_status": "REVIEW_ONLY"
+    },
+    {
+      "id": "batch63-fact-11",
+      "project_id": "hist-greenvalley",
+      "field": "block_B_final_launch",
+      "value": {
+        "scheduled": "2014-07-19",
+        "apartments": 106,
+        "shops": 2
+      },
+      "unit": "phase_launch",
+      "scope": "block:B",
+      "source_ids": [
+        "B63_GREEN_BLOCK_B_2014"
+      ],
+      "notes": "prior_generic_phase2_106_in_batch04_do_not_double_count",
+      "review_status": "REVIEW_ONLY"
+    },
+    {
+      "id": "batch63-fact-12",
+      "project_id": "hist-greenvalley",
+      "field": "handover_month_secondary_claim",
+      "value": "2016-09",
+      "unit": "month",
+      "scope": "project",
+      "source_ids": [
+        "B63_GREEN_REVER_UNDATED"
+      ],
+      "notes": "held_out_no_dated_primary_documentation",
+      "review_status": "HELD_OUT"
+    }
+  ],
+  "price_observations": [
+    {
+      "id": "B63_SKY_2014_RENT_56",
+      "project_id": "hist-skygarden",
+      "classification": "REPORT_ESTIMATE",
+      "market": "RENTAL_HISTORICAL_CONTEXT",
+      "price_min": 550,
+      "price_max": 650,
+      "currency": "USD",
+      "denominator": "month",
+      "unit_area_m2": 56,
+      "area_basis": "NOT_SPECIFIED_NET_OR_GROSS",
+      "price_basis": "developer_hosted_reported_rental_potential_range",
+      "observation_period": "2014-Q2_to_2014-07",
+      "source_ids": [
+        "B63_SKY_RENT_2014"
+      ],
+      "vat": "UNKNOWN",
+      "maintenance_fund": "UNKNOWN",
+      "transaction_documents": "NONE",
+      "evidence_quality": "PUBLISHER_CLAIM_REVIEW_ONLY",
+      "source_rights": "PUBLIC_FACTUAL_REFERENCE_ONLY; no bulk extraction, text/photo republication, API or licensed feed rights established",
+      "notes": "Phase unspecified; possible rent, not dated unit ad; furnished level varies; NOT RENT_ASKING"
+    },
+    {
+      "id": "B63_SKY_2014_RENT_70",
+      "project_id": "hist-skygarden",
+      "classification": "REPORT_ESTIMATE",
+      "market": "RENTAL_HISTORICAL_CONTEXT",
+      "price_min": 650,
+      "price_max": 750,
+      "currency": "USD",
+      "denominator": "month",
+      "unit_area_m2": 70,
+      "area_basis": "NOT_SPECIFIED_NET_OR_GROSS",
+      "price_basis": "developer_hosted_reported_rental_potential_range",
+      "observation_period": "2014-Q2_to_2014-07",
+      "source_ids": [
+        "B63_SKY_RENT_2014"
+      ],
+      "vat": "UNKNOWN",
+      "maintenance_fund": "UNKNOWN",
+      "transaction_documents": "NONE",
+      "evidence_quality": "PUBLISHER_CLAIM_REVIEW_ONLY",
+      "source_rights": "PUBLIC_FACTUAL_REFERENCE_ONLY; no bulk extraction, text/photo republication, API or licensed feed rights established",
+      "notes": "Phase unspecified; approximate area, not a specific offered lease"
+    },
+    {
+      "id": "B63_RIVERSIDE_2009_BLOCKC_PRIMARY",
+      "project_id": "hist-riversideresidence",
+      "classification": "PRICE_ASKING",
+      "market": "PRIMARY_HISTORIC",
+      "price_min": 40000000,
+      "price_max": null,
+      "currency": "VND",
+      "denominator": "m2",
+      "unit_area_m2": null,
+      "area_basis": "NOT_SPECIFIED_NET_OR_GROSS",
+      "price_basis": "developer_reported_block_C_from_price",
+      "observation_period": "2009",
+      "source_ids": [
+        "B63_RIVERSIDE_2009"
+      ],
+      "vat": "UNKNOWN",
+      "maintenance_fund": "UNKNOWN",
+      "transaction_documents": "NONE",
+      "evidence_quality": "PUBLISHER_CLAIM_REVIEW_ONLY",
+      "source_rights": "PUBLIC_FACTUAL_REFERENCE_ONLY; no bulk extraction, text/photo republication, API or licensed feed rights established",
+      "notes": "Area range for offerings is 143-239m2, NOT an exact observation unit area; VAT unspecified; no transaction"
+    },
+    {
+      "id": "B63_SCENIC_2014_MARKETING",
+      "project_id": "hist-scenicvalley",
+      "classification": "REPORT_ESTIMATE",
+      "market": "PRIMARY_MARKETING_CONTEXT",
+      "price_min": 2000000000,
+      "price_max": 2000000000,
+      "currency": "VND",
+      "denominator": "apartment_total",
+      "unit_area_m2": 70,
+      "area_basis": "NOT_SPECIFIED_NET_OR_GROSS",
+      "price_basis": "approx_2_billion_for_about_70m2",
+      "observation_period": "2014-10",
+      "source_ids": [
+        "B63_SCENIC_MARKETING_2014"
+      ],
+      "vat": "INCLUDED_REPORTED",
+      "maintenance_fund": "INCLUDED_REPORTED",
+      "transaction_documents": "NONE",
+      "evidence_quality": "PUBLISHER_CLAIM_REVIEW_ONLY",
+      "source_rights": "PUBLIC_FACTUAL_REFERENCE_ONLY; no bulk extraction, text/photo republication, API or licensed feed rights established",
+      "notes": "Marketing illustration not a precise asking listing; source states includes VAT, maintenance, land-use; scope not tower-specific"
+    }
+  ],
+  "review_conflicts": [
+    {
+      "project_id": "hist-skygarden",
+      "description": "2014 rental areas 56/70m2 not attributable to Sky Garden II, whose 2006 article describes 71-337m2; keep parent-phase unknown"
+    },
+    {
+      "project_id": "hist-riversideresidence",
+      "description": "Same 2009 article cites 544 apartments in launch history and 622 in project complex, which may be different scopes; never overwrite one with the other"
+    },
+    {
+      "project_id": "hist-scenicvalley",
+      "description": "2017-07-22 was announced in 2017-07-19 report; obtain post-event evidence before treating as completed handover"
+    },
+    {
+      "project_id": "hist-greenvalley",
+      "description": "Rever undated webpage says handed over 09/2016; developer 2014 reported Q3/2016 forecast. Keep month HELD_OUT pending dated issuer proof."
+    }
+  ],
+  "rights_and_access_queue": [
+    {
+      "provider": "Phu My Hung",
+      "content": "Historical archives 2006-2017, periodic licensed prices, archival brochures",
+      "right_required": "permission for automated feeds or reuse of media and texts",
+      "status": "NOT_GRANTED"
+    },
+    {
+      "provider": "Rever",
+      "content": "unit-level advertised rents/resale and published statuses",
+      "right_required": "written API/feed license",
+      "status": "NOT_GRANTED"
+    }
+  ],
+  "price_feed_watch": {
+    "source_registry": "not_configured",
+    "authorized_feeds": 0,
+    "issue_url": "https://github.com/02zmarketingcontact-del/atlas-bds-tphcm/issues/44",
+    "last_report": "2026-10-16T01:26:00Z",
+    "checked_pages_reported": 23,
+    "readable_reported": 15,
+    "access_limited_reported": 5
+  },
+  "integrity": {
+    "no_foreign_quota_approvals": true,
+    "no_legal_status_approvals": true,
+    "no_coordinates_confirmed": true,
+    "not_to_merge_without_review": true,
+    "the_felix_separate_from_felix_homes": true,
+    "the_win_city_outside_current_HCMC_in_Tay_Ninh": true,
+    "norton_park_conflicts_pending": true,
+    "automatic_facebook_join": false
+  },
+  "metrics": {
+    "existing_dossiers_with_new_source_candidates": 6,
+    "unique_source_urls": 9,
+    "price_observations_with_evidence": 4,
+    "of_which_price_asking": 1,
+    "report_estimate": 3,
+    "rent_asking": 0,
+    "transaction_verified": 0,
+    "new_WGS84_coordinates": 0
+  }
+}
