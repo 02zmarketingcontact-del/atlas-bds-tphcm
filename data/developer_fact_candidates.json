@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_run_at": "2026-10-30T01:50:17.057Z",
+  "last_run_at": "2026-10-31T01:48:07.969Z",
   "review_state": "unverified_research_candidates_only",
   "source_preference": "issuer project-specific official pages first",
   "auto_published_project_facts": 0,
@@ -14,7 +14,7 @@
       "source_url": "https://akari.vn/",
       "status": "UNVERIFIED_REVIEW_REQUIRED",
       "evidence_method": "limited_public_official_page_regex",
-      "observed_at": "2026-10-30T01:50:09.024Z"
+      "observed_at": "2026-10-31T01:47:54.499Z"
     },
     {
       "project_id": "glory",
@@ -24,7 +24,7 @@
       "source_url": "https://market.vinhomes.vn/phan-khu/glory-heights-vinhomes-grand-park",
       "status": "UNVERIFIED_REVIEW_REQUIRED",
       "evidence_method": "limited_public_official_page_regex",
-      "observed_at": "2026-10-30T01:50:10.668Z"
+      "observed_at": "2026-10-31T01:47:55.970Z"
     },
     {
       "project_id": "glory",
@@ -34,7 +34,7 @@
       "source_url": "https://market.vinhomes.vn/phan-khu/glory-heights-vinhomes-grand-park",
       "status": "UNVERIFIED_REVIEW_REQUIRED",
       "evidence_method": "limited_public_official_page_regex",
-      "observed_at": "2026-10-30T01:50:10.668Z"
+      "observed_at": "2026-10-31T01:47:55.971Z"
     },
     {
       "project_id": "origami",
@@ -44,7 +44,17 @@
       "source_url": "https://theorigami.vinhomes.vn/the-origami-park/",
       "status": "UNVERIFIED_REVIEW_REQUIRED",
       "evidence_method": "limited_public_official_page_regex",
-      "observed_at": "2026-10-30T01:50:11.679Z"
+      "observed_at": "2026-10-31T01:47:56.911Z"
+    },
+    {
+      "project_id": "phoenix",
+      "field": "apartment_count",
+      "raw_candidate": "1.226",
+      "reported_unit": "căn hộ",
+      "source_url": "https://www.dic.vn/du-an-dic-phoenix",
+      "status": "UNVERIFIED_REVIEW_REQUIRED",
+      "evidence_method": "limited_public_official_page_regex",
+      "observed_at": "2026-10-31T01:48:02.991Z"
     }
   ],
   "caveats": [
