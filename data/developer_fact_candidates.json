@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_run_at": "2026-11-01T01:52:58.156Z",
+  "last_run_at": "2026-11-02T01:54:09.572Z",
   "review_state": "unverified_research_candidates_only",
   "source_preference": "issuer project-specific official pages first",
   "auto_published_project_facts": 0,
@@ -14,7 +14,7 @@
       "source_url": "https://akari.vn/",
       "status": "UNVERIFIED_REVIEW_REQUIRED",
       "evidence_method": "limited_public_official_page_regex",
-      "observed_at": "2026-11-01T01:52:48.751Z"
+      "observed_at": "2026-11-02T01:53:58.292Z"
     },
     {
       "project_id": "glory",
@@ -24,7 +24,7 @@
       "source_url": "https://market.vinhomes.vn/phan-khu/glory-heights-vinhomes-grand-park",
       "status": "UNVERIFIED_REVIEW_REQUIRED",
       "evidence_method": "limited_public_official_page_regex",
-      "observed_at": "2026-11-01T01:52:50.178Z"
+      "observed_at": "2026-11-02T01:53:59.945Z"
     },
     {
       "project_id": "glory",
@@ -34,7 +34,7 @@
       "source_url": "https://market.vinhomes.vn/phan-khu/glory-heights-vinhomes-grand-park",
       "status": "UNVERIFIED_REVIEW_REQUIRED",
       "evidence_method": "limited_public_official_page_regex",
-      "observed_at": "2026-11-01T01:52:50.178Z"
+      "observed_at": "2026-11-02T01:53:59.945Z"
     },
     {
       "project_id": "origami",
@@ -44,7 +44,7 @@
       "source_url": "https://theorigami.vinhomes.vn/the-origami-park/",
       "status": "UNVERIFIED_REVIEW_REQUIRED",
       "evidence_method": "limited_public_official_page_regex",
-      "observed_at": "2026-11-01T01:52:51.097Z"
+      "observed_at": "2026-11-02T01:54:00.983Z"
     },
     {
       "project_id": "phoenix",
@@ -54,7 +54,7 @@
       "source_url": "https://www.dic.vn/du-an-dic-phoenix",
       "status": "UNVERIFIED_REVIEW_REQUIRED",
       "evidence_method": "limited_public_official_page_regex",
-      "observed_at": "2026-11-01T01:52:57.740Z"
+      "observed_at": "2026-11-02T01:54:09.153Z"
     }
   ],
   "caveats": [
