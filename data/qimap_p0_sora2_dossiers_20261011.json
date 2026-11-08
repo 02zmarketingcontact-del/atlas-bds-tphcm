@@ -1,0 +1,37 @@
+{
+  "as_of": "2026-10-11",
+  "status": "RESEARCH_ONLY",
+  "dossiers": [
+    {
+      "id": "hist-soragardensi",
+      "publisher": "Becamex Tokyu",
+      "source_url": "https://www.tokyugardencity.com/en/news/topic-07",
+      "published_at": "2015-03-31",
+      "units": 406,
+      "towers": 2,
+      "floors": 24,
+      "site": "Lot C18, Hung Vuong",
+      "milestones": [
+        "2012-11 groundbreaking",
+        "2015-01 reported construction completion",
+        "2015-03-24 completion ceremony"
+      ],
+      "review": "Evergreen page says March 2015 completion; geometry not surveyed."
+    },
+    {
+      "id": "hist-soragardensii",
+      "publisher": "Becamex Tokyu",
+      "source_url": "https://tokyugardencity.com/vi/news/le-khoi-cong-phan-than-du-an-sora-gardens-ii-tai-thanh-pho-moi-binh-duong/",
+      "published_at": "2019-08-01",
+      "secondary_source": "https://tokyugardencity.com/vi/news/news-20/",
+      "secondary_published_at": "2021-12-28",
+      "units_planned": 560,
+      "units_completed_later": 557,
+      "construction_event": "2019-07-31",
+      "completion_report": "2021-05",
+      "review": "Evergreen site says June 2021, planned unit count differs; require issuer clarification."
+    }
+  ],
+  "approved": false,
+  "source_rights": "publisher facts for internal review only, reuse license unknown"
+}
