@@ -1,0 +1,157 @@
+{
+  "batch": 25,
+  "as_of": "2026-10-14",
+  "status": "REVIEW_ONLY",
+  "publisher": "Novaland",
+  "rights": "PUBLIC_FACT_CITATION_ONLY_NOT_LICENSED_FOR_BULK_FEED_OR_COMMERCIAL_REPUBLICATION",
+  "sources": {
+    "MARKET2014": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-novaland/tin-du-an/bat-dong-san-kenh-dau-tu-an-toan-sinh-loi-trong-nam-2014",
+    "NOV2014": "https://www.novaland.com.vn/Data/Sites/1/media/ban-tin-hang-thang/11-2014.pdf"
+  },
+  "columns": [
+    "project_id",
+    "classification",
+    "subject",
+    "amount_min",
+    "amount_max",
+    "currency",
+    "basis",
+    "source_key",
+    "date_precision"
+  ],
+  "records": [
+    [
+      "hist-sunrisecity",
+      "PRICE_ASKING",
+      "PRIMARY",
+      1800000000,
+      null,
+      "VND",
+      "PER_APARTMENT",
+      "MARKET2014",
+      "2014_YEAR_ONLY"
+    ],
+    [
+      "hist-lexingtonresidence",
+      "PRICE_ASKING",
+      "PRIMARY",
+      1300000000,
+      null,
+      "VND",
+      "PER_APARTMENT",
+      "MARKET2014",
+      "2014_YEAR_ONLY"
+    ],
+    [
+      "hist-icon56",
+      "PRICE_ASKING",
+      "PRIMARY",
+      2000000000,
+      null,
+      "VND",
+      "PER_APARTMENT",
+      "MARKET2014",
+      "2014_YEAR_ONLY"
+    ],
+    [
+      "hist-galaxy9",
+      "PRICE_ASKING",
+      "PRIMARY",
+      1500000000,
+      null,
+      "VND",
+      "PER_APARTMENT",
+      "MARKET2014",
+      "2014_YEAR_ONLY"
+    ],
+    [
+      "hist-tropicgarden",
+      "PRICE_ASKING",
+      "PRIMARY",
+      1600000000,
+      null,
+      "VND",
+      "PER_APARTMENT",
+      "NOV2014",
+      "2014-11_MONTH_ONLY"
+    ],
+    [
+      "hist-sunrisecity",
+      "REPORT_ESTIMATE",
+      "RENT",
+      16000000,
+      34000000,
+      "VND",
+      "PER_MONTH",
+      "MARKET2014",
+      "2014_YEAR_ONLY"
+    ],
+    [
+      "hist-theprinceresidence",
+      "REPORT_ESTIMATE",
+      "RENT",
+      20000000,
+      40000000,
+      "VND",
+      "PER_MONTH",
+      "MARKET2014",
+      "2014_YEAR_ONLY"
+    ],
+    [
+      "hist-tropicgarden",
+      "REPORT_ESTIMATE",
+      "RENT",
+      19000000,
+      30000000,
+      "VND",
+      "PER_MONTH",
+      "MARKET2014",
+      "2014_YEAR_ONLY"
+    ],
+    [
+      "hist-lexingtonresidence",
+      "REPORT_ESTIMATE",
+      "RENT",
+      11000000,
+      25000000,
+      "VND",
+      "PER_MONTH",
+      "MARKET2014",
+      "2014_YEAR_ONLY"
+    ],
+    [
+      "hist-icon56",
+      "REPORT_ESTIMATE",
+      "RENT",
+      15000000,
+      40000000,
+      "VND",
+      "PER_MONTH",
+      "MARKET2014",
+      "2014_YEAR_ONLY"
+    ],
+    [
+      "hist-galaxy9",
+      "REPORT_ESTIMATE",
+      "RENT",
+      10000000,
+      22000000,
+      "VND",
+      "PER_MONTH",
+      "MARKET2014",
+      "2014_YEAR_ONLY"
+    ]
+  ],
+  "common_uncertainties": {
+    "unit_area_m2": null,
+    "area_basis": "UNKNOWN",
+    "vat": "UNKNOWN",
+    "observed_transaction": false,
+    "listing_id": null,
+    "source_published_day": null,
+    "unit_scope": "NOT_SPECIFIED",
+    "rental_reason": "Promotional ranges, no identifiable active lease listing; NOT RENT_ASKING"
+  },
+  "dedupe": "Previously captured 2014 Prince 2.3bn and July2014 Tropic A1A2 2.0bn excluded; 2014 marketing URL existed in Batch09 without these price observations",
+  "do_not_publish": true
+}

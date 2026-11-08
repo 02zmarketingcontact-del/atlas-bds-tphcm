@@ -1,0 +1,28 @@
+{
+  "batch": 27,
+  "date": "2026-10-14",
+  "status": "REVIEW_ONLY",
+  "project_ids": [
+    "hist-richstar",
+    "hist-thebotanica",
+    "hist-saigonroyal",
+    "hist-goldenmansion",
+    "hist-orchardparkview",
+    "hist-newtonresidence"
+  ],
+  "sources": [
+    "https://www.novaland.com.vn/novaland-khai-truong-khu-can-ho-mau-thong-minh-tai-tan-phu--du-an-richstar",
+    "https://www.novaland.com.vn/tin-tuc-1/thong-tin-thi-truong/tung-bung-khai-truong-can-ho-mau-richstar-voi-uu-dai-hap-dan-trong-thang-3",
+    "https://www.novaland.com.vn/Data/Sites/1/media/ban-tin-hang-thang/8-2015.pdf",
+    "https://www.novaland.com.vn/Data/Sites/1/media/quan-h%E1%BB%87-%C4%91%E1%BA%A7u-t%C6%B0/Th%C3%B4ng-b%C3%A1o/2018/20181129_Business_update_on_the_handover_of_Richstar_and_The_Botanica_Q.pdf",
+    "https://www.novaland.com.vn/cat-noc-saigon-royal--du-an-doi-dien-trung-tam-tai-chinh-quan-1",
+    "https://www.novaland.com.vn/dau-tu-bds-phu-nhuan--sinh-loi-ngay-truoc-mat",
+    "https://www.novaland.com.vn/quy-iv-2018-hang-loat-cong-trinh-novaland-sang-den"
+  ],
+  "new_price_candidates": 3,
+  "verified_transactions": 0,
+  "new_verified_coordinates": 0,
+  "feed_authorized": 0,
+  "notes": "RichStar Mar 2016 1.39bn and Jul 2016 1.28bn per apartment; The Botanica Q3 2015 1.66bn per apartment, all PRICE_ASKING with unknown area/VAT; The Botanica physical handover Nov 2017 issuer claim distinct from revenue recognition 2019. Saigon Royal topping out Aug 8 2018. Golden Mansion 693 apartments + 33 townhouses; Orchard Parkview mixed product types. No publication.",
+  "document_access": "7 URLs directly reviewed, 2 separate PDF sources indexed only for later review"
+}
