@@ -1,0 +1,71 @@
+name: QiMap Hourly Intelligence (staging only)
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [feat/qimap-hourly-intelligence]
+    paths:
+      - 'scripts/qimap-hourly.py'
+      - 'tests/test_qimap_hourly.py'
+      - 'tests/test_source_candidates.py'
+      - 'scripts/audit-source-candidates.py'
+      - 'data/feeds/source_candidates_v4.json'
+      - 'data/feeds/source_registry.json'
+  pull_request:
+    paths:
+      - 'scripts/qimap-hourly.py'
+      - 'tests/test_qimap_hourly.py'
+      - 'tests/test_source_candidates.py'
+      - 'scripts/audit-source-candidates.py'
+      - 'data/feeds/source_candidates_v4.json'
+      - 'data/feeds/source_registry.json'
+      - '.github/workflows/qimap-hourly-intelligence.yml'
+      - '.github/workflows/qimap-hourly-intelligence.yml'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: qimap-hourly
+  cancel-in-progress: false
+jobs:
+  validate-and-discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Unit tests
+        run: |
+          python -m unittest discover -s tests -p 'test_qimap_hourly.py' -v
+          python -m unittest discover -s tests -p 'test_source_candidates.py' -v
+      - name: Audit candidate sources
+        run: python scripts/audit-source-candidates.py --input data/feeds/source_candidates_v4.json --output artifacts/qimap-hourly/source-audit.json
+      - name: Restore previous checkpoint artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p artifacts/qimap-hourly/checkpoints
+          RUN_ID=$(gh run list --workflow qimap-hourly-intelligence.yml --branch main --status success --limit 1 --json databaseId --jq '.[0].databaseId // empty' 2>/dev/null || true)
+          if [ -n "$RUN_ID" ]; then
+            gh run download "$RUN_ID" --pattern 'qimap-hourly-*' --dir /tmp/qimap-previous || true
+            find /tmp/qimap-previous -path '*/checkpoints/*.json' -type f -exec cp {} artifacts/qimap-hourly/checkpoints/ \; 2>/dev/null || true
+          fi
+      - name: Source registry and incremental discovery
+        run: python scripts/qimap-hourly.py --registry data/feeds/source_registry.json --out artifacts/qimap-hourly
+      - name: Summary
+        if: always()
+        run: |
+          if [ -f artifacts/qimap-hourly/report.json ]; then
+            cat artifacts/qimap-hourly/report.json >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Hourly report missing: run failed" >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: qimap-hourly-${{ github.run_id }}
+          path: artifacts/qimap-hourly/
+          retention-days: 30

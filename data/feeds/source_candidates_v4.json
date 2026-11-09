@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "mode": "candidate_discovery_only",
+  "note": "Candidate source domains for manual rights and endpoint review. NOT approved for automated ingestion.",
+  "sources": [
+    {
+      "id": "hcm-government",
+      "url": "https://www.hochiminhcity.gov.vn",
+      "type": "government",
+      "rights_status": "RIGHTS_REVIEW",
+      "enabled": false,
+      "feed_endpoint": null,
+      "permission_basis": null
+    },
+    {
+      "id": "moc",
+      "url": "https://moc.gov.vn",
+      "type": "government",
+      "rights_status": "RIGHTS_REVIEW",
+      "enabled": false,
+      "feed_endpoint": null,
+      "permission_basis": null
+    },
+    {
+      "id": "batdongsan",
+      "url": "https://batdongsan.com.vn",
+      "type": "portal",
+      "rights_status": "PUBLIC_REFERENCE",
+      "enabled": false,
+      "feed_endpoint": null,
+      "permission_basis": null
+    },
+    {
+      "id": "nhatot",
+      "url": "https://www.nhatot.com",
+      "type": "portal",
+      "rights_status": "PUBLIC_REFERENCE",
+      "enabled": false,
+      "feed_endpoint": null,
+      "permission_basis": null
+    },
+    {
+      "id": "savills",
+      "url": "https://www.savills.com.vn",
+      "type": "research",
+      "rights_status": "RIGHTS_REVIEW",
+      "enabled": false,
+      "feed_endpoint": null,
+      "permission_basis": null
+    },
+    {
+      "id": "cbre",
+      "url": "https://www.cbrevietnam.com",
+      "type": "research",
+      "rights_status": "RIGHTS_REVIEW",
+      "enabled": false,
+      "feed_endpoint": null,
+      "permission_basis": null
+    },
+    {
+      "id": "jll",
+      "url": "https://www.jll.com",
+      "type": "research",
+      "rights_status": "RIGHTS_REVIEW",
+      "enabled": false,
+      "feed_endpoint": null,
+      "permission_basis": null
+    },
+    {
+      "id": "vinhomes",
+      "url": "https://vinhomes.vn",
+      "type": "developer",
+      "rights_status": "RIGHTS_REVIEW",
+      "enabled": false,
+      "feed_endpoint": null,
+      "permission_basis": null
+    },
+    {
+      "id": "masterise",
+      "url": "https://masterisehomes.com",
+      "type": "developer",
+      "rights_status": "RIGHTS_REVIEW",
+      "enabled": false,
+      "feed_endpoint": null,
+      "permission_basis": null
+    },
+    {
+      "id": "gamuda",
+      "url": "https://gamudaland.com.vn",
+      "type": "developer",
+      "rights_status": "RIGHTS_REVIEW",
+      "enabled": false,
+      "feed_endpoint": null,
+      "permission_basis": null
+    }
+  ]
+}
