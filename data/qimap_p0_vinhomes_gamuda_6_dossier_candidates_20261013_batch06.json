@@ -1,0 +1,1533 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "qimap-p0-vinhomes-gamuda-20261012-batch06",
+  "created_at": "2026-10-12",
+  "status": "DRAFT_PR_REVIEW_ONLY_NOT_PUBLISHED",
+  "repo": "02zmarketingcontact-del/atlas-bds-tphcm",
+  "target_pr": 77,
+  "target_catalog": "data/project_dossiers_v1.json",
+  "sources": [
+    {
+      "id": "VCP_PROFILE",
+      "url": "https://vinhomes.vn/vi/vinhomes-central-park",
+      "publisher": "Vinhomes",
+      "original_publisher": "Vinhomes",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "403_search_index",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      }
+    },
+    {
+      "id": "VCP_BTH",
+      "url": "https://vinhomes.vn/vi/tiem-nang-bat-dong-san-binh-thanh",
+      "publisher": "Vinhomes",
+      "original_publisher": "Vinhomes",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "403_search_index",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      }
+    },
+    {
+      "id": "VCP_HISTORY",
+      "url": "https://vinhomes.vn/vi/vinhomes",
+      "publisher": "Vinhomes",
+      "original_publisher": "Vinhomes",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "403_search_index",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      }
+    },
+    {
+      "id": "VGP_MASTER",
+      "url": "https://vinhomes.vn/vi/quy-hoach-vinhomes-grand-park-co-gi-dac-biet",
+      "publisher": "Vinhomes",
+      "original_publisher": "Vinhomes",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "403_search_index",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      }
+    },
+    {
+      "id": "VGP_RAINBOW",
+      "url": "https://market.vinhomes.vn/blog/toa-s105-vinhomes-grand-park",
+      "publisher": "Vinhomes Market",
+      "original_publisher": "Vinhomes Market",
+      "published_at": "2021-12-26",
+      "checked_at": "2026-10-12",
+      "access_status": "direct_readable",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      }
+    },
+    {
+      "id": "VGP_GD2020",
+      "url": "https://vinhomes.vn/vi/bao-cao-tai-chinh",
+      "publisher": "Vinhomes",
+      "original_publisher": "Vinhomes",
+      "published_at": "2021-01-28",
+      "checked_at": "2026-10-12",
+      "access_status": "403_search_index_collection",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      }
+    },
+    {
+      "id": "ORIGAMI_S6",
+      "url": "https://theorigami.vinhomes.vn/vinhomes-chinh-thuc-ra-mat-the-origami-park-s6/",
+      "publisher": "Vinhomes The Origami",
+      "original_publisher": "VnEconomy",
+      "published_at": "2020-12-18",
+      "checked_at": "2026-10-12",
+      "access_status": "direct_readable",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      },
+      "last_verified_directly_at": "2026-10-13",
+      "verification_mode": "direct_page_review"
+    },
+    {
+      "id": "GLORY_PAGE",
+      "url": "https://market.vinhomes.vn/phan-khu/glory-heights-vinhomes-grand-park",
+      "publisher": "Vinhomes Market",
+      "original_publisher": "Vinhomes Market",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "direct_readable",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      },
+      "last_verified_directly_at": "2026-10-13",
+      "verification_mode": "direct_page_review"
+    },
+    {
+      "id": "GLORY_GH1",
+      "url": "https://market.vinhomes.vn/en/toa-nha/gh1-vinhomes-grand-park",
+      "publisher": "Vinhomes Market",
+      "original_publisher": "Vinhomes Market",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "direct_readable",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      }
+    },
+    {
+      "id": "GLORY_GH2",
+      "url": "https://market.vinhomes.vn/en/toa-nha/gh2-vinhomes-grand-park",
+      "publisher": "Vinhomes Market",
+      "original_publisher": "Vinhomes Market",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "direct_readable",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      }
+    },
+    {
+      "id": "GLORY_CORP",
+      "url": "https://vinhomes.vn/vi/tong-quan-du-an-glory-heights-tai-dai-do-thi-vinhomes-grand-park",
+      "publisher": "Vinhomes",
+      "original_publisher": "Vinhomes",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "403_search_index",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      }
+    },
+    {
+      "id": "EATON_PAGE",
+      "url": "https://gamudaland.com.vn/vn/developments/township/eaton-park",
+      "publisher": "Gamuda Land",
+      "original_publisher": "Gamuda Land",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "direct_readable",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      },
+      "last_verified_directly_at": "2026-10-13",
+      "verification_mode": "direct_page_review"
+    },
+    {
+      "id": "EATON_2024",
+      "url": "https://gamudaland.com.vn/en/news/news-and-story-15",
+      "publisher": "Gamuda Land",
+      "original_publisher": "Báo Đầu Tư",
+      "published_at": "2024-12-17",
+      "checked_at": "2026-10-12",
+      "access_status": "direct_readable",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      },
+      "last_verified_directly_at": "2026-10-13",
+      "verification_mode": "direct_page_review"
+    },
+    {
+      "id": "EATON_2026",
+      "url": "https://www.gamudaland.com.vn/vn/news/gamuda-land-cat-noc-hai-toa-thap-cuoi-cung-eaton-park-chinh-thuc-hoan-thanh-ket-cau",
+      "publisher": "Gamuda Land",
+      "original_publisher": "CafeLand",
+      "published_at": "2026-08-14",
+      "checked_at": "2026-10-12",
+      "access_status": "403_search_index",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      }
+    },
+    {
+      "id": "ELYSIAN_PAGE",
+      "url": "https://gamudaland.com.vn/en/developments/township/elysian",
+      "publisher": "Gamuda Land",
+      "original_publisher": "Gamuda Land",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "direct_readable",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      },
+      "last_verified_directly_at": "2026-10-13",
+      "verification_mode": "direct_page_review"
+    },
+    {
+      "id": "ELYSIAN_2025",
+      "url": "https://gamudaland.com.vn/vn/news/news-and-story-34",
+      "publisher": "Gamuda Land",
+      "original_publisher": "Nhịp Cầu Đầu Tư",
+      "published_at": "2025-07-30",
+      "checked_at": "2026-10-12",
+      "access_status": "direct_readable",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      }
+    },
+    {
+      "id": "ELYSIAN_2025_SPEC",
+      "url": "https://gamudaland.com.vn/vn/news/news-and-story-28",
+      "publisher": "Gamuda Land",
+      "original_publisher": "CafeF",
+      "published_at": "2025-07-14",
+      "checked_at": "2026-10-12",
+      "access_status": "direct_readable",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      },
+      "last_verified_directly_at": "2026-10-13",
+      "verification_mode": "direct_page_review"
+    },
+    {
+      "id": "ORIGAMI_SUN_20200806",
+      "url": "https://theorigami.vinhomes.vn/vinhomes-gay-an-tuong-voi-the-origami-2-400-can-ho-duoc-dat-mua-trong-3-ngay/",
+      "published_at": "2020-08-06",
+      "original_publisher": "VietNamNet",
+      "publisher": "The Origami / Vinhomes-owned project portal (syndicated news)",
+      "checked_at": "2026-10-13",
+      "access_status": "opened_directly_20261013",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      }
+    },
+    {
+      "id": "ORIGAMI_SUN_20200817",
+      "url": "https://theorigami.vinhomes.vn/vinhomes-ra-mat-5-toa-cuoi-cung-phan-khu-the-origami-sun/",
+      "published_at": "2020-08-17",
+      "original_publisher": "VietNamNet",
+      "publisher": "The Origami / Vinhomes-owned project portal (syndicated news)",
+      "checked_at": "2026-10-13",
+      "access_status": "opened_directly_20261013",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      }
+    },
+    {
+      "id": "ORIGAMI_ZEN_S10_20201210",
+      "url": "https://theorigami.vinhomes.vn/vinhomes-chinh-thuc-ra-mat-phan-khu-the-origami-zen-s10/",
+      "published_at": "2020-12-10",
+      "original_publisher": "VnEconomy",
+      "publisher": "The Origami / Vinhomes-owned project portal (syndicated news)",
+      "checked_at": "2026-10-13",
+      "access_status": "opened_directly_20261013",
+      "rights": {
+        "minimal_factual_reference": "review_with_attribution_only",
+        "commercial_republication": "not_granted",
+        "photos": "not_granted",
+        "feed": "not_granted"
+      }
+    }
+  ],
+  "dossiers": [
+    {
+      "id": "map-vcp",
+      "name": "Vinhomes Central Park",
+      "facts": [
+        {
+          "claim_id": "map-vcp|historical_pre_2025|historical_address|1",
+          "field": "historical_address",
+          "value": "208 Nguyễn Hữu Cảnh, phường 22, quận Bình Thạnh, TP.HCM",
+          "unit": "text",
+          "scope": "historical_pre_2025",
+          "source_ids": [
+            "VCP_PROFILE"
+          ],
+          "source_url": "https://vinhomes.vn/vi/vinhomes-central-park",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Historical only, not GPS"
+        },
+        {
+          "claim_id": "map-vcp|township|initial_development_year|2",
+          "field": "initial_development_year",
+          "value": 2014,
+          "unit": "year",
+          "scope": "township",
+          "source_ids": [
+            "VCP_PROFILE"
+          ],
+          "source_url": "https://vinhomes.vn/vi/vinhomes-central-park",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Not independently verified official opening date"
+        },
+        {
+          "claim_id": "map-vcp|township|operating_milestone_year|3",
+          "field": "operating_milestone_year",
+          "value": 2016,
+          "unit": "year",
+          "scope": "township",
+          "source_ids": [
+            "VCP_HISTORY"
+          ],
+          "source_url": "https://vinhomes.vn/vi/vinhomes",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Issuer company timeline, not each tower handover"
+        },
+        {
+          "claim_id": "map-vcp|township_residential|issuer_tower_count|4",
+          "field": "issuer_tower_count",
+          "value": 17,
+          "unit": "towers",
+          "scope": "township_residential",
+          "source_ids": [
+            "VCP_BTH"
+          ],
+          "source_url": "https://vinhomes.vn/vi/tiem-nang-bat-dong-san-binh-thanh",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Unverified comprehensive tower inventory"
+        },
+        {
+          "claim_id": "map-vcp|township|reported_area_ha|5",
+          "field": "reported_area_ha",
+          "value": 43.91,
+          "unit": "ha",
+          "scope": "township",
+          "source_ids": [
+            "VCP_BTH"
+          ],
+          "source_url": "https://vinhomes.vn/vi/tiem-nang-bat-dong-san-binh-thanh",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Not solely apartment footprint"
+        },
+        {
+          "claim_id": "map-vcp|whole_development_estimate|issuer_apartments_more_than_approx|6",
+          "field": "issuer_apartments_more_than_approx",
+          "value": 13000,
+          "unit": "units",
+          "scope": "whole_development_estimate",
+          "source_ids": [
+            "VCP_BTH"
+          ],
+          "source_url": "https://vinhomes.vn/vi/tiem-nang-bat-dong-san-binh-thanh",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Approximate marketing claim, product scope to confirm"
+        }
+      ]
+    },
+    {
+      "id": "map-vingrand",
+      "name": "Vinhomes Grand Park (tổng thể)",
+      "facts": [
+        {
+          "claim_id": "map-vingrand|historical_pre_2025|historical_address|1",
+          "field": "historical_address",
+          "value": "Nguyễn Xiển – phường Long Thạnh Mỹ – Quận 9 – TP.HCM",
+          "unit": "text",
+          "scope": "historical_pre_2025",
+          "source_ids": [
+            "VGP_MASTER"
+          ],
+          "source_url": "https://vinhomes.vn/vi/quy-hoach-vinhomes-grand-park-co-gi-dac-biet",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Historical label not validated current address"
+        },
+        {
+          "claim_id": "map-vingrand|whole_development|first_construction_year|2",
+          "field": "first_construction_year",
+          "value": 2018,
+          "unit": "year",
+          "scope": "whole_development",
+          "source_ids": [
+            "VGP_MASTER"
+          ],
+          "source_url": "https://vinhomes.vn/vi/quy-hoach-vinhomes-grand-park-co-gi-dac-biet",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Issuer historical statement"
+        },
+        {
+          "claim_id": "map-vingrand|whole_development|reported_township_area_ha|3",
+          "field": "reported_township_area_ha",
+          "value": 271,
+          "unit": "ha",
+          "scope": "whole_development",
+          "source_ids": [
+            "VGP_MASTER"
+          ],
+          "source_url": "https://vinhomes.vn/vi/quy-hoach-vinhomes-grand-park-co-gi-dac-biet",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Other historic sources show 271.8–272ha"
+        },
+        {
+          "claim_id": "map-vingrand|phase:rainbow|rainbow_subdivision_name|4",
+          "field": "rainbow_subdivision_name",
+          "value": "The Rainbow",
+          "unit": "name",
+          "scope": "phase:rainbow",
+          "source_ids": [
+            "VGP_RAINBOW"
+          ],
+          "source_url": "https://market.vinhomes.vn/blog/toa-s105-vinhomes-grand-park",
+          "source_published_at": "2021-12-26",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Only a part of Grand Park"
+        },
+        {
+          "claim_id": "map-vingrand|phase:rainbow|rainbow_tower_count|5",
+          "field": "rainbow_tower_count",
+          "value": 17,
+          "unit": "towers",
+          "scope": "phase:rainbow",
+          "source_ids": [
+            "VGP_RAINBOW"
+          ],
+          "source_url": "https://market.vinhomes.vn/blog/toa-s105-vinhomes-grand-park",
+          "source_published_at": "2021-12-26",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Not whole project"
+        },
+        {
+          "claim_id": "map-vingrand|phase:rainbow|rainbow_apartment_count|6",
+          "field": "rainbow_apartment_count",
+          "value": 10234,
+          "unit": "apartments",
+          "scope": "phase:rainbow",
+          "source_ids": [
+            "VGP_RAINBOW"
+          ],
+          "source_url": "https://market.vinhomes.vn/blog/toa-s105-vinhomes-grand-park",
+          "source_published_at": "2021-12-26",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Dated 2021 marketing figures"
+        },
+        {
+          "claim_id": "map-vingrand|phase:rainbow|rainbow_market_introduction|7",
+          "field": "rainbow_market_introduction",
+          "value": "2019-06-22",
+          "unit": "date",
+          "scope": "phase:rainbow",
+          "source_ids": [
+            "VGP_RAINBOW"
+          ],
+          "source_url": "https://market.vinhomes.vn/blog/toa-s105-vinhomes-grand-park",
+          "source_published_at": "2021-12-26",
+          "event_date": "2019-06-22",
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Issuer retrospective date"
+        },
+        {
+          "claim_id": "map-vingrand|phase:rainbow|rainbow_handover_period|8",
+          "field": "rainbow_handover_period",
+          "value": "2020-06_to_2020-12",
+          "unit": "period",
+          "scope": "phase:rainbow",
+          "source_ids": [
+            "VGP_RAINBOW"
+          ],
+          "source_url": "https://market.vinhomes.vn/blog/toa-s105-vinhomes-grand-park",
+          "source_published_at": "2021-12-26",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Per issuer retrospective, no individual tower contracts"
+        },
+        {
+          "claim_id": "map-vingrand|tower:S1.05|tower_S1_05_apartment_count|9",
+          "field": "tower_S1_05_apartment_count",
+          "value": 437,
+          "unit": "apartments",
+          "scope": "tower:S1.05",
+          "source_ids": [
+            "VGP_RAINBOW"
+          ],
+          "source_url": "https://market.vinhomes.vn/blog/toa-s105-vinhomes-grand-park",
+          "source_published_at": "2021-12-26",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Tower subrecord, not an extra project"
+        }
+      ]
+    },
+    {
+      "id": "map-origami",
+      "name": "The Origami – Grand Park",
+      "facts": [
+        {
+          "claim_id": "map-origami|relation_proposed|parent_catalog_candidate|1",
+          "field": "parent_catalog_candidate",
+          "value": "map-vingrand",
+          "unit": "project_id",
+          "scope": "relation_proposed",
+          "source_ids": [
+            "ORIGAMI_S6"
+          ],
+          "source_url": "https://theorigami.vinhomes.vn/vinhomes-chinh-thuc-ra-mat-the-origami-park-s6/",
+          "source_published_at": "2020-12-18",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Review-only parent ID"
+        },
+        {
+          "claim_id": "map-origami|phase:S6|subphase_S6_name|2",
+          "field": "subphase_S6_name",
+          "value": "The Origami Park (S6)",
+          "unit": "name",
+          "scope": "phase:S6",
+          "source_ids": [
+            "ORIGAMI_S6"
+          ],
+          "source_url": "https://theorigami.vinhomes.vn/vinhomes-chinh-thuc-ra-mat-the-origami-park-s6/",
+          "source_published_at": "2020-12-18",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Subphase, not parent Origami"
+        },
+        {
+          "claim_id": "map-origami|phase:S6|subphase_S6_launch_event|3",
+          "field": "subphase_S6_launch_event",
+          "value": "2020-12-18",
+          "unit": "date",
+          "scope": "phase:S6",
+          "source_ids": [
+            "ORIGAMI_S6"
+          ],
+          "source_url": "https://theorigami.vinhomes.vn/vinhomes-chinh-thuc-ra-mat-the-origami-park-s6/",
+          "source_published_at": "2020-12-18",
+          "event_date": "2020-12-18",
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Original story credited to VnEconomy"
+        },
+        {
+          "claim_id": "map-origami|phase:S6|subphase_S6_tower_count|4",
+          "field": "subphase_S6_tower_count",
+          "value": 5,
+          "unit": "towers",
+          "scope": "phase:S6",
+          "source_ids": [
+            "ORIGAMI_S6"
+          ],
+          "source_url": "https://theorigami.vinhomes.vn/vinhomes-chinh-thuc-ra-mat-the-origami-park-s6/",
+          "source_published_at": "2020-12-18",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Do not conflate with total Origami"
+        },
+        {
+          "claim_id": "map-origami|phase:S6|subphase_S6_expected_first_handover|5",
+          "field": "subphase_S6_expected_first_handover",
+          "value": "2021-12",
+          "unit": "month",
+          "scope": "phase:S6",
+          "source_ids": [
+            "ORIGAMI_S6"
+          ],
+          "source_url": "https://theorigami.vinhomes.vn/vinhomes-chinh-thuc-ra-mat-the-origami-park-s6/",
+          "source_published_at": "2020-12-18",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "EXPECTED, not verified actual handover"
+        },
+        {
+          "claim_id": "map-origami|historical_pre_2025|historical_location|6",
+          "field": "historical_location",
+          "value": "Khu dân cư và công viên Phước Thiện, phường Long Bình và Long Thạnh Mỹ, Quận 9, TP.HCM",
+          "unit": "text",
+          "scope": "historical_pre_2025",
+          "source_ids": [
+            "ORIGAMI_S6"
+          ],
+          "source_url": "https://theorigami.vinhomes.vn/vinhomes-chinh-thuc-ra-mat-the-origami-park-s6/",
+          "source_published_at": "2020-12-18",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "No geocode"
+        },
+        {
+          "claim_id": "map-origami|subphase:origami_sun|origami_sun_first_cohort_launch|20261013",
+          "field": "origami_sun_first_cohort_launch",
+          "value": "2020-07-25",
+          "unit": "date",
+          "scope": "subphase:origami_sun",
+          "source_ids": [
+            "ORIGAMI_SUN_20200806"
+          ],
+          "source_url": "https://theorigami.vinhomes.vn/vinhomes-gay-an-tuong-voi-the-origami-2-400-can-ho-duoc-dat-mua-trong-3-ngay/",
+          "source_published_at": "2020-08-06",
+          "event_date": "2020-07-25",
+          "checked_at": "2026-10-13",
+          "review_status": "MEDIA_REPORT_HOSTED_BY_DEVELOPER_NEEDS_INDEPENDENT_REVIEW",
+          "note": "Media-hosted on developer website; launches are not legal sale authorizations."
+        },
+        {
+          "claim_id": "map-origami|subphase:origami_sun:first_cohort|origami_sun_first_cohort_tower_count|20261013",
+          "field": "origami_sun_first_cohort_tower_count",
+          "value": 5,
+          "unit": "towers",
+          "scope": "subphase:origami_sun:first_cohort",
+          "source_ids": [
+            "ORIGAMI_SUN_20200806"
+          ],
+          "source_url": "https://theorigami.vinhomes.vn/vinhomes-gay-an-tuong-voi-the-origami-2-400-can-ho-duoc-dat-mua-trong-3-ngay/",
+          "source_published_at": "2020-08-06",
+          "event_date": "2020-07-25",
+          "checked_at": "2026-10-13",
+          "review_status": "MEDIA_REPORT_HOSTED_BY_DEVELOPER_NEEDS_INDEPENDENT_REVIEW",
+          "note": "Do not sum with other cohorts until towers de-duplicated."
+        },
+        {
+          "claim_id": "map-origami|subphase:origami_sun:first_cohort|origami_sun_first_cohort_cluster_codes|20261013",
+          "field": "origami_sun_first_cohort_cluster_codes",
+          "value": [
+            "S7",
+            "S8",
+            "S9"
+          ],
+          "unit": "cluster_codes",
+          "scope": "subphase:origami_sun:first_cohort",
+          "source_ids": [
+            "ORIGAMI_SUN_20200806"
+          ],
+          "source_url": "https://theorigami.vinhomes.vn/vinhomes-gay-an-tuong-voi-the-origami-2-400-can-ho-duoc-dat-mua-trong-3-ngay/",
+          "source_published_at": "2020-08-06",
+          "event_date": "2020-07-25",
+          "checked_at": "2026-10-13",
+          "review_status": "MEDIA_REPORT_HOSTED_BY_DEVELOPER_NEEDS_INDEPENDENT_REVIEW",
+          "note": "Cluster labels are NOT individual building IDs."
+        },
+        {
+          "claim_id": "map-origami|subphase:origami_sun:first_cohort|origami_sun_first_cohort_reported_registrations|20261013",
+          "field": "origami_sun_first_cohort_reported_registrations",
+          "value": 2400,
+          "unit": "interest_registrations",
+          "scope": "subphase:origami_sun:first_cohort",
+          "source_ids": [
+            "ORIGAMI_SUN_20200806"
+          ],
+          "source_url": "https://theorigami.vinhomes.vn/vinhomes-gay-an-tuong-voi-the-origami-2-400-can-ho-duoc-dat-mua-trong-3-ngay/",
+          "source_published_at": "2020-08-06",
+          "event_date": null,
+          "checked_at": "2026-10-13",
+          "review_status": "MEDIA_REPORT_HOSTED_BY_DEVELOPER_NEEDS_INDEPENDENT_REVIEW",
+          "note": "Developer-hosted media reports registered purchase interest; not 2,400 completed contracts or verified transactions."
+        },
+        {
+          "claim_id": "map-origami|subphase:origami_sun:first_cohort|origami_sun_first_cohort_registration_window|20261013",
+          "field": "origami_sun_first_cohort_registration_window",
+          "value": 3,
+          "unit": "days",
+          "scope": "subphase:origami_sun:first_cohort",
+          "source_ids": [
+            "ORIGAMI_SUN_20200806"
+          ],
+          "source_url": "https://theorigami.vinhomes.vn/vinhomes-gay-an-tuong-voi-the-origami-2-400-can-ho-duoc-dat-mua-trong-3-ngay/",
+          "source_published_at": "2020-08-06",
+          "event_date": null,
+          "checked_at": "2026-10-13",
+          "review_status": "MEDIA_REPORT_HOSTED_BY_DEVELOPER_NEEDS_INDEPENDENT_REVIEW",
+          "note": "Relative period claimed by dated press article; precise start/end not established."
+        },
+        {
+          "claim_id": "map-origami|subphase:origami_sun:final_cohort|origami_sun_final_cohort_article_date|20261013",
+          "field": "origami_sun_final_cohort_article_date",
+          "value": "2020-08-17",
+          "unit": "date",
+          "scope": "subphase:origami_sun:final_cohort",
+          "source_ids": [
+            "ORIGAMI_SUN_20200817"
+          ],
+          "source_url": "https://theorigami.vinhomes.vn/vinhomes-ra-mat-5-toa-cuoi-cung-phan-khu-the-origami-sun/",
+          "source_published_at": "2020-08-17",
+          "event_date": "2020-08-17",
+          "checked_at": "2026-10-13",
+          "review_status": "MEDIA_REPORT_HOSTED_BY_DEVELOPER_NEEDS_INDEPENDENT_REVIEW",
+          "note": "Article says remaining towers about to launch; not evidence of their actual sales date."
+        },
+        {
+          "claim_id": "map-origami|subphase:origami_sun:final_cohort|origami_sun_final_cohort_tower_count|20261013",
+          "field": "origami_sun_final_cohort_tower_count",
+          "value": 5,
+          "unit": "towers",
+          "scope": "subphase:origami_sun:final_cohort",
+          "source_ids": [
+            "ORIGAMI_SUN_20200817"
+          ],
+          "source_url": "https://theorigami.vinhomes.vn/vinhomes-ra-mat-5-toa-cuoi-cung-phan-khu-the-origami-sun/",
+          "source_published_at": "2020-08-17",
+          "event_date": null,
+          "checked_at": "2026-10-13",
+          "review_status": "MEDIA_REPORT_HOSTED_BY_DEVELOPER_NEEDS_INDEPENDENT_REVIEW",
+          "note": "Final cohort described as forthcoming as of publication."
+        },
+        {
+          "claim_id": "map-origami|subphase:origami_sun:final_cohort|origami_sun_final_cohort_tower_codes|20261013",
+          "field": "origami_sun_final_cohort_tower_codes",
+          "value": [
+            "S7.01",
+            "S7.02",
+            "S8.01",
+            "S8.02",
+            "S8.03"
+          ],
+          "unit": "tower_codes",
+          "scope": "subphase:origami_sun:final_cohort",
+          "source_ids": [
+            "ORIGAMI_SUN_20200817"
+          ],
+          "source_url": "https://theorigami.vinhomes.vn/vinhomes-ra-mat-5-toa-cuoi-cung-phan-khu-the-origami-sun/",
+          "source_published_at": "2020-08-17",
+          "event_date": null,
+          "checked_at": "2026-10-13",
+          "review_status": "MEDIA_REPORT_HOSTED_BY_DEVELOPER_NEEDS_INDEPENDENT_REVIEW",
+          "note": "Codes are explicitly attributed to 17-Aug-2020 announcement; cohort overlap review required."
+        },
+        {
+          "claim_id": "map-origami|subphase:origami_sun:final_cohort|origami_sun_final_cohort_reported_area_range_m2|20261013",
+          "field": "origami_sun_final_cohort_reported_area_range_m2",
+          "value": [
+            29.6,
+            108
+          ],
+          "unit": "m2_reported_use_area",
+          "scope": "subphase:origami_sun:final_cohort",
+          "source_ids": [
+            "ORIGAMI_SUN_20200817"
+          ],
+          "source_url": "https://theorigami.vinhomes.vn/vinhomes-ra-mat-5-toa-cuoi-cung-phan-khu-the-origami-sun/",
+          "source_published_at": "2020-08-17",
+          "event_date": null,
+          "checked_at": "2026-10-13",
+          "review_status": "MEDIA_REPORT_HOSTED_BY_DEVELOPER_NEEDS_INDEPENDENT_REVIEW",
+          "note": "Article calls this usable apartment area; apartment IDs, VAT and legal measurement basis not established."
+        },
+        {
+          "claim_id": "map-origami|subphase:origami_zen_s10|origami_zen_s10_launch|20261013",
+          "field": "origami_zen_s10_launch",
+          "value": "2020-12-10",
+          "unit": "date",
+          "scope": "subphase:origami_zen_s10",
+          "source_ids": [
+            "ORIGAMI_ZEN_S10_20201210"
+          ],
+          "source_url": "https://theorigami.vinhomes.vn/vinhomes-chinh-thuc-ra-mat-phan-khu-the-origami-zen-s10/",
+          "source_published_at": "2020-12-10",
+          "event_date": "2020-12-10",
+          "checked_at": "2026-10-13",
+          "review_status": "MEDIA_REPORT_HOSTED_BY_DEVELOPER_NEEDS_INDEPENDENT_REVIEW",
+          "note": "Source-hosted media statement, not government license confirmation."
+        },
+        {
+          "claim_id": "map-origami|subphase:origami_zen_s10|origami_zen_s10_reported_area_range_m2|20261013",
+          "field": "origami_zen_s10_reported_area_range_m2",
+          "value": [
+            29.5,
+            81.5
+          ],
+          "unit": "m2_unspecified",
+          "scope": "subphase:origami_zen_s10",
+          "source_ids": [
+            "ORIGAMI_ZEN_S10_20201210"
+          ],
+          "source_url": "https://theorigami.vinhomes.vn/vinhomes-chinh-thuc-ra-mat-phan-khu-the-origami-zen-s10/",
+          "source_published_at": "2020-12-10",
+          "event_date": null,
+          "checked_at": "2026-10-13",
+          "review_status": "MEDIA_REPORT_HOSTED_BY_DEVELOPER_NEEDS_INDEPENDENT_REVIEW",
+          "note": "Project article range; confirm net/gross basis and product mix before numerical comparison."
+        }
+      ]
+    },
+    {
+      "id": "map-glory",
+      "name": "Glory Heights – Grand Park",
+      "facts": [
+        {
+          "claim_id": "map-glory|relation_proposed|parent_catalog_candidate|1",
+          "field": "parent_catalog_candidate",
+          "value": "map-vingrand",
+          "unit": "project_id",
+          "scope": "relation_proposed",
+          "source_ids": [
+            "GLORY_PAGE"
+          ],
+          "source_url": "https://market.vinhomes.vn/phan-khu/glory-heights-vinhomes-grand-park",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Review parent mapping"
+        },
+        {
+          "claim_id": "map-glory|phase:glory_heights|subdivision_tower_count|2",
+          "field": "subdivision_tower_count",
+          "value": 5,
+          "unit": "towers",
+          "scope": "phase:glory_heights",
+          "source_ids": [
+            "GLORY_PAGE"
+          ],
+          "source_url": "https://market.vinhomes.vn/phan-khu/glory-heights-vinhomes-grand-park",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "GH1 GH2 GH3 GH5 GH6"
+        },
+        {
+          "claim_id": "map-glory|phase:glory_heights|subdivision_area_ha|3",
+          "field": "subdivision_area_ha",
+          "value": 3.3,
+          "unit": "ha",
+          "scope": "phase:glory_heights",
+          "source_ids": [
+            "GLORY_PAGE"
+          ],
+          "source_url": "https://market.vinhomes.vn/phan-khu/glory-heights-vinhomes-grand-park",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Corporate report quotes 31,175m2"
+        },
+        {
+          "claim_id": "map-glory|phase:glory_heights|tower_names|4",
+          "field": "tower_names",
+          "value": [
+            "GH1",
+            "GH2",
+            "GH3",
+            "GH5",
+            "GH6"
+          ],
+          "unit": "tower_ids",
+          "scope": "phase:glory_heights",
+          "source_ids": [
+            "GLORY_PAGE"
+          ],
+          "source_url": "https://market.vinhomes.vn/phan-khu/glory-heights-vinhomes-grand-park",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Do not miscount missing GH4 as sixth tower"
+        },
+        {
+          "claim_id": "map-glory|tower:GH1|tower_GH1_units|5",
+          "field": "tower_GH1_units",
+          "value": 475,
+          "unit": "apartments",
+          "scope": "tower:GH1",
+          "source_ids": [
+            "GLORY_GH1"
+          ],
+          "source_url": "https://market.vinhomes.vn/en/toa-nha/gh1-vinhomes-grand-park",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Tower scope only"
+        },
+        {
+          "claim_id": "map-glory|tower:GH1|tower_GH1_handover_status|6",
+          "field": "tower_GH1_handover_status",
+          "value": "Đã bàn giao",
+          "unit": "issuer_status",
+          "scope": "tower:GH1",
+          "source_ids": [
+            "GLORY_GH1"
+          ],
+          "source_url": "https://market.vinhomes.vn/en/toa-nha/gh1-vinhomes-grand-park",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Undated page, no exact actual handover date"
+        },
+        {
+          "claim_id": "map-glory|tower:GH2|tower_GH2_units|7",
+          "field": "tower_GH2_units",
+          "value": 714,
+          "unit": "apartments",
+          "scope": "tower:GH2",
+          "source_ids": [
+            "GLORY_GH2"
+          ],
+          "source_url": "https://market.vinhomes.vn/en/toa-nha/gh2-vinhomes-grand-park",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Tower scope only"
+        },
+        {
+          "claim_id": "map-glory|phase:glory_heights|alternative_area_m2|8",
+          "field": "alternative_area_m2",
+          "value": 31175,
+          "unit": "m2",
+          "scope": "phase:glory_heights",
+          "source_ids": [
+            "GLORY_CORP"
+          ],
+          "source_url": "https://vinhomes.vn/vi/tong-quan-du-an-glory-heights-tai-dai-do-thi-vinhomes-grand-park",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "In conflict with marketed 3.3 ha"
+        }
+      ]
+    },
+    {
+      "id": "map-eaton",
+      "name": "Eaton Park",
+      "facts": [
+        {
+          "claim_id": "map-eaton|historical_pre_2025|historical_location|1",
+          "field": "historical_location",
+          "value": "Mặt tiền Mai Chí Thọ, phường An Phú, TP. Thủ Đức, TP.HCM",
+          "unit": "text",
+          "scope": "historical_pre_2025",
+          "source_ids": [
+            "EATON_2024"
+          ],
+          "source_url": "https://gamudaland.com.vn/en/news/news-and-story-15",
+          "source_published_at": "2024-12-17",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "No verified building coordinates"
+        },
+        {
+          "claim_id": "map-eaton|2024_design|reported_site_area|2",
+          "field": "reported_site_area",
+          "value": 3.77,
+          "unit": "ha",
+          "scope": "2024_design",
+          "source_ids": [
+            "EATON_2024"
+          ],
+          "source_url": "https://gamudaland.com.vn/en/news/news-and-story-15",
+          "source_published_at": "2024-12-17",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Round values differ in same publisher story"
+        },
+        {
+          "claim_id": "map-eaton|2024_design|tower_count|3",
+          "field": "tower_count",
+          "value": 6,
+          "unit": "towers",
+          "scope": "2024_design",
+          "source_ids": [
+            "EATON_2024"
+          ],
+          "source_url": "https://gamudaland.com.vn/en/news/news-and-story-15",
+          "source_published_at": "2024-12-17",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "2024 scope"
+        },
+        {
+          "claim_id": "map-eaton|2024_design|residential_apartment_count|4",
+          "field": "residential_apartment_count",
+          "value": 1968,
+          "unit": "apartments",
+          "scope": "2024_design",
+          "source_ids": [
+            "EATON_2024"
+          ],
+          "source_url": "https://gamudaland.com.vn/en/news/news-and-story-15",
+          "source_published_at": "2024-12-17",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Excludes penthouses and commerce"
+        },
+        {
+          "claim_id": "map-eaton|2024_design|penthouse_count|5",
+          "field": "penthouse_count",
+          "value": 12,
+          "unit": "penthouses",
+          "scope": "2024_design",
+          "source_ids": [
+            "EATON_2024"
+          ],
+          "source_url": "https://gamudaland.com.vn/en/news/news-and-story-15",
+          "source_published_at": "2024-12-17",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Separate product type"
+        },
+        {
+          "claim_id": "map-eaton|2024_design|podium_retail_count|6",
+          "field": "podium_retail_count",
+          "value": 52,
+          "unit": "commercial_products",
+          "scope": "2024_design",
+          "source_ids": [
+            "EATON_2024"
+          ],
+          "source_url": "https://gamudaland.com.vn/en/news/news-and-story-15",
+          "source_published_at": "2024-12-17",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Not apartments"
+        },
+        {
+          "claim_id": "map-eaton|2024_design|shophouse_count|7",
+          "field": "shophouse_count",
+          "value": 20,
+          "unit": "commercial_products",
+          "scope": "2024_design",
+          "source_ids": [
+            "EATON_2024"
+          ],
+          "source_url": "https://gamudaland.com.vn/en/news/news-and-story-15",
+          "source_published_at": "2024-12-17",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Not apartments"
+        },
+        {
+          "claim_id": "map-eaton|2024_design|all_products_count|8",
+          "field": "all_products_count",
+          "value": 2052,
+          "unit": "all_products",
+          "scope": "2024_design",
+          "source_ids": [
+            "EATON_2024"
+          ],
+          "source_url": "https://gamudaland.com.vn/en/news/news-and-story-15",
+          "source_published_at": "2024-12-17",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Components 1968+12+52+20"
+        },
+        {
+          "claim_id": "map-eaton|towers:A3_A4|final_two_towers_topping_out|9",
+          "field": "final_two_towers_topping_out",
+          "value": "2026-08-12",
+          "unit": "date",
+          "scope": "towers:A3_A4",
+          "source_ids": [
+            "EATON_2026"
+          ],
+          "source_url": "https://www.gamudaland.com.vn/vn/news/gamuda-land-cat-noc-hai-toa-thap-cuoi-cung-eaton-park-chinh-thuc-hoan-thanh-ket-cau",
+          "source_published_at": "2026-08-14",
+          "event_date": "2026-08-12",
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Topping out, NOT handover"
+        },
+        {
+          "claim_id": "map-eaton|mixed_products|marketed_unit_area_range|10",
+          "field": "marketed_unit_area_range",
+          "value": [
+            50.7,
+            406.2
+          ],
+          "unit": "m2_range",
+          "scope": "mixed_products",
+          "source_ids": [
+            "EATON_PAGE"
+          ],
+          "source_url": "https://gamudaland.com.vn/vn/developments/township/eaton-park",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Area measurement basis unknown"
+        },
+        {
+          "claim_id": "map-eaton|project_sale_milestone|reported_first_launch_month|11",
+          "field": "reported_first_launch_month",
+          "value": "2024-05",
+          "unit": "year_month",
+          "scope": "project_sale_milestone",
+          "source_ids": [
+            "EATON_2024"
+          ],
+          "source_url": "https://gamudaland.com.vn/en/news/news-and-story-15",
+          "source_published_at": "2024-12-17",
+          "event_date": null,
+          "checked_at": "2026-10-13",
+          "review_status": "ISSUER_HOSTED_MEDIA_CLAIM_NEEDS_REVIEW",
+          "note": "Issuer-hosted 17 Dec 2024 media article, originally Bao Dau Tu, reports launch in May 2024. Month-level milestone, not verified sales volume."
+        },
+        {
+          "claim_id": "map-eaton|phase:second_sales_tranche|reported_second_sales_phase_month|12",
+          "field": "reported_second_sales_phase_month",
+          "value": "2024-12",
+          "unit": "year_month",
+          "scope": "phase:second_sales_tranche",
+          "source_ids": [
+            "EATON_2024"
+          ],
+          "source_url": "https://gamudaland.com.vn/en/news/news-and-story-15",
+          "source_published_at": "2024-12-17",
+          "event_date": null,
+          "checked_at": "2026-10-13",
+          "review_status": "ISSUER_HOSTED_MEDIA_CLAIM_NEEDS_REVIEW",
+          "note": "Issuer-hosted 17 Dec 2024 media article reports second sales phase in early Dec 2024; month-level milestone, not transaction evidence."
+        }
+      ]
+    },
+    {
+      "id": "map-elysian",
+      "name": "Elysian",
+      "facts": [
+        {
+          "claim_id": "map-elysian|historical_pre_2025|historical_address|1",
+          "field": "historical_address",
+          "value": "Đường Lò Lu, phường Trường Thạnh, TP. Thủ Đức, TP.HCM",
+          "unit": "text",
+          "scope": "historical_pre_2025",
+          "source_ids": [
+            "ELYSIAN_2025_SPEC"
+          ],
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-28",
+          "source_published_at": "2025-07-14",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "2026 website instead uses Long Phước"
+        },
+        {
+          "claim_id": "map-elysian|2026_project_page|current_publisher_ward|2",
+          "field": "current_publisher_ward",
+          "value": "Long Phước, TP.HCM",
+          "unit": "text",
+          "scope": "2026_project_page",
+          "source_ids": [
+            "ELYSIAN_PAGE"
+          ],
+          "source_url": "https://gamudaland.com.vn/en/developments/township/elysian",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Geocode not checked"
+        },
+        {
+          "claim_id": "map-elysian|project|land_area_ha|3",
+          "field": "land_area_ha",
+          "value": 2.8,
+          "unit": "ha",
+          "scope": "project",
+          "source_ids": [
+            "ELYSIAN_2025_SPEC"
+          ],
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-28",
+          "source_published_at": "2025-07-14",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Press copy hosted by developer"
+        },
+        {
+          "claim_id": "map-elysian|project|tower_count|4",
+          "field": "tower_count",
+          "value": 4,
+          "unit": "towers",
+          "scope": "project",
+          "source_ids": [
+            "ELYSIAN_2025_SPEC"
+          ],
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-28",
+          "source_published_at": "2025-07-14",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "A/B/C/D"
+        },
+        {
+          "claim_id": "map-elysian|project|apartment_count|5",
+          "field": "apartment_count",
+          "value": 1398,
+          "unit": "apartments",
+          "scope": "project",
+          "source_ids": [
+            "ELYSIAN_2025_SPEC"
+          ],
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-28",
+          "source_published_at": "2025-07-14",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Residential only"
+        },
+        {
+          "claim_id": "map-elysian|project|shophouses|6",
+          "field": "shophouses",
+          "value": 8,
+          "unit": "commercial_products",
+          "scope": "project",
+          "source_ids": [
+            "ELYSIAN_2025_SPEC"
+          ],
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-28",
+          "source_published_at": "2025-07-14",
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Commercial not apartments"
+        },
+        {
+          "claim_id": "map-elysian|project_sale_event|opening_event|7",
+          "field": "opening_event",
+          "value": "2025-07-27",
+          "unit": "date",
+          "scope": "project_sale_event",
+          "source_ids": [
+            "ELYSIAN_2025"
+          ],
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-34",
+          "source_published_at": "2025-07-30",
+          "event_date": "2025-07-27",
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Report dated July 30 on July 27 event"
+        },
+        {
+          "claim_id": "map-elysian|mixed_apartment_inventory|marketing_area_range|8",
+          "field": "marketing_area_range",
+          "value": [
+            36.88,
+            291.7
+          ],
+          "unit": "m2_range",
+          "scope": "mixed_apartment_inventory",
+          "source_ids": [
+            "ELYSIAN_PAGE"
+          ],
+          "source_url": "https://gamudaland.com.vn/en/developments/township/elysian",
+          "source_published_at": null,
+          "event_date": null,
+          "checked_at": "2026-10-12",
+          "review_status": "ISSUER_CLAIM_NEEDS_REVIEW",
+          "note": "Net/gross unspecified"
+        },
+        {
+          "claim_id": "map-elysian|project_marketing_timeline|planned_handover_year|9",
+          "field": "planned_handover_year",
+          "value": 2027,
+          "unit": "year",
+          "scope": "project_marketing_timeline",
+          "source_ids": [
+            "ELYSIAN_2025_SPEC"
+          ],
+          "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-28",
+          "source_published_at": "2025-07-14",
+          "event_date": null,
+          "checked_at": "2026-10-13",
+          "review_status": "ISSUER_HOSTED_MEDIA_CLAIM_NEEDS_REVIEW",
+          "note": "Year projected in a marketing payment plan as of 14 Jul 2025; NOT proof that handover happened."
+        }
+      ]
+    }
+  ],
+  "price_observations": [
+    {
+      "observation_id": "map-eaton_UNDATED_20261012_FROM",
+      "project_id": "map-eaton",
+      "type": "PRICE_ASKING",
+      "source_url": "https://gamudaland.com.vn/vn/developments/township/eaton-park",
+      "source_id": "EATON_PAGE",
+      "publisher": "Gamuda Land",
+      "source_published_at": null,
+      "checked_at": "2026-10-12",
+      "effective_offer_date": null,
+      "amount_from_vnd": 5500000000,
+      "currency": "VND",
+      "denominator": "total_per_product",
+      "area_basis": "UNSPECIFIED",
+      "unit_area_m2": null,
+      "VAT": "UNSPECIFIED",
+      "maintenance": "UNSPECIFIED",
+      "specific_apartment_type": "UNKNOWN",
+      "rights": "REFERENCE_ONLY_NO_FEED_OR_REPUBLICATION_LICENSE",
+      "transaction_verified": false,
+      "status": "REVIEW_ONLY",
+      "note": "Undated issuer price-from headline is not proof of currently available stock"
+    },
+    {
+      "observation_id": "map-elysian_UNDATED_20261012_FROM",
+      "project_id": "map-elysian",
+      "type": "PRICE_ASKING",
+      "source_url": "https://gamudaland.com.vn/en/developments/township/elysian",
+      "source_id": "ELYSIAN_PAGE",
+      "publisher": "Gamuda Land",
+      "source_published_at": null,
+      "checked_at": "2026-10-12",
+      "effective_offer_date": null,
+      "amount_from_vnd": 3900000000,
+      "currency": "VND",
+      "denominator": "total_per_product",
+      "area_basis": "UNSPECIFIED",
+      "unit_area_m2": null,
+      "VAT": "UNSPECIFIED",
+      "maintenance": "UNSPECIFIED",
+      "specific_apartment_type": "UNKNOWN",
+      "rights": "REFERENCE_ONLY_NO_FEED_OR_REPUBLICATION_LICENSE",
+      "transaction_verified": false,
+      "status": "REVIEW_ONLY",
+      "note": "Undated issuer price-from headline is not proof of currently available stock"
+    },
+    {
+      "observation_id": "map-elysian_2025-07-14_MEDIA_AVG_68M_M2",
+      "project_id": "map-elysian",
+      "type": "REPORT_ESTIMATE",
+      "source_url": "https://gamudaland.com.vn/vn/news/news-and-story-28",
+      "source_id": "ELYSIAN_2025_SPEC",
+      "publisher": "CafeF (hosted by Gamuda Land)",
+      "source_published_at": "2025-07-14",
+      "checked_at": "2026-10-13",
+      "effective_offer_date": null,
+      "observed_statement_date": "2025-07-14",
+      "amount_vnd": 68000000,
+      "currency": "VND",
+      "denominator": "VND_per_m2_reported_average",
+      "area_basis": "UNSPECIFIED_GROSS_OR_NET",
+      "unit_area_m2": null,
+      "VAT": "UNSPECIFIED",
+      "maintenance": "UNSPECIFIED",
+      "specific_apartment_type": "UNSPECIFIED",
+      "rights": "REFERENCE_ONLY_NO_FEED_OR_REPUBLICATION_LICENSE",
+      "transaction_verified": false,
+      "status": "REVIEW_ONLY_NOT_PUBLIC_PRICE_HISTORY",
+      "note": "Dated media claim about a project-level marketed average, not specific listing or completed transaction. No area basis or VAT specified. Exclude from live price chart."
+    }
+  ],
+  "conflicts": [
+    {
+      "project_id": "map-vingrand",
+      "topic": "site_area",
+      "description": "Developer historic website gives approximately 271 versus other issuer marketing pages with 271.8 or 272 hectares. Keep different source scope."
+    },
+    {
+      "project_id": "map-glory",
+      "topic": "phase_area",
+      "description": "Vinhomes Market reports 3.3ha while Vinhomes corporate report gives 31,175 m2."
+    },
+    {
+      "project_id": "map-elysian",
+      "topic": "ward_names",
+      "description": "14 Jul 2025 dated developer-hosted CafeF article identifies Long Phuoc as current ward and Truong Thanh as former ward. Distinct historic/current labels probably explain difference, but official boundary/parcel GIS remains unverified."
+    },
+    {
+      "project_id": "map-vcp",
+      "topic": "phase_timeline_units",
+      "description": "2016 operation and >13,000 units are differently scoped corporate marketing claims."
+    },
+    {
+      "project_id": "map-eaton",
+      "topic": "price_basis",
+      "description": "Undated price-from and broad product area range do not establish VAT, specific unit size or current stock."
+    },
+    {
+      "project_id": "map-origami",
+      "topic": "origami_sun_phase_tower_dedup",
+      "description": "6-Aug-2020 article refers to five initial towers in broad S7/S8/S9 clusters, while 17-Aug-2020 article names five 'last' towers S7.01, S7.02, S8.01, S8.02, S8.03. These cohort labels must be independently reconciled before adding tower totals or creating separate canonical child IDs."
+    }
+  ],
+  "source_rights_queue": [
+    {
+      "partner": "Vinhomes/Vinhomes Market",
+      "status": "no_permission",
+      "action": "seek approved feed contract, historical source rights, schema, update cadence, allowed caching and display"
+    },
+    {
+      "partner": "Gamuda Land",
+      "status": "no_permission",
+      "action": "seek approved feed contract, historical source rights, schema, update cadence, allowed caching and display"
+    },
+    {
+      "partner": "Original news copyright holders",
+      "status": "no_permission",
+      "action": "seek approved feed contract, historical source rights, schema, update cadence, allowed caching and display"
+    }
+  ],
+  "scope_guards": {
+    "The Felix distinct from Felix Homes": true,
+    "The Win City Đức Hòa Tây Ninh outside HCMC": true,
+    "Norton Park require conflict review": true,
+    "all prices unapproved": true,
+    "all coordinates unverified": true
+  },
+  "metrics": {
+    "dossiers_with_new_source_research": 6,
+    "fact_candidates": 61,
+    "source_urls_unique": 20,
+    "asking_price_evidence": 2,
+    "transaction_verified": 0,
+    "rent_asking": 0,
+    "report_estimate": 1,
+    "coordinates_crosschecked": 0,
+    "conflicts": 6,
+    "feed_authorized": 0,
+    "github_commit_this_run": 1,
+    "price_observation_candidates": 3,
+    "new_project_sources_vs_local_batch06": 0,
+    "new_date_specific_price_observations_vs_local_batch06": 1,
+    "new_claim_facts_vs_local_batch06": 3,
+    "added_source_urls_current_run": 3,
+    "added_facts_current_run": 11,
+    "new_price_observations_current_run": 0,
+    "new_coordinates_crosschecked_current_run": 0,
+    "new_dossiers_from_prior_local_batch06": 0,
+    "dossiers_synced_from_previous_uncommitted_research": 6
+  },
+  "as_of": "2026-10-13",
+  "research_audit": {
+    "as_of": "2026-10-13",
+    "source_verification": "Six publisher-hosted source pages were checked through public web during this run. Previous access status for other sources unchanged.",
+    "authorship": "Dated EATON_2024 original publisher is Bao Dau Tu; ELYSIAN_2025_SPEC original publisher is CafeF. Hosting by developer does not mean independent issuer authorship.",
+    "price_history_gate": "Do not promote undated price-from statements or media-reported project averages to current asking price or verified transaction series.",
+    "geocode": "No newly verified project coordinates, buildings or entrance pins.",
+    "rights": "No licensed commercial republication, images or pricing feed.",
+    "git_status": "Create-file operation attempted on Draft PR #77 branch but refused by GitHub connector safety gate; local result only.",
+    "feed_status": "Main data/update_status.json not_configured, sources_configured=0, last_run_at=null.",
+    "scope": "The Felix distinct from Felix Homes; The Win City is outside current HCMC; Norton Park remains contested and unapproved.",
+    "github_status": "Candidate dataset committed to existing research branch under Draft PR #77; canonical/public datasets and legal/price/geocoding approvals unchanged.",
+    "latest_source_verification": "3 dated The Origami source URLs opened on 2026-10-13; syndicated provenance differentiated.",
+    "quality_gate": "Six known canonical project IDs only; three observation kinds (2 PRICE_ASKING, 1 REPORT_ESTIMATE); no TRANSACTION_VERIFIED, no RENT_ASKING or GPS.",
+    "reported_registrations_guard": "2,400 registered interest entries in original article are not notarized transactions, signed contracts or prices.",
+    "source_access_note": "Three newly added dated The Origami portal pages successfully opened in web research; some preexisting profile pages remain search-index-only or 403 and are NOT treated as directly verified."
+  }
+}
