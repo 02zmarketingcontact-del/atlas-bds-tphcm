@@ -1,0 +1,37 @@
+{
+  "schema": "qimap_review_candidate_v1",
+  "date": "2026-10-17",
+  "status": "REVIEW_ONLY",
+  "origin": "Batch78 local reconciliation; no new price discoveries",
+  "scope": [
+    "Carillon Apartment",
+    "Carillon 2",
+    "Carillon 3",
+    "Carillon 5",
+    "Carillon 7",
+    "Jamona Apartment",
+    "Jamona Heights",
+    "Charmington La Pointe"
+  ],
+  "prior_observations": {
+    "PRICE_ASKING": 8,
+    "REPORT_ESTIMATE": 2,
+    "RENT_ASKING": 0,
+    "TRANSACTION_VERIFIED": 0
+  },
+  "new_fact_candidates": [
+    {
+      "project": "Carillon 7",
+      "claim": "As of 2020-04-29 revenue recognition from apartment handovers was deferred to later quarters; not proof of actual handover",
+      "source_url": "https://www.ttcgroup.vn/linh-vuc-hoat-dong/bat-dong-san-1/tin-tuc-khac-4/ttcland-scr-loi-nhuan-sau-thue-quy-i2020-dat-48-ty-dong-tich-cuc-m-a-du-an",
+      "source_date": "2020-04-29"
+    },
+    {
+      "project": "Carillon 3",
+      "claim": "Publication reports new sale opening in early March 2016; apparent Q1/2014 handover typo; previous 2015 offering remains unresolved",
+      "source_url": "https://www.ttcgroup.vn/truyen-thong/tin-tuc-ttc/carillon-3-chay-hang-sau-1-thang-mo-ban",
+      "source_date": "2016-05-04"
+    }
+  ],
+  "privacy_and_rights": "Only citation-based fact review; zero authorized bulk price feeds; no automatic publishing; legal and WGS84 unverified"
+}
