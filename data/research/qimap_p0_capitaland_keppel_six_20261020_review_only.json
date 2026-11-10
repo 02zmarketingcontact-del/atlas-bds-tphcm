@@ -1,0 +1,687 @@
+{
+  "schema_version": "qimap-p0-historical-six-delta-v1",
+  "as_of": "2026-10-20",
+  "batch_id": "p0-vista-parcspring-estella-riviera-historical-20261020",
+  "repository": "02zmarketingcontact-del/atlas-bds-tphcm",
+  "base_head": "100ae57d66034ea3abf5575b0ceb327d526cc6c8",
+  "branch": "research/qimap-p0-capitaland-keppel-six-historical-20261020-0445",
+  "publication_status": "REVIEW_ONLY_NOT_FOR_PRODUCTION",
+  "scope": "Six EXISTING canonical apartment project/phase IDs in former HCMC city area; no new project or pin is created.",
+  "deduplication": "Compared 150-record main catalog and PR #77 CapitaLand Batch07 and Keppel Batch08 price arrays/source lists; this file deliberately avoids already-staged 2009 Estella and 2015 Estella Heights issuer price observations. Exhaustive audit across all open PRs is NOT claimed.",
+  "source_rights_policy": "Minimal factual research references with attributable URL and dates; public accessibility is not commercial licensing. No bulk scraping, image republishing, article rewriting from full copied text, or Facebook Group joining.",
+  "sources": [
+    {
+      "id": "S01",
+      "organization": "VnExpress",
+      "published_at": "2007-10-19",
+      "published_date_precision": "DAY",
+      "url": "https://vnexpress.net/khu-can-ho-the-vista-2695957.html",
+      "source_class": "PRESS_HISTORICAL",
+      "source_access": "PUBLIC_WEB_REFERENCE_READ_2026-10-20",
+      "data_rights": "Public page: short attributed factual metadata citation only. No confirmed contractual permission for bulk feed, copyrighted text/images, or automated republication.",
+      "automated_feed_authorized": false,
+      "image_reuse_authorized": false,
+      "article_republication_authorized": false
+    },
+    {
+      "id": "S02",
+      "organization": "CafeF",
+      "published_at": "2008-10-30",
+      "published_date_precision": "DAY",
+      "url": "https://cafef.vn/bat-dong-san/the-vista-quay-tro-lai-muc-gia-goc-20081030084152112.chn",
+      "source_class": "PRESS_MARKET_REPORT",
+      "source_access": "PUBLIC_WEB_REFERENCE_READ_2026-10-20",
+      "data_rights": "Public page: short attributed factual metadata citation only. No confirmed contractual permission for bulk feed, copyrighted text/images, or automated republication.",
+      "automated_feed_authorized": false,
+      "image_reuse_authorized": false,
+      "article_republication_authorized": false
+    },
+    {
+      "id": "S03",
+      "organization": "VnExpress",
+      "published_at": "2010-11-02",
+      "published_date_precision": "DAY",
+      "url": "https://vnexpress.net/mo-ban-toa-so-4-khu-can-ho-the-vista-tp-hcm-2708548.html",
+      "source_class": "PRESS_RELAYING_DEVELOPER",
+      "source_access": "PUBLIC_WEB_REFERENCE_READ_2026-10-20",
+      "data_rights": "Public page: short attributed factual metadata citation only. No confirmed contractual permission for bulk feed, copyrighted text/images, or automated republication.",
+      "automated_feed_authorized": false,
+      "image_reuse_authorized": false,
+      "article_republication_authorized": false
+    },
+    {
+      "id": "S04",
+      "organization": "VietnamPlus / Vietnam News Agency",
+      "published_at": "2010-06-08",
+      "published_date_precision": "DAY",
+      "url": "https://www.vietnamplus.vn/hoan-thien-phan-xay-tho-can-ho-cao-cap-the-vista-post49973.vnp",
+      "source_class": "PRESS_CONSTRUCTION_EVENT",
+      "source_access": "PUBLIC_WEB_REFERENCE_READ_2026-10-20",
+      "data_rights": "Public page: short attributed factual metadata citation only. No confirmed contractual permission for bulk feed, copyrighted text/images, or automated republication.",
+      "automated_feed_authorized": false,
+      "image_reuse_authorized": false,
+      "article_republication_authorized": false
+    },
+    {
+      "id": "S05",
+      "organization": "CapitaLand Development",
+      "published_at": "UNDATED",
+      "published_date_precision": "UNKNOWN",
+      "url": "https://www.capitaland.com/vn/vi/stay/residential-development-listing/parcspring.html",
+      "source_class": "DEVELOPER_PROJECT_PAGE",
+      "source_access": "PUBLIC_WEB_REFERENCE_READ_2026-10-20",
+      "data_rights": "Public page: short attributed factual metadata citation only. No confirmed contractual permission for bulk feed, copyrighted text/images, or automated republication.",
+      "automated_feed_authorized": false,
+      "image_reuse_authorized": false,
+      "article_republication_authorized": false
+    },
+    {
+      "id": "S06",
+      "organization": "Vietnam Investment Review",
+      "published_at": "2012-07-09",
+      "published_date_precision": "DAY",
+      "url": "https://vir.com.vn/capitavalue-homes-launches-first-project-14893.html",
+      "source_class": "PRESS_RELAYING_DEVELOPER",
+      "source_access": "PUBLIC_WEB_REFERENCE_READ_2026-10-20",
+      "data_rights": "Public page: short attributed factual metadata citation only. No confirmed contractual permission for bulk feed, copyrighted text/images, or automated republication.",
+      "automated_feed_authorized": false,
+      "image_reuse_authorized": false,
+      "article_republication_authorized": false
+    },
+    {
+      "id": "S07",
+      "organization": "Thanh Nien",
+      "published_at": "2013-12-10",
+      "published_date_precision": "DAY",
+      "url": "https://thanhnien.vn/can-ho-parcspring-quan-2-ban-giao-huong-cua-con-nguoi-va-thien-nhien-1858325.htm",
+      "source_class": "PRESS_RELAYING_DEVELOPER",
+      "source_access": "PUBLIC_WEB_REFERENCE_READ_2026-10-20",
+      "data_rights": "Public page: short attributed factual metadata citation only. No confirmed contractual permission for bulk feed, copyrighted text/images, or automated republication.",
+      "automated_feed_authorized": false,
+      "image_reuse_authorized": false,
+      "article_republication_authorized": false
+    },
+    {
+      "id": "S08",
+      "organization": "Nguoi Lao Dong",
+      "published_at": "2014-04-21",
+      "published_date_precision": "DAY",
+      "url": "https://tuoitre.vn/nld/hoi-nap/chu-dau-tu-co-uy-tin-van-ban-duoc-can-ho-trong-tinh-hinh-hien-nay-20140421153101038.htm",
+      "source_class": "PRESS_RELAYING_DEVELOPER",
+      "source_access": "PUBLIC_WEB_REFERENCE_READ_2026-10-20",
+      "data_rights": "Public page: short attributed factual metadata citation only. No confirmed contractual permission for bulk feed, copyrighted text/images, or automated republication.",
+      "automated_feed_authorized": false,
+      "image_reuse_authorized": false,
+      "article_republication_authorized": false
+    },
+    {
+      "id": "S09",
+      "organization": "CafeLand",
+      "published_at": "2013-05-07",
+      "published_date_precision": "DAY",
+      "url": "https://cafeland.vn/tin-tuc/the-estella-ban-giao-so-hong-dot-dau-35734.html",
+      "source_class": "PRESS_RELAYING_ISSUER",
+      "source_access": "PUBLIC_WEB_REFERENCE_READ_2026-10-20",
+      "data_rights": "Public page: short attributed factual metadata citation only. No confirmed contractual permission for bulk feed, copyrighted text/images, or automated republication.",
+      "automated_feed_authorized": false,
+      "image_reuse_authorized": false,
+      "article_republication_authorized": false
+    },
+    {
+      "id": "S10",
+      "organization": "VnExpress",
+      "published_at": "2017-04-11",
+      "published_date_precision": "DAY",
+      "url": "https://vnexpress.net/90-can-ho-cao-cap-tai-estella-heights-giao-dich-thanh-cong-3568042.html",
+      "source_class": "PRESS_RELAYING_DEVELOPER",
+      "source_access": "PUBLIC_WEB_REFERENCE_READ_2026-10-20",
+      "data_rights": "Public page: short attributed factual metadata citation only. No confirmed contractual permission for bulk feed, copyrighted text/images, or automated republication.",
+      "automated_feed_authorized": false,
+      "image_reuse_authorized": false,
+      "article_republication_authorized": false
+    },
+    {
+      "id": "S11",
+      "organization": "Keppel Land Vietnam",
+      "published_at": "2011-06",
+      "published_date_precision": "MONTH",
+      "url": "https://www.keppel.com/realestate/vn/News-Library/Strong-response-for-Riviera-Point-ahead-of-public-launch",
+      "source_class": "DEVELOPER_PRESS_RELEASE",
+      "source_access": "PUBLIC_WEB_REFERENCE_READ_2026-10-20",
+      "data_rights": "Public page: short attributed factual metadata citation only. No confirmed contractual permission for bulk feed, copyrighted text/images, or automated republication.",
+      "automated_feed_authorized": false,
+      "image_reuse_authorized": false,
+      "article_republication_authorized": false
+    },
+    {
+      "id": "S12",
+      "organization": "VnExpress",
+      "published_at": "2015-03-10",
+      "published_date_precision": "DAY",
+      "url": "https://vnexpress.net/bat-dong-san-sai-gon-tang-gia-cuc-bo-3155599.html",
+      "source_class": "PRESS_MARKET_SURVEY",
+      "source_access": "PUBLIC_WEB_REFERENCE_READ_2026-10-20",
+      "data_rights": "Public page: short attributed factual metadata citation only. No confirmed contractual permission for bulk feed, copyrighted text/images, or automated republication.",
+      "automated_feed_authorized": false,
+      "image_reuse_authorized": false,
+      "article_republication_authorized": false
+    },
+    {
+      "id": "S13",
+      "organization": "CafeLand",
+      "published_at": "2017-03-09",
+      "published_date_precision": "DAY",
+      "url": "https://cafeland.vn/su-kien/ra-mat-dot-tiep-theo-khu-can-ho-the-view-65242.html",
+      "source_class": "PRESS_RELAYING_DEVELOPER",
+      "source_access": "PUBLIC_WEB_REFERENCE_READ_2026-10-20",
+      "data_rights": "Public page: short attributed factual metadata citation only. No confirmed contractual permission for bulk feed, copyrighted text/images, or automated republication.",
+      "automated_feed_authorized": false,
+      "image_reuse_authorized": false,
+      "article_republication_authorized": false
+    }
+  ],
+  "dossiers": [
+    {
+      "id": "hist-thevista",
+      "name": "The Vista",
+      "legacy_scope": "HCMC_old_boundary",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "price_ids": [
+        "P01",
+        "P02",
+        "P03"
+      ],
+      "candidate_facts": [
+        {
+          "date": "2007-10-19",
+          "event": "Show flat event announced; 5 residential towers and 750 units claimed; showroom address 628C Xa Lo Ha Noi is NOT automatically the project's cadastral address.",
+          "source_id": "S01"
+        },
+        {
+          "date": "2010-06-08",
+          "event": "Topping out reported by VietnamPlus: 5 towers / 759 apartment units; conflicts with 750 reports.",
+          "source_id": "S04"
+        },
+        {
+          "date": "2010-11-02",
+          "event": "Tower 4 offering launch of 50 units and 101-221 sqm usable area range.",
+          "source_id": "S03"
+        }
+      ],
+      "unresolved": [
+        "UNIT_TOTAL_750_VS_759",
+        "ACTUAL_PROJECT_ADDRESS_VS_SHOWROOM_ADDRESS"
+      ]
+    },
+    {
+      "id": "hist-parcspring",
+      "name": "PARCSpring",
+      "legacy_scope": "HCMC_old_boundary",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S07",
+        "S08"
+      ],
+      "price_ids": [
+        "P04"
+      ],
+      "candidate_facts": [
+        {
+          "date": "UNDATED",
+          "event": "Official CapitaLand page calls property completed and operational, lists 974 apartments, 29,000 sqm site area and address 537 Nguyen Duy Trinh.",
+          "source_id": "S05"
+        },
+        {
+          "date": "2012-07-09",
+          "event": "Contemporary VIR launch describes 394 residential units + 10 retail in two 18-storey and one 12-storey blocks.",
+          "source_id": "S06"
+        },
+        {
+          "date": "2013-12-07",
+          "event": "Reported official phase 1 sales opening for 170 of then-described 394 units; announcement published 10 Dec 2013.",
+          "source_id": "S07"
+        },
+        {
+          "date": "2014-04-19",
+          "event": "Press reports A and B towers opening, with issuer-claimed more than 100 units sold; not transaction-verified.",
+          "source_id": "S08"
+        }
+      ],
+      "unresolved": [
+        "974_CURRENT_VS_394_2012_LAUNCH_PHASE_SCOPE",
+        "OFFICIAL_PAGE_WARD_INCONSISTENCY_BINH_TRUNG_DONG_VS_BINH_TRUNG_TAY",
+        "TOWER_PHASE_IDENTITY_NOT_RESOLVED"
+      ]
+    },
+    {
+      "id": "hist-theestella",
+      "name": "The Estella",
+      "legacy_scope": "HCMC_old_boundary",
+      "source_ids": [
+        "S09"
+      ],
+      "price_ids": [],
+      "candidate_facts": [
+        {
+          "date": "2013-05",
+          "event": "First ownership-certificate batch announced according to CafeLand, distinct from the issuer's already-staged 2012 physical handover claim.",
+          "source_id": "S09"
+        }
+      ],
+      "unresolved": [
+        "CERTIFICATE_BATCH_NOT_EQUAL_CERTIFICATE_FOR_EACH_UNIT"
+      ]
+    },
+    {
+      "id": "hist-estellaheights",
+      "name": "Estella Heights",
+      "legacy_scope": "HCMC_old_boundary",
+      "source_ids": [
+        "S10"
+      ],
+      "price_ids": [
+        "P05",
+        "P06"
+      ],
+      "candidate_facts": [
+        {
+          "date": "2017-04-11",
+          "event": "Contemporary press attributes phase split to developer: phase 1 496 units two towers, phase 2 376 units towers 3/4; future handover estimates 2018 and 2019, not confirmed.",
+          "source_id": "S10"
+        }
+      ],
+      "unresolved": [
+        "PLANNED_HANDOVER_2018_2019_NOT_ACTUAL_HANDOVER"
+      ]
+    },
+    {
+      "id": "hist-rivierapoint",
+      "name": "Riviera Point",
+      "legacy_scope": "HCMC_old_boundary",
+      "source_ids": [
+        "S11",
+        "S12"
+      ],
+      "price_ids": [
+        "P07",
+        "P08"
+      ],
+      "candidate_facts": [
+        {
+          "date": "2011-06",
+          "event": "Keppel release identifies Phase 1 as 549 apartments. 18 towers / 2,400 total is planned master scheme, NOT completed inventory. The issuer itself revised expected phase 1 completion from 2014 to 2015.",
+          "source_id": "S11"
+        }
+      ],
+      "unresolved": [
+        "ENTIRE_MASTERPLAN_VS_PHASE1_UNITS",
+        "REVISED_HANDOVER_IS_FORECAST_ONLY"
+      ]
+    },
+    {
+      "id": "hist-theviewatrivierapoint",
+      "name": "The View at Riviera Point",
+      "legacy_scope": "HCMC_old_boundary",
+      "source_ids": [
+        "S13"
+      ],
+      "price_ids": [
+        "P09"
+      ],
+      "candidate_facts": [
+        {
+          "date": "2017-03-09",
+          "event": "CafeLand reports The View as Riviera Point Phase 2 (1B), 3 towers of 40 floors and 518 apartments; planned release on 25 Mar 2017. Planned Q4/2019 handover is not acceptance.",
+          "source_id": "S13"
+        }
+      ],
+      "unresolved": [
+        "PROPOSED_HANDOVER_DATE_NOT_ACTUAL",
+        "RIVIERA_POINT_PARENT_PHASE_TOWER_RELATION_TO_VERIFY"
+      ]
+    }
+  ],
+  "price_observations": [
+    {
+      "id": "P01",
+      "project_id": "hist-thevista",
+      "source_id": "S01",
+      "published_at": "2007-10-19",
+      "price_type": "REPORT_ESTIMATE",
+      "currency": "USD",
+      "amount": 1600,
+      "amount_comparator": "=",
+      "unit": "sqm",
+      "scope": "The Vista project-wide 2007 launch average",
+      "market_segment": "PRIMARY_DEVELOPER_LAUNCH",
+      "price_basis": "NEWSPAPER_REPORTED_AVERAGE",
+      "unit_area_sqm": null,
+      "area_basis": "UNKNOWN_NET_VS_GROSS",
+      "vat_inclusion": "UNKNOWN",
+      "fees_inclusion": "UNKNOWN",
+      "matched_transaction_verified": false,
+      "transaction_document_url": null,
+      "observed_listing_count": null,
+      "rights_status": "FACTUAL_CITATION_ONLY_NO_FEED_PERMISSION",
+      "review_status": "REVIEW_ONLY",
+      "notes": "Average from contemporary project introduction; NOT unit-specific."
+    },
+    {
+      "id": "P02",
+      "project_id": "hist-thevista",
+      "source_id": "S02",
+      "published_at": "2008-10-30",
+      "price_type": "REPORT_ESTIMATE",
+      "currency": "USD",
+      "amount": 1600,
+      "amount_comparator": "=",
+      "unit": "sqm",
+      "scope": "The Vista popular resale asking level in Oct 2008",
+      "market_segment": "SECONDARY_MARKET",
+      "price_basis": "BROKER_MARKET_REPORT_APPROX",
+      "unit_area_sqm": null,
+      "area_basis": "UNKNOWN_NET_VS_GROSS",
+      "vat_inclusion": "UNKNOWN",
+      "fees_inclusion": "UNKNOWN",
+      "matched_transaction_verified": false,
+      "transaction_document_url": null,
+      "observed_listing_count": null,
+      "rights_status": "FACTUAL_CITATION_ONLY_NO_FEED_PERMISSION",
+      "review_status": "REVIEW_ONLY",
+      "notes": "Approx USD1,600/sqm according to agents quoted by CafeF; not an exact observed listing; no matched unit."
+    },
+    {
+      "id": "P03",
+      "project_id": "hist-thevista",
+      "source_id": "S03",
+      "published_at": "2010-11-02",
+      "price_type": "PRICE_ASKING",
+      "currency": "USD",
+      "amount": 1900,
+      "amount_comparator": "=",
+      "unit": "sqm",
+      "scope": "The Vista tower 4 offering; stated usable unit areas 101-221 sqm range",
+      "market_segment": "PRIMARY_DEVELOPER",
+      "price_basis": "DEVELOPER_STARTING_ASK",
+      "unit_area_sqm": null,
+      "area_basis": "UNKNOWN_NET_VS_GROSS",
+      "vat_inclusion": "UNKNOWN",
+      "fees_inclusion": "UNKNOWN",
+      "matched_transaction_verified": false,
+      "transaction_document_url": null,
+      "observed_listing_count": null,
+      "rights_status": "FACTUAL_CITATION_ONLY_NO_FEED_PERMISSION",
+      "review_status": "REVIEW_ONLY",
+      "notes": "Offering of tower 4 (50 units). Area range describes offered unit mix, not area of the lowest-priced specific unit."
+    },
+    {
+      "id": "P04",
+      "project_id": "hist-parcspring",
+      "source_id": "S06",
+      "published_at": "2012-07-09",
+      "price_type": "REPORT_ESTIMATE",
+      "currency": "USD",
+      "amount": 1000,
+      "amount_comparator": "<",
+      "unit": "sqm",
+      "scope": "PARCSpring value housing launch 2012",
+      "market_segment": "PRIMARY_DEVELOPER",
+      "price_basis": "PRESS_REPORTED_UPPER_BOUND",
+      "unit_area_sqm": null,
+      "area_basis": "UNKNOWN_NET_VS_GROSS",
+      "vat_inclusion": "UNKNOWN",
+      "fees_inclusion": "UNKNOWN",
+      "matched_transaction_verified": false,
+      "transaction_document_url": null,
+      "observed_listing_count": null,
+      "rights_status": "FACTUAL_CITATION_ONLY_NO_FEED_PERMISSION",
+      "review_status": "REVIEW_ONLY",
+      "notes": "Source explicitly says price LESS THAN USD1,000/sqm; upper bound is exclusive, not actual or exact price."
+    },
+    {
+      "id": "P05",
+      "project_id": "hist-estellaheights",
+      "source_id": "S10",
+      "published_at": "2017-04-11",
+      "price_type": "PRICE_ASKING",
+      "currency": "VND",
+      "amount": 40000000,
+      "amount_comparator": "=",
+      "unit": "sqm",
+      "scope": "Estella Heights Phase 1 / 496 units / two 33-storey towers",
+      "market_segment": "PRIMARY_DEVELOPER",
+      "price_basis": "STARTING_DEVELOPER_PRICE_RELAYED_BY_PRESS",
+      "unit_area_sqm": null,
+      "area_basis": "UNKNOWN_NET_VS_GROSS",
+      "vat_inclusion": "UNKNOWN",
+      "fees_inclusion": "UNKNOWN",
+      "matched_transaction_verified": false,
+      "transaction_document_url": null,
+      "observed_listing_count": null,
+      "rights_status": "FACTUAL_CITATION_ONLY_NO_FEED_PERMISSION",
+      "review_status": "REVIEW_ONLY",
+      "notes": "From VND40m/sqm; only developer claim, not transaction."
+    },
+    {
+      "id": "P06",
+      "project_id": "hist-estellaheights",
+      "source_id": "S10",
+      "published_at": "2017-04-11",
+      "price_type": "PRICE_ASKING",
+      "currency": "VND",
+      "amount": 45000000,
+      "amount_comparator": "=",
+      "unit": "sqm",
+      "scope": "Estella Heights Phase 2 / 376 units / towers 3 and 4",
+      "market_segment": "PRIMARY_DEVELOPER",
+      "price_basis": "STARTING_DEVELOPER_PRICE_RELAYED_BY_PRESS",
+      "unit_area_sqm": null,
+      "area_basis": "UNKNOWN_NET_VS_GROSS",
+      "vat_inclusion": "UNKNOWN",
+      "fees_inclusion": "UNKNOWN",
+      "matched_transaction_verified": false,
+      "transaction_document_url": null,
+      "observed_listing_count": null,
+      "rights_status": "FACTUAL_CITATION_ONLY_NO_FEED_PERMISSION",
+      "review_status": "REVIEW_ONLY",
+      "notes": "From VND45m/sqm; reported projected 2019 completion not confirmed handover."
+    },
+    {
+      "id": "P07",
+      "project_id": "hist-rivierapoint",
+      "source_id": "S11",
+      "published_at": "2011-06",
+      "price_type": "PRICE_ASKING",
+      "currency": "VND",
+      "amount": 30723000,
+      "amount_comparator": "=",
+      "unit": "sqm",
+      "scope": "Riviera Point Phase 1 initial public offer",
+      "market_segment": "PRIMARY_DEVELOPER",
+      "price_basis": "DEVELOPER_STARTING_ASK",
+      "unit_area_sqm": null,
+      "area_basis": "UNKNOWN_NET_VS_GROSS",
+      "vat_inclusion": "UNKNOWN",
+      "fees_inclusion": "UNKNOWN",
+      "matched_transaction_verified": false,
+      "transaction_document_url": null,
+      "observed_listing_count": null,
+      "rights_status": "FACTUAL_CITATION_ONLY_NO_FEED_PERMISSION",
+      "review_status": "REVIEW_ONLY",
+      "notes": "Issuer stated from VND30,723,000/sqm. Exact day within June 2011 not present. Booking share does not prove transactions."
+    },
+    {
+      "id": "P08",
+      "project_id": "hist-rivierapoint",
+      "source_id": "S12",
+      "published_at": "2015-03-10",
+      "price_type": "REPORT_ESTIMATE",
+      "currency": "VND",
+      "amount": 35500000,
+      "amount_comparator": "=",
+      "unit": "sqm",
+      "scope": "Riviera Point market asking reference early March 2015",
+      "market_segment": "UNRESOLVED_PRIMARY_OR_SECONDARY",
+      "price_basis": "NEWSROOM_MARKET_SURVEY",
+      "unit_area_sqm": null,
+      "area_basis": "UNKNOWN_NET_VS_GROSS",
+      "vat_inclusion": "UNKNOWN",
+      "fees_inclusion": "UNKNOWN",
+      "matched_transaction_verified": false,
+      "transaction_document_url": null,
+      "observed_listing_count": null,
+      "rights_status": "FACTUAL_CITATION_ONLY_NO_FEED_PERMISSION",
+      "review_status": "REVIEW_ONLY",
+      "notes": "VnExpress mentions 33.5m/sqm Q4 2014 and 35.5m/sqm in early Mar 2015; only March snapshot recorded, not repeated as 2 independent offers."
+    },
+    {
+      "id": "P09",
+      "project_id": "hist-theviewatrivierapoint",
+      "source_id": "S13",
+      "published_at": "2017-03-09",
+      "price_type": "PRICE_ASKING",
+      "currency": "VND",
+      "amount": 31000000,
+      "amount_comparator": "=",
+      "unit": "sqm",
+      "scope": "The View at Riviera Point Phase 1B; reported 3 towers and 518 apartments",
+      "market_segment": "PRIMARY_DEVELOPER",
+      "price_basis": "LAUNCH_STARTING_ASK_REPORTED_BY_PRESS",
+      "unit_area_sqm": null,
+      "area_basis": "UNKNOWN_NET_VS_GROSS",
+      "vat_inclusion": "UNKNOWN",
+      "fees_inclusion": "UNKNOWN",
+      "matched_transaction_verified": false,
+      "transaction_document_url": null,
+      "observed_listing_count": null,
+      "rights_status": "FACTUAL_CITATION_ONLY_NO_FEED_PERMISSION",
+      "review_status": "REVIEW_ONLY",
+      "notes": "Announcement for planned event 25 Mar 2017. Handover Q4/2019 was only a projection."
+    }
+  ],
+  "review_conflicts": [
+    {
+      "id": "C01",
+      "related_project_ids": [
+        "hist-thevista"
+      ],
+      "field": "total_residential_units",
+      "values": [
+        {
+          "value": 750,
+          "source_id": "S01"
+        },
+        {
+          "value": 759,
+          "source_id": "S04"
+        }
+      ],
+      "state": "UNRESOLVED_REVIEW_REQUIRED",
+      "note": "Do not assume source is counting the same inventory or rectify to either number."
+    },
+    {
+      "id": "C02",
+      "related_project_ids": [
+        "hist-parcspring"
+      ],
+      "field": "residential_units_total_or_phase",
+      "values": [
+        {
+          "value": 394,
+          "source_id": "S06",
+          "date": "2012-07-09"
+        },
+        {
+          "value": 974,
+          "source_id": "S05",
+          "date": "UNDATED"
+        }
+      ],
+      "state": "SCOPE_DIFFERENCE_UNRESOLVED",
+      "note": "2012 394 residential + 10 retail versus modern company listing 974; investigate phase expansion before calling either wrong."
+    },
+    {
+      "id": "C03",
+      "related_project_ids": [
+        "hist-parcspring"
+      ],
+      "field": "ward_legacy",
+      "values": [
+        {
+          "value": "Binh Trung Dong (narrative)",
+          "source_id": "S05"
+        },
+        {
+          "value": "Binh Trung Tay (address block)",
+          "source_id": "S05"
+        }
+      ],
+      "state": "INTERNAL_SINGLE_SOURCE_INCONSISTENCY",
+      "note": "No WGS84 approval. Do not confuse official modern page address with title/legal boundary."
+    }
+  ],
+  "rights_connection_queue": [
+    {
+      "domains": [
+        "vnexpress.net",
+        "cafef.vn",
+        "vietnamplus.vn",
+        "vir.com.vn",
+        "thanhnien.vn",
+        "tuoitre.vn",
+        "cafeland.vn"
+      ],
+      "request": "Obtain syndication/API agreement for recurring historical/asking/rental price observations. Until then link and cite minimal facts only.",
+      "feed_license": "NOT_GRANTED"
+    },
+    {
+      "domains": [
+        "capitaland.com",
+        "keppel.com"
+      ],
+      "request": "Obtain rights for structured developer project notices, property metadata and historical price releases; permission must specifically cover commercial feed and republication.",
+      "feed_license": "NOT_GRANTED"
+    }
+  ],
+  "blocked_source_queue": [],
+  "feed_monitor": {
+    "repository_main_latest": "2026-10-19T01:29:53.280Z",
+    "new_daily_run_verified": false,
+    "licensed_price_feeds_confirmed": 0,
+    "source_watch_daily_staleness": "No newer official developer watch log found in main during this check; do not assert today's watch ran.",
+    "note": "No new recurring scrape attempted; PR #81 proposes hourly permission-gated pilot but remains unmerged."
+  },
+  "validation": {
+    "canonical_dossiers": 6,
+    "new_url_sources": 13,
+    "evidence_backed_price_candidates": 9,
+    "price_types": {
+      "PRICE_ASKING": 5,
+      "REPORT_ESTIMATE": 4,
+      "RENT_ASKING": 0,
+      "TRANSACTION_VERIFIED": 0
+    },
+    "wgs84_correlated_new": 0,
+    "main_catalog_changes": 0,
+    "verified_legal_claims_added": 0,
+    "rights_approved_for_feed": 0
+  },
+  "global_guards": {
+    "the_felix_vs_felix_homes": "SEPARATE_IDENTITIES_DO_NOT_MERGE",
+    "the_win_city_tay_ninh": "OUTSIDE_HCMC_BOUNDARY",
+    "norton_park": "CONFLICT_HOLD_NO_APPROVAL"
+  },
+  "reviewer_actions": [
+    "Check 750 vs 759 Vista accounting and tower-count basis against original planning drawings.",
+    "Clarify PARCSpring 394 launch cohort vs 974 current group total and official page's inconsistent ward.",
+    "Compare 2011 Riviera Point 549-unit phase and 518-unit The View phase against masterplan to avoid duplicate counting.",
+    "Require area basis, VAT, offer cohort and source rights before price public release.",
+    "Do not infer transactions from developer sold/booking percentages or press marketing."
+  ]
+}
