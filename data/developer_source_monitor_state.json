@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "last_run_at": "2026-11-10T07:59:44.783Z",
+  "last_run_at": "2026-11-11T07:29:36.203Z",
   "status": "checked",
   "sources": {
     "https://akari.vn/": {
-      "checked_at": "2026-11-10T07:59:30.475Z",
+      "checked_at": "2026-11-11T07:29:25.155Z",
       "last_status": "unchanged",
       "last_http_status": 200,
       "title": "Căn hộ Akari City Nam Long - 【Website Chính Thức】®",
@@ -20,11 +20,11 @@
         "location"
       ],
       "digest": "ecb4974f24506ec35c2a1c97317b",
-      "last_success_at": "2026-11-10T07:59:30.475Z",
+      "last_success_at": "2026-11-11T07:29:25.155Z",
       "reason": null
     },
     "https://bcons.com.vn/": {
-      "checked_at": "2026-11-10T07:59:35.675Z",
+      "checked_at": "2026-11-11T07:29:27.931Z",
       "last_status": "unchanged",
       "last_http_status": 200,
       "title": "Trang Chủ - CÔNG TY CỔ PHẦN ĐẦU TƯ XÂY DỰNG BCONS",
@@ -35,11 +35,11 @@
         "timeline"
       ],
       "digest": "8d5f3a09e6d279c1226c2f7e1635",
-      "last_success_at": "2026-11-10T07:59:35.675Z",
+      "last_success_at": "2026-11-11T07:29:27.931Z",
       "reason": null
     },
     "https://c-holdings.vn/the-felix": {
-      "checked_at": "2026-11-10T07:59:36.847Z",
+      "checked_at": "2026-11-11T07:29:29.368Z",
       "last_status": "unchanged",
       "last_http_status": 200,
       "title": "THE FELIX - Công ty cổ phần C-Holdings",
@@ -50,12 +50,12 @@
         "units_towers"
       ],
       "digest": "049943601611313533f639fe194d",
-      "last_success_at": "2026-11-10T07:59:36.847Z",
+      "last_success_at": "2026-11-11T07:29:29.368Z",
       "reason": null
     },
     "https://market.vinhomes.vn/phan-khu/glory-heights-vinhomes-grand-park": {
-      "checked_at": "2026-11-10T07:59:35.553Z",
-      "last_status": "source_changed",
+      "checked_at": "2026-11-11T07:29:27.795Z",
+      "last_status": "unchanged",
       "last_http_status": 200,
       "title": "Glory Heights Vinhomes Grand Park - Giá & CSBH T11/2026",
       "project_mentions": [
@@ -70,11 +70,11 @@
         "location"
       ],
       "digest": "c0677cb3001c14b5cccef5d5ab06",
-      "last_success_at": "2026-11-10T07:59:35.553Z",
+      "last_success_at": "2026-11-11T07:29:27.795Z",
       "reason": null
     },
     "https://masterisehomes.com/": {
-      "checked_at": "2026-11-10T07:59:28.487Z",
+      "checked_at": "2026-11-11T07:29:22.732Z",
       "last_status": "no_project_text_on_official_page",
       "last_http_status": 200,
       "title": "Masterise Homes | A Member Of Masterise Group | Masterise Homes",
@@ -85,7 +85,7 @@
       "reason": null
     },
     "https://mizuki.vn/": {
-      "checked_at": "2026-11-10T07:59:30.419Z",
+      "checked_at": "2026-11-11T07:29:24.062Z",
       "last_status": "unchanged",
       "last_http_status": 200,
       "title": "Mizuki Park: Trang chính thức của Nam Long Group (Hose: NLG)",
@@ -94,28 +94,27 @@
       ],
       "signal_topics": [],
       "digest": "d0043cb5d75d0bc1744df22d8a12",
-      "last_success_at": "2026-11-10T07:59:30.419Z",
+      "last_success_at": "2026-11-11T07:29:24.062Z",
       "reason": null
     },
     "https://phatdat.com.vn/": {
-      "checked_at": "2026-11-10T07:59:37.807Z",
-      "last_status": "unchanged",
+      "checked_at": "2026-11-11T07:29:29.679Z",
+      "last_status": "source_changed",
       "last_http_status": 200,
       "title": "Phát Đạt",
       "project_mentions": [
         "lapura"
       ],
       "signal_topics": [
-        "project_scale",
-        "legal",
+        "timeline",
         "location"
       ],
-      "digest": "eb8c1f5fd77fa6e24236dd47fe14",
-      "last_success_at": "2026-11-10T07:59:37.807Z",
+      "digest": "22cee303dd5469eaa61d8932e812",
+      "last_success_at": "2026-11-11T07:29:29.679Z",
       "reason": null
     },
     "https://phumyhung.vn/": {
-      "checked_at": "2026-11-10T07:59:29.985Z",
+      "checked_at": "2026-11-11T07:29:23.877Z",
       "last_status": "no_project_text_on_official_page",
       "last_http_status": 200,
       "title": "Phú Mỹ Hưng | Đô thị văn minh hiện đại (Website chính thức)",
@@ -126,7 +125,7 @@
       "reason": null
     },
     "https://sonkimland.vn/residential": {
-      "checked_at": "2026-11-10T07:59:25.604Z",
+      "checked_at": "2026-11-11T07:29:20.217Z",
       "last_status": "unchanged",
       "last_http_status": 200,
       "title": "Residential | SonKim Land",
@@ -139,11 +138,11 @@
         "location"
       ],
       "digest": "d6fb9f06a6dbfbb7ee007ab8edc6",
-      "last_success_at": "2026-11-10T07:59:25.604Z",
+      "last_success_at": "2026-11-11T07:29:20.217Z",
       "reason": null
     },
     "https://theorigami.vinhomes.vn/the-origami-park/": {
-      "checked_at": "2026-11-10T07:59:33.092Z",
+      "checked_at": "2026-11-11T07:29:27.360Z",
       "last_status": "unchanged",
       "last_http_status": 200,
       "title": "The Origami",
@@ -159,11 +158,11 @@
         "location"
       ],
       "digest": "e9700c93740fdbbeb0f55cb94e63",
-      "last_success_at": "2026-11-10T07:59:33.092Z",
+      "last_success_at": "2026-11-11T07:29:27.360Z",
       "reason": null
     },
     "https://vinhomes.vn/": {
-      "checked_at": "2026-11-10T07:59:29.072Z",
+      "checked_at": "2026-11-11T07:29:23.032Z",
       "last_status": "skipped_robots",
       "last_http_status": null,
       "title": null,
@@ -174,7 +173,7 @@
       "reason": "robots_http_403"
     },
     "https://vinhomes.vn/vi/vinhomes-grand-park": {
-      "checked_at": "2026-11-10T07:59:29.586Z",
+      "checked_at": "2026-11-11T07:29:23.661Z",
       "last_status": "skipped_robots",
       "last_http_status": null,
       "title": null,
@@ -185,7 +184,7 @@
       "reason": "robots_http_403"
     },
     "https://www.angia.com.vn/vi/du-an/du-an-dang-trien-khai/the-gio-riverside.html": {
-      "checked_at": "2026-11-10T07:59:39.466Z",
+      "checked_at": "2026-11-11T07:29:31.904Z",
       "last_status": "skipped_robots",
       "last_http_status": null,
       "title": null,
@@ -196,7 +195,7 @@
       "reason": "robots_unavailable_fetch failed"
     },
     "https://www.capitaland.com/vn/en/stay/residential-development-listing/sycamore.html": {
-      "checked_at": "2026-11-10T07:59:34.778Z",
+      "checked_at": "2026-11-11T07:29:27.153Z",
       "last_status": "unchanged",
       "last_http_status": 200,
       "title": "SYCAMORE | CapitaLand",
@@ -205,11 +204,11 @@
       ],
       "signal_topics": [],
       "digest": "ee93ee16c7109d850560d7f066b2",
-      "last_success_at": "2026-11-10T07:59:34.778Z",
+      "last_success_at": "2026-11-11T07:29:27.153Z",
       "reason": null
     },
     "https://www.dic.vn/du-an-dic-phoenix": {
-      "checked_at": "2026-11-10T07:59:41.333Z",
+      "checked_at": "2026-11-11T07:29:33.061Z",
       "last_status": "unchanged",
       "last_http_status": 200,
       "title": "CHUNG CƯ DIC PHOENIX | DIC Group",
@@ -222,11 +221,11 @@
         "location"
       ],
       "digest": "6a8e97f3fb619013ede3c44a5ccb",
-      "last_success_at": "2026-11-10T07:59:41.333Z",
+      "last_success_at": "2026-11-11T07:29:33.061Z",
       "reason": null
     },
     "https://www.gamudaland.com.vn/vn/developments/township/eaton-park": {
-      "checked_at": "2026-11-10T07:59:27.393Z",
+      "checked_at": "2026-11-11T07:29:22.012Z",
       "last_status": "skipped_robots",
       "last_http_status": null,
       "title": null,
@@ -237,7 +236,7 @@
       "reason": "robots_unavailable_fetch failed"
     },
     "https://www.gamudaland.com.vn/vn/developments/township/elysian": {
-      "checked_at": "2026-11-10T07:59:28.038Z",
+      "checked_at": "2026-11-11T07:29:22.632Z",
       "last_status": "skipped_robots",
       "last_http_status": null,
       "title": null,
@@ -248,7 +247,7 @@
       "reason": "robots_unavailable_fetch failed"
     },
     "https://www.hungthinhcorp.com.vn/": {
-      "checked_at": "2026-11-10T07:59:40.611Z",
+      "checked_at": "2026-11-11T07:29:32.821Z",
       "last_status": "unchanged",
       "last_http_status": 200,
       "title": "Trang chủ - TẬP ĐOÀN HƯNG THỊNH",
@@ -257,11 +256,11 @@
       ],
       "signal_topics": [],
       "digest": "e2d4486bbc0ff4ca2ebc1552a889",
-      "last_success_at": "2026-11-10T07:59:40.611Z",
+      "last_success_at": "2026-11-11T07:29:32.821Z",
       "reason": null
     },
     "https://www.keppel.com/realestate/About-Us/Our-Projects/Vietnam": {
-      "checked_at": "2026-11-10T07:59:26.108Z",
+      "checked_at": "2026-11-11T07:29:20.272Z",
       "last_status": "unchanged",
       "last_http_status": 200,
       "title": "Vietnam | Keppel (Real Estate Division)",
@@ -274,11 +273,11 @@
         "units_towers"
       ],
       "digest": "832b18b2c248f96b7456b86f4650",
-      "last_success_at": "2026-11-10T07:59:26.108Z",
+      "last_success_at": "2026-11-11T07:29:20.272Z",
       "reason": null
     },
     "https://www.novaland.com.vn/the-sun-avenue": {
-      "checked_at": "2026-11-10T07:59:28.439Z",
+      "checked_at": "2026-11-11T07:29:22.120Z",
       "last_status": "unchanged",
       "last_http_status": 200,
       "title": "The Sun Avenue - Công ty Cổ phần Tập đoàn Đầu tư Địa ốc No Va (Mã CK: NVL)",
@@ -287,11 +286,11 @@
       ],
       "signal_topics": [],
       "digest": "7ebdb77f9bb4b113d3e65eea2f5f",
-      "last_success_at": "2026-11-10T07:59:28.439Z",
+      "last_success_at": "2026-11-11T07:29:22.120Z",
       "reason": null
     },
     "https://lephong.vn/vi-the-chu-dau-tu-nang-tam-du-an-the-emerald-68/": {
-      "checked_at": "2026-11-10T07:59:39.109Z",
+      "checked_at": "2026-11-11T07:29:30.996Z",
       "last_status": "unchanged",
       "last_http_status": 200,
       "title": "VỊ THẾ CHỦ ĐẦU TƯ NÂNG TẦM DỰ ÁN THE EMERALD 68 - Lê Phong",
@@ -306,11 +305,11 @@
         "location"
       ],
       "digest": "359b29b132712b841f22d816c206",
-      "last_success_at": "2026-11-10T07:59:39.109Z",
+      "last_success_at": "2026-11-11T07:29:30.996Z",
       "reason": null
     },
     "https://refico.com.vn/vi/specialities/the-river/": {
-      "checked_at": "2026-11-10T07:59:26.110Z",
+      "checked_at": "2026-11-11T07:29:20.274Z",
       "last_status": "no_project_text_on_official_page",
       "last_http_status": 200,
       "title": "THE RIVER Từ Refico",
@@ -326,7 +325,7 @@
       "reason": null
     },
     "https://www.capitaland.com/vn/en/stay/residential-development-listing/vista-verde.html": {
-      "checked_at": "2026-11-10T07:59:32.698Z",
+      "checked_at": "2026-11-11T07:29:25.665Z",
       "last_status": "unchanged",
       "last_http_status": 200,
       "title": "Vista Verde | CapitaLand",
@@ -335,7 +334,7 @@
       ],
       "signal_topics": [],
       "digest": "121d97d4f2c1cbdb46a92ec99208",
-      "last_success_at": "2026-11-10T07:59:32.698Z",
+      "last_success_at": "2026-11-11T07:29:25.665Z",
       "reason": null
     }
   },
@@ -343,7 +342,7 @@
     "metropole": {
       "name": "The Metropole Thu Thiem",
       "official_brand_site": "https://sonkimland.vn/residential",
-      "last_checked_at": "2026-11-10T07:59:25.604Z",
+      "last_checked_at": "2026-11-11T07:29:20.217Z",
       "monitor_status": "unchanged",
       "explicit_project_mention": true,
       "auto_published_facts": 0
@@ -351,7 +350,7 @@
     "empire": {
       "name": "Empire City Thu Thiem",
       "official_brand_site": "https://www.keppel.com/realestate/About-Us/Our-Projects/Vietnam",
-      "last_checked_at": "2026-11-10T07:59:26.108Z",
+      "last_checked_at": "2026-11-11T07:29:20.272Z",
       "monitor_status": "unchanged",
       "explicit_project_mention": true,
       "auto_published_facts": 0
@@ -359,7 +358,7 @@
     "river": {
       "name": "The River Thu Thiem",
       "official_brand_site": "https://refico.com.vn/vi/specialities/the-river/",
-      "last_checked_at": "2026-11-10T07:59:26.110Z",
+      "last_checked_at": "2026-11-11T07:29:20.274Z",
       "monitor_status": "no_project_text_on_official_page",
       "explicit_project_mention": false,
       "auto_published_facts": 0
@@ -375,7 +374,7 @@
     "eaton": {
       "name": "Eaton Park",
       "official_brand_site": "https://www.gamudaland.com.vn/vn/developments/township/eaton-park",
-      "last_checked_at": "2026-11-10T07:59:27.393Z",
+      "last_checked_at": "2026-11-11T07:29:22.012Z",
       "monitor_status": "skipped_robots",
       "explicit_project_mention": false,
       "auto_published_facts": 0
@@ -383,7 +382,7 @@
     "sunavenue": {
       "name": "The Sun Avenue",
       "official_brand_site": "https://www.novaland.com.vn/the-sun-avenue",
-      "last_checked_at": "2026-11-10T07:59:28.439Z",
+      "last_checked_at": "2026-11-11T07:29:22.120Z",
       "monitor_status": "unchanged",
       "explicit_project_mention": true,
       "auto_published_facts": 0
@@ -391,7 +390,7 @@
     "masterithaodien": {
       "name": "Masteri Thao Dien",
       "official_brand_site": "https://masterisehomes.com/",
-      "last_checked_at": "2026-11-10T07:59:28.487Z",
+      "last_checked_at": "2026-11-11T07:29:22.732Z",
       "monitor_status": "no_project_text_on_official_page",
       "explicit_project_mention": false,
       "auto_published_facts": 0
@@ -399,7 +398,7 @@
     "gatewaythaodien": {
       "name": "Gateway Thao Dien",
       "official_brand_site": "https://sonkimland.vn/residential",
-      "last_checked_at": "2026-11-10T07:59:25.604Z",
+      "last_checked_at": "2026-11-11T07:29:20.217Z",
       "monitor_status": "unchanged",
       "explicit_project_mention": true,
       "auto_published_facts": 0
@@ -407,7 +406,7 @@
     "vcp": {
       "name": "Vinhomes Central Park",
       "official_brand_site": "https://vinhomes.vn/",
-      "last_checked_at": "2026-11-10T07:59:29.072Z",
+      "last_checked_at": "2026-11-11T07:29:23.032Z",
       "monitor_status": "skipped_robots",
       "explicit_project_mention": false,
       "auto_published_facts": 0
@@ -415,7 +414,7 @@
     "mcp": {
       "name": "Masteri Centre Point",
       "official_brand_site": "https://masterisehomes.com/",
-      "last_checked_at": "2026-11-10T07:59:28.487Z",
+      "last_checked_at": "2026-11-11T07:29:22.732Z",
       "monitor_status": "no_project_text_on_official_page",
       "explicit_project_mention": false,
       "auto_published_facts": 0
@@ -423,7 +422,7 @@
     "lumiere": {
       "name": "Lumiere Boulevard",
       "official_brand_site": "https://masterisehomes.com/",
-      "last_checked_at": "2026-11-10T07:59:28.487Z",
+      "last_checked_at": "2026-11-11T07:29:22.732Z",
       "monitor_status": "no_project_text_on_official_page",
       "explicit_project_mention": false,
       "auto_published_facts": 0
@@ -431,7 +430,7 @@
     "vingrand": {
       "name": "Vinhomes Grand Park (tong the)",
       "official_brand_site": "https://vinhomes.vn/vi/vinhomes-grand-park",
-      "last_checked_at": "2026-11-10T07:59:29.586Z",
+      "last_checked_at": "2026-11-11T07:29:23.661Z",
       "monitor_status": "skipped_robots",
       "explicit_project_mention": false,
       "auto_published_facts": 0
@@ -439,7 +438,7 @@
     "midtown": {
       "name": "Midtown Phu My Hung",
       "official_brand_site": "https://phumyhung.vn/",
-      "last_checked_at": "2026-11-10T07:59:29.985Z",
+      "last_checked_at": "2026-11-11T07:29:23.877Z",
       "monitor_status": "no_project_text_on_official_page",
       "explicit_project_mention": false,
       "auto_published_facts": 0
@@ -447,7 +446,7 @@
     "celesta": {
       "name": "Celesta Rise",
       "official_brand_site": "https://www.keppel.com/realestate/About-Us/Our-Projects/Vietnam",
-      "last_checked_at": "2026-11-10T07:59:26.108Z",
+      "last_checked_at": "2026-11-11T07:29:20.272Z",
       "monitor_status": "unchanged",
       "explicit_project_mention": true,
       "auto_published_facts": 0
@@ -455,7 +454,7 @@
     "mizuki": {
       "name": "Mizuki Park - can ho",
       "official_brand_site": "https://mizuki.vn/",
-      "last_checked_at": "2026-11-10T07:59:30.419Z",
+      "last_checked_at": "2026-11-11T07:29:24.062Z",
       "monitor_status": "unchanged",
       "explicit_project_mention": true,
       "auto_published_facts": 0
@@ -463,7 +462,7 @@
     "akari": {
       "name": "Akari City",
       "official_brand_site": "https://akari.vn/",
-      "last_checked_at": "2026-11-10T07:59:30.475Z",
+      "last_checked_at": "2026-11-11T07:29:25.155Z",
       "monitor_status": "unchanged",
       "explicit_project_mention": true,
       "auto_published_facts": 0
@@ -471,7 +470,7 @@
     "vista": {
       "name": "Vista Verde",
       "official_brand_site": "https://www.capitaland.com/vn/en/stay/residential-development-listing/vista-verde.html",
-      "last_checked_at": "2026-11-10T07:59:32.698Z",
+      "last_checked_at": "2026-11-11T07:29:25.665Z",
       "monitor_status": "unchanged",
       "explicit_project_mention": true,
       "auto_published_facts": 0
@@ -479,7 +478,7 @@
     "palmheights": {
       "name": "Palm Heights",
       "official_brand_site": "https://www.keppel.com/realestate/About-Us/Our-Projects/Vietnam",
-      "last_checked_at": "2026-11-10T07:59:26.108Z",
+      "last_checked_at": "2026-11-11T07:29:20.272Z",
       "monitor_status": "unchanged",
       "explicit_project_mention": true,
       "auto_published_facts": 0
@@ -487,7 +486,7 @@
     "origami": {
       "name": "The Origami - Grand Park",
       "official_brand_site": "https://theorigami.vinhomes.vn/the-origami-park/",
-      "last_checked_at": "2026-11-10T07:59:33.092Z",
+      "last_checked_at": "2026-11-11T07:29:27.360Z",
       "monitor_status": "unchanged",
       "explicit_project_mention": true,
       "auto_published_facts": 0
@@ -495,15 +494,15 @@
     "glory": {
       "name": "Glory Heights - Grand Park",
       "official_brand_site": "https://market.vinhomes.vn/phan-khu/glory-heights-vinhomes-grand-park",
-      "last_checked_at": "2026-11-10T07:59:35.553Z",
-      "monitor_status": "source_changed",
+      "last_checked_at": "2026-11-11T07:29:27.795Z",
+      "monitor_status": "unchanged",
       "explicit_project_mention": true,
       "auto_published_facts": 0
     },
     "bcons": {
       "name": "Bcons City",
       "official_brand_site": "https://bcons.com.vn/",
-      "last_checked_at": "2026-11-10T07:59:35.675Z",
+      "last_checked_at": "2026-11-11T07:29:27.931Z",
       "monitor_status": "unchanged",
       "explicit_project_mention": true,
       "auto_published_facts": 0
@@ -511,7 +510,7 @@
     "felix": {
       "name": "The Felix",
       "official_brand_site": "https://c-holdings.vn/the-felix",
-      "last_checked_at": "2026-11-10T07:59:36.847Z",
+      "last_checked_at": "2026-11-11T07:29:29.368Z",
       "monitor_status": "unchanged",
       "explicit_project_mention": true,
       "auto_published_facts": 0
@@ -519,15 +518,15 @@
     "lapura": {
       "name": "La Pura",
       "official_brand_site": "https://phatdat.com.vn/",
-      "last_checked_at": "2026-11-10T07:59:37.807Z",
-      "monitor_status": "unchanged",
+      "last_checked_at": "2026-11-11T07:29:29.679Z",
+      "monitor_status": "source_changed",
       "explicit_project_mention": true,
       "auto_published_facts": 0
     },
     "emerald": {
       "name": "The Emerald 68",
       "official_brand_site": "https://lephong.vn/vi-the-chu-dau-tu-nang-tam-du-an-the-emerald-68/",
-      "last_checked_at": "2026-11-10T07:59:39.109Z",
+      "last_checked_at": "2026-11-11T07:29:30.996Z",
       "monitor_status": "unchanged",
       "explicit_project_mention": true,
       "auto_published_facts": 0
@@ -543,7 +542,7 @@
     "sungio": {
       "name": "The Gio Riverside",
       "official_brand_site": "https://www.angia.com.vn/vi/du-an/du-an-dang-trien-khai/the-gio-riverside.html",
-      "last_checked_at": "2026-11-10T07:59:39.466Z",
+      "last_checked_at": "2026-11-11T07:29:31.904Z",
       "monitor_status": "skipped_robots",
       "explicit_project_mention": false,
       "auto_published_facts": 0
@@ -551,7 +550,7 @@
     "sycamore": {
       "name": "Sycamore - can ho",
       "official_brand_site": "https://www.capitaland.com/vn/en/stay/residential-development-listing/sycamore.html",
-      "last_checked_at": "2026-11-10T07:59:34.778Z",
+      "last_checked_at": "2026-11-11T07:29:27.153Z",
       "monitor_status": "unchanged",
       "explicit_project_mention": true,
       "auto_published_facts": 0
@@ -567,7 +566,7 @@
     "melody": {
       "name": "Vung Tau Melody",
       "official_brand_site": "https://www.hungthinhcorp.com.vn/",
-      "last_checked_at": "2026-11-10T07:59:40.611Z",
+      "last_checked_at": "2026-11-11T07:29:32.821Z",
       "monitor_status": "unchanged",
       "explicit_project_mention": true,
       "auto_published_facts": 0
@@ -575,7 +574,7 @@
     "phoenix": {
       "name": "DIC Phoenix",
       "official_brand_site": "https://www.dic.vn/du-an-dic-phoenix",
-      "last_checked_at": "2026-11-10T07:59:41.333Z",
+      "last_checked_at": "2026-11-11T07:29:33.061Z",
       "monitor_status": "unchanged",
       "explicit_project_mention": true,
       "auto_published_facts": 0
@@ -591,7 +590,7 @@
     "elysian": {
       "name": "Elysian",
       "official_brand_site": "https://www.gamudaland.com.vn/vn/developments/township/elysian",
-      "last_checked_at": "2026-11-10T07:59:28.038Z",
+      "last_checked_at": "2026-11-11T07:29:22.632Z",
       "monitor_status": "skipped_robots",
       "explicit_project_mention": false,
       "auto_published_facts": 0
