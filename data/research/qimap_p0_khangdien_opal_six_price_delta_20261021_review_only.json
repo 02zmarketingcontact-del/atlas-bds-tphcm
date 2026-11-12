@@ -1,0 +1,589 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "qimap-p0-khangdien-opal-six-20261021-1053",
+  "run_date": "2026-10-21",
+  "base_main_commit": "bc69f77f1318144be78b51ae95cd284da4274117",
+  "publication_status": "REVIEW_ONLY",
+  "do_not_merge_or_auto_publish": true,
+  "comparison": {
+    "main_record_count": 150,
+    "prior_open_prs_reviewed": [
+      77,
+      78,
+      82,
+      83
+    ],
+    "existing_candidate_paths": [
+      "data/qimap_p0_developer_dossier_candidates_20261012_batch01.json",
+      "data/qimap_p0_masteri_datxanh_8_dossier_candidates_20261013_batch10.json"
+    ],
+    "notes": "All six project IDs exist already in main data/project_search_index.json. PR77 has previously staged official Khang Dien profile pages and historical event evidence; this delta proposes three wrong cross-project source-link fixes, not new projects. No price publication.",
+    "corrected_after_index_crosscheck_at": "2026-10-21",
+    "confirmed_main_ids": [
+      "hist-jamila",
+      "hist-safira",
+      "hist-loveravista",
+      "hist-opalriverside",
+      "hist-opalgarden",
+      "hist-luxgarden"
+    ]
+  },
+  "metrics": {
+    "dossiers_with_distinct_new_url": 6,
+    "price_observations_with_dated_citation": 9,
+    "price_type_distribution": {
+      "PRICE_ASKING": 3,
+      "TRANSACTION_VERIFIED": 0,
+      "RENT_ASKING": 0,
+      "REPORT_ESTIMATE": 6
+    },
+    "new_wgs84_coordinates_verified": 0,
+    "provider_authorized_price_feeds": 0,
+    "new_distinct_source_urls": 8,
+    "source_link_mismatches_in_main": 3,
+    "run_delta_since_last_commit": {
+      "new_source_urls": 1,
+      "new_price_observations": 1,
+      "new_corrected_catalog_presence": 6,
+      "new_source_link_mismatches_flagged": 3,
+      "new_wgs84_coordinates_verified": 0,
+      "production_fields_modified": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "JAM",
+      "url": "https://blog.rever.vn/chinh-thuc-mo-ban-jamila-khang-dien-voi-muc-gia-hap-dan-chi-225-trieu-dong-m2",
+      "organization": "Rever",
+      "published_on": "2017-04-21",
+      "source_class": "real_estate_publisher",
+      "access": "html_read",
+      "rights": {
+        "right_to_rehost": "NOT_VERIFIED",
+        "right_to_bulk_extract": "NOT_GRANTED",
+        "permission_status": "LINK_AND_SHORT_FACT_CITATION_REVIEW_ONLY",
+        "redistribution": "BLOCK_UNTIL_AGREEMENT_OR_REVIEW"
+      }
+    },
+    {
+      "id": "KDH_SAF_20190326",
+      "url": "https://www.khangdien.com.vn/thiet-ke-can-ho-safira-hien-dai-phu-hop-voi-da-dang-nhu-cau-song",
+      "organization": "Khang Dien Group",
+      "published_on": "2019-03-26",
+      "access_checked_on": "2026-10-21",
+      "source_class": "developer_publicity_dated_price_plan",
+      "access": "public_html_checked",
+      "rights": {
+        "right_to_rehost": "NOT_VERIFIED",
+        "right_to_bulk_extract": "NOT_GRANTED",
+        "permission_status": "CITE_MINIMUM_FACTS_REVIEW_ONLY",
+        "redistribution": "BLOCK_UNTIL_RIGHTS_GRANTED"
+      }
+    },
+    {
+      "id": "LOV",
+      "url": "https://www.24h.com.vn/kinh-doanh/mua-can-ho-lovera-vista-khang-dien-thanh-toan-chi-2-thang-c161a1108861.html",
+      "organization": "24h",
+      "published_on": "2019-12-19",
+      "source_class": "marketing_editorial",
+      "access": "search_index_verified",
+      "rights": {
+        "right_to_rehost": "NOT_VERIFIED",
+        "right_to_bulk_extract": "NOT_GRANTED",
+        "permission_status": "LINK_AND_SHORT_FACT_CITATION_REVIEW_ONLY",
+        "redistribution": "BLOCK_UNTIL_AGREEMENT_OR_REVIEW"
+      }
+    },
+    {
+      "id": "LUX",
+      "url": "https://vietnambiz.vn/khu-nam-tphcm-nam-2017-soi-dong-du-an-vua-tui-tien-chung-cu-cao-cap-chet-lam-sang-15546.htm",
+      "organization": "Vietnambiz",
+      "published_on": "2017-03-02",
+      "source_class": "press_publisher",
+      "access": "html_read",
+      "rights": {
+        "right_to_rehost": "NOT_VERIFIED",
+        "right_to_bulk_extract": "NOT_GRANTED",
+        "permission_status": "LINK_AND_SHORT_FACT_CITATION_REVIEW_ONLY",
+        "redistribution": "BLOCK_UNTIL_AGREEMENT_OR_REVIEW"
+      }
+    },
+    {
+      "id": "LUX2",
+      "url": "https://vnexpress.net/luxgarden-can-ho-resort-dang-cap-ben-song-sai-gon-3561283.html",
+      "organization": "VnExpress",
+      "published_on": "2017-03-29",
+      "source_class": "promotional_editorial",
+      "access": "html_read",
+      "rights": {
+        "right_to_rehost": "NOT_VERIFIED",
+        "right_to_bulk_extract": "NOT_GRANTED",
+        "permission_status": "LINK_AND_SHORT_FACT_CITATION_REVIEW_ONLY",
+        "redistribution": "BLOCK_UNTIL_AGREEMENT_OR_REVIEW"
+      }
+    },
+    {
+      "id": "OFFLOV",
+      "url": "https://www.khangdien.com.vn/khang-dien-ban-giao-lovera-vista-vuot-tien-do-tiep-tuc-khang-dinh-uy-tin-thuong-hieu",
+      "organization": "Khang Dien Group",
+      "published_on": "2021-05-18",
+      "source_class": "developer_claim_official",
+      "access": "search_index_verified_existing_PR77",
+      "rights": {
+        "right_to_rehost": "NOT_VERIFIED",
+        "right_to_bulk_extract": "NOT_GRANTED",
+        "permission_status": "LINK_AND_SHORT_FACT_CITATION_REVIEW_ONLY",
+        "redistribution": "BLOCK_UNTIL_AGREEMENT_OR_REVIEW"
+      }
+    },
+    {
+      "id": "OPG",
+      "url": "https://thanhnien.vn/sinh-loi-lon-khi-so-huu-can-ho-tren-cung-duong-vang-pham-van-dong-185817410.htm",
+      "organization": "Thanh Nien",
+      "published_on": "2019-01-04",
+      "source_class": "promotional_editorial_market_survey",
+      "access": "html_read",
+      "rights": {
+        "right_to_rehost": "NOT_VERIFIED",
+        "right_to_bulk_extract": "NOT_GRANTED",
+        "permission_status": "LINK_AND_SHORT_FACT_CITATION_REVIEW_ONLY",
+        "redistribution": "BLOCK_UNTIL_AGREEMENT_OR_REVIEW"
+      }
+    },
+    {
+      "id": "OPR",
+      "url": "https://tuoitre.vn/nld/dia-oc/dat-xanh-cong-bo-du-an-resort-opal-riverside-20160510190640592.htm",
+      "organization": "Nguoi Lao Dong via Tuoi Tre",
+      "published_on": "2016-05-10",
+      "source_class": "press_publisher",
+      "access": "html_read",
+      "rights": {
+        "right_to_rehost": "NOT_VERIFIED",
+        "right_to_bulk_extract": "NOT_GRANTED",
+        "permission_status": "LINK_AND_SHORT_FACT_CITATION_REVIEW_ONLY",
+        "redistribution": "BLOCK_UNTIL_AGREEMENT_OR_REVIEW"
+      }
+    },
+    {
+      "id": "SAF",
+      "url": "https://vnexpress.net/nhung-diem-nhan-cua-du-an-can-ho-safira-3812275.html",
+      "organization": "VnExpress",
+      "published_on": "2018-09-20",
+      "source_class": "press_publisher",
+      "access": "html_read",
+      "rights": {
+        "right_to_rehost": "NOT_VERIFIED",
+        "right_to_bulk_extract": "NOT_GRANTED",
+        "permission_status": "LINK_AND_SHORT_FACT_CITATION_REVIEW_ONLY",
+        "redistribution": "BLOCK_UNTIL_AGREEMENT_OR_REVIEW"
+      }
+    }
+  ],
+  "dossiers": [
+    {
+      "project_id": "hist-jamila",
+      "name": "Jamila",
+      "catalog_presence": "MAIN_ARCHIVE_ONLY_EXISTING_150",
+      "historical_location": "Duong song hanh cao toc, nut giao Do Xuan Hop, Quan 9 cu",
+      "new_sources": [
+        "JAM"
+      ],
+      "flags": [
+        "2017 source gives project base asking per m2, no gross/net or VAT basis; do not treat as completed sale"
+      ]
+    },
+    {
+      "project_id": "hist-safira",
+      "name": "Safira",
+      "catalog_presence": "MAIN_ARCHIVE_ONLY_EXISTING_150",
+      "historical_location": "N6 / N5, Phu Huu, Quan 9 cu",
+      "new_sources": [
+        "SAF",
+        "KDH_SAF_20190326"
+      ],
+      "flags": [
+        "Published price is explicitly planned, not actual sale; unit area not supplied"
+      ],
+      "proposed_phase_event": {
+        "event": "planned_block_A_B_sales_launch",
+        "planned_date": "2019-03-30",
+        "source_id": "KDH_SAF_20190326",
+        "verification": "DEVELOPER_ANNOUNCEMENT_ONLY_NOT_EVENT_VERIFIED"
+      }
+    },
+    {
+      "project_id": "hist-loveravista",
+      "name": "Lovera Vista",
+      "catalog_presence": "MAIN_ARCHIVE_ONLY_EXISTING_150",
+      "historical_location": "Duong so 19, KDC Phong Phu 4, Binh Chanh",
+      "new_sources": [
+        "LOV"
+      ],
+      "prior_sources": [
+        "OFFLOV"
+      ],
+      "timeline_issuer_claim": {
+        "event": "initial_apartment_handover",
+        "event_date": "2021-05-15",
+        "issuer": "Khang Dien",
+        "source_id": "OFFLOV",
+        "status": "already_present_in_PR77_not_new"
+      },
+      "flags": [
+        "2019 presale marketing 28m/m2 tim-tuong excludes VAT; not a confirmed transaction"
+      ]
+    },
+    {
+      "project_id": "hist-opalriverside",
+      "name": "Opal Riverside",
+      "catalog_presence": "MAIN_ARCHIVE_ONLY_EXISTING_150",
+      "historical_location": "Duong so 10, Hiep Binh Chanh, Quan Thu Duc cu",
+      "new_sources": [
+        "OPR"
+      ],
+      "reported_tower_codes": [
+        "A1",
+        "A2",
+        "B"
+      ],
+      "reported_tower_count": 3,
+      "flags": [
+        "Three towers A1/A2/B should be mapped to physical structures instead of treating A as exactly one tower; clarify apartment vs penthouse counts"
+      ]
+    },
+    {
+      "project_id": "hist-opalgarden",
+      "name": "Opal Garden",
+      "catalog_presence": "MAIN_ARCHIVE_ONLY_EXISTING_150",
+      "historical_location": "Duong so 20, Hiep Binh Chanh, Quan Thu Duc cu",
+      "new_sources": [
+        "OPG"
+      ],
+      "reported_developer_handover_month": "2018-12",
+      "flags": [
+        "Source is promotional/editorial; publisher-estimated resale prices are not completed transactions",
+        "Retrospective 2016 minimum price and 2019 example are different unit types and cannot form a like-for-like appreciation series"
+      ]
+    },
+    {
+      "project_id": "hist-luxgarden",
+      "name": "LuxGarden",
+      "catalog_presence": "MAIN_ARCHIVE_ONLY_EXISTING_150",
+      "historical_location": "Duong Nguyen Van Quy, Quan 7 cu",
+      "new_sources": [
+        "LUX",
+        "LUX2"
+      ],
+      "reported_blocks": 2,
+      "flags": [
+        "2017 article reports 27 floors and 500 apartments; another 2017 article reports 26 floors and 500 apartments, require phase/floor counting reconciliation",
+        "2017 minimum price is a pre-launch estimate"
+      ]
+    }
+  ],
+  "price_observations": [
+    {
+      "observation_id": "KD_JAM_20170421",
+      "project_id": "hist-jamila",
+      "source_id": "JAM",
+      "publication_date": "2017-04-21",
+      "stated_price_period": "2017-04-20",
+      "market_type": "primary",
+      "price_type": "PRICE_ASKING",
+      "amount": 22.5,
+      "currency_price_unit": "MILLION_VND_PER_M2",
+      "unit_area_m2": null,
+      "area_basis": "UNSPECIFIED",
+      "vat_inclusion": "UNKNOWN",
+      "limitations": "Official sale price as reported after developer announcement; excludes verified transaction",
+      "source_url": "https://blog.rever.vn/chinh-thuc-mo-ban-jamila-khang-dien-voi-muc-gia-hap-dan-chi-225-trieu-dong-m2",
+      "source_rights": {
+        "right_to_rehost": "NOT_VERIFIED",
+        "right_to_bulk_extract": "NOT_GRANTED",
+        "permission_status": "LINK_AND_SHORT_FACT_CITATION_REVIEW_ONLY",
+        "redistribution": "BLOCK_UNTIL_AGREEMENT_OR_REVIEW"
+      },
+      "review_status": "CANDIDATE_REVIEW_ONLY"
+    },
+    {
+      "observation_id": "KD_SAF_20180920",
+      "project_id": "hist-safira",
+      "source_id": "SAF",
+      "publication_date": "2018-09-20",
+      "stated_price_period": null,
+      "market_type": "primary",
+      "price_type": "REPORT_ESTIMATE",
+      "amount": 1.27,
+      "currency_price_unit": "BILLION_VND_PER_UNIT",
+      "unit_area_m2": null,
+      "area_basis": "1_BEDROOM_PLUS_MULTIPURPOSE",
+      "vat_inclusion": "EXCLUDES_VAT",
+      "limitations": "Source explicitly says planned price",
+      "source_url": "https://vnexpress.net/nhung-diem-nhan-cua-du-an-can-ho-safira-3812275.html",
+      "source_rights": {
+        "right_to_rehost": "NOT_VERIFIED",
+        "right_to_bulk_extract": "NOT_GRANTED",
+        "permission_status": "LINK_AND_SHORT_FACT_CITATION_REVIEW_ONLY",
+        "redistribution": "BLOCK_UNTIL_AGREEMENT_OR_REVIEW"
+      },
+      "review_status": "CANDIDATE_REVIEW_ONLY"
+    },
+    {
+      "observation_id": "KD_LOV_20191219",
+      "project_id": "hist-loveravista",
+      "source_id": "LOV",
+      "publication_date": "2019-12-19",
+      "stated_price_period": "2019-12-22",
+      "market_type": "primary",
+      "price_type": "PRICE_ASKING",
+      "amount": 28,
+      "currency_price_unit": "MILLION_VND_PER_M2",
+      "unit_area_m2": null,
+      "area_basis": "TIM_TUONG",
+      "vat_inclusion": "EXCLUDES_VAT",
+      "limitations": "Reported promotional presale minimum for proposed 22 Dec block offering",
+      "source_url": "https://www.24h.com.vn/kinh-doanh/mua-can-ho-lovera-vista-khang-dien-thanh-toan-chi-2-thang-c161a1108861.html",
+      "source_rights": {
+        "right_to_rehost": "NOT_VERIFIED",
+        "right_to_bulk_extract": "NOT_GRANTED",
+        "permission_status": "LINK_AND_SHORT_FACT_CITATION_REVIEW_ONLY",
+        "redistribution": "BLOCK_UNTIL_AGREEMENT_OR_REVIEW"
+      },
+      "review_status": "CANDIDATE_REVIEW_ONLY"
+    },
+    {
+      "observation_id": "DXG_OPR_20160510",
+      "project_id": "hist-opalriverside",
+      "source_id": "OPR",
+      "publication_date": "2016-05-10",
+      "stated_price_period": "2016-05-10",
+      "market_type": "primary",
+      "price_type": "PRICE_ASKING",
+      "amount": 1.6,
+      "currency_price_unit": "BILLION_VND_PER_UNIT",
+      "unit_area_m2": null,
+      "area_basis": "2_BEDROOM",
+      "vat_inclusion": "UNKNOWN",
+      "limitations": "Developer launch announcement reported by newspaper; floor/unit area absent; generic project sizes not substituted",
+      "source_url": "https://tuoitre.vn/nld/dia-oc/dat-xanh-cong-bo-du-an-resort-opal-riverside-20160510190640592.htm",
+      "source_rights": {
+        "right_to_rehost": "NOT_VERIFIED",
+        "right_to_bulk_extract": "NOT_GRANTED",
+        "permission_status": "LINK_AND_SHORT_FACT_CITATION_REVIEW_ONLY",
+        "redistribution": "BLOCK_UNTIL_AGREEMENT_OR_REVIEW"
+      },
+      "review_status": "CANDIDATE_REVIEW_ONLY"
+    },
+    {
+      "observation_id": "DXG_OPG_20190104_RES",
+      "project_id": "hist-opalgarden",
+      "source_id": "OPG",
+      "publication_date": "2019-01-04",
+      "stated_price_period": null,
+      "market_type": "secondary",
+      "price_type": "REPORT_ESTIMATE",
+      "amount": 2.2,
+      "currency_price_unit": "BILLION_VND_PER_UNIT",
+      "unit_area_m2": 58,
+      "area_basis": "M2_UNSPECIFIED_GROSS_NET",
+      "vat_inclusion": "UNKNOWN",
+      "limitations": "Single editorial survey example, 58m2; not a linked listing or transaction",
+      "source_url": "https://thanhnien.vn/sinh-loi-lon-khi-so-huu-can-ho-tren-cung-duong-vang-pham-van-dong-185817410.htm",
+      "source_rights": {
+        "right_to_rehost": "NOT_VERIFIED",
+        "right_to_bulk_extract": "NOT_GRANTED",
+        "permission_status": "LINK_AND_SHORT_FACT_CITATION_REVIEW_ONLY",
+        "redistribution": "BLOCK_UNTIL_AGREEMENT_OR_REVIEW"
+      },
+      "review_status": "CANDIDATE_REVIEW_ONLY"
+    },
+    {
+      "observation_id": "DXG_OPG_20190104_RETRO",
+      "project_id": "hist-opalgarden",
+      "source_id": "OPG",
+      "publication_date": "2019-01-04",
+      "stated_price_period": "2016",
+      "market_type": "primary",
+      "price_type": "REPORT_ESTIMATE",
+      "amount": 1.4,
+      "currency_price_unit": "BILLION_VND_PER_UNIT",
+      "unit_area_m2": null,
+      "area_basis": "2_BEDROOM_AREA_UNAVAILABLE",
+      "vat_inclusion": "UNKNOWN",
+      "limitations": "2019 retrospective report of 2016 developer headline price; date is retrospective and not sale timestamp",
+      "source_url": "https://thanhnien.vn/sinh-loi-lon-khi-so-huu-can-ho-tren-cung-duong-vang-pham-van-dong-185817410.htm",
+      "source_rights": {
+        "right_to_rehost": "NOT_VERIFIED",
+        "right_to_bulk_extract": "NOT_GRANTED",
+        "permission_status": "LINK_AND_SHORT_FACT_CITATION_REVIEW_ONLY",
+        "redistribution": "BLOCK_UNTIL_AGREEMENT_OR_REVIEW"
+      },
+      "review_status": "CANDIDATE_REVIEW_ONLY"
+    },
+    {
+      "observation_id": "DXG_OPG_20190104_RENT",
+      "project_id": "hist-opalgarden",
+      "source_id": "OPG",
+      "publication_date": "2019-01-04",
+      "stated_price_period": null,
+      "market_type": "rental",
+      "price_type": "REPORT_ESTIMATE",
+      "amount": [
+        7,
+        14
+      ],
+      "currency_price_unit": "MILLION_VND_PER_MONTH_RANGE",
+      "unit_area_m2": null,
+      "area_basis": "AREA_NOT_SPECIFIED",
+      "vat_inclusion": "UNKNOWN",
+      "limitations": "Editorial rent range without unit match, not RENT_ASKING",
+      "source_url": "https://thanhnien.vn/sinh-loi-lon-khi-so-huu-can-ho-tren-cung-duong-vang-pham-van-dong-185817410.htm",
+      "source_rights": {
+        "right_to_rehost": "NOT_VERIFIED",
+        "right_to_bulk_extract": "NOT_GRANTED",
+        "permission_status": "LINK_AND_SHORT_FACT_CITATION_REVIEW_ONLY",
+        "redistribution": "BLOCK_UNTIL_AGREEMENT_OR_REVIEW"
+      },
+      "review_status": "CANDIDATE_REVIEW_ONLY"
+    },
+    {
+      "observation_id": "DXG_LUX_20170302",
+      "project_id": "hist-luxgarden",
+      "source_id": "LUX",
+      "publication_date": "2017-03-02",
+      "stated_price_period": "2017-03",
+      "market_type": "primary",
+      "price_type": "REPORT_ESTIMATE",
+      "amount": 1.6,
+      "currency_price_unit": "BILLION_VND_PER_UNIT",
+      "unit_area_m2": null,
+      "area_basis": "2_BEDROOM_AREA_UNAVAILABLE",
+      "vat_inclusion": "UNKNOWN",
+      "limitations": "Pre-launch reference expectation, no accepted price bulletin",
+      "source_url": "https://vietnambiz.vn/khu-nam-tphcm-nam-2017-soi-dong-du-an-vua-tui-tien-chung-cu-cao-cap-chet-lam-sang-15546.htm",
+      "source_rights": {
+        "right_to_rehost": "NOT_VERIFIED",
+        "right_to_bulk_extract": "NOT_GRANTED",
+        "permission_status": "LINK_AND_SHORT_FACT_CITATION_REVIEW_ONLY",
+        "redistribution": "BLOCK_UNTIL_AGREEMENT_OR_REVIEW"
+      },
+      "review_status": "CANDIDATE_REVIEW_ONLY"
+    },
+    {
+      "observation_id": "KD_SAF_20190326_BLOCK_AB_PLAN",
+      "project_id": "hist-safira",
+      "source_id": "KDH_SAF_20190326",
+      "publication_date": "2019-03-26",
+      "stated_price_period": "2019-03-30",
+      "market_type": "primary",
+      "price_type": "REPORT_ESTIMATE",
+      "amount": 1.45,
+      "currency_price_unit": "BILLION_VND_PER_UNIT",
+      "unit_area_m2": null,
+      "area_basis": "1_BEDROOM_PLUS_MULTIPURPOSE_AREA_NOT_MATCHED_TO_PRICE",
+      "project_unit_area_range_m2": [
+        48.65,
+        91.23
+      ],
+      "project_area_basis": "TIM_TUONG_UNMATCHED_PROJECT_RANGE",
+      "vat_inclusion": "EXCLUDES_VAT",
+      "phase_or_tower_scope": "Block A and B launch announced for 2019-03-30",
+      "limitations": "Developer announced a planned starting price; not a confirmed quotation, sale, or transaction. Project-wide area range cannot be assumed to apply to the quoted starting-price unit.",
+      "source_url": "https://www.khangdien.com.vn/thiet-ke-can-ho-safira-hien-dai-phu-hop-voi-da-dang-nhu-cau-song",
+      "source_rights": {
+        "right_to_rehost": "NOT_VERIFIED",
+        "right_to_bulk_extract": "NOT_GRANTED",
+        "permission_status": "CITE_MINIMUM_FACTS_REVIEW_ONLY",
+        "redistribution": "BLOCK_UNTIL_RIGHTS_GRANTED"
+      },
+      "review_status": "CANDIDATE_REVIEW_ONLY"
+    }
+  ],
+  "contradiction_queue": [
+    {
+      "project_id": "hist-luxgarden",
+      "topic": "height",
+      "claims": [
+        {
+          "value": "27 floors",
+          "source_id": "LUX"
+        },
+        {
+          "value": "26 floors",
+          "source_id": "LUX2"
+        }
+      ],
+      "resolution": "UNRESOLVED"
+    },
+    {
+      "project_id": "hist-opalgarden",
+      "topic": "historical_price_comparability",
+      "claims": [
+        {
+          "value": "2016 1.4b per unspecified 2BR",
+          "source_id": "OPG"
+        },
+        {
+          "value": "2019 2.2b per 58m2 sample",
+          "source_id": "OPG"
+        }
+      ],
+      "resolution": "NOT_COMPARABLE_NO_ROI"
+    },
+    {
+      "project_id": "hist-opalriverside",
+      "topic": "tower_identity",
+      "claims": [
+        {
+          "value": "three A1 A2 B",
+          "source_id": "OPR"
+        }
+      ],
+      "resolution": "MAPPING_PENDING"
+    }
+  ],
+  "source_access_queue": [
+    {
+      "url": "https://www.24h.com.vn/kinh-doanh/mua-can-ho-lovera-vista-khang-dien-thanh-toan-chi-2-thang-c161a1108861.html",
+      "status": "search_result_only_full_page_not_opened",
+      "mitigation": "Use human/manual issuer disclosure or licensed feed; no bulk crawling"
+    },
+    {
+      "url": "https://www.khangdien.com.vn/tap-doan-khang-dien-chinh-thuc-mo-ban-du-an-the-privia-thu-hut-hang-ngan-khach-hang-tham-du",
+      "status": "HTTP_403_ON_WEB_OPEN",
+      "mitigation": "Rely on already staged PR77 source only; seek authorized project facts feed if needed"
+    }
+  ],
+  "guardrails": [
+    "The Felix distinct from Felix Homes",
+    "The Win City Duc Hoa is in current Tay Ninh and outside HCMC scope",
+    "Norton Park contradictions require human review",
+    "Do not derive legal eligibility or verified transaction from developer marketing",
+    "No rehosting of third-party body/images or bulk listings without rights",
+    "No Facebook Group autojoin"
+  ],
+  "production_changes": 0,
+  "source_link_correction_candidates": [
+    {
+      "project_id": "hist-jamila",
+      "current_main_url": "https://www.khangdien.com.vn/tap-doan-khang-dien-to-chuc-le-cat-noc-2-thap-b-cua-du-an-the-privia",
+      "suggested_url": "https://www.khangdien.com.vn/jamila",
+      "reason": "Current main source points to The Privia, not Jamila; official matching developer project page already in PR77",
+      "review_status": "REVIEW_ONLY"
+    },
+    {
+      "project_id": "hist-safira",
+      "current_main_url": "https://www.khangdien.com.vn/tap-doan-khang-dien-to-chuc-le-cat-noc-2-thap-b-cua-du-an-the-privia",
+      "suggested_url": "https://www.khangdien.com.vn/safira",
+      "reason": "Current main source points to The Privia, not Safira; official matching developer project page already in PR77",
+      "review_status": "REVIEW_ONLY"
+    },
+    {
+      "project_id": "hist-loveravista",
+      "current_main_url": "https://www.khangdien.com.vn/tap-doan-khang-dien-to-chuc-le-cat-noc-2-thap-b-cua-du-an-the-privia",
+      "suggested_url": "https://www.khangdien.com.vn/lovera-vista",
+      "reason": "Current main source points to The Privia, not Lovera Vista; official matching developer project page already in PR77",
+      "review_status": "REVIEW_ONLY"
+    }
+  ]
+}
