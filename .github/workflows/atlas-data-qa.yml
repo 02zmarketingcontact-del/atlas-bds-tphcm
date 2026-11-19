@@ -18,6 +18,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Audit staged P0 project and price research batches (non-publishing)
+        run: node scripts/audit-qimap-p0-research.cjs
+      - name: Upload P0 source and price intake audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qimap-p0-research-intake-audit
+          path: |
+            artifacts/qimap-p0-research-audit.json
+            artifacts/qimap-p0-observations-review.csv
+          if-no-files-found: warn
       - name: Verify JSON, provenance and GIS schemas
         run: node scripts/validate-data.cjs
       - name: Validate 105 QiMap GIS references and provenance
