@@ -1,0 +1,916 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "qimap-p0-phumyhung-historical-phase-20261011",
+  "created_at": "2026-10-11",
+  "scope": "six existing parent IDs from main index; HCMC old boundary",
+  "repository": "02zmarketingcontact-del/atlas-bds-tphcm",
+  "target_pr": 76,
+  "policy": "REVIEW_ONLY: no legal/price publication; only brief numerical factual claims in internal candidates, do not copy article paragraphs or images",
+  "source_owner": "Phú Mỹ Hưng (public issuer website)",
+  "dossiers": [
+    {
+      "project_id": "hist-thepanorama",
+      "project_name": "The Panorama",
+      "geography_scope": "HCMC_old_boundary",
+      "scope_type": "residential_project",
+      "developer_issuer_claimed": "Phú Mỹ Hưng",
+      "legal_project_identity_verified": false,
+      "project_address_hint": "Khu Kênh Đào, khu đô thị Phú Mỹ Hưng; giáp đại lộ Tôn Dật Tiên",
+      "address_exact_number_verified": false,
+      "coordinate": null,
+      "coordinate_verified": false,
+      "source_records": [
+        {
+          "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+          "source_url": "https://phumyhung.vn/the-panorama-kien-truc-vang-phia-nam-tp-hcm/",
+          "source_document_date_context": "2005 (publisher article; exact date not surfaced)",
+          "source_date_exact_verified_from_page": false,
+          "source_class": "OFFICIAL_ISSUER_WEBSITE_REHOSTED",
+          "reviewed_at": "2026-10-11",
+          "reuse_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+          "public_link_permitted_assumption": "link_to_original_only; rehosting images, excerpts, data-feed redistribution needs permission"
+        },
+        {
+          "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+          "source_url": "https://phumyhung.vn/du-an-the-panorama-thanh-toan-linh-hoat-nguoi-mua-chu-dong-tai-chinh/",
+          "source_document_date_context": "2006-07-19 (reprinted Tin Tức)",
+          "source_date_exact_verified_from_page": false,
+          "source_class": "OFFICIAL_ISSUER_WEBSITE_REHOSTED",
+          "reviewed_at": "2026-10-11",
+          "reuse_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+          "public_link_permitted_assumption": "link_to_original_only; rehosting images, excerpts, data-feed redistribution needs permission"
+        },
+        {
+          "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+          "source_url": "https://phumyhung.vn/phu-my-hung-nhung-no-luc-trong-thuc-hien-cam-ket-voi-khach-hang/",
+          "source_document_date_context": "2008 context; precise date not surfaced",
+          "source_date_exact_verified_from_page": false,
+          "source_class": "OFFICIAL_ISSUER_WEBSITE_REHOSTED",
+          "reviewed_at": "2026-10-11",
+          "reuse_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+          "public_link_permitted_assumption": "link_to_original_only; rehosting images, excerpts, data-feed redistribution needs permission"
+        }
+      ],
+      "facts_candidate": [
+        {
+          "field": "phase_1_early_design_apartments",
+          "value": 73,
+          "unit": "apartments",
+          "source_url": "https://phumyhung.vn/the-panorama-kien-truc-vang-phia-nam-tp-hcm/",
+          "scope": "Phase I planned; not total built"
+        },
+        {
+          "field": "early_design_blocks",
+          "value": 6,
+          "unit": "blocks",
+          "source_url": "https://phumyhung.vn/the-panorama-kien-truc-vang-phia-nam-tp-hcm/",
+          "scope": "2005 issuer-design report"
+        },
+        {
+          "field": "early_design_area_range_m2",
+          "min": 122.05,
+          "max": 374.02,
+          "unit": "m2_per_apartment",
+          "source_url": "https://phumyhung.vn/the-panorama-kien-truc-vang-phia-nam-tp-hcm/",
+          "scope": "2005 planned mix"
+        }
+      ],
+      "timeline_candidates": [
+        {
+          "event_type": "PRE_LAUNCH_PLANNED",
+          "date": "2005-11-12",
+          "precision": "day",
+          "source_url": "https://phumyhung.vn/the-panorama-kien-truc-vang-phia-nam-tp-hcm/",
+          "note": "Planned at press time; not evidence of actual sale"
+        },
+        {
+          "event_type": "LAUNCH_REPORTED",
+          "date": "2006-07-15",
+          "precision": "day",
+          "source_url": "https://phumyhung.vn/du-an-the-panorama-thanh-toan-linh-hoat-nguoi-mua-chu-dong-tai-chinh/",
+          "note": "Reprinted dated 19 July 2006 report says company announced 15 July 2006"
+        },
+        {
+          "event_type": "HANDOVER_ISSUER_REPORTED",
+          "date": null,
+          "precision": "historical_2008_article_only",
+          "source_url": "https://phumyhung.vn/phu-my-hung-nhung-no-luc-trong-thuc-hien-cam-ket-voi-khach-hang/",
+          "note": "Issuer retrospective says Garden Plaza II and The Panorama were completed and handed to buyers; confirm completion notice and exact date"
+        }
+      ],
+      "review_flags": [
+        "TIMELINE_CONTRADICTION_2005_PLANNED_VS_2006_REPORTED_LAUNCH",
+        "EARLY_DESIGN_NOT_AS_BUILT",
+        "GARDEN_PLAZA_II_NOT_GARDEN_PLAZA_I",
+        "HANDOVER_DAY_NOT_VERIFIED"
+      ],
+      "review_state": "REVIEW_REQUIRED",
+      "publication_approved": false,
+      "foreign_buyer_quota_verified": false
+    },
+    {
+      "project_id": "hist-skygarden",
+      "project_name": "Sky Garden",
+      "geography_scope": "HCMC_old_boundary",
+      "scope_type": "parent_complex_reference_with_child_phase_Sky_Garden_III",
+      "developer_issuer_claimed": "Phú Mỹ Hưng",
+      "legal_project_identity_verified": false,
+      "project_address_hint": "Sky Garden III tại Khu Dân cư Văn hóa Giải trí, mặt tiền đại lộ Nguyễn Văn Linh, Phú Mỹ Hưng",
+      "address_exact_number_verified": false,
+      "coordinate": null,
+      "coordinate_verified": false,
+      "source_records": [
+        {
+          "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+          "source_url": "https://phumyhung.vn/moi-khach-hang-den-chon-san-pham-du-an-sky-garden-3-giai-doan-2/",
+          "source_document_date_context": "2008 (events Sep-Oct 2008)",
+          "source_date_exact_verified_from_page": false,
+          "source_class": "OFFICIAL_ISSUER_WEBSITE_REHOSTED",
+          "reviewed_at": "2026-10-11",
+          "reuse_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+          "public_link_permitted_assumption": "link_to_original_only; rehosting images, excerpts, data-feed redistribution needs permission"
+        },
+        {
+          "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+          "source_url": "https://phumyhung.vn/phu-my-hung-cong-bo-du-an-can-ho-lon-nhat-trong-nam/",
+          "source_document_date_context": "2007-11-04 planned/event",
+          "source_date_exact_verified_from_page": false,
+          "source_class": "OFFICIAL_ISSUER_WEBSITE_REHOSTED",
+          "reviewed_at": "2026-10-11",
+          "reuse_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+          "public_link_permitted_assumption": "link_to_original_only; rehosting images, excerpts, data-feed redistribution needs permission"
+        },
+        {
+          "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+          "source_url": "https://phumyhung.vn/bds-quy-2-phan-khuc-trung-cap-tang-904/",
+          "source_document_date_context": "2014-Q2",
+          "source_date_exact_verified_from_page": false,
+          "source_class": "OFFICIAL_ISSUER_WEBSITE_REHOSTED",
+          "reviewed_at": "2026-10-11",
+          "reuse_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+          "public_link_permitted_assumption": "link_to_original_only; rehosting images, excerpts, data-feed redistribution needs permission"
+        }
+      ],
+      "facts_candidate": [
+        {
+          "field": "sky_garden_III_regions",
+          "value": 9,
+          "unit": "regions",
+          "source_url": "https://phumyhung.vn/moi-khach-hang-den-chon-san-pham-du-an-sky-garden-3-giai-doan-2/"
+        },
+        {
+          "field": "sky_garden_III_buildings_total",
+          "value": 22,
+          "unit": "buildings",
+          "source_url": "https://phumyhung.vn/moi-khach-hang-den-chon-san-pham-du-an-sky-garden-3-giai-doan-2/"
+        },
+        {
+          "field": "sky_garden_III_phase_1_buildings",
+          "value": 5,
+          "unit": "buildings",
+          "source_url": "https://phumyhung.vn/moi-khach-hang-den-chon-san-pham-du-an-sky-garden-3-giai-doan-2/"
+        },
+        {
+          "field": "sky_garden_III_phase_2_buildings",
+          "value": 17,
+          "unit": "buildings",
+          "source_url": "https://phumyhung.vn/moi-khach-hang-den-chon-san-pham-du-an-sky-garden-3-giai-doan-2/"
+        },
+        {
+          "field": "sky_garden_III_phase_1_region",
+          "value": "6-7",
+          "source_url": "https://phumyhung.vn/moi-khach-hang-den-chon-san-pham-du-an-sky-garden-3-giai-doan-2/"
+        },
+        {
+          "field": "sky_garden_III_phase_2_region",
+          "value": "8-14",
+          "source_url": "https://phumyhung.vn/moi-khach-hang-den-chon-san-pham-du-an-sky-garden-3-giai-doan-2/"
+        },
+        {
+          "field": "sky_garden_III_units_planned",
+          "value": 1715,
+          "unit": "apartments",
+          "source_url": "https://phumyhung.vn/phu-my-hung-cong-bo-du-an-can-ho-lon-nhat-trong-nam/",
+          "scope": "2007 planned Sky Garden III; do not apply to entire Sky Garden I-II-III"
+        },
+        {
+          "field": "sky_garden_III_phase_2_reserved_2007",
+          "value": 1128,
+          "unit": "reserved_apartments",
+          "source_url": "https://phumyhung.vn/moi-khach-hang-den-chon-san-pham-du-an-sky-garden-3-giai-doan-2/",
+          "scope": "2007 lottery registration, not sold contracts"
+        }
+      ],
+      "timeline_candidates": [
+        {
+          "event_type": "LAUNCH_REPORTED",
+          "date": "2007-11-04",
+          "precision": "day",
+          "source_url": "https://phumyhung.vn/phu-my-hung-cong-bo-du-an-can-ho-lon-nhat-trong-nam/",
+          "note": "Announced Phase 1 event 4 Nov 2007"
+        },
+        {
+          "event_type": "PHASE_2_SELECT_DATES",
+          "date": "2008-09-27",
+          "precision": "start_day",
+          "source_url": "https://phumyhung.vn/moi-khach-hang-den-chon-san-pham-du-an-sky-garden-3-giai-doan-2/",
+          "note": "27–28 Sep; 4–5 and 11–12 Oct 2008"
+        },
+        {
+          "event_type": "PHASE_1_EARLY_HANDOVER_OFFER",
+          "date": "2009-06",
+          "precision": "month",
+          "source_url": "https://phumyhung.vn/moi-khach-hang-den-chon-san-pham-du-an-sky-garden-3-giai-doan-2/",
+          "note": "Issuer said customers could receive early from Jun 2009; NOT independent accepted handover confirmation"
+        },
+        {
+          "event_type": "PHASE_2_HANDOVER_FORECAST",
+          "date": "2009-Q3/Q4",
+          "precision": "quarter_range",
+          "source_url": "https://phumyhung.vn/moi-khach-hang-den-chon-san-pham-du-an-sky-garden-3-giai-doan-2/",
+          "note": "Issuer forecast, not handover certificates"
+        }
+      ],
+      "review_flags": [
+        "PARENT_SKYGARDEN_VS_CHILD_SKYGARDEN_III",
+        "HANDOVER_OFFER_NOT_ACTUAL",
+        "RENT_ESTIMATE_FROM_ALL_SKYGARDEN_MUST_NOT_AUTO_ASSIGN_TO_PHASE_III"
+      ],
+      "review_state": "REVIEW_REQUIRED",
+      "publication_approved": false,
+      "foreign_buyer_quota_verified": false
+    },
+    {
+      "project_id": "hist-gardenplaza",
+      "project_name": "Garden Plaza",
+      "geography_scope": "HCMC_old_boundary",
+      "scope_type": "parent_label_requires_subproject_resolution",
+      "developer_issuer_claimed": "Phú Mỹ Hưng",
+      "legal_project_identity_verified": false,
+      "project_address_hint": "Garden Plaza I tại phố cảnh quan kênh đào, Khu Kênh Đào, Phú Mỹ Hưng",
+      "address_exact_number_verified": false,
+      "coordinate": null,
+      "coordinate_verified": false,
+      "source_records": [
+        {
+          "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+          "source_url": "https://phumyhung.vn/khoi-dong-thi-truong-dia-oc-dau-nam-tai-phu-my-hung/",
+          "source_document_date_context": "2006-02-15 (reprinted Người Lao Động)",
+          "source_date_exact_verified_from_page": false,
+          "source_class": "OFFICIAL_ISSUER_WEBSITE_REHOSTED",
+          "reviewed_at": "2026-10-11",
+          "reuse_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+          "public_link_permitted_assumption": "link_to_original_only; rehosting images, excerpts, data-feed redistribution needs permission"
+        },
+        {
+          "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+          "source_url": "https://phumyhung.vn/phu-my-hung-cong-bo-du-an-moi-khu-can-ho-cao-cap-garden-plaza-2/",
+          "source_document_date_context": "2007-02-03 (launch)",
+          "source_date_exact_verified_from_page": false,
+          "source_class": "OFFICIAL_ISSUER_WEBSITE_REHOSTED",
+          "reviewed_at": "2026-10-11",
+          "reuse_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+          "public_link_permitted_assumption": "link_to_original_only; rehosting images, excerpts, data-feed redistribution needs permission"
+        },
+        {
+          "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+          "source_url": "https://phumyhung.vn/phu-my-hung-nhung-no-luc-trong-thuc-hien-cam-ket-voi-khach-hang/",
+          "source_document_date_context": "2008 context; precise date not surfaced",
+          "source_date_exact_verified_from_page": false,
+          "source_class": "OFFICIAL_ISSUER_WEBSITE_REHOSTED",
+          "reviewed_at": "2026-10-11",
+          "reuse_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+          "public_link_permitted_assumption": "link_to_original_only; rehosting images, excerpts, data-feed redistribution needs permission"
+        }
+      ],
+      "facts_candidate": [
+        {
+          "field": "garden_plaza_I_land_area_approx",
+          "value": 7000,
+          "unit": "m2",
+          "source_url": "https://phumyhung.vn/khoi-dong-thi-truong-dia-oc-dau-nam-tai-phu-my-hung/",
+          "qualifier": "less_than_approximately"
+        },
+        {
+          "field": "garden_plaza_I_floors",
+          "value": 8,
+          "unit": "floors",
+          "source_url": "https://phumyhung.vn/khoi-dong-thi-truong-dia-oc-dau-nam-tai-phu-my-hung/"
+        },
+        {
+          "field": "garden_plaza_II_launch",
+          "value": "2007-02-03",
+          "source_url": "https://phumyhung.vn/phu-my-hung-cong-bo-du-an-moi-khu-can-ho-cao-cap-garden-plaza-2/",
+          "scope": "SEPARATE project; do not copy into Garden Plaza I"
+        }
+      ],
+      "timeline_candidates": [
+        {
+          "event_type": "GARDEN_PLAZA_I_MARKET_INTRODUCTION",
+          "date": "2006-02-15",
+          "precision": "source_article_day",
+          "source_url": "https://phumyhung.vn/khoi-dong-thi-truong-dia-oc-dau-nam-tai-phu-my-hung/",
+          "note": "Newspaper reprint 15 Feb 2006; does not prove execution of a launch on that day"
+        },
+        {
+          "event_type": "GARDEN_PLAZA_II_LAUNCH_SEPARATE",
+          "date": "2007-02-03",
+          "precision": "day",
+          "source_url": "https://phumyhung.vn/phu-my-hung-cong-bo-du-an-moi-khu-can-ho-cao-cap-garden-plaza-2/",
+          "note": "Do not merge into Garden Plaza 1; catalog parent needs split"
+        }
+      ],
+      "review_flags": [
+        "AMBIGUOUS_INDEX_PARENT_GARDEN_PLAZA",
+        "GARDEN_PLAZA_I_II_SEPARATE_CHILDREN",
+        "NO_APARTMENT_COUNT_VERIFIED"
+      ],
+      "review_state": "REVIEW_REQUIRED",
+      "publication_approved": false,
+      "foreign_buyer_quota_verified": false
+    },
+    {
+      "project_id": "hist-greenvalley",
+      "project_name": "Green Valley",
+      "geography_scope": "HCMC_old_boundary",
+      "scope_type": "four_tower_residential_complex",
+      "developer_issuer_claimed": "Phú Mỹ Hưng",
+      "legal_project_identity_verified": false,
+      "project_address_hint": "Khu Y tế Điều dưỡng, đô thị Phú Mỹ Hưng; cạnh sân golf Nam Sài Gòn",
+      "address_exact_number_verified": false,
+      "coordinate": null,
+      "coordinate_verified": false,
+      "source_records": [
+        {
+          "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+          "source_url": "https://phumyhung.vn/vi-sao-green-valley-dat-hang/",
+          "source_document_date_context": "2014 (refers to 2014-03-23 launch)",
+          "source_date_exact_verified_from_page": false,
+          "source_class": "OFFICIAL_ISSUER_WEBSITE_REHOSTED",
+          "reviewed_at": "2026-10-11",
+          "reuse_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+          "public_link_permitted_assumption": "link_to_original_only; rehosting images, excerpts, data-feed redistribution needs permission"
+        },
+        {
+          "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+          "source_url": "https://phumyhung.vn/green-valley-giai-doan-3-tieu-thu-gan-81-phan-tram/",
+          "source_document_date_context": "2014-06-15",
+          "source_date_exact_verified_from_page": false,
+          "source_class": "OFFICIAL_ISSUER_WEBSITE_REHOSTED",
+          "reviewed_at": "2026-10-11",
+          "reuse_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+          "public_link_permitted_assumption": "link_to_original_only; rehosting images, excerpts, data-feed redistribution needs permission"
+        }
+      ],
+      "facts_candidate": [
+        {
+          "field": "towers_claimed",
+          "value": 4,
+          "unit": "towers",
+          "source_url": "https://phumyhung.vn/vi-sao-green-valley-dat-hang/"
+        },
+        {
+          "field": "tower_names",
+          "value": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "source_url": "https://phumyhung.vn/green-valley-giai-doan-3-tieu-thu-gan-81-phan-tram/"
+        },
+        {
+          "field": "apartments_reported_total",
+          "value": 546,
+          "unit": "apartments",
+          "source_url": "https://phumyhung.vn/vi-sao-green-valley-dat-hang/"
+        },
+        {
+          "field": "shops_reported_total",
+          "value": 8,
+          "unit": "shops",
+          "source_url": "https://phumyhung.vn/vi-sao-green-valley-dat-hang/"
+        },
+        {
+          "field": "land_area_approx",
+          "value": 14500,
+          "unit": "m2",
+          "source_url": "https://phumyhung.vn/vi-sao-green-valley-dat-hang/",
+          "qualifier": "over"
+        },
+        {
+          "field": "phase_1_units_offered",
+          "value": 156,
+          "unit": "apartments",
+          "source_url": "https://phumyhung.vn/vi-sao-green-valley-dat-hang/"
+        },
+        {
+          "field": "phase_3_units_offered",
+          "value": 89,
+          "unit": "apartments",
+          "source_url": "https://phumyhung.vn/green-valley-giai-doan-3-tieu-thu-gan-81-phan-tram/",
+          "qualifier": "as stated in specific phase-3 report, resolve versus other advertised A-tower counts"
+        }
+      ],
+      "timeline_candidates": [
+        {
+          "event_type": "PHASE_1_LAUNCH_ISSUER_REPORTED",
+          "date": "2014-03-23",
+          "precision": "day",
+          "source_url": "https://phumyhung.vn/vi-sao-green-valley-dat-hang/",
+          "note": "156 apartments offered; 70% issuer-stated booked"
+        },
+        {
+          "event_type": "PHASE_3_LAUNCH_ISSUER_REPORTED",
+          "date": "2014-06-15",
+          "precision": "day",
+          "source_url": "https://phumyhung.vn/green-valley-giai-doan-3-tieu-thu-gan-81-phan-tram/",
+          "note": "89 units per one issuer article"
+        },
+        {
+          "event_type": "TOWER_B_PHASE_4_FORECAST",
+          "date": "2014-07-19",
+          "precision": "day",
+          "source_url": "https://phumyhung.vn/mo-ban-toa-nha-cuoi-cung-cua-du-an-green-valley/",
+          "note": "Planned launch final tower B"
+        }
+      ],
+      "review_flags": [
+        "TOWER_A_OFFERED_89_VS_TOWER_142_OTHER_PUBLICATION",
+        "NO_CONFIRMED_ACTUAL_HANDOVER_DAY"
+      ],
+      "review_state": "REVIEW_REQUIRED",
+      "publication_approved": false,
+      "foreign_buyer_quota_verified": false
+    },
+    {
+      "project_id": "hist-scenicvalley",
+      "project_name": "Scenic Valley",
+      "geography_scope": "HCMC_old_boundary",
+      "scope_type": "residential_complex_excluding_Scenic_Valley_2",
+      "developer_issuer_claimed": "Phú Mỹ Hưng",
+      "legal_project_identity_verified": false,
+      "project_address_hint": "Khu Y tế Điều dưỡng, đô thị Phú Mỹ Hưng",
+      "address_exact_number_verified": false,
+      "coordinate": null,
+      "coordinate_verified": false,
+      "source_records": [
+        {
+          "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+          "source_url": "https://phumyhung.vn/phu-my-hung-tieu-thu-thanh-cong-100-can-ho-scenic-valley-giai-doan-1/",
+          "source_document_date_context": "2014-10-04",
+          "source_date_exact_verified_from_page": false,
+          "source_class": "OFFICIAL_ISSUER_WEBSITE_REHOSTED",
+          "reviewed_at": "2026-10-11",
+          "reuse_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+          "public_link_permitted_assumption": "link_to_original_only; rehosting images, excerpts, data-feed redistribution needs permission"
+        }
+      ],
+      "facts_candidate": [
+        {
+          "field": "phase_1_units_offered",
+          "value": 251,
+          "unit": "apartments",
+          "source_url": "https://phumyhung.vn/phu-my-hung-tieu-thu-thanh-cong-100-can-ho-scenic-valley-giai-doan-1/"
+        },
+        {
+          "field": "phase_2_tower",
+          "value": "C2",
+          "source_url": "https://phumyhung.vn/phu-my-hung-tieu-thu-thanh-cong-100-can-ho-scenic-valley-giai-doan-1/"
+        },
+        {
+          "field": "phase_2_units_planned",
+          "value": 124,
+          "unit": "apartments",
+          "source_url": "https://phumyhung.vn/phu-my-hung-tieu-thu-thanh-cong-100-can-ho-scenic-valley-giai-doan-1/"
+        },
+        {
+          "field": "site_area_approx",
+          "value": 32000,
+          "unit": "m2",
+          "source_url": "https://phumyhung.vn/phu-my-hung-tieu-thu-thanh-cong-100-can-ho-scenic-valley-giai-doan-1/",
+          "qualifier": "over"
+        },
+        {
+          "field": "construction_footprint_reported",
+          "value": 9710,
+          "unit": "m2",
+          "source_url": "https://phumyhung.vn/phu-my-hung-tieu-thu-thanh-cong-100-can-ho-scenic-valley-giai-doan-1/"
+        },
+        {
+          "field": "phase_2_unit_area_options",
+          "value": [
+            93,
+            107,
+            110
+          ],
+          "unit": "m2",
+          "source_url": "https://phumyhung.vn/phu-my-hung-tieu-thu-thanh-cong-100-can-ho-scenic-valley-giai-doan-1/"
+        }
+      ],
+      "timeline_candidates": [
+        {
+          "event_type": "PHASE_1_LAUNCH_ISSUER_REPORTED",
+          "date": "2014-10-04",
+          "precision": "day",
+          "source_url": "https://phumyhung.vn/phu-my-hung-tieu-thu-thanh-cong-100-can-ho-scenic-valley-giai-doan-1/",
+          "note": "251 units offered, 100% issuer-reported uptake not independently verified notarized sales"
+        },
+        {
+          "event_type": "PHASE_2_LAUNCH_FORECAST",
+          "date": "2014-10-25",
+          "precision": "day",
+          "source_url": "https://phumyhung.vn/phu-my-hung-tieu-thu-thanh-cong-100-can-ho-scenic-valley-giai-doan-1/",
+          "note": "C2 124 units planned launch; not guaranteed actual event"
+        }
+      ],
+      "review_flags": [
+        "SCENIC_VALLEY_VS_SCENIC_VALLEY_2_NOT_SAME_PROJECT",
+        "NO_CONFIRMED_COMPLETE_APARTMENT_TOTAL",
+        "NO_CONFIRMED_HANDOVER"
+      ],
+      "review_state": "REVIEW_REQUIRED",
+      "publication_approved": false,
+      "foreign_buyer_quota_verified": false
+    },
+    {
+      "project_id": "hist-riversideresidence",
+      "project_name": "Riverside Residence",
+      "geography_scope": "HCMC_old_boundary",
+      "scope_type": "residential_complex_with_5_towers",
+      "developer_issuer_claimed": "Phú Mỹ Hưng",
+      "legal_project_identity_verified": false,
+      "project_address_hint": "Mặt tiền đại lộ Nguyễn Lương Bằng, Khu Nam Viên, Phú Mỹ Hưng",
+      "address_exact_number_verified": false,
+      "coordinate": null,
+      "coordinate_verified": false,
+      "source_records": [
+        {
+          "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+          "source_url": "https://phumyhung.vn/giai-doan-3-du-an-riverside-residence-ty-le-tieu-thu-dat-80/",
+          "source_document_date_context": "2009-03-29 (event year established in article)",
+          "source_date_exact_verified_from_page": false,
+          "source_class": "OFFICIAL_ISSUER_WEBSITE_REHOSTED",
+          "reviewed_at": "2026-10-11",
+          "reuse_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+          "public_link_permitted_assumption": "link_to_original_only; rehosting images, excerpts, data-feed redistribution needs permission"
+        },
+        {
+          "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+          "source_url": "https://phumyhung.vn/gan-90-san-pham-riverside-residence-da-duoc-khach-hang-tieu-thu/",
+          "source_document_date_context": "2009 (first quarter wording)",
+          "source_date_exact_verified_from_page": false,
+          "source_class": "OFFICIAL_ISSUER_WEBSITE_REHOSTED",
+          "reviewed_at": "2026-10-11",
+          "reuse_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+          "public_link_permitted_assumption": "link_to_original_only; rehosting images, excerpts, data-feed redistribution needs permission"
+        },
+        {
+          "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+          "source_url": "https://phumyhung.vn/du-an-riverside-residence-hut-khach/",
+          "source_document_date_context": "2009 (source context)",
+          "source_date_exact_verified_from_page": false,
+          "source_class": "OFFICIAL_ISSUER_WEBSITE_REHOSTED",
+          "reviewed_at": "2026-10-11",
+          "reuse_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+          "public_link_permitted_assumption": "link_to_original_only; rehosting images, excerpts, data-feed redistribution needs permission"
+        },
+        {
+          "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+          "source_url": "https://phumyhung.vn/khach-hang-khat-khe-voi-can-ho-cao-cap/",
+          "source_document_date_context": "2009",
+          "source_date_exact_verified_from_page": false,
+          "source_class": "OFFICIAL_ISSUER_WEBSITE_REHOSTED",
+          "reviewed_at": "2026-10-11",
+          "reuse_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+          "public_link_permitted_assumption": "link_to_original_only; rehosting images, excerpts, data-feed redistribution needs permission"
+        }
+      ],
+      "facts_candidate": [
+        {
+          "field": "towers_reported",
+          "value": 5,
+          "unit": "towers",
+          "source_url": "https://phumyhung.vn/giai-doan-3-du-an-riverside-residence-ty-le-tieu-thu-dat-80/"
+        },
+        {
+          "field": "tower_names",
+          "value": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "source_url": "https://phumyhung.vn/giai-doan-3-du-an-riverside-residence-ty-le-tieu-thu-dat-80/"
+        },
+        {
+          "field": "apartments_project_reported",
+          "value": 622,
+          "unit": "apartments",
+          "source_url": "https://phumyhung.vn/gan-90-san-pham-riverside-residence-da-duoc-khach-hang-tieu-thu/",
+          "scope": "Entire scheme, not units offered per batch"
+        },
+        {
+          "field": "apartments_reported_offered_after_4_stages",
+          "value": 544,
+          "unit": "apartments",
+          "source_url": "https://phumyhung.vn/gan-90-san-pham-riverside-residence-da-duoc-khach-hang-tieu-thu/",
+          "scope": "Units put on market, NOT total apartments or 544 registered sales"
+        },
+        {
+          "field": "shops_reported",
+          "value": 51,
+          "unit": "shops",
+          "source_url": "https://phumyhung.vn/gan-90-san-pham-riverside-residence-da-duoc-khach-hang-tieu-thu/"
+        },
+        {
+          "field": "block_C_unit_area_range",
+          "min": 143,
+          "max": 239,
+          "unit": "m2",
+          "source_url": "https://phumyhung.vn/gan-90-san-pham-riverside-residence-da-duoc-khach-hang-tieu-thu/",
+          "qualifier": "excludes penthouses"
+        },
+        {
+          "field": "phase_3_towers",
+          "value": [
+            "B",
+            "D"
+          ],
+          "source_url": "https://phumyhung.vn/giai-doan-3-du-an-riverside-residence-ty-le-tieu-thu-dat-80/"
+        },
+        {
+          "field": "phase_3_unit_count",
+          "value": 168,
+          "unit": "apartments",
+          "source_url": "https://phumyhung.vn/giai-doan-3-du-an-riverside-residence-ty-le-tieu-thu-dat-80/"
+        },
+        {
+          "field": "reported_site_area",
+          "value": 45000,
+          "unit": "m2",
+          "source_url": "https://phumyhung.vn/gan-90-san-pham-riverside-residence-da-duoc-khach-hang-tieu-thu/",
+          "qualifier": "over"
+        },
+        {
+          "field": "footprint_density_claim_percent",
+          "value": 22.87,
+          "unit": "percent",
+          "source_url": "https://phumyhung.vn/gan-90-san-pham-riverside-residence-da-duoc-khach-hang-tieu-thu/"
+        }
+      ],
+      "timeline_candidates": [
+        {
+          "event_type": "PHASE_3_OFFERING_REPORTED",
+          "date": "2009-03-29",
+          "precision": "day_year_in_context",
+          "source_url": "https://phumyhung.vn/giai-doan-3-du-an-riverside-residence-ty-le-tieu-thu-dat-80/",
+          "note": "168 units B,D in 2009 Q1, 80% claimed sold"
+        },
+        {
+          "event_type": "PHASE_4_BLOCK_C_OFFERING_REPORTED",
+          "date": "2009-04-19",
+          "precision": "day_year_inferred_context",
+          "source_url": "https://phumyhung.vn/du-an-riverside-residence-hut-khach/",
+          "note": "19 Apr deposit plan; 2009 inferred from related 2009 updates, needs page publication date verification"
+        },
+        {
+          "event_type": "CONSTRUCTION_START_FORECAST",
+          "date": "2009-Q2",
+          "precision": "quarter",
+          "source_url": "https://phumyhung.vn/du-an-riverside-residence-hut-khach/",
+          "note": "2009 article says project to start Q2 2009"
+        },
+        {
+          "event_type": "COMPLETION_FORECAST",
+          "date": "2011-Q4",
+          "precision": "quarter",
+          "source_url": "https://phumyhung.vn/du-an-riverside-residence-hut-khach/",
+          "note": "Future projection only, not actual handover"
+        }
+      ],
+      "review_flags": [
+        "622_TOTAL_VS_544_MARKETED_ARE_DIFFERENT_DENOMINATORS_NOT_MERGE",
+        "GREEN_OPEN_PERCENT_87_13_CONFLICTS_WITH_22_87_DENSITY_EXPECT_77_13",
+        "YEAR_2009_OF_APRIL_OFFER_CONTEXTUAL_NOT_EXACT_PAGE_DATE"
+      ],
+      "review_state": "REVIEW_REQUIRED",
+      "publication_approved": false,
+      "foreign_buyer_quota_verified": false
+    }
+  ],
+  "price_observations": [
+    {
+      "review_state": "REVIEW_REQUIRED",
+      "publication_approved": false,
+      "transaction_verified": false,
+      "independent_market_sample": false,
+      "source_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+      "excluded_from_approved_price_index": true,
+      "source_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+      "checked_at": "2026-10-11",
+      "unit_area_basis": "gross_vs_net_not_indicated_by_source",
+      "VAT_inclusion": "unknown",
+      "fees_inclusion": "unknown",
+      "legal_transaction_evidence": null,
+      "observation_id": "pmh-skygarden3-phase2-2008-08-developer-average-ask",
+      "project_id": "hist-skygarden",
+      "phase": "Sky Garden III - Phase 2",
+      "price_type": "PRICE_ASKING",
+      "market_segment": "PRIMARY",
+      "date": "2008-08",
+      "date_precision": "month_source_reported_late_august",
+      "price_value": 27,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "value_unit": "million_VND_per_m2",
+      "price_basis": "developer-reported average OFFER price; not unit transaction; area metric unspecified",
+      "unit_area_m2": null,
+      "source_url": "https://phumyhung.vn/moi-khach-hang-den-chon-san-pham-du-an-sky-garden-3-giai-doan-2/",
+      "note": "Issuer article says phase2 average about 27m VND/m2, publicized end Aug 2008."
+    },
+    {
+      "review_state": "REVIEW_REQUIRED",
+      "publication_approved": false,
+      "transaction_verified": false,
+      "independent_market_sample": false,
+      "source_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+      "excluded_from_approved_price_index": true,
+      "source_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+      "checked_at": "2026-10-11",
+      "unit_area_basis": "gross_vs_net_not_indicated_by_source",
+      "VAT_inclusion": "unknown",
+      "fees_inclusion": "unknown",
+      "legal_transaction_evidence": null,
+      "observation_id": "pmh-riversideresidence-phase3-2009-03-from-ask",
+      "project_id": "hist-riversideresidence",
+      "phase": "Blocks B and D, Phase 3",
+      "price_type": "PRICE_ASKING",
+      "market_segment": "PRIMARY",
+      "date": "2009-03-29",
+      "date_precision": "event_day_year_inferred_from_2009_context",
+      "price_value": 40,
+      "price_min": 40,
+      "price_max": null,
+      "currency": "VND",
+      "value_unit": "million_VND_per_m2",
+      "price_basis": "issuer-reported starting offer around 40m/m2, 168 Phase 3 units; not transaction",
+      "unit_area_m2": null,
+      "source_url": "https://phumyhung.vn/giai-doan-3-du-an-riverside-residence-ty-le-tieu-thu-dat-80/",
+      "note": "Year shown by first quarter 2009 context; article day 29 Mar. Do not take 80% takeup as verified executions."
+    },
+    {
+      "review_state": "REVIEW_REQUIRED",
+      "publication_approved": false,
+      "transaction_verified": false,
+      "independent_market_sample": false,
+      "source_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+      "excluded_from_approved_price_index": true,
+      "source_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+      "checked_at": "2026-10-11",
+      "unit_area_basis": "gross_vs_net_not_indicated_by_source",
+      "VAT_inclusion": "unknown",
+      "fees_inclusion": "unknown",
+      "legal_transaction_evidence": null,
+      "observation_id": "pmh-riversideresidence-blockc-2009-04-from-ask",
+      "project_id": "hist-riversideresidence",
+      "phase": "Block C, Phase 4",
+      "price_type": "PRICE_ASKING",
+      "market_segment": "PRIMARY",
+      "date": "2009-04",
+      "date_precision": "month_2009_inferred_from_related_sources",
+      "price_value": 40,
+      "price_min": 40,
+      "price_max": null,
+      "currency": "VND",
+      "value_unit": "million_VND_per_m2",
+      "price_basis": "issuer-reported FROM price for Block C apartments 143-239 m2 excluding penthouse; not transaction",
+      "unit_area_m2": {
+        "min": 143,
+        "max": 239,
+        "unit": "m2",
+        "net_gross": "not_specified"
+      },
+      "source_url": "https://phumyhung.vn/gan-90-san-pham-riverside-residence-da-duoc-khach-hang-tieu-thu/",
+      "note": "Source article says >90% selection; no contract-level evidence, not a transaction."
+    },
+    {
+      "review_state": "REVIEW_REQUIRED",
+      "publication_approved": false,
+      "transaction_verified": false,
+      "independent_market_sample": false,
+      "source_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+      "excluded_from_approved_price_index": true,
+      "source_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+      "checked_at": "2026-10-11",
+      "unit_area_basis": "gross_vs_net_not_indicated_by_source",
+      "VAT_inclusion": "unknown",
+      "fees_inclusion": "unknown",
+      "legal_transaction_evidence": null,
+      "observation_id": "pmh-skygarden-area56-2014q2-indicative-rent",
+      "project_id": "hist-skygarden",
+      "phase": "Sky Garden neighborhood, all phases unspecified",
+      "price_type": "REPORT_ESTIMATE",
+      "market_segment": "RENTAL_MARKET_BENCHMARK_NOT_DIRECT_ADVERT",
+      "date": "2014-Q2",
+      "date_precision": "quarter_source_context",
+      "price_value": null,
+      "price_min": 550,
+      "price_max": 650,
+      "currency": "USD",
+      "value_unit": "USD_per_month",
+      "price_basis": "publisher-reported indicative achievable monthly rent, conditioned by furnishing; NOT a landlord advertisement",
+      "unit_area_m2": 56,
+      "source_url": "https://phumyhung.vn/bds-quy-2-phan-khuc-trung-cap-tang-904/",
+      "note": "Cannot classify RENT_ASKING or a signed lease; no unit/tower specificity."
+    },
+    {
+      "review_state": "REVIEW_REQUIRED",
+      "publication_approved": false,
+      "transaction_verified": false,
+      "independent_market_sample": false,
+      "source_rights": "NOT_CONFIRMED_RESEARCH_ONLY",
+      "excluded_from_approved_price_index": true,
+      "source_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng / historical Công ty Liên doanh Phú Mỹ Hưng",
+      "checked_at": "2026-10-11",
+      "unit_area_basis": "gross_vs_net_not_indicated_by_source",
+      "VAT_inclusion": "unknown",
+      "fees_inclusion": "unknown",
+      "legal_transaction_evidence": null,
+      "observation_id": "pmh-skygarden-area70-2014q2-indicative-rent",
+      "project_id": "hist-skygarden",
+      "phase": "Sky Garden neighborhood, all phases unspecified",
+      "price_type": "REPORT_ESTIMATE",
+      "market_segment": "RENTAL_MARKET_BENCHMARK_NOT_DIRECT_ADVERT",
+      "date": "2014-Q2",
+      "date_precision": "quarter_source_context",
+      "price_value": null,
+      "price_min": 650,
+      "price_max": 750,
+      "currency": "USD",
+      "value_unit": "USD_per_month",
+      "price_basis": "publisher-reported indicative achievable monthly rent, conditioned by furnishing; NOT a landlord advertisement",
+      "unit_area_m2": 70,
+      "source_url": "https://phumyhung.vn/bds-quy-2-phan-khuc-trung-cap-tang-904/",
+      "note": "Do not merge into Sky Garden III or calculate actual yield."
+    }
+  ],
+  "data_rights_context": {
+    "last_price_source_state": {
+      "repository_file": "data/update_status.json",
+      "status": "not_configured",
+      "sources_configured": 0,
+      "sources_successful": 0,
+      "last_run_at": null,
+      "checked_at": "2026-10-11",
+      "not_a_new_feed_configuration": true
+    },
+    "permissions_gap": [
+      {
+        "source": "Phú Mỹ Hưng news archives",
+        "access": "public_human_research",
+        "republication_rights": "unconfirmed",
+        "action": "request fact-feed / CSV export contract, redistribution and attribution scope; public link only until approved"
+      },
+      {
+        "source": "secondary listings and rent portals",
+        "access": "no_licensed_feed",
+        "republication_rights": "unconfirmed",
+        "action": "licensed API/partner feed or approved manually validated offer; do not mass scrape"
+      },
+      {
+        "source": "Facebook Groups",
+        "access": "not_accessed",
+        "republication_rights": "no_permission_assumed",
+        "action": "explicit opt-in partner/manual contributions only; no auto-join, no private-group mining"
+      }
+    ],
+    "identity_guardrails": {
+      "the_felix_ne_felix_homes": true,
+      "the_win_city_duc_hoa_current_tay_ninh_outside_hcm": true,
+      "norton_park_scope_conflicts_unresolved": true
+    },
+    "metric_definitions": {
+      "new_dossiers": "distinct project_id with at least one new issuer-sourced fact not present in existing PRs",
+      "new_price_observations": "distinct price evidence candidate with source URL and price basis, not yet published",
+      "crosschecked_coordinates": "independently verified new coordinates only"
+    }
+  },
+  "metrics": {
+    "dossiers_with_new_sourced_facts": 6,
+    "price_observation_candidates_with_source": 5,
+    "geo_coordinates_newly_verified": 0,
+    "verified_transactions": 0,
+    "approved_public_price_observations": 0,
+    "official_source_domain_count": 1,
+    "new_price_feed_configured": 0
+  },
+  "flags": [
+    "SOURCE_PUBLICATION_DATE_NOT_MACHINE_VERIFIED",
+    "OFFICIAL_SITE_NOT_PERMISSION_TO_REDISTRIBUTE",
+    "REPORTED_SALES_TAKEUP_NOT_NOTARIZED_DEALS",
+    "SOURCE_CONFLICTS_REQUIRE_HUMAN_DECISION"
+  ]
+}

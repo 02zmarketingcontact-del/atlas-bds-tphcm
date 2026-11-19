@@ -1,0 +1,21 @@
+{
+  "as_of": "2026-10-11",
+  "status": "RESEARCH_ONLY",
+  "part_of_pull_request": 76,
+  "source": "Nam Long official publisher",
+  "project_ids": [
+    "hist-ehome1",
+    "hist-ehome2",
+    "hist-ehome3",
+    "hist-ehome4"
+  ],
+  "url": "https://www.namlongvn.com/tin-tuc/2925-thong-tin-chi-tiet-nhung-du-an-ehome-cua-tap-doan-nam-long/",
+  "source_date": "2020-03-02",
+  "evidence": {
+    "ehome1": "3 blocks, 10 floors, built 2008-2009",
+    "ehome2": "5 blocks, 600 apartments, built 2009-2010",
+    "ehome3": "14 blocks, 2204 apartments, built 2012-2014",
+    "ehome4": "15 blocks, 2104 apartments, historical Thu An, 2015-2016 build period"
+  },
+  "approved_for_publishing": false
+}
