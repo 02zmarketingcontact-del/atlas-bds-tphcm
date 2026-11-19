@@ -1,0 +1,63 @@
+{
+  "batch": "batch23",
+  "date": "2026-10-14",
+  "status": "REVIEW_ONLY_NOT_PUBLIC",
+  "prior_price_dedup": "Sky Garden III 27m/m2 and I/II 35m/m2 already staged in batch04. Do not double count.",
+  "dossiers": [
+    {
+      "id": "hist-skygarden",
+      "url": "https://phumyhung.vn/phu-my-hung-hon-700-nhan-can-ho-moi-sky-garden-2/",
+      "event": "2006-06-30/2006-07-01",
+      "fact": "PMH reports 710 Sky Garden II apartments handed over; no legal title certification"
+    },
+    {
+      "id": "hist-skygarden",
+      "url": "https://phumyhung.vn/phu-my-hung-cong-bo-du-an-can-ho-lon-nhat-trong-nam/",
+      "event": "2007-11-04",
+      "fact": "Sky Garden III projected 1715 apartments/22 blocks; Q2-2010 handover forecast only"
+    },
+    {
+      "id": "hist-tropicgarden",
+      "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-novaland/tin-du-an/du-an-tropic-garden-thao-dien-q2-nhon-nhip-giao-nha-cho-khach-hang",
+      "event": "2014, article date unstated",
+      "fact": "C1 handover company report; C2 June2015 projected; asking from VND2.3bn/unit; gross area and VAT unknown",
+      "price_type": "PRICE_ASKING"
+    },
+    {
+      "id": "hist-sunrisecity",
+      "url": "https://www.novaland.com.vn/sunrise-city-mo-ban-can-ho-view-song-gia-tu-265-ty-1",
+      "event": "2013 contextual, no publication day",
+      "fact": "Sunrise City V4 South river-view asking from VND2.65bn/unit; not Sunrise Cityview",
+      "price_type": "PRICE_ASKING"
+    },
+    {
+      "id": "hist-sunrisecity",
+      "url": "https://www.novaland.com.vn/novaland-va-nha-thau-hoa-binh-cat-noc-thap-w1-cua-du-an-sunrise-city-giai-doan-2",
+      "event": "2014-04-21",
+      "fact": "W1 Central topping-out, South reported handover July2012; Central late-2014 handover merely forecast"
+    },
+    {
+      "id": "hist-theestella",
+      "url": "https://www.keppel.com/realestate/vn/en/Media-Releases/Keppel-Land-acquires-third-township-site-in-Ho-Chi-Minh-City",
+      "event": "2010-01-07",
+      "fact": "The Estella parent development planned 1393 units; do not confuse with phase-one 719 units"
+    },
+    {
+      "id": "hist-estellaheights",
+      "url": "https://www.keppel.com/en/file/investors/quarterly-results-and-updates/2017/4q2017-kcl-presentation-slides.pdf",
+      "event": "FY2017, published 2018-01-25; slide 52",
+      "fact": "Keppel issuer latest average sales ~USD2100/m2; 109 reported units and USD32m FY sales, not verified contracts",
+      "price_type": "REPORT_ESTIMATE"
+    },
+    {
+      "id": "hist-thekrista",
+      "url": "https://www.capitaland.com/en/about-capitaland/newsroom/news-releases/vietnam/2016/jun/ceo-of-capitaland-vietnam-awarded-as-vietnam-s-real-estate-personality-of-the-year-kris-vue-awarded-as-best-high-end-condominium-in-ho-chi-minh-city-at-vietnam-property-awards-2016.html",
+      "event": "2016-06-13",
+      "fact": "The Krista received Highly Commended; Kris Vue received main award (distinct projects)"
+    }
+  ],
+  "new_observations": 3,
+  "new_wgs84_crosschecks": 0,
+  "authorized_price_feeds": 0,
+  "rights": "Public fact references only. Data feed, photos and mass extraction not licensed. All rows require human review."
+}

@@ -1,0 +1,2417 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "qimap-p0-phumyhung-20261012-batch04",
+  "as_of": "2026-10-12",
+  "publication_status": "DRAFT_PR_REVIEW_ONLY",
+  "branch": "research/qimap-p0-dossier-link-20261012-kd-sk",
+  "target_catalog": "data/project_dossiers_v1.json",
+  "scope_note": "TEN existing canonical IDs including parent Midtown + four distinct child phases; no project creation, no public map changes.",
+  "checks": {
+    "primary_source_developer_domain": "phumyhung.vn",
+    "source_lookup_checked_at": "2026-10-12",
+    "legal_verified": 0,
+    "geocodes_verified": 0,
+    "feed_configured": 0,
+    "no_bulk_scraping": true
+  },
+  "source_policy": {
+    "allowed_use": "fact extraction with URL/time attribution for internal review only",
+    "source_rights": "unverified; no photographs/full-text/republications or bulk feeds",
+    "price_type_enum": [
+      "PRICE_ASKING",
+      "TRANSACTION_VERIFIED",
+      "RENT_ASKING",
+      "REPORT_ESTIMATE"
+    ],
+    "source_published_at_null": "Date absent from page; source event_date, reported market period and checked_at are distinct"
+  },
+  "sources": [
+    {
+      "id": "PAN_PROJECT",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_project_page",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/du-an/the-panorama/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "PAN_2005",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_historical_article",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/the-panorama-kien-truc-vang-phia-nam-tp-hcm/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "PAN_2006",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_hosted_third_party_press_excerpt",
+      "original_publisher": "Báo Pháp Luật Việt Nam (developer-hosted reproduction, dated 2006-07-12)",
+      "url": "https://phumyhung.vn/phu-my-hung-cong-bo-the-panorama-giai-doan-2-va-3/",
+      "published_at": "2006-07-12",
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement",
+        "original_journalism_rights": "not_granted_or_unknown"
+      },
+      "event_referenced": "2006-07-15 (chronology conflicts with reported publication date)",
+      "validation": {
+        "checked_at": "2026-10-12",
+        "method": "web_open_official_host_page",
+        "rights_review": "reference_only_unlicensed_for_republication",
+        "publication_date_verified": false
+      }
+    },
+    {
+      "id": "SKY_2007",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_historical_article",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/phu-my-hung-cong-bo-du-an-can-ho-lon-nhat-trong-nam/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "SKY_2008_PRICE",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_historical_article",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/dieu-chinh-gia-nha-hop-ly-khong-can-cu-vao-bien-dong-thi-truong/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      },
+      "validation": {
+        "checked_at": "2026-10-12",
+        "method": "web_open_official_host_page",
+        "rights_review": "reference_only_unlicensed_for_republication",
+        "publication_date_verified": false
+      }
+    },
+    {
+      "id": "SKY_2008_HANDOVER_FORECAST",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_historical_article",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/moi-khach-hang-den-chon-san-pham-du-an-sky-garden-3-giai-doan-2/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "SKY_2013_RETROSPECTIVE",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_retrospective",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/khi-dich-den-la-niem-tin/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "GREEN_PROJECT",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_project_page",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/du-an/green-valley/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "GREEN_2014_SALE",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_historical_article",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/phu-my-hung-sap-mo-ban-du-an-green-valley/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "GREEN_2014_FORECAST",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "republished_media_on_developer_host",
+      "original_publisher": "original_media_not_confirmed",
+      "url": "https://phumyhung.vn/en/new-apartment-project-in-phu-my-hung-announced/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "SCENIC_2014_SPECS",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_historical_article",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/scenic-valley-khong-gian-song-canh-quan-theo-phong-cach-singapore00/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "SCENIC_2014_SALE",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_historical_article",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/phu-my-hung-tieu-thu-thanh-cong-100-can-ho-scenic-valley-giai-doan-1/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "SCENIC_2015_WAVE4",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_historical_article",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/80-can-ho-scenic-valley-da-duoc-dat-mua/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "SCENIC_2015_WAVE5",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_historical_article",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/mo-ban-thanh-cong-du-scenic-valley-gd-5/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "RIVER_2015_HISTORY",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_historical_article",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/nhung-du-huong-song-cua-phu-hung/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "RIVER_2024_SUMMARY",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_retrospective",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/tong-quan-khu-pho-riverside-residence-va-scenic-valley-2-truoc-ngay-khoac-ao-moi/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "RIVER_673",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_microsite_claim",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/tinh-hoa-bao-luu/vn/do-thi-ben-song.php",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "RIVER_PROJECT",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_microsite_project",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/tinh-hoa-bao-luu/vn/riverside-residence.php",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "MID_2018_COMPLEX",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_historical_article",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/midtown/hon-1-200-can-ho-va-cua-hang-thuoc-phu-my-hung-midtown-da-duoc-ban-het/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "MID_2019_PHASES",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_historical_article",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/midtown/phu-my-hung-midtown-hanh-trinh-kien-tao-khong-gian-song-the-he-moi/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "MID_2017_GRANDE",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_historical_article",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/midtown/cong-bo-khu-phuc-hop-phu-hung-midtown/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      },
+      "validation": {
+        "checked_at": "2026-10-12",
+        "method": "web_open_official_host_page",
+        "rights_review": "reference_only_unlicensed_for_republication",
+        "publication_date_verified": false
+      }
+    },
+    {
+      "id": "MID_2019_SYMPHONY",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_historical_article",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/midtown/su-kien-ban-giao-the-symphony-15-10-2019/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "MID_2020_SIGNATURE",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_historical_article",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/midtown/thi-truong-kho-khan-chung-vi-covid-phu-my-hung-van-ban-giao-can-ho-the-signature-dung-cam-ket/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "MID_2020_SIGNATURE_WAVES",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_hosted_media_article",
+      "original_publisher": "original_media_not_confirmed",
+      "url": "https://phumyhung.vn/midtown/bat-chap-dai-dich-phu-my-hung-van-dam-bao-tien-do-khi-ban-giao-997-can-ho-cua-hang/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "MID_2018_SIGNATURE_SALE",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_hosted_media_article",
+      "original_publisher": "original_media_not_confirmed",
+      "url": "https://phumyhung.vn/midtown/phu-hung-lap-hat-trick-voi-3-lan-lien-tiep-chay-hang-can-ho-midtown/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "MID_2018_SIGNATURE_PRICE",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_hosted_third_party_report",
+      "original_publisher": "Nguoidothi.net.vn (credited by host)",
+      "url": "https://phumyhung.vn/midtown/hon-1-200-can-ho-va-cua-hang-thuoc-phu-my-hung-midtown-da-duoc-ban-het/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement",
+        "original_journalism_rights": "not_granted_or_unknown"
+      },
+      "event_referenced": "2018-03-31 (event referenced, NOT publication date)",
+      "validation": {
+        "checked_at": "2026-10-12",
+        "method": "web_open_official_host_page",
+        "rights_review": "reference_only_unlicensed_for_republication",
+        "publication_date_verified": false
+      }
+    },
+    {
+      "id": "MID_2020_PEAK_FORECAST",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_historical_article",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/midtown/cat-noc-som-khu-phuc-hop-phu-my-hung-midtown-the-peak/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "MID_2022_PEAK_HANDOVER",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_retrospective",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/midtown/sau-mot-nam-ban-giao-the-peak-midtown-gio-the-nao/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    },
+    {
+      "id": "MID_2019_PHASE_COMPONENTS",
+      "publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "source_host": "phumyhung.vn",
+      "source_class": "developer_site_historical_article",
+      "original_publisher": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+      "url": "https://phumyhung.vn/midtown/can-ho-ven-song-cham-chan-lo-phan/",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "retrievable_public_page_or_index",
+      "rights": {
+        "access": "public_web",
+        "research_use": "minimal_factual_metadata_and_attribution",
+        "commercial_republication": "not_granted_or_unverified",
+        "images": "not_permitted_without_license",
+        "bulk_feed": "not_permitted_without_agreement"
+      }
+    }
+  ],
+  "dossiers": [
+    {
+      "id": "hist-thepanorama",
+      "name": "The Panorama",
+      "scope": "existing_hcm_development",
+      "parent_id": null,
+      "verification_status": "review_only",
+      "facts": [
+        {
+          "field": "developer_name",
+          "value": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+          "unit": "organization",
+          "scope": "project",
+          "source_ids": [
+            "PAN_PROJECT"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "historical_address",
+          "value": "Đường Tôn Dật Tiên, phường Tân Phong, quận 7, TP.HCM",
+          "unit": "text",
+          "scope": "historical_address_pre_2025",
+          "source_ids": [
+            "PAN_PROJECT"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Không tự quy đổi thành địa chỉ hành chính hiện tại.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "site_area_m2",
+          "value": 24054,
+          "unit": "m2",
+          "scope": "project",
+          "source_ids": [
+            "PAN_PROJECT"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "apartments_total",
+          "value": 276,
+          "unit": "residential_units",
+          "scope": "project",
+          "source_ids": [
+            "PAN_PROJECT"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "shops_total",
+          "value": 51,
+          "unit": "commercial_units",
+          "scope": "project",
+          "source_ids": [
+            "PAN_2006"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "development_wings",
+          "value": 3,
+          "unit": "wings",
+          "scope": "project",
+          "source_ids": [
+            "PAN_2006"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "marketing_first_announcement_window",
+          "value": "mid-November 2005",
+          "unit": "month_window",
+          "scope": "sale_event",
+          "source_ids": [
+            "PAN_2005"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Mô tả kế hoạch giới thiệu, không suy ra ngày giao dịch.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "phase2_phase3_announcement",
+          "value": "2006-07-15",
+          "unit": "date",
+          "scope": "phases:2_and_3",
+          "source_ids": [
+            "PAN_2006"
+          ],
+          "event_date": "2006-07-15",
+          "event_status": "reported_media_event_requires_date_review",
+          "note": "Bài trích báo ghi ngày 12/07 nhưng tường thuật sự kiện 15/07; cần đối chiếu.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "apartment_size_range_m2",
+          "value": [
+            120,
+            272
+          ],
+          "unit": "m2",
+          "scope": "project",
+          "source_ids": [
+            "PAN_2006"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "forecast_completion",
+          "value": "2008-Q2",
+          "unit": "quarter",
+          "scope": "project",
+          "source_ids": [
+            "PAN_2006"
+          ],
+          "event_date": null,
+          "event_status": "historical_forecast_not_actual",
+          "note": "Dự kiến tại thời điểm 2006, không là thời điểm bàn giao thực tế.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "historical_site_area_m2",
+          "value": 24053,
+          "unit": "m2",
+          "scope": "historical_source_claim",
+          "source_ids": [
+            "PAN_2006"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Chênh 1 m² với hồ sơ dự án không ghi ngày; không ghi đè số nào.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hist-skygarden",
+      "name": "Sky Garden",
+      "scope": "existing_hcm_multi_phase_development",
+      "parent_id": null,
+      "verification_status": "review_only",
+      "facts": [
+        {
+          "field": "whole_complex_phase_count",
+          "value": 3,
+          "unit": "major_phases",
+          "scope": "sky_garden_all",
+          "source_ids": [
+            "SKY_2007"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "whole_complex_block_count",
+          "value": 42,
+          "unit": "blocks",
+          "scope": "sky_garden_all",
+          "source_ids": [
+            "SKY_2007"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "phase3_first_offer_date",
+          "value": "2007-11-04",
+          "unit": "date",
+          "scope": "phase:sky_garden_iii",
+          "source_ids": [
+            "SKY_2007"
+          ],
+          "event_date": "2007-11-04",
+          "event_status": "historical_announcement_schedule",
+          "note": "Nguồn mô tả lịch công bố dự kiến, không thay thế bằng ngày bán xong.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "phase3_apartments_total",
+          "value": 1715,
+          "unit": "residential_units",
+          "scope": "phase:sky_garden_iii",
+          "source_ids": [
+            "SKY_2007"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "phase3_commercial_units",
+          "value": 56,
+          "unit": "shops",
+          "scope": "phase:sky_garden_iii",
+          "source_ids": [
+            "SKY_2007"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "phase3_block_count",
+          "value": 22,
+          "unit": "blocks",
+          "scope": "phase:sky_garden_iii",
+          "source_ids": [
+            "SKY_2007"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "phase3_regions",
+          "value": 9,
+          "unit": "regions",
+          "scope": "phase:sky_garden_iii",
+          "source_ids": [
+            "SKY_2008_HANDOVER_FORECAST"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "phase3_site_area_ha",
+          "value": 4.27,
+          "unit": "ha",
+          "scope": "phase:sky_garden_iii",
+          "source_ids": [
+            "SKY_2007"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "phase3_apartment_area_examples",
+          "value": [
+            56,
+            70,
+            95,
+            106
+          ],
+          "unit": "m2",
+          "scope": "phase:sky_garden_iii",
+          "source_ids": [
+            "SKY_2007"
+          ],
+          "event_date": "2007-11-04",
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Các diện tích mẫu, không phải mọi căn.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "phase3_first_stage_apartments_scheduled",
+          "value": 300,
+          "unit": "residential_units",
+          "scope": "phase:sky_garden_iii_stage1",
+          "source_ids": [
+            "SKY_2007"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "phase3_stage2_apartment_reservations",
+          "value": 1128,
+          "unit": "reservation_applications_or_units",
+          "scope": "phase:sky_garden_iii_stage2",
+          "source_ids": [
+            "SKY_2008_PRICE"
+          ],
+          "event_date": "2007",
+          "event_status": "reported_reservations_not_verified_sales",
+          "note": "Không phải giao dịch hoàn tất.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "phase3_stage1_handover_contract_schedule",
+          "value": "2010-05",
+          "unit": "month",
+          "scope": "phase:sky_garden_iii_stage1",
+          "source_ids": [
+            "SKY_2008_HANDOVER_FORECAST"
+          ],
+          "event_date": null,
+          "event_status": "historical_contract_schedule",
+          "note": "Lịch theo hợp đồng được nguồn 2008 thuật lại, không phải thực tế.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "phase3_stage1_early_access_offered",
+          "value": "2009-06",
+          "unit": "month",
+          "scope": "phase:sky_garden_iii_stage1",
+          "source_ids": [
+            "SKY_2008_HANDOVER_FORECAST"
+          ],
+          "event_date": null,
+          "event_status": "historical_forecast_not_actual",
+          "note": "Thông báo khả năng nhận nhà sớm, không xác định bàn giao thực tế.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "phase3_price_average_asking_2008",
+          "value": 27000000,
+          "unit": "VND/m2",
+          "scope": "phase:sky_garden_iii_stage2",
+          "source_ids": [
+            "SKY_2008_PRICE"
+          ],
+          "event_date": "2008-08",
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Giá bình quân được công bố; diện tích tính giá chưa được nêu rõ.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "phase1_phase2_secondary_price_recalled_2007",
+          "value": 35000000,
+          "unit": "VND/m2",
+          "scope": "phase:sky_garden_i_ii",
+          "source_ids": [
+            "SKY_2013_RETROSPECTIVE"
+          ],
+          "event_date": "2007",
+          "event_status": "historical_market_report_estimate",
+          "note": "Hồi cố của doanh nghiệp về thị trường thứ cấp, chưa có chứng từ giao dịch.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hist-greenvalley",
+      "name": "Green Valley",
+      "scope": "existing_hcm_development",
+      "parent_id": null,
+      "verification_status": "review_only",
+      "facts": [
+        {
+          "field": "developer_name",
+          "value": "Công ty TNHH Phát triển Phú Mỹ Hưng",
+          "unit": "organization",
+          "scope": "project",
+          "source_ids": [
+            "GREEN_PROJECT"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "historical_address",
+          "value": "Lô MD2-2, Nguyễn Đổng Chi, phường Tân Phú, quận 7, TP.HCM",
+          "unit": "text",
+          "scope": "historical_address_pre_2025",
+          "source_ids": [
+            "GREEN_PROJECT"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Không tự khẳng định tọa độ WGS84.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "site_area_m2",
+          "value": 14500,
+          "unit": "m2",
+          "scope": "project",
+          "source_ids": [
+            "GREEN_PROJECT"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "apartments_total",
+          "value": 546,
+          "unit": "residential_units",
+          "scope": "project",
+          "source_ids": [
+            "GREEN_PROJECT"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "shops_total",
+          "value": 8,
+          "unit": "shophouses",
+          "scope": "project",
+          "source_ids": [
+            "GREEN_PROJECT"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "building_count",
+          "value": 4,
+          "unit": "buildings",
+          "scope": "project",
+          "source_ids": [
+            "GREEN_PROJECT"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "building_height_floors_range",
+          "value": [
+            20,
+            27
+          ],
+          "unit": "floors",
+          "scope": "project",
+          "source_ids": [
+            "GREEN_PROJECT"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "first_sale_announcement_date",
+          "value": "2014-03-23",
+          "unit": "date",
+          "scope": "launch_stage:1",
+          "source_ids": [
+            "GREEN_2014_SALE"
+          ],
+          "event_date": "2014-03-23",
+          "event_status": "historical_announcement_schedule",
+          "note": "Nguồn dạng thông báo trước sự kiện, chưa là lịch sử giao dịch.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "stage2_apartments_claim",
+          "value": 106,
+          "unit": "residential_units",
+          "scope": "launch_stage:2",
+          "source_ids": [
+            "GREEN_PROJECT"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Nguồn trang dự án không có ngày mở bán.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "first_stage_handover_forecast",
+          "value": "2016-09",
+          "unit": "month",
+          "scope": "launch_stage:1",
+          "source_ids": [
+            "GREEN_2014_FORECAST"
+          ],
+          "event_date": null,
+          "event_status": "historical_forecast_not_actual",
+          "note": "Dự kiến tại thời điểm báo công bố, không dùng làm năm bàn giao xác thực.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "developer_site_completed_status",
+          "value": true,
+          "unit": "issuer_status_claim",
+          "scope": "project",
+          "source_ids": [
+            "GREEN_PROJECT"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Website CĐT ghi đã bàn giao nhưng không nêu ngày hoàn thành.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hist-scenicvalley",
+      "name": "Scenic Valley",
+      "scope": "existing_hcm_development",
+      "parent_id": null,
+      "verification_status": "review_only",
+      "facts": [
+        {
+          "field": "site_area_approx_ha",
+          "value": 3.2,
+          "unit": "ha",
+          "scope": "project",
+          "source_ids": [
+            "SCENIC_2014_SPECS"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "apartments_total_2014_plan",
+          "value": 1202,
+          "unit": "residential_units",
+          "scope": "project_2014_design_snapshot",
+          "source_ids": [
+            "SCENIC_2014_SPECS"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "original_building_count_2014",
+          "value": 7,
+          "unit": "buildings",
+          "scope": "project_2014_design_snapshot",
+          "source_ids": [
+            "SCENIC_2014_SPECS"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "original_building_labels",
+          "value": [
+            "B",
+            "C1",
+            "C2",
+            "D1",
+            "D2",
+            "E1",
+            "E2"
+          ],
+          "unit": "tower_labels",
+          "scope": "project_2014_design_snapshot",
+          "source_ids": [
+            "SCENIC_2014_SPECS"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Danh sách năm 2014 có vẻ không thống nhất với giai đoạn sau có F/H; cần bản vẽ cuối.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "first_sale_event",
+          "value": "2014-10-04",
+          "unit": "date",
+          "scope": "launch_stage:1",
+          "source_ids": [
+            "SCENIC_2014_SALE"
+          ],
+          "event_date": "2014-10-04",
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "first_sale_units_offered",
+          "value": 251,
+          "unit": "residential_units",
+          "scope": "launch_stage:1",
+          "source_ids": [
+            "SCENIC_2014_SALE"
+          ],
+          "event_date": "2014-10-04",
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "second_sale_planned",
+          "value": "2014-10-25",
+          "unit": "date",
+          "scope": "launch_stage:2",
+          "source_ids": [
+            "SCENIC_2014_SALE"
+          ],
+          "event_date": "2014-10-25",
+          "event_status": "historical_forecast_not_actual",
+          "note": "Thông báo dự kiến chào bán, không tự ghi thực tế.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "second_sale_tower_label",
+          "value": "C2",
+          "unit": "tower_label",
+          "scope": "launch_stage:2",
+          "source_ids": [
+            "SCENIC_2014_SALE"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "second_sale_units_planned",
+          "value": 124,
+          "unit": "residential_units",
+          "scope": "launch_stage:2",
+          "source_ids": [
+            "SCENIC_2014_SALE"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Chào bán dự kiến.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "fourth_sale_event_month",
+          "value": "2015-03",
+          "unit": "month",
+          "scope": "launch_stage:4",
+          "source_ids": [
+            "SCENIC_2015_WAVE4"
+          ],
+          "event_date": "2015-03",
+          "event_status": "historical_event_requires_date_review",
+          "note": "Bài nêu ngày 15/3, năm suy từ bài 2015; cần xác thực ngày đăng.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "fourth_sale_units_approx",
+          "value": 222,
+          "unit": "residential_units",
+          "scope": "launch_stage:4",
+          "source_ids": [
+            "SCENIC_2015_WAVE4"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "fourth_sale_towers",
+          "value": [
+            "F",
+            "B"
+          ],
+          "unit": "tower_labels",
+          "scope": "launch_stage:4",
+          "source_ids": [
+            "SCENIC_2015_WAVE4"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "fifth_sale_units",
+          "value": 139,
+          "unit": "residential_units",
+          "scope": "launch_stage:5",
+          "source_ids": [
+            "SCENIC_2015_WAVE5"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "developer_reported_foreign_buyer_participation",
+          "value": "foreign applicants mentioned at launch",
+          "unit": "qualitative",
+          "scope": "historical_marketing",
+          "source_ids": [
+            "SCENIC_2015_WAVE4"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "KHÔNG phải chứng cứ dự án đủ quota SPA, không kiểm chứng nationality/ownership.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hist-riversideresidence",
+      "name": "Riverside Residence",
+      "scope": "existing_hcm_development",
+      "parent_id": null,
+      "verification_status": "review_only",
+      "facts": [
+        {
+          "field": "historical_address",
+          "value": "Đại lộ Nguyễn Lương Bằng, khu Nam Viên, Phú Mỹ Hưng, quận 7, TP.HCM",
+          "unit": "text",
+          "scope": "historical_address_pre_2025",
+          "source_ids": [
+            "RIVER_PROJECT"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "land_area_m2",
+          "value": 45425,
+          "unit": "m2",
+          "scope": "project",
+          "source_ids": [
+            "RIVER_PROJECT"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "building_count",
+          "value": 5,
+          "unit": "buildings",
+          "scope": "project",
+          "source_ids": [
+            "RIVER_2015_HISTORY"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "tower_labels",
+          "value": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "unit": "tower_labels",
+          "scope": "project",
+          "source_ids": [
+            "RIVER_2024_SUMMARY"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "building_floors_range",
+          "value": [
+            17,
+            29
+          ],
+          "unit": "floors",
+          "scope": "project",
+          "source_ids": [
+            "RIVER_2024_SUMMARY"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "apartment_count_2015",
+          "value": 671,
+          "unit": "residential_units",
+          "scope": "issuer_snapshot_2015",
+          "source_ids": [
+            "RIVER_2015_HISTORY"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "commercial_units_2015",
+          "value": 51,
+          "unit": "shops",
+          "scope": "issuer_snapshot_2015",
+          "source_ids": [
+            "RIVER_2015_HISTORY"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "in_operation_since_month",
+          "value": "2010-11",
+          "unit": "month",
+          "scope": "project",
+          "source_ids": [
+            "RIVER_2015_HISTORY"
+          ],
+          "event_date": "2010-11",
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Nguồn hồi cố CĐT, không phải chứng nhận hoàn công.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "all_products_earlier_site_claim",
+          "value": 673,
+          "unit": "all_products_unspecified_basis",
+          "scope": "older_marketing_scope",
+          "source_ids": [
+            "RIVER_673"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Mâu thuẫn với 671+51=722 ở nguồn khác, chờ xác minh scope và mốc.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "historic_combined_units_over_720",
+          "value": true,
+          "unit": "approx_all_residential_and_shops",
+          "scope": "retrospective",
+          "source_ids": [
+            "RIVER_2024_SUMMARY"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Chỉ là >720; không tính thành số căn hộ.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "map-midtown",
+      "name": "Phú Mỹ Hưng Midtown",
+      "scope": "existing_hcm_parent_complex",
+      "parent_id": null,
+      "verification_status": "review_only",
+      "facts": [
+        {
+          "field": "developer_collaboration",
+          "value": "Phú Mỹ Hưng with Daiwa House, Nomura Real Estate Group and Sumitomo Forestry",
+          "unit": "developer_partnership_claim",
+          "scope": "parent_project",
+          "source_ids": [
+            "MID_2019_PHASES"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Không suy ra pháp nhân sở hữu đất hay tư cách mua của người nước ngoài.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "component_count",
+          "value": 4,
+          "unit": "subprojects",
+          "scope": "parent_project",
+          "source_ids": [
+            "MID_2018_COMPLEX"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "component_names",
+          "value": [
+            "The Grande",
+            "The Symphony",
+            "The Signature",
+            "The Peak"
+          ],
+          "unit": "subproject_names",
+          "scope": "parent_project",
+          "source_ids": [
+            "MID_2018_COMPLEX"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "site_area_m2",
+          "value": 56331,
+          "unit": "m2",
+          "scope": "parent_project",
+          "source_ids": [
+            "MID_2018_COMPLEX"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "all_products_reported_2019",
+          "value": 2439,
+          "unit": "all_products",
+          "scope": "parent_project",
+          "source_ids": [
+            "MID_2019_PHASES"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Bao gồm loại sản phẩm chưa xác định, không gán thành số căn hộ.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "first_launch_month",
+          "value": "2017-02",
+          "unit": "month",
+          "scope": "parent_project",
+          "source_ids": [
+            "MID_2017_GRANDE"
+          ],
+          "event_date": "2017-02",
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "district_historical_location",
+          "value": "Khu Nam Viên, Nguyễn Lương Bằng và Tân Phú, Phú Mỹ Hưng, quận 7, TP.HCM",
+          "unit": "text",
+          "scope": "historical_location_pre_2025",
+          "source_ids": [
+            "MID_2019_PHASE_COMPONENTS"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Chưa xác định số nhà riêng cho từng phase.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "phase_identity_parent_id_review",
+          "value": "map-midtown",
+          "unit": "canonical_parent_candidate",
+          "scope": "record_relationship",
+          "source_ids": [
+            "MID_2018_COMPLEX"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Bốn ID hist-* hiện trỏ project_group=hist-phumyhungmidtown không hiện diện trong danh mục; không tự đổi index.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "historical_midtown_three_phase_reported_average_price_vnd_m2",
+          "value": [
+            60000000,
+            70000000
+          ],
+          "unit": "VND/m2",
+          "scope": "phases:grande_symphony_signature",
+          "source_ids": [
+            "MID_2018_SIGNATURE_PRICE"
+          ],
+          "event_date": "2018-03-31",
+          "event_status": "historical_retro_developer_hosted_media_report",
+          "note": "Historic 60–70m/m2 across The Grande, The Symphony, The Signature, on mixed 1,230 apartment and shop transactions reported. Not specific to The Signature, not transaction verified; VAT and maintenance included, floor-area definition missing. REPORT_ESTIMATE.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hist-thegrandemidtown",
+      "name": "The Grande (Midtown)",
+      "scope": "existing_hcm_component",
+      "parent_id": "map-midtown",
+      "verification_status": "review_only",
+      "facts": [
+        {
+          "field": "parent_canonical_candidate",
+          "value": "map-midtown",
+          "unit": "project_id",
+          "scope": "relation_proposed",
+          "source_ids": [
+            "MID_2018_COMPLEX"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "first_public_sale_event",
+          "value": "2017-02-25",
+          "unit": "date",
+          "scope": "component",
+          "source_ids": [
+            "MID_2017_GRANDE"
+          ],
+          "event_date": "2017-02-25",
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Bài ghi 25/2, năm 2017 theo nội dung trang.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "first_sale_units_issued",
+          "value": 309,
+          "unit": "residential_units",
+          "scope": "phase:the_grande",
+          "source_ids": [
+            "MID_2019_PHASES"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "reported_apartment_size_range_m2",
+          "value": [
+            69,
+            153
+          ],
+          "unit": "m2",
+          "scope": "phase:the_grande",
+          "source_ids": [
+            "MID_2017_GRANDE"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Dải diện tích; không ghép riêng với mức giá tổng.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "opening_asking_total_price_range_vnd",
+          "value": [
+            5000000000,
+            10000000000
+          ],
+          "unit": "VND/apartment",
+          "scope": "launch_2017",
+          "source_ids": [
+            "MID_2017_GRANDE"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "'Từ 5 tỷ đến gần 10 tỷ', cận trên mở; gồm VAT/quỹ bảo trì/tiền sử dụng đất. PRICE_ASKING.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "initial_handover_month",
+          "value": "2019-06",
+          "unit": "month",
+          "scope": "phase:the_grande",
+          "source_ids": [
+            "MID_2019_SYMPHONY"
+          ],
+          "event_date": "2019-06",
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Trang CĐT ghi đã bàn giao trong tháng 6/2019.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hist-thesymphonymidtown",
+      "name": "The Symphony (Midtown)",
+      "scope": "existing_hcm_component",
+      "parent_id": "map-midtown",
+      "verification_status": "review_only",
+      "facts": [
+        {
+          "field": "parent_canonical_candidate",
+          "value": "map-midtown",
+          "unit": "project_id",
+          "scope": "relation_proposed",
+          "source_ids": [
+            "MID_2018_COMPLEX"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "market_introduction_date",
+          "value": "2017-04-27",
+          "unit": "date",
+          "scope": "phase:the_symphony",
+          "source_ids": [
+            "MID_2019_SYMPHONY"
+          ],
+          "event_date": "2017-04-27",
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Ra mắt công bố trước thời điểm chào bán.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "sale_start_month",
+          "value": "2017-05",
+          "unit": "month",
+          "scope": "phase:the_symphony",
+          "source_ids": [
+            "MID_2019_PHASES"
+          ],
+          "event_date": "2017-05",
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Nguồn ghi mở bán tháng 5; không thay bằng ngày ra mắt.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "sale_products_reported",
+          "value": 369,
+          "unit": "products_unspecified_apartments_vs_shops",
+          "scope": "phase:the_symphony",
+          "source_ids": [
+            "MID_2019_PHASES"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "handover_event_date",
+          "value": "2019-10-15",
+          "unit": "date",
+          "scope": "phase:the_symphony",
+          "source_ids": [
+            "MID_2019_SYMPHONY"
+          ],
+          "event_date": "2019-10-15",
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "joint_handover_with_grande_over",
+          "value": 700,
+          "unit": "apartments_and_shops_approx",
+          "scope": "parent_partial_components",
+          "source_ids": [
+            "MID_2019_SYMPHONY"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Không phải số căn riêng Symphony.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hist-thesignaturemidtown",
+      "name": "The Signature (Midtown)",
+      "scope": "existing_hcm_component",
+      "parent_id": "map-midtown",
+      "verification_status": "review_only",
+      "facts": [
+        {
+          "field": "parent_canonical_candidate",
+          "value": "map-midtown",
+          "unit": "project_id",
+          "scope": "relation_proposed",
+          "source_ids": [
+            "MID_2018_COMPLEX"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "first_sale_event_date",
+          "value": "2018-01-27",
+          "unit": "date",
+          "scope": "phase:the_signature",
+          "source_ids": [
+            "MID_2018_SIGNATURE_SALE"
+          ],
+          "event_date": "2018-01-27",
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Nguồn mô tả ngày 27/1; 2018 xác định từ chuỗi sự kiện.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "first_sale_apartments",
+          "value": 271,
+          "unit": "residential_units",
+          "scope": "sale_wave:1",
+          "source_ids": [
+            "MID_2018_SIGNATURE_SALE"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "second_sale_event",
+          "value": "2018-03-31",
+          "unit": "date",
+          "scope": "sale_wave:2",
+          "source_ids": [
+            "MID_2018_SIGNATURE_PRICE"
+          ],
+          "event_date": "2018-03-31",
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "second_sale_apartments",
+          "value": 245,
+          "unit": "residential_units",
+          "scope": "sale_wave:2",
+          "source_ids": [
+            "MID_2018_SIGNATURE_PRICE"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "total_apartments",
+          "value": 516,
+          "unit": "residential_units",
+          "scope": "phase:the_signature",
+          "source_ids": [
+            "MID_2020_SIGNATURE"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "commercial_units",
+          "value": 103,
+          "unit": "shops",
+          "scope": "phase:the_signature",
+          "source_ids": [
+            "MID_2020_SIGNATURE_WAVES"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "combined_products",
+          "value": 619,
+          "unit": "apartments_and_shops",
+          "scope": "phase:the_signature",
+          "source_ids": [
+            "MID_2020_SIGNATURE"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "blocks",
+          "value": [
+            "M7A",
+            "M7B"
+          ],
+          "unit": "block_labels",
+          "scope": "phase:the_signature",
+          "source_ids": [
+            "MID_2020_SIGNATURE"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "handover_start",
+          "value": "2020-06-29",
+          "unit": "date",
+          "scope": "phase:the_signature",
+          "source_ids": [
+            "MID_2020_SIGNATURE_WAVES"
+          ],
+          "event_date": "2020-06-29",
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "m7b_handover_window",
+          "value": [
+            "2020-06-29",
+            "2020-07-08"
+          ],
+          "unit": "date_range",
+          "scope": "block:M7B",
+          "source_ids": [
+            "MID_2020_SIGNATURE_WAVES"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "m7a_handover_window",
+          "value": [
+            "2020-08-03",
+            "2020-08-12"
+          ],
+          "unit": "date_range",
+          "scope": "block:M7A",
+          "source_ids": [
+            "MID_2020_SIGNATURE_WAVES"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hist-thepeakmidtown",
+      "name": "The Peak (Midtown)",
+      "scope": "existing_hcm_component",
+      "parent_id": "map-midtown",
+      "verification_status": "review_only",
+      "facts": [
+        {
+          "field": "parent_canonical_candidate",
+          "value": "map-midtown",
+          "unit": "project_id",
+          "scope": "relation_proposed",
+          "source_ids": [
+            "MID_2018_COMPLEX"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "first_sale_month",
+          "value": "2018-11",
+          "unit": "month",
+          "scope": "phase:the_peak",
+          "source_ids": [
+            "MID_2020_PEAK_FORECAST"
+          ],
+          "event_date": "2018-11",
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "Theo hồi cố trang chủ đầu tư.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "subphase_1_id",
+          "value": "M8B",
+          "unit": "block_group",
+          "scope": "phase:the_peak",
+          "source_ids": [
+            "MID_2019_PHASE_COMPONENTS"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "subphase_2_id",
+          "value": "M8A",
+          "unit": "block_group",
+          "scope": "phase:the_peak",
+          "source_ids": [
+            "MID_2019_PHASE_COMPONENTS"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "m8a_tower_labels",
+          "value": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "unit": "tower_labels",
+          "scope": "phase:the_peak_m8a",
+          "source_ids": [
+            "MID_2019_PHASES"
+          ],
+          "event_date": null,
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": null,
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "first_handover_planned",
+          "value": "2021-Q4",
+          "unit": "quarter",
+          "scope": "phase:the_peak",
+          "source_ids": [
+            "MID_2020_PEAK_FORECAST"
+          ],
+          "event_date": null,
+          "event_status": "historical_forecast_not_actual",
+          "note": "Mốc dự kiến trong bài cất nóc; không phải ngày thực tế.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        },
+        {
+          "field": "actual_handover_month_issuer_retrospective",
+          "value": "2021-11",
+          "unit": "month",
+          "scope": "phase:the_peak",
+          "source_ids": [
+            "MID_2022_PEAK_HANDOVER"
+          ],
+          "event_date": "2021-11",
+          "event_status": "issuer_historical_or_profile_claim",
+          "note": "CĐT mô tả bàn giao chính thức, chưa đối chiếu chứng thư từng tháp.",
+          "review_status": "issuer_claim_review_pending",
+          "rights": "metadata_reference_only_republication_unlicensed"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "price_observations": [
+    {
+      "id": "PMH_SKYGARDEN3_2008_ASKING",
+      "project_id": "hist-skygarden",
+      "scope": "phase:sky_garden_iii_stage2",
+      "type": "PRICE_ASKING",
+      "market": "PRIMARY_HISTORIC",
+      "price_min": 27000000,
+      "price_max": 27000000,
+      "currency": "VND",
+      "denominator": "m2",
+      "price_basis": "developer_reported_average_asking_price",
+      "area_basis": "UNDISCLOSED_net_or_gross",
+      "vat": "UNSPECIFIED",
+      "maintenance_fund": "UNSPECIFIED",
+      "unit_area_m2": null,
+      "observation_period": "2008-08_to_2008-10",
+      "source_ids": [
+        "SKY_2008_PRICE"
+      ],
+      "rights": "reference_only_no_feed_or_republication_permission",
+      "verification": "issuer_claim_review_only_not_transaction"
+    },
+    {
+      "id": "PMH_SKYGARDEN12_2007_SECONDARY_RETRO",
+      "project_id": "hist-skygarden",
+      "scope": "phase:sky_garden_i_ii",
+      "type": "REPORT_ESTIMATE",
+      "market": "SECONDARY_HISTORICAL_CONTEXT",
+      "price_min": 35000000,
+      "price_max": 35000000,
+      "currency": "VND",
+      "denominator": "m2",
+      "price_basis": "retrospective_developer_market_commentary",
+      "area_basis": "UNSPECIFIED",
+      "vat": "UNSPECIFIED",
+      "maintenance_fund": "UNSPECIFIED",
+      "unit_area_m2": null,
+      "observation_period": "2007",
+      "source_ids": [
+        "SKY_2013_RETROSPECTIVE"
+      ],
+      "rights": "reference_only_no_feed_or_republication_permission",
+      "verification": "NOT_TRANSACTION_VERIFIED"
+    },
+    {
+      "id": "PMH_GRANDE_2017_PRIMARY_ASKING_TOTAL",
+      "project_id": "hist-thegrandemidtown",
+      "scope": "phase:the_grande",
+      "type": "PRICE_ASKING",
+      "market": "PRIMARY_HISTORIC",
+      "price_min": 5000000000,
+      "price_max": 10000000000,
+      "currency": "VND",
+      "denominator": "apartment_total",
+      "price_basis": "from_5_billion_to_nearly_10_billion_upper_bound_exclusive",
+      "area_basis": "not_a_price_per_m2",
+      "vat": "INCLUDED",
+      "maintenance_fund": "INCLUDED",
+      "land_use_fee": "INCLUDED",
+      "unit_area_m2": null,
+      "reported_range_of_apartment_areas_m2": [
+        69,
+        153
+      ],
+      "observation_period": "2017-02",
+      "source_ids": [
+        "MID_2017_GRANDE"
+      ],
+      "rights": "reference_only_no_feed_or_republication_permission",
+      "verification": "issuer_claim_review_only_not_transaction"
+    },
+    {
+      "id": "PMH_MIDTOWN_FIRST_THREE_PHASES_2018_REPORTED_AVG_RANGE",
+      "project_id": "map-midtown",
+      "scope": "phases:grande_symphony_signature",
+      "type": "REPORT_ESTIMATE",
+      "market": "MULTIPHASE_HISTORICAL_AGGREGATE",
+      "price_min": 60000000,
+      "price_max": 70000000,
+      "currency": "VND",
+      "denominator": "m2",
+      "price_basis": "developer_hosted_third_party_reported_average_price_range_across_2017_2018_first_three_phases_mixed_products",
+      "area_basis": "UNSPECIFIED_net_or_gross",
+      "vat": "INCLUDED",
+      "maintenance_fund": "INCLUDED",
+      "unit_area_m2": null,
+      "observation_period": "2017-Q1_to_2018-03-31",
+      "source_ids": [
+        "MID_2018_SIGNATURE_PRICE"
+      ],
+      "rights": "reference_only_no_feed_or_republication_permission",
+      "verification": "UNVERIFIED_REPORTED_MARKET_AGGREGATE_NOT_TRANSACTION_OR_PHASE_SPECIFIC",
+      "note": "Source labels Nguoidothi.net.vn; 60–70 million VND/m² spans 3 phases and includes shops, cannot treat as The Signature-specific asking or verified sale."
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "PMH_PANORAMA_1M2",
+      "project_id": "hist-thepanorama",
+      "issue": "24,054 m² current profile versus 24,053 m² archival report (source publisher/date differ). Require cadastral/legal document.",
+      "source_ids": [
+        "PAN_PROJECT",
+        "PAN_2006"
+      ]
+    },
+    {
+      "id": "PMH_PANORAMA_FUTURE_NEWS",
+      "project_id": "hist-thepanorama",
+      "issue": "Article credits press 2006-07-12 yet states announcement morning 2006-07-15. Preserve as claimed/forecast until chronology checked.",
+      "source_ids": [
+        "PAN_2006"
+      ]
+    },
+    {
+      "id": "PMH_SKYGARDEN_FORECAST",
+      "project_id": "hist-skygarden",
+      "issue": "Initial 2007 projected handover 2010-Q2; 2008 article states June 2009 early access possible. Not proof of actual phase handover.",
+      "source_ids": [
+        "SKY_2007",
+        "SKY_2008_HANDOVER_FORECAST"
+      ]
+    },
+    {
+      "id": "PMH_SKYGARDEN_SCOPE",
+      "project_id": "hist-skygarden",
+      "issue": "42 blocks >3000 homes references entire Sky Garden I–III; 1715 apartments and 56 shops references Sky Garden III only. Avoid double count and verify products vs apartments.",
+      "source_ids": [
+        "SKY_2007"
+      ]
+    },
+    {
+      "id": "PMH_RIVERSIDE_673_VS_722",
+      "project_id": "hist-riversideresidence",
+      "issue": "One PMH microsite says 673 products; another says 671 apartments +51 shops (722); retrospective says >720 apartments & shops. Preserve separately pending building-level reconciliation.",
+      "source_ids": [
+        "RIVER_673",
+        "RIVER_2015_HISTORY",
+        "RIVER_2024_SUMMARY"
+      ]
+    },
+    {
+      "id": "PMH_SCENIC_TOWER_LABEL_REVISIONS",
+      "project_id": "hist-scenicvalley",
+      "issue": "Early 2014 design labels B/C1/C2/D1/D2/E1/E2 vs later launch tower F/H. Planning snapshots or renaming; no inferred tower map.",
+      "source_ids": [
+        "SCENIC_2014_SPECS",
+        "SCENIC_2015_WAVE4"
+      ]
+    },
+    {
+      "id": "PMH_GREEN_COMPLETION_DATE",
+      "project_id": "hist-greenvalley",
+      "issue": "2014 press projects stage-1 completion Sept 2016; undated developer profile states completed/handover. Actual handover date not verified.",
+      "source_ids": [
+        "GREEN_2014_FORECAST",
+        "GREEN_PROJECT"
+      ]
+    },
+    {
+      "id": "PMH_MIDTOWN_PARENT_ORPHAN",
+      "project_id": "map-midtown",
+      "issue": "Four archive child records point to hist-phumyhungmidtown, absent from 150 canonical IDs. Proposed review-only remap to map-midtown. Change generator and index coherently only after review.",
+      "source_ids": [
+        "MID_2018_COMPLEX"
+      ]
+    },
+    {
+      "id": "PMH_MIDTOWN_PRODUCTS_SCOPE",
+      "project_id": "map-midtown",
+      "issue": "2,439 total 'products' in developer historical marketing includes apartments plus commercial units; do not convert to flat count or sum child phases twice.",
+      "source_ids": [
+        "MID_2019_PHASES"
+      ]
+    },
+    {
+      "id": "PMH_SIGNATURE_271_245",
+      "project_id": "hist-thesignaturemidtown",
+      "issue": "271 and 245 are separate 2018 sales wave apartment counts; 516 flats + 103 shops = 619 total in handover article; do not sum waves to all-products.",
+      "source_ids": [
+        "MID_2018_SIGNATURE_SALE",
+        "MID_2018_SIGNATURE_PRICE",
+        "MID_2020_SIGNATURE"
+      ]
+    },
+    {
+      "id": "PMH_HISTORIC_SOURCE_ORIGIN",
+      "project_id": "map-midtown",
+      "issue": "Some historical articles hosted by developer reproduce journalism (e.g. VnExpress/Người Đô Thị), publication and original rights must be confirmed. Do not reprint content.",
+      "source_ids": [
+        "PAN_2006",
+        "MID_2018_SIGNATURE_SALE"
+      ]
+    },
+    {
+      "id": "PMH_MIDTOWN_MULTI_PHASE_AVERAGE",
+      "project_id": "map-midtown",
+      "issue": "Developer-hosted journalism identifies 60–70m/m² as multi-phase first-three-Midtown-project average (includes apartments and shops), not The Signature alone. REPORT_ESTIMATE only, source's original publisher requires rights check.",
+      "source_ids": [
+        "MID_2018_SIGNATURE_PRICE"
+      ]
+    }
+  ],
+  "data_connection_queue": [
+    {
+      "publisher": "Phú Mỹ Hưng",
+      "contact_page": "https://phumyhung.vn/en/contact",
+      "request": "Permission for licensed phase/building master data, verified handover dates, historical price list and current primary price feed; media asset licenses separate.",
+      "status": "needs_partner_agreement",
+      "copyright_clearance_required": true
+    },
+    {
+      "publisher": "Licensed resale/rental marketplace partners",
+      "request": "Consent-based export/API/webhook for asking prices and signed-transactions only with documentation; no automated scraping.",
+      "status": "not_connected",
+      "copyright_clearance_required": true
+    },
+    {
+      "publisher": "HCMC public spatial registry/cadastral authority",
+      "request": "Authoritative project entrance/geocode, official plot address, date and approved CRS; open licensing confirmation.",
+      "status": "needs_official_source_and_coordinates",
+      "copyright_clearance_required": true
+    }
+  ],
+  "scope_guards": {
+    "the_felix_not_felix_homes": true,
+    "the_win_city": "EXCLUDE_HCMC_DUC_HOA_TAY_NINH",
+    "norton_park": "DO_NOT_AUTO_APPROVE_MISMATCHES",
+    "no_unverified_legal_or_prices_to_public": true
+  },
+  "metrics": {
+    "new_canonical_dossiers": 10,
+    "claim_candidates": 101,
+    "unique_source_urls": 28,
+    "price_candidates": 4,
+    "price_types": {
+      "PRICE_ASKING": 2,
+      "TRANSACTION_VERIFIED": 0,
+      "RENT_ASKING": 0,
+      "REPORT_ESTIMATE": 2
+    },
+    "new_verified_coordinates": 0,
+    "conflicts": 12,
+    "live_price_publications": 0
+  },
+  "audit_corrections": [
+    {
+      "checked_at": "2026-10-12",
+      "id": "price_scope_2018_midtown",
+      "reason": "first 3 phases aggregate, third party hosted article",
+      "status": "corrected_review_only"
+    },
+    {
+      "checked_at": "2026-10-12",
+      "id": "third_party_rights",
+      "source_ids": [
+        "PAN_2006",
+        "MID_2018_SIGNATURE_PRICE"
+      ],
+      "status": "original_licence_unverified"
+    }
+  ]
+}

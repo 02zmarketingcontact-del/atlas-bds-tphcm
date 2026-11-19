@@ -1,0 +1,33 @@
+{
+  "batch": 25,
+  "date": "2026-10-14",
+  "status": "REVIEW_ONLY_NOT_PUBLIC",
+  "project_ids": [
+    "hist-sunrisecity",
+    "hist-theprinceresidence",
+    "hist-tropicgarden",
+    "hist-lexingtonresidence",
+    "hist-icon56",
+    "hist-galaxy9"
+  ],
+  "new_official_source_urls": [
+    "https://www.novaland.com.vn/Data/Sites/1/media/ban-tin-hang-thang/11-2014.pdf",
+    "https://www.novaland.com.vn/Data/Sites/1/media/ban-tin-hang-thang/8-2015.pdf",
+    "https://www.novaland.com.vn/du-an-tropic-garden-thao-dien-q2-giao-nha-som-cho-khach-hang",
+    "https://www.novaland.com.vn/tin-tuc-1/thong-tin-bao-chi/novaland-chinh-thuc-ban-giao-khu-nha-tre-tai-khu-can-ho-galaxy-9-cho--uy-ban-nhan-dan-quan-4"
+  ],
+  "known_prior_source_reused": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-novaland/tin-du-an/bat-dong-san-kenh-dau-tu-an-toan-sinh-loi-trong-nam-2014",
+  "new_price_candidates_review_only": 11,
+  "asking": 5,
+  "rental_marketing_report_estimates": 6,
+  "verified_transactions": 0,
+  "verified_wgs84": 0,
+  "feed_rights": "NOT_GRANTED",
+  "blocked_conflicts": [
+    "Tropic Garden 2014 price bases and phases not comparable",
+    "Lexington Q1-2016 versus December-2015 are projections",
+    "Galaxy 9 kindergarten versus residential handover separate"
+  ],
+  "not_legal_status_approval": true,
+  "do_not_publish": true
+}

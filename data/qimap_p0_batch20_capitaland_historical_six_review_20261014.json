@@ -1,0 +1,162 @@
+{
+  "status": "REVIEW_ONLY",
+  "batch": "20",
+  "date": "2026-10-14",
+  "notes": "Historical quoted and advertised prices are not verified transactions. No production publication, legal verification, coordinates or feed rights.",
+  "dossiers": [
+    {
+      "id": "hist-thevista",
+      "evidence": [
+        [
+          "2007-10-20",
+          "https://vnexpress.net/gia-can-ho-the-vista-tang-chong-mat-2695958.html",
+          "Developer start price USD 1600/m2; broker claimed asking USD 2500-2800/m2"
+        ],
+        [
+          "2010-11-03",
+          "https://cafef.vn/bat-dong-san/1900-usdmsup2sup-can-ho-toa-4-du-an-the-vista-2010110311108599.chn",
+          "Tower 4 advertised from USD 1900/m2"
+        ]
+      ]
+    },
+    {
+      "id": "hist-parcspring",
+      "evidence": [
+        [
+          "2012-07-16",
+          "https://www.sggp.org.vn/mo-ban-can-ho-parcspring-post66970.html",
+          "Launch report 394 residential flats plus 10 retail, three towers; reconcile developer portfolio 974"
+        ],
+        [
+          "2015-05-21",
+          "https://vnexpress.net/capitaland-mo-ban-noi-bo-khu-can-ho-cao-cap-the-krista-3221366.html",
+          "Developer says first handover 2014, no exact date"
+        ]
+      ]
+    },
+    {
+      "id": "hist-thekrista",
+      "evidence": [
+        [
+          "2015-10-14",
+          "https://cafef.vn/bat-dong-san/cap-nhat-tien-do-cac-du-an-bds-cao-cap-tai-tphcm-20151014000020307.chn",
+          "Advertised from VND 24m/m2"
+        ],
+        [
+          "2016-04-13",
+          "https://cafeland.vn/tin-tuc/cat-noc-du-an-can-ho-the-krista-59088.html",
+          "Topping out, not handover"
+        ],
+        [
+          "2016-08-20",
+          "https://cafeland.vn/tin-tuc/khu-dong-du-an-day-tien-do-kip-giao-nha-cho-khach-hang-61405.html",
+          "From VND 1.5b/apartment excl VAT"
+        ],
+        [
+          "2017-03-30",
+          "https://vnexpress.net/huong-phat-trien-moi-cua-capitaland-tai-viet-nam-3561920.html",
+          "Developer retrospectively reports handovers from Dec 2016"
+        ]
+      ]
+    },
+    {
+      "id": "hist-krisvue",
+      "evidence": [
+        [
+          "2016-02-20",
+          "https://cafeland.vn/tin-tuc/capitaland-ky-ket-hop-tac-phan-phoi-kris-vue-58073.html",
+          "Distributor agreement event 2016-02-19; March showflat still planned"
+        ]
+      ]
+    },
+    {
+      "id": "hist-d1mension",
+      "evidence": [
+        [
+          "2017-07-15",
+          "https://cafeland.vn/tin-tuc/ra-mat-du-an-d1mension-gia-hon-110-trieu-dongm2-67589.html",
+          "Price report USD 5000-6000/m2, 102 sale residences; projected 2018 handover"
+        ]
+      ]
+    },
+    {
+      "id": "hist-felizenvista",
+      "evidence": [
+        [
+          "2016-10-04",
+          "https://cafeland.vn/tin-tuc/quan-2-co-them-du-an-quy-mo-873-can-ho-62244.html",
+          "Press estimate USD 1400-1600/m2; 873 sale flats plus separately serviced tower; projected 2019 handover"
+        ]
+      ]
+    }
+  ],
+  "prices": [
+    [
+      "hist-thevista",
+      "PRICE_ASKING",
+      "2007-10-20",
+      1600,
+      null,
+      "USD",
+      "m2"
+    ],
+    [
+      "hist-thevista",
+      "PRICE_ASKING",
+      "2007-10-20",
+      2500,
+      2800,
+      "USD",
+      "m2"
+    ],
+    [
+      "hist-thevista",
+      "PRICE_ASKING",
+      "2010-11-03",
+      1900,
+      null,
+      "USD",
+      "m2"
+    ],
+    [
+      "hist-thekrista",
+      "PRICE_ASKING",
+      "2015-10-14",
+      24000000,
+      null,
+      "VND",
+      "m2"
+    ],
+    [
+      "hist-thekrista",
+      "PRICE_ASKING",
+      "2016-08-20",
+      1500000000,
+      null,
+      "VND",
+      "unit_excl_VAT"
+    ],
+    [
+      "hist-d1mension",
+      "PRICE_ASKING",
+      "2017-07-15",
+      5000,
+      6000,
+      "USD",
+      "m2"
+    ],
+    [
+      "hist-felizenvista",
+      "REPORT_ESTIMATE",
+      "2016-10-04",
+      1400,
+      1600,
+      "USD",
+      "m2"
+    ]
+  ],
+  "coordinates_crosschecked": 0,
+  "verified_transactions": 0,
+  "authorized_feeds": 0,
+  "rights": "Citations only. Provider reuse/feed/photo rights not granted. All price area basis/transaction evidence pending review."
+}
