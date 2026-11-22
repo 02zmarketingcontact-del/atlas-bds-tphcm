@@ -1,0 +1,336 @@
+{
+  "schema_version": "qimap-p0-evidence-candidates-v1.0",
+  "audit_date": "2026-10-19",
+  "status": "REVIEW_ONLY_NOT_PUBLIC",
+  "base_commit": "100ae57d66034ea3abf5575b0ceb327d526cc6c8",
+  "related_prs": [
+    77,
+    78
+  ],
+  "selection": {
+    "project_ids": [
+      "hist-themanor",
+      "hist-citygarden",
+      "hist-xiriverviewpalace",
+      "hist-saigonpearl",
+      "hist-thaodienpearl",
+      "hist-pearlplaza"
+    ],
+    "scope": "HCMC_old_boundary",
+    "dedup_context": "Checked main index, PR77 batch14 and batch21 official-price addenda, PR78 filenames, open issues/PRs; candidate URLs differ from inspected prior sources; other branches not exhaustively audited."
+  },
+  "source_rights": "Citation of small factual excerpts with original URLs; no copying article bodies/images and no automated feed permission. Publisher copyrights and terms still apply.",
+  "sources": [
+    {
+      "id": "S1",
+      "project_id": "hist-themanor",
+      "url": "https://www.sggp.org.vn/the-manor-tang-gia-ban-post138259.html",
+      "organization": "Bao Sai Gon Giai Phong; quotes Bitexco sales department",
+      "published": "2007-03-04",
+      "type": "PRESS_QUOTING_DEVELOPER",
+      "access": "PUBLIC_READABLE",
+      "rights": "FACTUAL_CITATION_ONLY_NO_FEED_LICENSE"
+    },
+    {
+      "id": "S2",
+      "project_id": "hist-citygarden",
+      "url": "https://wiki.batdongsan.com.vn/tin-tuc/city-garden-khai-truong-nha-mau-17124",
+      "organization": "PropertyGuru/Batdongsan Wiki; reprints Nguoi Lao Dong",
+      "published": "2010-08-02",
+      "original_published": "2010-08-01",
+      "original_url": "https://tuoitre.vn/nld/xa-hoi/city-garden-khai-truong-nha-mau-2010073111275279.htm",
+      "type": "PRESS_REPRINT",
+      "access": "PUBLIC_READABLE_ORIGINAL_404_AT_RECHECK",
+      "rights": "FACTUAL_CITATION_ONLY_REPRINT_COPYRIGHT_NO_FEED_LICENSE"
+    },
+    {
+      "id": "S3",
+      "project_id": "hist-citygarden",
+      "url": "https://vnexpress.net/mo-ban-can-ho-cao-cap-city-garden-2713741.html",
+      "organization": "VnExpress; based on project company Vuon Pho, Knight Frank Vietnam distribution",
+      "published": "2011-07-19",
+      "type": "PRESS_RELAY_OF_ISSUER",
+      "access": "PUBLIC_READABLE",
+      "rights": "FACTUAL_CITATION_ONLY_NO_FEED_LICENSE"
+    },
+    {
+      "id": "S4",
+      "project_id": "hist-xiriverviewpalace",
+      "url": "https://wiki.batdongsan.com.vn/tin-tuc/tphcm-dang-ton-kho-10039-can-ho-dien-tich-lon-46408",
+      "organization": "PropertyGuru/Batdongsan Wiki, 2013 housing inventory report",
+      "published": "2013-03-22",
+      "type": "PRESS_MARKET_REPORT_SECONDARY",
+      "access": "PUBLIC_READABLE",
+      "rights": "FACTUAL_CITATION_ONLY_NO_FEED_LICENSE"
+    },
+    {
+      "id": "S5",
+      "project_id": "hist-saigonpearl",
+      "url": "https://tuoitre.vn/nld/thoi-su-trong-nuoc/khoi-cong-giai-doan-2-khu-dan-cu-cao-cap-saigon-pearl-152381.htm",
+      "organization": "Nguoi Lao Dong / Tuoi Tre archive; quotes Vietnam Land SSG",
+      "published": "2006-05-29",
+      "type": "PRESS_QUOTING_PROJECT_OWNER",
+      "access": "PUBLIC_READABLE",
+      "rights": "FACTUAL_CITATION_ONLY_NO_FEED_LICENSE"
+    },
+    {
+      "id": "S6",
+      "project_id": "hist-thaodienpearl",
+      "url": "https://horea.org.vn/files/giabds/0710/Bang%20gia%20tuan%202.2011.pdf",
+      "organization": "Ho Chi Minh City Real Estate Association, source attribution to DiaOcOnline",
+      "published": "2011-01 (week 2)",
+      "type": "INDUSTRY_ASSOCIATION_WEEKLY_RELAY",
+      "access": "PUBLIC_READABLE",
+      "rights": "FACTUAL_CITATION_ONLY_NO_BULK_PDF_REUSE_NO_FEED_LICENSE"
+    },
+    {
+      "id": "S7",
+      "project_id": "hist-pearlplaza",
+      "url": "https://cafeland.vn/tin-tuc/can-ho-ssg-tower-hut-khach-trong-ngay-mo-ban-chinh-thuc-46488.html",
+      "organization": "CafeLand; describes SSG Tower launch",
+      "published": "2014-06-17",
+      "type": "PRESS_MARKETING_REPORT",
+      "access": "PUBLIC_READABLE",
+      "rights": "FACTUAL_CITATION_ONLY_NO_FEED_LICENSE"
+    },
+    {
+      "id": "S8",
+      "project_id": "hist-pearlplaza",
+      "url": "https://cafeland.vn/tin-tuc/cat-noc-toa-thap-van-phong-du-an-pearl-plaza-50245.html",
+      "organization": "CafeLand; names SSG Van Thanh and Hoa Binh",
+      "published": "2014-12-15",
+      "type": "PRESS_PROJECT_MILESTONE",
+      "access": "PUBLIC_READABLE",
+      "rights": "FACTUAL_CITATION_ONLY_NO_FEED_LICENSE"
+    }
+  ],
+  "dossiers": [
+    {
+      "id": "hist-themanor",
+      "facts": [
+        {
+          "source_id": "S1",
+          "event_date": "2007-03-04",
+          "event": "Reporter says The Manor condo pricing increased; >60% of owners had moved into the condo tower. The Manor Officetel foundation finished 2007-02-26; Q1 2009 completion only forecast.",
+          "confidence": "ATTRIBUTED_PUBLISHER_CLAIM"
+        }
+      ],
+      "review": "Keep The Manor residential units separate from The Manor Officetel (different product)."
+    },
+    {
+      "id": "hist-citygarden",
+      "facts": [
+        {
+          "source_id": "S2",
+          "event_date": "2010-07-30",
+          "event": "Model apartment opening and project sale offering, 927 units / 6 towers reported (project-wide scope).",
+          "confidence": "REPRINT_OF_PRESS"
+        },
+        {
+          "source_id": "S3",
+          "event_date": "2011-07-16",
+          "event": "Knight Frank organised Hanoi selling event; 927 project units in press release, distinct sale wave.",
+          "confidence": "PRESS_RELAY_OF_ISSUER"
+        }
+      ],
+      "review": "927 is reported overall plan, not verified delivered count; other market datasets list 917."
+    },
+    {
+      "id": "hist-xiriverviewpalace",
+      "facts": [
+        {
+          "source_id": "S4",
+          "event_date": "2013-03-22",
+          "event": "Secondary inventory report says 80 apartments over 90 m2 unsold, average quoted pricing context 42m VND/m2.",
+          "confidence": "REPORTED_MARKET_AGGREGATE"
+        }
+      ],
+      "review": "Not unit listing or verified transaction; original 2013 agency report not independently retrieved."
+    },
+    {
+      "id": "hist-saigonpearl",
+      "facts": [
+        {
+          "source_id": "S5",
+          "event_date": "2006-05-28",
+          "event": "Vietnam Land SSG started phase 2 Topaz construction; June 2008 completion reported as target, not actual.",
+          "confidence": "ATTRIBUTED_PUBLISHER_CLAIM"
+        }
+      ],
+      "review": "Check phase terminology against 2010 sources labeling Ruby and Topaz phase 1; do not merge phases based only on wording."
+    },
+    {
+      "id": "hist-thaodienpearl",
+      "facts": [
+        {
+          "source_id": "S6",
+          "event_date": "2010-12-16",
+          "event": "Developer-announced completion of foundation stage and start of basement works; project 2 towers/33 floors, completion end-2013 only forecast.",
+          "confidence": "ASSOCIATION_RELAY"
+        }
+      ],
+      "review": "Foundation stage is not apartment handover; report period is Jan 2011, not precise day."
+    },
+    {
+      "id": "hist-pearlplaza",
+      "facts": [
+        {
+          "source_id": "S7",
+          "event_date": "2014-06-14",
+          "event": "Residential units marketed under SSG Tower at 561A Dien Bien Phu.",
+          "confidence": "PRESS_MARKETING_REPORT"
+        },
+        {
+          "source_id": "S8",
+          "event_date": "2014-12-15",
+          "event": "Press says SSG Tower renamed Pearl Plaza; residential tower topping-out 2014-10-06, office tower topping-out Dec 2014. 123 apartments reported.",
+          "confidence": "PRESS_PROJECT_MILESTONE"
+        }
+      ],
+      "review": "SSG Tower appears to be historic project alias of Pearl Plaza; separate apartment tower (23 floors per press) from office tower (33 floors); neither topping date proves handover. Sales percentage claims not transaction proof."
+    }
+  ],
+  "price_observations": [
+    {
+      "id": "p0-manor-20070304-asking",
+      "project_id": "hist-themanor",
+      "source_id": "S1",
+      "kind": "PRICE_ASKING",
+      "market": "PRIMARY",
+      "event_date": "2007-03-04",
+      "published": "2007-03-04",
+      "currency": "USD",
+      "unit": "m2",
+      "min": 1600,
+      "max": 2500,
+      "price_basis": "per_sqm_area_basis_unknown",
+      "area_basis": "UNKNOWN",
+      "unit_area_m2": null,
+      "advertised_unit_area_range_m2": [
+        100,
+        164
+      ],
+      "vat": "UNKNOWN",
+      "status": "REVIEW_ONLY",
+      "comment": "Source quotes Bitexco office; prior historical range is undated and excluded; Officetel USD1600-2300/m2 excluded as non-residential."
+    },
+    {
+      "id": "p0-citygarden-20100802-asking",
+      "project_id": "hist-citygarden",
+      "source_id": "S2",
+      "kind": "PRICE_ASKING",
+      "market": "PRIMARY",
+      "event_date": "2010-07-30",
+      "published": "2010-08-02",
+      "currency": "VND",
+      "unit": "apartment",
+      "min": 2700000000,
+      "max": null,
+      "price_basis": "advertised_floor_price_per_apartment",
+      "area_basis": "UNKNOWN",
+      "unit_area_m2": null,
+      "offered_unit_sizes_m2": [
+        70,
+        141
+      ],
+      "vat": "UNKNOWN",
+      "status": "REVIEW_ONLY",
+      "comment": "Original 2010 NLD article currently 404; quoted fact on dated reprint; cannot attribute min price to either size."
+    },
+    {
+      "id": "p0-citygarden-20110719-asking",
+      "project_id": "hist-citygarden",
+      "source_id": "S3",
+      "kind": "PRICE_ASKING",
+      "market": "PRIMARY",
+      "event_date": "2011-07-16",
+      "published": "2011-07-19",
+      "currency": "VND",
+      "unit": "m2",
+      "min": 40000000,
+      "max": null,
+      "price_basis": "advertised_floor_price_per_sqm",
+      "area_basis": "UNKNOWN",
+      "unit_area_m2": null,
+      "vat": "UNKNOWN",
+      "status": "REVIEW_ONLY",
+      "comment": "Second selling wave different from July 2010 offer. Not comparable without identical apartment specifications."
+    },
+    {
+      "id": "p0-xiriverview-20130322-estimate",
+      "project_id": "hist-xiriverviewpalace",
+      "source_id": "S4",
+      "kind": "REPORT_ESTIMATE",
+      "market": "PRIMARY_UNSOLD_AGGREGATE",
+      "event_date": "2013-03-22",
+      "published": "2013-03-22",
+      "currency": "VND",
+      "unit": "m2",
+      "min": 42000000,
+      "max": 42000000,
+      "price_basis": "reported_average_of_unsold_inventory",
+      "area_basis": "UNKNOWN",
+      "unit_area_m2": null,
+      "reported_inventory_units": 80,
+      "vat": "UNKNOWN",
+      "status": "REVIEW_ONLY",
+      "comment": "Average market-report price, not offer for a particular apartment; original agency inventory data not independently obtained."
+    }
+  ],
+  "review_conflicts": [
+    {
+      "code": "SAIGONPEARL_PHASE_LABELS",
+      "project_id": "hist-saigonpearl",
+      "comment": "2006 story says Topaz phase 2; 2010 source elsewhere calls Ruby/Topaz phase I. Preserve original event labels until phase hierarchy reconciled."
+    },
+    {
+      "code": "PEARLPLAZA_SSGTOWER_ALIAS",
+      "project_id": "hist-pearlplaza",
+      "comment": "2014 rename SSG Tower to Pearl Plaza; review alias matching before building separate canonical project ID."
+    },
+    {
+      "code": "THEMANOR_OFFICETEL_SEPARATION",
+      "project_id": "hist-themanor",
+      "comment": "Do not combine The Manor apartment and the separately marketed Officetel price bands."
+    },
+    {
+      "code": "CITYGARDEN_927_917_SCOPE",
+      "project_id": "hist-citygarden",
+      "comment": "Project-wide reported 927 homes in 2010/2011, vs 917 on market portals. Investigate phase scope and unit-count revisions; no auto resolution."
+    }
+  ],
+  "access_queue": [
+    {
+      "source": "Nguoi Lao Dong / Tuoi Tre",
+      "issue": "Original City Garden 2010 URL returns 404 on direct fetch",
+      "next_action": "Obtain original archive or publisher correction; reprint is secondary for dated price reference."
+    },
+    {
+      "source": "PropertyGuru/Batdongsan Wiki",
+      "issue": "No rights for systematic automated news/listing extraction",
+      "next_action": "Request publisher archive/feed agreement if recurring ingestion is needed."
+    },
+    {
+      "source": "SSG Group and Bitexco",
+      "issue": "No verified written bulk feed permission",
+      "next_action": "Request developer/project feeds or media factsheets with terms and update cadence."
+    }
+  ],
+  "gates": {
+    "human_approval_required": true,
+    "allow_live_price_publish": false,
+    "allow_live_legal_publish": false,
+    "allow_live_coordinates_publish": false,
+    "facebook_group_auto_join": false,
+    "bulk_scraping": false,
+    "authorized_price_feeds": 0
+  },
+  "metrics": {
+    "candidate_dossiers_with_new_sources": 6,
+    "distinct_source_urls": 8,
+    "evidenced_price_candidate_count": 4,
+    "verified_transaction_count": 0,
+    "verified_rent_asking_count": 0,
+    "new_wgs84_crosschecked_count": 0
+  }
+}
