@@ -1,0 +1,2234 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "qimap-p0-novaland-web-source-20261012-batch05",
+  "as_of": "2026-10-12",
+  "publication_status": "DRAFT_PR_REVIEW_ONLY_NOT_PUBLISHED",
+  "repository": "02zmarketingcontact-del/atlas-bds-tphcm",
+  "repository_default": "main",
+  "existing_draft_pr": 77,
+  "previous_branch_head_sha": "9428aa4f705afe0c398ec69dc991280f65e8591a",
+  "selection": "8 existing canonical HCMC IDs with zero project specifications on PR77 branch, not included in earlier 34 project candidates",
+  "usage_policy": {
+    "rights": "minimal_factual_metadata_only; original articles may be journalism reprints",
+    "price": "historic issuer asking claim is not successful transaction",
+    "legal": "pink book pipeline claim is not legal status approval",
+    "geocodes": "none independently crosschecked",
+    "bulk_scraping": "not_performed",
+    "facebook_group_access": "not_attempted"
+  },
+  "sources": [
+    {
+      "id": "SUN_2025",
+      "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-novaland/tin-du-an/tin-vui-cho-cu-dan-the-sun-avenue-cua-novaland-2894-san-pham-bds-dang-thuc-hien-thu-tuc-cap-so-hong",
+      "publisher": "No Va Land Investment Group Corporation",
+      "original_publisher": "Novaland corporate release",
+      "source_class": "developer_announcement",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "issuer_webpage_readable",
+      "usage_rights": {
+        "research": "factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": true
+    },
+    {
+      "id": "SC_HISTORY",
+      "url": "https://www.novaland.com.vn/gioi-thieu",
+      "publisher": "No Va Land Investment Group Corporation",
+      "original_publisher": "Novaland corporate release",
+      "source_class": "developer_corporate_timeline",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "issuer_webpage_readable",
+      "usage_rights": {
+        "research": "factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": false
+    },
+    {
+      "id": "SC_2012",
+      "url": "https://www.novaland.com.vn/sunrise-city-du-an-gan-lien-voi-chu-tin",
+      "publisher": "No Va Land Investment Group Corporation",
+      "original_publisher": "Unverified; confirm whether company-authored or reprinted third-party",
+      "source_class": "developer_article_indexed_only",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "search_index_access_only_page_open_unreliable",
+      "usage_rights": {
+        "research": "factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": true
+    },
+    {
+      "id": "SR_2016",
+      "url": "https://www.novaland.com.vn/novaland-gioi-thieu-thap-e-sunrise-riverside---can-ho-thong-minh-ba-mat-giap-song-tai-nam-sai-gon",
+      "publisher": "No Va Land Investment Group Corporation",
+      "original_publisher": "Novaland corporate release",
+      "source_class": "developer_dated_announcement",
+      "published_at": "2016-11-29",
+      "checked_at": "2026-10-12",
+      "access_status": "issuer_webpage_readable",
+      "usage_rights": {
+        "research": "factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": true
+    },
+    {
+      "id": "SR_2024",
+      "url": "https://www.novaland.com.vn/sunrise-riverside-vuot-tien-do-ban-giao-nha-tao-suc-hut-voi-smart-office-2424",
+      "publisher": "No Va Land Investment Group Corporation",
+      "original_publisher": "To Quoc / author Anh Duong (source syndication on CafeF and Novaland)",
+      "source_class": "developer_hosted_third_party_article_not_an_official_developer_release",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "direct_issuer_hosted_republication_readable_20261012",
+      "usage_rights": {
+        "research": "factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": true
+    },
+    {
+      "id": "BP_2016",
+      "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-bao-chi/khai-truong-nha-mau--du-an-botanica-premier-p2-q-tan-binh",
+      "publisher": "No Va Land Investment Group Corporation",
+      "original_publisher": "Novaland corporate release",
+      "source_class": "developer_dated_announcement",
+      "published_at": "2016-07-09",
+      "checked_at": "2026-10-12",
+      "access_status": "issuer_webpage_readable",
+      "usage_rights": {
+        "research": "factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": true
+    },
+    {
+      "id": "GM_2015",
+      "url": "https://www.novaland.com.vn/novaland-cong-bo-chuong-trinh-ban-hang-quy-iv2015-cua-du-an-golden-mansion",
+      "publisher": "No Va Land Investment Group Corporation",
+      "original_publisher": "Novaland corporate release",
+      "source_class": "developer_dated_announcement",
+      "published_at": "2015-11-09",
+      "checked_at": "2026-10-12",
+      "access_status": "issuer_webpage_readable",
+      "usage_rights": {
+        "research": "factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": true
+    },
+    {
+      "id": "NVL_2019",
+      "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-bao-chi/cong-bo-bao-cao-tai-chinh-hop-nhat-chua-kiem-toan-quy-42019-novaland-giu-da-tang-toc",
+      "publisher": "No Va Land Investment Group Corporation",
+      "original_publisher": "Unverified; confirm whether company-authored or reprinted third-party",
+      "source_class": "issuer_2019_report_indexed_only",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "search_index_access_only_page_open_unreliable",
+      "usage_rights": {
+        "research": "factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": true
+    },
+    {
+      "id": "NVL_2014",
+      "url": "https://www.novaland.com.vn/novaland-chua-len-san-nha-dau-tu-da-quen-mat",
+      "publisher": "No Va Land Investment Group Corporation",
+      "original_publisher": "Unverified; confirm whether company-authored or reprinted third-party",
+      "source_class": "developer_hosted_article_indexed_only",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "search_index_access_only_page_open_unreliable",
+      "usage_rights": {
+        "research": "factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": true
+    },
+    {
+      "id": "NVL_2015",
+      "url": "https://www.novaland.com.vn/thong-tin-thi-truong?pagenumber=71",
+      "publisher": "No Va Land Investment Group Corporation",
+      "original_publisher": "Unverified; confirm whether company-authored or reprinted third-party",
+      "source_class": "publisher_historical_archive",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "search_index_access_only_page_open_unreliable",
+      "usage_rights": {
+        "research": "factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": false
+    },
+    {
+      "id": "SUNRISE_PROFILE",
+      "url": "https://www.novaland.com.vn/sunrise-city/tong-quan-13",
+      "publisher": "No Va Land Investment Group Corporation",
+      "original_publisher": "Novaland project profile",
+      "source_class": "developer_project_profile_undated",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "issuer_project_page_retrievable_or_search_index_available",
+      "usage_rights": {
+        "research": "minimal_factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": true
+    },
+    {
+      "id": "RIVERSIDE_PROFILE",
+      "url": "https://www.novaland.com.vn/sunrise-riverside/tong-quan-27",
+      "publisher": "No Va Land Investment Group Corporation",
+      "original_publisher": "Novaland project profile",
+      "source_class": "developer_project_profile_undated",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "issuer_project_page_retrievable_or_search_index_available",
+      "usage_rights": {
+        "research": "minimal_factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": true
+    },
+    {
+      "id": "BOTANICA_PROFILE",
+      "url": "https://www.novaland.com.vn/botanica-premier/tong-quan-6",
+      "publisher": "No Va Land Investment Group Corporation",
+      "original_publisher": "Novaland project profile",
+      "source_class": "developer_project_profile_undated",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "issuer_project_page_retrievable_or_search_index_available",
+      "usage_rights": {
+        "research": "minimal_factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": false
+    },
+    {
+      "id": "GOLDEN_PROFILE",
+      "url": "https://www.novaland.com.vn/golden-mansion/tong-quan-28",
+      "publisher": "No Va Land Investment Group Corporation",
+      "original_publisher": "Novaland project profile",
+      "source_class": "developer_project_profile_undated",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "issuer_project_page_retrievable_or_search_index_available",
+      "usage_rights": {
+        "research": "minimal_factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": false
+    },
+    {
+      "id": "RICHSTAR_PROFILE",
+      "url": "https://www.novaland.com.vn/richstar/tong-quan-8",
+      "publisher": "No Va Land Investment Group Corporation",
+      "original_publisher": "Novaland project profile",
+      "source_class": "developer_project_profile_undated",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "issuer_project_page_retrievable_or_search_index_available",
+      "usage_rights": {
+        "research": "minimal_factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": true
+    },
+    {
+      "id": "SAIGONROYAL_PROFILE",
+      "url": "https://www.novaland.com.vn/saigon-royal/tong-quan-2",
+      "publisher": "No Va Land Investment Group Corporation",
+      "original_publisher": "Novaland project profile",
+      "source_class": "developer_project_profile_undated",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "issuer_project_page_retrievable_or_search_index_available",
+      "usage_rights": {
+        "research": "minimal_factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": true
+    },
+    {
+      "id": "LEXINGTON_PROFILE",
+      "url": "https://www.novaland.com.vn/lexington-residence/tong-quan-31",
+      "publisher": "No Va Land Investment Group Corporation",
+      "original_publisher": "Novaland project profile",
+      "source_class": "developer_project_profile_undated",
+      "published_at": null,
+      "checked_at": "2026-10-12",
+      "access_status": "issuer_project_page_retrievable_or_search_index_available",
+      "usage_rights": {
+        "research": "minimal_factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": true
+    },
+    {
+      "id": "SR_2024_CAFEF",
+      "url": "https://cafef.vn/sunrise-riverside-vuot-tien-do-ban-giao-nha-tao-suc-hut-voi-smart-office-24-24-188241217090112971.chn",
+      "publisher": "CafeF (republication of To Quoc)",
+      "original_publisher": "To Quoc / author Anh Duong",
+      "source_class": "third_party_republication_NOT_developer_confirmed",
+      "published_at": "2024-12-17",
+      "checked_at": "2026-10-12",
+      "access_status": "direct_url_readable_checked",
+      "usage_rights": {
+        "research": "minimal_factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": true
+    },
+    {
+      "id": "SR_2024_ORIGINAL",
+      "url": "https://toquoc.vn/sunrise-riverside-vuot-tien-do-ban-giao-nha-tao-suc-hut-voi-smart-office-24-24-20241217075300726.htm",
+      "publisher": "To Quoc",
+      "original_publisher": "To Quoc / author Anh Duong",
+      "source_class": "third_party_original_linked_by_CafeF",
+      "published_at": "2024-12-17",
+      "checked_at": "2026-10-12",
+      "access_status": "original_page_blocked_by_retrieval_tool_do_not_assert_original_text_read",
+      "usage_rights": {
+        "research": "minimal_factual_attribution_reference_only",
+        "commercial_republication": "permission_not_obtained",
+        "bulk_data_feed": "no_agreement",
+        "images": "no_rights"
+      },
+      "direct_web_check_20261012": false
+    }
+  ],
+  "dossiers": [
+    {
+      "id": "map-sunavenue",
+      "name": "The Sun Avenue",
+      "project_id_verified_against_canonical_branch": true,
+      "review_status": "SOURCE_CANDIDATE_ONLY_NOT_PUBLISHED",
+      "facts": [
+        {
+          "field": "site_area_m2",
+          "value": 46715.5,
+          "unit": "m2",
+          "scope": "project",
+          "source_ids": [
+            "SUN_2025"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SUN_2025",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-novaland/tin-du-an/tin-vui-cho-cu-dan-the-sun-avenue-cua-novaland-2894-san-pham-bds-dang-thuc-hien-thu-tuc-cap-so-hong",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "shared_residential_land_m2",
+          "value": 38072.8,
+          "unit": "m2",
+          "scope": "project",
+          "source_ids": [
+            "SUN_2025"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SUN_2025",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-novaland/tin-du-an/tin-vui-cho-cu-dan-the-sun-avenue-cua-novaland-2894-san-pham-bds-dang-thuc-hien-thu-tuc-cap-so-hong",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "towers",
+          "value": 8,
+          "unit": "towers",
+          "scope": "project",
+          "source_ids": [
+            "SUN_2025"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SUN_2025",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-novaland/tin-du-an/tin-vui-cho-cu-dan-the-sun-avenue-cua-novaland-2894-san-pham-bds-dang-thuc-hien-thu-tuc-cap-so-hong",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "floor_count_range",
+          "value": [
+            28,
+            33
+          ],
+          "unit": "floors",
+          "scope": "project",
+          "source_ids": [
+            "SUN_2025"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SUN_2025",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-novaland/tin-du-an/tin-vui-cho-cu-dan-the-sun-avenue-cua-novaland-2894-san-pham-bds-dang-thuc-hien-thu-tuc-cap-so-hong",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "all_products",
+          "value": 2894,
+          "unit": "mixed_products",
+          "scope": "project",
+          "source_ids": [
+            "SUN_2025"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SUN_2025",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-novaland/tin-du-an/tin-vui-cho-cu-dan-the-sun-avenue-cua-novaland-2894-san-pham-bds-dang-thuc-hien-thu-tuc-cap-so-hong",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "residential_apartments",
+          "value": 1887,
+          "unit": "apartments",
+          "scope": "project",
+          "source_ids": [
+            "SUN_2025"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SUN_2025",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-novaland/tin-du-an/tin-vui-cho-cu-dan-the-sun-avenue-cua-novaland-2894-san-pham-bds-dang-thuc-hien-thu-tuc-cap-so-hong",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "24h_office_units",
+          "value": 883,
+          "unit": "offices",
+          "scope": "project",
+          "source_ids": [
+            "SUN_2025"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SUN_2025",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-novaland/tin-du-an/tin-vui-cho-cu-dan-the-sun-avenue-cua-novaland-2894-san-pham-bds-dang-thuc-hien-thu-tuc-cap-so-hong",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "retail_shophouses",
+          "value": 124,
+          "unit": "commercial_units",
+          "scope": "project",
+          "source_ids": [
+            "SUN_2025"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SUN_2025",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-novaland/tin-du-an/tin-vui-cho-cu-dan-the-sun-avenue-cua-novaland-2894-san-pham-bds-dang-thuc-hien-thu-tuc-cap-so-hong",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "historical_road_frontage",
+          "value": "Mai Chi Tho, Thu Duc City, HCMC",
+          "unit": "unverified_old_address",
+          "scope": "historical_location",
+          "source_ids": [
+            "SUN_2025"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SUN_2025",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-novaland/tin-du-an/tin-vui-cho-cu-dan-the-sun-avenue-cua-novaland-2894-san-pham-bds-dang-thuc-hien-thu-tuc-cap-so-hong",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "handover_started",
+          "value": "2018-Q3",
+          "unit": "quarter",
+          "scope": "project",
+          "source_ids": [
+            "SUN_2025"
+          ],
+          "event_date": "2018-Q3",
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SUN_2025",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-novaland/tin-du-an/tin-vui-cho-cu-dan-the-sun-avenue-cua-novaland-2894-san-pham-bds-dang-thuc-hien-thu-tuc-cap-so-hong",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "pink_book_application_event",
+          "value": "2025-02",
+          "unit": "month",
+          "scope": "historical_procedure_claim",
+          "source_ids": [
+            "SUN_2025"
+          ],
+          "event_date": "2025-02",
+          "verification_status": "issuer_procedural_status_not_legal_verification",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SUN_2025",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-novaland/tin-du-an/tin-vui-cho-cu-dan-the-sun-avenue-cua-novaland-2894-san-pham-bds-dang-thuc-hien-thu-tuc-cap-so-hong",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hist-sunrisecity",
+      "name": "Sunrise City",
+      "project_id_verified_against_canonical_branch": true,
+      "review_status": "SOURCE_CANDIDATE_ONLY_NOT_PUBLISHED",
+      "facts": [
+        {
+          "field": "first_introduction_year",
+          "value": 2009,
+          "unit": "year",
+          "scope": "project",
+          "source_ids": [
+            "SC_HISTORY"
+          ],
+          "event_date": "2009",
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SC_HISTORY",
+              "url": "https://www.novaland.com.vn/gioi-thieu",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "tower_count",
+          "value": 12,
+          "unit": "towers",
+          "scope": "project",
+          "source_ids": [
+            "SC_HISTORY"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SC_HISTORY",
+              "url": "https://www.novaland.com.vn/gioi-thieu",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "historical_road_frontage",
+          "value": "Nguyen Huu Tho, old District 7, HCMC",
+          "unit": "old_address",
+          "scope": "historical_location",
+          "source_ids": [
+            "SC_HISTORY"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SC_HISTORY",
+              "url": "https://www.novaland.com.vn/gioi-thieu",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "phase_names",
+          "value": [
+            "South Towers",
+            "Central Towers",
+            "North Towers"
+          ],
+          "unit": "three_major_phases",
+          "scope": "phase_names",
+          "source_ids": [
+            "SC_2012"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SC_2012",
+              "url": "https://www.novaland.com.vn/sunrise-city-du-an-gan-lien-voi-chu-tin",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "south_towers_handover_month",
+          "value": "2012-07",
+          "unit": "month",
+          "scope": "phase:south_towers",
+          "source_ids": [
+            "SC_2012"
+          ],
+          "event_date": "2012-07",
+          "verification_status": "historical_page_index_only",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SC_2012",
+              "url": "https://www.novaland.com.vn/sunrise-city-du-an-gan-lien-voi-chu-tin",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "site_area_m2",
+          "value": 51000,
+          "unit": "m2",
+          "scope": "project",
+          "source_ids": [
+            "SUNRISE_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SUNRISE_PROFILE",
+              "url": "https://www.novaland.com.vn/sunrise-city/tong-quan-13",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "approx_residential_apartments",
+          "value": 2200,
+          "unit": "residential_apartments_approx",
+          "scope": "project",
+          "source_ids": [
+            "SUNRISE_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SUNRISE_PROFILE",
+              "url": "https://www.novaland.com.vn/sunrise-city/tong-quan-13",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "floors_range",
+          "value": [
+            31,
+            35
+          ],
+          "unit": "floors",
+          "scope": "project",
+          "source_ids": [
+            "SUNRISE_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SUNRISE_PROFILE",
+              "url": "https://www.novaland.com.vn/sunrise-city/tong-quan-13",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "historical_street_address",
+          "value": "23-25-27 Nguyen Huu Tho, old Tan Hung ward, District 7, HCMC",
+          "unit": "old_address",
+          "scope": "historical_location",
+          "source_ids": [
+            "SUNRISE_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SUNRISE_PROFILE",
+              "url": "https://www.novaland.com.vn/sunrise-city/tong-quan-13",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hist-sunriseriverside",
+      "name": "Sunrise Riverside",
+      "project_id_verified_against_canonical_branch": true,
+      "review_status": "SOURCE_CANDIDATE_ONLY_NOT_PUBLISHED",
+      "facts": [
+        {
+          "field": "tower_E_introduction",
+          "value": "2016-11-29",
+          "unit": "date",
+          "scope": "tower:E",
+          "source_ids": [
+            "SR_2016"
+          ],
+          "event_date": "2016-11-29",
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SR_2016",
+              "url": "https://www.novaland.com.vn/novaland-gioi-thieu-thap-e-sunrise-riverside---can-ho-thong-minh-ba-mat-giap-song-tai-nam-sai-gon",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": "2016-11-29",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "tower_E_sales_event",
+          "value": "2016-12-03",
+          "unit": "date",
+          "scope": "tower:E",
+          "source_ids": [
+            "SR_2016"
+          ],
+          "event_date": "2016-12-03",
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SR_2016",
+              "url": "https://www.novaland.com.vn/novaland-gioi-thieu-thap-e-sunrise-riverside---can-ho-thong-minh-ba-mat-giap-song-tai-nam-sai-gon",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": "2016-11-29",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "tower_E_2016_asking_price_from_vnd_m2",
+          "value": 29800000,
+          "unit": "VND/m2",
+          "scope": "tower:E",
+          "source_ids": [
+            "SR_2016"
+          ],
+          "event_date": "2016-11-29",
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SR_2016",
+              "url": "https://www.novaland.com.vn/novaland-gioi-thieu-thap-e-sunrise-riverside---can-ho-thong-minh-ba-mat-giap-song-tai-nam-sai-gon",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": "2016-11-29",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "historical_location",
+          "value": "Nguyen Huu Tho, southern HCMC",
+          "unit": "historical_location",
+          "scope": "project",
+          "source_ids": [
+            "SR_2016"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SR_2016",
+              "url": "https://www.novaland.com.vn/novaland-gioi-thieu-thap-e-sunrise-riverside---can-ho-thong-minh-ba-mat-giap-song-tai-nam-sai-gon",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": "2016-11-29",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "tower_E2_G6_handover_started",
+          "value": "2024-07",
+          "unit": "month",
+          "scope": "towers:E2_G6",
+          "source_ids": [
+            "SR_2024"
+          ],
+          "event_date": "2024-07",
+          "verification_status": "issuer_page_search_index_pending_direct_recheck",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SR_2024",
+              "url": "https://www.novaland.com.vn/sunrise-riverside-vuot-tien-do-ban-giao-nha-tao-suc-hut-voi-smart-office-2424",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "site_area_m2",
+          "value": 39305,
+          "unit": "m2",
+          "scope": "project",
+          "source_ids": [
+            "RIVERSIDE_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "RIVERSIDE_PROFILE",
+              "url": "https://www.novaland.com.vn/sunrise-riverside/tong-quan-27",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "approx_residential_apartments",
+          "value": 2200,
+          "unit": "residential_apartments_approx",
+          "scope": "project",
+          "source_ids": [
+            "RIVERSIDE_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "RIVERSIDE_PROFILE",
+              "url": "https://www.novaland.com.vn/sunrise-riverside/tong-quan-27",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "floors_range",
+          "value": [
+            20,
+            25
+          ],
+          "unit": "floors",
+          "scope": "project",
+          "source_ids": [
+            "RIVERSIDE_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "RIVERSIDE_PROFILE",
+              "url": "https://www.novaland.com.vn/sunrise-riverside/tong-quan-27",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "historical_location_detail",
+          "value": "Nguyen Huu Tho, Phuoc Kien, Nha Be, HCMC",
+          "unit": "old_address",
+          "scope": "historical_location",
+          "source_ids": [
+            "RIVERSIDE_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "RIVERSIDE_PROFILE",
+              "url": "https://www.novaland.com.vn/sunrise-riverside/tong-quan-27",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "developer_reported_office_area_gt_m2",
+          "value": 10000,
+          "unit": "m2_lower_bound_exclusive",
+          "scope": "project",
+          "source_ids": [
+            "RIVERSIDE_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "RIVERSIDE_PROFILE",
+              "url": "https://www.novaland.com.vn/sunrise-riverside/tong-quan-27",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "tower_count_late_2024",
+          "value": 8,
+          "unit": "towers",
+          "scope": "project",
+          "source_ids": [
+            "SR_2024_CAFEF",
+            "SR_2024"
+          ],
+          "event_date": "2024-12-17",
+          "verification_status": "third_party_claim_requires_reviewer_approval",
+          "source_usage": "minimal_factual_attribution_reference_only",
+          "review_note": "Third-party media reporting; not independent certification",
+          "evidence_refs": [
+            {
+              "source_id": "SR_2024_CAFEF",
+              "url": "https://cafef.vn/sunrise-riverside-vuot-tien-do-ban-giao-nha-tao-suc-hut-voi-smart-office-24-24-188241217090112971.chn",
+              "publisher": "CafeF (republication of To Quoc)",
+              "published_at": "2024-12-17",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            },
+            {
+              "source_id": "SR_2024",
+              "url": "https://www.novaland.com.vn/sunrise-riverside-vuot-tien-do-ban-giao-nha-tao-suc-hut-voi-smart-office-2424",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "tower_H_identity",
+          "value": "H (E2)",
+          "unit": "tower_label",
+          "scope": "tower:H_E2",
+          "source_ids": [
+            "SR_2024_CAFEF",
+            "SR_2024"
+          ],
+          "event_date": "2024-07",
+          "verification_status": "third_party_claim_requires_reviewer_approval",
+          "source_usage": "minimal_factual_attribution_reference_only",
+          "review_note": "According to 2024 media, among last two towers starting handover in July 2024",
+          "evidence_refs": [
+            {
+              "source_id": "SR_2024_CAFEF",
+              "url": "https://cafef.vn/sunrise-riverside-vuot-tien-do-ban-giao-nha-tao-suc-hut-voi-smart-office-24-24-188241217090112971.chn",
+              "publisher": "CafeF (republication of To Quoc)",
+              "published_at": "2024-12-17",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            },
+            {
+              "source_id": "SR_2024",
+              "url": "https://www.novaland.com.vn/sunrise-riverside-vuot-tien-do-ban-giao-nha-tao-suc-hut-voi-smart-office-2424",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "tower_A_identity",
+          "value": "A (G6)",
+          "unit": "tower_label",
+          "scope": "tower:A_G6",
+          "source_ids": [
+            "SR_2024_CAFEF",
+            "SR_2024"
+          ],
+          "event_date": "2024-07",
+          "verification_status": "third_party_claim_requires_reviewer_approval",
+          "source_usage": "minimal_factual_attribution_reference_only",
+          "review_note": "According to 2024 media, among last two towers starting handover in July 2024",
+          "evidence_refs": [
+            {
+              "source_id": "SR_2024_CAFEF",
+              "url": "https://cafef.vn/sunrise-riverside-vuot-tien-do-ban-giao-nha-tao-suc-hut-voi-smart-office-24-24-188241217090112971.chn",
+              "publisher": "CafeF (republication of To Quoc)",
+              "published_at": "2024-12-17",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            },
+            {
+              "source_id": "SR_2024",
+              "url": "https://www.novaland.com.vn/sunrise-riverside-vuot-tien-do-ban-giao-nha-tao-suc-hut-voi-smart-office-2424",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "handover_apartments_and_smart_offices_over_500",
+          "value": "over 500 in aggregate",
+          "unit": "mixed_apartment_and_smart_office_units",
+          "scope": "tower:A_G6_and_H_E2",
+          "source_ids": [
+            "SR_2024_CAFEF",
+            "SR_2024"
+          ],
+          "event_date": "2024-12-17",
+          "verification_status": "third_party_claim_requires_reviewer_approval",
+          "source_usage": "minimal_factual_attribution_reference_only",
+          "review_note": "DO NOT interpret as over 500 residential apartments",
+          "evidence_refs": [
+            {
+              "source_id": "SR_2024_CAFEF",
+              "url": "https://cafef.vn/sunrise-riverside-vuot-tien-do-ban-giao-nha-tao-suc-hut-voi-smart-office-24-24-188241217090112971.chn",
+              "publisher": "CafeF (republication of To Quoc)",
+              "published_at": "2024-12-17",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            },
+            {
+              "source_id": "SR_2024",
+              "url": "https://www.novaland.com.vn/sunrise-riverside-vuot-tien-do-ban-giao-nha-tao-suc-hut-voi-smart-office-2424",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "smart_office_24_24_asking_2024_vnd_per_m2",
+          "value": 62000000,
+          "unit": "VND_per_m2_before_tax",
+          "scope": "non_apartment_product:smart_office_24_24",
+          "source_ids": [
+            "SR_2024_CAFEF",
+            "SR_2024"
+          ],
+          "event_date": "2024-12-17",
+          "verification_status": "third_party_claim_requires_reviewer_approval",
+          "source_usage": "minimal_factual_attribution_reference_only",
+          "review_note": "NON_APARTMENT product. Never merge into residential apartment asking-price benchmarks; price statement attributed to media, sale conditions and unit area basis unspecified",
+          "evidence_refs": [
+            {
+              "source_id": "SR_2024_CAFEF",
+              "url": "https://cafef.vn/sunrise-riverside-vuot-tien-do-ban-giao-nha-tao-suc-hut-voi-smart-office-24-24-188241217090112971.chn",
+              "publisher": "CafeF (republication of To Quoc)",
+              "published_at": "2024-12-17",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            },
+            {
+              "source_id": "SR_2024",
+              "url": "https://www.novaland.com.vn/sunrise-riverside-vuot-tien-do-ban-giao-nha-tao-suc-hut-voi-smart-office-2424",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hist-botanicapremier",
+      "name": "Botanica Premier",
+      "project_id_verified_against_canonical_branch": true,
+      "review_status": "SOURCE_CANDIDATE_ONLY_NOT_PUBLISHED",
+      "facts": [
+        {
+          "field": "historical_address",
+          "value": "108 Hong Ha, old Ward 2, Tan Binh District, HCMC",
+          "unit": "old_address",
+          "scope": "historical_location",
+          "source_ids": [
+            "BP_2016"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "BP_2016",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-bao-chi/khai-truong-nha-mau--du-an-botanica-premier-p2-q-tan-binh",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": "2016-07-09",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "towers",
+          "value": 3,
+          "unit": "blocks",
+          "scope": "project",
+          "source_ids": [
+            "BP_2016"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "BP_2016",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-bao-chi/khai-truong-nha-mau--du-an-botanica-premier-p2-q-tan-binh",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": "2016-07-09",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "floors",
+          "value": 20,
+          "unit": "floors_per_block",
+          "scope": "project",
+          "source_ids": [
+            "BP_2016"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "BP_2016",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-bao-chi/khai-truong-nha-mau--du-an-botanica-premier-p2-q-tan-binh",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": "2016-07-09",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "apartment_area_range_m2",
+          "value": [
+            53,
+            105
+          ],
+          "unit": "m2",
+          "scope": "project",
+          "source_ids": [
+            "BP_2016"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "BP_2016",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-bao-chi/khai-truong-nha-mau--du-an-botanica-premier-p2-q-tan-binh",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": "2016-07-09",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "mixed_apartments_officetel",
+          "value": true,
+          "unit": "qualitative_mix",
+          "scope": "project",
+          "source_ids": [
+            "BP_2016"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "BP_2016",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-bao-chi/khai-truong-nha-mau--du-an-botanica-premier-p2-q-tan-binh",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": "2016-07-09",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "showroom_opened",
+          "value": "2016-07-09",
+          "unit": "date",
+          "scope": "launch",
+          "source_ids": [
+            "BP_2016"
+          ],
+          "event_date": "2016-07-09",
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "BP_2016",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-bao-chi/khai-truong-nha-mau--du-an-botanica-premier-p2-q-tan-binh",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": "2016-07-09",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "historic_2016_asking_from_vnd_per_unit",
+          "value": 2000000000,
+          "unit": "VND/apartment",
+          "scope": "launch",
+          "source_ids": [
+            "BP_2016"
+          ],
+          "event_date": "2016-07-09",
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "BP_2016",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-bao-chi/khai-truong-nha-mau--du-an-botanica-premier-p2-q-tan-binh",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": "2016-07-09",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "handover_forecast_not_actual",
+          "value": "2018-H2",
+          "unit": "period",
+          "scope": "2016_forecast",
+          "source_ids": [
+            "BP_2016"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "BP_2016",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-bao-chi/khai-truong-nha-mau--du-an-botanica-premier-p2-q-tan-binh",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": "2016-07-09",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "site_area_m2",
+          "value": 17237.1,
+          "unit": "m2",
+          "scope": "project",
+          "source_ids": [
+            "BOTANICA_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "BOTANICA_PROFILE",
+              "url": "https://www.novaland.com.vn/botanica-premier/tong-quan-6",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "developer_profile_historical_address",
+          "value": "108-112B-114 Hong Ha, old ward 2, Tan Binh District, HCMC",
+          "unit": "old_address",
+          "scope": "historical_location",
+          "source_ids": [
+            "BOTANICA_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "BOTANICA_PROFILE",
+              "url": "https://www.novaland.com.vn/botanica-premier/tong-quan-6",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "basement_levels",
+          "value": 2,
+          "unit": "levels",
+          "scope": "project",
+          "source_ids": [
+            "BOTANICA_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "BOTANICA_PROFILE",
+              "url": "https://www.novaland.com.vn/botanica-premier/tong-quan-6",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hist-goldenmansion",
+      "name": "Golden Mansion",
+      "project_id_verified_against_canonical_branch": true,
+      "review_status": "SOURCE_CANDIDATE_ONLY_NOT_PUBLISHED",
+      "facts": [
+        {
+          "field": "historical_address",
+          "value": "119 Pho Quang, old Ward 9, Phu Nhuan District, HCMC",
+          "unit": "old_address",
+          "scope": "historical_location",
+          "source_ids": [
+            "GM_2015"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "GM_2015",
+              "url": "https://www.novaland.com.vn/novaland-cong-bo-chuong-trinh-ban-hang-quy-iv2015-cua-du-an-golden-mansion",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": "2015-11-09",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "mixed_project_types",
+          "value": [
+            "apartments",
+            "townhouses",
+            "commercial"
+          ],
+          "unit": "product_types",
+          "scope": "project",
+          "source_ids": [
+            "GM_2015"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "GM_2015",
+              "url": "https://www.novaland.com.vn/novaland-cong-bo-chuong-trinh-ban-hang-quy-iv2015-cua-du-an-golden-mansion",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": "2015-11-09",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "apartment_area_range_m2",
+          "value": [
+            49,
+            108
+          ],
+          "unit": "m2",
+          "scope": "project",
+          "source_ids": [
+            "GM_2015"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "GM_2015",
+              "url": "https://www.novaland.com.vn/novaland-cong-bo-chuong-trinh-ban-hang-quy-iv2015-cua-du-an-golden-mansion",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": "2015-11-09",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "2015_historic_asking_from_vnd_per_unit",
+          "value": 1800000000,
+          "unit": "VND/apartment",
+          "scope": "sales_event:2015Q4",
+          "source_ids": [
+            "GM_2015"
+          ],
+          "event_date": "2015-11-09",
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "GM_2015",
+              "url": "https://www.novaland.com.vn/novaland-cong-bo-chuong-trinh-ban-hang-quy-iv2015-cua-du-an-golden-mansion",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": "2015-11-09",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "sales_program_event",
+          "value": "2015-11-15",
+          "unit": "date",
+          "scope": "sales_event:2015Q4",
+          "source_ids": [
+            "GM_2015"
+          ],
+          "event_date": "2015-11-15",
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "GM_2015",
+              "url": "https://www.novaland.com.vn/novaland-cong-bo-chuong-trinh-ban-hang-quy-iv2015-cua-du-an-golden-mansion",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": "2015-11-09",
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "site_area_m2",
+          "value": 15028,
+          "unit": "m2",
+          "scope": "project",
+          "source_ids": [
+            "GOLDEN_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "GOLDEN_PROFILE",
+              "url": "https://www.novaland.com.vn/golden-mansion/tong-quan-28",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "tower_count",
+          "value": 3,
+          "unit": "towers",
+          "scope": "project",
+          "source_ids": [
+            "GOLDEN_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "GOLDEN_PROFILE",
+              "url": "https://www.novaland.com.vn/golden-mansion/tong-quan-28",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hist-richstar",
+      "name": "RichStar",
+      "project_id_verified_against_canonical_branch": true,
+      "review_status": "SOURCE_CANDIDATE_ONLY_NOT_PUBLISHED",
+      "facts": [
+        {
+          "field": "included_in_2019_handover_contributions",
+          "value": true,
+          "unit": "issuer_grouped_2019_claim",
+          "scope": "project",
+          "source_ids": [
+            "NVL_2019"
+          ],
+          "event_date": "2019",
+          "verification_status": "index_based_grouped_disclosure_not_first_handover",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "NVL_2019",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-bao-chi/cong-bo-bao-cao-tai-chinh-hop-nhat-chua-kiem-toan-quy-42019-novaland-giu-da-tang-toc",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "historical_location",
+          "value": "241 and 278 Hoa Binh, old Hiep Tan ward, Tan Phu District, HCMC",
+          "unit": "old_address",
+          "scope": "historical_location",
+          "source_ids": [
+            "RICHSTAR_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "RICHSTAR_PROFILE",
+              "url": "https://www.novaland.com.vn/richstar/tong-quan-8",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "land_area_approx_ha",
+          "value": 3,
+          "unit": "hectares_approx",
+          "scope": "project",
+          "source_ids": [
+            "RICHSTAR_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "RICHSTAR_PROFILE",
+              "url": "https://www.novaland.com.vn/richstar/tong-quan-8",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "floors",
+          "value": 22,
+          "unit": "floors",
+          "scope": "project",
+          "source_ids": [
+            "RICHSTAR_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "RICHSTAR_PROFILE",
+              "url": "https://www.novaland.com.vn/richstar/tong-quan-8",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "product_types",
+          "value": [
+            "apartments",
+            "shophouse"
+          ],
+          "unit": "product_mix",
+          "scope": "project",
+          "source_ids": [
+            "RICHSTAR_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "RICHSTAR_PROFILE",
+              "url": "https://www.novaland.com.vn/richstar/tong-quan-8",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hist-saigonroyal",
+      "name": "Saigon Royal",
+      "project_id_verified_against_canonical_branch": true,
+      "review_status": "SOURCE_CANDIDATE_ONLY_NOT_PUBLISHED",
+      "facts": [
+        {
+          "field": "developer_group_project_introduction_year",
+          "value": 2016,
+          "unit": "year",
+          "scope": "project",
+          "source_ids": [
+            "SC_HISTORY"
+          ],
+          "event_date": "2016",
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SC_HISTORY",
+              "url": "https://www.novaland.com.vn/gioi-thieu",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "included_in_2019_handover_contributions",
+          "value": true,
+          "unit": "issuer_grouped_2019_claim",
+          "scope": "project",
+          "source_ids": [
+            "NVL_2019"
+          ],
+          "event_date": "2019",
+          "verification_status": "index_based_grouped_disclosure_not_first_handover",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "NVL_2019",
+              "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-bao-chi/cong-bo-bao-cao-tai-chinh-hop-nhat-chua-kiem-toan-quy-42019-novaland-giu-da-tang-toc",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "historical_address",
+          "value": "34-35 Ben Van Don, old Ward 12, District 4, HCMC",
+          "unit": "old_address",
+          "scope": "historical_location",
+          "source_ids": [
+            "SAIGONROYAL_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SAIGONROYAL_PROFILE",
+              "url": "https://www.novaland.com.vn/saigon-royal/tong-quan-2",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "land_area_m2",
+          "value": 6669,
+          "unit": "m2",
+          "scope": "project",
+          "source_ids": [
+            "SAIGONROYAL_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SAIGONROYAL_PROFILE",
+              "url": "https://www.novaland.com.vn/saigon-royal/tong-quan-2",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "floors_range",
+          "value": [
+            19,
+            35
+          ],
+          "unit": "floors",
+          "scope": "project",
+          "source_ids": [
+            "SAIGONROYAL_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SAIGONROYAL_PROFILE",
+              "url": "https://www.novaland.com.vn/saigon-royal/tong-quan-2",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "product_types",
+          "value": [
+            "apartments",
+            "commercial",
+            "office",
+            "services"
+          ],
+          "unit": "product_mix",
+          "scope": "project",
+          "source_ids": [
+            "SAIGONROYAL_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "SAIGONROYAL_PROFILE",
+              "url": "https://www.novaland.com.vn/saigon-royal/tong-quan-2",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hist-lexingtonresidence",
+      "name": "Lexington Residence",
+      "project_id_verified_against_canonical_branch": true,
+      "review_status": "SOURCE_CANDIDATE_ONLY_NOT_PUBLISHED",
+      "facts": [
+        {
+          "field": "historical_developer_project_reference",
+          "value": "Novaland corporate archive; introduced in earlier development period",
+          "unit": "name_only",
+          "scope": "project",
+          "source_ids": [
+            "NVL_2014"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "NVL_2014",
+              "url": "https://www.novaland.com.vn/novaland-chua-len-san-nha-dau-tu-da-quen-mat",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "2015_sales_financing_offer_reference",
+          "value": "13m VND/month installment offer / 0 percent loan promotion; not home asking price",
+          "unit": "historical_promotion",
+          "scope": "sales_promotion_2015",
+          "source_ids": [
+            "NVL_2015"
+          ],
+          "event_date": "2015-03-11",
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "NVL_2015",
+              "url": "https://www.novaland.com.vn/thong-tin-thi-truong?pagenumber=71",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "historical_address",
+          "value": "67 Mai Chi Tho, old An Phu ward, District 2, HCMC",
+          "unit": "old_address",
+          "scope": "historical_location",
+          "source_ids": [
+            "LEXINGTON_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "LEXINGTON_PROFILE",
+              "url": "https://www.novaland.com.vn/lexington-residence/tong-quan-31",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "land_area_m2",
+          "value": 21356,
+          "unit": "m2",
+          "scope": "project",
+          "source_ids": [
+            "LEXINGTON_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "LEXINGTON_PROFILE",
+              "url": "https://www.novaland.com.vn/lexington-residence/tong-quan-31",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "residential_apartments_approx",
+          "value": 1310,
+          "unit": "apartments_approx",
+          "scope": "project",
+          "source_ids": [
+            "LEXINGTON_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "LEXINGTON_PROFILE",
+              "url": "https://www.novaland.com.vn/lexington-residence/tong-quan-31",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "floors",
+          "value": 25,
+          "unit": "floors",
+          "scope": "project",
+          "source_ids": [
+            "LEXINGTON_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "LEXINGTON_PROFILE",
+              "url": "https://www.novaland.com.vn/lexington-residence/tong-quan-31",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        },
+        {
+          "field": "product_types",
+          "value": [
+            "apartments",
+            "commercial",
+            "services",
+            "offices"
+          ],
+          "unit": "product_mix",
+          "scope": "project",
+          "source_ids": [
+            "LEXINGTON_PROFILE"
+          ],
+          "event_date": null,
+          "verification_status": "issuer_claim_not_independently_verified",
+          "source_usage": "reference_only",
+          "evidence_refs": [
+            {
+              "source_id": "LEXINGTON_PROFILE",
+              "url": "https://www.novaland.com.vn/lexington-residence/tong-quan-31",
+              "publisher": "No Va Land Investment Group Corporation",
+              "published_at": null,
+              "checked_at": "2026-10-12",
+              "usage_rights": "minimal_factual_attribution_only_no_commercial_license"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "price_observations": [
+    {
+      "id": "NOVALAND_SR_E_2016_ASKING",
+      "project_id": "hist-sunriseriverside",
+      "scope": "tower:E",
+      "type": "PRICE_ASKING",
+      "market": "PRIMARY_HISTORICAL",
+      "minimum": 29800000,
+      "maximum": null,
+      "currency": "VND",
+      "denominator": "m2",
+      "comparison_basis": "minimum_offered_as_from_price",
+      "area_basis": "UNSPECIFIED_gross_or_net",
+      "unit_area_m2": null,
+      "vat": "UNSPECIFIED",
+      "maintenance": "UNSPECIFIED",
+      "event_date": "2016-11-29",
+      "source_ids": [
+        "SR_2016"
+      ],
+      "rights": "reference_only_no_commercial_feed",
+      "transaction_verified": false,
+      "evidence_refs": [
+        {
+          "source_id": "SR_2016",
+          "url": "https://www.novaland.com.vn/novaland-gioi-thieu-thap-e-sunrise-riverside---can-ho-thong-minh-ba-mat-giap-song-tai-nam-sai-gon",
+          "publisher": "No Va Land Investment Group Corporation",
+          "published_at": "2016-11-29",
+          "checked_at": "2026-10-12"
+        }
+      ],
+      "review_status": "candidate_only_no_market_or_transaction_verification"
+    },
+    {
+      "id": "NOVALAND_BP_2016_ASKING_TOTAL",
+      "project_id": "hist-botanicapremier",
+      "scope": "launch",
+      "type": "PRICE_ASKING",
+      "market": "PRIMARY_HISTORICAL",
+      "minimum": 2000000000,
+      "maximum": null,
+      "currency": "VND",
+      "denominator": "apartment_total",
+      "comparison_basis": "from_price_not_per_m2",
+      "area_basis": "N_A",
+      "unit_area_m2": null,
+      "vat": "UNSPECIFIED",
+      "maintenance": "UNSPECIFIED",
+      "event_date": "2016-07-09",
+      "source_ids": [
+        "BP_2016"
+      ],
+      "rights": "reference_only_no_commercial_feed",
+      "transaction_verified": false,
+      "evidence_refs": [
+        {
+          "source_id": "BP_2016",
+          "url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-bao-chi/khai-truong-nha-mau--du-an-botanica-premier-p2-q-tan-binh",
+          "publisher": "No Va Land Investment Group Corporation",
+          "published_at": "2016-07-09",
+          "checked_at": "2026-10-12"
+        }
+      ],
+      "review_status": "candidate_only_no_market_or_transaction_verification"
+    },
+    {
+      "id": "NOVALAND_GM_2015_ASKING_TOTAL",
+      "project_id": "hist-goldenmansion",
+      "scope": "sales_event:2015Q4",
+      "type": "PRICE_ASKING",
+      "market": "PRIMARY_HISTORICAL",
+      "minimum": 1800000000,
+      "maximum": null,
+      "currency": "VND",
+      "denominator": "apartment_total",
+      "comparison_basis": "from_price_not_per_m2",
+      "area_basis": "N_A",
+      "unit_area_m2": null,
+      "vat": "UNSPECIFIED",
+      "maintenance": "UNSPECIFIED",
+      "event_date": "2015-11-09",
+      "source_ids": [
+        "GM_2015"
+      ],
+      "rights": "reference_only_no_commercial_feed",
+      "transaction_verified": false,
+      "evidence_refs": [
+        {
+          "source_id": "GM_2015",
+          "url": "https://www.novaland.com.vn/novaland-cong-bo-chuong-trinh-ban-hang-quy-iv2015-cua-du-an-golden-mansion",
+          "publisher": "No Va Land Investment Group Corporation",
+          "published_at": "2015-11-09",
+          "checked_at": "2026-10-12"
+        }
+      ],
+      "review_status": "candidate_only_no_market_or_transaction_verification"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "SRC_2019_INDEX",
+      "reason": "Some Novaland issuer history pages intermittently return server errors; used search-index facts only; recheck primary publication before acceptance"
+    },
+    {
+      "id": "GM_2018_FORECAST",
+      "reason": "2018 handover is an old forecast only, not actual handover confirmation"
+    },
+    {
+      "id": "SUN_2025_SOHONG",
+      "reason": "Company announcement indicates dossier/application, not independent completed title validation"
+    },
+    {
+      "id": "SR_2024_SOURCE",
+      "reason": "Mid-2024 E2 and G6 handover stated in indexed issuer page but open returned server error"
+    },
+    {
+      "id": "LEASE_RIGHTS",
+      "reason": "No licensed market-price feed; request source permission and data-feed contract"
+    },
+    {
+      "id": "SUNRISE_RIVERSIDE_LAND_AREA_SCOPE",
+      "reason": "Novaland project profile claims 39,305m2 while Novaland-hosted VnExpress retrospective refers to a 13.6ha whole mixed development; potential difference in planned phases and site boundaries; do not merge without issuer area plan",
+      "sources": [
+        "RIVERSIDE_PROFILE"
+      ],
+      "external_article_url": "https://www.novaland.com.vn/tin-tuc-1/thong-tin-thi-truong/sunrise-riverside-du-an-moi-nhat-khu-nam-tp-hcm-cua-novaland"
+    },
+    {
+      "id": "SR_2024_MEDIA_PRODUCT_SCOPE",
+      "reason": "2024-12-17 CafeF/To Quoc report has 62m VND/m2 before tax for Smart Office 24/24, NOT a residential apartment; keep outside apartment price intelligence. Original To Quoc source URL blocked; verify original/rights with publisher.",
+      "urls": [
+        "https://cafef.vn/sunrise-riverside-vuot-tien-do-ban-giao-nha-tao-suc-hut-voi-smart-office-24-24-188241217090112971.chn",
+        "https://toquoc.vn/sunrise-riverside-vuot-tien-do-ban-giao-nha-tao-suc-hut-voi-smart-office-24-24-20241217075300726.htm"
+      ]
+    }
+  ],
+  "metrics": {
+    "candidate_project_ids_existing": 8,
+    "candidate_facts_total": 71,
+    "new_facts_vs_previous_local_file": 5,
+    "sources_referenced_total": 19,
+    "new_source_urls_vs_previous_local_file": 2,
+    "directly_accessible_source_urls_checked_this_run": 14,
+    "price_observations_apartment_evidence": 3,
+    "price_asking_apartments": 3,
+    "transaction_verified": 0,
+    "rent_asking": 0,
+    "report_estimate": 0,
+    "new_crosschecked_geocodes": 0,
+    "non_apartment_price_excluded_from_residential_observations": 1,
+    "committed_to_github_this_run": null,
+    "live_publication_count": 0
+  },
+  "price_feed_status": {
+    "status": "not_configured",
+    "sources_configured": 0
+  },
+  "research_audit_20261012": {
+    "note": "Derived from prior batch05 review-only JSON; did not re-research those existing 66 facts.",
+    "primary_sources_direct_web_opened": 13,
+    "third_party_cafef_media_opened": 1,
+    "original_toquoc_page": "blocked",
+    "review_status": "all claims pending issuer/legal/source-rights confirmation",
+    "source_hierarchy": "Novaland primary article > attributable media syndication > index-only clues",
+    "not_a_proof_of_legal_ownership_or_foreign_buyer_quota": true,
+    "scope_guards": {
+      "the_felix_vs_felix_homes": "distinct",
+      "the_win_city": "Tay Ninh/Duc Hoa outside HCMC scope",
+      "norton_park": "review-only conflicts"
+    }
+  },
+  "integrated_into_live_public_map": false,
+  "metadata_note": "Historical source candidates from prior same-day audit. Stored as review-only on a feature branch; not republishing images or proprietary article text, not asserting a licensed feed."
+}

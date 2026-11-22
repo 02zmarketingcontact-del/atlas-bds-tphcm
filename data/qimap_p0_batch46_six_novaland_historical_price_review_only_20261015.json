@@ -1,0 +1,566 @@
+{
+  "schema_version": "qimap-p0-source-linked-candidates-v1.1",
+  "batch_id": "batch46-six-novaland-historical-offer-20261015",
+  "as_of": "2026-10-15",
+  "repository": "02zmarketingcontact-del/atlas-bds-tphcm",
+  "source_branch": "research/qimap-p0-dossier-link-20261012-kd-sk",
+  "target_draft_pr": 77,
+  "production_changes": false,
+  "publication_status": "REVIEW_ONLY_DO_NOT_MERGE",
+  "reviewed_existing_research": {
+    "core_batches_checked": 19,
+    "additional_branch_batches_checked": [
+      20,
+      25,
+      27
+    ],
+    "comparison_type": "URL substring crosscheck for seven exact new source URLs",
+    "all_seven_source_urls_absent_from_checked_files": true,
+    "scope_limitation": "Not an exhaustive crosscheck against uncommitted local batches 36-45."
+  },
+  "dossiers": [
+    {
+      "project_id": "hist-sunrisecityview",
+      "name": "Sunrise Cityview",
+      "base_batch": "batch09",
+      "new_source_ids": [
+        "SN2018",
+        "SN2019"
+      ],
+      "gaps": "Prior issuer profile lacked dated resale price snapshots and individual unit asking evidence."
+    },
+    {
+      "project_id": "hist-newtonresidence",
+      "name": "Newton Residence",
+      "base_batch": "batch09",
+      "new_source_ids": [
+        "NE2016"
+      ],
+      "gaps": "Early-2016 market expectation and apartment/officetel count need separate scope."
+    },
+    {
+      "project_id": "hist-orchardparkview",
+      "name": "Orchard Parkview",
+      "base_batch": "batch09",
+      "new_source_ids": [
+        "OP2016"
+      ],
+      "gaps": "Developer site-area and secondary reference disagree; historic marketed price is mixed apartment/officetel."
+    },
+    {
+      "project_id": "hist-kingstonresidence",
+      "name": "Kingston Residence",
+      "base_batch": "batch09",
+      "new_source_ids": [
+        "NVL2022"
+      ],
+      "gaps": "Prospectus total mixed products cannot replace developer apartment-only 285; prior 2016 asking already staged."
+    },
+    {
+      "project_id": "hist-thebotanica",
+      "name": "The Botanica",
+      "base_batch": "batch09",
+      "new_source_ids": [
+        "BT2017",
+        "BT2025"
+      ],
+      "gaps": "Historical individual resale asking and disputed condominium certificate allegations; separate 564 vs 578 apartment totals."
+    },
+    {
+      "project_id": "hist-icon56",
+      "name": "Icon 56",
+      "base_batch": "batch09",
+      "new_source_ids": [
+        "NVL2022"
+      ],
+      "gaps": "Retrospective original-issuer 2014 starting VAT-inclusive price and 2015 handover reference, requiring historic effective-date caution."
+    }
+  ],
+  "sources": [
+    {
+      "id": "SN2018",
+      "organization": "PropertyGuru Vietnam / Batdongsan.com.vn",
+      "url": "https://wiki.batdongsan.com.vn/tin-tuc/can-ho-thu-cap-tang-gia-ban-nha-dau-tu-van-so-kho-ra-hang-92313",
+      "published_at": "2018-04-19",
+      "kind": "SECONDARY_MARKET_EDITORIAL",
+      "rights": "CITATION_OF_MINIMAL_PUBLIC_FACTS_ONLY_NO_BULK_OR_FEED_LICENSE"
+    },
+    {
+      "id": "SN2019",
+      "organization": "CafeLand user-submitted listing",
+      "url": "https://nhadat.cafeland.vn/ban-can-sunrise-city-view-99m2-3pn-view-bitexco-gia-395-ty-1056626.html",
+      "published_at": "2019-05-23",
+      "kind": "INDIVIDUAL_RESALE_LISTING_EXPIRED",
+      "rights": "CITATION_OF_MINIMAL_PUBLIC_FACTS_ONLY_NO_BULK_OR_FEED_LICENSE"
+    },
+    {
+      "id": "NE2016",
+      "organization": "CafeLand (credits ThanhNienViet)",
+      "url": "https://cafeland.vn/du-an/khu-phuc-hop-newton-residence-1262.html",
+      "published_at": "2016-04-09",
+      "kind": "SECONDARY_PROJECT_EDITORIAL",
+      "rights": "CITATION_OF_MINIMAL_PUBLIC_FACTS_ONLY_NO_BULK_OR_FEED_LICENSE"
+    },
+    {
+      "id": "OP2016",
+      "organization": "CafeLand (credits ThanhNienViet)",
+      "url": "https://cafeland.vn/du-an/khu-phuc-hop-orchard-parkview-1260.html",
+      "published_at": "2016-04-09",
+      "kind": "SECONDARY_PROJECT_EDITORIAL",
+      "rights": "CITATION_OF_MINIMAL_PUBLIC_FACTS_ONLY_NO_BULK_OR_FEED_LICENSE"
+    },
+    {
+      "id": "BT2017",
+      "organization": "DiaOc247 property listing, submitted by advertiser",
+      "url": "https://diaoc247.vn/sell/chung-cu-botanica-chuyen-nhuong-nhieu-can-1pn-2pn-3pn/",
+      "published_at": "2017-08-25",
+      "kind": "INDIVIDUAL_MULTI_UNIT_RESALE_LISTING",
+      "rights": "CITATION_OF_MINIMAL_PUBLIC_FACTS_ONLY_NO_BULK_OR_FEED_LICENSE"
+    },
+    {
+      "id": "BT2025",
+      "organization": "Doanh Nhan Viet Nam reporting management board allegations",
+      "url": "https://doanhnhanvn.vn/sau-7-nam-khong-duoc-cap-so-cu-dan-the-botanica-gui-don-len-ubnd-tp-hcm.html",
+      "published_at": "2025-10-10",
+      "kind": "PRESS_ALLEGATION_PENDING_AUTHORITY_VERIFICATION",
+      "rights": "MINIMAL_FACTUAL_LINK_ONLY"
+    },
+    {
+      "id": "NVL2022",
+      "organization": "Novaland securities disclosure/prospectus",
+      "url": "https://www.novaland.com.vn/Data/Sites/1/media/quan-h%E1%BB%87-%C4%91%E1%BA%A7u-t%C6%B0/2022/20220523/1.-bcb-niem-yet-tp---reduce1.pdf",
+      "published_at": "2022-05-23",
+      "date_qualification": "Upload-path date, document text contains 2022; exact issuance day not independently established",
+      "kind": "ORIGINAL_DEVELOPER_FINANCIAL_DISCLOSURE_PDF",
+      "rights": "MINIMAL_FACTUAL_LINK_ONLY_NO_REHOSTING"
+    }
+  ],
+  "fact_candidates": [
+    {
+      "project_id": "hist-sunrisecityview",
+      "field": "historic_resale_market_average_2017_04",
+      "value": 36000000,
+      "source_id": "SN2018",
+      "scope": "secondary_market_report",
+      "review_status": "REVIEW_ONLY",
+      "notes": "Not same unit/case as Apr-2018 range"
+    },
+    {
+      "project_id": "hist-sunrisecityview",
+      "field": "historic_resale_market_range_2018_04",
+      "value": [
+        39200000,
+        41000000
+      ],
+      "source_id": "SN2018",
+      "scope": "secondary_market_report",
+      "review_status": "REVIEW_ONLY",
+      "notes": "Neither verified sales nor comparable matched cohort"
+    },
+    {
+      "project_id": "hist-sunrisecityview",
+      "field": "listing_1056626_product",
+      "value": {
+        "area_m2": 99,
+        "bedrooms": 3,
+        "price_vnd": 3950000000,
+        "condition": "unfinished",
+        "published": "2019-05-23"
+      },
+      "source_id": "SN2019",
+      "scope": "individual_resale_ad",
+      "review_status": "REVIEW_ONLY",
+      "notes": "Advertisement expired; no proof of transaction"
+    },
+    {
+      "project_id": "hist-newtonresidence",
+      "field": "2016_planned_sales_launch",
+      "value": "2016-04-10",
+      "source_id": "NE2016",
+      "scope": "project",
+      "review_status": "REVIEW_ONLY",
+      "notes": "Was forecast as of Apr 9 2016, not independently confirmed opening"
+    },
+    {
+      "project_id": "hist-newtonresidence",
+      "field": "2016_secondary_breakdown",
+      "value": {
+        "residential_units": 161,
+        "officetel_units": 44,
+        "residential_floors": "6-20",
+        "officetel_floors": "4-5"
+      },
+      "source_id": "NE2016",
+      "scope": "apartment_officetel_separate",
+      "review_status": "REVIEW_ONLY",
+      "notes": "2016 reported plan not completed-unit confirmation"
+    },
+    {
+      "project_id": "hist-orchardparkview",
+      "field": "secondary_2016_site_area_m2",
+      "value": 9184,
+      "source_id": "OP2016",
+      "scope": "project",
+      "review_status": "REVIEW_ONLY",
+      "notes": "Novaland own issuer profile says 9,196.4m2; do not overwrite or map legal parcel"
+    },
+    {
+      "project_id": "hist-orchardparkview",
+      "field": "secondary_2016_residential_officetel_split",
+      "value": {
+        "apartments": 399,
+        "officetel": 123,
+        "residential_floors": "6-24",
+        "officetel_floors": "1-5"
+      },
+      "source_id": "OP2016",
+      "scope": "mixed_product",
+      "review_status": "REVIEW_ONLY",
+      "notes": "Do not combine apartment and officetel denominator"
+    },
+    {
+      "project_id": "hist-kingstonresidence",
+      "field": "prospectus_total_mixed_products_2022",
+      "value": 402,
+      "source_id": "NVL2022",
+      "scope": "project_mixed",
+      "review_status": "REVIEW_ONLY",
+      "notes": "2022 prospectus table describes apartment+officetel+office, not 402 apartments; issuer project page 285 apartments already staged"
+    },
+    {
+      "project_id": "hist-icon56",
+      "field": "issuer_retrospective_apartment_count_2014",
+      "value": 312,
+      "source_id": "NVL2022",
+      "scope": "apartment_only",
+      "review_status": "REVIEW_ONLY",
+      "notes": "Issuer prospectus p18 says 312, another table p53 may say 313, p53 image not confirmed; do not settle count"
+    },
+    {
+      "project_id": "hist-icon56",
+      "field": "issuer_retrospective_apartment_unit_sizes_2014",
+      "value": {
+        "one_bedroom_m2_range": [
+          47,
+          51
+        ],
+        "two_bedroom_m2": 79,
+        "three_bedroom_m2_range": [
+          88,
+          112
+        ]
+      },
+      "source_id": "NVL2022",
+      "scope": "apartment_type_ranges",
+      "review_status": "REVIEW_ONLY",
+      "notes": "Not exact area of 2.4bn start-price apartment"
+    },
+    {
+      "project_id": "hist-icon56",
+      "field": "issuer_retrospective_handover_year",
+      "value": 2015,
+      "source_id": "NVL2022",
+      "scope": "historic_project",
+      "review_status": "REVIEW_ONLY",
+      "notes": "Prospectus issuer claim, not independent handover certification"
+    },
+    {
+      "project_id": "hist-thebotanica",
+      "field": "aug2017_resale_ad",
+      "value": {
+        "bedrooms": 1,
+        "area_m2": 53,
+        "asking_vnd": 1950000000
+      },
+      "source_id": "BT2017",
+      "scope": "individual_ad",
+      "review_status": "REVIEW_ONLY",
+      "notes": "Different dates and units in same advertisement should not inflate observation totals"
+    },
+    {
+      "project_id": "hist-thebotanica",
+      "field": "2025_resident_board_petition_claim",
+      "value": {
+        "reported_date": "2025-10-10",
+        "subject": "Handover contracts and ownership certificates unresolved for some residents"
+      },
+      "source_id": "BT2025",
+      "scope": "allegation_not_authority_finding",
+      "review_status": "REVIEW_ONLY",
+      "notes": "Do not assert projectwide legal deficiencies; request UBND official response and actual building-level case."
+    }
+  ],
+  "price_observations": [
+    {
+      "project_id": "hist-sunrisecityview",
+      "kind": "REPORT_ESTIMATE",
+      "source_id": "SN2018",
+      "observation_date": "2017-04",
+      "date_precision": "MONTH",
+      "amount_min": 36000000,
+      "amount_max": 36000000,
+      "currency": "VND",
+      "unit": "per_m2",
+      "area_m2": null,
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "product_scope": "SECONDARY_CONDO_AGGREGATE",
+      "vat_included": null,
+      "maintenance_included": null,
+      "building_or_tower": null,
+      "transaction_verified": false,
+      "approval_status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "rights": "REFERENCE_ONLY_NO_FEED_LICENSE",
+      "notes": "Batdongsan.com.vn retrospectively states average Apr-2017 market price; method/area basis unknown; NOT a verified transaction."
+    },
+    {
+      "project_id": "hist-sunrisecityview",
+      "kind": "REPORT_ESTIMATE",
+      "source_id": "SN2018",
+      "observation_date": "2018-04",
+      "date_precision": "MONTH",
+      "amount_min": 39200000,
+      "amount_max": 41000000,
+      "currency": "VND",
+      "unit": "per_m2",
+      "area_m2": null,
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "product_scope": "SECONDARY_CONDO_AGGREGATE",
+      "vat_included": null,
+      "maintenance_included": null,
+      "building_or_tower": null,
+      "transaction_verified": false,
+      "approval_status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "rights": "REFERENCE_ONLY_NO_FEED_LICENSE",
+      "notes": "Market article published 2018-04-19 describes resale asking range, without listing IDs; no cross-period appreciation index authorized."
+    },
+    {
+      "project_id": "hist-sunrisecityview",
+      "kind": "PRICE_ASKING",
+      "source_id": "SN2019",
+      "observation_date": "2019-05-23",
+      "date_precision": "DAY",
+      "amount_min": 3950000000,
+      "amount_max": 3950000000,
+      "currency": "VND",
+      "unit": "per_apartment",
+      "area_m2": 99,
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "product_scope": "RESALE_APARTMENT_3BR_UNFINISHED",
+      "vat_included": null,
+      "maintenance_included": null,
+      "building_or_tower": null,
+      "transaction_verified": false,
+      "approval_status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "rights": "REFERENCE_ONLY_NO_FEED_LICENSE",
+      "notes": "CafeLand listing 1056626 marked expired; displayed 39.8m/m2 is portal-calculated; do not infer sale/ownership/legal status."
+    },
+    {
+      "project_id": "hist-newtonresidence",
+      "kind": "REPORT_ESTIMATE",
+      "source_id": "NE2016",
+      "observation_date": "2016-04-09",
+      "date_precision": "DAY",
+      "amount_min": 3600000000,
+      "amount_max": 3600000000,
+      "currency": "VND",
+      "unit": "per_apartment",
+      "area_m2": null,
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "product_scope": "PROJECTED_PRIMARY_APARTMENT_UNSPECIFIED_BEDROOMS",
+      "vat_included": null,
+      "maintenance_included": null,
+      "building_or_tower": null,
+      "transaction_verified": false,
+      "approval_status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "rights": "REFERENCE_ONLY_NO_FEED_LICENSE",
+      "notes": "Secondary editorial calls 3.6bn market expectation BEFORE projected Apr-10 launch, not developer official asking; do not mark completed launch or handover."
+    },
+    {
+      "project_id": "hist-thebotanica",
+      "kind": "PRICE_ASKING",
+      "source_id": "BT2017",
+      "observation_date": "2017-08-25",
+      "date_precision": "DAY",
+      "amount_min": 1950000000,
+      "amount_max": 1950000000,
+      "currency": "VND",
+      "unit": "per_apartment",
+      "area_m2": 53,
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "product_scope": "RESALE_1BR_APARTMENT",
+      "vat_included": null,
+      "maintenance_included": null,
+      "building_or_tower": null,
+      "transaction_verified": false,
+      "approval_status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "rights": "REFERENCE_ONLY_NO_FEED_LICENSE",
+      "notes": "One old advertiser offering multiple units; 1BR 53m2 price 1.95bn; legal deposit-contract claim unverified. Other unit prices in same listing not counted independently."
+    },
+    {
+      "project_id": "hist-icon56",
+      "kind": "PRICE_ASKING",
+      "source_id": "NVL2022",
+      "observation_date": "2014",
+      "date_precision": "YEAR",
+      "amount_min": 2400000000,
+      "amount_max": 2400000000,
+      "currency": "VND",
+      "unit": "per_apartment",
+      "area_m2": null,
+      "area_basis": "UNKNOWN_NET_OR_GROSS",
+      "product_scope": "HISTORICAL_PRIMARY_1BR_STARTING_PRICE",
+      "vat_included": true,
+      "maintenance_included": null,
+      "building_or_tower": null,
+      "transaction_verified": false,
+      "approval_status": "REVIEW_ONLY_NOT_PUBLISHED",
+      "rights": "REFERENCE_ONLY_NO_FEED_LICENSE",
+      "notes": "Issuer prospectus page 18 retrospects 2014 offer from 2.4bn, VAT included. Report sourced in 2022, effective launch year only; 1BR marketed size range 47-51m2 NOT specific low price unit; no VND/m2 conversion."
+    }
+  ],
+  "held_out_price_candidates": [
+    {
+      "project_id": "hist-orchardparkview",
+      "source_id": "OP2016",
+      "amount": 32000000,
+      "currency": "VND",
+      "unit": "per_m2",
+      "as_of": "2016-04-09",
+      "kind": "REPORT_ESTIMATE",
+      "scope": "MIXED_APARTMENT_OR_OFFICETEL",
+      "reason": "Publisher expressly groups apartment and officetel marketing price; cannot attribute price to apartments only. Do not count in price KPIs."
+    }
+  ],
+  "review_conflicts": [
+    {
+      "project_id": "hist-orchardparkview",
+      "key": "site_area_m2",
+      "reported_values": [
+        {
+          "source": "OP2016",
+          "value": 9184
+        },
+        {
+          "source": "batch09 developer source",
+          "value": 9196.4
+        }
+      ],
+      "action": "KEEP_BOTH_DO_NOT_APPROVE"
+    },
+    {
+      "project_id": "hist-thebotanica",
+      "key": "residential_units_shophouses",
+      "reported_values": [
+        {
+          "source": "batch09 Novaland profile",
+          "apartments": 564,
+          "shophouses": 35
+        },
+        {
+          "source": "batch09 Novaland topping-out",
+          "apartments": 578,
+          "shophouses": 33
+        }
+      ],
+      "action": "KEEP_BOTH_REQUIRE_BUILDING_DOCUMENTS"
+    },
+    {
+      "project_id": "hist-icon56",
+      "key": "planned_apartment_count",
+      "reported_values": [
+        {
+          "source": "NVL2022 p18",
+          "apartments": 312
+        },
+        {
+          "source": "NVL2022 p53 text extraction",
+          "apartments": 313
+        }
+      ],
+      "action": "RECHECK_SECOND_TABLE_VISUALLY_BEFORE_COUNT_APPROVAL"
+    },
+    {
+      "project_id": "hist-kingstonresidence",
+      "key": "mixed_units_vs_residential_units",
+      "reported_values": [
+        {
+          "source": "batch09 issuer profile",
+          "apartments": 285
+        },
+        {
+          "source": "NVL2022 prospectus table",
+          "mixed_total_products": 402
+        }
+      ],
+      "action": "DO_NOT_COMPARE_MIXED_PRODUCT_COUNT_TO_APARTMENT_COUNT"
+    }
+  ],
+  "source_access_queue": [
+    {
+      "source_organization": "PropertyGuru Vietnam",
+      "desired_permission": "Licensed historical market statistics and/or listing API feed; redistribution and cache policy",
+      "current_permission": "NO_LICENSE_DOCUMENTED",
+      "next_step": "Request terms and periodic data feed agreement"
+    },
+    {
+      "source_organization": "CafeLand",
+      "desired_permission": "Authorized date-stamped individual asking/rental export with project/phase/unit metadata",
+      "current_permission": "NO_LICENSE_DOCUMENTED",
+      "next_step": "Contact provider for feed agreement; do not bulk crawl"
+    },
+    {
+      "source_organization": "DiaOc247",
+      "desired_permission": "Permission for archived listing research extraction/price feed",
+      "current_permission": "NO_LICENSE_DOCUMENTED",
+      "next_step": "Obtain written usage terms and dedup unit record policy"
+    },
+    {
+      "source_organization": "Novaland investor relations",
+      "desired_permission": "Issuer facts/prospectus are publicly citeable; automated datasets and media reuse require written approval",
+      "current_permission": "PUBLIC_FACTS_REFERENCE_ONLY",
+      "next_step": "Request structured historical offer price and tower lists directly"
+    }
+  ],
+  "quality_gates": {
+    "price_types": [
+      "PRICE_ASKING",
+      "TRANSACTION_VERIFIED",
+      "RENT_ASKING",
+      "REPORT_ESTIMATE"
+    ],
+    "transaction_verified_count": 0,
+    "rent_asking_count": 0,
+    "coordinates_crosschecked_new": 0,
+    "legal_approvals_verified_new": 0,
+    "scope_guards": [
+      "The Felix and Felix Homes must remain distinct",
+      "The Win City in Duc Hoa Tay Ninh is outside HCMC",
+      "Norton Park conflict remains unapproved",
+      "No auto join Facebook Groups",
+      "No bulk scrape or bypass source blocks",
+      "No public price/legal/coordinate updates"
+    ]
+  },
+  "daily_feed_status": {
+    "checked_on": "2026-10-15",
+    "official_developer_source_watch_last_run": "2026-10-15T01:26:00Z",
+    "developer_pages_monitored": 23,
+    "developer_pages_readable": 15,
+    "developer_pages_changed": 1,
+    "developer_pages_access_failed_or_limited": 5,
+    "price_feed_registry_status": "not_configured",
+    "price_feed_last_run_at": null,
+    "authorized_price_feeds": 0
+  },
+  "metrics": {
+    "dossiers_with_new_sources": 6,
+    "unique_source_urls_new_vs_checked_branch_batches": 7,
+    "price_observations_with_evidence": 6,
+    "price_asking": 3,
+    "report_estimate": 3,
+    "rent_asking": 0,
+    "transaction_verified": 0,
+    "wgs84_coordinates_crosschecked": 0,
+    "unapproved_mixed_price_candidates_held_out": 1
+  }
+}

@@ -1,0 +1,612 @@
+{
+  "schema_version": "qimap-p0-source-linked-candidates-v1.1",
+  "batch_id": "batch53-six-capitaland-legacy-gaps-20261016",
+  "as_of": "2026-10-16",
+  "repository": "02zmarketingcontact-del/atlas-bds-tphcm",
+  "source_branch": "research/qimap-p0-dossier-link-20261012-kd-sk",
+  "target_draft_pr": 77,
+  "publication_status": "REVIEW_ONLY_DO_NOT_MERGE",
+  "production_changes": false,
+  "comparison_scope": {
+    "original_research_batches_read": 19,
+    "additional_stage_files_read": 5,
+    "known_prior_duplicate_excluded": "D1MENSION USD 5000-6000/sqm 2017 already in Batch20; De La Sol 96m VND/sqm 2022 and DEFINE 125m VND/sqm 2021 already in Batch07",
+    "limitations": "Checked original 19 stage batches and 5 selected supplementary files; not a whole-repository and uncommitted-local-batch URL audit."
+  },
+  "sources": [
+    {
+      "id": "CL_KRISTA_20160413",
+      "publisher": "CapitaLand",
+      "published_at": "2016-04-13",
+      "url": "https://www.capitaland.com/en/about-capitaland/newsroom/news-releases/vietnam/2016/apr/capitaland-and-khang-dien-celebrate-the-topping-out-of-the-krista.html",
+      "source_kind": "ISSUER_PRESS_RELEASE",
+      "checked_at": "2026-10-16",
+      "rights": "CITATION_OF_MINIMAL_PUBLIC_FACTS_ONLY_NOT_LICENSED_FOR_BULK_REUSE_OR_AUTOMATED_FEED",
+      "note": "Issuer says site in historical Binh Trung Dong; earlier undated official dossier describes Binh Trung Tay."
+    },
+    {
+      "id": "VN_KRISTA_20150729",
+      "publisher": "VnExpress",
+      "published_at": "2015-07-29",
+      "url": "https://vnexpress.net/mo-ban-dot-2-du-an-the-krista-3255153.html",
+      "source_kind": "SPONSORED_SALES_EDITORIAL",
+      "checked_at": "2026-10-16",
+      "rights": "CITATION_OF_MINIMAL_PUBLIC_FACTS_ONLY_NOT_LICENSED_FOR_BULK_REUSE_OR_AUTOMATED_FEED",
+      "note": "Price starts at 1.5bn VND for 2BR excluding VAT; no particular unit/size matched."
+    },
+    {
+      "id": "CF_KRISVUE_20160330",
+      "publisher": "CafeLand",
+      "published_at": "2016-03-30",
+      "url": "https://cafeland.vn/du-an/khu-can-ho-kris-vue-1234.html",
+      "source_kind": "EDITORIAL_PROJECT_PROFILE",
+      "checked_at": "2026-10-16",
+      "rights": "CITATION_OF_MINIMAL_PUBLIC_FACTS_ONLY_NOT_LICENSED_FOR_BULK_REUSE_OR_AUTOMATED_FEED",
+      "note": "March 20 launch retrospect, 28-30m VND/sqm reported; historical Binh Trung Dong; not an issuer-confirmed rate card."
+    },
+    {
+      "id": "TVND_KRISVUE_20250403",
+      "publisher": "Thư Viện Nhà Đất",
+      "published_at": "2025-04-03",
+      "url": "https://thuviennhadat.vn/ban-can-ho-chung-cu-phuong-binh-trung-dong-pj-kris-vue/ban-can-ho-chung-cu-51-m2-tai-kris-vue-duong-nguyen-duy-trinh-quan-2-ho-chi-minh-gia-tot-pst51139.html",
+      "source_kind": "INDIVIDUAL_SALE_LISTING",
+      "checked_at": "2026-10-16",
+      "rights": "CITATION_OF_MINIMAL_PUBLIC_FACTS_ONLY_NOT_LICENSED_FOR_BULK_REUSE_OR_AUTOMATED_FEED",
+      "note": "Expired on 2025-05-03; legal claim in ad unverified; not live inventory."
+    },
+    {
+      "id": "BDT_SOMERSETD1_20191014",
+      "publisher": "Báo Đấu Thầu",
+      "published_at": "2019-10-14",
+      "url": "https://baodauthau.vn/ascott-khai-truong-toa-nha-somerset-thu-5-tai-tphcm-post78828.html",
+      "source_kind": "EDITORIAL_ASCOTT_OPENING",
+      "checked_at": "2026-10-16",
+      "rights": "CITATION_OF_MINIMAL_PUBLIC_FACTS_ONLY_NOT_LICENSED_FOR_BULK_REUSE_OR_AUTOMATED_FEED",
+      "note": "198 serviced apartment units; separate from 102 sale units. News site requests written copyright permission for content reuse; do not mirror it."
+    },
+    {
+      "id": "SAVILLS_D1_PROFILE",
+      "publisher": "Savills Vietnam",
+      "published_at": null,
+      "url": "https://www.savills.com.vn/residential/ho-chi-minh-city-projects/d1mension.aspx",
+      "source_kind": "BROKER_PROPERTY_PROFILE",
+      "checked_at": "2026-10-16",
+      "rights": "CITATION_OF_MINIMAL_PUBLIC_FACTS_ONLY_NOT_LICENSED_FOR_BULK_REUSE_OR_AUTOMATED_FEED",
+      "note": "Undated profile 6449sqm site and 16 residential levels; conflicts with undated CapitaLand 5192sqm, boundary may differ."
+    },
+    {
+      "id": "REVER_DEDGE_20170802",
+      "publisher": "Rever",
+      "published_at": "2017-08-02",
+      "url": "https://blog.rever.vn/capitaland-cong-bo-chinh-thuc-chinh-sach-ban-hang-du-an-dedge-thao-dien",
+      "source_kind": "BROKER_MARKETING_ARTICLE",
+      "checked_at": "2026-10-16",
+      "rights": "CITATION_OF_MINIMAL_PUBLIC_FACTS_ONLY_NOT_LICENSED_FOR_BULK_REUSE_OR_AUTOMATED_FEED",
+      "note": "Advertised from 68m VND/sqm tied to a special event and customer discounts; not a confirmed issuer rate card."
+    },
+    {
+      "id": "CL_DELASOL_202310",
+      "publisher": "CapitaLand",
+      "published_at": null,
+      "url": "https://www.capitaland.com/sites/delasol/en/media.html",
+      "source_kind": "ISSUER_PROJECT_PROGRESS",
+      "checked_at": "2026-10-16",
+      "rights": "CITATION_OF_MINIMAL_PUBLIC_FACTS_ONLY_NOT_LICENSED_FOR_BULK_REUSE_OR_AUTOMATED_FEED",
+      "note": "Progress content labelled October 2023; exact day of publication not provided; project infrastructure claim only."
+    },
+    {
+      "id": "CL_DEFINE_20240119",
+      "publisher": "CapitaLand Development",
+      "published_at": "2024-01-19",
+      "url": "https://www.capitaland.com/en/about-capitaland/newsroom/news-releases/vietnam/2024/capitaland-development-presents-keys-to-homeowners-of-define-lux.html",
+      "source_kind": "ISSUER_PRESS_RELEASE",
+      "checked_at": "2026-10-16",
+      "rights": "CITATION_OF_MINIMAL_PUBLIC_FACTS_ONLY_NOT_LICENSED_FOR_BULK_REUSE_OR_AUTOMATED_FEED",
+      "note": "Issuer announces completion and planned apartment handover start February 2024; not each-unit handover evidence."
+    },
+    {
+      "id": "CL_DEFINE_20241118",
+      "publisher": "CapitaLand Development",
+      "published_at": "2024-11-18",
+      "url": "https://www.capitaland.com/vn/vi/about-capitaland/newsroom/2024/capitaland-development-ghi-du-n-rc-r-vi-7-000-cn-h-ra-mt-cung-ch.html",
+      "source_kind": "ISSUER_PRESS_RELEASE",
+      "checked_at": "2026-10-16",
+      "rights": "CITATION_OF_MINIMAL_PUBLIC_FACTS_ONLY_NOT_LICENSED_FOR_BULK_REUSE_OR_AUTOMATED_FEED",
+      "note": "Retrospective issuer statement that DEFINE handovers completed in 2024; not a day or per-unit title/legal audit."
+    }
+  ],
+  "dossiers": [
+    {
+      "project_id": "hist-thekrista",
+      "name": "The Krista",
+      "region_scope": "HCMC_OLD_BOUNDARY",
+      "canonical_integrated_specifications_before_batch": 0,
+      "new_source_ids": [
+        "CL_KRISTA_20160413",
+        "VN_KRISTA_20150729"
+      ],
+      "pending_review": "Review ward identity and original 2015 floorplan-price pair; old project catalog has zero integrated specifications.",
+      "publication_status": "REVIEW_ONLY"
+    },
+    {
+      "project_id": "hist-krisvue",
+      "name": "Kris Vue",
+      "region_scope": "HCMC_OLD_BOUNDARY",
+      "canonical_integrated_specifications_before_batch": 0,
+      "new_source_ids": [
+        "CF_KRISVUE_20160330",
+        "TVND_KRISVUE_20250403"
+      ],
+      "pending_review": "Validate 2016 launch pricing basis, expired 2025 listing and ward conflict.",
+      "publication_status": "REVIEW_ONLY"
+    },
+    {
+      "project_id": "hist-d1mension",
+      "name": "D1MENSION",
+      "region_scope": "HCMC_OLD_BOUNDARY",
+      "canonical_integrated_specifications_before_batch": 0,
+      "new_source_ids": [
+        "BDT_SOMERSETD1_20191014",
+        "SAVILLS_D1_PROFILE"
+      ],
+      "pending_review": "Separate 102 sale residences from 198/200 Somerset services; reconcile 5192sqm versus 6449sqm.",
+      "publication_status": "REVIEW_ONLY"
+    },
+    {
+      "project_id": "hist-dedgethaodien",
+      "name": "d’Edge Thao Dien",
+      "region_scope": "HCMC_OLD_BOUNDARY",
+      "canonical_integrated_specifications_before_batch": 0,
+      "new_source_ids": [
+        "REVER_DEDGE_20170802"
+      ],
+      "pending_review": "Verify 2017 promotional price from issuer; do not assert foreign buyer eligibility.",
+      "publication_status": "REVIEW_ONLY"
+    },
+    {
+      "project_id": "hist-delasol",
+      "name": "De La Sol",
+      "region_scope": "HCMC_OLD_BOUNDARY",
+      "canonical_integrated_specifications_before_batch": 0,
+      "new_source_ids": [
+        "CL_DELASOL_202310"
+      ],
+      "pending_review": "Month-labelled construction progress is not evidence of individual resident handover.",
+      "publication_status": "REVIEW_ONLY"
+    },
+    {
+      "project_id": "hist-define",
+      "name": "DEFINE",
+      "region_scope": "HCMC_OLD_BOUNDARY",
+      "canonical_integrated_specifications_before_batch": 0,
+      "new_source_ids": [
+        "CL_DEFINE_20240119",
+        "CL_DEFINE_20241118"
+      ],
+      "pending_review": "Keep planned Feb 2024 start and general 2024 issuer-confirmed completion of handovers separate.",
+      "publication_status": "REVIEW_ONLY"
+    }
+  ],
+  "fact_candidates": [
+    {
+      "project_id": "hist-thekrista",
+      "field": "issuer_topping_out_event_date",
+      "value": "2016-04-13",
+      "source_id": "CL_KRISTA_20160413",
+      "scope": "project",
+      "review_status": "REVIEW_ONLY",
+      "note": "Structural topping-out, not handover."
+    },
+    {
+      "project_id": "hist-thekrista",
+      "field": "issuer_tower_config",
+      "value": {
+        "towers": 2,
+        "storeys_each": 18
+      },
+      "source_id": "CL_KRISTA_20160413",
+      "scope": "project",
+      "review_status": "REVIEW_ONLY",
+      "note": ""
+    },
+    {
+      "project_id": "hist-thekrista",
+      "field": "issuer_sales_pct_claim",
+      "value": "above_85_percent_as_of_2016_04_13",
+      "source_id": "CL_KRISTA_20160413",
+      "scope": "sales_campaign",
+      "review_status": "REVIEW_ONLY",
+      "note": "Issuer statement only; not independently confirmed contracts."
+    },
+    {
+      "project_id": "hist-thekrista",
+      "field": "second_offer_campaign_date",
+      "value": "2015-07-29",
+      "source_id": "VN_KRISTA_20150729",
+      "scope": "project",
+      "review_status": "REVIEW_ONLY",
+      "note": ""
+    },
+    {
+      "project_id": "hist-thekrista",
+      "field": "two_bedroom_typical_area_range_sqm",
+      "value": [
+        70.28,
+        71.53
+      ],
+      "source_id": "VN_KRISTA_20150729",
+      "scope": "unit_type_2BR",
+      "review_status": "REVIEW_ONLY",
+      "note": "Range not matched to the cheapest advertised unit."
+    },
+    {
+      "project_id": "hist-thekrista",
+      "field": "historical_ward_at_issuer_event",
+      "value": "Binh Trung Dong",
+      "source_id": "CL_KRISTA_20160413",
+      "scope": "project",
+      "review_status": "REVIEW_ONLY",
+      "note": "Conflicts with earlier undated dossier claiming Binh Trung Tay."
+    },
+    {
+      "project_id": "hist-krisvue",
+      "field": "launch_event_date_reported",
+      "value": "2016-03-20",
+      "source_id": "CF_KRISVUE_20160330",
+      "scope": "project",
+      "review_status": "REVIEW_ONLY",
+      "note": "March 30 article retrospectively says launch on March 20."
+    },
+    {
+      "project_id": "hist-krisvue",
+      "field": "tower_configuration_reported",
+      "value": {
+        "basement_floors": 1,
+        "above_ground_storeys": 17
+      },
+      "source_id": "CF_KRISVUE_20160330",
+      "scope": "project",
+      "review_status": "REVIEW_ONLY",
+      "note": ""
+    },
+    {
+      "project_id": "hist-krisvue",
+      "field": "apartment_type_area_range_sqm",
+      "value": [
+        48.68,
+        114.13
+      ],
+      "source_id": "CF_KRISVUE_20160330",
+      "scope": "unit_types",
+      "review_status": "REVIEW_ONLY",
+      "note": "Area basis (net vs gross) unspecified."
+    },
+    {
+      "project_id": "hist-krisvue",
+      "field": "historical_ward_editorial",
+      "value": "Binh Trung Dong",
+      "source_id": "CF_KRISVUE_20160330",
+      "scope": "project",
+      "review_status": "REVIEW_ONLY",
+      "note": "Earlier undated issuer dossier says Binh Trung Tay."
+    },
+    {
+      "project_id": "hist-d1mension",
+      "field": "somerset_service_tower_reported_open_by",
+      "value": "2019-10-14",
+      "source_id": "BDT_SOMERSETD1_20191014",
+      "scope": "serviced_tower",
+      "review_status": "REVIEW_ONLY",
+      "note": "News confirms opening by publication date; not a sale-condo handover."
+    },
+    {
+      "project_id": "hist-d1mension",
+      "field": "somerset_service_unit_count_2019",
+      "value": 198,
+      "source_id": "BDT_SOMERSETD1_20191014",
+      "scope": "serviced_tower",
+      "review_status": "REVIEW_ONLY",
+      "note": "Earlier developer portfolio claims 200; check operating inventory scope."
+    },
+    {
+      "project_id": "hist-d1mension",
+      "field": "savills_reported_site_area_sqm",
+      "value": 6449,
+      "source_id": "SAVILLS_D1_PROFILE",
+      "scope": "project",
+      "review_status": "REVIEW_ONLY",
+      "note": "CapitaLand profile says 5192sqm; do not replace without boundary documents."
+    },
+    {
+      "project_id": "hist-d1mension",
+      "field": "savills_residential_tower_config",
+      "value": {
+        "above_ground_storeys": 16,
+        "basement_storeys": 2
+      },
+      "source_id": "SAVILLS_D1_PROFILE",
+      "scope": "sale_residential_tower",
+      "review_status": "REVIEW_ONLY",
+      "note": "Different product scope from Somerset tower; do not merge floor counts."
+    },
+    {
+      "project_id": "hist-dedgethaodien",
+      "field": "sales_event_dates_reported",
+      "value": [
+        "2017-07-15",
+        "2017-07-16"
+      ],
+      "source_id": "REVER_DEDGE_20170802",
+      "scope": "marketing",
+      "review_status": "REVIEW_ONLY",
+      "note": "Broker-reported; conditional offer; not confirmed sales."
+    },
+    {
+      "project_id": "hist-delasol",
+      "field": "issuer_reported_infrastructure_status_oct_2023",
+      "value": "infrastructure_completed_as_of_2023_10",
+      "source_id": "CL_DELASOL_202310",
+      "scope": "project",
+      "review_status": "REVIEW_ONLY",
+      "note": "Specific month-labelled construction update; no verified individual-unit handover."
+    },
+    {
+      "project_id": "hist-define",
+      "field": "issuer_reported_project_completed_at",
+      "value": "2024-01-19",
+      "source_id": "CL_DEFINE_20240119",
+      "scope": "project",
+      "review_status": "REVIEW_ONLY",
+      "note": "Press release publication date; not independent inspection."
+    },
+    {
+      "project_id": "hist-define",
+      "field": "issuer_planned_handover_commencement",
+      "value": "2024-02",
+      "source_id": "CL_DEFINE_20240119",
+      "scope": "residential",
+      "review_status": "REVIEW_ONLY",
+      "note": "Plan only; do not convert into actual handover start."
+    },
+    {
+      "project_id": "hist-define",
+      "field": "issuer_retrospective_handover_completed_in",
+      "value": 2024,
+      "source_id": "CL_DEFINE_20241118",
+      "scope": "residential",
+      "review_status": "REVIEW_ONLY",
+      "note": "November article says handovers completed in 2024; no exact day or individual unit documents."
+    }
+  ],
+  "price_observations": [
+    {
+      "project_id": "hist-thekrista",
+      "source_id": "VN_KRISTA_20150729",
+      "source_url": "https://vnexpress.net/mo-ban-dot-2-du-an-the-krista-3255153.html",
+      "source_published_at": "2015-07-29",
+      "effective_event_date": "2015-07-29",
+      "classification": "PRICE_ASKING",
+      "transaction_verified": false,
+      "amount_min": 1500000000,
+      "amount_max": null,
+      "currency": "VND",
+      "per": "apartment_starting",
+      "product_type": "RESIDENTIAL_APARTMENT",
+      "scope": "2015_second_launch_2BR",
+      "unit_area_sqm": null,
+      "area_basis": "UNKNOWN_NET_VS_GROSS",
+      "vat_included": false,
+      "public_release_approved": false,
+      "rights": "SHORT_FACTUAL_CITATION_ONLY_NO_PRICE_FEED_LICENSE",
+      "area_range_2br_sqm": [
+        70.28,
+        71.53
+      ],
+      "note": "Starting 2BR price excludes VAT; not linked to a specific unit area. Same nominal starting level mentioned in 2016 source already staged, do not count as independent market price level."
+    },
+    {
+      "project_id": "hist-krisvue",
+      "source_id": "CF_KRISVUE_20160330",
+      "source_url": "https://cafeland.vn/du-an/khu-can-ho-kris-vue-1234.html",
+      "source_published_at": "2016-03-30",
+      "effective_event_date": "2016-03-20",
+      "classification": "PRICE_ASKING",
+      "transaction_verified": false,
+      "amount_min": 28000000,
+      "amount_max": 30000000,
+      "currency": "VND",
+      "per": "sqm",
+      "product_type": "RESIDENTIAL_APARTMENT",
+      "scope": "2016_initial_launch_price_range",
+      "unit_area_sqm": null,
+      "area_basis": "UNKNOWN_NET_VS_GROSS",
+      "vat_included": null,
+      "public_release_approved": false,
+      "rights": "SHORT_FACTUAL_CITATION_ONLY_NO_PRICE_FEED_LICENSE",
+      "note": "Editorial report of launch prices, unverified issuer rate sheet; no VAT or area basis."
+    },
+    {
+      "project_id": "hist-krisvue",
+      "source_id": "TVND_KRISVUE_20250403",
+      "source_url": "https://thuviennhadat.vn/ban-can-ho-chung-cu-phuong-binh-trung-dong-pj-kris-vue/ban-can-ho-chung-cu-51-m2-tai-kris-vue-duong-nguyen-duy-trinh-quan-2-ho-chi-minh-gia-tot-pst51139.html",
+      "source_published_at": "2025-04-03",
+      "effective_event_date": "2025-04-03",
+      "classification": "PRICE_ASKING",
+      "transaction_verified": false,
+      "amount_min": 3200000000,
+      "amount_max": null,
+      "currency": "VND",
+      "per": "apartment",
+      "product_type": "RESIDENTIAL_APARTMENT",
+      "scope": "individual_secondary_resale_listing_id_51139",
+      "unit_area_sqm": 51,
+      "area_basis": "UNKNOWN_NET_VS_GROSS",
+      "vat_included": null,
+      "public_release_approved": false,
+      "rights": "SHORT_FACTUAL_CITATION_ONLY_NO_PRICE_FEED_LICENSE",
+      "bedrooms": 1,
+      "listing_expired_at": "2025-05-03",
+      "note": "Expired secondary asking listing, not available property, no signed contract. Seller asserts title; title not verified."
+    },
+    {
+      "project_id": "hist-dedgethaodien",
+      "source_id": "REVER_DEDGE_20170802",
+      "source_url": "https://blog.rever.vn/capitaland-cong-bo-chinh-thuc-chinh-sach-ban-hang-du-an-dedge-thao-dien",
+      "source_published_at": "2017-08-02",
+      "effective_event_date": "2017-07-15",
+      "classification": "PRICE_ASKING",
+      "transaction_verified": false,
+      "amount_min": 68000000,
+      "amount_max": null,
+      "currency": "VND",
+      "per": "sqm_starting",
+      "product_type": "RESIDENTIAL_APARTMENT",
+      "scope": "broker_recap_of_July_2017_special_launch",
+      "unit_area_sqm": null,
+      "area_basis": "UNKNOWN_NET_VS_GROSS",
+      "vat_included": null,
+      "public_release_approved": false,
+      "rights": "SHORT_FACTUAL_CITATION_ONLY_NO_PRICE_FEED_LICENSE",
+      "note": "Promotional lower-bound may depend on buyer category and discounts; source is intermediary, not verified developer price sheet."
+    }
+  ],
+  "held_out_price_candidates": [
+    {
+      "project_id": "hist-d1mension",
+      "reason": "Already documented in GitHub Batch20",
+      "source_url": "https://cafeland.vn/tin-tuc/ra-mat-du-an-d1mension-gia-hon-110-trieu-dongm2-67589.html"
+    },
+    {
+      "project_id": "hist-d1mension",
+      "reason": "Somerset service apartments 2019 opening lodging promotion (from 27m VND/month) must NOT be mislabelled as RENT_ASKING for ownership condo stock.",
+      "source_id": "BDT_SOMERSETD1_20191014"
+    }
+  ],
+  "review_conflicts": [
+    {
+      "project_ids": [
+        "hist-thekrista"
+      ],
+      "topic": "HISTORICAL_WARD",
+      "values": [
+        "Binh Trung Dong (CapitaLand dated 2016)",
+        "Binh Trung Tay (older undated portfolio dossier)"
+      ],
+      "action": "Verify approved administrative address/boundaries against official cadastral documents; no new GPS."
+    },
+    {
+      "project_ids": [
+        "hist-krisvue"
+      ],
+      "topic": "HISTORICAL_WARD",
+      "values": [
+        "Binh Trung Dong (CafeLand dated 2016)",
+        "Binh Trung Tay (CapitaLand undated portfolio)"
+      ],
+      "action": "Check authorized cadastral/address documentation before map verification."
+    },
+    {
+      "project_ids": [
+        "hist-d1mension"
+      ],
+      "topic": "SITE_AREA",
+      "values": [
+        "5192 sqm (CapitaLand portfolio)",
+        "6449 sqm (Savills sales profile)"
+      ],
+      "action": "Check development perimeter vs residential tower lot, avoid conflating scopes."
+    },
+    {
+      "project_ids": [
+        "hist-d1mension"
+      ],
+      "topic": "SERVICED_VS_SALE_PRODUCT",
+      "values": [
+        "102 sale units (CapitaLand)",
+        "200 serviced portfolio (CapitaLand)",
+        "198 serviced operating in Oct 2019 (Báo Đấu Thầu)"
+      ],
+      "action": "Do not sum competing counts or treat Somerset serviced stay rates as ordinary apartment rental observations."
+    },
+    {
+      "project_ids": [
+        "hist-dedgethaodien"
+      ],
+      "topic": "DISCOUNT_ASKING",
+      "values": [
+        "From 68m VND/sqm (Rever promotion, 2017)"
+      ],
+      "action": "Need direct issuer policy and exact discount/VAT conditions."
+    },
+    {
+      "project_ids": [
+        "hist-define"
+      ],
+      "topic": "HANDOVER_TIMELINE",
+      "values": [
+        "Feb 2024 planned commencement (Jan 2024 release)",
+        "Handovers completed within 2024 (Nov 2024 press release)"
+      ],
+      "action": "Keep planned vs retrospectively completed separately; do not invent exact handover day."
+    },
+    {
+      "project_ids": [
+        "hist-delasol"
+      ],
+      "topic": "PROGRESS_NOT_HANDOVER",
+      "values": [
+        "Infrastructure done as of October 2023, according to issuer"
+      ],
+      "action": "No inferred date that owners received keys."
+    }
+  ],
+  "rights_queue": [
+    {
+      "providers": [
+        "CapitaLand",
+        "Savills Vietnam",
+        "Rever",
+        "CafeLand",
+        "VnExpress",
+        "Thư Viện Nhà Đất",
+        "Báo Đấu Thầu"
+      ],
+      "permission": "No documented recurring extraction, photos, dataset reproduction or price-feed licence. Request provider consent and documented field/scope, cadence, attribution, retention before using automated feeds."
+    }
+  ],
+  "guards": {
+    "project_aliases": "The Felix and Felix Homes distinct",
+    "out_of_scope": "The Win City in Duc Hoa, Tay Ninh (outside older HCMC boundary); no production mutation",
+    "norton_park": "Conflicts unresolved; do not approve",
+    "social_access": "Do not auto-join Facebook groups or bulk scrape sites",
+    "price_categories": [
+      "PRICE_ASKING",
+      "TRANSACTION_VERIFIED",
+      "RENT_ASKING",
+      "REPORT_ESTIMATE"
+    ],
+    "latitude_longitude_verified": 0,
+    "legal_verified_new": 0,
+    "auto_publish": false
+  },
+  "price_feed_state": {
+    "status": "not_configured",
+    "last_run_at": null,
+    "authorized_feeds": 0,
+    "official_developer_watch_last_at_utc": "2026-10-15T01:26:12.456Z",
+    "website_watch_not_price_feed": true
+  },
+  "metrics": {
+    "existing_profiles_with_new_sourced_evidence": 6,
+    "new_price_observations_evidenced": 4,
+    "price_asking": 4,
+    "transaction_verified": 0,
+    "rent_asking": 0,
+    "report_estimate": 0,
+    "coordinates_crosschecked_new": 0,
+    "source_urls_in_batch": 10,
+    "new_fact_candidates": 19,
+    "conflict_flags": 7,
+    "authorized_price_feeds": 0
+  }
+}

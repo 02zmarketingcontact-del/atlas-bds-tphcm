@@ -1,0 +1,19 @@
+{
+  "schema_version": "qimap-p0-errata-v1",
+  "as_of": "2026-10-13",
+  "publication_status": "REVIEW_ONLY_NOT_PUBLIC",
+  "applies_to": "data/qimap_p0_eight_remaining_namlong_capitaland_dxg_hungthinh_20261013_batch15.json",
+  "patches": [
+    {
+      "target": "sources[id=HT_RICH_201704].source_published_at",
+      "incorrect_value": "2017-04-04",
+      "correct_value": "2017-04-03",
+      "source_url": "https://www.hungthinhland.com/news/detail/Hung-Thinh-Corp-thoi-bung-thi-truong-voi-du-an-Richmond-City-Mat-tien-duong-Nguyen-Xi.html",
+      "note": "Publisher page explicitly dates article 03-04-2017. The showroom event was 02-04-2017. Apply corresponding correction to each fact_candidates item referencing HT_RICH_201704."
+    }
+  ],
+  "quality_gate": "Do not merge or export the source file without applying this correction; source record is superseded for publication date only.",
+  "extra_facts": 0,
+  "extra_price_observations": 0,
+  "extra_coordinates": 0
+}
