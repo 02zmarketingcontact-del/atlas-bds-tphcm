@@ -1,0 +1,14 @@
+{
+  "as_of": "2026-10-11",
+  "project_id": "hist-richstar",
+  "publisher": "Novaland",
+  "url": "https://www.novaland.com.vn/richstar/tong-quan-8",
+  "facts": {
+    "project_addresses": "241 and 278 Hoa Binh",
+    "site_hectares_approx": 3,
+    "building_floors": 22
+  },
+  "status": "REVIEW_ONLY",
+  "coordinate_verified": false,
+  "price_published": false
+}
